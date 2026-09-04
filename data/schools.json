@@ -8,7 +8,8 @@
       "uniform（制服）は確度の高いもののみ記載。不明は null。",
       "lat/lng は coordSource が approx の間は概算値。tools/geocode.py（国土地理院API）で住所から精緻化できる。",
       "verified:false のレコードは UI 上で「未検証」バッジを表示する。",
-      "座標は OpenStreetMap（© OpenStreetMap contributors, ODbL）由来。地図に該当校が無いものは住所からの推定値で、dataWarnings に記載している。"
+      "座標は OpenStreetMap（© OpenStreetMap contributors, ODbL）由来。地図に該当校が無いものは住所からの推定値で、dataWarnings に記載している。",
+      "府立高校は tools/fetch_official_urls.py が大阪府の一覧と突き合わせる。一覧に無い学校は廃校の可能性があるので、メモリアルページで確認して削除する。"
     ],
     "coordSource": "osm"
   },
@@ -35,10 +36,12 @@
         "type": "私服",
         "note": "制服なし（標準服あり）"
       },
-      "website": "https://tennoji.ed.jp/",
+      "website": "https://tennoji-hs.jp/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "大阪府立天王寺高等学校"
+      "osmName": "大阪府立天王寺高等学校",
+      "linkOk": true,
+      "websiteSource": "大阪府 公立高校ホームページ一覧"
     },
     {
       "id": "pref-ikuno",
@@ -62,10 +65,11 @@
         "type": "私服",
         "note": "制服なし"
       },
-      "website": "https://ikuno.ed.jp/",
+      "website": "https://www.osaka-c.ed.jp/ikuno/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "府立生野高等学校"
+      "osmName": "府立生野高等学校",
+      "linkOk": true
     },
     {
       "id": "pref-mikunigaoka",
@@ -89,10 +93,12 @@
         "type": "私服",
         "note": "制服なし"
       },
-      "website": "https://mikunigaoka.ed.jp/",
+      "website": "https://www.osaka-c.ed.jp/mikunigaoka/all-index.html",
       "updatedAt": null,
       "verified": false,
-      "osmName": "府立三国丘高等学校"
+      "osmName": "府立三国丘高等学校",
+      "linkOk": true,
+      "websiteSource": "大阪府 公立高校ホームページ一覧"
     },
     {
       "id": "pref-sumiyoshi",
@@ -120,7 +126,8 @@
       "website": "https://sumiyoshi.ed.jp/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "府立住吉高等学校"
+      "osmName": "府立住吉高等学校",
+      "linkOk": true
     },
     {
       "id": "pref-senyo",
@@ -141,10 +148,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://senyo.ed.jp/",
+      "website": "https://www2.osaka-c.ed.jp/senyo",
       "updatedAt": null,
       "verified": false,
-      "osmName": "大阪府立泉陽高等学校"
+      "osmName": "大阪府立泉陽高等学校",
+      "websiteSource": "大阪府 公立高校ホームページ一覧",
+      "linkOk": true
     },
     {
       "id": "pref-kishiwada",
@@ -165,10 +174,11 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://kishiwada.ed.jp/",
+      "website": "https://www.osaka-c.ed.jp/kishiwada/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "府立岸和田高等学校"
+      "osmName": "府立岸和田高等学校",
+      "linkOk": true
     },
     {
       "id": "pref-tondabayashi",
@@ -189,10 +199,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://tondabayashi.ed.jp/",
+      "website": "https://tonko.ed.jp/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "府立富田林高等学校 府立富田林中学校"
+      "osmName": "府立富田林高等学校 府立富田林中学校",
+      "websiteSource": "大阪府 公立高校ホームページ一覧",
+      "linkOk": true
     },
     {
       "id": "pref-imamiya",
@@ -213,10 +225,11 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://imamiya.ed.jp/",
+      "website": "https://www.osaka-c.ed.jp/imamiya/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "大阪府立今宮高等学校"
+      "osmName": "大阪府立今宮高等学校",
+      "linkOk": true
     },
     {
       "id": "pref-ohtori",
@@ -237,10 +250,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://ohtori.ed.jp/",
+      "website": "https://ohtori-hs.ed.jp/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "府立鳳高等学校"
+      "osmName": "府立鳳高等学校",
+      "websiteSource": "大阪府 公立高校ホームページ一覧",
+      "linkOk": true
     },
     {
       "id": "pref-abeno",
@@ -261,10 +276,11 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://abeno.ed.jp/",
+      "website": "https://www.osaka-c.ed.jp/abeno/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "府立阿倍野高等学校"
+      "osmName": "府立阿倍野高等学校",
+      "linkOk": true
     },
     {
       "id": "pref-sano",
@@ -289,10 +305,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://sano.ed.jp/",
+      "website": "https://sano-h.ed.jp/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "大阪府立佐野高等学校"
+      "osmName": "大阪府立佐野高等学校",
+      "websiteSource": "大阪府 公立高校ホームページ一覧",
+      "linkOk": true
     },
     {
       "id": "pref-izumi",
@@ -317,10 +335,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://izumi-h.ed.jp/",
+      "website": "https://izumi-hs.ed.jp/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "府立和泉高等学校"
+      "osmName": "府立和泉高等学校",
+      "websiteSource": "大阪府 公立高校ホームページ一覧",
+      "linkOk": true
     },
     {
       "id": "pref-higashisumiyoshi",
@@ -341,10 +361,11 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://higashisumiyoshi.ed.jp/",
+      "website": "https://www.osaka-c.ed.jp/higashisumiyoshi/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "府立東住吉高等学校"
+      "osmName": "府立東住吉高等学校",
+      "linkOk": true
     },
     {
       "id": "pref-senboku",
@@ -369,10 +390,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://senboku.ed.jp/",
+      "website": "https://semboku-h.ed.jp/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "大阪府立泉北高等学校"
+      "osmName": "大阪府立泉北高等学校",
+      "websiteSource": "大阪府 公立高校ホームページ一覧",
+      "linkOk": true
     },
     {
       "id": "pref-tomigaoka",
@@ -393,10 +416,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://tomigaoka.ed.jp/",
+      "website": "https://www.osaka-c.ed.jp/tomioka/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "大阪府立登美丘高等学校"
+      "osmName": "大阪府立登美丘高等学校",
+      "websiteSource": "大阪府 公立高校ホームページ一覧",
+      "linkOk": true
     },
     {
       "id": "pref-hannan",
@@ -417,13 +442,15 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://hannan.ed.jp/",
+      "website": "https://www2.osaka-c.ed.jp/hannan/",
       "updatedAt": null,
       "verified": false,
       "osmName": "府立阪南高等学校",
       "dataWarnings": [
         "登録住所と地図上の位置が別の市区町村を指している。住所が未確認のため要確認（通学時間は地図上の位置で計算している）。"
-      ]
+      ],
+      "linkOk": true,
+      "websiteSource": "大阪府 公立高校ホームページ一覧"
     },
     {
       "id": "pref-kumeda",
@@ -444,10 +471,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://kumeda.ed.jp/",
+      "website": "https://www2.osaka-c.ed.jp/kumeda",
       "updatedAt": null,
       "verified": false,
-      "osmName": "府立久米田高等学校"
+      "osmName": "府立久米田高等学校",
+      "websiteSource": "大阪府 公立高校ホームページ一覧",
+      "linkOk": true
     },
     {
       "id": "pref-kanan",
@@ -468,10 +497,11 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://kanan.ed.jp/",
+      "website": "https://www.osaka-c.ed.jp/kanan/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "府立河南高等学校"
+      "osmName": "府立河南高等学校",
+      "linkOk": true
     },
     {
       "id": "pref-kanaoka",
@@ -492,10 +522,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://kanaoka.ed.jp/",
+      "website": "https://www2.osaka-c.ed.jp/kanaoka",
       "updatedAt": null,
       "verified": false,
-      "osmName": "大阪府立金岡高等学校"
+      "osmName": "大阪府立金岡高等学校",
+      "websiteSource": "大阪府 公立高校ホームページ一覧",
+      "linkOk": true
     },
     {
       "id": "pref-sakaihigashi",
@@ -516,10 +548,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://sakaihigashi.ed.jp/",
+      "website": "https://sakai-higashi.ed.jp/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "大阪府立堺東高等学校"
+      "osmName": "大阪府立堺東高等学校",
+      "linkOk": true,
+      "websiteSource": "大阪府 公立高校ホームページ一覧"
     },
     {
       "id": "pref-nagano",
@@ -540,10 +574,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://nagano.ed.jp/",
+      "website": "https://osaka-nagano.ed.jp/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "府立長野高等学校"
+      "osmName": "府立長野高等学校",
+      "websiteSource": "大阪府 公立高校ホームページ一覧",
+      "linkOk": true
     },
     {
       "id": "pref-takaishi",
@@ -564,10 +600,11 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://takaishi.ed.jp/",
+      "website": "https://www.osaka-c.ed.jp/takaishi/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "府立高石高等学校"
+      "osmName": "府立高石高等学校",
+      "linkOk": true
     },
     {
       "id": "pref-kaizukaminami",
@@ -588,12 +625,14 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://kaizukaminami.ed.jp/",
+      "website": "https://www2.osaka-c.ed.jp/kaizukaminami/",
       "updatedAt": null,
       "verified": false,
       "dataWarnings": [
         "地図データに該当校が無いため、座標は住所からの推定値。市区町村レベルでは住所と一致している。"
-      ]
+      ],
+      "linkOk": true,
+      "websiteSource": "大阪府 公立高校ホームページ一覧"
     },
     {
       "id": "pref-izumiotsu",
@@ -614,10 +653,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://izumiotsu.ed.jp/",
+      "website": "https://www.osaka-c.ed.jp/izumiohtsu/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "府立泉大津高等学校"
+      "osmName": "府立泉大津高等学校",
+      "websiteSource": "大阪府 公立高校ホームページ一覧",
+      "linkOk": true
     },
     {
       "id": "pref-hineno",
@@ -638,10 +679,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://hineno.ed.jp/",
+      "website": "https://www2.osaka-c.ed.jp/hineno",
       "updatedAt": null,
       "verified": false,
-      "osmName": "大阪府立日根野高等学校"
+      "osmName": "大阪府立日根野高等学校",
+      "websiteSource": "大阪府 公立高校ホームページ一覧",
+      "linkOk": true
     },
     {
       "id": "pref-sakainishi",
@@ -662,10 +705,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://sakainishi.ed.jp/",
+      "website": "https://sakainishi-hs.jp/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "府立堺西高等学校"
+      "osmName": "府立堺西高等学校",
+      "websiteSource": "大阪府 公立高校ホームページ一覧",
+      "linkOk": true
     },
     {
       "id": "pref-rinku-shonan",
@@ -686,10 +731,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://rinkushonan.ed.jp/",
+      "website": "https://www.osaka-c.ed.jp/rinkushonan/index.html",
       "updatedAt": null,
       "verified": false,
-      "osmName": "大阪府立りんくう翔南高等学校"
+      "osmName": "大阪府立りんくう翔南高等学校",
+      "linkOk": true,
+      "websiteSource": "大阪府 公立高校ホームページ一覧"
     },
     {
       "id": "pref-hakata",
@@ -710,10 +757,11 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://hakata.ed.jp/",
+      "website": "https://www.osaka-c.ed.jp/hakata/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "府立伯太高等学校"
+      "osmName": "府立伯太高等学校",
+      "linkOk": true
     },
     {
       "id": "pref-matsubara",
@@ -734,10 +782,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://matsubara.ed.jp/",
+      "website": "https://www.osaka-matsubara.ed.jp",
       "updatedAt": null,
       "verified": false,
-      "osmName": "府立松原高等学校"
+      "osmName": "府立松原高等学校",
+      "websiteSource": "大阪府 公立高校ホームページ一覧",
+      "linkOk": true
     },
     {
       "id": "pref-fukuizumi",
@@ -758,10 +808,11 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://fukuizumi.ed.jp/",
+      "website": "https://www.osaka-c.ed.jp/fukuizumi/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "府立福泉高等学校"
+      "osmName": "府立福泉高等学校",
+      "linkOk": true
     },
     {
       "id": "pref-seibi",
@@ -782,13 +833,14 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://seibi.ed.jp/",
+      "website": "https://www.osaka-c.ed.jp/seibi/",
       "updatedAt": null,
       "verified": false,
       "osmName": "大阪府立成美高等学校",
       "dataWarnings": [
         "登録住所と地図上の位置が別の市区町村を指している。住所が未確認のため要確認（通学時間は地図上の位置で計算している）。"
-      ]
+      ],
+      "linkOk": true
     },
     {
       "id": "pref-sakai-kohka",
@@ -809,34 +861,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://sakai-th.ed.jp/",
+      "website": "https://sakai-t.ed.jp/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "大阪府立堺工科高等学校"
-    },
-    {
-      "id": "pref-izumitottori",
-      "name": "大阪府立泉鳥取高等学校",
-      "shortName": "泉鳥取",
-      "type": "public",
-      "gender": "coed",
-      "city": "阪南市",
-      "address": "大阪府阪南市自然田1890",
-      "lat": 34.339416,
-      "lng": 135.258977,
-      "coordSource": "osm",
-      "courses": [
-        {
-          "name": "普通科",
-          "deviation": 42
-        }
-      ],
-      "genderRatio": null,
-      "uniform": null,
-      "website": "https://izumitottori.ed.jp/",
-      "updatedAt": null,
-      "verified": false,
-      "osmName": "府立泉鳥取高等学校"
+      "osmName": "大阪府立堺工科高等学校",
+      "websiteSource": "大阪府 公立高校ホームページ一覧",
+      "linkOk": true
     },
     {
       "id": "pref-misaki",
@@ -857,11 +887,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://misaki.ed.jp/",
+      "website": "https://www.osaka-c.ed.jp/misaki/",
       "updatedAt": null,
       "verified": false,
       "notes": "大阪府最南端の府立高校。",
-      "osmName": "府立岬高等学校"
+      "osmName": "府立岬高等学校",
+      "linkOk": true
     },
     {
       "id": "priv-seikyo-gakuen",
@@ -892,7 +923,8 @@
       "website": "https://www.seikyo.ed.jp/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "私立清教学園高等学校"
+      "osmName": "私立清教学園高等学校",
+      "linkOk": true
     },
     {
       "id": "priv-tezukayama-izumigaoka",
@@ -980,7 +1012,8 @@
       "website": "https://www.naniwa.ed.jp/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "私立浪速高等学校"
+      "osmName": "私立浪速高等学校",
+      "linkOk": true
     },
     {
       "id": "priv-osaka-gakugei",
@@ -1039,7 +1072,8 @@
       "website": "https://www.hagoromogakuen.ed.jp/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "羽衣学園 中学校・高等学校"
+      "osmName": "羽衣学園 中学校・高等学校",
+      "linkOk": true
     },
     {
       "id": "priv-higashi-otani",
@@ -1200,7 +1234,8 @@
       "website": "https://www.kokoku.ed.jp/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "興國高等学校"
+      "osmName": "興國高等学校",
+      "linkOk": true
     },
     {
       "id": "priv-seimei-gakuin",
@@ -1224,7 +1259,8 @@
       "website": "https://www.seimei.ed.jp/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "私立清明学院高等学校"
+      "osmName": "私立清明学院高等学校",
+      "linkOk": true
     },
     {
       "id": "priv-abeno-shogaku",
@@ -1245,10 +1281,11 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://abenoshogaku.ed.jp/",
+      "website": "https://www.abeno-shogaku.ed.jp/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "あべの翔学高等学校"
+      "osmName": "あべの翔学高等学校",
+      "linkOk": true
     },
     {
       "id": "priv-kenkoku",
@@ -1320,12 +1357,13 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://www.osaka-gyoko.ed.jp/",
+      "website": "https://www.osakagyoko.ed.jp/",
       "updatedAt": null,
       "verified": false,
       "dataWarnings": [
         "地図データに該当校が無いため、座標は住所からの推定値。市区町村レベルでは住所と一致している。"
-      ]
+      ],
+      "linkOk": true
     }
   ]
 }
