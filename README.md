@@ -63,8 +63,9 @@ data/bundle.js        上の2つを結合した自動生成ファイル         
 tools/build_bundle.py data/*.json → data/bundle.js
 tools/fetch_osm.py    OpenStreetMap から駅・高校の座標を取得
 tools/geocode.py      国土地理院APIで住所から座標を取得（補助）
+tools/find_websites.py  公式サイトのURLを候補総当たりで探す
 tools/update_schools.py 公式サイトを巡回してリンク検査・男女比・制服を取得
-tools/qa_check.py     データの妥当性チェック
+tools/qa_check.py     データの妥当性チェック（--reverse で住所と座標の照合）
 ```
 
 **データを編集したら必ず `python tools/build_bundle.py` を実行する。**
@@ -127,6 +128,18 @@ python tools/build_bundle.py
 
 大きく座標が動いたものと、地図に見つからなかったものは `tools/coord_review.json` に出る。
 
+### 公式サイトのURLを探す
+
+```bash
+python tools/find_websites.py            # 候補を表示するだけ
+python tools/find_websites.py --all --apply
+python tools/build_bundle.py
+```
+
+`id` に入っているローマ字から `https://www.osaka-c.ed.jp/<slug>/` などの候補URLを組み立てて順に叩き、
+ページのタイトルに校名が入っていれば採用する。見つからなかった学校は最後に一覧で出るので、
+それだけ手で調べて `data/schools.json` の `website` に書けばよい。
+
 ### 公式サイトを巡回する
 
 ```bash
@@ -145,10 +158,16 @@ robots.txt を確認し、1リクエストにつき2秒待つ。相手のサー�
 ### データの健全性を確認する
 
 ```bash
-python tools/qa_check.py
+python tools/qa_check.py             # オフラインのチェックのみ
+python tools/qa_check.py --reverse   # 座標を住所に逆引きして住所と照合する（約1分）
 ```
 
 最寄り駅から3km以上離れている高校、必須項目の欠落、偏差値の異常値を検出する。
+`--reverse` を付けると国土地理院の逆ジオコーダで座標から市区町村名を引き、
+`address` と食い違うレコードを洗い出す。**座標を入れ替えたら必ずこれを流すこと。**
+
+現在の状態：51校中48校で住所と座標の市区町村が一致。残り3校（阪南・成美・近畿大学泉州）は
+住所か地図データのどちらかが誤っており、画面に警告が出る。
 
 ---
 
