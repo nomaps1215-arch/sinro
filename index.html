@@ -8,12 +8,15 @@
 <meta property="og:title" content="SINRO - OSAKA HIGH SCHOOL -">
 <meta property="og:description" content="大阪府の高校255校を、最寄り駅からの通学時間と偏差値から探せます。">
 <meta property="og:type" content="website">
+<!-- アイコンは外部ファイルにせず埋め込む。1枚のHTMLにまとめても崩れないようにするため。 -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231b1a17'/%3E%3Ctext x='32' y='46' font-family='Georgia,serif' font-size='40' fill='%23c9b688' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231b1a17'/%3E%3Ctext x='32' y='46' font-family='Georgia,serif' font-size='40' fill='%23c9b688' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
 <title>SINRO - OSAKA HIGH SCHOOL -</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=Cormorant+Garamond:wght@300;400;500&family=Noto+Serif+JP:wght@400;500;600&display=swap" rel="stylesheet">
 <!-- ?v= はブラウザのキャッシュ対策。CSS や JS を直したらこの数字を1つ増やす。 -->
-<link rel="stylesheet" href="css/style.css?v=15">
+<link rel="stylesheet" href="css/style.css?v=17">
 </head>
 <body>
 
@@ -61,8 +64,8 @@
     <label class="sort-label" for="sort">並び順</label>
     <select id="sort">
       <option value="time">標準（通学時間が短い順）</option>
-      <option value="station">駅から近い順</option>
-      <option value="distance">距離が近い順</option>
+      <option value="station">学校が駅に近い順</option>
+      <option value="distance">乗車駅から近い順（直線）</option>
       <option value="dev-desc">偏差値が高い順</option>
       <option value="dev-asc">偏差値が低い順</option>
       <option value="safe">安全圏順</option>
@@ -75,7 +78,7 @@
     </select>
   </div>
 
-  <p id="summary" class="summary">最寄り駅を設定してください。</p>
+  <p id="summary" class="summary">乗車駅を設定してください。</p>
   <div id="results" class="results"></div>
 
   <details class="about" id="aboutData">
@@ -134,10 +137,11 @@
     </section>
 
     <section class="field">
-      <h3><span class="step">2</span>最寄り駅</h3>
+      <h3><span class="step">2</span>乗車駅</h3>
       <input type="text" id="station" list="station-list" placeholder="例：中百舌鳥、堺東、和泉中央" spellcheck="false">
       <datalist id="station-list"></datalist>
       <p class="hint" id="station-hint">駅名を入力すると候補が出ます。</p>
+      <p class="hint">自宅から通う起点になる駅です。通学時間はここから学校までを計算します。</p>
     </section>
 
     <section class="field">
@@ -203,8 +207,8 @@
   </button>
 </nav>
 
-<script src="js/transit.js?v=15"></script>
-<script src="data/bundle.js?v=15"></script>
-<script src="js/app.js?v=15"></script>
+<script src="js/transit.js?v=17"></script>
+<script src="data/bundle.js?v=17"></script>
+<script src="js/app.js?v=17"></script>
 </body>
 </html>

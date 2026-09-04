@@ -35,6 +35,7 @@ RE_BODY = re.compile(r"<body[^>]*>(.*)</body>", re.S | re.I)
 RE_SCRIPT_TAG = re.compile(r"<script\b[^>]*></script>\s*", re.I)
 RE_TITLE = re.compile(r"<title[^>]*>(.*?)</title>", re.S | re.I)
 RE_FONT_LINK = re.compile(r'<link[^>]+href="(https://fonts\.googleapis\.com/[^"]+)"[^>]*>', re.I)
+RE_ICON_LINK = re.compile(r'<link[^>]+rel="(?:icon|apple-touch-icon)"[^>]*>', re.I)
 
 
 def main() -> int:
@@ -54,8 +55,13 @@ def main() -> int:
 
     css = (ROOT / "css" / "style.css").read_text(encoding="utf-8")
 
-    parts = [
-        f"<title>{title}</title>",
+    # アイコンは data URI なので、そのまま持っていけば1枚のHTMLでも効く
+    icons = "\n".join(RE_ICON_LINK.findall(html))
+
+    parts = [f"<title>{title}</title>"]
+    if icons:
+        parts.append(icons)
+    parts += [
         "<style>\n" + font_import + css + "\n</style>",
         body_html,
     ]

@@ -252,14 +252,19 @@ const HSTransit = (function () {
 
     const startIdx = chain[0];
     const legs = [];
-    legs.push({
-      kind: accessMode,
-      minutes: accessMin(accessM[startIdx]),
-      label:
-        (accessMode === 'bike' ? '自転車' : '徒歩') +
-        '：最寄り地点 → ' + G.nodes[startIdx].name + '駅',
-      meters: accessM[startIdx]
-    });
+    // 乗車駅そのものから乗る場合（ほとんどの場合）は移動が無いので、行を出さない。
+    // 別の駅まで歩く場合だけ「どこからどこへ」を書く。
+    if (accessM[startIdx] > 60) {
+      const from = opts.originName ? opts.originName + '駅' : '出発地';
+      legs.push({
+        kind: accessMode,
+        minutes: accessMin(accessM[startIdx]),
+        label:
+          (accessMode === 'bike' ? '自転車' : '徒歩') +
+          '：' + from + ' → ' + G.nodes[startIdx].name + '駅',
+        meters: accessM[startIdx]
+      });
+    }
 
     // 連続する同一路線の区間を1レグにまとめる
     let segStart = 0;
@@ -327,9 +332,12 @@ const HSTransit = (function () {
   /**
    * 出発地（最寄り駅の座標など）から学校までの所要時間を、手段ごとに算出する。
    *
+   * origin は「乗車駅」の座標を渡す前提。originName を添えると、
+   * 経路の内訳に駅名が出る。
+   *
    * @param {{lat:number,lng:number}} origin
    * @param {{lat:number,lng:number}} dest
-   * @param {{modes?:string[], stationAccess?:'walk'|'bike'}} [opts]
+   * @param {{modes?:string[], stationAccess?:'walk'|'bike', originName?:string}} [opts]
    * @returns {{best:object|null, byMode:Object}}
    */
   function route(origin, dest, opts) {

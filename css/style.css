@@ -623,6 +623,8 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
   color: var(--line-strong);
 }
 .cell dd.time-big .num { color: var(--accent); }
+/* 倍率が1倍を切った（定員割れ）ときは、数字自体で分かるようにする */
+.cell dd.dev-big.under .num { color: var(--under); }
 .cell dd.time-big small,
 .cell dd.dev-big small {
   display: block;

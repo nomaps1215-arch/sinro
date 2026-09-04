@@ -259,7 +259,8 @@
   /** 学校1件から、カードを描くのに必要な計算をまとめる。 */
   function buildRow(s, station, c) {
     const r = station && s.lat != null
-      ? HSTransit.route(station, s, { modes: c.modes, stationAccess: c.access })
+      ? HSTransit.route(station, s,
+          { modes: c.modes, stationAccess: c.access, originName: c.stationName })
       : null;
     const devs = s.courses.map((x) => x.deviation).filter((d) => d != null);
     const hasDev = devs.length > 0;
@@ -476,7 +477,8 @@
       }
 
       const r = station
-        ? HSTransit.route(station, s, { modes: c.modes, stationAccess: c.access })
+        ? HSTransit.route(station, s,
+          { modes: c.modes, stationAccess: c.access, originName: c.stationName })
         : null;
       if (!byName) {
         if (!r || !r.best) return;
@@ -594,7 +596,7 @@
     const modeLabel = { walk: '徒歩', bike: '自転車', bus: 'バス', train: '電車' };
     if (best) {
       const timeCell = el('div', 'cell');
-      timeCell.appendChild(el('dt', null, '通学時間（片道・概算）'));
+      timeCell.appendChild(el('dt', null, '乗車駅から（片道・概算）'));
       const tdd = el('dd', 'time-big');
       // 数字と単位を分けて組む。欧文フォントと和文フォントで字高が違うので、
       // ひとつの span にまとめると「18分」の高さが揃わず不格好になる。
@@ -634,6 +636,25 @@
         '高校の偏差値に公的なデータは存在しません。模試の資料などを見て手で登録する必要があります。'));
     }
 
+    // 入試倍率。大阪府が公表した実数なので、推定値の偏差値より確かな数字として並べる。
+    // 私立にはこれに相当する公表データが無いため、値のある学校だけ出す。
+    if (s.lastYearRatio != null) {
+      const rc = el('div', 'cell');
+      rc.appendChild(el('dt', null, (s.lastYearLabel || '昨年') + 'の入試倍率'));
+      const rdd = el('dd', 'dev-big' + (s.lastYearUnderCapacity ? ' under' : ''));
+      const rnum = el('span', 'num', s.lastYearRatio.toFixed(2));
+      rnum.appendChild(el('span', 'unit', '倍'));
+      rdd.appendChild(rnum);
+      if (s.lastYearApplicants != null && s.lastYearCapacity != null) {
+        rdd.appendChild(el('small', null,
+          '志願' + s.lastYearApplicants + '／募集' + s.lastYearCapacity));
+        rdd.title = s.lastYearUnderCapacityNote ||
+          ((s.lastYearLabel || '昨年') + 'の一般入学者選抜における実数です。');
+      }
+      rc.appendChild(rdd);
+      grid.appendChild(rc);
+    }
+
     // 男女比は公式サイトに載っている学校だけ取得できている。値があるときだけ出す。
     if (s.genderRatio) {
       const gc = el('div', 'cell');
@@ -649,19 +670,18 @@
       grid.appendChild(gc);
     }
 
-    // 最寄り駅の見出し行の右端に「通学ルート」ボタンを置く。
+    // 乗車駅を起点にした行き方。見出し行の右端に「通学ルート」ボタンを置く。
     // 値と同じ行に並べると、スマホ幅では駅名が長くて折り返してしまう。
-    const ns = HSTransit.nearestStation(s);
     const nsCell = el('div', 'cell wide');
     const head = el('div', 'cell-head');
-    head.appendChild(el('dt', null, '学校の最寄り駅'));
+    head.appendChild(el('dt', null, c.stationName ? c.stationName + '駅からの行き方' : '行き方'));
     const routeBtn = el('button', 'btn route-btn', '通学ルート');
     routeBtn.type = 'button';
     routeBtn.setAttribute('aria-expanded', 'false');
     if (best) head.appendChild(routeBtn);
     nsCell.appendChild(head);
-    nsCell.appendChild(el('dd', ns ? null : 'muted',
-      ns ? ns.name + '（' + ns.lineName + '）徒歩' + fmtMin(ns.walkMin) + '分' : '—'));
+    const access = accessText(row, c);
+    nsCell.appendChild(el('dd', access ? null : 'muted', access || '—'));
     grid.appendChild(nsCell);
     node.appendChild(grid);
 
@@ -842,6 +862,25 @@
       sentences.push('昨年度の入試倍率は' + s.lastYearRatio + '倍でした。');
     }
     return sentences.join('');
+  }
+
+  /**
+   * 乗車駅から学校までの行き方を1行にまとめる。
+   * 電車なら「どこで降りて、そこから何分歩くか」が知りたい情報なので、そこを出す。
+   */
+  function accessText(row, c) {
+    const best = row.route && row.route.best;
+    if (!best) return null;
+    const from = c.stationName ? c.stationName + '駅' : '乗車駅';
+    if (best.mode === 'train') {
+      const last = best.legs[best.legs.length - 1];
+      const walk = last && last.kind === 'walk' ? fmtMin(last.minutes) : null;
+      return best.toStation + '駅で降りて徒歩' + (walk != null ? walk : '?') + '分' +
+        (best.transfers ? '（乗換' + best.transfers + '回）' : '（乗換なし）');
+    }
+    const label = { walk: '徒歩', bike: '自転車', bus: 'バス' }[best.mode] || '';
+    return from + 'から' + label + 'で' + fmtMin(best.minutes) + '分' +
+      (best.mode === 'bus' ? '（粗い概算）' : '');
   }
 
   function button(href, text, tip) {
