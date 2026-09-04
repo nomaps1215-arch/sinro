@@ -201,6 +201,19 @@ def collect_private() -> list[dict]:
             "gender": gender,
             "address": addr or None,
         })
+    # 同じ校名が2行あることがある（賢明学院は全日制と通信制課程で2行）。
+    # 学校としては1つなので、URLのパスが浅いほう＝本体のページを残す。
+    best: dict[str, dict] = {}
+    for s in out:
+        k = key(s["name"])
+        prev = best.get(k)
+        depth = len([p for p in urllib.parse.urlsplit(s["website"]).path.split("/") if p])
+        if prev is None or depth < prev["_depth"]:
+            s["_depth"] = depth
+            best[k] = s
+    out = list(best.values())
+    for s in out:
+        s.pop("_depth", None)
     print(f"  {len(out)} 校")
     return out
 

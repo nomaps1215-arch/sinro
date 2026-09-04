@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SINRO｜見せ方 別案 11〜20</title>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Cormorant+Garamond:wght@300;400;500&family=Noto+Serif+JP:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f2efe9; --card: #fffefb; --ink: #1b1a17; --ink-sub: #7c7469;
+  --line: #e2dcd1; --line-strong: #cdc4b5;
+  --accent: #8c7a4c; --public: #33454f; --private: #8a6a3c; --under: #9c4a33;
+  --serif: "Noto Serif JP", "Hiragino Mincho ProN", serif;
+  --display: "Cormorant Garamond", serif;
+  --numeral: "Bodoni Moda", serif;
+  --shadow: 0 1px 2px rgba(40,34,24,.04), 0 8px 24px rgba(40,34,24,.06);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui, sans-serif;
+  line-height: 1.7;
+}
+header { background: #1b1a17; color: #f0e9dc; padding: 20px 18px; }
+header h1 { margin: 0; font-family: var(--display); font-size: 1.5rem; letter-spacing: .3em; }
+header p { margin: 6px 0 0; font-size: .78rem; color: #a89a7d; }
+main { max-width: 460px; margin: 0 auto; padding: 18px 14px 60px; }
+.opt { margin-bottom: 34px; }
+.opt-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 4px; }
+.opt-no { font-family: var(--numeral); font-size: 1.5rem; color: var(--accent); }
+.opt-name { font-family: var(--serif); font-weight: 600; font-size: .96rem; }
+.opt-desc { margin: 0 0 12px; font-size: .74rem; color: var(--ink-sub); line-height: 1.7; }
+
+.card {
+  position: relative; overflow: hidden; background: var(--card);
+  border: 1px solid var(--line); border-radius: 3px; box-shadow: var(--shadow);
+  padding: 16px;
+}
+.name { font-family: var(--serif); font-weight: 600; font-size: 1rem; margin: 0; }
+.meta { font-size: .72rem; color: var(--ink-sub); margin-top: 2px; }
+.nums { display: flex; gap: 26px; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); }
+.nums dt { font-size: .64rem; color: var(--ink-sub); letter-spacing: .1em; }
+.nums .n { font-family: var(--numeral); font-size: 1.7rem; font-variant-numeric: lining-nums tabular-nums; line-height: 1.15; }
+.nums .n.t { color: #4a6b7c; }
+
+/* 11 インデックスタブ */
+.v11 { padding-right: 26px; }
+.v11 .tab {
+  position: absolute; right: 0; top: 18px; width: 22px; padding: 10px 3px;
+  writing-mode: vertical-rl; background: var(--public); color: #fff;
+  font-size: .62rem; letter-spacing: .16em; border-radius: 2px 0 0 2px;
+}
+.v11 .tab.u { top: 76px; background: var(--under); }
+
+/* 12 二分割ヘッダー */
+.v12 { padding: 0; }
+.v12 .hd {
+  background: var(--public); color: #f2f0eb; padding: 11px 16px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.v12 .hd .k { font-size: .66rem; letter-spacing: .22em; }
+.v12 .hd .u { font-size: .62rem; letter-spacing: .12em; color: #f3cdbd; }
+.v12 .bd { padding: 14px 16px 16px; }
+
+/* 13 チケット半券 */
+.v13 { padding-left: 62px; }
+.v13 .stub {
+  position: absolute; left: 0; top: 0; bottom: 0; width: 46px;
+  background: #f6f2e9; border-right: 1px dashed var(--line-strong);
+  display: grid; place-items: center;
+}
+.v13 .stub span {
+  writing-mode: vertical-rl; font-family: var(--serif);
+  font-size: .74rem; letter-spacing: .3em; color: var(--public);
+}
+.v13 .punch { position: absolute; left: 40px; width: 12px; height: 12px; border-radius: 50%;
+  background: var(--bg); border: 1px solid var(--line); }
+.v13 .punch.a { top: -6px; } .v13 .punch.b { bottom: -6px; }
+
+/* 14 記号体系 */
+.v14 .sym { display: flex; align-items: center; gap: 10px; margin-bottom: 7px; font-size: .68rem; color: var(--ink-sub); letter-spacing: .14em; }
+.v14 .sym i { width: 9px; height: 9px; background: var(--public); display: inline-block; border-radius: 50%; }
+.v14 .sym i.tri { border-radius: 0; background: none; width: 0; height: 0;
+  border-left: 5px solid transparent; border-right: 5px solid transparent; border-bottom: 9px solid var(--under); }
+
+/* 15 縦罫＋回転ラベル */
+.v15 { padding-left: 40px; }
+.v15 .rail { position: absolute; left: 18px; top: 16px; bottom: 16px; width: 1px; background: var(--public); }
+.v15 .rot {
+  position: absolute; left: 6px; top: 16px;
+  writing-mode: vertical-rl; font-size: .6rem; letter-spacing: .22em; color: var(--public);
+}
+
+/* 16 細線パターン */
+.v16 { padding-top: 24px; }
+.v16 .lines { position: absolute; top: 12px; left: 16px; display: flex; gap: 3px; align-items: flex-end; height: 12px; }
+.v16 .lines i { width: 2px; background: var(--public); }
+.v16 .lines i:nth-child(odd) { height: 12px; } .v16 .lines i:nth-child(even) { height: 7px; }
+.v16 .cap { position: absolute; top: 13px; left: 62px; font-size: .6rem; letter-spacing: .2em; color: var(--ink-sub); }
+
+/* 17 右上のタグ列 */
+.v17 .tags { position: absolute; top: 14px; right: 14px; display: flex; gap: 5px; }
+.v17 .tags span { font-size: .6rem; letter-spacing: .12em; padding: 3px 8px; border: 1px solid var(--public); color: var(--public); }
+.v17 .tags span.u { border-color: var(--under); color: var(--under); }
+.v17 .name { padding-right: 120px; }
+
+/* 18 額装 */
+.v18 { padding: 22px 16px 16px; }
+.v18 .frame { position: absolute; inset: 8px; border: 1px solid var(--line-strong); pointer-events: none; }
+.v18 .plate {
+  position: absolute; top: 1px; left: 50%; transform: translateX(-50%);
+  background: var(--card); padding: 0 12px; font-size: .6rem;
+  letter-spacing: .3em; color: var(--accent);
+}
+
+/* 19 章番号風 */
+.v19 { padding-left: 66px; }
+.v19 .chap { position: absolute; left: 16px; top: 16px; text-align: center; }
+.v19 .chap b { display: block; font-family: var(--numeral); font-size: 1.9rem; font-weight: 500; color: var(--public); line-height: 1; }
+.v19 .chap span { font-size: .56rem; letter-spacing: .18em; color: var(--ink-sub); }
+
+/* 20 地色だけ */
+.v20 { background: #f3f5f6; border-color: #dfe5e8; }
+.v20.p { background: #faf6ee; border-color: #eae0cd; }
+.v20 .quiet { font-size: .62rem; letter-spacing: .2em; color: var(--ink-sub); margin-bottom: 6px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>SINRO</h1>
+  <p>別案 11〜20</p>
+</header>
+<main>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">11</span><span class="opt-name">インデックスタブ</span></div>
+  <p class="opt-desc">書類の見出しインデックス。右端なので校名を圧迫せず、複数並べても縦に整列する。</p>
+  <div class="card v11"><span class="tab">公立</span><span class="tab u">定員割れ</span>
+    <p class="name">大阪府立松原高等学校</p><p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">12</span><span class="opt-name">二分割ヘッダー</span></div>
+  <p class="opt-desc">カード上部を色面にして属性を載せる。情報の階層がはっきりし、一覧でも区別しやすい。</p>
+  <div class="card v12">
+    <div class="hd"><span class="k">公立</span><span class="u">昨年定員割れ</span></div>
+    <div class="bd"><p class="name">大阪府立松原高等学校</p><p class="meta">松原市河合5-6-1</p>
+      <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">13</span><span class="opt-name">チケットの半券</span></div>
+  <p class="opt-desc">ミシン目で区切った半券。切符のような手触りで、通学というテーマとも噛み合う。</p>
+  <div class="card v13"><div class="stub"><span>公立</span></div><i class="punch a"></i><i class="punch b"></i>
+    <p class="name">大阪府立岸和田高等学校</p><p class="meta">岸和田市岸城町10-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">47</div></div><div><dt>偏差値</dt><div class="n">68</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">14</span><span class="opt-name">記号体系</span></div>
+  <p class="opt-desc">●が公立、▲が定員割れ。凡例を1回覚えれば、以後は形だけで読める。地図の記号に近い考え方。</p>
+  <div class="card v14"><div class="sym"><i></i>公立<i class="tri"></i>昨年定員割れ</div>
+    <p class="name">大阪府立松原高等学校</p><p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">15</span><span class="opt-name">縦罫＋回転ラベル</span></div>
+  <p class="opt-desc">1pxの縦線と縦組みの小さな文字だけ。面を使わないので、いちばん軽い。</p>
+  <div class="card v15"><span class="rail"></span><span class="rot">公立</span>
+    <p class="name">大阪府立三国丘高等学校</p><p class="meta">堺市堺区南陵町1-1-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">18</div></div><div><dt>偏差値</dt><div class="n">73</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">16</span><span class="opt-name">細線パターン</span></div>
+  <p class="opt-desc">属性ごとに線の並びを変える。装飾に見えて実は識別子、という作り。好みが分かれる。</p>
+  <div class="card v16"><span class="lines"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+    <span class="cap">公立</span>
+    <p class="name">大阪府立三国丘高等学校</p><p class="meta">堺市堺区南陵町1-1-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">18</div></div><div><dt>偏差値</dt><div class="n">73</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">17</span><span class="opt-name">右上のタグ列</span></div>
+  <p class="opt-desc">角のない細枠のタグを右上に整列。増えても崩れず、3つ目4つ目の属性を足しやすい。</p>
+  <div class="card v17"><div class="tags"><span>公立</span><span class="u">定員割れ</span></div>
+    <p class="name">大阪府立松原高等学校</p><p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">18</span><span class="opt-name">額装</span></div>
+  <p class="opt-desc">内側にもう1本枠を引き、上辺にラベルを重ねる。証書のような格。1枚を丁寧に見せる用途向き。</p>
+  <div class="card v18"><span class="frame"></span><span class="plate">公立</span>
+    <p class="name">大阪府立三国丘高等学校</p><p class="meta">堺市堺区南陵町1-1-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">18</div></div><div><dt>偏差値</dt><div class="n">73</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">19</span><span class="opt-name">章番号風</span></div>
+  <p class="opt-desc">左に大きな数字（並び順）と区分。順位が意味を持つ並び順のときだけ成立する。</p>
+  <div class="card v19"><div class="chap"><b>01</b><span>公立</span></div>
+    <p class="name">大阪府立三国丘高等学校</p><p class="meta">堺市堺区南陵町1-1-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">18</div></div><div><dt>偏差値</dt><div class="n">73</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">20</span><span class="opt-name">地色だけ</span></div>
+  <p class="opt-desc">バッジを置かず、カードの地色をごく薄く変える。公立は青灰、私立は砂色。いちばん静かだが、色覚によっては区別しづらい。</p>
+  <div class="card v20"><div class="quiet">公立</div>
+    <p class="name">大阪府立三国丘高等学校</p><p class="meta">堺市堺区南陵町1-1-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">18</div></div><div><dt>偏差値</dt><div class="n">73</div></div></div></div>
+  <div style="height:10px"></div>
+  <div class="card v20 p"><div class="quiet">私立</div>
+    <p class="name">清教学園高等学校</p><p class="meta">河内長野市末広町623</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">44</div></div><div><dt>偏差値</dt><div class="n">65</div></div></div></div>
+</div>
+
+</main>
+</body>
+</html>

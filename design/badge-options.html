@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SINRO｜公立・私立と定員割れの見せ方 10案</title>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Cormorant+Garamond:wght@300;400;500&family=Noto+Serif+JP:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f2efe9; --card: #fffefb; --ink: #1b1a17; --ink-sub: #7c7469;
+  --line: #e2dcd1; --line-strong: #cdc4b5;
+  --accent: #8c7a4c; --public: #33454f; --private: #8a6a3c; --under: #9c4a33;
+  --serif: "Noto Serif JP", "Hiragino Mincho ProN", serif;
+  --display: "Cormorant Garamond", serif;
+  --numeral: "Bodoni Moda", serif;
+  --shadow: 0 1px 2px rgba(40,34,24,.04), 0 8px 24px rgba(40,34,24,.06);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui, sans-serif;
+  line-height: 1.7;
+}
+header { background: #1b1a17; color: #f0e9dc; padding: 20px 18px; }
+header h1 { margin: 0; font-family: var(--display); font-size: 1.5rem; letter-spacing: .3em; }
+header p { margin: 6px 0 0; font-size: .78rem; color: #a89a7d; }
+main { max-width: 460px; margin: 0 auto; padding: 18px 14px 60px; }
+.opt { margin-bottom: 34px; }
+.opt-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 4px; }
+.opt-no { font-family: var(--numeral); font-size: 1.5rem; color: var(--accent); }
+.opt-name { font-family: var(--serif); font-weight: 600; font-size: .96rem; }
+.opt-desc { margin: 0 0 12px; font-size: .74rem; color: var(--ink-sub); line-height: 1.7; }
+
+/* 共通のカード */
+.card {
+  position: relative; overflow: hidden; background: var(--card);
+  border: 1px solid var(--line); border-radius: 3px; box-shadow: var(--shadow);
+  padding: 16px;
+}
+.name { font-family: var(--serif); font-weight: 600; font-size: 1rem; margin: 0; }
+.meta { font-size: .72rem; color: var(--ink-sub); margin-top: 2px; }
+.nums { display: flex; gap: 26px; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); }
+.nums div { line-height: 1.15; }
+.nums dt { font-size: .64rem; color: var(--ink-sub); letter-spacing: .1em; }
+.nums .n { font-family: var(--numeral); font-size: 1.7rem; font-variant-numeric: lining-nums tabular-nums; }
+.nums .n.t { color: #4a6b7c; }
+
+/* ---- 1 現行：縦書きタペストリー ---- */
+.v1 { padding-left: 54px; }
+.v1 .tap {
+  position: absolute; top: 0; left: 14px; width: 27px; padding: 11px 5px 16px;
+  writing-mode: vertical-rl; text-orientation: upright;
+  background: linear-gradient(180deg,#445863,#26343c); color: #fff;
+  font-size: .72rem; font-weight: 700; letter-spacing: .1em;
+  clip-path: polygon(0 0,100% 0,100% 100%,50% calc(100% - 8px),0 100%);
+}
+
+/* ---- 2 コーナーリボン ---- */
+.v2 .rib {
+  position: absolute; top: 13px; right: -34px; width: 130px;
+  transform: rotate(45deg); text-align: center;
+  background: var(--public); color: #fff;
+  font-size: .64rem; letter-spacing: .2em; padding: 4px 0;
+}
+.v2 .rib.u { top: 40px; background: var(--under); }
+
+/* ---- 3 端の細帯＋小さな見出し ---- */
+.v3 { border-left: 3px solid var(--public); }
+.v3 .kicker {
+  font-size: .62rem; letter-spacing: .24em; color: var(--public);
+  text-transform: uppercase; margin-bottom: 3px;
+}
+.v3 .kicker .u { color: var(--under); margin-left: 10px; }
+
+/* ---- 4 箔押しエンブレム ---- */
+.v4 .emb {
+  position: absolute; top: 14px; right: 14px;
+  width: 44px; height: 44px; border-radius: 50%;
+  border: 1px solid var(--accent); color: var(--accent);
+  display: grid; place-items: center; font-family: var(--serif);
+  font-size: .92rem; background: linear-gradient(145deg,#fdfaf2,#f4ecd9);
+}
+.v4 .name { padding-right: 56px; }
+
+/* ---- 5 落款（朱印） ---- */
+.v5 .seal {
+  position: absolute; top: 14px; right: 14px;
+  width: 40px; height: 40px; border: 2px solid #b03a2e; color: #b03a2e;
+  display: grid; place-items: center; font-family: var(--serif);
+  font-size: .88rem; font-weight: 600; border-radius: 2px;
+  transform: rotate(-6deg); opacity: .88;
+}
+.v5 .name { padding-right: 52px; }
+
+/* ---- 6 上辺のステータスバー ---- */
+.v6 { padding-top: 22px; }
+.v6 .bar {
+  position: absolute; top: 0; left: 0; right: 0; height: 4px;
+  background: var(--public);
+}
+.v6 .bar.u { background: linear-gradient(90deg,var(--public) 0 62%,var(--under) 62% 100%); }
+.v6 .barlabel {
+  position: absolute; top: 8px; right: 14px;
+  font-size: .6rem; letter-spacing: .18em; color: var(--ink-sub);
+}
+
+/* ---- 7 モノグラム（大きな薄い文字） ---- */
+.v7 .mono {
+  position: absolute; top: -6px; left: 6px;
+  font-family: var(--serif); font-size: 5.4rem; font-weight: 600;
+  color: var(--public); opacity: .07; line-height: 1; pointer-events: none;
+}
+.v7 { padding-left: 30px; }
+
+/* ---- 8 ラベルテープ ---- */
+.v8 .tape {
+  position: absolute; top: 10px; left: -16px;
+  transform: rotate(-4deg);
+  background: #e9e2d2; color: #5c5342;
+  font-size: .62rem; letter-spacing: .18em;
+  padding: 3px 22px; box-shadow: 0 1px 2px rgba(0,0,0,.08);
+}
+.v8 { padding-top: 34px; }
+.v8 .tape.u { top: 10px; left: auto; right: -16px; transform: rotate(4deg); background: #e8d3ca; color: #8a3b26; }
+
+/* ---- 9 行間の細い見出し（ミニマル） ---- */
+.v9 .line {
+  display: flex; align-items: center; gap: 8px;
+  font-size: .62rem; letter-spacing: .2em; color: var(--ink-sub);
+  margin-bottom: 6px;
+}
+.v9 .line::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.v9 .line .u { color: var(--under); }
+
+/* ---- 10 封蝋（ワックスシール） ---- */
+.v10 .wax {
+  position: absolute; top: 12px; right: 12px; width: 42px; height: 42px;
+  border-radius: 50%; background: radial-gradient(circle at 34% 30%, #6b7f8c, #33454f 70%);
+  color: #e8eef1; display: grid; place-items: center;
+  font-family: var(--serif); font-size: .88rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,.22), inset 0 -2px 4px rgba(0,0,0,.25);
+}
+.v10 .wax.u { background: radial-gradient(circle at 34% 30%, #c07257, #9c4a33 70%); top: 60px; }
+.v10 .name { padding-right: 54px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>SINRO</h1>
+  <p>公立・私立と「昨年定員割れ」の見せ方 ─ 10案</p>
+</header>
+<main>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">01</span><span class="opt-name">縦書きタペストリー（現行）</span></div>
+  <p class="opt-desc">上端から札を垂らす。存在感は強いが、左に54pxの余白が要り、幟のように見える。</p>
+  <div class="card v1">
+    <span class="tap">公立</span>
+    <p class="name">大阪府立三国丘高等学校</p>
+    <p class="meta">堺市堺区南陵町1-1-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">18</div></div><div><dt>偏差値</dt><div class="n">73</div></div></div>
+  </div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">02</span><span class="opt-name">コーナーリボン</span></div>
+  <p class="opt-desc">角を斜めに切る定番。2つ重ねられるが、EC サイトの「SALE」に見えやすい。</p>
+  <div class="card v2">
+    <span class="rib">公立</span><span class="rib u">定員割れ</span>
+    <p class="name">大阪府立松原高等学校</p>
+    <p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div>
+  </div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">03</span><span class="opt-name">端の細帯＋小見出し</span></div>
+  <p class="opt-desc">左端3pxの色と、校名の上に置く小さな文字だけ。いちばん静かで、余白を食わない。</p>
+  <div class="card v3">
+    <div class="kicker">公立<span class="u">／ 昨年定員割れ</span></div>
+    <p class="name">大阪府立松原高等学校</p>
+    <p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div>
+  </div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">04</span><span class="opt-name">箔押しエンブレム</span></div>
+  <p class="opt-desc">右上に真鍮色の円。high brand 寄り。定員割れは別の手段が要る。</p>
+  <div class="card v4">
+    <span class="emb">公</span>
+    <p class="name">大阪府立三国丘高等学校</p>
+    <p class="meta">堺市堺区南陵町1-1-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">18</div></div><div><dt>偏差値</dt><div class="n">73</div></div></div>
+  </div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">05</span><span class="opt-name">落款（朱印）</span></div>
+  <p class="opt-desc">和の意匠。書類に押した印のような佇まい。アイボリー地とよく合う。</p>
+  <div class="card v5">
+    <span class="seal">公</span>
+    <p class="name">大阪府立岸和田高等学校</p>
+    <p class="meta">岸和田市岸城町10-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">47</div></div><div><dt>偏差値</dt><div class="n">68</div></div></div>
+  </div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">06</span><span class="opt-name">上辺のステータスバー</span></div>
+  <p class="opt-desc">カード上端の4pxの帯で属性を示し、割合で2色に分ける。一覧をスクロールしたとき色だけで追える。</p>
+  <div class="card v6">
+    <span class="bar u"></span><span class="barlabel">公立 ／ 昨年定員割れ</span>
+    <p class="name">大阪府立松原高等学校</p>
+    <p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div>
+  </div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">07</span><span class="opt-name">モノグラム（大きな透かし文字）</span></div>
+  <p class="opt-desc">「公」「私」を大きく薄く敷く。制服の図と同じ扱いなので、透かしが2つになる点は要検討。</p>
+  <div class="card v7">
+    <span class="mono">公</span>
+    <p class="name">大阪府立三国丘高等学校</p>
+    <p class="meta">堺市堺区南陵町1-1-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">18</div></div><div><dt>偏差値</dt><div class="n">73</div></div></div>
+  </div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">08</span><span class="opt-name">ラベルテープ</span></div>
+  <p class="opt-desc">紙に貼ったテープ風。手作り感が出るぶん、ブランド寄りの方向とはやや離れる。</p>
+  <div class="card v8">
+    <span class="tape">公立</span><span class="tape u">定員割れ</span>
+    <p class="name">大阪府立松原高等学校</p>
+    <p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div>
+  </div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">09</span><span class="opt-name">罫線見出し（ミニマル）</span></div>
+  <p class="opt-desc">小さな文字と1pxの罫線だけ。雑誌の柱のような処理で、いちばん上品にまとまる。</p>
+  <div class="card v9">
+    <div class="line">公立　<span class="u">昨年定員割れ</span></div>
+    <p class="name">大阪府立松原高等学校</p>
+    <p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div>
+  </div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">10</span><span class="opt-name">封蝋（ワックスシール）</span></div>
+  <p class="opt-desc">立体的な蝋印。存在感が強く、2つ並べると重い。1枚ずつ見るときは効く。</p>
+  <div class="card v10">
+    <span class="wax">公</span><span class="wax u">割</span>
+    <p class="name">大阪府立松原高等学校</p>
+    <p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div>
+  </div>
+</div>
+
+</main>
+</body>
+</html>

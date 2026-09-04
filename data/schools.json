@@ -1986,11 +1986,11 @@
       "type": "public",
       "gender": "coed",
       "division": "全日制",
-      "city": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "coordSource": null,
+      "city": "東大阪市",
+      "address": "大阪府東大阪市西鴻池町2-5-33",
+      "lat": 34.697968,
+      "lng": 135.593658,
+      "coordSource": "gsi",
       "courses": [
         {
           "name": "マシンコントロール科",
@@ -2562,10 +2562,10 @@
       "gender": "coed",
       "division": "全日制",
       "city": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "coordSource": null,
+      "address": "大阪府大阪市天王寺区北山町10-10",
+      "lat": 34.658768,
+      "lng": 135.523102,
+      "coordSource": "official-site+gsi",
       "courses": [
         {
           "name": "普通科 音楽科",
@@ -2586,7 +2586,10 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "dataWarnings": [
+        "座標は公式サイトの住所から求めた値で、市区町村の照合ができていない。"
+      ]
     },
     {
       "id": "pref-kozu",
@@ -3404,10 +3407,10 @@
       "gender": "coed",
       "division": "全日制",
       "city": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "coordSource": null,
+      "address": "大阪府大阪市住吉区苅田4-1-72",
+      "lat": 34.602222,
+      "lng": 135.522186,
+      "coordSource": "official-site+gsi",
       "courses": [
         {
           "name": "普通科（単位制）",
@@ -3419,7 +3422,10 @@
       "website": "https://www2.osaka-c.ed.jp/partner",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "dataWarnings": [
+        "座標は公式サイトの住所から求めた値で、市区町村の照合ができていない。"
+      ]
     },
     {
       "id": "pref-higashisumiyoshi",
@@ -4468,10 +4474,10 @@
       "gender": "coed",
       "division": "全日制",
       "city": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "coordSource": null,
+      "address": "大阪府貝塚市畠中1丁目1-1",
+      "lat": 34.44117,
+      "lng": 135.358856,
+      "coordSource": "official-site+gsi",
       "courses": [
         {
           "name": "総合学科",
@@ -4492,7 +4498,10 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "dataWarnings": [
+        "座標は公式サイトの住所から求めた値で、市区町村の照合ができていない。"
+      ]
     },
     {
       "id": "pref-sano",

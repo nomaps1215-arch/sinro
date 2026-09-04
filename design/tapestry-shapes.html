@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SINRO｜タペストリーの形 12案</title>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Cormorant+Garamond:wght@300;400;500&family=Noto+Serif+JP:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f2efe9; --card: #fffefb; --ink: #1b1a17; --ink-sub: #7c7469;
+  --line: #e2dcd1; --line-strong: #cdc4b5;
+  --accent: #8c7a4c; --public: #33454f; --private: #8a6a3c; --under: #9c4a33;
+  --serif: "Noto Serif JP", "Hiragino Mincho ProN", serif;
+  --display: "Cormorant Garamond", serif;
+  --numeral: "Bodoni Moda", serif;
+  --shadow: 0 1px 2px rgba(40,34,24,.04), 0 8px 24px rgba(40,34,24,.06);
+  --navy: linear-gradient(180deg,#445863,#26343c);
+  --rust: linear-gradient(180deg,#b25a3e,#7d3520);
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic UI", system-ui, sans-serif; line-height: 1.7; }
+header { background: #1b1a17; color: #f0e9dc; padding: 20px 18px; }
+header h1 { margin: 0; font-family: var(--display); font-size: 1.5rem; letter-spacing: .3em; }
+header p { margin: 6px 0 0; font-size: .78rem; color: #a89a7d; }
+main { max-width: 460px; margin: 0 auto; padding: 18px 14px 60px; }
+.opt { margin-bottom: 30px; }
+.opt-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 3px; }
+.opt-no { font-family: var(--numeral); font-size: 1.4rem; color: var(--accent); }
+.opt-name { font-family: var(--serif); font-weight: 600; font-size: .94rem; }
+.opt-desc { margin: 0 0 11px; font-size: .73rem; color: var(--ink-sub); line-height: 1.7; }
+
+.card { position: relative; overflow: hidden; background: var(--card);
+  border: 1px solid var(--line); border-radius: 3px; box-shadow: var(--shadow);
+  padding: 16px 16px 16px 54px; }
+.card.wide { padding-left: 62px; }
+.name { font-family: var(--serif); font-weight: 600; font-size: 1rem; margin: 0; }
+.meta { font-size: .72rem; color: var(--ink-sub); margin-top: 2px; }
+.nums { display: flex; gap: 26px; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); }
+.nums dt { font-size: .64rem; color: var(--ink-sub); letter-spacing: .1em; }
+.nums .n { font-family: var(--numeral); font-size: 1.7rem; line-height: 1.15;
+  font-variant-numeric: lining-nums tabular-nums; }
+.nums .n.t { color: #4a6b7c; }
+
+/* 共通のタペストリー土台 */
+.tp {
+  position: absolute; top: 0; left: 14px; width: 27px;
+  padding: 11px 5px 16px; writing-mode: vertical-rl; text-orientation: upright;
+  background: var(--navy); color: #fff;
+  font-size: .72rem; font-weight: 700; letter-spacing: .1em;
+  box-shadow: 0 2px 6px rgba(40,34,24,.18);
+}
+.tp.r { left: auto; right: 14px; background: var(--rust); }
+
+/* --- 形のバリエーション --- */
+.s1  { clip-path: polygon(0 0,100% 0,100% 100%,50% calc(100% - 8px),0 100%); }        /* 現行：燕尾 */
+.s2  { clip-path: polygon(0 0,100% 0,100% 100%,0 100%); }                              /* 直線 */
+.s3  { clip-path: polygon(0 0,100% 0,100% calc(100% - 10px),50% 100%,0 calc(100% - 10px)); } /* 剣先 */
+.s4  { border-radius: 0 0 14px 14px; }                                                 /* 丸底 */
+.s5  { clip-path: polygon(0 0,100% 0,100% calc(100% - 7px),50% calc(100% - 14px),0 calc(100% - 7px)); } /* 浅い山 */
+.s6  { clip-path: polygon(0 0,100% 0,50% 100%,0 calc(100% - 14px)); }                  /* 斜め切り落とし */
+.s7  { clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 14px)); }                 /* 片流れ */
+.s8  { padding-bottom: 22px;
+       clip-path: polygon(0 0,100% 0,100% 100%,75% calc(100% - 7px),50% 100%,25% calc(100% - 7px),0 100%); } /* 波 */
+.s9  { border-radius: 0 0 3px 3px; padding-bottom: 20px;
+       background: var(--navy) padding-box; }
+.s9::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 8px;
+       background: repeating-linear-gradient(90deg,#26343c 0 5px,transparent 5px 7px); } /* 房（フリンジ） */
+.s10 { clip-path: polygon(0 0,100% 0,100% 100%,50% calc(100% - 8px),0 100%);
+       background: var(--navy); }
+.s10::before { content: ""; position: absolute; left: 4px; right: 4px; top: 6px; bottom: 16px;
+       border: 1px solid rgba(255,255,255,.35); pointer-events: none; }                 /* 内枠つき */
+.s11 { width: 21px; padding: 9px 3px 13px; font-size: .64rem;
+       clip-path: polygon(0 0,100% 0,100% 100%,50% calc(100% - 6px),0 100%); }          /* 細身 */
+.s12 { width: 34px; padding: 14px 6px 20px; font-size: .78rem; letter-spacing: .16em;
+       clip-path: polygon(0 0,100% 0,100% 100%,50% calc(100% - 10px),0 100%); }         /* 太身 */
+</style>
+</head>
+<body>
+<header>
+  <h1>SINRO</h1>
+  <p>タペストリーの形だけを変えた 12案</p>
+</header>
+<main>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">01</span><span class="opt-name">燕尾（現行）</span></div>
+  <p class="opt-desc">下端を三角に切り込む。旗やペナントの定番。</p>
+  <div class="card"><span class="tp s1">公立</span><span class="tp r s1">定員割れ</span>
+    <p class="name">大阪府立松原高等学校</p><p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">02</span><span class="opt-name">直線（切り落とし）</span></div>
+  <p class="opt-desc">加工なし。もっとも硬質で、装飾感が消える。</p>
+  <div class="card"><span class="tp s2">公立</span><span class="tp r s2">定員割れ</span>
+    <p class="name">大阪府立松原高等学校</p><p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">03</span><span class="opt-name">剣先（下向きの三角）</span></div>
+  <p class="opt-desc">先端を下に尖らせる。栞やブックマークの形。</p>
+  <div class="card"><span class="tp s3">公立</span><span class="tp r s3">定員割れ</span>
+    <p class="name">大阪府立松原高等学校</p><p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">04</span><span class="opt-name">丸底</span></div>
+  <p class="opt-desc">下端を大きく丸める。角を落とすぶん柔らかい。</p>
+  <div class="card"><span class="tp s4">公立</span><span class="tp r s4">定員割れ</span>
+    <p class="name">大阪府立松原高等学校</p><p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">05</span><span class="opt-name">浅い山</span></div>
+  <p class="opt-desc">現行の切り込みを浅くしただけ。主張を弱めたいとき。</p>
+  <div class="card"><span class="tp s5">公立</span><span class="tp r s5">定員割れ</span>
+    <p class="name">大阪府立松原高等学校</p><p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">06</span><span class="opt-name">斜め切り落とし</span></div>
+  <p class="opt-desc">下端を片側だけ大きく斜めに落とす。動きが出る。</p>
+  <div class="card"><span class="tp s6">公立</span><span class="tp r s6">定員割れ</span>
+    <p class="name">大阪府立松原高等学校</p><p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">07</span><span class="opt-name">片流れ</span></div>
+  <p class="opt-desc">06 の傾きを緩くしたもの。控えめに角度をつける。</p>
+  <div class="card"><span class="tp s7">公立</span><span class="tp r s7">定員割れ</span>
+    <p class="name">大阪府立松原高等学校</p><p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">08</span><span class="opt-name">波形</span></div>
+  <p class="opt-desc">下端を波打たせる。布らしさは出るが、小さいと潰れて見える。</p>
+  <div class="card"><span class="tp s8">公立</span><span class="tp r s8">定員割れ</span>
+    <p class="name">大阪府立松原高等学校</p><p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">09</span><span class="opt-name">房（フリンジ）</span></div>
+  <p class="opt-desc">下端に細かい房を垂らす。タペストリーそのものの意匠。</p>
+  <div class="card"><span class="tp s9">公立</span><span class="tp r s9">定員割れ</span>
+    <p class="name">大阪府立松原高等学校</p><p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">10</span><span class="opt-name">内枠つき</span></div>
+  <p class="opt-desc">燕尾の内側に細い白枠を入れる。勲章のような格が出る。</p>
+  <div class="card"><span class="tp s10">公立</span><span class="tp r s10">定員割れ</span>
+    <p class="name">大阪府立松原高等学校</p><p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">11</span><span class="opt-name">細身</span></div>
+  <p class="opt-desc">幅を21pxまで詰める。形は現行のまま、圧を下げる。</p>
+  <div class="card"><span class="tp s11">公立</span><span class="tp r s11">定員割れ</span>
+    <p class="name">大阪府立松原高等学校</p><p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div></div>
+</div>
+
+<div class="opt">
+  <div class="opt-head"><span class="opt-no">12</span><span class="opt-name">太身</span></div>
+  <p class="opt-desc">逆に34pxまで広げて堂々と。カードの左余白は増える。</p>
+  <div class="card wide"><span class="tp s12">公立</span><span class="tp r s12">定員割れ</span>
+    <p class="name">大阪府立松原高等学校</p><p class="meta">松原市河合5-6-1</p>
+    <div class="nums"><div><dt>通学</dt><div class="n t">34</div></div><div><dt>偏差値</dt><div class="n">43</div></div></div></div>
+</div>
+
+</main>
+</body>
+</html>

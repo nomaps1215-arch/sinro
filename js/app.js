@@ -52,7 +52,7 @@
   /** 設定として保存・復元する入力欄。種別ボタンと偏差値は検索画面側にある。 */
   function settingsInputs() {
     return document.querySelectorAll(
-      '#conditions input, #conditions select, .type-toggle input, .dev-bar input');
+      '#conditions input, #conditions select, .type-toggle input, .dev-bar input, .sort-bar select');
   }
 
   function saveSettings() {
@@ -121,6 +121,7 @@
     $('#conditions').addEventListener('change', onChange);
     document.querySelector('.type-toggle').addEventListener('change', onChange);
     document.querySelector('.dev-bar').addEventListener('input', onChange);
+    document.querySelector('.sort-bar').addEventListener('change', onChange);
     $('#q').addEventListener('input', render);
 
     $('#openSettings').addEventListener('click', () => showSettings(true));
@@ -179,6 +180,53 @@
       norm(s.shortName).includes(needle) ||
       norm(s.formerName).includes(needle) ||
       norm(s.city).includes(needle);
+  }
+
+  // ---------- 並び替え ----------
+  // 値が無いものは常に後ろへ。どの並び順でも、同点は通学時間の短い順で決める。
+  const minutesOf = (r) => (r.route && r.route.best ? r.route.best.minutes : Infinity);
+  const straightOf = (r) => (r.route ? r.route.straightMeters : Infinity);
+  const stationWalkOf = (r) => (r.nearest ? r.nearest.meters : Infinity);
+  const devOf = (r, hi) => (r.hasDev ? (hi ? r.maxDev : r.minDev) : (hi ? -Infinity : Infinity));
+
+  /** 指定した判定に当てはまる学校を先頭に集める。当てはまらないものは判定の近い順。 */
+  function judgeRank(r, wanted) {
+    if (!r.bestJudge) return 99;
+    const order = ['safe', 'likely', 'even', 'challenge', 'far'];
+    const i = order.indexOf(r.bestJudge.key);
+    const w = order.indexOf(wanted);
+    return i === w ? 0 : 1 + Math.abs(i - w);
+  }
+
+  const SORTS = {
+    time: (a, b) => minutesOf(a) - minutesOf(b),
+    station: (a, b) => stationWalkOf(a) - stationWalkOf(b),
+    distance: (a, b) => straightOf(a) - straightOf(b),
+    'dev-desc': (a, b) => devOf(b, true) - devOf(a, true),
+    'dev-asc': (a, b) => devOf(a, false) - devOf(b, false),
+    safe: (a, b) => judgeRank(a, 'safe') - judgeRank(b, 'safe'),
+    likely: (a, b) => judgeRank(a, 'likely') - judgeRank(b, 'likely'),
+    even: (a, b) => judgeRank(a, 'even') - judgeRank(b, 'even'),
+    challenge: (a, b) => judgeRank(a, 'challenge') - judgeRank(b, 'challenge'),
+    // 定員割れは倍率の低い順。定員割れでない学校は後ろにまとめる。
+    under: (a, b) => underRatio(a) - underRatio(b),
+    boys: (a, b) => genderRank(a, 'boys') - genderRank(b, 'boys'),
+    girls: (a, b) => genderRank(a, 'girls') - genderRank(b, 'girls')
+  };
+
+  function underRatio(r) {
+    const s = r.school;
+    if (!s.lastYearUnderCapacity) return Infinity;
+    return s.lastYearRatio != null ? s.lastYearRatio : 0.999;
+  }
+  function genderRank(r, wanted) {
+    if (r.school.gender === wanted) return 0;
+    return r.school.gender === 'coed' ? 1 : 2;
+  }
+
+  function sortRows(rows, key) {
+    const cmp = SORTS[key] || SORTS.time;
+    rows.sort((a, b) => cmp(a, b) || minutesOf(a) - minutesOf(b));
   }
 
   // ---------- 描画 ----------
@@ -268,17 +316,15 @@
         ? judged.reduce((a, b) => (JUDGE_RANK[a.j.key] <= JUDGE_RANK[b.j.key] ? a : b)).j
         : null;
 
-      rows.push({ school: s, route: r, minDev, maxDev, hasDev, courseJudges, bestJudge });
+      rows.push({
+        school: s,
+        route: r,
+        nearest: HSTransit.nearestStation(s),
+        minDev, maxDev, hasDev, courseJudges, bestJudge
+      });
     });
 
-    // 偏差値が無い学校は数値比較できないので、偏差値順のときは末尾にまとめる
-    const devKey = (r, hi) => (r.hasDev ? (hi ? r.maxDev : r.minDev) : (hi ? -Infinity : Infinity));
-    const minutes = (r) => (r.route && r.route.best ? r.route.best.minutes : Infinity);
-    rows.sort((a, b) => {
-      if (c.sort === 'dev-desc') return devKey(b, true) - devKey(a, true) || minutes(a) - minutes(b);
-      if (c.sort === 'dev-asc') return devKey(a, false) - devKey(b, false) || minutes(a) - minutes(b);
-      return minutes(a) - minutes(b);
-    });
+    sortRows(rows, c.sort);
 
     if (c.q) {
       $('#summary').innerHTML =
@@ -429,7 +475,11 @@
       s.dataWarnings.forEach((w) => node.appendChild(el('p', 'data-warning', '⚠ ' + w)));
     }
 
-    // --- 学科ごとの判定 ---
+    // --- 学科ごとの判定（カードをタップしたときだけ出す） ---
+    // 一覧に100校近く並ぶので、既定では畳んで概要だけを見せる。
+    const detail = el('div', 'card-detail');
+    detail.hidden = true;
+
     const courses = el('div', 'courses');
     row.courseJudges.forEach((cj) => {
       const r = el('div', 'course-row');
@@ -439,7 +489,7 @@
       if (cj.j) r.appendChild(el('span', 'judge ' + cj.j.key, cj.j.label));
       courses.appendChild(r);
     });
-    node.appendChild(courses);
+    detail.appendChild(courses);
 
     // --- ルート内訳（最寄り駅の右のボタンで開閉する） ---
     if (best) {
@@ -467,6 +517,9 @@
       node.appendChild(det);
     }
 
+    // --- 特徴のまとめ ---
+    detail.appendChild(el('p', 'school-summary', describe(s, row, c)));
+
     // --- ボタン ---
     const p = el('div', 'school-links');
     if (s.website) p.appendChild(button(s.website, '公式', '公式サイトを開く'));
@@ -477,8 +530,98 @@
         '地図で位置を確認する'
       )
     );
-    node.appendChild(p);
+    detail.appendChild(p);
+    node.appendChild(detail);
+
+    // --- カード全体をタップで開閉 ---
+    const hint = el('div', 'card-more');
+    hint.appendChild(el('span', 'card-more-label', '学科と偏差値を見る'));
+    node.appendChild(hint);
+
+    node.classList.add('tappable');
+    node.setAttribute('role', 'button');
+    node.setAttribute('tabindex', '0');
+    node.setAttribute('aria-expanded', 'false');
+    const toggle = () => {
+      const open = detail.hidden;
+      detail.hidden = !open;
+      node.classList.toggle('open', open);
+      node.setAttribute('aria-expanded', String(open));
+      hint.querySelector('.card-more-label').textContent =
+        open ? '閉じる' : '学科と偏差値を見る';
+    };
+    node.addEventListener('click', (e) => {
+      // 中のボタンやリンクを押したときは、カードの開閉に巻き込まない
+      if (e.target.closest('a, button')) return;
+      toggle();
+    });
+    node.addEventListener('keydown', (e) => {
+      if (e.target !== node) return;
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        toggle();
+      }
+    });
     return node;
+  }
+
+  /**
+   * その学校の特徴を1〜3文にまとめる。
+   *
+   * 手元にあるデータ（種別・学科・偏差値・通学時間・定員割れ・男女別）だけで組み立てる。
+   * 校風や進学実績のような、持っていない情報は書かない。書けば嘘になる。
+   */
+  function describe(s, row, c) {
+    const sentences = [];
+    const kind = s.type === 'public' ? '公立' : '私立';
+    const gender = { boys: '男子校', girls: '女子校' }[s.gender] || '共学';
+    const where = s.city || (s.address || '').replace('大阪府', '').slice(0, 6);
+
+    // 1文目：どこの何の学校か
+    let first = (where ? where + 'にある' : '') + kind + 'の' + gender;
+    if (s.division && s.division !== '全日制') first += '（' + s.division + '）';
+    const courseNames = s.courses.map((x) => x.name);
+    if (courseNames.length === 1) {
+      first += 'で、' + courseNames[0] + 'を置いています。';
+    } else if (courseNames.length > 1) {
+      first += 'で、' + courseNames.slice(0, 3).join('・') +
+        (courseNames.length > 3 ? 'など計' + courseNames.length + '学科' : '') + 'があります。';
+    } else {
+      first += 'です。';
+    }
+    sentences.push(first);
+
+    // 2文目：通学と学力の位置づけ
+    const parts = [];
+    if (row.route && row.route.best) {
+      const m = fmtMin(row.route.best.minutes);
+      const label = { walk: '徒歩', bike: '自転車', bus: 'バス', train: '電車' }[row.route.best.mode];
+      parts.push(c.stationName + '駅からは' + label + 'でおよそ' + m + '分');
+    }
+    if (row.nearest) {
+      parts.push('学校の最寄りは' + row.nearest.name + '駅で徒歩' + fmtMin(row.nearest.walkMin) + '分です');
+    }
+    if (parts.length) sentences.push(parts.join('、') + '。');
+
+    if (row.hasDev && row.bestJudge) {
+      const range = row.minDev === row.maxDev ? row.minDev : row.minDev + '〜' + row.maxDev;
+      sentences.push(
+        '偏差値の目安は' + range + 'で、現在' + c.current + '・目標' + c.target +
+        'なら「' + row.bestJudge.label + '」の位置づけです（想定値のため目安）。');
+    } else {
+      sentences.push('偏差値は登録がないため、模試の資料などで確認してください。');
+    }
+
+    // 3文目：受験のしやすさ
+    if (s.lastYearUnderCapacity) {
+      const r = s.lastYearRatio;
+      sentences.push(
+        '昨年度の入試は志願者が募集人員に届かず' +
+        (r != null ? '倍率' + r : '定員割れ') + 'でした。');
+    } else if (s.lastYearRatio != null) {
+      sentences.push('昨年度の入試倍率は' + s.lastYearRatio + '倍でした。');
+    }
+    return sentences.join('');
   }
 
   function button(href, text, tip) {
