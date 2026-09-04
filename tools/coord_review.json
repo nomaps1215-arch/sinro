@@ -1,0 +1,20 @@
+[
+  {
+    "name": "大阪府立貝塚南高等学校",
+    "issue": "OSMに該当なし",
+    "address": "大阪府貝塚市橋本1000",
+    "coordSource": "gsi"
+  },
+  {
+    "name": "初芝立命館高等学校",
+    "issue": "OSMに該当なし",
+    "address": "大阪府堺市東区西野194-1",
+    "coordSource": "gsi"
+  },
+  {
+    "name": "大阪暁光高等学校",
+    "issue": "OSMに該当なし",
+    "address": "大阪府河内長野市楠町西1090",
+    "coordSource": "gsi"
+  }
+]

@@ -1,0 +1,1331 @@
+{
+  "meta": {
+    "scope": "大阪市〜大阪府最南部（岬町）。堺市・南河内・泉州を中心に収録。",
+    "updatedAt": null,
+    "dataPolicy": [
+      "deviation（偏差値）は公的なオープンデータが存在しない。ここに入っている値は民間模試の一般的な目安をもとにした【参考値】であり、公式発表ではない。必ず塾・模試の最新資料で確認すること。",
+      "genderRatio（男女比）は公式サイトに掲載がある学校のみ tools/update_schools.py が取得する。取得前は null。",
+      "uniform（制服）は確度の高いもののみ記載。不明は null。",
+      "lat/lng は coordSource が approx の間は概算値。tools/geocode.py（国土地理院API）で住所から精緻化できる。",
+      "verified:false のレコードは UI 上で「未検証」バッジを表示する。",
+      "座標は OpenStreetMap（© OpenStreetMap contributors, ODbL）由来。地図に該当校が無いものは住所からの推定値で、dataWarnings に記載している。"
+    ],
+    "coordSource": "osm"
+  },
+  "schools": [
+    {
+      "id": "pref-tennoji",
+      "name": "大阪府立天王寺高等学校",
+      "shortName": "天王寺",
+      "type": "public",
+      "gender": "coed",
+      "city": "大阪市阿倍野区",
+      "address": "大阪府大阪市阿倍野区共立通2-3-68",
+      "lat": 34.640047,
+      "lng": 135.520892,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "文理学科",
+          "deviation": 74
+        }
+      ],
+      "genderRatio": null,
+      "uniform": {
+        "type": "私服",
+        "note": "制服なし（標準服あり）"
+      },
+      "website": "https://tennoji.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "大阪府立天王寺高等学校"
+    },
+    {
+      "id": "pref-ikuno",
+      "name": "大阪府立生野高等学校",
+      "shortName": "生野",
+      "type": "public",
+      "gender": "coed",
+      "city": "松原市",
+      "address": "大阪府松原市新堂1-552",
+      "lat": 34.571594,
+      "lng": 135.553666,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "文理学科",
+          "deviation": 71
+        }
+      ],
+      "genderRatio": null,
+      "uniform": {
+        "type": "私服",
+        "note": "制服なし"
+      },
+      "website": "https://ikuno.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立生野高等学校"
+    },
+    {
+      "id": "pref-mikunigaoka",
+      "name": "大阪府立三国丘高等学校",
+      "shortName": "三国丘",
+      "type": "public",
+      "gender": "coed",
+      "city": "堺市堺区",
+      "address": "大阪府堺市堺区南陵町1-1-1",
+      "lat": 34.573089,
+      "lng": 135.487885,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "文理学科",
+          "deviation": 72
+        }
+      ],
+      "genderRatio": null,
+      "uniform": {
+        "type": "私服",
+        "note": "制服なし"
+      },
+      "website": "https://mikunigaoka.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立三国丘高等学校"
+    },
+    {
+      "id": "pref-sumiyoshi",
+      "name": "大阪府立住吉高等学校",
+      "shortName": "住吉",
+      "type": "public",
+      "gender": "coed",
+      "city": "大阪市阿倍野区",
+      "address": "大阪府大阪市阿倍野区帝塚山1-9-4",
+      "lat": 34.627814,
+      "lng": 135.504025,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "国際文化科",
+          "deviation": 66
+        },
+        {
+          "name": "総合科学科",
+          "deviation": 65
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://sumiyoshi.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立住吉高等学校"
+    },
+    {
+      "id": "pref-senyo",
+      "name": "大阪府立泉陽高等学校",
+      "shortName": "泉陽",
+      "type": "public",
+      "gender": "coed",
+      "city": "堺市堺区",
+      "address": "大阪府堺市堺区車之町東3-2-1",
+      "lat": 34.579873,
+      "lng": 135.480273,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 65
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://senyo.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "大阪府立泉陽高等学校"
+    },
+    {
+      "id": "pref-kishiwada",
+      "name": "大阪府立岸和田高等学校",
+      "shortName": "岸和田",
+      "type": "public",
+      "gender": "coed",
+      "city": "岸和田市",
+      "address": "大阪府岸和田市岸城町10-1",
+      "lat": 34.458948,
+      "lng": 135.372101,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "文理学科",
+          "deviation": 68
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://kishiwada.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立岸和田高等学校"
+    },
+    {
+      "id": "pref-tondabayashi",
+      "name": "大阪府立富田林高等学校",
+      "shortName": "富田林",
+      "type": "public",
+      "gender": "coed",
+      "city": "富田林市",
+      "address": "大阪府富田林市谷川町4-30",
+      "lat": 34.497552,
+      "lng": 135.599286,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科（併設型中高一貫）",
+          "deviation": 65
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://tondabayashi.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立富田林高等学校 府立富田林中学校"
+    },
+    {
+      "id": "pref-imamiya",
+      "name": "大阪府立今宮高等学校",
+      "shortName": "今宮",
+      "type": "public",
+      "gender": "coed",
+      "city": "大阪市浪速区",
+      "address": "大阪府大阪市浪速区桜川2-10-1",
+      "lat": 34.652488,
+      "lng": 135.498651,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "総合学科",
+          "deviation": 62
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://imamiya.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "大阪府立今宮高等学校"
+    },
+    {
+      "id": "pref-ohtori",
+      "name": "大阪府立鳳高等学校",
+      "shortName": "鳳",
+      "type": "public",
+      "gender": "coed",
+      "city": "堺市西区",
+      "address": "大阪府堺市西区原田239",
+      "lat": 34.517135,
+      "lng": 135.459441,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 61
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://ohtori.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立鳳高等学校"
+    },
+    {
+      "id": "pref-abeno",
+      "name": "大阪府立阿倍野高等学校",
+      "shortName": "阿倍野",
+      "type": "public",
+      "gender": "coed",
+      "city": "大阪市阿倍野区",
+      "address": "大阪府大阪市阿倍野区阪南町1-48-8",
+      "lat": 34.635138,
+      "lng": 135.51459,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 60
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://abeno.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立阿倍野高等学校"
+    },
+    {
+      "id": "pref-sano",
+      "name": "大阪府立佐野高等学校",
+      "shortName": "佐野",
+      "type": "public",
+      "gender": "coed",
+      "city": "泉佐野市",
+      "address": "大阪府泉佐野市市場東1-1-1",
+      "lat": 34.406208,
+      "lng": 135.324039,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "国際文化科",
+          "deviation": 61
+        },
+        {
+          "name": "普通科",
+          "deviation": 58
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://sano.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "大阪府立佐野高等学校"
+    },
+    {
+      "id": "pref-izumi",
+      "name": "大阪府立和泉高等学校",
+      "shortName": "和泉",
+      "type": "public",
+      "gender": "coed",
+      "city": "岸和田市",
+      "address": "大阪府岸和田市土生町1-2-1",
+      "lat": 34.453371,
+      "lng": 135.382108,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "グローバル科",
+          "deviation": 59
+        },
+        {
+          "name": "普通科",
+          "deviation": 57
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://izumi-h.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立和泉高等学校"
+    },
+    {
+      "id": "pref-higashisumiyoshi",
+      "name": "大阪府立東住吉高等学校",
+      "shortName": "東住吉",
+      "type": "public",
+      "gender": "coed",
+      "city": "大阪市平野区",
+      "address": "大阪府大阪市平野区平野西2-3-77",
+      "lat": 34.617589,
+      "lng": 135.542154,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 57
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://higashisumiyoshi.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立東住吉高等学校"
+    },
+    {
+      "id": "pref-senboku",
+      "name": "大阪府立泉北高等学校",
+      "shortName": "泉北",
+      "type": "public",
+      "gender": "coed",
+      "city": "堺市南区",
+      "address": "大阪府堺市南区茶山台1-8-1",
+      "lat": 34.490306,
+      "lng": 135.5013,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "国際文化科",
+          "deviation": 57
+        },
+        {
+          "name": "総合科学科",
+          "deviation": 56
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://senboku.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "大阪府立泉北高等学校"
+    },
+    {
+      "id": "pref-tomigaoka",
+      "name": "大阪府立登美丘高等学校",
+      "shortName": "登美丘",
+      "type": "public",
+      "gender": "coed",
+      "city": "堺市東区",
+      "address": "大阪府堺市東区北野田1077",
+      "lat": 34.518613,
+      "lng": 135.540254,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 56
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://tomigaoka.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "大阪府立登美丘高等学校"
+    },
+    {
+      "id": "pref-hannan",
+      "name": "大阪府立阪南高等学校",
+      "shortName": "阪南",
+      "type": "public",
+      "gender": "coed",
+      "city": "大阪市阿倍野区",
+      "address": "大阪府大阪市阿倍野区阪南町3-9-11",
+      "lat": 34.595237,
+      "lng": 135.516441,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 55
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://hannan.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立阪南高等学校",
+      "dataWarnings": [
+        "登録住所と地図上の位置が別の市区町村を指している。住所が未確認のため要確認（通学時間は地図上の位置で計算している）。"
+      ]
+    },
+    {
+      "id": "pref-kumeda",
+      "name": "大阪府立久米田高等学校",
+      "shortName": "久米田",
+      "type": "public",
+      "gender": "coed",
+      "city": "岸和田市",
+      "address": "大阪府岸和田市額原町1100",
+      "lat": 34.461569,
+      "lng": 135.39779,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 55
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://kumeda.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立久米田高等学校"
+    },
+    {
+      "id": "pref-kanan",
+      "name": "大阪府立河南高等学校",
+      "shortName": "河南",
+      "type": "public",
+      "gender": "coed",
+      "city": "富田林市",
+      "address": "大阪府富田林市甲田1-1-1",
+      "lat": 34.499335,
+      "lng": 135.591341,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 55
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://kanan.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立河南高等学校"
+    },
+    {
+      "id": "pref-kanaoka",
+      "name": "大阪府立金岡高等学校",
+      "shortName": "金岡",
+      "type": "public",
+      "gender": "coed",
+      "city": "堺市北区",
+      "address": "大阪府堺市北区長曽根町1179-1",
+      "lat": 34.553628,
+      "lng": 135.527036,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 54
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://kanaoka.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "大阪府立金岡高等学校"
+    },
+    {
+      "id": "pref-sakaihigashi",
+      "name": "大阪府立堺東高等学校",
+      "shortName": "堺東",
+      "type": "public",
+      "gender": "coed",
+      "city": "堺市南区",
+      "address": "大阪府堺市南区三原台2-2-2",
+      "lat": 34.499624,
+      "lng": 135.534395,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 53
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://sakaihigashi.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "大阪府立堺東高等学校"
+    },
+    {
+      "id": "pref-nagano",
+      "name": "大阪府立長野高等学校",
+      "shortName": "長野",
+      "type": "public",
+      "gender": "coed",
+      "city": "河内長野市",
+      "address": "大阪府河内長野市原町1-1-1",
+      "lat": 34.459705,
+      "lng": 135.563596,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 52
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://nagano.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立長野高等学校"
+    },
+    {
+      "id": "pref-takaishi",
+      "name": "大阪府立高石高等学校",
+      "shortName": "高石",
+      "type": "public",
+      "gender": "coed",
+      "city": "高石市",
+      "address": "大阪府高石市取石2-14-19",
+      "lat": 34.519553,
+      "lng": 135.422295,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 50
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://takaishi.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立高石高等学校"
+    },
+    {
+      "id": "pref-kaizukaminami",
+      "name": "大阪府立貝塚南高等学校",
+      "shortName": "貝塚南",
+      "type": "public",
+      "gender": "coed",
+      "city": "貝塚市",
+      "address": "大阪府貝塚市橋本1000",
+      "lat": 34.426785,
+      "lng": 135.367874,
+      "coordSource": "gsi",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 50
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://kaizukaminami.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "dataWarnings": [
+        "地図データに該当校が無いため、座標は住所からの推定値。市区町村レベルでは住所と一致している。"
+      ]
+    },
+    {
+      "id": "pref-izumiotsu",
+      "name": "大阪府立泉大津高等学校",
+      "shortName": "泉大津",
+      "type": "public",
+      "gender": "coed",
+      "city": "泉大津市",
+      "address": "大阪府泉大津市豊中町1-1-1",
+      "lat": 34.498072,
+      "lng": 135.422388,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 48
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://izumiotsu.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立泉大津高等学校"
+    },
+    {
+      "id": "pref-hineno",
+      "name": "大阪府立日根野高等学校",
+      "shortName": "日根野",
+      "type": "public",
+      "gender": "coed",
+      "city": "泉佐野市",
+      "address": "大阪府泉佐野市日根野2372-1",
+      "lat": 34.391097,
+      "lng": 135.338705,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 48
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://hineno.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "大阪府立日根野高等学校"
+    },
+    {
+      "id": "pref-sakainishi",
+      "name": "大阪府立堺西高等学校",
+      "shortName": "堺西",
+      "type": "public",
+      "gender": "coed",
+      "city": "堺市南区",
+      "address": "大阪府堺市南区槇塚台4-2-1",
+      "lat": 34.495514,
+      "lng": 135.484299,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 47
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://sakainishi.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立堺西高等学校"
+    },
+    {
+      "id": "pref-rinku-shonan",
+      "name": "大阪府立りんくう翔南高等学校",
+      "shortName": "りんくう翔南",
+      "type": "public",
+      "gender": "coed",
+      "city": "泉南市",
+      "address": "大阪府泉南市信達牧野1900",
+      "lat": 34.367648,
+      "lng": 135.264995,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "総合学科",
+          "deviation": 45
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://rinkushonan.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "大阪府立りんくう翔南高等学校"
+    },
+    {
+      "id": "pref-hakata",
+      "name": "大阪府立伯太高等学校",
+      "shortName": "伯太",
+      "type": "public",
+      "gender": "coed",
+      "city": "和泉市",
+      "address": "大阪府和泉市伯太町2-4-1",
+      "lat": 34.490526,
+      "lng": 135.433034,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 45
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://hakata.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立伯太高等学校"
+    },
+    {
+      "id": "pref-matsubara",
+      "name": "大阪府立松原高等学校",
+      "shortName": "松原",
+      "type": "public",
+      "gender": "coed",
+      "city": "松原市",
+      "address": "大阪府松原市河合5-6-1",
+      "lat": 34.590627,
+      "lng": 135.561882,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "総合学科",
+          "deviation": 45
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://matsubara.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立松原高等学校"
+    },
+    {
+      "id": "pref-fukuizumi",
+      "name": "大阪府立福泉高等学校",
+      "shortName": "福泉",
+      "type": "public",
+      "gender": "coed",
+      "city": "堺市西区",
+      "address": "大阪府堺市西区太平寺249-1",
+      "lat": 34.50483,
+      "lng": 135.480113,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 44
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://fukuizumi.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立福泉高等学校"
+    },
+    {
+      "id": "pref-seibi",
+      "name": "大阪府立成美高等学校",
+      "shortName": "成美",
+      "type": "public",
+      "gender": "coed",
+      "city": "大阪市住之江区",
+      "address": "大阪府大阪市住之江区南加賀屋4-7-1",
+      "lat": 34.462557,
+      "lng": 135.48745,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "総合学科",
+          "deviation": 42
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://seibi.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "大阪府立成美高等学校",
+      "dataWarnings": [
+        "登録住所と地図上の位置が別の市区町村を指している。住所が未確認のため要確認（通学時間は地図上の位置で計算している）。"
+      ]
+    },
+    {
+      "id": "pref-sakai-kohka",
+      "name": "大阪府立堺工科高等学校",
+      "shortName": "堺工科",
+      "type": "public",
+      "gender": "coed",
+      "city": "堺市堺区",
+      "address": "大阪府堺市堺区大仙西町3-113",
+      "lat": 34.562609,
+      "lng": 135.476608,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "工業系（総合募集）",
+          "deviation": 42
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://sakai-th.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "大阪府立堺工科高等学校"
+    },
+    {
+      "id": "pref-izumitottori",
+      "name": "大阪府立泉鳥取高等学校",
+      "shortName": "泉鳥取",
+      "type": "public",
+      "gender": "coed",
+      "city": "阪南市",
+      "address": "大阪府阪南市自然田1890",
+      "lat": 34.339416,
+      "lng": 135.258977,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 42
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://izumitottori.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "府立泉鳥取高等学校"
+    },
+    {
+      "id": "pref-misaki",
+      "name": "大阪府立岬高等学校",
+      "shortName": "岬",
+      "type": "public",
+      "gender": "coed",
+      "city": "泉南郡岬町",
+      "address": "大阪府泉南郡岬町淡輪3246",
+      "lat": 34.323289,
+      "lng": 135.170539,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 40
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://misaki.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "notes": "大阪府最南端の府立高校。",
+      "osmName": "府立岬高等学校"
+    },
+    {
+      "id": "priv-seikyo-gakuen",
+      "name": "清教学園高等学校",
+      "shortName": "清教学園",
+      "type": "private",
+      "gender": "coed",
+      "city": "河内長野市",
+      "address": "大阪府河内長野市末広町623",
+      "lat": 34.445639,
+      "lng": 135.576164,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "S特進コース",
+          "deviation": 67
+        },
+        {
+          "name": "特進コース",
+          "deviation": 61
+        }
+      ],
+      "genderRatio": null,
+      "uniform": {
+        "type": "ブレザー",
+        "note": null
+      },
+      "website": "https://www.seikyo.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "私立清教学園高等学校"
+    },
+    {
+      "id": "priv-tezukayama-izumigaoka",
+      "name": "帝塚山学院泉ヶ丘高等学校",
+      "shortName": "帝塚山学院泉ヶ丘",
+      "type": "private",
+      "gender": "coed",
+      "city": "堺市南区",
+      "address": "大阪府堺市南区槇塚台4-5-1",
+      "lat": 34.488981,
+      "lng": 135.532387,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 58
+        }
+      ],
+      "genderRatio": null,
+      "uniform": {
+        "type": "ブレザー",
+        "note": null
+      },
+      "website": "https://www.tezuka-i-h.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "帝塚山学院泉ケ丘中学校高等学校"
+    },
+    {
+      "id": "priv-hatsushiba-ritsumeikan",
+      "name": "初芝立命館高等学校",
+      "shortName": "初芝立命館",
+      "type": "private",
+      "gender": "coed",
+      "city": "堺市東区",
+      "address": "大阪府堺市東区西野194-1",
+      "lat": 34.512745,
+      "lng": 135.542389,
+      "coordSource": "gsi",
+      "courses": [
+        {
+          "name": "立命館コース",
+          "deviation": 62
+        },
+        {
+          "name": "アドバンストコース",
+          "deviation": 55
+        }
+      ],
+      "genderRatio": null,
+      "uniform": {
+        "type": "ブレザー",
+        "note": null
+      },
+      "website": "https://www.hatsuritsu.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "dataWarnings": [
+        "地図データに該当校が無いため、座標は住所からの推定値。市区町村レベルでは住所と一致している。"
+      ]
+    },
+    {
+      "id": "priv-naniwa",
+      "name": "浪速高等学校",
+      "shortName": "浪速",
+      "type": "private",
+      "gender": "coed",
+      "city": "大阪市住吉区",
+      "address": "大阪府大阪市住吉区山之内2-13-57",
+      "lat": 34.597987,
+      "lng": 135.500581,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "Ⅰ類（文理S）",
+          "deviation": 62
+        },
+        {
+          "name": "Ⅱ類",
+          "deviation": 55
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://www.naniwa.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "私立浪速高等学校"
+    },
+    {
+      "id": "priv-osaka-gakugei",
+      "name": "大阪学芸高等学校",
+      "shortName": "大阪学芸",
+      "type": "private",
+      "gender": "coed",
+      "city": "大阪市住吉区",
+      "address": "大阪府大阪市住吉区長居1-4-15",
+      "lat": 34.615555,
+      "lng": 135.512434,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "特進コース",
+          "deviation": 58
+        },
+        {
+          "name": "進学コース",
+          "deviation": 50
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://www.osakagakugei.ac.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "大阪学芸高等学校"
+    },
+    {
+      "id": "priv-hagoromo-gakuen",
+      "name": "羽衣学園高等学校",
+      "shortName": "羽衣学園",
+      "type": "private",
+      "gender": "coed",
+      "city": "高石市",
+      "address": "大阪府高石市東羽衣1-11-57",
+      "lat": 34.53465,
+      "lng": 135.445899,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "文理特進Ⅰ類",
+          "deviation": 57
+        },
+        {
+          "name": "進学",
+          "deviation": 48
+        }
+      ],
+      "genderRatio": null,
+      "uniform": {
+        "type": "ブレザー",
+        "note": null
+      },
+      "website": "https://www.hagoromogakuen.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "羽衣学園 中学校・高等学校"
+    },
+    {
+      "id": "priv-higashi-otani",
+      "name": "東大谷高等学校",
+      "shortName": "東大谷",
+      "type": "private",
+      "gender": "girls",
+      "city": "堺市南区",
+      "address": "大阪府堺市南区三原台2-2-6",
+      "lat": 34.501694,
+      "lng": 135.514247,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "特進コース",
+          "deviation": 57
+        },
+        {
+          "name": "進学コース",
+          "deviation": 50
+        }
+      ],
+      "genderRatio": {
+        "male": 0,
+        "female": 100
+      },
+      "uniform": null,
+      "website": "https://www.higashiotani.ac.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "東大谷高等学校"
+    },
+    {
+      "id": "priv-kenmei-gakuin",
+      "name": "賢明学院高等学校",
+      "shortName": "賢明学院",
+      "type": "private",
+      "gender": "coed",
+      "city": "堺市堺区",
+      "address": "大阪府堺市堺区霞ヶ丘町4-3-30",
+      "lat": 34.552314,
+      "lng": 135.469706,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 52
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://kemmei.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "私立賢明学院高等学校"
+    },
+    {
+      "id": "priv-hannan-univ",
+      "name": "阪南大学高等学校",
+      "shortName": "阪南大学高",
+      "type": "private",
+      "gender": "coed",
+      "city": "松原市",
+      "address": "大阪府松原市天美西4-20-1",
+      "lat": 34.570701,
+      "lng": 135.544344,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 50
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://www.hdaifu.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "私立阪南大学高等学校"
+    },
+    {
+      "id": "priv-kindai-senshu",
+      "name": "近畿大学泉州高等学校",
+      "shortName": "近大泉州",
+      "type": "private",
+      "gender": "coed",
+      "city": "泉佐野市",
+      "address": "大阪府泉佐野市市場東1-7-1",
+      "lat": 34.418475,
+      "lng": 135.432456,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 48
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://www.kindai-senshu.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "近畿大学泉州高等学校",
+      "dataWarnings": [
+        "登録住所と地図上の位置が別の市区町村を指している。住所が未確認のため要確認（通学時間は地図上の位置で計算している）。"
+      ]
+    },
+    {
+      "id": "priv-osakashodai-sakai",
+      "name": "大阪商業大学堺高等学校",
+      "shortName": "大商大堺",
+      "type": "private",
+      "gender": "coed",
+      "city": "堺市中区",
+      "address": "大阪府堺市中区堀上町358",
+      "lat": 34.530287,
+      "lng": 135.484784,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 48
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://www.shodai-sakai.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "大阪商業大学堺高等学校"
+    },
+    {
+      "id": "priv-kokoku",
+      "name": "興國高等学校",
+      "shortName": "興國",
+      "type": "private",
+      "gender": "boys",
+      "city": "大阪市天王寺区",
+      "address": "大阪府大阪市天王寺区寺田町2-1-15",
+      "lat": 34.652722,
+      "lng": 135.521882,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "特進コース",
+          "deviation": 53
+        },
+        {
+          "name": "進学コース",
+          "deviation": 45
+        }
+      ],
+      "genderRatio": {
+        "male": 100,
+        "female": 0
+      },
+      "uniform": null,
+      "website": "https://www.kokoku.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "興國高等学校"
+    },
+    {
+      "id": "priv-seimei-gakuin",
+      "name": "清明学院高等学校",
+      "shortName": "清明学院",
+      "type": "private",
+      "gender": "coed",
+      "city": "大阪市住吉区",
+      "address": "大阪府大阪市住吉区長居東4-7-23",
+      "lat": 34.607379,
+      "lng": 135.494547,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 47
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://www.seimei.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "私立清明学院高等学校"
+    },
+    {
+      "id": "priv-abeno-shogaku",
+      "name": "あべの翔学高等学校",
+      "shortName": "あべの翔学",
+      "type": "private",
+      "gender": "coed",
+      "city": "大阪市阿倍野区",
+      "address": "大阪府大阪市阿倍野区阪南町1-30-26",
+      "lat": 34.642314,
+      "lng": 135.525206,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 45
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://abenoshogaku.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "あべの翔学高等学校"
+    },
+    {
+      "id": "priv-kenkoku",
+      "name": "建国高等学校",
+      "shortName": "建国",
+      "type": "private",
+      "gender": "coed",
+      "city": "大阪市住吉区",
+      "address": "大阪府大阪市住吉区遠里小野2-3-13",
+      "lat": 34.597241,
+      "lng": 135.499462,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 45
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://kenkoku.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "私立建国高等学校"
+    },
+    {
+      "id": "priv-kaorugaoka-liberte",
+      "name": "香ヶ丘リベルテ高等学校",
+      "shortName": "香ヶ丘リベルテ",
+      "type": "private",
+      "gender": "girls",
+      "city": "堺市堺区",
+      "address": "大阪府堺市堺区香ヶ丘町4-2-16",
+      "lat": 34.583991,
+      "lng": 135.497222,
+      "coordSource": "osm",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 42
+        }
+      ],
+      "genderRatio": {
+        "male": 0,
+        "female": 100
+      },
+      "uniform": null,
+      "website": "https://www.liberte.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "osmName": "香ヶ丘リベルテ高等学校"
+    },
+    {
+      "id": "priv-osaka-gyoko",
+      "name": "大阪暁光高等学校",
+      "shortName": "大阪暁光",
+      "type": "private",
+      "gender": "coed",
+      "city": "河内長野市",
+      "address": "大阪府河内長野市楠町西1090",
+      "lat": 34.471233,
+      "lng": 135.560059,
+      "coordSource": "gsi",
+      "courses": [
+        {
+          "name": "普通科",
+          "deviation": 42
+        }
+      ],
+      "genderRatio": null,
+      "uniform": null,
+      "website": "https://www.osaka-gyoko.ed.jp/",
+      "updatedAt": null,
+      "verified": false,
+      "dataWarnings": [
+        "地図データに該当校が無いため、座標は住所からの推定値。市区町村レベルでは住所と一致している。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>大阪 高校さがし｜通学時間・偏差値から探す</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h1>大阪 高校さがし</h1>
+  <p class="tagline">最寄り駅からの通学時間と偏差値で、公立・私立をまとめて探す（大阪市〜岬町）</p>
+</header>
+
+<main class="layout">
+
+  <!-- ============ 条件パネル ============ -->
+  <form id="conditions" class="panel" autocomplete="off">
+
+    <section class="field">
+      <h2><span class="step">1</span>性別</h2>
+      <div class="chips" role="radiogroup" aria-label="性別">
+        <label class="chip"><input type="radio" name="gender" value="any" checked><span>指定なし</span></label>
+        <label class="chip"><input type="radio" name="gender" value="male"><span>男子</span></label>
+        <label class="chip"><input type="radio" name="gender" value="female"><span>女子</span></label>
+      </div>
+      <p class="hint">男子校・女子校の表示可否に使います。</p>
+    </section>
+
+    <section class="field">
+      <h2><span class="step">2</span>最寄り駅</h2>
+      <input type="text" id="station" list="station-list" placeholder="例：中百舌鳥、堺東、和泉中央" spellcheck="false">
+      <datalist id="station-list"></datalist>
+      <p class="hint" id="station-hint">駅名を入力すると候補が出ます。</p>
+    </section>
+
+    <section class="field">
+      <h2><span class="step">3</span>通学手段と上限時間</h2>
+      <div class="chips">
+        <label class="chip"><input type="checkbox" name="mode" value="walk" checked><span>徒歩</span></label>
+        <label class="chip"><input type="checkbox" name="mode" value="bike" checked><span>自転車</span></label>
+        <label class="chip"><input type="checkbox" name="mode" value="bus"><span>バス</span></label>
+        <label class="chip"><input type="checkbox" name="mode" value="train" checked><span>電車</span></label>
+      </div>
+
+      <label class="inline-label" for="access">駅までの移動</label>
+      <select id="access">
+        <option value="walk">徒歩で駅まで</option>
+        <option value="bike">自転車で駅まで（駅前駐輪場を使う）</option>
+      </select>
+
+      <label class="inline-label" for="limit">片道の上限：<output id="limit-out">60</output> 分</label>
+      <input type="range" id="limit" min="10" max="120" step="5" value="60">
+    </section>
+
+    <section class="field">
+      <h2><span class="step">4</span>偏差値</h2>
+      <div class="two-col">
+        <div>
+          <label class="inline-label" for="current">現在</label>
+          <input type="number" id="current" min="25" max="80" step="1" value="55">
+        </div>
+        <div>
+          <label class="inline-label" for="target">目標</label>
+          <input type="number" id="target" min="25" max="80" step="1" value="60">
+        </div>
+      </div>
+      <label class="switch"><input type="checkbox" id="narrow" checked><span>狙える範囲だけに絞る</span></label>
+    </section>
+
+    <section class="field">
+      <h2><span class="step">5</span>学校の種別</h2>
+      <div class="chips">
+        <label class="chip"><input type="checkbox" name="type" value="public" checked><span>公立</span></label>
+        <label class="chip"><input type="checkbox" name="type" value="private" checked><span>私立</span></label>
+      </div>
+      <label class="inline-label" for="sort">並び順</label>
+      <select id="sort">
+        <option value="time">通学時間が短い順</option>
+        <option value="dev-desc">偏差値が高い順</option>
+        <option value="dev-asc">偏差値が低い順</option>
+      </select>
+    </section>
+  </form>
+
+  <!-- ============ 結果 ============ -->
+  <div class="results-area">
+    <div id="summary" class="summary">最寄り駅を入力してください。</div>
+    <div id="results" class="results"></div>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <p><strong>データについて</strong></p>
+  <ul>
+    <li>通学時間は駅の座標と路線データから計算した<strong>概算</strong>です（誤差およそ±10分）。実際の時刻表・乗換案内で必ず確認してください。</li>
+    <li>偏差値は民間模試の一般的な目安をもとにした<strong>参考値</strong>で、公式発表ではありません。</li>
+    <li>「未検証」バッジの付いた項目は公式サイトからの取得がまだ済んでいません。</li>
+    <li>バスは路線データを持たないため、直線距離からの粗い概算です。</li>
+  </ul>
+</footer>
+
+<script src="js/transit.js"></script>
+<script src="data/bundle.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
