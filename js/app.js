@@ -32,18 +32,37 @@
     }
     HSTransit.build(DATA.lines.lines);
     fillStations();
+    loadBookmarks();
     loadSettings();
     bindEvents();
     render();
   }
 
   // ---------- 画面の切り替え ----------
-  function showSettings(on) {
-    $('#view-search').hidden = on;
-    $('#view-settings').hidden = !on;
-    document.body.classList.toggle('settings-open', on);
+  const VIEWS = ['search', 'bookmark', 'compare', 'settings'];
+  let currentView = 'search';
+
+  function showView(name) {
+    if (!VIEWS.includes(name)) name = 'search';
+    currentView = name;
+    VIEWS.forEach((v) => {
+      $('#view-' + v).hidden = v !== name;
+    });
+    document.querySelectorAll('.tab').forEach((t) => {
+      const on = t.dataset.view === name;
+      t.classList.toggle('is-active', on);
+      if (on) t.setAttribute('aria-current', 'page');
+      else t.removeAttribute('aria-current');
+    });
+    document.body.classList.toggle('settings-open', name === 'settings');
     window.scrollTo(0, 0);
-    if (on) $('#station').focus();
+    if (name === 'bookmark') renderBookmarks();
+    if (name === 'compare') renderCompare();
+  }
+
+  /** 設定画面から検索画面へ戻る（「この条件で探す」用） */
+  function showSettings(on) {
+    showView(on ? 'settings' : 'search');
   }
 
   // ---------- 設定の保存（次に開いたときも同じ条件で始められるように） ----------
@@ -124,9 +143,10 @@
     document.querySelector('.sort-bar').addEventListener('change', onChange);
     $('#q').addEventListener('input', render);
 
-    $('#openSettings').addEventListener('click', () => showSettings(true));
-    $('#closeSettings').addEventListener('click', () => showSettings(false));
-    $('#applySettings').addEventListener('click', () => showSettings(false));
+    document.querySelectorAll('.tab').forEach((t) => {
+      t.addEventListener('click', () => showView(t.dataset.view));
+    });
+    $('#applySettings').addEventListener('click', () => showView('search'));
   }
 
   // ---------- 条件の読み取り ----------
@@ -180,6 +200,168 @@
       norm(s.shortName).includes(needle) ||
       norm(s.formerName).includes(needle) ||
       norm(s.city).includes(needle);
+  }
+
+  // ---------- ブックマーク ----------
+  const BOOKMARK_KEY = 'hs-bookmarks-v1';
+  let bookmarks = new Set();
+
+  function loadBookmarks() {
+    try {
+      const raw = JSON.parse(localStorage.getItem(BOOKMARK_KEY) || '[]');
+      bookmarks = new Set(Array.isArray(raw) ? raw : []);
+    } catch (e) {
+      bookmarks = new Set();
+    }
+    updateBookmarkCount();
+  }
+
+  function saveBookmarks() {
+    try {
+      localStorage.setItem(BOOKMARK_KEY, JSON.stringify(Array.from(bookmarks)));
+    } catch (e) {
+      /* 保存できない環境でも、その回のあいだは動く */
+    }
+    updateBookmarkCount();
+  }
+
+  function updateBookmarkCount() {
+    const badge = $('#bookmarkCount');
+    badge.textContent = String(bookmarks.size);
+    badge.hidden = bookmarks.size === 0;
+  }
+
+  function bookmarkedSchools() {
+    return DATA.schools.schools.filter((s) => bookmarks.has(s.id));
+  }
+
+  /** ブックマーク画面。検索画面と同じカードを、登録順で並べる。 */
+  function renderBookmarks() {
+    const box = $('#bookmarkResults');
+    box.innerHTML = '';
+    const c = readConditions();
+    const station = stationIndex.get(c.stationName);
+    const list = bookmarkedSchools();
+
+    $('#bookmarkSummary').innerHTML = list.length
+      ? '<strong>' + list.length + '校</strong> を登録しています' +
+        (station ? '' : '<br>最寄り駅が未設定のため、通学時間は出ません。')
+      : '';
+
+    if (!list.length) {
+      box.appendChild(el('div', 'empty',
+        'まだありません。学校カードの☆を押すと、ここに集まります。'));
+      return;
+    }
+    list.forEach((s) => box.appendChild(card(buildRow(s, station, c), c)));
+  }
+
+  /** 学校1件から、カードを描くのに必要な計算をまとめる。 */
+  function buildRow(s, station, c) {
+    const r = station && s.lat != null
+      ? HSTransit.route(station, s, { modes: c.modes, stationAccess: c.access })
+      : null;
+    const devs = s.courses.map((x) => x.deviation).filter((d) => d != null);
+    const hasDev = devs.length > 0;
+    const courseJudges = s.courses.map((x) => ({
+      name: x.name,
+      deviation: x.deviation,
+      estimated: !!x.estimated,
+      j: x.deviation == null ? null : judge(c.current, c.target, x.deviation)
+    }));
+    const judged = courseJudges.filter((x) => x.j);
+    return {
+      school: s,
+      route: r,
+      nearest: s.lat != null ? HSTransit.nearestStation(s) : null,
+      minDev: hasDev ? Math.min.apply(null, devs) : null,
+      maxDev: hasDev ? Math.max.apply(null, devs) : null,
+      hasDev,
+      courseJudges,
+      bestJudge: judged.length
+        ? judged.reduce((a, b) => (JUDGE_RANK[a.j.key] <= JUDGE_RANK[b.j.key] ? a : b)).j
+        : null
+    };
+  }
+
+  // ---------- 比較 ----------
+  /** ブックマークした学校を並べて見比べる表。 */
+  function renderCompare() {
+    const wrap = $('#compareTable');
+    wrap.innerHTML = '';
+    const c = readConditions();
+    const station = stationIndex.get(c.stationName);
+    const list = bookmarkedSchools();
+
+    $('#compareSummary').textContent = list.length
+      ? 'ブックマークした' + list.length + '校を比べています。'
+      : '';
+
+    if (list.length < 2) {
+      wrap.appendChild(el('div', 'empty',
+        list.length
+          ? 'あと1校ブックマークすると比べられます。'
+          : '学校カードの☆で2校以上ブックマークすると、ここで見比べられます。'));
+      return;
+    }
+
+    const rows = list.map((s) => buildRow(s, station, c));
+    const modeLabel = { walk: '徒歩', bike: '自転車', bus: 'バス', train: '電車' };
+
+    const FIELDS = [
+      ['種別', (r) => (r.school.type === 'public' ? '公立' : '私立')],
+      ['通学時間', (r) => (r.route && r.route.best
+        ? fmtMin(r.route.best.minutes) + '分（' + modeLabel[r.route.best.mode] + '）'
+        : '—')],
+      ['学校の最寄り駅', (r) => (r.nearest
+        ? r.nearest.name + '　徒歩' + fmtMin(r.nearest.walkMin) + '分' : '—')],
+      ['偏差値', (r) => (r.hasDev
+        ? (r.minDev === r.maxDev ? r.minDev : r.minDev + '〜' + r.maxDev) : 'データなし')],
+      ['判定', (r) => (r.bestJudge ? r.bestJudge.label : '—'), (r) => r.bestJudge && r.bestJudge.key],
+      ['学科数', (r) => r.school.courses.length + '学科'],
+      ['昨年の倍率', (r) => (r.school.lastYearRatio != null
+        ? r.school.lastYearRatio + '倍' + (r.school.lastYearUnderCapacity ? '（定員割れ）' : '')
+        : '—')],
+      ['入学金', (r) => feeText(r.school)],
+      ['男女', (r) => ({ boys: '男子校', girls: '女子校' }[r.school.gender] || '共学')],
+      ['所在地', (r) => r.school.city || r.school.address || '—']
+    ];
+
+    const table = el('table', 'compare');
+    const thead = el('thead');
+    const hr = el('tr');
+    hr.appendChild(el('th', 'rowhead', ''));
+    rows.forEach((r) => {
+      const th = el('th');
+      th.appendChild(el('span', 'cmp-name', r.school.name.replace('大阪府立', '')));
+      hr.appendChild(th);
+    });
+    thead.appendChild(hr);
+    table.appendChild(thead);
+
+    const tbody = el('tbody');
+    FIELDS.forEach(([label, get, cls]) => {
+      const tr = el('tr');
+      tr.appendChild(el('th', 'rowhead', label));
+      rows.forEach((r) => {
+        const td = el('td', cls && cls(r) ? 'judge-cell ' + cls(r) : null, String(get(r)));
+        tr.appendChild(td);
+      });
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    wrap.appendChild(table);
+
+    const note = el('p', 'hint',
+      '通学時間は概算、偏差値は想定値です。入学金は公立のみ確定額で、私立は各校の募集要項で確認してください。');
+    wrap.appendChild(note);
+  }
+
+  /** 入学金の表示文。私立は公的な一覧が無いので額を出さない。 */
+  function feeText(s) {
+    const f = s.admissionFee;
+    if (f && typeof f.amount === 'number') return f.amount.toLocaleString('ja-JP') + '円';
+    return s.type === 'private' ? '募集要項で確認' : '未登録';
   }
 
   // ---------- 並び替え ----------
@@ -382,6 +564,26 @@
     if (row.bestJudge) {
       top.appendChild(el('span', 'judge ' + row.bestJudge.key, row.bestJudge.label));
     }
+    // ブックマークの☆。カードの開閉に巻き込まれないよう button にする。
+    const star = el('button', 'star', bookmarks.has(s.id) ? '★' : '☆');
+    star.type = 'button';
+    star.title = 'ブックマークに入れる／外す';
+    star.setAttribute('aria-pressed', String(bookmarks.has(s.id)));
+    star.setAttribute('aria-label', s.name + 'をブックマーク');
+    star.addEventListener('click', () => {
+      const on = !bookmarks.has(s.id);
+      if (on) bookmarks.add(s.id);
+      else bookmarks.delete(s.id);
+      saveBookmarks();
+      star.textContent = on ? '★' : '☆';
+      star.classList.toggle('on', on);
+      star.setAttribute('aria-pressed', String(on));
+      // ブックマーク画面から外したら、その場で消えるようにする
+      if (!on && currentView === 'bookmark') renderBookmarks();
+    });
+    star.classList.toggle('on', bookmarks.has(s.id));
+    top.appendChild(star);
+
     node.appendChild(top);
     const where = [s.city, s.address].filter(Boolean).join('　');
     if (where) node.appendChild(el('div', 'school-meta', where));
@@ -520,6 +722,20 @@
         : '公式サイトの記載から取得';
       detail.appendChild(t);
     }
+
+    // --- 入学金 ---
+    // 公立は課程ごとに一律で確定額がある。私立は学校別の一覧が公表されていないので額を出さない。
+    const fee = el('p', 'school-fee');
+    fee.appendChild(el('span', 'fee-label', '入学金'));
+    const feeVal = el('span', 'fee-value', feeText(s));
+    if (!(s.admissionFee && typeof s.admissionFee.amount === 'number')) {
+      feeVal.classList.add('muted');
+      feeVal.title = '私立高校の入学金をまとめた公的な一覧はありません。各校の募集要項で確認してください。';
+    } else if (s.admissionFee.source) {
+      feeVal.title = s.admissionFee.note + '（出典：' + s.admissionFee.source + '）';
+    }
+    fee.appendChild(feeVal);
+    detail.appendChild(fee);
 
     // --- 特徴のまとめ ---
     detail.appendChild(el('p', 'school-summary', describe(s, row, c)));

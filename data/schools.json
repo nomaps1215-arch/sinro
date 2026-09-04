@@ -53,7 +53,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 195人が募集人員 240人に届きませんでした（倍率 0.81）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ashima-hs",
@@ -88,7 +94,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 224人が募集人員 240人に届きませんでした（倍率 0.93）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ichiritsu",
@@ -122,7 +134,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-korigaoka",
@@ -156,7 +174,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-nagaohighschool",
@@ -191,7 +215,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 90人が募集人員 160人に届きませんでした（倍率 0.56）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-hirakata",
@@ -225,7 +255,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-hirakatatsuda",
@@ -260,7 +296,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 199人が募集人員 240人に届きませんでした（倍率 0.83）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-hirakatanagisa",
@@ -295,7 +337,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 222人が募集人員 240人に届きませんでした（倍率 0.93）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-makino",
@@ -329,7 +377,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kitakawachisatsukigaoka",
@@ -364,7 +418,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 195人が募集人員 240人に届きませんでした（倍率 0.81）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-nishineyagawa",
@@ -399,7 +459,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 107人が募集人員 240人に届きませんでした（倍率 0.45）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-neyagawa",
@@ -433,7 +499,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-nozaki",
@@ -464,7 +536,13 @@
       "lastYearRatio": 0.63,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 101人が募集人員 160人に届きませんでした（倍率 0.63）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 101人が募集人員 160人に届きませんでした（倍率 0.63）。",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ryokufukan",
@@ -499,7 +577,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 219人が募集人員 240人に届きませんでした（倍率 0.91）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kadomanishi",
@@ -534,7 +618,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 69人が募集人員 160人に届きませんでした（倍率 0.43）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kadomanamihaya-my-canva-site",
@@ -568,7 +658,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-shijonawate",
@@ -602,7 +698,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-katano",
@@ -637,7 +739,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 223人が募集人員 240人に届きませんでした（倍率 0.93）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kanan",
@@ -672,7 +780,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 263人が募集人員 280人に届きませんでした（倍率 0.94）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kongo-hs",
@@ -706,7 +820,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-tondabayashi",
@@ -740,7 +860,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-nagano",
@@ -775,7 +901,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 147人が募集人員 237人に届きませんでした（倍率 0.62）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-otsuka",
@@ -810,7 +942,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 110人が募集人員 160人に届きませんでした（倍率 0.69）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ikuno",
@@ -847,7 +985,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-matsubara",
@@ -882,7 +1026,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 178人が募集人員 240人に届きませんでした（倍率 0.74）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kaifukan",
@@ -913,7 +1063,13 @@
       "lastYearRatio": 0.42,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 50人が募集人員 120人に届きませんでした（倍率 0.42）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 50人が募集人員 120人に届きませんでした（倍率 0.42）。",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-fujiidera",
@@ -947,7 +1103,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-zennichi",
@@ -996,7 +1158,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sayama",
@@ -1035,7 +1203,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kitasenri",
@@ -1069,7 +1243,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-suita",
@@ -1104,7 +1284,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 223人が募集人員 240人に届きませんでした（倍率 0.93）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-suitahigashi",
@@ -1138,7 +1324,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-yamada",
@@ -1172,7 +1364,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-osaka-senri-hs",
@@ -1206,7 +1404,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-akutagawa",
@@ -1241,7 +1445,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 273人が募集人員 280人に届きませんでした（倍率 0.97）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-abuno",
@@ -1275,7 +1485,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ohkanmuri",
@@ -1309,7 +1525,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-takatsukikita",
@@ -1344,7 +1566,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 244人が募集人員 280人に届きませんでした（倍率 0.87）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-mishima-hs",
@@ -1378,7 +1606,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-tsukinoki",
@@ -1413,7 +1647,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 221人が募集人員 240人に届きませんでした（倍率 0.92）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ibarakinishi",
@@ -1448,7 +1688,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 238人が募集人員 240人に届きませんでした（倍率 0.99）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kasugaoka",
@@ -1487,7 +1733,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-hokusetsutsubasa",
@@ -1518,7 +1770,13 @@
       "lastYearRatio": 0.62,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 125人が募集人員 200人に届きませんでした（倍率 0.62）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 125人が募集人員 200人に届きませんでした（倍率 0.62）。",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ibaraki-t",
@@ -1568,7 +1826,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 112人が募集人員 140人に届きませんでした（倍率 0.8）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ibaraki",
@@ -1602,7 +1866,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-osaka-fukui",
@@ -1637,7 +1907,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 75人が募集人員 144人に届きませんでした（倍率 0.52）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-settsu",
@@ -1671,7 +1947,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-yao",
@@ -1705,7 +1987,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-yaosuisho",
@@ -1739,7 +2027,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-yamamoto-shs",
@@ -1773,7 +2067,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-wp",
@@ -1808,7 +2108,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 216人が募集人員 224人に届きませんでした（倍率 0.96）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kawachino",
@@ -1837,7 +2143,13 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-hanazono",
@@ -1871,7 +2183,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-fuse",
@@ -1905,7 +2223,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-midoriseiho",
@@ -1940,7 +2264,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 235人が募集人員 240人に届きませんでした（倍率 0.98）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-joto-tech",
@@ -1977,7 +2307,13 @@
       "website": "https://joto-tech.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-higashiosakamirai-t",
@@ -2027,7 +2363,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 217人が募集人員 245人に届きませんでした（倍率 0.89）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-fusekouka-sakura-ne",
@@ -2064,7 +2406,13 @@
       "website": "https://fusekouka.sakura.ne.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-hiraokashofu",
@@ -2095,7 +2443,13 @@
       "lastYearRatio": 0.61,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 97人が募集人員 160人に届きませんでした（倍率 0.61）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 97人が募集人員 160人に届きませんでした（倍率 0.61）。",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-fusekita",
@@ -2124,7 +2478,13 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-owa",
@@ -2158,7 +2518,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sakuranomiya",
@@ -2192,7 +2558,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-higashi",
@@ -2226,7 +2598,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-miyakojima-t",
@@ -2260,7 +2638,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-nishinoda",
@@ -2297,7 +2681,13 @@
       "website": "https://www.osaka-c.ed.jp/nishinoda-t-p/Zenhp/nishinoda/index.html",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sakuyakonohana",
@@ -2331,7 +2721,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-chuo",
@@ -2356,7 +2752,13 @@
       "website": "https://www3.osaka-c.ed.jp/chuo",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-otemae-hs",
@@ -2390,7 +2792,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-minato-hs",
@@ -2424,7 +2832,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ichioka",
@@ -2458,7 +2872,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-izuo-t",
@@ -2493,7 +2913,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 92人が募集人員 140人に届きませんでした（倍率 0.66）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-taishohakuryo",
@@ -2518,7 +2944,13 @@
       "website": "https://www.osaka-c.ed.jp/taishohakuryo/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-shimizudani",
@@ -2552,7 +2984,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-yuhigaoka",
@@ -2589,7 +3027,13 @@
       "deviationFetchedAt": "2026-09-04",
       "dataWarnings": [
         "座標は公式サイトの住所から求めた値で、市区町村の照合ができていない。"
-      ]
+      ],
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kozu",
@@ -2623,7 +3067,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-obf-hs",
@@ -2652,7 +3102,13 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-imamiya",
@@ -2689,7 +3145,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-yodo-b",
@@ -2724,7 +3186,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 145人が募集人員 200人に届きませんでした（倍率 0.72）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-higashiyodogawa",
@@ -2758,7 +3226,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-higashiyodo-t",
@@ -2793,7 +3267,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 100人が募集人員 140人に届きませんでした（倍率 0.71）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kitano",
@@ -2827,7 +3307,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kunijima",
@@ -2861,7 +3347,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-yodogawaseiryu",
@@ -2886,7 +3378,13 @@
       "website": "https://www.osaka-c.ed.jp/yodogawaseiryu/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-osakawakaba",
@@ -2915,7 +3413,13 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ikuno-t",
@@ -2948,7 +3452,13 @@
       "website": "https://www3.osaka-c.ed.jp/ikuno-t",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-asahi",
@@ -2983,7 +3493,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 315人が募集人員 317人に届きませんでした（倍率 0.99）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-yodogawa-t",
@@ -3028,7 +3544,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 193人が募集人員 210人に届きませんでした（倍率 0.92）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-seijo-t",
@@ -3057,7 +3579,13 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-han-ai",
@@ -3091,7 +3619,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-tsurumi-b",
@@ -3126,7 +3660,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 148人が募集人員 160人に届きませんでした（倍率 0.93）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-abeno",
@@ -3160,7 +3700,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kogei-osaka",
@@ -3189,7 +3735,13 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sumiyoshi",
@@ -3226,7 +3778,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-tennoji",
@@ -3263,7 +3821,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-konan-zokei",
@@ -3292,7 +3856,13 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-osaka-city-ib",
@@ -3321,7 +3891,13 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sumiyoshi-b",
@@ -3356,7 +3932,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 119人が募集人員 160人に届きませんでした（倍率 0.74）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-hannan",
@@ -3397,7 +3979,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 247人が募集人員 280人に届きませんでした（倍率 0.88）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-partner",
@@ -3425,7 +4013,13 @@
       "verified": false,
       "dataWarnings": [
         "座標は公式サイトの住所から求めた値で、市区町村の照合ができていない。"
-      ]
+      ],
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-higashisumiyoshi",
@@ -3459,7 +4053,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-hirano",
@@ -3488,7 +4088,13 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-higashi-sumiyoshi-sougou",
@@ -3523,7 +4129,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 213人が募集人員 234人に届きませんでした（倍率 0.91）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-nagayoshi",
@@ -3552,7 +4164,13 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-imamiya-t",
@@ -3597,7 +4215,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 232人が募集人員 245人に届きませんでした（倍率 0.95）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-nishinari",
@@ -3626,7 +4250,13 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kanaoka",
@@ -3660,7 +4290,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sakaikami",
@@ -3695,7 +4331,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 237人が募集人員 240人に届きませんでした（倍率 0.99）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sakainishi",
@@ -3729,7 +4371,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-senyo",
@@ -3763,7 +4411,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-tomigaoka",
@@ -3800,7 +4454,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-higashimozu",
@@ -3834,7 +4494,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-fukuizumi",
@@ -3859,7 +4525,13 @@
       "website": "https://www.osaka-c.ed.jp/fukuizumi/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-mihara",
@@ -3888,7 +4560,13 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ohtori",
@@ -3923,7 +4601,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 221人が募集人員 240人に届きませんでした（倍率 0.92）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-osaka-nougei",
@@ -3967,7 +4651,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sakai-kohka",
@@ -4017,7 +4707,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 184人が募集人員 245人に届きませんでした（倍率 0.75）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-senboku",
@@ -4051,7 +4747,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-mikunigaoka",
@@ -4088,7 +4790,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sakaihigashi",
@@ -4122,7 +4830,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-seibi",
@@ -4156,7 +4870,13 @@
       "lastYearRatio": 0.64,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 92人が募集人員 144人に届きませんでした（倍率 0.64）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 92人が募集人員 144人に届きませんでした（倍率 0.64）。",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-izumiotsu",
@@ -4191,7 +4911,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 233人が募集人員 240人に届きませんでした（倍率 0.97）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-shinoda",
@@ -4226,7 +4952,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 221人が募集人員 240人に届きませんでした（倍率 0.92）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-hakata",
@@ -4261,7 +4993,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 234人が募集人員 240人に届きませんでした（倍率 0.97）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-izumi-t",
@@ -4290,7 +5028,13 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-takaishi",
@@ -4324,7 +5068,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-izumi",
@@ -4358,7 +5108,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kumeda",
@@ -4392,7 +5148,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kishiwada",
@@ -4426,7 +5188,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kaizukaminami",
@@ -4464,7 +5232,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 220人が募集人員 240人に届きませんでした（倍率 0.92）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kaizuka",
@@ -4501,7 +5275,13 @@
       "deviationFetchedAt": "2026-09-04",
       "dataWarnings": [
         "座標は公式サイトの住所から求めた値で、市区町村の照合ができていない。"
-      ]
+      ],
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sano",
@@ -4535,7 +5315,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-hineno",
@@ -4569,7 +5355,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-zen",
@@ -4619,7 +5411,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 198人が募集人員 210人に届きませんでした（倍率 0.94）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-rinku-shonan",
@@ -4654,7 +5452,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 121人が募集人員 160人に届きませんでした（倍率 0.76）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-misaki",
@@ -4680,7 +5484,13 @@
       "websiteSource": "公式一覧",
       "updatedAt": null,
       "verified": false,
-      "notes": "大阪府最南端の府立高校。"
+      "notes": "大阪府最南端の府立高校。",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-momodani-p",
@@ -4705,7 +5515,13 @@
       "website": "https://www2.osaka-c.ed.jp/momodani-p",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "admissionFee": {
+        "amount": 2100,
+        "note": "定時制・通信制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sakurazuka-hs",
@@ -4739,7 +5555,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 2100,
+        "note": "定時制・通信制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-teshima-hs",
@@ -4774,7 +5596,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 276人が募集人員 280人に届きませんでした（倍率 0.99）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-toneyama",
@@ -4808,7 +5636,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-toyonaka",
@@ -4842,7 +5676,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-senriseiun",
@@ -4876,7 +5716,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ikeda-h",
@@ -4911,7 +5757,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 359人が募集人員 360人に届きませんでした（倍率 1.0）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-shibutani",
@@ -4946,7 +5798,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 232人が募集人員 240人に届きませんでした（倍率 0.97）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-osaka-engei",
@@ -4991,7 +5849,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 151人が募集人員 200人に届きませんでした（倍率 0.76）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-minoh-high-school",
@@ -5025,7 +5889,13 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-minoohigashi",
@@ -5050,7 +5920,13 @@
       "website": "https://www.osaka-c.ed.jp/minoohigashi/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "priv-high-aino",
@@ -7077,45 +7953,6 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://kenmei.jp",
-      "websiteSource": "公式一覧",
-      "updatedAt": null,
-      "verified": false,
-      "deviationSource": "みんなの高校情報",
-      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
-    },
-    {
-      "id": "priv-correspondencecourse",
-      "name": "賢明学院高等学校",
-      "shortName": "賢明学院",
-      "type": "private",
-      "gender": "coed",
-      "division": "全日制",
-      "city": null,
-      "address": "大阪府堺市堺区霞ケ丘町4-3-30",
-      "lat": 34.552314,
-      "lng": 135.469706,
-      "coordSource": "osm",
-      "courses": [
-        {
-          "name": "普通科関西学院大学特進ｻｲｴﾝｽｺｰｽ",
-          "deviation": 58,
-          "estimated": true
-        },
-        {
-          "name": "普通科特進エグゼコース",
-          "deviation": 54,
-          "estimated": true
-        },
-        {
-          "name": "普通科特進コース",
-          "deviation": 49,
-          "estimated": true
-        }
-      ],
-      "genderRatio": null,
-      "uniform": null,
-      "website": "https://kenmei.jp/correspondencecourse/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
       "verified": false,

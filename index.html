@@ -19,9 +19,6 @@
       <span class="brand-mark">SINRO</span>
       <span class="brand-sub">— OSAKA HIGH SCHOOL —</span>
     </h1>
-    <button type="button" id="openSettings" class="icon-btn" aria-label="検索条件を開く">
-      <span aria-hidden="true">⚙</span>
-    </button>
   </div>
 </header>
 
@@ -77,7 +74,7 @@
   <p id="summary" class="summary">最寄り駅を設定してください。</p>
   <div id="results" class="results"></div>
 
-  <details class="about">
+  <details class="about" id="aboutData">
     <summary>データについて</summary>
     <ul>
       <li>通学時間は駅の座標と路線データから計算した<strong>概算</strong>です（誤差およそ±10分）。実際の時刻表・乗換案内で必ず確認してください。</li>
@@ -89,14 +86,23 @@
   </details>
 </main>
 
+<!-- ============ ブックマーク ============ -->
+<section id="view-bookmark" class="view" hidden aria-label="ブックマーク">
+  <h2 class="view-title">ブックマーク</h2>
+  <p id="bookmarkSummary" class="summary"></p>
+  <div id="bookmarkResults" class="results"></div>
+</section>
+
+<!-- ============ 比較 ============ -->
+<section id="view-compare" class="view" hidden aria-label="比較">
+  <h2 class="view-title">比較</h2>
+  <p id="compareSummary" class="summary"></p>
+  <div id="compareTable" class="compare-wrap"></div>
+</section>
+
 <!-- ============ 設定画面 ============ -->
 <section id="view-settings" class="view" hidden aria-label="検索条件の設定">
-  <div class="settings-head">
-    <button type="button" id="closeSettings" class="icon-btn" aria-label="検索画面に戻る">
-      <span aria-hidden="true">←</span>
-    </button>
-    <h2>検索条件</h2>
-  </div>
+  <h2 class="view-title">検索条件</h2>
 
   <form id="conditions" autocomplete="off">
 
@@ -158,6 +164,27 @@
     <button type="button" id="applySettings" class="btn primary block">この条件で探す</button>
   </div>
 </section>
+
+<!-- ============ 下部メニュー ============ -->
+<nav class="tabbar" aria-label="メニュー">
+  <button type="button" class="tab" data-view="search" aria-current="page">
+    <span class="tab-icon" aria-hidden="true">⌂</span>
+    <span class="tab-label">ホーム</span>
+  </button>
+  <button type="button" class="tab" data-view="bookmark">
+    <span class="tab-icon" aria-hidden="true">☆</span>
+    <span class="tab-label">ブックマーク</span>
+    <span class="tab-badge" id="bookmarkCount" hidden>0</span>
+  </button>
+  <button type="button" class="tab" data-view="compare">
+    <span class="tab-icon" aria-hidden="true">⇄</span>
+    <span class="tab-label">比較</span>
+  </button>
+  <button type="button" class="tab" data-view="settings">
+    <span class="tab-icon" aria-hidden="true">⚙</span>
+    <span class="tab-label">設定</span>
+  </button>
+</nav>
 
 <script src="js/transit.js?v=14"></script>
 <script src="data/bundle.js?v=14"></script>
