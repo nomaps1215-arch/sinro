@@ -412,19 +412,49 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
   padding: 14px 0 0 9px;
   clip-path: polygon(0 0, 100% 0, 22% 100%, 0 100%);
 }
-.tapestry.right {
-  right: 0;
-  width: 64px;
-  padding: 14px 9px 0 0;
-  text-align: right;
-  font-size: .66rem;
-  letter-spacing: .02em;
-  white-space: nowrap;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 78% 100%);
-}
 .tapestry.public { background: linear-gradient(155deg, #4a5f6b, #24323a); }
 .tapestry.private { background: linear-gradient(155deg, #ab8750, #6b4f26); }
-.tapestry.under { background: linear-gradient(205deg, #b55c3f, #7a331e); }
+
+/* 昨年定員割れの朱印。書類に押した判子のように傾け、
+   大きめにして背景へ溶け込ませる（読めるが主張はしない濃さ）。 */
+.stamp {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  z-index: 0;
+  width: 112px;
+  height: 112px;
+  border: 3px solid #b03a2e;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: #b03a2e;
+  font-family: var(--serif);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: .06em;
+  transform: rotate(-9deg);
+  opacity: .17;
+  pointer-events: none;
+  user-select: none;
+}
+.stamp::before {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  border: 1px solid #b03a2e;
+  border-radius: 50%;
+}
+.stamp b { font-size: 1.28rem; font-weight: 700; }
+.stamp .stamp-top {
+  font-size: .82rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: .16em;
+}
 
 .school-top {
   display: flex;
@@ -441,9 +471,6 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
   line-height: 1.45;
 }
 .school-meta { font-size: .73rem; color: var(--ink-sub); margin-top: 3px; }
-/* 右のくさびは下ほど細いが、下の行のボタンにも被るので全体を少し右に空ける */
-.school.has-right-tapestry { padding-right: 30px; }
-.school.has-right-tapestry .school-top { padding-right: 34px; }
 
 .tag {
   display: inline-block;
@@ -559,24 +586,8 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
   color: #7a6329;
 }
 
-/* 制服の図 */
-/* 制服の図は透かしとして敷く。切れて四角く見えないよう、全体が入る大きさにする。 */
-.uniform-art {
-  position: absolute;
-  right: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 96px;
-  color: var(--public);
-  opacity: .07;
-  pointer-events: none;
-  user-select: none;
-  z-index: 0;
-}
-.school.private .uniform-art { color: var(--private); }
-.uniform-art svg, .uniform-art img { display: block; width: 100%; height: auto; max-height: 100%; object-fit: contain; }
-.uniform-art.photo { opacity: .13; filter: grayscale(.35); }
-.school > *:not(.uniform-art):not(.tapestry) { position: relative; z-index: 1; }
+/* カードの中身は透かし（朱印）より前に出す */
+.school > *:not(.tapestry):not(.stamp) { position: relative; z-index: 1; }
 
 /* カードをタップして開閉する */
 .school.tappable { cursor: pointer; transition: border-color .15s, box-shadow .15s; }

@@ -29,7 +29,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "dist" / "sinro.html"
 STANDALONE = ROOT / "dist" / "sinro-standalone.html"
 
-SCRIPTS = ["js/transit.js", "js/uniform-art.js", "data/bundle.js", "js/app.js"]
+SCRIPTS = ["js/transit.js", "data/bundle.js", "js/app.js"]
 
 RE_BODY = re.compile(r"<body[^>]*>(.*)</body>", re.S | re.I)
 RE_SCRIPT_TAG = re.compile(r"<script\b[^>]*></script>\s*", re.I)

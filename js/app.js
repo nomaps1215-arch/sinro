@@ -359,20 +359,18 @@
     const best = row.route && row.route.best;   // 名前検索だけのときは経路が無い
     const node = el('article', 'school' + (s.type === 'private' ? ' private' : ''));
 
-    // --- 制服の図（カード右側にうっすら敷く） ---
-    // 実写があればそれを、無ければ制服の種類を表す自作の図案を出す。
-    const art = uniformArt(s);
-    if (art) node.appendChild(art);
-
-    // --- タペストリー（カードの上端から垂らす縦書きの札） ---
-    // 左＝公立/私立、右＝昨年の定員割れ。ひと目で属性が分かるようにする。
-    const left = el('span', 'tapestry left ' + s.type, s.type === 'public' ? '公立' : '私立');
-    node.appendChild(left);
+    // --- 属性の表示 ---
+    // 左端に公立/私立のくさび、右上に「昨年定員割れ」の朱印。
+    node.appendChild(el('span', 'tapestry left ' + s.type, s.type === 'public' ? '公立' : '私立'));
     if (s.lastYearUnderCapacity) {
-      const t = el('span', 'tapestry right under', '昨年定員割れ');
-      t.title = s.lastYearUnderCapacityNote || '昨年度の入学者選抜で志願者数が募集人員に届かなかった学校です。';
-      node.appendChild(t);
-      node.classList.add('has-right-tapestry');
+      const stamp = el('span', 'stamp');
+      stamp.appendChild(el('i', 'stamp-top', '昨年'));
+      stamp.appendChild(el('b', null, '定員'));
+      stamp.appendChild(el('b', null, '割れ'));
+      stamp.title = s.lastYearUnderCapacityNote ||
+        '昨年度の入学者選抜で志願者数が募集人員に届かなかった学校です。';
+      node.appendChild(stamp);
+      node.classList.add('has-stamp');
     }
 
     // --- 見出し ---
@@ -434,8 +432,7 @@
         '高校の偏差値に公的なデータは存在しません。模試の資料などを見て手で登録する必要があります。'));
     }
 
-    // 男女比と制服は、公式サイトに載っている学校だけ取得できている。
-    // 大半が未取得で「未取得」の行だけが並ぶと邪魔なので、値があるときだけ出す。
+    // 男女比は公式サイトに載っている学校だけ取得できている。値があるときだけ出す。
     if (s.genderRatio) {
       const gc = el('div', 'cell');
       gc.appendChild(el('dt', null, '男女比'));
@@ -448,11 +445,6 @@
       dd.appendChild(bar);
       gc.appendChild(dd);
       grid.appendChild(gc);
-    }
-    if (s.uniform) {
-      grid.appendChild(
-        cell('制服', s.uniform.type + (s.uniform.note ? '（' + s.uniform.note + '）' : ''))
-      );
     }
 
     // 最寄り駅の見出し行の右端に「通学ルート」ボタンを置く。
@@ -629,31 +621,6 @@
     a.className = 'btn';
     if (tip) a.title = tip;
     return a;
-  }
-
-  /**
-   * カード右側に敷く制服の図。
-   * uniformImage（実写）があれば優先し、無ければ制服の種類から自作SVGを描く。
-   * 制服が未取得の学校には何も出さない（無いものをそれらしく見せない）。
-   */
-  function uniformArt(s) {
-    if (s.uniformImage) {
-      const box = el('div', 'uniform-art photo');
-      const img = new Image();
-      img.src = s.uniformImage;
-      img.alt = '';
-      img.loading = 'lazy';
-      // 画像が見つからないときは枠ごと消す（壊れた画像アイコンを出さない）
-      img.addEventListener('error', () => box.remove());
-      box.appendChild(img);
-      return box;
-    }
-    if (!s.uniform || !s.uniform.type) return null;
-    const svg = HSUniformArt.svgFor(s.uniform.type);
-    if (!svg) return null;
-    const box = el('div', 'uniform-art');
-    box.innerHTML = svg;
-    return box;
   }
 
   function link(href, text) {

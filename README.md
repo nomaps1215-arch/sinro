@@ -39,10 +39,10 @@ python -m http.server 8765
 
 ### カードの見かた
 
-- 左のタペストリー … 公立 / 私立
-- 右のタペストリー … 昨年（令和8年度）の入試で**定員割れ**だった学校
+- 左端のくさび … 公立 / 私立
+- 右上の朱印 … 昨年（令和8年度）の入試で**定員割れ**だった学校
 - 「通学ルート」ボタン … 乗換を含む経路の内訳と、他の手段での所要時間
-- 背景の薄い図 … 制服の種類（ブレザー・セーラー・学ラン・標準服・私服）
+- カードをタップ … 学科別の偏差値と判定、特徴のまとめ、公式サイトと地図
 
 ---
 
@@ -62,12 +62,12 @@ git clone <リポジトリURL> && cd 高校受験
 index.html            画面（検索画面と設定画面）
 css/style.css         スタイル
 js/transit.js         通学時間の概算エンジン（このファイルだけで完結）
-js/uniform-art.js     制服の種類を表す自作SVG
+tools/build_webapp.py       1枚のHTMLにまとめる
 js/app.js             画面の組み立てと絞り込み
 data/lines.json       路線と駅                      ← 自動生成。手で並べ替えない
 data/schools.json     高校のデータ                  ← 自動生成＋手直し
 data/bundle.js        上の2つを結合した自動生成物    ← 編集しない
-assets/uniforms/      制服の画像を置く場所（著作権の注意あり。同フォルダのREADME参照）
+dist/                 配布用に1枚にまとめたHTML（自動生成）
 
 tools/safe_write.py         JSONの原子的な書き出し（全ツールが使う）
 tools/build_bundle.py       data/*.json → data/bundle.js
@@ -97,7 +97,7 @@ CSS や JS を直したら `index.html` の `?v=` の数字を1つ増やす（�
 | 定員割れ | [大阪府 入学者選抜の志願者数](https://www.pref.osaka.lg.jp/o180040/kotogakko/gakuji-g3/r08_shigansha.html) | 公表実数。高い |
 | 駅・高校の座標 | OpenStreetMap（© OpenStreetMap contributors, ODbL） | 良好。3校のみ住所からの推定 |
 | **偏差値** | **みんなの高校情報の掲載値** | **模試結果からの推定。公式発表ではない** |
-| 男女比・制服 | 公式サイトからの自動取得 | 掲載がある学校のみ。大半は未取得 |
+| 男女比 | 公式サイトからの自動取得 | 掲載がある学校のみ。大半は未取得 |
 
 ### 偏差値について（重要）
 
