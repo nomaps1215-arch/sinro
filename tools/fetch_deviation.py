@@ -50,8 +50,10 @@ RE_BLOCK = re.compile(
 RE_ITEM = re.compile(
     r'<a[^>]*href="/hischool/school/[^"]*"[^>]*>([^<]+)</a>\s*<span>\s*[（(]([^）)]*)[）)]', re.S)
 
-RE_FOUNDER = re.compile(r"^(大阪府立|大阪市立|府立|私立|市立|町立|村立|組合立)")
-RE_SUFFIX = re.compile(r"(高等学校|高校|中学校|中等教育学校)")
+# 「大阪府立◯◯」と「大阪府◯◯」（教育センター附属など）の両方を落とす
+RE_FOUNDER = re.compile(r"^(大阪府立|大阪市立|大阪府|府立|私立|市立|町立|村立|組合立)")
+# 中高一貫校は「高等部」「中等部」と名乗ることがある（関西学院千里国際など）
+RE_SUFFIX = re.compile(r"(高等学校|高校|高等部|中学校|中等部|中等教育学校)")
 
 
 def key(name: str) -> str:

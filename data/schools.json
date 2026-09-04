@@ -10,6 +10,7 @@
       "verified:false のレコードは UI 上で「未検証」バッジを表示する。",
       "座標は OpenStreetMap（© OpenStreetMap contributors, ODbL）由来。地図に該当校が無いものは住所からの推定値で、dataWarnings に記載している。",
       "府立高校は tools/fetch_official_urls.py が大阪府の一覧と突き合わせる。一覧に無い学校は廃校の可能性があるので、メモリアルページで確認して削除する。",
+      "偏差値はみんなの高校情報（https://www.minkou.jp/hischool/exam/osaka/deviation/）の掲載値。模試結果からの推定であり公式発表ではない。個人利用の範囲で参照しており、再配布・商用利用はしない。",
       "偏差値はみんなの高校情報（https://www.minkou.jp/hischool/exam/osaka/deviation/）の掲載値。模試結果からの推定であり公式発表ではない。個人利用の範囲で参照しており、再配布・商用利用はしない。"
     ],
     "coordSource": "osm",
@@ -39,7 +40,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 37,
+        "female": 63
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/moriguchihigashi/",
       "websiteSource": "公式一覧",
@@ -53,7 +57,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 195人が募集人員 240人に届きませんでした（倍率 0.81）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 221,
+        "female": 374,
+        "total": 595,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ashima-hs",
@@ -74,7 +93,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 33,
+        "female": 67
+      },
       "uniform": null,
       "website": "https://ashima-hs.ed.jp/",
       "websiteSource": "公式一覧",
@@ -88,7 +110,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 224人が募集人員 240人に届きませんでした（倍率 0.93）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 230,
+        "female": 463,
+        "total": 693,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ichiritsu",
@@ -109,7 +146,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 43,
+        "female": 57
+      },
       "uniform": null,
       "website": "https://www3.osaka-c.ed.jp/ichiritsu",
       "websiteSource": "公式一覧",
@@ -122,7 +162,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 349,
+        "female": 467,
+        "total": 816,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-korigaoka",
@@ -143,7 +198,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 54,
+        "female": 46
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/korigaoka/",
       "websiteSource": "公式一覧",
@@ -156,7 +214,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 421,
+        "female": 354,
+        "total": 775,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-nagaohighschool",
@@ -177,7 +250,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 53,
+        "female": 47
+      },
       "uniform": null,
       "website": "https://www.nagaohighschool.com/",
       "websiteSource": "公式一覧",
@@ -191,7 +267,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 90人が募集人員 160人に届きませんでした（倍率 0.56）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 205,
+        "female": 180,
+        "total": 385,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-hirakata",
@@ -212,7 +303,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 40,
+        "female": 60
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/hirakata/",
       "websiteSource": "公式一覧",
@@ -225,7 +319,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 384,
+        "female": 565,
+        "total": 949,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-hirakatatsuda",
@@ -246,7 +355,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 48,
+        "female": 52
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/hirakatatsuda/",
       "websiteSource": "公式一覧",
@@ -267,6 +379,21 @@
         "source": "https://www.osaka-c.ed.jp/hirakatatsuda/",
         "evidence": "にして申し込むことができます。下のリンクから詳細をご確認ください。 ⇒ 日本学生支援機構奨学金予約採用のご案内 38期生修学旅行について 2024年10月9日（水）〜12日（土）に38期生が沖縄へ修学旅行に行きました。活動内容や写真をブログ・インス",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 305,
+        "female": 329,
+        "total": 634,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -288,7 +415,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 39,
+        "female": 61
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/hirakatanagisa/",
       "websiteSource": "公式一覧",
@@ -302,7 +432,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 222人が募集人員 240人に届きませんでした（倍率 0.93）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 253,
+        "female": 398,
+        "total": 651,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-makino",
@@ -323,7 +468,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 47,
+        "female": 53
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/makino",
       "websiteSource": "公式一覧",
@@ -336,7 +484,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 395,
+        "female": 438,
+        "total": 833,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kitakawachisatsukigaoka",
@@ -357,7 +520,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 37,
+        "female": 63
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/kitakawachisatsukigaoka/",
       "websiteSource": "公式一覧",
@@ -371,7 +537,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 195人が募集人員 240人に届きませんでした（倍率 0.81）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 231,
+        "female": 397,
+        "total": 628,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-nishineyagawa",
@@ -392,7 +573,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 42,
+        "female": 58
+      },
       "uniform": null,
       "website": "https://nishineyagawa.ed.jp/",
       "websiteSource": "公式一覧",
@@ -406,7 +590,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 107人が募集人員 240人に届きませんでした（倍率 0.45）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 142,
+        "female": 199,
+        "total": 341,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-neyagawa",
@@ -427,7 +626,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 54,
+        "female": 46
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/neyagawa/",
       "websiteSource": "公式一覧",
@@ -440,7 +642,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 551,
+        "female": 466,
+        "total": 1017,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-nozaki",
@@ -460,7 +677,10 @@
           "deviation": null
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 43,
+        "female": 57
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/nozaki",
       "websiteSource": "公式一覧",
@@ -471,7 +691,22 @@
       "lastYearRatio": 0.63,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 101人が募集人員 160人に届きませんでした（倍率 0.63）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 101人が募集人員 160人に届きませんでした（倍率 0.63）。",
+      "genderRatioDetail": {
+        "male": 119,
+        "female": 158,
+        "total": 277,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ryokufukan",
@@ -492,7 +727,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 46,
+        "female": 54
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/ryokufukan/",
       "websiteSource": "公式一覧",
@@ -513,6 +751,21 @@
         "source": "https://www.osaka-c.ed.jp/ryokufukan/",
         "evidence": "例年は金曜日と土曜日の2日で実施。2日目は一般公開をしています。 緑風祭（文化祭） 中間考査 october 10月・修学旅行 ・16期生 九州方面（熊本県 熊本市・阿蘇市 長崎県） ・15期生 三重県（新型コロナウイルスの影響により縮小） ・1",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 293,
+        "female": 343,
+        "total": 636,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -534,7 +787,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 44,
+        "female": 56
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/kadomanishi/",
       "websiteSource": "公式一覧",
@@ -548,7 +804,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 69人が募集人員 160人に届きませんでした（倍率 0.43）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 133,
+        "female": 169,
+        "total": 302,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kadomanamihaya-my-canva-site",
@@ -569,7 +840,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 44,
+        "female": 56
+      },
       "uniform": null,
       "website": "https://kadomanamihaya.my.canva.site/",
       "websiteSource": "公式一覧",
@@ -582,7 +856,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 306,
+        "female": 389,
+        "total": 695,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-shijonawate",
@@ -603,7 +892,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 51,
+        "female": 49
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/shijonawate/",
       "websiteSource": "公式一覧",
@@ -616,7 +908,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 551,
+        "female": 519,
+        "total": 1070,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-katano",
@@ -637,7 +944,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 58,
+        "female": 42
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/katano/",
       "websiteSource": "公式一覧",
@@ -651,7 +961,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 223人が募集人員 240人に届きませんでした（倍率 0.93）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 362,
+        "female": 261,
+        "total": 623,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kanan",
@@ -672,7 +997,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 57,
+        "female": 43
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/kanan/",
       "websiteSource": "公式一覧",
@@ -686,7 +1014,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 263人が募集人員 280人に届きませんでした（倍率 0.94）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 476,
+        "female": 360,
+        "total": 836,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kongo-hs",
@@ -707,7 +1050,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 38,
+        "female": 62
+      },
       "uniform": null,
       "website": "https://kongo-hs.com/index.html",
       "websiteSource": "公式一覧",
@@ -720,7 +1066,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 261,
+        "female": 434,
+        "total": 695,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-tondabayashi",
@@ -741,7 +1102,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 52,
+        "female": 48
+      },
       "uniform": null,
       "website": "https://tonko.ed.jp/",
       "websiteSource": "公式一覧",
@@ -761,6 +1125,21 @@
         "source": "https://tonko.ed.jp/",
         "evidence": "た授業を展開することで生徒の探究的な思考を促し、課 ... 続きを読む 2024.11.09 中学 校長 【中3】グアム修学旅行 ４日め part4 関空に着きました。手荷物受け取り中の様子です。 続きを読む 2024.11.09 中学 校長 【中",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 363,
+        "female": 341,
+        "total": 704,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -782,7 +1161,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 51,
+        "female": 49
+      },
       "uniform": null,
       "website": "https://osaka-nagano.ed.jp/",
       "websiteSource": "公式一覧",
@@ -796,7 +1178,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 147人が募集人員 237人に届きませんでした（倍率 0.62）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 241,
+        "female": 232,
+        "total": 473,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-otsuka",
@@ -817,7 +1214,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 68,
+        "female": 32
+      },
       "uniform": null,
       "website": "https://www.otsuka.ed.jp/",
       "websiteSource": "公式一覧",
@@ -831,7 +1231,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 110人が募集人員 160人に届きませんでした（倍率 0.69）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 393,
+        "female": 181,
+        "total": 574,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ikuno",
@@ -852,7 +1267,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 51,
+        "female": 49
+      },
       "uniform": {
         "type": "私服",
         "note": "制服なし"
@@ -868,7 +1286,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 552,
+        "female": 525,
+        "total": 1077,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-matsubara",
@@ -889,7 +1322,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 31,
+        "female": 69
+      },
       "uniform": null,
       "website": "https://www.osaka-matsubara.ed.jp",
       "websiteSource": "公式一覧",
@@ -903,7 +1339,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 178人が募集人員 240人に届きませんでした（倍率 0.74）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 180,
+        "female": 408,
+        "total": 588,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kaifukan",
@@ -923,7 +1374,10 @@
           "deviation": null
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 51,
+        "female": 49
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/kaifukan/",
       "websiteSource": "公式一覧",
@@ -934,7 +1388,22 @@
       "lastYearRatio": 0.42,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 50人が募集人員 120人に届きませんでした（倍率 0.42）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 50人が募集人員 120人に届きませんでした（倍率 0.42）。",
+      "genderRatioDetail": {
+        "male": 110,
+        "female": 107,
+        "total": 217,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-fujiidera",
@@ -955,7 +1424,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 53,
+        "female": 47
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/fujiidera",
       "websiteSource": "公式一覧",
@@ -968,7 +1440,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 370,
+        "female": 333,
+        "total": 703,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-zennichi",
@@ -1004,7 +1491,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 95,
+        "female": 5
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/fujiidera-t/zennichi",
       "websiteSource": "公式一覧",
@@ -1017,7 +1507,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 862,
+        "female": 50,
+        "total": 912,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sayama",
@@ -1043,7 +1548,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 42,
+        "female": 58
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/sayama/",
       "websiteSource": "公式一覧",
@@ -1056,7 +1564,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 299,
+        "female": 406,
+        "total": 705,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kitasenri",
@@ -1077,7 +1600,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 39,
+        "female": 61
+      },
       "uniform": null,
       "website": "https://kitasenri.ed.jp/",
       "websiteSource": "公式一覧",
@@ -1097,6 +1623,21 @@
         "source": "https://kitasenri.ed.jp/",
         "evidence": "６月 体育祭・台湾永春高校来校 ７月 人権鑑賞会・海外語学研修（希望者） ８月 オープンスクール ９月 文化祭 １０月 修学旅行（２年） １１月 英語弁論大会（２年）・学校見学会 １２月 冬響祭・台湾永春高校訪問（希望者） ２月 芸術発表会 ３月",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 379,
+        "female": 582,
+        "total": 961,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -1118,7 +1659,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 53,
+        "female": 47
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/suita/",
       "websiteSource": "公式一覧",
@@ -1132,7 +1676,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 223人が募集人員 240人に届きませんでした（倍率 0.93）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 330,
+        "female": 292,
+        "total": 622,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-suitahigashi",
@@ -1153,7 +1712,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 44,
+        "female": 56
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/suitahigashi",
       "websiteSource": "公式一覧",
@@ -1166,7 +1728,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 439,
+        "female": 556,
+        "total": 995,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-yamada",
@@ -1187,7 +1764,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 43,
+        "female": 57
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/yamada",
       "websiteSource": "公式一覧",
@@ -1207,6 +1787,21 @@
         "source": "https://www2.osaka-c.ed.jp/yamada",
         "evidence": "て） お知らせ一覧 Blog ブログ 2026/08/20 校長通信 2025/10/23 大阪府立山田高等学校41期生修学旅行ブログ 2025/08/03 2025年度オーストラリア姉妹校交流ブログ 2025/07/29 軽音楽部 2025/07",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 466,
+        "female": 606,
+        "total": 1072,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -1228,7 +1823,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 50,
+        "female": 50
+      },
       "uniform": null,
       "website": "https://osaka-senri-hs.net/",
       "websiteSource": "公式一覧",
@@ -1248,6 +1846,21 @@
         "source": "https://osaka-senri-hs.net/",
         "evidence": "語授業 英語は1年次から週７コマ。コミュニケーション重視の少人数授業で「英語で伝える力」を育みます。 ▶グローバル教育 修学旅行はオーストラリアへ。第２外国語も履修できます。多様な文化を理解するための素地を養います。 ▶探究学習・研修 自分で考える",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 471,
+        "female": 477,
+        "total": 948,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -1269,7 +1882,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 41,
+        "female": 59
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/akutagawa",
       "websiteSource": "公式一覧",
@@ -1290,6 +1906,21 @@
         "source": "https://www2.osaka-c.ed.jp/akutagawa",
         "evidence": "High School School History - AKUTAGAWA High School TOP 校外学習・修学旅行 校外学習 全学年・5月上旬（学年によって行先など異なります） 修学旅行 2年生の秋頃に「異文化理解」をテーマに、沖縄な",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 351,
+        "female": 512,
+        "total": 863,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -1311,7 +1942,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 55,
+        "female": 45
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/abuno/",
       "websiteSource": "公式一覧",
@@ -1324,7 +1958,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 343,
+        "female": 281,
+        "total": 624,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ohkanmuri",
@@ -1345,7 +1994,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 48,
+        "female": 52
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/ohkanmuri/",
       "websiteSource": "公式一覧",
@@ -1365,6 +2017,21 @@
         "source": "https://www2.osaka-c.ed.jp/ohkanmuri/",
         "evidence": "活動の発表の場でもあり、ほとんどの文化系部活動がこの日に向けて一生懸命準備をして、例年素晴らしい成果を発表しています。 修学旅行 39期 修学旅行(沖縄県 大宜見・東・国頭・今帰仁) 2025年11月17日(月) 前日 39期生は、明日から修学旅行",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 421,
+        "female": 459,
+        "total": 880,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -1386,7 +2053,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 48,
+        "female": 52
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/takatsukikita/",
       "websiteSource": "公式一覧",
@@ -1400,7 +2070,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 244人が募集人員 280人に届きませんでした（倍率 0.87）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 426,
+        "female": 460,
+        "total": 886,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-mishima-hs",
@@ -1421,7 +2106,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 51,
+        "female": 49
+      },
       "uniform": null,
       "website": "https://mishima-hs.ed.jp/",
       "websiteSource": "公式一覧",
@@ -1441,6 +2129,21 @@
         "source": "https://mishima-hs.ed.jp/",
         "evidence": "28年度 文化祭 9月9日（金）～9月10日（土） 平成27年度 文化祭 9月11日（金）～ 9月12日（土） 10月 修学旅行 体験学習を重視した修学旅行を実施しています。今年度は沖縄に行きます。生徒達は日常とはかけ離れた生活や地元の方々とのふれ",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 545,
+        "female": 521,
+        "total": 1066,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -1462,7 +2165,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 43,
+        "female": 57
+      },
       "uniform": null,
       "website": "https://www.tsukinoki.ed.jp/",
       "websiteSource": "公式一覧",
@@ -1476,7 +2182,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 221人が募集人員 240人に届きませんでした（倍率 0.92）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 271,
+        "female": 358,
+        "total": 629,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ibarakinishi",
@@ -1497,7 +2218,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 49,
+        "female": 51
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/ibarakinishi/",
       "websiteSource": "公式一覧",
@@ -1511,7 +2235,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 238人が募集人員 240人に届きませんでした（倍率 0.99）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 336,
+        "female": 349,
+        "total": 685,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kasugaoka",
@@ -1537,7 +2276,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 45,
+        "female": 55
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/kasugaoka",
       "websiteSource": "公式一覧",
@@ -1550,7 +2292,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 424,
+        "female": 525,
+        "total": 949,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-hokusetsutsubasa",
@@ -1570,7 +2327,10 @@
           "deviation": null
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 46,
+        "female": 54
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/hokusetsutsubasa",
       "websiteSource": "公式一覧",
@@ -1581,7 +2341,22 @@
       "lastYearRatio": 0.62,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 125人が募集人員 200人に届きませんでした（倍率 0.62）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 125人が募集人員 200人に届きませんでした（倍率 0.62）。",
+      "genderRatioDetail": {
+        "male": 191,
+        "female": 224,
+        "total": 415,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ibaraki-t",
@@ -1617,7 +2392,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 97,
+        "female": 3
+      },
       "uniform": null,
       "website": "https://ibaraki-t.ed.jp/",
       "websiteSource": "公式一覧",
@@ -1631,7 +2409,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 112人が募集人員 140人に届きませんでした（倍率 0.8）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 688,
+        "female": 22,
+        "total": 710,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ibaraki",
@@ -1652,7 +2445,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 56,
+        "female": 44
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/ibaraki",
       "websiteSource": "公式一覧",
@@ -1665,7 +2461,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 580,
+        "female": 457,
+        "total": 1037,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-osaka-fukui",
@@ -1686,7 +2497,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 45,
+        "female": 55
+      },
       "uniform": null,
       "website": "https://osaka-fukui.ed.jp/",
       "websiteSource": "公式一覧",
@@ -1700,7 +2514,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 75人が募集人員 144人に届きませんでした（倍率 0.52）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 136,
+        "female": 167,
+        "total": 303,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-settsu",
@@ -1721,7 +2550,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 67,
+        "female": 33
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/settsu/",
       "websiteSource": "公式一覧",
@@ -1734,7 +2566,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 441,
+        "female": 220,
+        "total": 661,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-yao",
@@ -1755,7 +2602,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 55,
+        "female": 45
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/yao/",
       "websiteSource": "公式一覧",
@@ -1768,7 +2618,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 503,
+        "female": 412,
+        "total": 915,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-yaosuisho",
@@ -1789,7 +2654,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 53,
+        "female": 47
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/yaosuisho/",
       "websiteSource": "公式一覧",
@@ -1802,7 +2670,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 296,
+        "female": 263,
+        "total": 559,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-yamamoto-shs",
@@ -1823,7 +2706,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 46,
+        "female": 54
+      },
       "uniform": null,
       "website": "https://yamamoto-shs.ed.jp/",
       "websiteSource": "公式一覧",
@@ -1836,7 +2722,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 379,
+        "female": 452,
+        "total": 831,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-wp",
@@ -1857,7 +2758,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 47,
+        "female": 53
+      },
       "uniform": null,
       "website": "https://yaokita-hs.sakura.ne.jp/wp/",
       "websiteSource": "公式一覧",
@@ -1878,6 +2782,21 @@
         "source": "https://yaokita-hs.sakura.ne.jp/wp/",
         "evidence": "。旅行中の様子については、本校の公式インスタグラムで紹介する予定です。... 2025.11.29 ４２期生 学校行事 修学旅行 コラム ４１期生 41期生沖縄修学旅行４日目 最終日の朝は曇り空です。 朝食をしっかり食べて、これからの活動に備えてい",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 305,
+        "female": 342,
+        "total": 647,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -1907,7 +2826,13 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-hanazono",
@@ -1928,7 +2853,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 31,
+        "female": 69
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/hanazono/",
       "websiteSource": "公式一覧",
@@ -1941,7 +2869,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 303,
+        "female": 673,
+        "total": 976,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-fuse",
@@ -1962,7 +2905,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 43,
+        "female": 57
+      },
       "uniform": null,
       "website": "https://fuse.ed.jp/",
       "websiteSource": "公式一覧",
@@ -1982,6 +2928,21 @@
         "source": "https://fuse.ed.jp/",
         "evidence": "イフ スクールライフ 年間行事予定 部活動 学校行事 菜の花委員会 国際交流 ブログ ブログ 校長だより 部活動ブログ 修学旅行ブログ 語学研修ブログ 保健だより 2024年度台湾相互交流プログラム --> MENU MENU HOME 学校紹介",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 442,
+        "female": 578,
+        "total": 1020,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -2003,7 +2964,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 46,
+        "female": 54
+      },
       "uniform": null,
       "website": "https://www.midoriseiho.jp/",
       "websiteSource": "公式一覧",
@@ -2017,7 +2981,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 235人が募集人員 240人に届きませんでした（倍率 0.98）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 324,
+        "female": 373,
+        "total": 697,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-joto-tech",
@@ -2049,12 +3028,30 @@
           "deviation": null
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 99,
+        "female": 1
+      },
       "uniform": null,
       "website": "https://joto-tech.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "genderRatioDetail": {
+        "male": 272,
+        "female": 4,
+        "total": 276,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-higashiosakamirai-t",
@@ -2090,7 +3087,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 96,
+        "female": 4
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/higashiosakamirai-t",
       "websiteSource": "公式一覧",
@@ -2104,7 +3104,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 217人が募集人員 245人に届きませんでした（倍率 0.89）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 770,
+        "female": 30,
+        "total": 800,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-fusekouka-sakura-ne",
@@ -2136,12 +3151,30 @@
           "deviation": null
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 91,
+        "female": 9
+      },
       "uniform": null,
       "website": "https://fusekouka.sakura.ne.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "genderRatioDetail": {
+        "male": 214,
+        "female": 20,
+        "total": 234,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-hiraokashofu",
@@ -2161,7 +3194,10 @@
           "deviation": null
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 49,
+        "female": 51
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/hiraokashofu",
       "websiteSource": "公式一覧",
@@ -2172,7 +3208,22 @@
       "lastYearRatio": 0.61,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 97人が募集人員 160人に届きませんでした（倍率 0.61）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 97人が募集人員 160人に届きませんでした（倍率 0.61）。",
+      "genderRatioDetail": {
+        "male": 173,
+        "female": 181,
+        "total": 354,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-fusekita",
@@ -2193,7 +3244,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 56,
+        "female": 44
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/fusekita/",
       "websiteSource": "公式一覧",
@@ -2201,7 +3255,22 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 277,
+        "female": 219,
+        "total": 496,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-owa",
@@ -2222,7 +3291,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 29,
+        "female": 71
+      },
       "uniform": null,
       "website": "https://www3.osaka-c.ed.jp/owa",
       "websiteSource": "公式一覧",
@@ -2235,7 +3307,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 201,
+        "female": 498,
+        "total": 699,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sakuranomiya",
@@ -2256,7 +3343,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 63,
+        "female": 37
+      },
       "uniform": null,
       "website": "https://www3.osaka-c.ed.jp/sakuranomiya",
       "websiteSource": "公式一覧",
@@ -2269,7 +3359,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 445,
+        "female": 261,
+        "total": 706,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-higashi",
@@ -2290,7 +3395,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 45,
+        "female": 55
+      },
       "uniform": null,
       "website": "https://www3.osaka-c.ed.jp/higashi",
       "websiteSource": "公式一覧",
@@ -2303,7 +3411,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 425,
+        "female": 526,
+        "total": 951,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-miyakojima-t",
@@ -2324,7 +3447,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 94,
+        "female": 6
+      },
       "uniform": null,
       "website": "https://www3.osaka-c.ed.jp/miyakojima-t",
       "websiteSource": "公式一覧",
@@ -2337,7 +3463,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 1574,
+        "female": 108,
+        "total": 1682,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-nishinoda",
@@ -2369,12 +3510,30 @@
           "deviation": null
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 94,
+        "female": 6
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/nishinoda-t-p/Zenhp/nishinoda/index.html",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "genderRatioDetail": {
+        "male": 158,
+        "female": 10,
+        "total": 168,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sakuyakonohana",
@@ -2395,7 +3554,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 43,
+        "female": 57
+      },
       "uniform": null,
       "website": "https://www3.osaka-c.ed.jp/sakuyakonohana",
       "websiteSource": "公式一覧",
@@ -2408,7 +3570,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 283,
+        "female": 370,
+        "total": 653,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-chuo",
@@ -2433,7 +3610,13 @@
       "website": "https://www3.osaka-c.ed.jp/chuo",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-otemae-hs",
@@ -2454,7 +3637,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 52,
+        "female": 48
+      },
       "uniform": null,
       "website": "https://otemae-hs.ed.jp/",
       "websiteSource": "公式一覧",
@@ -2474,6 +3660,21 @@
         "source": "https://otemae-hs.ed.jp/",
         "evidence": "マスフェスタ（全国高校生数学研究発表大会） 文化祭 September 9月 文化祭 前期期末考査 SSH東京研修 2年修学旅行 October 10月 校外教授（１・３年） 修学旅行（２年） 秋期休業 後期始業式 後期自治会選挙 認証式・生徒総会",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 559,
+        "female": 517,
+        "total": 1076,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -2495,7 +3696,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 36,
+        "female": 64
+      },
       "uniform": null,
       "website": "https://minato-hs.ed.jp/",
       "websiteSource": "公式一覧",
@@ -2508,7 +3712,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 293,
+        "female": 521,
+        "total": 814,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ichioka",
@@ -2529,7 +3748,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 42,
+        "female": 58
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/ichioka/",
       "websiteSource": "公式一覧",
@@ -2542,7 +3764,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 354,
+        "female": 479,
+        "total": 833,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-izuo-t",
@@ -2563,7 +3800,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 70,
+        "female": 30
+      },
       "uniform": null,
       "website": "https://www3.osaka-c.ed.jp/izuo-t",
       "websiteSource": "公式一覧",
@@ -2577,7 +3817,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 92人が募集人員 140人に届きませんでした（倍率 0.66）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 348,
+        "female": 152,
+        "total": 500,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-taishohakuryo",
@@ -2597,12 +3852,30 @@
           "deviation": null
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 38,
+        "female": 62
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/taishohakuryo/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "genderRatioDetail": {
+        "male": 26,
+        "female": 43,
+        "total": 69,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-shimizudani",
@@ -2623,7 +3896,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 41,
+        "female": 59
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/shimizudani/",
       "websiteSource": "公式一覧",
@@ -2636,7 +3912,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 369,
+        "female": 539,
+        "total": 908,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-yuhigaoka",
@@ -2657,7 +3948,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 39,
+        "female": 61
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/yuhigaoka/",
       "websiteSource": "公式一覧",
@@ -2673,7 +3967,22 @@
       "deviationFetchedAt": "2026-09-04",
       "dataWarnings": [
         "座標は公式サイトの住所から求めた値で、市区町村の照合ができていない。"
-      ]
+      ],
+      "genderRatioDetail": {
+        "male": 373,
+        "female": 575,
+        "total": 948,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kozu",
@@ -2694,7 +4003,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 47,
+        "female": 53
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/kozu/",
       "websiteSource": "公式一覧",
@@ -2707,7 +4019,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 508,
+        "female": 562,
+        "total": 1070,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-obf-hs",
@@ -2728,7 +4055,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 39,
+        "female": 61
+      },
       "uniform": null,
       "website": "https://obf-hs.com/",
       "websiteSource": "公式一覧",
@@ -2736,7 +4066,22 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 276,
+        "female": 424,
+        "total": 700,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-imamiya",
@@ -2757,7 +4102,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 32,
+        "female": 68
+      },
       "uniform": {
         "type": "標準服",
         "note": "公式サイトから自動取得"
@@ -2773,7 +4121,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 229,
+        "female": 484,
+        "total": 713,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-yodo-b",
@@ -2794,7 +4157,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 39,
+        "female": 61
+      },
       "uniform": null,
       "website": "https://www3.osaka-c.ed.jp/yodo-b",
       "websiteSource": "公式一覧",
@@ -2808,7 +4174,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 145人が募集人員 200人に届きませんでした（倍率 0.72）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 178,
+        "female": 273,
+        "total": 451,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-higashiyodogawa",
@@ -2829,7 +4210,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 35,
+        "female": 65
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/higashiyodogawa/",
       "websiteSource": "公式一覧",
@@ -2842,7 +4226,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 298,
+        "female": 551,
+        "total": 849,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-higashiyodo-t",
@@ -2863,7 +4262,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 96,
+        "female": 4
+      },
       "uniform": null,
       "website": "https://www3.osaka-c.ed.jp/higashiyodo-t",
       "websiteSource": "公式一覧",
@@ -2877,7 +4279,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 100人が募集人員 140人に届きませんでした（倍率 0.71）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 490,
+        "female": 18,
+        "total": 508,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kitano",
@@ -2898,7 +4315,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 61,
+        "female": 39
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/kitano",
       "websiteSource": "公式一覧",
@@ -2918,6 +4338,21 @@
         "source": "https://www2.osaka-c.ed.jp/kitano",
         "evidence": "期期末考査以降、各クラスの練習が活発になります。3年生は、これが終わると本格的な受験モードになります。 8~10月ごろ 修学旅行(2年) 主に北海道が多いですが、近年は東北地方や九州も多くなりました。年度により実施時期が前後します。 12月 文化芸",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 611,
+        "female": 388,
+        "total": 999,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -2939,7 +4374,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 18,
+        "female": 82
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/kunijima/",
       "websiteSource": "公式一覧",
@@ -2952,7 +4390,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 128,
+        "female": 594,
+        "total": 722,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-yodogawaseiryu",
@@ -2972,12 +4425,30 @@
           "deviation": null
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 59,
+        "female": 41
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/yodogawaseiryu/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "genderRatioDetail": {
+        "male": 254,
+        "female": 177,
+        "total": 431,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-osakawakaba",
@@ -3006,7 +4477,13 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ikuno-t",
@@ -3034,12 +4511,30 @@
           "deviation": null
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 91,
+        "female": 9
+      },
       "uniform": null,
       "website": "https://www3.osaka-c.ed.jp/ikuno-t",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "genderRatioDetail": {
+        "male": 42,
+        "female": 4,
+        "total": 46,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-asahi",
@@ -3060,7 +4555,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 35,
+        "female": 65
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/asahi/",
       "websiteSource": "公式一覧",
@@ -3074,7 +4572,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 315人が募集人員 317人に届きませんでした（倍率 0.99）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 331,
+        "female": 603,
+        "total": 934,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-yodogawa-t",
@@ -3105,7 +4618,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 90,
+        "female": 10
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/yodogawa-t/",
       "websiteSource": "公式一覧",
@@ -3119,7 +4635,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 193人が募集人員 210人に届きませんでした（倍率 0.92）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 948,
+        "female": 106,
+        "total": 1054,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-seijo-t",
@@ -3140,7 +4671,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 62,
+        "female": 38
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/seijo-t",
       "websiteSource": "公式一覧",
@@ -3148,7 +4682,22 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 352,
+        "female": 218,
+        "total": 570,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-han-ai",
@@ -3169,7 +4718,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 57,
+        "female": 43
+      },
       "uniform": null,
       "website": "https://www3.osaka-c.ed.jp/han-ai",
       "websiteSource": "公式一覧",
@@ -3182,7 +4734,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 446,
+        "female": 336,
+        "total": 782,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-tsurumi-b",
@@ -3203,7 +4770,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 25,
+        "female": 75
+      },
       "uniform": null,
       "website": "https://www3.osaka-c.ed.jp/tsurumi-b/",
       "websiteSource": "公式一覧",
@@ -3217,7 +4787,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 148人が募集人員 160人に届きませんでした（倍率 0.93）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 114,
+        "female": 334,
+        "total": 448,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-abeno",
@@ -3238,7 +4823,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 47,
+        "female": 53
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/abeno/",
       "websiteSource": "公式一覧",
@@ -3251,7 +4839,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 445,
+        "female": 508,
+        "total": 953,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kogei-osaka",
@@ -3272,7 +4875,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 23,
+        "female": 77
+      },
       "uniform": null,
       "website": "https://kogei-osaka.ed.jp/",
       "websiteSource": "公式一覧",
@@ -3280,7 +4886,22 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 292,
+        "female": 965,
+        "total": 1257,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sumiyoshi",
@@ -3301,7 +4922,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 34,
+        "female": 66
+      },
       "uniform": {
         "type": "標準服",
         "note": "公式サイトから自動取得"
@@ -3324,6 +4948,21 @@
         "source": "https://sumiyoshi.ed.jp/",
         "evidence": "の研究開発を行なう高校となりました。 スタディツアー 姉妹校である中山女子高級中学との交流活動を含む台湾スタディツアー(修学旅行)を実施しています。 自治会活動 自主自律の校風のもと、自治会活動も盛んで、体育祭・学園祭などが生徒により運営されていま",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 318,
+        "female": 624,
+        "total": 942,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -3345,7 +4984,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 62,
+        "female": 38
+      },
       "uniform": {
         "type": "私服",
         "note": "制服なし（標準服あり）"
@@ -3361,7 +5003,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 671,
+        "female": 408,
+        "total": 1079,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-konan-zokei",
@@ -3382,7 +5039,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 15,
+        "female": 85
+      },
       "uniform": null,
       "website": "https://konan-zokei.jp/",
       "websiteSource": "公式一覧",
@@ -3390,7 +5050,22 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 89,
+        "female": 487,
+        "total": 576,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-osaka-city-ib",
@@ -3411,7 +5086,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 25,
+        "female": 75
+      },
       "uniform": null,
       "website": "https://osaka-city-ib.jp/",
       "websiteSource": "公式一覧",
@@ -3419,7 +5097,22 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 115,
+        "female": 345,
+        "total": 460,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sumiyoshi-b",
@@ -3440,7 +5133,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 25,
+        "female": 75
+      },
       "uniform": null,
       "website": "https://www3.osaka-c.ed.jp/sumiyoshi-b",
       "websiteSource": "公式一覧",
@@ -3454,7 +5150,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 119人が募集人員 160人に届きませんでした（倍率 0.74）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 87,
+        "female": 263,
+        "total": 350,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-hannan",
@@ -3475,7 +5186,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 38,
+        "female": 62
+      },
       "uniform": {
         "type": "標準服",
         "note": "公式サイトから自動取得"
@@ -3495,7 +5209,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 247人が募集人員 280人に届きませんでした（倍率 0.88）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 300,
+        "female": 488,
+        "total": 788,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-partner",
@@ -3512,7 +5241,8 @@
       "courses": [
         {
           "name": "普通科（単位制）",
-          "deviation": null
+          "deviation": 45,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3523,7 +5253,16 @@
       "verified": false,
       "dataWarnings": [
         "座標は公式サイトの住所から求めた値で、市区町村の照合ができていない。"
-      ]
+      ],
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-higashisumiyoshi",
@@ -3544,7 +5283,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 50,
+        "female": 50
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/higashisumiyoshi/",
       "websiteSource": "公式一覧",
@@ -3557,7 +5299,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 469,
+        "female": 472,
+        "total": 941,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-hirano",
@@ -3586,7 +5343,13 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-higashi-sumiyoshi-sougou",
@@ -3607,7 +5370,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 58,
+        "female": 42
+      },
       "uniform": null,
       "website": "https://higashi-sumiyoshi-sougou.ed.jp/",
       "websiteSource": "公式一覧",
@@ -3621,7 +5387,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 213人が募集人員 234人に届きませんでした（倍率 0.91）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 315,
+        "female": 232,
+        "total": 547,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-nagayoshi",
@@ -3642,7 +5423,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 55,
+        "female": 45
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/nagayoshi",
       "websiteSource": "公式一覧",
@@ -3657,6 +5441,21 @@
         "source": "https://www2.osaka-c.ed.jp/nagayoshi",
         "evidence": "急時連絡ブログ 学校名を入れてください 学校名を入れてください Information お知らせ 2026/08/21 修学旅行について 2026/08/07 熊本方面への修学旅行の見直しについて 2026/07/29 熊本方面への修学旅行について",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 314,
+        "female": 262,
+        "total": 576,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -3688,7 +5487,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 89,
+        "female": 11
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/imamiya-t",
       "websiteSource": "公式一覧",
@@ -3702,7 +5504,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 232人が募集人員 245人に届きませんでした（倍率 0.95）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 1150,
+        "female": 148,
+        "total": 1298,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-nishinari",
@@ -3723,7 +5540,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 58,
+        "female": 42
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/nishinari/",
       "websiteSource": "公式一覧",
@@ -3731,7 +5551,22 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 261,
+        "female": 189,
+        "total": 450,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kanaoka",
@@ -3752,7 +5587,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 48,
+        "female": 52
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/kanaoka",
       "websiteSource": "公式一覧",
@@ -3765,7 +5603,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 354,
+        "female": 390,
+        "total": 744,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sakaikami",
@@ -3786,7 +5639,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 41,
+        "female": 59
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/sakaikami/",
       "websiteSource": "公式一覧",
@@ -3807,6 +5663,21 @@
         "source": "https://www.osaka-c.ed.jp/sakaikami/",
         "evidence": "網」への登録のお願い お知らせ一覧 Blog ブログ 2026/07/21 校長のブログ 2025/01/22 40期生修学旅行（沖縄方面） 2024/12/13 #堺上高校瞬間 2023/10/24 39期生修学旅行（沖縄方面） 2022/12/",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 262,
+        "female": 377,
+        "total": 639,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -3828,7 +5699,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 47,
+        "female": 53
+      },
       "uniform": null,
       "website": "https://sakainishi-hs.jp/",
       "websiteSource": "公式一覧",
@@ -3841,7 +5715,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 315,
+        "female": 353,
+        "total": 668,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-senyo",
@@ -3862,7 +5751,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 45,
+        "female": 55
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/senyo",
       "websiteSource": "公式一覧",
@@ -3882,6 +5774,21 @@
         "source": "https://www2.osaka-c.ed.jp/senyo",
         "evidence": "健室よりのお知らせ、インフルエンザ情報など PTAブログ PTA活動の様子をお伝えします 行事・イベント 79期 北海道修学旅行 令和７年度実施の修学旅行 78期 石垣島修学旅行 令和６年度実施の修学旅行 2025年度 カナダ語学研修 2025年度",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 432,
+        "female": 522,
+        "total": 954,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -3903,7 +5810,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 41,
+        "female": 59
+      },
       "uniform": {
         "type": "ブレザー",
         "note": "公式サイトから自動取得"
@@ -3919,7 +5829,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 345,
+        "female": 504,
+        "total": 849,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-higashimozu",
@@ -3940,7 +5865,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 43,
+        "female": 57
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/higashimozu/",
       "websiteSource": "公式一覧",
@@ -3953,7 +5881,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 295,
+        "female": 394,
+        "total": 689,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-fukuizumi",
@@ -3973,12 +5916,30 @@
           "deviation": 44
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 33,
+        "female": 67
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/fukuizumi/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "genderRatioDetail": {
+        "male": 38,
+        "female": 78,
+        "total": 116,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-mihara",
@@ -4007,7 +5968,13 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ohtori",
@@ -4028,7 +5995,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 55,
+        "female": 45
+      },
       "uniform": null,
       "website": "https://ohtori-hs.ed.jp/",
       "websiteSource": "公式一覧",
@@ -4042,7 +6012,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 221人が募集人員 240人に届きませんでした（倍率 0.92）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 441,
+        "female": 357,
+        "total": 798,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-osaka-nougei",
@@ -4073,7 +6058,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 41,
+        "female": 59
+      },
       "uniform": null,
       "website": "https://osaka-nougei.ed.jp/",
       "websiteSource": "公式一覧",
@@ -4086,7 +6074,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 470,
+        "female": 666,
+        "total": 1136,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sakai-kohka",
@@ -4122,7 +6125,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 93,
+        "female": 7
+      },
       "uniform": null,
       "website": "https://sakai-t.ed.jp/",
       "websiteSource": "公式一覧",
@@ -4136,7 +6142,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 184人が募集人員 245人に届きませんでした（倍率 0.75）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 974,
+        "female": 68,
+        "total": 1042,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-senboku",
@@ -4157,7 +6178,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 46,
+        "female": 54
+      },
       "uniform": null,
       "website": "https://semboku-h.ed.jp/",
       "websiteSource": "公式一覧",
@@ -4170,7 +6194,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 396,
+        "female": 465,
+        "total": 861,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-mikunigaoka",
@@ -4191,7 +6230,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 52,
+        "female": 48
+      },
       "uniform": {
         "type": "私服",
         "note": "制服なし"
@@ -4214,6 +6256,21 @@
         "source": "https://www.osaka-c.ed.jp/mikunigaoka/all-index.html",
         "evidence": "（木）に予定している２年生オリエンテーションは中止となりました。 ２年生は登校しないようにしてください。 ７４期生 台湾修学旅行中止のお知らせ ７４期生 SSH・SGP海外研修中止のお知らせ 2020/4/6 ［緊急連絡］ ４月８日（水）に予定して",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 496,
+        "female": 463,
+        "total": 959,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -4235,7 +6292,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 47,
+        "female": 53
+      },
       "uniform": null,
       "website": "https://sakai-higashi.ed.jp/",
       "websiteSource": "公式一覧",
@@ -4255,6 +6315,21 @@
         "source": "https://sakai-higashi.ed.jp/",
         "evidence": "業 自分だけの時間割 選択できる科目 充実した学校施設・設備 カリキュラム スクールライフ クラブ活動 体育祭 文化祭 修学旅行 ニュージーランド語学研修（希望者） 年間行事 自立支援コース（フレンドサポート） 制服 進路実績 学校の概要 校長あい",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 355,
+        "female": 404,
+        "total": 759,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -4275,7 +6350,10 @@
           "deviation": 42
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 50,
+        "female": 50
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/seibi/",
       "websiteSource": "公式一覧",
@@ -4296,6 +6374,21 @@
         "source": "https://www.osaka-c.ed.jp/seibi/",
         "evidence": "えることができました！ 今日は東京スカイツリー importer --> 続きを読む 2025年12月03日 22期生 修学旅行 2日目 おはようございます（＾＾）今日の東京ディズニーリゾートは曇り空です☁️ 少し風が強いので、みんな暖かくして1日",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 176,
+        "female": 176,
+        "total": 352,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -4317,7 +6410,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 46,
+        "female": 54
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/izumiohtsu/",
       "websiteSource": "公式一覧",
@@ -4331,7 +6427,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 233人が募集人員 240人に届きませんでした（倍率 0.97）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 299,
+        "female": 346,
+        "total": 645,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-shinoda",
@@ -4352,7 +6463,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 57,
+        "female": 43
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/shinoda/",
       "websiteSource": "公式一覧",
@@ -4366,7 +6480,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 221人が募集人員 240人に届きませんでした（倍率 0.92）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 345,
+        "female": 261,
+        "total": 606,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-hakata",
@@ -4387,7 +6516,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 44,
+        "female": 56
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/hakata/",
       "websiteSource": "公式一覧",
@@ -4401,7 +6533,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 234人が募集人員 240人に届きませんでした（倍率 0.97）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 276,
+        "female": 357,
+        "total": 633,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-izumi-t",
@@ -4422,7 +6569,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 59,
+        "female": 41
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/izumi-t",
       "websiteSource": "公式一覧",
@@ -4430,7 +6580,22 @@
       "verified": false,
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 272,
+        "female": 187,
+        "total": 459,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-takaishi",
@@ -4451,7 +6616,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 50,
+        "female": 50
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/takaishi/",
       "websiteSource": "公式一覧",
@@ -4464,7 +6632,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 455,
+        "female": 457,
+        "total": 912,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-izumi",
@@ -4485,7 +6668,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 44,
+        "female": 56
+      },
       "uniform": null,
       "website": "https://izumi-hs.ed.jp/",
       "websiteSource": "公式一覧",
@@ -4505,6 +6691,21 @@
         "source": "https://izumi-hs.ed.jp/",
         "evidence": "交流2 校長ブログ 2026年8月10日 オーストラリアの高校との姉妹校交流1 校長ブログ 2025年10月26日 台湾修学旅行引率記〜４日目 校長ブログ 2025年10月25日 修学旅行引率記〜３日目 校長ブログ 2025年10月24日 修学旅行",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 415,
+        "female": 539,
+        "total": 954,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -4526,7 +6727,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 44,
+        "female": 56
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/kumeda",
       "websiteSource": "公式一覧",
@@ -4539,7 +6743,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 381,
+        "female": 484,
+        "total": 865,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kishiwada",
@@ -4560,7 +6779,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 54,
+        "female": 46
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/kishiwada/",
       "websiteSource": "公式一覧",
@@ -4580,6 +6802,21 @@
         "source": "https://www.osaka-c.ed.jp/kishiwada/",
         "evidence": "上がります。文化祭２日めの土曜日は一般開放しており、2,000名を超える方が来校されます。 ２年生の10月下旬に実施する修学旅行では台湾を訪れ、姉妹校である景美女子高級中学の生徒との交流を行います。それに先立ち、第２外国語で日本語を学ぶ景美女子高級",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 516,
+        "female": 431,
+        "total": 947,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -4618,7 +6855,13 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 220人が募集人員 240人に届きませんでした（倍率 0.92）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-kaizuka",
@@ -4639,7 +6882,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 29,
+        "female": 71
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/kaizuka/",
       "websiteSource": "公式一覧",
@@ -4655,7 +6901,22 @@
       "deviationFetchedAt": "2026-09-04",
       "dataWarnings": [
         "座標は公式サイトの住所から求めた値で、市区町村の照合ができていない。"
-      ]
+      ],
+      "genderRatioDetail": {
+        "male": 209,
+        "female": 502,
+        "total": 711,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sano",
@@ -4676,7 +6937,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 42,
+        "female": 58
+      },
       "uniform": null,
       "website": "https://sano-h.ed.jp/",
       "websiteSource": "公式一覧",
@@ -4696,6 +6960,21 @@
         "source": "https://sano-h.ed.jp/",
         "evidence": "アスタディツアー2026 10 お知らせ 20 校長より 48 学校行事 96 ユネスコスクール 46 進路行事 25 修学旅行 29 オーストラリア スタディツアー 2025 11 行事（1年生） 40 行事（2年生） 32 行事（3年生） 21",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 361,
+        "female": 490,
+        "total": 851,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -4717,7 +6996,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 39,
+        "female": 61
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/hineno",
       "websiteSource": "公式一覧",
@@ -4730,7 +7012,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 272,
+        "female": 430,
+        "total": 702,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-zen",
@@ -4766,7 +7063,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 91,
+        "female": 9
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/sano-t-p/zen/index.html",
       "websiteSource": "公式一覧",
@@ -4780,7 +7080,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 198人が募集人員 210人に届きませんでした（倍率 0.94）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 1006,
+        "female": 98,
+        "total": 1104,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-rinku-shonan",
@@ -4801,7 +7116,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 35,
+        "female": 65
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/rinkushonan/index.html",
       "websiteSource": "公式一覧",
@@ -4822,6 +7140,21 @@
         "source": "https://www.osaka-c.ed.jp/rinkushonan/index.html",
         "evidence": "道部のお茶会なども人気で、多くの来場者でにぎわいます。 Oct 10 月 ・公開授業 Nov 11 月 ・学習発表会 ・修学旅行（2年） 行き先は年によって異なりますが、近年は沖縄を訪れることが多く、3泊4日で実施しています。 民泊では現地の方と交",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 136,
+        "female": 258,
+        "total": 394,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -4842,13 +7175,31 @@
           "deviation": 40
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 69,
+        "female": 31
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/misaki/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
       "verified": false,
-      "notes": "大阪府最南端の府立高校。"
+      "notes": "大阪府最南端の府立高校。",
+      "genderRatioDetail": {
+        "male": 253,
+        "female": 115,
+        "total": 368,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-momodani-p",
@@ -4873,7 +7224,13 @@
       "website": "https://www2.osaka-c.ed.jp/momodani-p",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "admissionFee": {
+        "amount": 2100,
+        "note": "定時制・通信制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-sakurazuka-hs",
@@ -4894,7 +7251,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 43,
+        "female": 57
+      },
       "uniform": null,
       "website": "https://www.sakurazuka-hs.jp/",
       "websiteSource": "公式一覧",
@@ -4907,7 +7267,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 455,
+        "female": 611,
+        "total": 1066,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 2100,
+        "note": "定時制・通信制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-teshima-hs",
@@ -4928,7 +7303,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 37,
+        "female": 63
+      },
       "uniform": null,
       "website": "https://teshima-hs.ed.jp/",
       "websiteSource": "公式一覧",
@@ -4949,6 +7327,21 @@
         "source": "https://teshima-hs.ed.jp/",
         "evidence": "本校の先生方に質問するプログラムです。 勉強は「やらないといけない」と [&hellip;] ≫&nbsp;続きを読む 修学旅行 保護者説明会 2026年07月27日 ７月２７日、２年生の保護者の皆様にお集まりいただき、１０月の沖縄への修学旅行に向",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 330,
+        "female": 566,
+        "total": 896,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -4970,7 +7363,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 47,
+        "female": 53
+      },
       "uniform": null,
       "website": "https://toneyama.ed.jp/",
       "websiteSource": "公式一覧",
@@ -4990,6 +7386,21 @@
         "source": "https://toneyama.ed.jp/",
         "evidence": "期生 （R7年） 台湾（台北） 11月4日 ～ 7日 47期生 （R6年） 北海道（ルスツ） 10月8日～11日 47期修学旅行速報ブログ (閲覧には要パスワード) 46期生 （R5年） 沖縄・本島 10月30日～11月2日 46期修学旅行速報ブロ",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 497,
+        "female": 562,
+        "total": 1059,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -5011,7 +7422,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 52,
+        "female": 48
+      },
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/toyonaka/",
       "websiteSource": "公式一覧",
@@ -5024,7 +7438,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 555,
+        "female": 520,
+        "total": 1075,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-senriseiun",
@@ -5045,7 +7474,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 53,
+        "female": 47
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/senriseiun/",
       "websiteSource": "公式一覧",
@@ -5058,7 +7490,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 350,
+        "female": 316,
+        "total": 666,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-ikeda-h",
@@ -5079,7 +7526,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 44,
+        "female": 56
+      },
       "uniform": null,
       "website": "https://ikeda-h.ed.jp/",
       "websiteSource": "公式一覧",
@@ -5100,6 +7550,21 @@
         "source": "https://ikeda-h.ed.jp/",
         "evidence": "を用意しています。おもに１年生から希望者を募り、３０名程度の生徒がホームステイと本校の現地姉妹校での授業を体験します。 修学旅行 （１０月） 毎年、２年生の１０月頃に出かけます。これまでのおもな行き先は、沖縄本島・石垣島、北海道・十勝、台湾などです",
         "fetchedAt": "2026-09-04"
+      },
+      "genderRatioDetail": {
+        "male": 469,
+        "female": 607,
+        "total": 1076,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       }
     },
     {
@@ -5121,7 +7586,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 47,
+        "female": 53
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/shibutani/",
       "websiteSource": "公式一覧",
@@ -5135,7 +7603,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 232人が募集人員 240人に届きませんでした（倍率 0.97）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 315,
+        "female": 350,
+        "total": 665,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-osaka-engei",
@@ -5166,7 +7649,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 62,
+        "female": 38
+      },
       "uniform": null,
       "website": "https://osaka-engei.ed.jp/",
       "websiteSource": "公式一覧",
@@ -5180,7 +7666,22 @@
       "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 151人が募集人員 200人に届きませんでした（倍率 0.76）。",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 584,
+        "female": 352,
+        "total": 936,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-minoh-high-school",
@@ -5201,7 +7702,10 @@
           "estimated": true
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 45,
+        "female": 55
+      },
       "uniform": null,
       "website": "https://minoh-high-school.com/",
       "websiteSource": "公式一覧",
@@ -5214,7 +7718,22 @@
       "lastYearLabel": "令和8年度",
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04"
+      "deviationFetchedAt": "2026-09-04",
+      "genderRatioDetail": {
+        "male": 477,
+        "female": 594,
+        "total": 1071,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "pref-minoohigashi",
@@ -5234,12 +7753,30 @@
           "deviation": null
         }
       ],
-      "genderRatio": null,
+      "genderRatio": {
+        "male": 53,
+        "female": 47
+      },
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/minoohigashi/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "genderRatioDetail": {
+        "male": 180,
+        "female": 157,
+        "total": 337,
+        "year": "令和8年度"
+      },
+      "genderRatioSource": "大阪府 学校別在籍者数（令和8年度）",
+      "genderRatioSourceUrl": "https://www.pref.osaka.lg.jp/o180040/kotogakko/chigai/index.html",
+      "genderRatioFetchedAt": "2026-09-04",
+      "admissionFee": {
+        "amount": 5650,
+        "note": "全日制の入学料。大阪府立高校は一律。",
+        "source": "大阪府 府立高等学校の授業料と就学支援金について",
+        "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
+      }
     },
     {
       "id": "priv-high-aino",
@@ -6995,7 +9532,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 66,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -7003,7 +9541,10 @@
       "website": "https://www.kansai-u.ac.jp/senior/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-high",
@@ -7139,7 +9680,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 57,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -7147,7 +9689,10 @@
       "website": "https://sis.kwansei.ac.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-kinkiosaka",
@@ -7391,52 +9936,6 @@
       "deviationSource": "みんなの高校情報",
       "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
       "deviationFetchedAt": "2026-09-04"
-    },
-    {
-      "id": "priv-correspondencecourse",
-      "name": "賢明学院高等学校",
-      "shortName": "賢明学院",
-      "type": "private",
-      "gender": "coed",
-      "division": "全日制",
-      "city": null,
-      "address": "大阪府堺市堺区霞ケ丘町4-3-30",
-      "lat": 34.552314,
-      "lng": 135.469706,
-      "coordSource": "osm",
-      "courses": [
-        {
-          "name": "普通科関西学院大学特進ｻｲｴﾝｽｺｰｽ",
-          "deviation": 58,
-          "estimated": true
-        },
-        {
-          "name": "普通科特進エグゼコース",
-          "deviation": 54,
-          "estimated": true
-        },
-        {
-          "name": "普通科特進コース",
-          "deviation": 49,
-          "estimated": true
-        }
-      ],
-      "genderRatio": null,
-      "uniform": null,
-      "website": "https://kenmei.jp/correspondencecourse/",
-      "websiteSource": "公式一覧",
-      "updatedAt": null,
-      "verified": false,
-      "deviationSource": "みんなの高校情報",
-      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
-      "deviationFetchedAt": "2026-09-04",
-      "schoolTrip": {
-        "destination": "沖縄",
-        "year": null,
-        "source": "https://kenmei.jp/correspondencecourse/",
-        "evidence": "学習 自然と触れ合い心も体もリフレッシュ。仲間や先生との連帯感が生まれます！ 沖縄研修旅行 石垣島・黒島などへ3泊4日の修学旅行。自然の魅力を満喫します！ 職業体験 専門学校の職業訓練を体験。 生き方を考えるいい機会に！ 年間活動スケジュール 月",
-        "fetchedAt": "2026-09-04"
-      }
     },
     {
       "id": "priv-kouei-h",
