@@ -25,6 +25,9 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from safe_write import write_json, write_text  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 SCHOOLS = ROOT / "data" / "schools.json"
 UA = "koukou-search/1.0 (personal study tool)"
@@ -157,7 +160,7 @@ def main() -> int:
             print("   - " + n)
 
     if args.apply:
-        SCHOOLS.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        write_json(SCHOOLS, doc)
         print("\nschools.json を更新しました。")
         print("-> 続けて python tools/build_bundle.py を実行してください。")
     else:

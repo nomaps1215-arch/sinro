@@ -32,9 +32,62 @@
     }
     HSTransit.build(DATA.lines.lines);
     fillStations();
+    loadSettings();
     bindEvents();
     render();
   }
+
+  // ---------- 画面の切り替え ----------
+  function showSettings(on) {
+    $('#view-search').hidden = on;
+    $('#view-settings').hidden = !on;
+    document.body.classList.toggle('settings-open', on);
+    window.scrollTo(0, 0);
+    if (on) $('#station').focus();
+  }
+
+  // ---------- 設定の保存（次に開いたときも同じ条件で始められるように） ----------
+  const STORE_KEY = 'hs-search-conditions-v1';
+
+  /** 設定として保存・復元する入力欄。種別ボタンと偏差値は検索画面側にある。 */
+  function settingsInputs() {
+    return document.querySelectorAll(
+      '#conditions input, #conditions select, .type-toggle input, .dev-bar input');
+  }
+
+  function saveSettings() {
+    try {
+      const data = {};
+      settingsInputs().forEach((i) => {
+        const k = i.id || i.name + ':' + i.value;
+        data[k] = i.type === 'checkbox' || i.type === 'radio' ? i.checked : i.value;
+      });
+      localStorage.setItem(STORE_KEY, JSON.stringify(data));
+    } catch (e) {
+      /* プライベートブラウズなどで保存できないことがある。動作には影響しない。 */
+    }
+  }
+
+  function loadSettings() {
+    let data = null;
+    try {
+      data = JSON.parse(localStorage.getItem(STORE_KEY) || 'null');
+    } catch (e) {
+      data = null;
+    }
+    if (data) {
+      settingsInputs().forEach((i) => {
+        const k = i.id || i.name + ':' + i.value;
+        if (!(k in data)) return;
+        if (i.type === 'checkbox' || i.type === 'radio') i.checked = !!data[k];
+        else i.value = data[k];
+      });
+      $('#limit-out').textContent = $('#limit').value;
+    }
+    // 駅が未設定なら、まず設定画面から始めてもらう
+    if (!$('#station').value.trim()) showSettings(true);
+  }
+
 
   async function fetchJson() {
     const [lines, schools] = await Promise.all([
@@ -59,22 +112,35 @@
   }
 
   function bindEvents() {
-    $('#conditions').addEventListener('input', (e) => {
-      if (e.target.id === 'limit') $('#limit-out').textContent = e.target.value;
+    const onChange = (e) => {
+      if (e && e.target && e.target.id === 'limit') $('#limit-out').textContent = e.target.value;
+      saveSettings();
       render();
-    });
-    $('#conditions').addEventListener('change', render);
+    };
+    $('#conditions').addEventListener('input', onChange);
+    $('#conditions').addEventListener('change', onChange);
+    document.querySelector('.type-toggle').addEventListener('change', onChange);
+    document.querySelector('.dev-bar').addEventListener('input', onChange);
+    $('#q').addEventListener('input', render);
+
+    $('#openSettings').addEventListener('click', () => showSettings(true));
+    $('#closeSettings').addEventListener('click', () => showSettings(false));
+    $('#applySettings').addEventListener('click', () => showSettings(false));
   }
 
   // ---------- 条件の読み取り ----------
   function readConditions() {
     const modes = Array.from(document.querySelectorAll('input[name=mode]:checked')).map((i) => i.value);
     const types = Array.from(document.querySelectorAll('input[name=type]:checked')).map((i) => i.value);
+    const divisions = Array.from(document.querySelectorAll('input[name=division]:checked')).map((i) => i.value);
     return {
+      q: $('#q').value.trim(),
       gender: document.querySelector('input[name=gender]:checked').value,
       stationName: $('#station').value.trim(),
       modes,
       types,
+      divisions,
+      showUnknownDev: $('#showUnknownDev').checked,
       access: $('#access').value,
       limit: Number($('#limit').value),
       current: Number($('#current').value),
@@ -104,6 +170,17 @@
 
   const fmtMin = (m) => Math.round(m);
 
+  /** 学校名・旧校名・略称のいずれかに、入力した文字が含まれていれば一致とみなす。 */
+  function nameMatcher(q) {
+    const norm = (s) => (s || '').replace(/\s|　/g, '').replace(/ヶ/g, 'ケ').replace(/が丘/g, 'ケ丘');
+    const needle = norm(q);
+    return (s) =>
+      norm(s.name).includes(needle) ||
+      norm(s.shortName).includes(needle) ||
+      norm(s.formerName).includes(needle) ||
+      norm(s.city).includes(needle);
+  }
+
   // ---------- 描画 ----------
   function render() {
     const c = readConditions();
@@ -111,13 +188,13 @@
     box.innerHTML = '';
 
     const station = stationIndex.get(c.stationName);
-    if (!station) {
+    if (!station && !c.q) {
       $('#summary').textContent = c.stationName
-        ? '「' + c.stationName + '」は収録されていません。候補から選んでください。'
-        : '最寄り駅を入力してください。';
+        ? '「' + c.stationName + '」は収録されていません。設定画面で候補から選んでください。'
+        : '最寄り駅を設定するか、学校名で検索してください。';
       return;
     }
-    if (c.modes.length === 0 || c.types.length === 0) {
+    if (!c.q && (c.modes.length === 0 || c.types.length === 0)) {
       $('#summary').textContent = '通学手段と学校種別を1つ以上選んでください。';
       return;
     }
@@ -125,57 +202,98 @@
     const rows = [];
     let cutByTime = 0;
     let cutByDev = 0;
+    let cutByUnknownDev = 0;
+    let noCoord = 0;
+
+    const byName = c.q ? nameMatcher(c.q) : null;
 
     DATA.schools.schools.forEach((s) => {
+      // 名前で探しているときは、他の絞り込みを全部無視して名前だけで拾う。
+      // そうしないと「上限60分」に阻まれて目当ての学校が出てこない。
+      // 公立・私立の切り替えは検索欄の隣にあるので、名前検索中も効かせる
       if (!c.types.includes(s.type)) return;
-      if (!genderOk(s, c.gender)) return;
+      if (byName) {
+        if (!byName(s)) return;
+      } else {
+        if (s.division && !c.divisions.includes(s.division)) return;
+        if (!genderOk(s, c.gender)) return;
+      }
+      if (s.lat == null || s.lng == null) {
+        noCoord++;
+        return;
+      }
 
-      const devs = s.courses.map((x) => x.deviation);
-      const minDev = Math.min.apply(null, devs);
-      const maxDev = Math.max.apply(null, devs);
+      const devs = s.courses.map((x) => x.deviation).filter((d) => d != null);
+      const hasDev = devs.length > 0;
+      const minDev = hasDev ? Math.min.apply(null, devs) : null;
+      const maxDev = hasDev ? Math.max.apply(null, devs) : null;
 
-      if (c.narrow) {
-        const ceiling = Math.max(c.current, c.target) + 4;
-        const floor = c.current - 14;
-        if (minDev > ceiling || maxDev < floor) {
-          cutByDev++;
-          return;
+      if (!byName) {
+        if (!hasDev) {
+          // 偏差値が入っていない学校は偏差値で絞り込めない。表示するかどうかだけを選ばせる。
+          if (!c.showUnknownDev) {
+            cutByUnknownDev++;
+            return;
+          }
+        } else if (c.narrow) {
+          const ceiling = Math.max(c.current, c.target) + 4;
+          const floor = c.current - 14;
+          if (minDev > ceiling || maxDev < floor) {
+            cutByDev++;
+            return;
+          }
         }
       }
 
-      const r = HSTransit.route(station, s, { modes: c.modes, stationAccess: c.access });
-      if (!r.best) return;
-      if (r.best.minutes > c.limit) {
-        cutByTime++;
-        return;
+      const r = station
+        ? HSTransit.route(station, s, { modes: c.modes, stationAccess: c.access })
+        : null;
+      if (!byName) {
+        if (!r || !r.best) return;
+        if (r.best.minutes > c.limit) {
+          cutByTime++;
+          return;
+        }
       }
 
       // 学科ごとの判定。学校としての判定は「最も届きやすい学科」を採用する。
       const courseJudges = s.courses.map((x) => ({
         name: x.name,
         deviation: x.deviation,
-        j: judge(c.current, c.target, x.deviation)
+        estimated: !!x.estimated,
+        j: x.deviation == null ? null : judge(c.current, c.target, x.deviation)
       }));
-      const bestJudge = courseJudges.reduce((a, b) =>
-        JUDGE_RANK[a.j.key] <= JUDGE_RANK[b.j.key] ? a : b
-      ).j;
+      const judged = courseJudges.filter((x) => x.j);
+      const bestJudge = judged.length
+        ? judged.reduce((a, b) => (JUDGE_RANK[a.j.key] <= JUDGE_RANK[b.j.key] ? a : b)).j
+        : null;
 
-      rows.push({ school: s, route: r, minDev, maxDev, courseJudges, bestJudge });
+      rows.push({ school: s, route: r, minDev, maxDev, hasDev, courseJudges, bestJudge });
     });
 
+    // 偏差値が無い学校は数値比較できないので、偏差値順のときは末尾にまとめる
+    const devKey = (r, hi) => (r.hasDev ? (hi ? r.maxDev : r.minDev) : (hi ? -Infinity : Infinity));
+    const minutes = (r) => (r.route && r.route.best ? r.route.best.minutes : Infinity);
     rows.sort((a, b) => {
-      if (c.sort === 'dev-desc') return b.maxDev - a.maxDev || a.route.best.minutes - b.route.best.minutes;
-      if (c.sort === 'dev-asc') return a.minDev - b.minDev || a.route.best.minutes - b.route.best.minutes;
-      return a.route.best.minutes - b.route.best.minutes;
+      if (c.sort === 'dev-desc') return devKey(b, true) - devKey(a, true) || minutes(a) - minutes(b);
+      if (c.sort === 'dev-asc') return devKey(a, false) - devKey(b, false) || minutes(a) - minutes(b);
+      return minutes(a) - minutes(b);
     });
 
-    const notes = [];
-    if (cutByTime) notes.push(cutByTime + '校が上限時間オーバー');
-    if (cutByDev) notes.push(cutByDev + '校が偏差値レンジ外');
-    $('#summary').innerHTML =
-      '<strong>' + rows.length + '校</strong> が条件に合いました（' +
-      station.name + '駅 / ' + c.limit + '分以内）' +
-      (notes.length ? '<br>除外：' + notes.join('、') : '');
+    if (c.q) {
+      $('#summary').innerHTML =
+        '「' + c.q + '」で <strong>' + rows.length + '校</strong>' +
+        (station ? '' : '<br>最寄り駅が未設定のため、通学時間は出ません。');
+    } else {
+      const notes = [];
+      if (cutByTime) notes.push(cutByTime + '校が上限時間オーバー');
+      if (cutByDev) notes.push(cutByDev + '校が偏差値レンジ外');
+      if (cutByUnknownDev) notes.push(cutByUnknownDev + '校が偏差値未入力');
+      if (noCoord) notes.push(noCoord + '校が位置データなしで計算不可');
+      $('#summary').innerHTML =
+        '<strong>' + rows.length + '校</strong> が条件に合いました' +
+        (notes.length ? '<br>除外：' + notes.join('、') : '');
+    }
 
     if (rows.length === 0) {
       box.appendChild(
@@ -188,7 +306,7 @@
 
   function card(row, c) {
     const s = row.school;
-    const best = row.route.best;
+    const best = row.route && row.route.best;   // 名前検索だけのときは経路が無い
     const node = el('article', 'school' + (s.type === 'private' ? ' private' : ''));
 
     // --- 制服の図（カード右側にうっすら敷く） ---
@@ -196,42 +314,72 @@
     const art = uniformArt(s);
     if (art) node.appendChild(art);
 
+    // --- タペストリー（カードの上端から垂らす縦書きの札） ---
+    // 左＝公立/私立、右＝昨年の定員割れ。ひと目で属性が分かるようにする。
+    const left = el('span', 'tapestry left ' + s.type, s.type === 'public' ? '公立' : '私立');
+    node.appendChild(left);
+    if (s.lastYearUnderCapacity) {
+      const t = el('span', 'tapestry right under', '昨年定員割れ');
+      t.title = s.lastYearUnderCapacityNote || '昨年度の入学者選抜で志願者数が募集人員に届かなかった学校です。';
+      node.appendChild(t);
+      node.classList.add('has-right-tapestry');
+    }
+
     // --- 見出し ---
     const top = el('div', 'school-top');
     top.appendChild(el('h3', 'school-name', s.name));
-    top.appendChild(el('span', 'tag ' + s.type, s.type === 'public' ? '公立' : '私立'));
     if (s.gender === 'boys') top.appendChild(el('span', 'tag boys', '男子校'));
     if (s.gender === 'girls') top.appendChild(el('span', 'tag girls', '女子校'));
-    const jb = el('span', 'judge ' + row.bestJudge.key, row.bestJudge.label);
-    top.appendChild(jb);
-    if (!s.verified) top.appendChild(el('span', 'tag unverified', '未検証'));
+    if (s.division && s.division !== '全日制') top.appendChild(el('span', 'tag division', s.division));
+    if (row.bestJudge) {
+      top.appendChild(el('span', 'judge ' + row.bestJudge.key, row.bestJudge.label));
+    }
     node.appendChild(top);
-    node.appendChild(el('div', 'school-meta', s.city + '　' + s.address));
+    const where = [s.city, s.address].filter(Boolean).join('　');
+    if (where) node.appendChild(el('div', 'school-meta', where));
 
     // --- 主要項目 ---
     const grid = el('dl', 'school-grid');
 
     const modeLabel = { walk: '徒歩', bike: '自転車', bus: 'バス', train: '電車' };
-    const timeCell = el('div', 'cell');
-    timeCell.appendChild(el('dt', null, '通学時間（片道・概算）'));
-    const tdd = el('dd', 'time-big');
-    tdd.textContent = fmtMin(best.minutes) + '分';
-    const sub = el('small');
-    sub.textContent =
-      '　' + modeLabel[best.mode] +
-      (best.mode === 'train' ? '（乗換' + best.transfers + '回）' : '');
-    tdd.appendChild(sub);
-    timeCell.appendChild(tdd);
-    grid.appendChild(timeCell);
+    if (best) {
+      const timeCell = el('div', 'cell');
+      timeCell.appendChild(el('dt', null, '通学時間（片道・概算）'));
+      const tdd = el('dd', 'time-big');
+      tdd.textContent = fmtMin(best.minutes) + '分';
+      const sub = el('small');
+      sub.textContent =
+        '　' + modeLabel[best.mode] +
+        (best.mode === 'train' ? '（乗換' + best.transfers + '回）' : '');
+      tdd.appendChild(sub);
+      timeCell.appendChild(tdd);
+      grid.appendChild(timeCell);
+    }
 
-    grid.appendChild(
-      cell('偏差値（参考値）', row.minDev === row.maxDev ? String(row.maxDev) : row.minDev + '〜' + row.maxDev)
-    );
+    // 偏差値。公的なデータが存在しないので、確度に応じて出し分ける。
+    //   estimated: true の値は模試の公表値ではなく推定なので「想定」と添える。
+    if (row.hasDev) {
+      const dc = el('div', 'cell');
+      const estimated = s.courses.some((x) => x.deviation != null && x.estimated);
+      dc.appendChild(el('dt', null, estimated ? '偏差値（想定）' : '偏差値（参考値）'));
+      const dd = el('dd', 'dev-big',
+        row.minDev === row.maxDev ? String(row.maxDev) : row.minDev + '〜' + row.maxDev);
+      if (estimated) {
+        dd.appendChild(el('small', 'est', '（想定）'));
+        dd.title = '模試の公表値ではなく、周辺校との比較から見積もった数値です。';
+      }
+      dc.appendChild(dd);
+      grid.appendChild(dc);
+    } else {
+      grid.appendChild(cell('偏差値', '公表データなし', true,
+        '高校の偏差値に公的なデータは存在しません。模試の資料などを見て手で登録する必要があります。'));
+    }
 
-    // 男女比
-    const gc = el('div', 'cell');
-    gc.appendChild(el('dt', null, '男女比'));
+    // 男女比と制服は、公式サイトに載っている学校だけ取得できている。
+    // 大半が未取得で「未取得」の行だけが並ぶと邪魔なので、値があるときだけ出す。
     if (s.genderRatio) {
+      const gc = el('div', 'cell');
+      gc.appendChild(el('dt', null, '男女比'));
       const dd = el('dd');
       dd.textContent = '男 ' + s.genderRatio.male + '％ / 女 ' + s.genderRatio.female + '％';
       const bar = el('div', 'ratio-bar');
@@ -240,20 +388,28 @@
       bar.appendChild(m); bar.appendChild(f);
       dd.appendChild(bar);
       gc.appendChild(dd);
-    } else {
-      gc.appendChild(el('dd', 'muted', '未取得'));
+      grid.appendChild(gc);
     }
-    grid.appendChild(gc);
+    if (s.uniform) {
+      grid.appendChild(
+        cell('制服', s.uniform.type + (s.uniform.note ? '（' + s.uniform.note + '）' : ''))
+      );
+    }
 
-    grid.appendChild(
-      cell('制服', s.uniform ? s.uniform.type + (s.uniform.note ? '（' + s.uniform.note + '）' : '') : '未取得',
-        !s.uniform)
-    );
-
+    // 最寄り駅の見出し行の右端に「通学ルート」ボタンを置く。
+    // 値と同じ行に並べると、スマホ幅では駅名が長くて折り返してしまう。
     const ns = HSTransit.nearestStation(s);
-    grid.appendChild(
-      cell('学校の最寄り駅', ns ? ns.name + '（' + ns.lineName + '）徒歩' + fmtMin(ns.walkMin) + '分' : '—', !ns)
-    );
+    const nsCell = el('div', 'cell wide');
+    const head = el('div', 'cell-head');
+    head.appendChild(el('dt', null, '学校の最寄り駅'));
+    const routeBtn = el('button', 'btn route-btn', '通学ルート');
+    routeBtn.type = 'button';
+    routeBtn.setAttribute('aria-expanded', 'false');
+    if (best) head.appendChild(routeBtn);
+    nsCell.appendChild(head);
+    nsCell.appendChild(el('dd', ns ? null : 'muted',
+      ns ? ns.name + '（' + ns.lineName + '）徒歩' + fmtMin(ns.walkMin) + '分' : '—'));
+    grid.appendChild(nsCell);
     node.appendChild(grid);
 
     if (s.dataWarnings && s.dataWarnings.length) {
@@ -264,49 +420,59 @@
     const courses = el('div', 'courses');
     row.courseJudges.forEach((cj) => {
       const r = el('div', 'course-row');
-      r.appendChild(el('span', 'dev', String(cj.deviation)));
+      r.appendChild(el('span', 'dev' + (cj.deviation == null ? ' none' : ''),
+        cj.deviation == null ? '—' : String(cj.deviation) + (cj.estimated ? '*' : '')));
       r.appendChild(el('span', 'cname', cj.name));
-      r.appendChild(el('span', 'judge ' + cj.j.key, cj.j.label));
+      if (cj.j) r.appendChild(el('span', 'judge ' + cj.j.key, cj.j.label));
       courses.appendChild(r);
     });
     node.appendChild(courses);
 
-    // --- ルート内訳 ---
-    const det = el('details', 'route');
-    det.appendChild(el('summary', null, '通学ルートの内訳と他の手段を見る'));
-    const ul = el('ul', 'legs');
-    best.legs.forEach((l) => {
-      const li = el('li');
-      li.appendChild(el('span', 'lmin', fmtMin(l.minutes) + '分'));
-      li.appendChild(el('span', null, l.label));
-      ul.appendChild(li);
-    });
-    det.appendChild(ul);
+    // --- ルート内訳（最寄り駅の右のボタンで開閉する） ---
+    if (best) {
+      const det = el('div', 'route-panel');
+      det.hidden = true;
+      routeBtn.addEventListener('click', () => {
+        det.hidden = !det.hidden;
+        routeBtn.setAttribute('aria-expanded', String(!det.hidden));
+        routeBtn.classList.toggle('open', !det.hidden);
+      });
+      const ul = el('ul', 'legs');
+      best.legs.forEach((l) => {
+        const li = el('li');
+        li.appendChild(el('span', 'lmin', fmtMin(l.minutes) + '分'));
+        li.appendChild(el('span', null, l.label));
+        ul.appendChild(li);
+      });
+      det.appendChild(ul);
 
-    const others = Object.values(row.route.byMode)
-      .filter((r) => r.mode !== best.mode)
-      .sort((a, b) => a.minutes - b.minutes)
-      .map((r) => modeLabel[r.mode] + ' ' + fmtMin(r.minutes) + '分' + (r.approx ? '（粗い概算）' : ''));
-    if (others.length) det.appendChild(el('p', 'hint', '他の手段：' + others.join('　/　')));
-    node.appendChild(det);
-
-    // --- リンク ---
-    const p = el('p', 'school-links');
-    if (s.website) {
-      p.appendChild(link(s.website, '公式サイト'));
-      p.appendChild(document.createTextNode(' ／ '));
+      const others = Object.values(row.route.byMode)
+        .filter((r) => r.mode !== best.mode)
+        .sort((a, b) => a.minutes - b.minutes)
+        .map((r) => modeLabel[r.mode] + ' ' + fmtMin(r.minutes) + '分' + (r.approx ? '（粗い概算）' : ''));
+      if (others.length) det.appendChild(el('p', 'hint', '他の手段：' + others.join('　/　')));
+      node.appendChild(det);
     }
+
+    // --- ボタン ---
+    const p = el('div', 'school-links');
+    if (s.website) p.appendChild(button(s.website, '公式', '公式サイトを開く'));
     p.appendChild(
-      link(
+      button(
         'https://www.openstreetmap.org/?mlat=' + s.lat + '&mlon=' + s.lng + '#map=17/' + s.lat + '/' + s.lng,
-        '地図で位置を確認'
+        '地図',
+        '地図で位置を確認する'
       )
     );
-    p.appendChild(document.createTextNode(
-      s.updatedAt ? '　（公式サイト最終取得 ' + s.updatedAt + '）' : '　（公式サイトの自動取得は未実行）'
-    ));
     node.appendChild(p);
     return node;
+  }
+
+  function button(href, text, tip) {
+    const a = link(href, text);
+    a.className = 'btn';
+    if (tip) a.title = tip;
+    return a;
   }
 
   /**
@@ -342,10 +508,12 @@
     return a;
   }
 
-  function cell(label, value, muted) {
+  function cell(label, value, muted, tip) {
     const c = el('div', 'cell');
     c.appendChild(el('dt', null, label));
-    c.appendChild(el('dd', muted ? 'muted' : null, value));
+    const dd = el('dd', muted ? 'muted' : null, value);
+    if (tip) dd.title = tip;
+    c.appendChild(dd);
     return c;
   }
 

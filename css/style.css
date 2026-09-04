@@ -1,20 +1,23 @@
 :root {
-  --bg: #f5f6f8;
+  --bg: #f2f4f7;
   --card: #ffffff;
-  --ink: #1c2430;
+  --ink: #16202c;
   --ink-sub: #5d6b7a;
-  --line: #dfe4ea;
+  --line: #e1e6ec;
   --accent: #1c6fd0;
+  --accent-deep: #14508f;
   --accent-soft: #e8f1fc;
   --public: #1c6fd0;
-  --private: #b8860b;
+  --private: #b07d17;
+  --under: #d1552a;
   --safe: #167c4a;
   --likely: #2f8f3f;
   --even: #b07d17;
   --challenge: #c2560f;
   --far: #8b939c;
-  --radius: 10px;
-  --shadow: 0 1px 2px rgba(20, 30, 45, .06), 0 4px 12px rgba(20, 30, 45, .05);
+  --radius: 14px;
+  --shadow: 0 1px 2px rgba(20, 30, 45, .05), 0 6px 18px rgba(20, 30, 45, .07);
+  --bar-h: 52px;
 }
 
 * { box-sizing: border-box; }
@@ -24,52 +27,195 @@ body {
   background: var(--bg);
   color: var(--ink);
   font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Meiryo", system-ui, sans-serif;
-  line-height: 1.65;
+  line-height: 1.6;
   -webkit-text-size-adjust: 100%;
+  overflow-wrap: anywhere;
 }
+body.settings-open { background: #fff; }
 
-/* ---------- header ---------- */
-.site-header {
-  background: linear-gradient(120deg, #1c6fd0, #1a4f9c);
-  color: #fff;
-  padding: 22px 20px 20px;
-}
-.site-header h1 { margin: 0; font-size: 1.4rem; letter-spacing: .02em; }
-.tagline { margin: 4px 0 0; font-size: .82rem; opacity: .9; }
-
-/* ---------- layout ---------- */
-.layout {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 18px 16px 40px;
-  display: grid;
-  grid-template-columns: 320px 1fr;
-  gap: 20px;
-  align-items: start;
-}
-@media (max-width: 860px) {
-  .layout { grid-template-columns: 1fr; }
-}
-
-/* ---------- 条件パネル ---------- */
-.panel {
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  padding: 6px 16px 16px;
+/* ---------- アプリバー ---------- */
+.app-bar {
   position: sticky;
-  top: 14px;
-  max-height: calc(100vh - 28px);
-  overflow-y: auto;
+  top: 0;
+  z-index: 30;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-deep) 100%);
+  color: #fff;
+  padding-top: env(safe-area-inset-top);
+  box-shadow: 0 1px 8px rgba(15, 40, 75, .22);
 }
-@media (max-width: 860px) {
-  .panel { position: static; max-height: none; }
+.app-bar-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  height: var(--bar-h);
+  padding: 0 8px 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.app-bar h1 {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+}
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .14);
+  color: #fff;
+  font-size: 1.15rem;
+  cursor: pointer;
+  transition: background .12s;
+}
+.icon-btn:hover { background: rgba(255, 255, 255, .26); }
+.icon-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+/* ---------- ビュー ---------- */
+.view {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 12px 12px calc(40px + env(safe-area-inset-bottom));
+}
+.view[hidden] { display: none; }
+
+/* ---------- 検索バーと条件サマリ ---------- */
+.search-bar {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.search-bar input[type=search] {
+  flex: 1;
+  min-width: 0;
 }
 
-.field { padding: 14px 0; border-bottom: 1px solid var(--line); }
+/* 公立・私立の切り替え。◯の中に「公」「私」。 */
+.type-toggle { display: flex; gap: 6px; flex: none; }
+.type-btn { position: relative; cursor: pointer; }
+.type-btn input {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+.type-btn > span[aria-hidden] {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 2px solid var(--line);
+  background: #fff;
+  color: #aab3bd;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1;
+  transition: .14s;
+  box-shadow: var(--shadow);
+}
+.type-btn.public input:checked ~ span[aria-hidden] {
+  border-color: var(--public);
+  background: var(--public);
+  color: #fff;
+}
+.type-btn.private input:checked ~ span[aria-hidden] {
+  border-color: var(--private);
+  background: var(--private);
+  color: #fff;
+}
+.type-btn input:focus-visible ~ span[aria-hidden] { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+  font-size: .95rem;
+  box-shadow: var(--shadow);
+}
+.search-bar input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+/* 偏差値の入力。よく触るのでトップに置く。 */
+.dev-bar {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  padding: 12px 14px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+.dev-input { flex: 1; min-width: 0; }
+.dev-input span {
+  display: block;
+  font-size: .72rem;
+  color: var(--ink-sub);
+  margin-bottom: 4px;
+}
+.dev-input input {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+.dev-arrow {
+  flex: none;
+  padding-bottom: 12px;
+  color: var(--ink-sub);
+  font-size: 1.1rem;
+}
+
+.summary {
+  margin: 12px 2px;
+  font-size: .8rem;
+  color: var(--ink-sub);
+}
+.summary strong { color: var(--ink); font-size: 1.05rem; }
+
+/* ---------- 設定画面 ---------- */
+.settings-head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 4px;
+}
+.settings-head .icon-btn {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+.settings-head h2 { margin: 0; font-size: 1rem; }
+
+.field { padding: 16px 2px; border-bottom: 1px solid var(--line); }
 .field:last-child { border-bottom: none; }
-.field h2 {
+.field h3 {
   margin: 0 0 10px;
   font-size: .92rem;
   display: flex;
@@ -79,7 +225,7 @@ body {
 .step {
   display: inline-grid;
   place-items: center;
-  width: 21px; height: 21px;
+  width: 22px; height: 22px;
   border-radius: 50%;
   background: var(--accent);
   color: #fff;
@@ -87,36 +233,36 @@ body {
   font-weight: 700;
 }
 
-.hint { margin: 6px 0 0; font-size: .74rem; color: var(--ink-sub); }
-.inline-label { display: block; font-size: .78rem; color: var(--ink-sub); margin: 10px 0 4px; }
+.hint { margin: 6px 0 0; font-size: .74rem; color: var(--ink-sub); line-height: 1.55; }
+.inline-label { display: block; font-size: .78rem; color: var(--ink-sub); margin: 14px 0 5px; }
 
-input[type=text], input[type=number], select {
+input[type=text], input[type=number], input[type=search], select {
   width: 100%;
-  padding: 8px 10px;
+  padding: 10px 12px;
   border: 1px solid var(--line);
-  border-radius: 7px;
+  border-radius: 9px;
   background: #fff;
   color: var(--ink);
   font: inherit;
-  font-size: .88rem;
+  font-size: .92rem;
 }
-input[type=text]:focus, input[type=number]:focus, select:focus {
-  outline: 2px solid var(--accent-soft);
+input:focus, select:focus {
+  outline: none;
   border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
 }
 input[type=range] { width: 100%; accent-color: var(--accent); }
 
-.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 
-/* チップ型の選択肢 */
-.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chips { display: flex; flex-wrap: wrap; gap: 7px; }
 .chip input { position: absolute; opacity: 0; pointer-events: none; }
 .chip span {
   display: inline-block;
-  padding: 5px 12px;
+  padding: 7px 15px;
   border: 1px solid var(--line);
   border-radius: 999px;
-  font-size: .8rem;
+  font-size: .84rem;
   cursor: pointer;
   user-select: none;
   background: #fff;
@@ -126,96 +272,121 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
   background: var(--accent-soft);
   border-color: var(--accent);
   color: var(--accent);
-  font-weight: 600;
+  font-weight: 700;
 }
 .chip input:focus-visible + span { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-.switch { display: flex; align-items: center; gap: 7px; margin-top: 10px; font-size: .8rem; cursor: pointer; }
-.switch input { accent-color: var(--accent); }
+.switch { display: flex; align-items: center; gap: 8px; margin-top: 12px; font-size: .84rem; cursor: pointer; }
+.switch input { accent-color: var(--accent); width: 17px; height: 17px; }
 
-/* ---------- 結果 ---------- */
-.summary {
-  font-size: .84rem;
-  color: var(--ink-sub);
-  padding: 4px 2px 12px;
+.settings-foot {
+  position: sticky;
+  bottom: 0;
+  padding: 12px 0 calc(12px + env(safe-area-inset-bottom));
+  background: linear-gradient(180deg, rgba(255,255,255,0), #fff 32%);
 }
-.summary strong { color: var(--ink); font-size: 1rem; }
 
-.results { display: grid; gap: 12px; }
+/* ---------- ボタン ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-height: 34px;
+  padding: 5px 16px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--accent);
+  font: inherit;
+  font-size: .8rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background .12s, color .12s;
+}
+.btn:hover { background: var(--accent-soft); }
+.btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.btn.primary {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+  min-height: 48px;
+  font-size: .95rem;
+}
+.btn.primary:hover { background: var(--accent-deep); }
+.btn.block { width: 100%; }
+.school.private .btn { border-color: var(--private); color: var(--private); }
+.school.private .btn:hover { background: #fdf3dd; }
+.route-btn::after { content: "▾"; font-size: .7em; }
+.route-btn.open::after { content: "▴"; }
+
+/* ---------- 学校カード ---------- */
+.results { display: grid; gap: 14px; }
 
 .school {
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-left: 4px solid var(--public);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  padding: 14px 16px;
   position: relative;
   overflow: hidden;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 16px 16px 16px 54px;
 }
-.school.private { border-left-color: var(--private); }
 
-/* 制服の図。カード右端にうっすら敷く。文字の可読性を壊さない濃さに留める。 */
-.uniform-art {
+/* タペストリー：カード上端から垂れ下がる縦書きの札 */
+.tapestry {
   position: absolute;
-  right: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 108px;
-  max-height: calc(100% - 20px);
-  color: var(--public);
-  opacity: .09;
+  top: 0;
+  z-index: 2;
+  width: 27px;
+  padding: 11px 5px 16px;
+  color: #fff;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  line-height: 1;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: left;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 8px), 0 100%);
+  box-shadow: 0 3px 8px rgba(20, 30, 45, .22);
   pointer-events: none;
-  user-select: none;
-  z-index: 0;
 }
-.school.private .uniform-art { color: var(--private); }
-.uniform-art svg,
-.uniform-art img {
-  display: block;
-  width: 100%;
-  height: auto;
-  max-height: 100%;
-  object-fit: contain;
-}
-/* 実写は線画より情報量が多いので、さらに薄くしてグレースケールにする */
-.uniform-art.photo { opacity: .14; filter: grayscale(.35); }
-
-/* 図の上に文字が来るようにする */
-.school > *:not(.uniform-art) { position: relative; z-index: 1; }
-
-/* 幅が狭いと本文と重なるので出さない */
-@media (max-width: 560px) {
-  .uniform-art { display: none; }
-}
+.tapestry.left { left: 14px; }
+.tapestry.right { right: 14px; pointer-events: auto; }
+.tapestry.public { background: linear-gradient(180deg, #3b8ae0, var(--accent-deep)); }
+.tapestry.private { background: linear-gradient(180deg, #d3a338, #8d6412); }
+.tapestry.under { background: linear-gradient(180deg, #e8794a, #ab3d16); }
 
 .school-top {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
-  gap: 8px;
+  align-items: center;
+  gap: 7px;
 }
-.school-name { margin: 0; font-size: 1.02rem; font-weight: 700; }
-.school-meta { font-size: .74rem; color: var(--ink-sub); }
+.school-name { margin: 0; font-size: 1.05rem; font-weight: 700; line-height: 1.4; }
+.school-meta { font-size: .73rem; color: var(--ink-sub); margin-top: 3px; }
+.school.has-right-tapestry .school-top { padding-right: 34px; }
 
 .tag {
   display: inline-block;
-  padding: 1px 8px;
+  padding: 2px 9px;
   border-radius: 999px;
   font-size: .68rem;
   font-weight: 700;
-  line-height: 1.7;
+  line-height: 1.6;
 }
-.tag.public  { background: var(--accent-soft); color: var(--public); }
-.tag.private { background: #fdf3dd; color: var(--private); }
-.tag.boys    { background: #e4eefb; color: #24558f; }
-.tag.girls   { background: #fbe8ef; color: #a33668; }
-.tag.unverified { background: #f1f3f5; color: #6b7580; border: 1px dashed #c3cad2; }
+.tag.boys { background: #e4eefb; color: #24558f; }
+.tag.girls { background: #fbe8ef; color: #a33668; }
+.tag.division { background: #eef0f3; color: #5d6b7a; }
 
 .judge {
   display: inline-block;
-  padding: 1px 9px;
-  border-radius: 5px;
+  padding: 2px 10px;
+  border-radius: 6px;
   font-size: .7rem;
   font-weight: 700;
   color: #fff;
@@ -228,91 +399,117 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
 
 .school-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 10px 16px;
-  margin-top: 10px;
-  padding-top: 10px;
-  border-top: 1px dashed var(--line);
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px 16px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
 }
 .cell dt { font-size: .68rem; color: var(--ink-sub); margin: 0 0 2px; }
-.cell dd { margin: 0; font-size: .86rem; font-weight: 600; }
+.cell dd { margin: 0; font-size: .88rem; font-weight: 600; }
 .cell dd.muted { font-weight: 400; color: var(--ink-sub); }
-
-.time-big { font-size: 1.25rem; font-weight: 700; color: var(--accent); }
-.time-big small { font-size: .72rem; font-weight: 500; color: var(--ink-sub); }
-
-/* 男女比バー */
-.ratio-bar {
+.cell.wide { grid-column: 1 / -1; }
+.cell-head {
   display: flex;
-  height: 8px;
-  border-radius: 4px;
-  overflow: hidden;
-  background: #eef1f4;
-  margin-top: 4px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 2px;
 }
+.cell-head dt { margin: 0; }
+
+.cell dd.time-big,
+.cell dd.dev-big {
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+}
+.cell dd.time-big { color: var(--accent); }
+.cell dd.time-big small { font-size: .84rem; font-weight: 600; color: var(--ink); }
+.cell dd.dev-big small.est { font-size: .68rem; font-weight: 600; color: var(--ink-sub); margin-left: 2px; }
+
+.ratio-bar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: #eef1f4; margin-top: 4px; }
 .ratio-bar i { display: block; height: 100%; }
 .ratio-bar .m { background: #4a86d8; }
 .ratio-bar .f { background: #e07aa5; }
 
 .data-warning {
-  margin: 8px 0 0;
-  padding: 6px 10px;
+  margin: 10px 0 0;
+  padding: 7px 11px;
   background: #fff7e6;
   border: 1px solid #f0d9a8;
-  border-radius: 6px;
+  border-radius: 8px;
   font-size: .74rem;
   color: #8a6314;
 }
 
+/* 制服の図 */
+.uniform-art {
+  position: absolute;
+  right: 12px;
+  bottom: 10px;
+  width: 92px;
+  max-height: 68%;
+  color: var(--public);
+  opacity: .08;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+}
+.school.private .uniform-art { color: var(--private); }
+.uniform-art svg, .uniform-art img { display: block; width: 100%; height: auto; max-height: 100%; object-fit: contain; }
+.uniform-art.photo { opacity: .13; filter: grayscale(.35); }
+.school > *:not(.uniform-art):not(.tapestry) { position: relative; z-index: 1; }
+
 /* 学科 */
-.courses { display: grid; gap: 4px; margin-top: 8px; }
+.courses { display: grid; gap: 5px; margin-top: 10px; }
 .course-row {
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: .8rem;
-  padding: 3px 8px;
-  background: #fafbfc;
-  border-radius: 6px;
+  gap: 10px;
+  font-size: .82rem;
+  padding: 5px 10px;
+  background: #f7f9fb;
+  border-radius: 8px;
 }
-.course-row .dev { font-weight: 700; font-variant-numeric: tabular-nums; }
+.course-row .dev { font-weight: 700; font-variant-numeric: tabular-nums; min-width: 2.2em; }
+.course-row .dev.none { color: var(--ink-sub); font-weight: 500; }
 .course-row .cname { flex: 1; color: var(--ink-sub); }
 
 /* ルート内訳 */
-details.route { margin-top: 8px; }
-details.route summary {
-  font-size: .76rem;
-  color: var(--accent);
-  cursor: pointer;
-  list-style: none;
-}
-details.route summary::-webkit-details-marker { display: none; }
-details.route summary::before { content: "▸ "; }
-details.route[open] summary::before { content: "▾ "; }
-.legs { margin: 8px 0 0; padding: 0 0 0 4px; list-style: none; font-size: .78rem; }
-.legs li { display: flex; gap: 8px; padding: 2px 0; border-left: 2px solid var(--line); padding-left: 10px; }
+.route-panel { margin-top: 12px; }
+.legs { margin: 0; padding: 0; list-style: none; font-size: .79rem; }
+.legs li { display: flex; gap: 10px; padding: 3px 0 3px 12px; border-left: 2px solid var(--line); }
 .legs .lmin { color: var(--ink-sub); font-variant-numeric: tabular-nums; min-width: 3.4em; }
 
-.school-links { margin-top: 8px; font-size: .78rem; }
-.school-links a { color: var(--accent); }
+.school-links { margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap; }
 
 .empty {
   background: var(--card);
   border: 1px dashed var(--line);
   border-radius: var(--radius);
-  padding: 28px 20px;
+  padding: 32px 20px;
   text-align: center;
   color: var(--ink-sub);
   font-size: .86rem;
 }
 
-/* ---------- footer ---------- */
-.site-footer {
-  border-top: 1px solid var(--line);
+/* ---------- データについて ---------- */
+.about {
+  margin-top: 22px;
+  padding: 12px 14px;
   background: #fff;
-  padding: 18px 20px 40px;
-  font-size: .76rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font-size: .75rem;
   color: var(--ink-sub);
 }
-.site-footer ul { max-width: 1180px; margin: 6px auto 0; padding-left: 1.1em; }
-.site-footer p { max-width: 1180px; margin: 0 auto; }
+.about summary { cursor: pointer; font-weight: 700; color: var(--ink); }
+.about ul { margin: 10px 0 0; padding-left: 1.2em; }
+.about li { margin-bottom: 5px; line-height: 1.6; }
+
+/* ---------- 広い画面では設定を左に並べる ---------- */
+@media (min-width: 900px) {
+  .view { max-width: 760px; }
+}

@@ -29,6 +29,9 @@ import urllib.request
 import urllib.robotparser
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from safe_write import write_json, write_text  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 SCHOOLS = ROOT / "data" / "schools.json"
 REPORT = ROOT / "tools" / "update_report.json"
@@ -205,7 +208,7 @@ def main() -> int:
             s["linkOk"] = False
         time.sleep(SLEEP_SEC)
 
-    REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    write_json(REPORT, report)
     print(f"\nレポート: {REPORT.relative_to(ROOT)}")
 
     ok = sum(1 for e in report if e["status"].startswith("ok"))
@@ -217,7 +220,7 @@ def main() -> int:
             print(f"  - {e['name']}: {e['status']}  {e.get('website')}")
 
     if args.apply:
-        SCHOOLS.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        write_json(SCHOOLS, doc)
         print(f"schools.json を更新（自動反映 {applied} 項目）")
         print("→ 続けて python tools/build_bundle.py を実行してください。")
     else:

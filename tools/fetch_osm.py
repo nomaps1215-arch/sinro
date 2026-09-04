@@ -30,6 +30,9 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from safe_write import write_json  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 CACHE = ROOT / "tools" / ".cache"
@@ -221,9 +224,7 @@ def main() -> int:
         for r in review:
             tail = f"  [OSM: {r['osmName']}]" if r.get("osmName") else ""
             print(f"   - {r['name']}: {r['issue']}{tail}")
-        (ROOT / "tools" / "coord_review.json").write_text(
-            json.dumps(review, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-        )
+        write_json(ROOT / "tools" / "coord_review.json", review)
         print("   -> tools/coord_review.json に書き出しました")
 
     if not args.apply:
@@ -232,12 +233,8 @@ def main() -> int:
 
     lines_doc["meta"]["coordSource"] = "osm"
     schools_doc["meta"]["coordSource"] = "osm"
-    (DATA / "lines.json").write_text(
-        json.dumps(lines_doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
-    (DATA / "schools.json").write_text(
-        json.dumps(schools_doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
+    write_json(DATA / "lines.json", lines_doc)
+    write_json(DATA / "schools.json", schools_doc)
     print("\ndata/lines.json, data/schools.json を更新しました。")
     print("-> 続けて python tools/build_bundle.py を実行してください。")
     print("出典: (c) OpenStreetMap contributors (ODbL)")

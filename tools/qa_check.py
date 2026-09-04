@@ -82,6 +82,8 @@ def main() -> int:
     problems = []
     rows = []
     for s in schools["schools"]:
+        if s.get("lat") is None or s.get("lng") is None:
+            continue
         near = min(stations, key=lambda t: haversine_m(s["lat"], s["lng"], t[2], t[3]))
         d = haversine_m(s["lat"], s["lng"], near[2], near[3])
         rows.append((d, s, near))
@@ -94,15 +96,18 @@ def main() -> int:
         mark = "!" if d > FAR_M else " "
         print(f" {mark} {s['shortName']:<12} {d:>6.0f}m  {near[0]}（{near[1]}）  [{s.get('coordSource')}]")
 
-    # 必須項目
-    required = ["id", "name", "type", "gender", "address", "lat", "lng", "courses"]
+    # 必須項目。address と city は公立の一覧に載っていないので必須にしない。
+    # 偏差値は公的データが無いため null が正常。範囲外の値だけを弾く。
+    required = ["id", "name", "type", "gender", "courses", "website"]
     for s in schools["schools"]:
         for k in required:
             if k not in s or s[k] in (None, "", []):
                 problems.append(f"{s.get('name')}: 必須項目 {k} が空")
+        if s.get("lat") is None or s.get("lng") is None:
+            problems.append(f"{s['name']}: 座標が無く通学時間を計算できない")
         for c in s.get("courses", []):
             dv = c.get("deviation")
-            if not isinstance(dv, int) or not (25 <= dv <= 80):
+            if dv is not None and (not isinstance(dv, int) or not (25 <= dv <= 80)):
                 problems.append(f"{s['name']}: 偏差値が異常 {c}")
 
     ids = [s["id"] for s in schools["schools"]]

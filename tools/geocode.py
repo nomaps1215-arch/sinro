@@ -22,6 +22,9 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from safe_write import write_json, write_text  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 SCHOOLS = ROOT / "data" / "schools.json"
 ENDPOINT = "https://msearch.gsi.go.jp/address-search/AddressSearch?q="
@@ -87,9 +90,7 @@ def main() -> int:
         print("--dry-run のため書き込みません。")
         return 0
     if updated:
-        SCHOOLS.write_text(
-            json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-        )
+        write_json(SCHOOLS, doc)
         print(f"書き込み: {SCHOOLS.relative_to(ROOT)}")
         print("→ 続けて python tools/build_bundle.py を実行してください。")
     return 0

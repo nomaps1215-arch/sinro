@@ -2,24 +2,82 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1a5aa8">
 <title>大阪 高校さがし｜通学時間・偏差値から探す</title>
-<link rel="stylesheet" href="css/style.css">
+<!-- ?v= はブラウザのキャッシュ対策。CSS や JS を直したらこの数字を1つ増やす。 -->
+<link rel="stylesheet" href="css/style.css?v=3">
 </head>
 <body>
 
-<header class="site-header">
-  <h1>大阪 高校さがし</h1>
-  <p class="tagline">最寄り駅からの通学時間と偏差値で、公立・私立をまとめて探す（大阪市〜岬町）</p>
+<header class="app-bar">
+  <div class="app-bar-inner">
+    <h1>大阪 高校さがし</h1>
+    <button type="button" id="openSettings" class="icon-btn" aria-label="検索条件を開く">
+      <span aria-hidden="true">⚙</span>
+    </button>
+  </div>
 </header>
 
-<main class="layout">
+<!-- ============ 検索画面 ============ -->
+<main id="view-search" class="view">
+  <div class="search-bar">
+    <input type="search" id="q" placeholder="学校名で探す（例：三国丘）" spellcheck="false"
+           aria-label="学校名で探す">
+    <div class="type-toggle" role="group" aria-label="学校の種別">
+      <label class="type-btn public">
+        <input type="checkbox" name="type" value="public" checked>
+        <span aria-hidden="true">公</span>
+        <span class="sr-only">公立を表示</span>
+      </label>
+      <label class="type-btn private">
+        <input type="checkbox" name="type" value="private" checked>
+        <span aria-hidden="true">私</span>
+        <span class="sr-only">私立を表示</span>
+      </label>
+    </div>
+  </div>
 
-  <!-- ============ 条件パネル ============ -->
-  <form id="conditions" class="panel" autocomplete="off">
+  <div class="dev-bar">
+    <label class="dev-input">
+      <span>現在の偏差値</span>
+      <input type="number" id="current" min="25" max="80" step="1" value="55" inputmode="numeric">
+    </label>
+    <span class="dev-arrow" aria-hidden="true">→</span>
+    <label class="dev-input">
+      <span>目標の偏差値</span>
+      <input type="number" id="target" min="25" max="80" step="1" value="60" inputmode="numeric">
+    </label>
+  </div>
+
+  <p id="summary" class="summary">最寄り駅を設定してください。</p>
+  <div id="results" class="results"></div>
+
+  <details class="about">
+    <summary>データについて</summary>
+    <ul>
+      <li>通学時間は駅の座標と路線データから計算した<strong>概算</strong>です（誤差およそ±10分）。実際の時刻表・乗換案内で必ず確認してください。</li>
+      <li>偏差値には公的なデータが存在しません。表示している数値は模試の目安をもとにした<strong>参考値</strong>で、「想定」と付いているものはさらに確度が下がります。</li>
+      <li>校名・公式サイト・所在地・男女別は、大阪府と大阪私立中学校高等学校連合会の公式一覧から取得しています。</li>
+      <li>バスは路線データを持たないため、直線距離からの粗い概算です。</li>
+      <li>地図データ：© OpenStreetMap contributors（ODbL）</li>
+    </ul>
+  </details>
+</main>
+
+<!-- ============ 設定画面 ============ -->
+<section id="view-settings" class="view" hidden aria-label="検索条件の設定">
+  <div class="settings-head">
+    <button type="button" id="closeSettings" class="icon-btn" aria-label="検索画面に戻る">
+      <span aria-hidden="true">←</span>
+    </button>
+    <h2>検索条件</h2>
+  </div>
+
+  <form id="conditions" autocomplete="off">
 
     <section class="field">
-      <h2><span class="step">1</span>性別</h2>
+      <h3><span class="step">1</span>性別</h3>
       <div class="chips" role="radiogroup" aria-label="性別">
         <label class="chip"><input type="radio" name="gender" value="any" checked><span>指定なし</span></label>
         <label class="chip"><input type="radio" name="gender" value="male"><span>男子</span></label>
@@ -29,14 +87,14 @@
     </section>
 
     <section class="field">
-      <h2><span class="step">2</span>最寄り駅</h2>
+      <h3><span class="step">2</span>最寄り駅</h3>
       <input type="text" id="station" list="station-list" placeholder="例：中百舌鳥、堺東、和泉中央" spellcheck="false">
       <datalist id="station-list"></datalist>
       <p class="hint" id="station-hint">駅名を入力すると候補が出ます。</p>
     </section>
 
     <section class="field">
-      <h2><span class="step">3</span>通学手段と上限時間</h2>
+      <h3><span class="step">3</span>通学手段と上限時間</h3>
       <div class="chips">
         <label class="chip"><input type="checkbox" name="mode" value="walk" checked><span>徒歩</span></label>
         <label class="chip"><input type="checkbox" name="mode" value="bike" checked><span>自転車</span></label>
@@ -55,25 +113,19 @@
     </section>
 
     <section class="field">
-      <h2><span class="step">4</span>偏差値</h2>
-      <div class="two-col">
-        <div>
-          <label class="inline-label" for="current">現在</label>
-          <input type="number" id="current" min="25" max="80" step="1" value="55">
-        </div>
-        <div>
-          <label class="inline-label" for="target">目標</label>
-          <input type="number" id="target" min="25" max="80" step="1" value="60">
-        </div>
-      </div>
+      <h3><span class="step">4</span>偏差値での絞り込み</h3>
+      <p class="hint">現在・目標の偏差値そのものは、検索画面の上で入力します。</p>
       <label class="switch"><input type="checkbox" id="narrow" checked><span>狙える範囲だけに絞る</span></label>
+      <label class="switch"><input type="checkbox" id="showUnknownDev" checked><span>偏差値が未入力の学校も表示</span></label>
     </section>
 
     <section class="field">
-      <h2><span class="step">5</span>学校の種別</h2>
+      <h3><span class="step">5</span>学校の種別</h3>
+      <p class="hint">公立・私立の切り替えは検索画面の「公」「私」ボタンでも行えます。</p>
+      <label class="inline-label">課程</label>
       <div class="chips">
-        <label class="chip"><input type="checkbox" name="type" value="public" checked><span>公立</span></label>
-        <label class="chip"><input type="checkbox" name="type" value="private" checked><span>私立</span></label>
+        <label class="chip"><input type="checkbox" name="division" value="全日制" checked><span>全日制</span></label>
+        <label class="chip"><input type="checkbox" name="division" value="定時制・通信制"><span>定時制・通信制</span></label>
       </div>
       <label class="inline-label" for="sort">並び順</label>
       <select id="sort">
@@ -84,27 +136,14 @@
     </section>
   </form>
 
-  <!-- ============ 結果 ============ -->
-  <div class="results-area">
-    <div id="summary" class="summary">最寄り駅を入力してください。</div>
-    <div id="results" class="results"></div>
+  <div class="settings-foot">
+    <button type="button" id="applySettings" class="btn primary block">この条件で探す</button>
   </div>
+</section>
 
-</main>
-
-<footer class="site-footer">
-  <p><strong>データについて</strong></p>
-  <ul>
-    <li>通学時間は駅の座標と路線データから計算した<strong>概算</strong>です（誤差およそ±10分）。実際の時刻表・乗換案内で必ず確認してください。</li>
-    <li>偏差値は民間模試の一般的な目安をもとにした<strong>参考値</strong>で、公式発表ではありません。</li>
-    <li>「未検証」バッジの付いた項目は公式サイトからの取得がまだ済んでいません。</li>
-    <li>バスは路線データを持たないため、直線距離からの粗い概算です。</li>
-  </ul>
-</footer>
-
-<script src="js/transit.js"></script>
-<script src="js/uniform-art.js"></script>
-<script src="data/bundle.js"></script>
-<script src="js/app.js"></script>
+<script src="js/transit.js?v=3"></script>
+<script src="js/uniform-art.js?v=3"></script>
+<script src="data/bundle.js?v=3"></script>
+<script src="js/app.js?v=3"></script>
 </body>
 </html>
