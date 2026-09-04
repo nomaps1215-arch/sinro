@@ -37,7 +37,7 @@
         "note": "制服なし（標準服あり）"
       },
       "website": "https://tennoji-hs.jp/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "大阪府立天王寺高等学校",
       "linkOk": true,
@@ -66,7 +66,7 @@
         "note": "制服なし"
       },
       "website": "https://www.osaka-c.ed.jp/ikuno/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "府立生野高等学校",
       "linkOk": true
@@ -94,7 +94,7 @@
         "note": "制服なし"
       },
       "website": "https://www.osaka-c.ed.jp/mikunigaoka/all-index.html",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "府立三国丘高等学校",
       "linkOk": true,
@@ -122,9 +122,12 @@
         }
       ],
       "genderRatio": null,
-      "uniform": null,
+      "uniform": {
+        "type": "標準服",
+        "note": "公式サイトから自動取得"
+      },
       "website": "https://sumiyoshi.ed.jp/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "府立住吉高等学校",
       "linkOk": true
@@ -149,7 +152,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/senyo",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "大阪府立泉陽高等学校",
       "websiteSource": "大阪府 公立高校ホームページ一覧",
@@ -175,7 +178,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/kishiwada/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "府立岸和田高等学校",
       "linkOk": true
@@ -200,7 +203,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://tonko.ed.jp/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "府立富田林高等学校 府立富田林中学校",
       "websiteSource": "大阪府 公立高校ホームページ一覧",
@@ -224,9 +227,12 @@
         }
       ],
       "genderRatio": null,
-      "uniform": null,
+      "uniform": {
+        "type": "標準服",
+        "note": "公式サイトから自動取得"
+      },
       "website": "https://www.osaka-c.ed.jp/imamiya/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "大阪府立今宮高等学校",
       "linkOk": true
@@ -251,7 +257,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://ohtori-hs.ed.jp/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "府立鳳高等学校",
       "websiteSource": "大阪府 公立高校ホームページ一覧",
@@ -277,7 +283,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/abeno/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "府立阿倍野高等学校",
       "linkOk": true
@@ -306,7 +312,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://sano-h.ed.jp/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "大阪府立佐野高等学校",
       "websiteSource": "大阪府 公立高校ホームページ一覧",
@@ -336,7 +342,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://izumi-hs.ed.jp/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "府立和泉高等学校",
       "websiteSource": "大阪府 公立高校ホームページ一覧",
@@ -362,7 +368,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/higashisumiyoshi/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "府立東住吉高等学校",
       "linkOk": true
@@ -391,7 +397,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://semboku-h.ed.jp/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "大阪府立泉北高等学校",
       "websiteSource": "大阪府 公立高校ホームページ一覧",
@@ -415,9 +421,12 @@
         }
       ],
       "genderRatio": null,
-      "uniform": null,
+      "uniform": {
+        "type": "ブレザー",
+        "note": "公式サイトから自動取得"
+      },
       "website": "https://www.osaka-c.ed.jp/tomioka/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "大阪府立登美丘高等学校",
       "websiteSource": "大阪府 公立高校ホームページ一覧",
@@ -441,9 +450,12 @@
         }
       ],
       "genderRatio": null,
-      "uniform": null,
+      "uniform": {
+        "type": "標準服",
+        "note": "公式サイトから自動取得"
+      },
       "website": "https://www2.osaka-c.ed.jp/hannan/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "府立阪南高等学校",
       "dataWarnings": [
@@ -472,7 +484,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/kumeda",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "府立久米田高等学校",
       "websiteSource": "大阪府 公立高校ホームページ一覧",
@@ -498,7 +510,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/kanan/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "府立河南高等学校",
       "linkOk": true
@@ -523,7 +535,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/kanaoka",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "大阪府立金岡高等学校",
       "websiteSource": "大阪府 公立高校ホームページ一覧",
@@ -549,7 +561,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://sakai-higashi.ed.jp/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "大阪府立堺東高等学校",
       "linkOk": true,
@@ -575,7 +587,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://osaka-nagano.ed.jp/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "府立長野高等学校",
       "websiteSource": "大阪府 公立高校ホームページ一覧",
@@ -601,7 +613,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/takaishi/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "府立高石高等学校",
       "linkOk": true
@@ -626,7 +638,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/kaizukaminami/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "dataWarnings": [
         "地図データに該当校が無いため、座標は住所からの推定値。市区町村レベルでは住所と一致している。"
@@ -654,7 +666,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/izumiohtsu/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "府立泉大津高等学校",
       "websiteSource": "大阪府 公立高校ホームページ一覧",
@@ -680,7 +692,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://www2.osaka-c.ed.jp/hineno",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "大阪府立日根野高等学校",
       "websiteSource": "大阪府 公立高校ホームページ一覧",
@@ -710,7 +722,7 @@
       "verified": false,
       "osmName": "府立堺西高等学校",
       "websiteSource": "大阪府 公立高校ホームページ一覧",
-      "linkOk": true
+      "linkOk": false
     },
     {
       "id": "pref-rinku-shonan",
@@ -732,7 +744,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/rinkushonan/index.html",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "大阪府立りんくう翔南高等学校",
       "linkOk": true,
@@ -758,7 +770,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/hakata/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "府立伯太高等学校",
       "linkOk": true
@@ -783,7 +795,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://www.osaka-matsubara.ed.jp",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "府立松原高等学校",
       "websiteSource": "大阪府 公立高校ホームページ一覧",
@@ -809,7 +821,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/fukuizumi/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "府立福泉高等学校",
       "linkOk": true
@@ -834,7 +846,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/seibi/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "大阪府立成美高等学校",
       "dataWarnings": [
@@ -866,7 +878,7 @@
       "verified": false,
       "osmName": "大阪府立堺工科高等学校",
       "websiteSource": "大阪府 公立高校ホームページ一覧",
-      "linkOk": true
+      "linkOk": false
     },
     {
       "id": "pref-misaki",
@@ -888,7 +900,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://www.osaka-c.ed.jp/misaki/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "notes": "大阪府最南端の府立高校。",
       "osmName": "府立岬高等学校",
@@ -921,7 +933,7 @@
         "note": null
       },
       "website": "https://www.seikyo.ed.jp/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "私立清教学園高等学校",
       "linkOk": true
@@ -948,15 +960,17 @@
         "type": "ブレザー",
         "note": null
       },
-      "website": "https://www.tezuka-i-h.jp/",
-      "updatedAt": null,
+      "website": "http://www.tezuka-i-h.jp",
+      "updatedAt": "2026-09-04",
       "verified": false,
-      "osmName": "帝塚山学院泉ケ丘中学校高等学校"
+      "osmName": "帝塚山学院泉ケ丘中学校高等学校",
+      "linkOk": true,
+      "websiteSource": "大阪私立中学校高等学校連合会 加盟校一覧"
     },
     {
       "id": "priv-hatsushiba-ritsumeikan",
-      "name": "初芝立命館高等学校",
-      "shortName": "初芝立命館",
+      "name": "利晶学園大阪立命館高等学校",
+      "shortName": "利晶学園大阪立命館",
       "type": "private",
       "gender": "coed",
       "city": "堺市東区",
@@ -979,12 +993,16 @@
         "type": "ブレザー",
         "note": null
       },
-      "website": "https://www.hatsuritsu.ed.jp/",
+      "website": "http://www.hatsushiba.ed.jp/ritsumeikan/",
       "updatedAt": null,
       "verified": false,
       "dataWarnings": [
         "地図データに該当校が無いため、座標は住所からの推定値。市区町村レベルでは住所と一致している。"
-      ]
+      ],
+      "linkOk": true,
+      "formerName": "初芝立命館高等学校",
+      "notes": "2025年4月に学校法人が利晶学園へ改称し、校名も変更された。",
+      "websiteSource": "大阪私立中学校高等学校連合会 加盟校一覧"
     },
     {
       "id": "priv-naniwa",
@@ -1009,11 +1027,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://www.naniwa.ed.jp/",
-      "updatedAt": null,
+      "website": "http://www.naniwa.ed.jp/",
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "私立浪速高等学校",
-      "linkOk": true
+      "linkOk": true,
+      "websiteSource": "大阪私立中学校高等学校連合会 加盟校一覧"
     },
     {
       "id": "priv-osaka-gakugei",
@@ -1038,10 +1057,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://www.osakagakugei.ac.jp/",
+      "website": "https://www.osakagakugei.ac.jp/senior/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "大阪学芸高等学校"
+      "osmName": "大阪学芸高等学校",
+      "linkOk": true,
+      "websiteSource": "大阪私立中学校高等学校連合会 加盟校一覧"
     },
     {
       "id": "priv-hagoromo-gakuen",
@@ -1069,11 +1090,12 @@
         "type": "ブレザー",
         "note": null
       },
-      "website": "https://www.hagoromogakuen.ed.jp/",
-      "updatedAt": null,
+      "website": "http://www.hagoromogakuen.ed.jp/",
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "羽衣学園 中学校・高等学校",
-      "linkOk": true
+      "linkOk": true,
+      "websiteSource": "大阪私立中学校高等学校連合会 加盟校一覧"
     },
     {
       "id": "priv-higashi-otani",
@@ -1101,10 +1123,12 @@
         "female": 100
       },
       "uniform": null,
-      "website": "https://www.higashiotani.ac.jp/",
+      "website": "http://www.higashiohtani.ac.jp",
       "updatedAt": null,
       "verified": false,
-      "osmName": "東大谷高等学校"
+      "osmName": "東大谷高等学校",
+      "linkOk": true,
+      "websiteSource": "大阪私立中学校高等学校連合会 加盟校一覧"
     },
     {
       "id": "priv-kenmei-gakuin",
@@ -1125,10 +1149,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://kemmei.jp/",
+      "website": "https://kenmei.jp",
       "updatedAt": null,
       "verified": false,
-      "osmName": "私立賢明学院高等学校"
+      "osmName": "私立賢明学院高等学校",
+      "linkOk": true,
+      "websiteSource": "大阪私立中学校高等学校連合会 加盟校一覧"
     },
     {
       "id": "priv-hannan-univ",
@@ -1149,10 +1175,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://www.hdaifu.ed.jp/",
+      "website": "http://www.hdk.ed.jp/",
       "updatedAt": null,
       "verified": false,
-      "osmName": "私立阪南大学高等学校"
+      "osmName": "私立阪南大学高等学校",
+      "linkOk": true,
+      "websiteSource": "大阪私立中学校高等学校連合会 加盟校一覧"
     },
     {
       "id": "priv-kindai-senshu",
@@ -1173,13 +1201,15 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://www.kindai-senshu.ed.jp/",
+      "website": "http://www.kindai-sensyu.ed.jp/",
       "updatedAt": null,
       "verified": false,
       "osmName": "近畿大学泉州高等学校",
       "dataWarnings": [
         "登録住所と地図上の位置が別の市区町村を指している。住所が未確認のため要確認（通学時間は地図上の位置で計算している）。"
-      ]
+      ],
+      "linkOk": true,
+      "websiteSource": "大阪私立中学校高等学校連合会 加盟校一覧"
     },
     {
       "id": "priv-osakashodai-sakai",
@@ -1200,10 +1230,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://www.shodai-sakai.ed.jp/",
+      "website": "http://www.shodaisakai.ac.jp",
       "updatedAt": null,
       "verified": false,
-      "osmName": "大阪商業大学堺高等学校"
+      "osmName": "大阪商業大学堺高等学校",
+      "linkOk": true,
+      "websiteSource": "大阪私立中学校高等学校連合会 加盟校一覧"
     },
     {
       "id": "priv-kokoku",
@@ -1231,11 +1263,12 @@
         "female": 0
       },
       "uniform": null,
-      "website": "https://www.kokoku.ed.jp/",
-      "updatedAt": null,
+      "website": "http://www.kokoku.ed.jp/",
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "興國高等学校",
-      "linkOk": true
+      "linkOk": true,
+      "websiteSource": "大阪私立中学校高等学校連合会 加盟校一覧"
     },
     {
       "id": "priv-seimei-gakuin",
@@ -1256,11 +1289,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://www.seimei.ed.jp/",
-      "updatedAt": null,
+      "website": "http://www.seimei.ed.jp",
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "私立清明学院高等学校",
-      "linkOk": true
+      "linkOk": true,
+      "websiteSource": "大阪私立中学校高等学校連合会 加盟校一覧"
     },
     {
       "id": "priv-abeno-shogaku",
@@ -1281,11 +1315,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://www.abeno-shogaku.ed.jp/",
-      "updatedAt": null,
+      "website": "http://www.abeno-shogaku.ed.jp",
+      "updatedAt": "2026-09-04",
       "verified": false,
       "osmName": "あべの翔学高等学校",
-      "linkOk": true
+      "linkOk": true,
+      "websiteSource": "大阪私立中学校高等学校連合会 加盟校一覧"
     },
     {
       "id": "priv-kenkoku",
@@ -1306,10 +1341,12 @@
       ],
       "genderRatio": null,
       "uniform": null,
-      "website": "https://kenkoku.ed.jp/",
+      "website": "http://www.keonguk.ac.jp",
       "updatedAt": null,
       "verified": false,
-      "osmName": "私立建国高等学校"
+      "osmName": "私立建国高等学校",
+      "linkOk": true,
+      "websiteSource": "大阪私立中学校高等学校連合会 加盟校一覧"
     },
     {
       "id": "priv-kaorugaoka-liberte",
@@ -1333,10 +1370,12 @@
         "female": 100
       },
       "uniform": null,
-      "website": "https://www.liberte.ed.jp/",
-      "updatedAt": null,
+      "website": "http://www.liberte.ed.jp",
+      "updatedAt": "2026-09-04",
       "verified": false,
-      "osmName": "香ヶ丘リベルテ高等学校"
+      "osmName": "香ヶ丘リベルテ高等学校",
+      "linkOk": true,
+      "websiteSource": "大阪私立中学校高等学校連合会 加盟校一覧"
     },
     {
       "id": "priv-osaka-gyoko",
@@ -1358,7 +1397,7 @@
       "genderRatio": null,
       "uniform": null,
       "website": "https://www.osakagyoko.ed.jp/",
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "verified": false,
       "dataWarnings": [
         "地図データに該当校が無いため、座標は住所からの推定値。市区町村レベルでは住所と一致している。"

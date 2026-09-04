@@ -150,8 +150,44 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 14px 16px;
+  position: relative;
+  overflow: hidden;
 }
 .school.private { border-left-color: var(--private); }
+
+/* 制服の図。カード右端にうっすら敷く。文字の可読性を壊さない濃さに留める。 */
+.uniform-art {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 108px;
+  max-height: calc(100% - 20px);
+  color: var(--public);
+  opacity: .09;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+}
+.school.private .uniform-art { color: var(--private); }
+.uniform-art svg,
+.uniform-art img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+}
+/* 実写は線画より情報量が多いので、さらに薄くしてグレースケールにする */
+.uniform-art.photo { opacity: .14; filter: grayscale(.35); }
+
+/* 図の上に文字が来るようにする */
+.school > *:not(.uniform-art) { position: relative; z-index: 1; }
+
+/* 幅が狭いと本文と重なるので出さない */
+@media (max-width: 560px) {
+  .uniform-art { display: none; }
+}
 
 .school-top {
   display: flex;

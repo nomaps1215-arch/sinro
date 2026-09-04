@@ -1,17 +1,19 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""大阪府の「公立高校ホームページ一覧」から、府立高校の公式URLを正確に取得する。
+"""公式の学校一覧から、各高校の公式サイトURLを正確に取得する。
 
-府立高校のURLは www.osaka-c.ed.jp/<slug>/ に統一されておらず、
-www2/www3 配下だったり独自ドメイン（tennoji-hs.jp など）だったりする。
-推測では当たらないので、大阪府が公開している一覧ページを一次ソースにする。
+URLを校名のローマ字から推測しても当たらない。府立高校は www.osaka-c.ed.jp/<slug>/ に
+統一されておらず www2/www3 配下や独自ドメイン（天王寺高校は tennoji-hs.jp）が混在し、
+私立高校に至っては規則性がない。だから一覧ページを一次ソースにする。
 
     python tools/fetch_official_urls.py           # 取得して差分を表示するだけ
     python tools/fetch_official_urls.py --apply   # schools.json の website を更新
 
-私立高校はこの一覧に載らないので、tools/find_websites.py で探す。
+一次ソース:
+  公立 https://www.pref.osaka.lg.jp/o180040/kotogakko/hp/index.html （大阪府）
+  私立 https://www.osaka-shigaku.gr.jp/school/index.html （大阪私立中学校高等学校連合会）
 
-一次ソース: https://www.pref.osaka.lg.jp/o180040/kotogakko/hp/index.html
+府立高校がこの一覧に無い場合は廃校の可能性が高い。必ずメモリアルページで確認すること。
 """
 from __future__ import annotations
 
@@ -28,12 +30,17 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SCHOOLS = ROOT / "data" / "schools.json"
 INDEX = "https://www.pref.osaka.lg.jp/o180040/kotogakko/hp/index.html"
+PRIVATE_INDEX = "https://www.osaka-shigaku.gr.jp/school/index.html"
+MEMORIAL = "https://www.pref.osaka.lg.jp/o180040/kotogakko/hp/memo.html"
 UA = "koukou-search/1.0 (personal study tool)"
 SLEEP_SEC = 1.5
 
 RE_AREA = re.compile(r'href="([^"]*(?:_area|tei)\.html)"')
 RE_ANCHOR = re.compile(r'<a[^>]+href="(https?://[^"]+)"[^>]*>([^<]{2,40}?)</a>')
+RE_ANCHOR_ANY = re.compile(r'<a[^>]+href="(https?://[^"]+)"[^>]*>(.{0,80}?)</a>', re.S)
 RE_FOUNDER = re.compile(r"^(大阪府立|大阪市立|府立|私立|市立)")
+RE_SUFFIX = re.compile(r"(高等学校|高校|中学校)")
+RE_PAREN = re.compile(r"[（(].*?[）)]")
 
 
 def get(url: str) -> str:
@@ -53,7 +60,17 @@ def get(url: str) -> str:
 def normalize(s: str) -> str:
     s = s.strip().replace(" ", "").replace("　", "")
     s = RE_FOUNDER.sub("", s)
-    return s.replace("ヶ", "ケ").replace("が", "ケ")
+    return s.replace("ヶ", "ケ").replace("が", "ケ").replace("國", "国").replace("學", "学")
+
+
+def depth(url: str) -> int:
+    """URL のパスの深さ。トップページほど小さい。"""
+    return len([p for p in urllib.parse.urlsplit(url).path.split("/") if p])
+
+
+def core(s: str) -> str:
+    """「大阪学芸高等学校」→「大阪学芸」。私立の一覧は校名のみの短い表記になっている。"""
+    return RE_SUFFIX.sub("", normalize(RE_PAREN.sub("", s)))
 
 
 def collect() -> dict[str, str]:
@@ -83,24 +100,66 @@ def collect() -> dict[str, str]:
     return table
 
 
+def collect_private() -> dict[str, str]:
+    """大阪私立中学校高等学校連合会の加盟校一覧から 校名→URL を作る。
+
+    一覧の表記は「大阪学芸」のように校名のみ。中等教育課程などは
+    「大阪学芸（中等教育）」と括弧付きで併記されるので、括弧無しを優先する。
+    """
+    print(f"私立の一覧ページを取得: {PRIVATE_INDEX}")
+    page = get(PRIVATE_INDEX)
+    table: dict[str, str] = {}
+    n = 0
+    for href, raw in RE_ANCHOR_ANY.findall(page):
+        if "osaka-shigaku.gr.jp" in href:
+            continue
+        name = re.sub(r"<[^>]+>", "", raw).strip()
+        if not name or len(name) > 30:
+            continue
+        key = core(name)
+        if not key:
+            continue
+        # 同じ校名が複数並ぶことがある（賢明学院は全日制と通信制課程が同じ表記で2行ある）。
+        # 学校のトップページを採るため、パスの浅いURLを優先する。
+        prev = table.get(key)
+        if prev is None or depth(href) < depth(prev):
+            table[key] = href
+        n += 1
+    print(f"  {n} 校のリンクを取得")
+    return table
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true")
     args = ap.parse_args()
 
     table = collect()
-    print(f"\n一覧から {len(table)} 校のURLを取得\n")
+    print(f"\n公立の一覧から {len(table)} 校のURLを取得")
+    time.sleep(SLEEP_SEC)
+    try:
+        priv = collect_private()
+    except Exception as e:  # noqa: BLE001 — 公立側だけでも処理を続ける
+        print(f"  ! 私立の一覧を取得できませんでした: {e}")
+        priv = {}
+    print(f"私立の一覧から {len(priv)} 校のURLを取得\n")
 
     doc = json.loads(SCHOOLS.read_text(encoding="utf-8"))
     changed = same = missing = 0
     for s in doc["schools"]:
-        if s["type"] != "public":
-            continue
-        url = table.get(normalize(s["name"]))
+        if s["type"] == "public":
+            url = table.get(normalize(s["name"]))
+            src = "大阪府 公立高校ホームページ一覧"
+        else:
+            url = priv.get(core(s["name"]))
+            src = "大阪私立中学校高等学校連合会 加盟校一覧"
         if not url:
-            # 現役の府立高校はすべてこの一覧に載る。載っていない＝廃校・統合の可能性が高い。
-            print(f"   × {s['name']}: 一覧に見つからず（廃校・統合の可能性。"
-                  f"メモリアルページ https://www.pref.osaka.lg.jp/o180040/kotogakko/hp/memo.html で確認すること）")
+            if s["type"] == "public":
+                # 現役の府立高校はすべてこの一覧に載る。載っていない＝廃校・統合の可能性が高い。
+                print(f"   × {s['name']}: 公立の一覧に見つからず（廃校・統合の可能性。"
+                      f"{MEMORIAL} で確認すること）")
+            else:
+                print(f"   × {s['name']}: 私立の一覧に見つからず（校名の表記ゆれか、連合会に未加盟）")
             missing += 1
             continue
         if url == s.get("website"):
@@ -109,7 +168,7 @@ def main() -> int:
         print(f"   → {s['shortName']}: {s.get('website')}\n        {url}")
         if args.apply:
             s["website"] = url
-            s["websiteSource"] = "大阪府 公立高校ホームページ一覧"
+            s["websiteSource"] = src
             s["linkOk"] = True
         changed += 1
 

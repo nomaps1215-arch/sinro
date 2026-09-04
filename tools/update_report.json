@@ -1,0 +1,439 @@
+[
+  {
+    "id": "pref-tennoji",
+    "name": "大阪府立天王寺高等学校",
+    "website": "https://tennoji-hs.jp/",
+    "status": "ok-200",
+    "title": "大阪府立天王寺高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-ikuno",
+    "name": "大阪府立生野高等学校",
+    "website": "https://www.osaka-c.ed.jp/ikuno/",
+    "status": "ok-200",
+    "title": "大阪府立生野高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-mikunigaoka",
+    "name": "大阪府立三国丘高等学校",
+    "website": "https://www.osaka-c.ed.jp/mikunigaoka/all-index.html",
+    "status": "ok-200",
+    "title": "大阪府立三国丘高等学校【全日制】TOP",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-sumiyoshi",
+    "name": "大阪府立住吉高等学校",
+    "website": "https://sumiyoshi.ed.jp/",
+    "status": "ok-200",
+    "title": "大阪府立住吉高等学校 | 自主自律の校風で、世界に羽ばたく人材を育成する",
+    "genderRatioCandidate": null,
+    "uniformKeywords": [
+      "標準服"
+    ]
+  },
+  {
+    "id": "pref-senyo",
+    "name": "大阪府立泉陽高等学校",
+    "website": "https://www2.osaka-c.ed.jp/senyo",
+    "status": "ok-200",
+    "title": "TOP - 大阪府立泉陽高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-kishiwada",
+    "name": "大阪府立岸和田高等学校",
+    "website": "https://www.osaka-c.ed.jp/kishiwada/",
+    "status": "ok-200",
+    "title": "大阪府立岸和田高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-tondabayashi",
+    "name": "大阪府立富田林高等学校",
+    "website": "https://tonko.ed.jp/",
+    "status": "ok-200",
+    "title": "大阪府立富田林中学校・高等学校 |",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-imamiya",
+    "name": "大阪府立今宮高等学校",
+    "website": "https://www.osaka-c.ed.jp/imamiya/",
+    "status": "ok-200",
+    "title": "大阪府立今宮高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": [
+      "標準服"
+    ]
+  },
+  {
+    "id": "pref-ohtori",
+    "name": "大阪府立鳳高等学校",
+    "website": "https://ohtori-hs.ed.jp/",
+    "status": "ok-200",
+    "title": "大阪府立鳳高等学校 | 単位制授業・広いグラウンドで部活も活発な大阪府堺市の公立高校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-abeno",
+    "name": "大阪府立阿倍野高等学校",
+    "website": "https://www.osaka-c.ed.jp/abeno/",
+    "status": "ok-200",
+    "title": "大阪府立阿倍野高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-sano",
+    "name": "大阪府立佐野高等学校",
+    "website": "https://sano-h.ed.jp/",
+    "status": "ok-200",
+    "title": "大阪府立佐野高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-izumi",
+    "name": "大阪府立和泉高等学校",
+    "website": "https://izumi-hs.ed.jp/",
+    "status": "ok-200",
+    "title": "大阪府立和泉高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-higashisumiyoshi",
+    "name": "大阪府立東住吉高等学校",
+    "website": "https://www.osaka-c.ed.jp/higashisumiyoshi/",
+    "status": "ok-200",
+    "title": "大阪府立 東住吉高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-senboku",
+    "name": "大阪府立泉北高等学校",
+    "website": "https://semboku-h.ed.jp/",
+    "status": "ok-200",
+    "title": "大阪府立泉北高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-tomigaoka",
+    "name": "大阪府立登美丘高等学校",
+    "website": "https://www.osaka-c.ed.jp/tomioka/",
+    "status": "ok-200",
+    "title": "大阪府立登美丘高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": [
+      "ブレザー"
+    ]
+  },
+  {
+    "id": "pref-hannan",
+    "name": "大阪府立阪南高等学校",
+    "website": "https://www2.osaka-c.ed.jp/hannan/",
+    "status": "ok-200",
+    "title": "TOP - 大阪府立阪南高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": [
+      "標準服"
+    ]
+  },
+  {
+    "id": "pref-kumeda",
+    "name": "大阪府立久米田高等学校",
+    "website": "https://www2.osaka-c.ed.jp/kumeda",
+    "status": "ok-200",
+    "title": "TOP - 大阪府立久米田高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-kanan",
+    "name": "大阪府立河南高等学校",
+    "website": "https://www.osaka-c.ed.jp/kanan/",
+    "status": "ok-200",
+    "title": "河南高校ホームページ",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-kanaoka",
+    "name": "大阪府立金岡高等学校",
+    "website": "https://www2.osaka-c.ed.jp/kanaoka",
+    "status": "ok-200",
+    "title": "TOP - 大阪府立金岡高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-sakaihigashi",
+    "name": "大阪府立堺東高等学校",
+    "website": "https://sakai-higashi.ed.jp/",
+    "status": "ok-200",
+    "title": "大阪府立堺東高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-nagano",
+    "name": "大阪府立長野高等学校",
+    "website": "https://osaka-nagano.ed.jp/",
+    "status": "ok-200",
+    "title": "大阪府立長野高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-takaishi",
+    "name": "大阪府立高石高等学校",
+    "website": "https://www.osaka-c.ed.jp/takaishi/",
+    "status": "ok-200",
+    "title": "TOP - 大阪府立高石高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-kaizukaminami",
+    "name": "大阪府立貝塚南高等学校",
+    "website": "https://www2.osaka-c.ed.jp/kaizukaminami/",
+    "status": "ok-200",
+    "title": "TOP - 大阪府立貝塚南高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-izumiotsu",
+    "name": "大阪府立泉大津高等学校",
+    "website": "https://www.osaka-c.ed.jp/izumiohtsu/",
+    "status": "ok-200",
+    "title": "大阪府立泉大津高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-hineno",
+    "name": "大阪府立日根野高等学校",
+    "website": "https://www2.osaka-c.ed.jp/hineno",
+    "status": "ok-200",
+    "title": "TOP - 大阪府立日根野高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-sakainishi",
+    "name": "大阪府立堺西高等学校",
+    "website": "https://sakainishi-hs.jp/",
+    "status": "robots-disallowed"
+  },
+  {
+    "id": "pref-rinku-shonan",
+    "name": "大阪府立りんくう翔南高等学校",
+    "website": "https://www.osaka-c.ed.jp/rinkushonan/index.html",
+    "status": "ok-200",
+    "title": "大阪府立りんくう翔南高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-hakata",
+    "name": "大阪府立伯太高等学校",
+    "website": "https://www.osaka-c.ed.jp/hakata/",
+    "status": "ok-200",
+    "title": "TOP - 大阪府立伯太高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-matsubara",
+    "name": "大阪府立松原高等学校",
+    "website": "https://www.osaka-matsubara.ed.jp",
+    "status": "ok-200",
+    "title": "大阪府立松原高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-fukuizumi",
+    "name": "大阪府立福泉高等学校",
+    "website": "https://www.osaka-c.ed.jp/fukuizumi/",
+    "status": "ok-200",
+    "title": "TOP - 大阪府立福泉高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-seibi",
+    "name": "大阪府立成美高等学校",
+    "website": "https://www.osaka-c.ed.jp/seibi/",
+    "status": "ok-200",
+    "title": "【大阪】成美高Webページ",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "pref-sakai-kohka",
+    "name": "大阪府立堺工科高等学校",
+    "website": "https://sakai-t.ed.jp/",
+    "status": "error",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>"
+  },
+  {
+    "id": "pref-misaki",
+    "name": "大阪府立岬高等学校",
+    "website": "https://www.osaka-c.ed.jp/misaki/",
+    "status": "ok-200",
+    "title": "大阪府立岬高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "priv-seikyo-gakuen",
+    "name": "清教学園高等学校",
+    "website": "https://www.seikyo.ed.jp/",
+    "status": "ok-200",
+    "title": "学校法人清教学園 清教学園中・高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "priv-tezukayama-izumigaoka",
+    "name": "帝塚山学院泉ヶ丘高等学校",
+    "website": "https://www.tezuka-i-h.jp/",
+    "status": "ok-200",
+    "title": "帝塚山学院泉ヶ丘中学校高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "priv-hatsushiba-ritsumeikan",
+    "name": "初芝立命館高等学校",
+    "website": "https://www.hatsuritsu.ed.jp/",
+    "status": "error",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "id": "priv-naniwa",
+    "name": "浪速高等学校",
+    "website": "https://www.naniwa.ed.jp/",
+    "status": "ok-200",
+    "title": "学校法人浪速学院 浪速高等学校・浪速中学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "priv-osaka-gakugei",
+    "name": "大阪学芸高等学校",
+    "website": "https://www.osakagakugei.ac.jp/",
+    "status": "error",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>"
+  },
+  {
+    "id": "priv-hagoromo-gakuen",
+    "name": "羽衣学園高等学校",
+    "website": "https://www.hagoromogakuen.ed.jp/",
+    "status": "ok-200",
+    "title": "羽衣学園中学校・高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "priv-higashi-otani",
+    "name": "東大谷高等学校",
+    "website": "https://www.higashiotani.ac.jp/",
+    "status": "error",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "id": "priv-kenmei-gakuin",
+    "name": "賢明学院高等学校",
+    "website": "https://kemmei.jp/",
+    "status": "error",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "id": "priv-hannan-univ",
+    "name": "阪南大学高等学校",
+    "website": "https://www.hdaifu.ed.jp/",
+    "status": "error",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "id": "priv-kindai-senshu",
+    "name": "近畿大学泉州高等学校",
+    "website": "https://www.kindai-senshu.ed.jp/",
+    "status": "error",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "id": "priv-osakashodai-sakai",
+    "name": "大阪商業大学堺高等学校",
+    "website": "https://www.shodai-sakai.ed.jp/",
+    "status": "error",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "id": "priv-kokoku",
+    "name": "興國高等学校",
+    "website": "https://www.kokoku.ed.jp/",
+    "status": "ok-200",
+    "title": "興國高等学校｜大阪市天王寺区 - 興國高等学校へ｜大阪市天王寺区",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "priv-seimei-gakuin",
+    "name": "清明学院高等学校",
+    "website": "https://www.seimei.ed.jp/",
+    "status": "ok-200",
+    "title": "清明学院高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "priv-abeno-shogaku",
+    "name": "あべの翔学高等学校",
+    "website": "https://www.abeno-shogaku.ed.jp/",
+    "status": "ok-200",
+    "title": "あべの翔学高等学校｜大阪市阿倍野区",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "priv-kenkoku",
+    "name": "建国高等学校",
+    "website": "https://kenkoku.ed.jp/",
+    "status": "error",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "id": "priv-kaorugaoka-liberte",
+    "name": "香ヶ丘リベルテ高等学校",
+    "website": "https://www.liberte.ed.jp/",
+    "status": "ok-200",
+    "title": "HOME | 大阪で美容師・保育士・資格取得をめざすなら香ヶ丘リベルテ高等学校大阪で美容師・保育士・資格取得をめざすなら香ヶ丘リベルテ高等学校",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  },
+  {
+    "id": "priv-osaka-gyoko",
+    "name": "大阪暁光高等学校",
+    "website": "https://www.osakagyoko.ed.jp/",
+    "status": "ok-200",
+    "title": "大阪暁光高等学校 | 看護科・看護専攻科・探究進学コース・幼児教育コース・総合進学コース",
+    "genderRatioCandidate": null,
+    "uniformKeywords": null
+  }
+]

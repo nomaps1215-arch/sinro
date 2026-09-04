@@ -191,6 +191,11 @@
     const best = row.route.best;
     const node = el('article', 'school' + (s.type === 'private' ? ' private' : ''));
 
+    // --- 制服の図（カード右側にうっすら敷く） ---
+    // 実写があればそれを、無ければ制服の種類を表す自作の図案を出す。
+    const art = uniformArt(s);
+    if (art) node.appendChild(art);
+
     // --- 見出し ---
     const top = el('div', 'school-top');
     top.appendChild(el('h3', 'school-name', s.name));
@@ -302,6 +307,31 @@
     ));
     node.appendChild(p);
     return node;
+  }
+
+  /**
+   * カード右側に敷く制服の図。
+   * uniformImage（実写）があれば優先し、無ければ制服の種類から自作SVGを描く。
+   * 制服が未取得の学校には何も出さない（無いものをそれらしく見せない）。
+   */
+  function uniformArt(s) {
+    if (s.uniformImage) {
+      const box = el('div', 'uniform-art photo');
+      const img = new Image();
+      img.src = s.uniformImage;
+      img.alt = '';
+      img.loading = 'lazy';
+      // 画像が見つからないときは枠ごと消す（壊れた画像アイコンを出さない）
+      img.addEventListener('error', () => box.remove());
+      box.appendChild(img);
+      return box;
+    }
+    if (!s.uniform || !s.uniform.type) return null;
+    const svg = HSUniformArt.svgFor(s.uniform.type);
+    if (!svg) return null;
+    const box = el('div', 'uniform-art');
+    box.innerHTML = svg;
+    return box;
   }
 
   function link(href, text) {
