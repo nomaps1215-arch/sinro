@@ -9,7 +9,8 @@
       "lat/lng は coordSource が approx の間は概算値。tools/geocode.py（国土地理院API）で住所から精緻化できる。",
       "verified:false のレコードは UI 上で「未検証」バッジを表示する。",
       "座標は OpenStreetMap（© OpenStreetMap contributors, ODbL）由来。地図に該当校が無いものは住所からの推定値で、dataWarnings に記載している。",
-      "府立高校は tools/fetch_official_urls.py が大阪府の一覧と突き合わせる。一覧に無い学校は廃校の可能性があるので、メモリアルページで確認して削除する。"
+      "府立高校は tools/fetch_official_urls.py が大阪府の一覧と突き合わせる。一覧に無い学校は廃校の可能性があるので、メモリアルページで確認して削除する。",
+      "偏差値はみんなの高校情報（https://www.minkou.jp/hischool/exam/osaka/deviation/）の掲載値。模試結果からの推定であり公式発表ではない。個人利用の範囲で参照しており、再配布・商用利用はしない。"
     ],
     "coordSource": "osm",
     "source": {
@@ -34,7 +35,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 41,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -48,7 +50,10 @@
       "lastYearRatio": 0.81,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 195人が募集人員 240人に届きませんでした（倍率 0.81）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 195人が募集人員 240人に届きませんでした（倍率 0.81）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-ashima-hs",
@@ -65,7 +70,8 @@
       "courses": [
         {
           "name": "総合学科",
-          "deviation": null
+          "deviation": 52,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -79,7 +85,10 @@
       "lastYearRatio": 0.93,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 224人が募集人員 240人に届きませんでした（倍率 0.93）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 224人が募集人員 240人に届きませんでした（倍率 0.93）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-ichiritsu",
@@ -96,7 +105,8 @@
       "courses": [
         {
           "name": "普通科 理数科 英語科",
-          "deviation": null
+          "deviation": 60,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -109,7 +119,10 @@
       "lastYearApplicants": 283,
       "lastYearRatio": 1.01,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-korigaoka",
@@ -126,7 +139,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 54,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -139,7 +153,10 @@
       "lastYearApplicants": 295,
       "lastYearRatio": 1.23,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-nagaohighschool",
@@ -156,7 +173,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 46,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -170,7 +188,10 @@
       "lastYearRatio": 0.56,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 90人が募集人員 160人に届きませんでした（倍率 0.56）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 90人が募集人員 160人に届きませんでした（倍率 0.56）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-hirakata",
@@ -187,7 +208,8 @@
       "courses": [
         {
           "name": "普通科 国際文化科",
-          "deviation": null
+          "deviation": 56,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -200,7 +222,10 @@
       "lastYearApplicants": 340,
       "lastYearRatio": 1.07,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-hirakatatsuda",
@@ -217,7 +242,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 44,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -231,7 +257,10 @@
       "lastYearRatio": 0.83,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 199人が募集人員 240人に届きませんでした（倍率 0.83）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 199人が募集人員 240人に届きませんでした（倍率 0.83）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-hirakatanagisa",
@@ -248,7 +277,8 @@
       "courses": [
         {
           "name": "総合学科",
-          "deviation": null
+          "deviation": 44,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -262,7 +292,10 @@
       "lastYearRatio": 0.93,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 222人が募集人員 240人に届きませんでした（倍率 0.93）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 222人が募集人員 240人に届きませんでした（倍率 0.93）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-makino",
@@ -279,7 +312,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 60,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -292,7 +326,10 @@
       "lastYearApplicants": 284,
       "lastYearRatio": 1.01,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-kitakawachisatsukigaoka",
@@ -309,7 +346,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 46,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -323,7 +361,10 @@
       "lastYearRatio": 0.81,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 195人が募集人員 240人に届きませんでした（倍率 0.81）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 195人が募集人員 240人に届きませんでした（倍率 0.81）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-nishineyagawa",
@@ -340,7 +381,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 38,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -354,7 +396,10 @@
       "lastYearRatio": 0.45,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 107人が募集人員 240人に届きませんでした（倍率 0.45）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 107人が募集人員 240人に届きませんでした（倍率 0.45）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-neyagawa",
@@ -371,7 +416,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 68,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -384,7 +430,10 @@
       "lastYearApplicants": 398,
       "lastYearRatio": 1.24,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-nozaki",
@@ -432,7 +481,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 43,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -446,7 +496,10 @@
       "lastYearRatio": 0.91,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 219人が募集人員 240人に届きませんでした（倍率 0.91）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 219人が募集人員 240人に届きませんでした（倍率 0.91）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-kadomanishi",
@@ -463,7 +516,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 37,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -477,7 +531,10 @@
       "lastYearRatio": 0.43,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 69人が募集人員 160人に届きませんでした（倍率 0.43）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 69人が募集人員 160人に届きませんでした（倍率 0.43）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-kadomanamihaya-my-canva-site",
@@ -494,7 +551,8 @@
       "courses": [
         {
           "name": "総合学科",
-          "deviation": null
+          "deviation": 47,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -507,7 +565,10 @@
       "lastYearApplicants": 246,
       "lastYearRatio": 1.1,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-shijonawate",
@@ -524,7 +585,8 @@
       "courses": [
         {
           "name": "文理学科",
-          "deviation": null
+          "deviation": 69,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -537,7 +599,10 @@
       "lastYearApplicants": 486,
       "lastYearRatio": 1.35,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-katano",
@@ -554,7 +619,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 49,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -568,7 +634,10 @@
       "lastYearRatio": 0.93,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 223人が募集人員 240人に届きませんでした（倍率 0.93）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 223人が募集人員 240人に届きませんでした（倍率 0.93）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-kanan",
@@ -585,7 +654,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": 55
+          "deviation": 55,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -599,7 +669,10 @@
       "lastYearRatio": 0.94,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 263人が募集人員 280人に届きませんでした（倍率 0.94）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 263人が募集人員 280人に届きませんでした（倍率 0.94）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-kongo-hs",
@@ -616,7 +689,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 48,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -629,7 +703,10 @@
       "lastYearApplicants": 241,
       "lastYearRatio": 1.0,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-tondabayashi",
@@ -646,7 +723,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": 65
+          "deviation": 63,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -659,7 +737,10 @@
       "lastYearApplicants": 151,
       "lastYearRatio": 1.23,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-nagano",
@@ -676,7 +757,8 @@
       "courses": [
         {
           "name": "普通科 国際文化科",
-          "deviation": 52
+          "deviation": 48,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -690,7 +772,10 @@
       "lastYearRatio": 0.62,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 147人が募集人員 237人に届きませんでした（倍率 0.62）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 147人が募集人員 237人に届きませんでした（倍率 0.62）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-otsuka",
@@ -707,7 +792,8 @@
       "courses": [
         {
           "name": "普通科 体育科",
-          "deviation": null
+          "deviation": 49,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -721,7 +807,10 @@
       "lastYearRatio": 0.69,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 110人が募集人員 160人に届きませんでした（倍率 0.69）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 110人が募集人員 160人に届きませんでした（倍率 0.69）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-ikuno",
@@ -738,7 +827,8 @@
       "courses": [
         {
           "name": "文理学科",
-          "deviation": 71
+          "deviation": 69,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -754,7 +844,10 @@
       "lastYearApplicants": 466,
       "lastYearRatio": 1.29,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-matsubara",
@@ -771,7 +864,8 @@
       "courses": [
         {
           "name": "総合学科",
-          "deviation": 45
+          "deviation": 43,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -785,7 +879,10 @@
       "lastYearRatio": 0.74,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 178人が募集人員 240人に届きませんでした（倍率 0.74）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 178人が募集人員 240人に届きませんでした（倍率 0.74）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-kaifukan",
@@ -833,7 +930,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 47,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -846,7 +944,10 @@
       "lastYearApplicants": 254,
       "lastYearRatio": 1.06,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-zennichi",
@@ -863,19 +964,23 @@
       "courses": [
         {
           "name": "機械技術科",
-          "deviation": null
+          "deviation": 39,
+          "estimated": true
         },
         {
           "name": "機械設計科 電気技術科",
-          "deviation": null
+          "deviation": 39,
+          "estimated": true
         },
         {
           "name": "電子情報通信科 ロボット工学科",
-          "deviation": null
+          "deviation": 39,
+          "estimated": true
         },
         {
           "name": "制御システム科",
-          "deviation": null
+          "deviation": 39,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -888,7 +993,10 @@
       "lastYearApplicants": 175,
       "lastYearRatio": 1.0,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-sayama",
@@ -905,11 +1013,13 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 54,
+          "estimated": true
         },
         {
           "name": "文理探究科（社会共創）",
-          "deviation": null
+          "deviation": 54,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -922,7 +1032,10 @@
       "lastYearApplicants": 261,
       "lastYearRatio": 1.09,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-kitasenri",
@@ -939,7 +1052,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 61,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -952,7 +1066,10 @@
       "lastYearApplicants": 415,
       "lastYearRatio": 1.3,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-suita",
@@ -969,7 +1086,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 42,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -983,7 +1101,10 @@
       "lastYearRatio": 0.93,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 223人が募集人員 240人に届きませんでした（倍率 0.93）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 223人が募集人員 240人に届きませんでした（倍率 0.93）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-suitahigashi",
@@ -1000,7 +1121,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 52,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1013,7 +1135,10 @@
       "lastYearApplicants": 383,
       "lastYearRatio": 1.2,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-yamada",
@@ -1030,7 +1155,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 59,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1043,7 +1169,10 @@
       "lastYearApplicants": 412,
       "lastYearRatio": 1.14,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-osaka-senri-hs",
@@ -1060,7 +1189,8 @@
       "courses": [
         {
           "name": "国際文化科 総合科学科",
-          "deviation": null
+          "deviation": 67,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1073,7 +1203,10 @@
       "lastYearApplicants": 371,
       "lastYearRatio": 1.19,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-akutagawa",
@@ -1090,7 +1223,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 50,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1104,7 +1238,10 @@
       "lastYearRatio": 0.97,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 273人が募集人員 280人に届きませんでした（倍率 0.97）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 273人が募集人員 280人に届きませんでした（倍率 0.97）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-abuno",
@@ -1121,7 +1258,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 42,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1134,7 +1272,10 @@
       "lastYearApplicants": 243,
       "lastYearRatio": 1.01,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-ohkanmuri",
@@ -1151,7 +1292,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 45,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1164,7 +1306,10 @@
       "lastYearApplicants": 280,
       "lastYearRatio": 1.0,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-takatsukikita",
@@ -1181,7 +1326,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 53,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1195,7 +1341,10 @@
       "lastYearRatio": 0.87,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 244人が募集人員 280人に届きませんでした（倍率 0.87）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 244人が募集人員 280人に届きませんでした（倍率 0.87）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-mishima-hs",
@@ -1212,7 +1361,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 63,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1225,7 +1375,10 @@
       "lastYearApplicants": 456,
       "lastYearRatio": 1.27,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-tsukinoki",
@@ -1242,7 +1395,8 @@
       "courses": [
         {
           "name": "普通科（単位制）",
-          "deviation": null
+          "deviation": 57,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1256,7 +1410,10 @@
       "lastYearRatio": 0.92,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 221人が募集人員 240人に届きませんでした（倍率 0.92）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 221人が募集人員 240人に届きませんでした（倍率 0.92）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-ibarakinishi",
@@ -1273,7 +1430,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 45,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1287,7 +1445,10 @@
       "lastYearRatio": 0.99,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 238人が募集人員 240人に届きませんでした（倍率 0.99）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 238人が募集人員 240人に届きませんでした（倍率 0.99）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-kasugaoka",
@@ -1304,11 +1465,13 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 68,
+          "estimated": true
         },
         {
           "name": "文理探究科（学際領域）",
-          "deviation": null
+          "deviation": 68,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1321,7 +1484,10 @@
       "lastYearApplicants": 530,
       "lastYearRatio": 1.66,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-hokusetsutsubasa",
@@ -1369,19 +1535,23 @@
       "courses": [
         {
           "name": "機械技術科",
-          "deviation": null
+          "deviation": 37,
+          "estimated": true
         },
         {
           "name": "生産技術科 電気技術科",
-          "deviation": null
+          "deviation": 37,
+          "estimated": true
         },
         {
           "name": "電子情報通信科 環境システム科",
-          "deviation": null
+          "deviation": 37,
+          "estimated": true
         },
         {
           "name": "化学システム科 大学進学科",
-          "deviation": null
+          "deviation": 37,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1395,7 +1565,10 @@
       "lastYearRatio": 0.8,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 112人が募集人員 140人に届きませんでした（倍率 0.8）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 112人が募集人員 140人に届きませんでした（倍率 0.8）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-ibaraki",
@@ -1412,7 +1585,8 @@
       "courses": [
         {
           "name": "文理学科",
-          "deviation": null
+          "deviation": 72,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1425,7 +1599,10 @@
       "lastYearApplicants": 446,
       "lastYearRatio": 1.39,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-osaka-fukui",
@@ -1442,7 +1619,8 @@
       "courses": [
         {
           "name": "総合学科",
-          "deviation": null
+          "deviation": 41,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1456,7 +1634,10 @@
       "lastYearRatio": 0.52,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 75人が募集人員 144人に届きませんでした（倍率 0.52）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 75人が募集人員 144人に届きませんでした（倍率 0.52）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-settsu",
@@ -1473,7 +1654,8 @@
       "courses": [
         {
           "name": "普通科 体育科",
-          "deviation": null
+          "deviation": 50,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1486,7 +1668,10 @@
       "lastYearApplicants": 180,
       "lastYearRatio": 1.12,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-yao",
@@ -1503,7 +1688,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 63,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1516,7 +1702,10 @@
       "lastYearApplicants": 308,
       "lastYearRatio": 1.1,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-yaosuisho",
@@ -1533,7 +1722,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 46,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1546,7 +1736,10 @@
       "lastYearApplicants": 204,
       "lastYearRatio": 1.02,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-yamamoto-shs",
@@ -1563,7 +1756,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 53,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1576,7 +1770,10 @@
       "lastYearApplicants": 302,
       "lastYearRatio": 1.08,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-wp",
@@ -1593,7 +1790,8 @@
       "courses": [
         {
           "name": "総合学科",
-          "deviation": null
+          "deviation": 43,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1607,7 +1805,10 @@
       "lastYearRatio": 0.96,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 216人が募集人員 224人に届きませんでした（倍率 0.96）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 216人が募集人員 224人に届きませんでした（倍率 0.96）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-kawachino",
@@ -1624,7 +1825,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 39,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1632,7 +1834,10 @@
       "website": "https://www.osaka-c.ed.jp/kawachino/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-hanazono",
@@ -1649,7 +1854,8 @@
       "courses": [
         {
           "name": "普通科 国際文化科",
-          "deviation": null
+          "deviation": 55,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1662,7 +1868,10 @@
       "lastYearApplicants": 381,
       "lastYearRatio": 1.2,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-fuse",
@@ -1679,7 +1888,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 57,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1692,7 +1902,10 @@
       "lastYearApplicants": 354,
       "lastYearRatio": 1.11,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-midoriseiho",
@@ -1709,7 +1922,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 48,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1723,7 +1937,10 @@
       "lastYearRatio": 0.98,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 235人が募集人員 240人に届きませんでした（倍率 0.98）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 235人が募集人員 240人に届きませんでした（倍率 0.98）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-joto-tech",
@@ -1777,19 +1994,23 @@
       "courses": [
         {
           "name": "マシンコントロール科",
-          "deviation": null
+          "deviation": 39,
+          "estimated": true
         },
         {
           "name": "メカニクステクノ科 エレクトロニクス科",
-          "deviation": null
+          "deviation": 39,
+          "estimated": true
         },
         {
           "name": "ICTネットワーク科 アーキテクト科",
-          "deviation": null
+          "deviation": 39,
+          "estimated": true
         },
         {
           "name": "インフラ科 大学進学科",
-          "deviation": null
+          "deviation": 39,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1803,7 +2024,10 @@
       "lastYearRatio": 0.89,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 217人が募集人員 245人に届きませんでした（倍率 0.89）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 217人が募集人員 245人に届きませんでした（倍率 0.89）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-fusekouka-sakura-ne",
@@ -1888,7 +2112,8 @@
       "courses": [
         {
           "name": "総合学科（エンパワメントスクール）",
-          "deviation": null
+          "deviation": 35,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1896,7 +2121,10 @@
       "website": "https://www.osaka-c.ed.jp/fusekita/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-owa",
@@ -1913,7 +2141,8 @@
       "courses": [
         {
           "name": "教育文理学科",
-          "deviation": null
+          "deviation": 53,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1926,7 +2155,10 @@
       "lastYearApplicants": 265,
       "lastYearRatio": 1.1,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-sakuranomiya",
@@ -1943,7 +2175,8 @@
       "courses": [
         {
           "name": "普通科 人間スポーツ科学科",
-          "deviation": null
+          "deviation": 55,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1956,7 +2189,10 @@
       "lastYearApplicants": 132,
       "lastYearRatio": 1.1,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-higashi",
@@ -1973,7 +2209,8 @@
       "courses": [
         {
           "name": "普通科 理数科 英語科",
-          "deviation": null
+          "deviation": 63,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -1986,7 +2223,10 @@
       "lastYearApplicants": 393,
       "lastYearRatio": 1.24,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-miyakojima-t",
@@ -2003,7 +2243,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 52,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2016,7 +2257,10 @@
       "lastYearApplicants": 284,
       "lastYearRatio": 1.01,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-nishinoda",
@@ -2070,7 +2314,8 @@
       "courses": [
         {
           "name": "総合学科 食物文化科 演劇科",
-          "deviation": null
+          "deviation": 54,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2083,7 +2328,10 @@
       "lastYearApplicants": 146,
       "lastYearRatio": 1.22,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-chuo",
@@ -2125,7 +2373,8 @@
       "courses": [
         {
           "name": "文理学科",
-          "deviation": null
+          "deviation": 72,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2138,7 +2387,10 @@
       "lastYearApplicants": 476,
       "lastYearRatio": 1.32,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-minato-hs",
@@ -2155,7 +2407,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 47,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2168,7 +2421,10 @@
       "lastYearApplicants": 302,
       "lastYearRatio": 1.08,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-ichioka",
@@ -2185,7 +2441,8 @@
       "courses": [
         {
           "name": "普通科（単位制）",
-          "deviation": null
+          "deviation": 59,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2198,7 +2455,10 @@
       "lastYearApplicants": 318,
       "lastYearRatio": 1.14,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-izuo-t",
@@ -2215,7 +2475,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 37,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2229,7 +2490,10 @@
       "lastYearRatio": 0.66,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 92人が募集人員 140人に届きませんでした（倍率 0.66）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 92人が募集人員 140人に届きませんでした（倍率 0.66）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-taishohakuryo",
@@ -2271,7 +2535,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 63,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2284,7 +2549,10 @@
       "lastYearApplicants": 319,
       "lastYearRatio": 1.14,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-yuhigaoka",
@@ -2301,7 +2569,8 @@
       "courses": [
         {
           "name": "普通科 音楽科",
-          "deviation": null
+          "deviation": 61,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2314,7 +2583,10 @@
       "lastYearApplicants": 317,
       "lastYearRatio": 1.13,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-kozu",
@@ -2331,7 +2603,8 @@
       "courses": [
         {
           "name": "文理学科",
-          "deviation": null
+          "deviation": 70,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2344,7 +2617,10 @@
       "lastYearApplicants": 501,
       "lastYearRatio": 1.39,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-obf-hs",
@@ -2361,7 +2637,8 @@
       "courses": [
         {
           "name": "グローバルビジネス科",
-          "deviation": null
+          "deviation": 54,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2369,7 +2646,10 @@
       "website": "https://obf-hs.com/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-imamiya",
@@ -2386,7 +2666,8 @@
       "courses": [
         {
           "name": "総合学科",
-          "deviation": 62
+          "deviation": 62,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2402,7 +2683,10 @@
       "lastYearApplicants": 308,
       "lastYearRatio": 1.28,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-yodo-b",
@@ -2419,7 +2703,8 @@
       "courses": [
         {
           "name": "商業科 福祉ボランティア科",
-          "deviation": null
+          "deviation": 40,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2433,7 +2718,10 @@
       "lastYearRatio": 0.72,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 145人が募集人員 200人に届きませんでした（倍率 0.72）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 145人が募集人員 200人に届きませんでした（倍率 0.72）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-higashiyodogawa",
@@ -2450,7 +2738,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 47,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2463,7 +2752,10 @@
       "lastYearApplicants": 328,
       "lastYearRatio": 1.24,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-higashiyodo-t",
@@ -2480,7 +2772,8 @@
       "courses": [
         {
           "name": "機械工学科 電気工学科 理工学科",
-          "deviation": null
+          "deviation": 36,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2494,7 +2787,10 @@
       "lastYearRatio": 0.71,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 100人が募集人員 140人に届きませんでした（倍率 0.71）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 100人が募集人員 140人に届きませんでした（倍率 0.71）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-kitano",
@@ -2511,7 +2807,8 @@
       "courses": [
         {
           "name": "文理学科",
-          "deviation": null
+          "deviation": 75,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2524,7 +2821,10 @@
       "lastYearApplicants": 452,
       "lastYearRatio": 1.26,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-kunijima",
@@ -2541,7 +2841,8 @@
       "courses": [
         {
           "name": "総合学科",
-          "deviation": null
+          "deviation": 50,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2554,7 +2855,10 @@
       "lastYearApplicants": 309,
       "lastYearRatio": 1.29,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-yodogawaseiryu",
@@ -2596,7 +2900,8 @@
       "courses": [
         {
           "name": "普通科（多部制単位制1・2部）",
-          "deviation": null
+          "deviation": 38,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2604,7 +2909,10 @@
       "website": "https://www2.osaka-c.ed.jp/osakawakaba/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-ikuno-t",
@@ -2654,7 +2962,8 @@
       "courses": [
         {
           "name": "普通科 国際文化科",
-          "deviation": null
+          "deviation": 57,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2668,7 +2977,10 @@
       "lastYearRatio": 0.99,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 315人が募集人員 317人に届きませんでした（倍率 0.99）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 315人が募集人員 317人に届きませんでした（倍率 0.99）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-yodogawa-t",
@@ -2685,15 +2997,18 @@
       "courses": [
         {
           "name": "機械技術科",
-          "deviation": null
+          "deviation": 46,
+          "estimated": true
         },
         {
           "name": "機械設計科 電気技術科",
-          "deviation": null
+          "deviation": 46,
+          "estimated": true
         },
         {
           "name": "電子情報通信科 電子機械科 大学進学科",
-          "deviation": null
+          "deviation": 46,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2707,7 +3022,10 @@
       "lastYearRatio": 0.92,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 193人が募集人員 210人に届きませんでした（倍率 0.92）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 193人が募集人員 210人に届きませんでした（倍率 0.92）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-seijo-t",
@@ -2724,7 +3042,8 @@
       "courses": [
         {
           "name": "総合学科（エンパワメントスクール）",
-          "deviation": null
+          "deviation": 42,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2732,7 +3051,10 @@
       "website": "https://www2.osaka-c.ed.jp/seijo-t",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-han-ai",
@@ -2749,7 +3071,8 @@
       "courses": [
         {
           "name": "普通科 体育科",
-          "deviation": null
+          "deviation": 49,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2762,7 +3085,10 @@
       "lastYearApplicants": 167,
       "lastYearRatio": 1.04,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-tsurumi-b",
@@ -2779,7 +3105,8 @@
       "courses": [
         {
           "name": "商業科",
-          "deviation": null
+          "deviation": 40,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2793,7 +3120,10 @@
       "lastYearRatio": 0.93,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 148人が募集人員 160人に届きませんでした（倍率 0.93）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 148人が募集人員 160人に届きませんでした（倍率 0.93）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-abeno",
@@ -2810,7 +3140,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": 60
+          "deviation": 55,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2823,7 +3154,10 @@
       "lastYearApplicants": 384,
       "lastYearRatio": 1.2,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-kogei-osaka",
@@ -2840,7 +3174,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 55,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2848,7 +3183,10 @@
       "website": "https://kogei-osaka.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-sumiyoshi",
@@ -2865,7 +3203,8 @@
       "courses": [
         {
           "name": "国際文化科 総合科学科",
-          "deviation": null
+          "deviation": 65,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2881,7 +3220,10 @@
       "lastYearApplicants": 417,
       "lastYearRatio": 1.34,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-tennoji",
@@ -2898,7 +3240,8 @@
       "courses": [
         {
           "name": "文理学科",
-          "deviation": 74
+          "deviation": 74,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2914,7 +3257,10 @@
       "lastYearApplicants": 419,
       "lastYearRatio": 1.16,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-konan-zokei",
@@ -2931,7 +3277,8 @@
       "courses": [
         {
           "name": "総合造形科",
-          "deviation": null
+          "deviation": 47,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2939,7 +3286,10 @@
       "website": "https://konan-zokei.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-osaka-city-ib",
@@ -2956,7 +3306,8 @@
       "courses": [
         {
           "name": "グローバル探究科",
-          "deviation": null
+          "deviation": 58,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2964,7 +3315,10 @@
       "website": "https://osaka-city-ib.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-sumiyoshi-b",
@@ -2981,7 +3335,8 @@
       "courses": [
         {
           "name": "商業科",
-          "deviation": null
+          "deviation": 39,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -2995,7 +3350,10 @@
       "lastYearRatio": 0.74,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 119人が募集人員 160人に届きませんでした（倍率 0.74）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 119人が募集人員 160人に届きませんでした（倍率 0.74）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-hannan",
@@ -3012,7 +3370,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": 55
+          "deviation": 52,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3032,7 +3391,10 @@
       "lastYearRatio": 0.88,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 247人が募集人員 280人に届きませんでした（倍率 0.88）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 247人が募集人員 280人に届きませんでした（倍率 0.88）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-partner",
@@ -3074,7 +3436,8 @@
       "courses": [
         {
           "name": "普通科 芸能文化科",
-          "deviation": 57
+          "deviation": 60,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3087,7 +3450,10 @@
       "lastYearApplicants": 339,
       "lastYearRatio": 1.21,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-hirano",
@@ -3104,7 +3470,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 38,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3112,7 +3479,10 @@
       "website": "https://www.osaka-c.ed.jp/hirano/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-higashi-sumiyoshi-sougou",
@@ -3129,7 +3499,8 @@
       "courses": [
         {
           "name": "総合学科（クリエイティブスクール）",
-          "deviation": null
+          "deviation": 40,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3143,7 +3514,10 @@
       "lastYearRatio": 0.91,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 213人が募集人員 234人に届きませんでした（倍率 0.91）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 213人が募集人員 234人に届きませんでした（倍率 0.91）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-nagayoshi",
@@ -3160,7 +3534,8 @@
       "courses": [
         {
           "name": "総合学科（エンパワメントスクール）",
-          "deviation": null
+          "deviation": 37,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3168,7 +3543,10 @@
       "website": "https://www2.osaka-c.ed.jp/nagayoshi",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-imamiya-t",
@@ -3185,15 +3563,18 @@
       "courses": [
         {
           "name": "機械技術科",
-          "deviation": null
+          "deviation": 45,
+          "estimated": true
         },
         {
           "name": "生産技術科 電気技術科",
-          "deviation": null
+          "deviation": 45,
+          "estimated": true
         },
         {
           "name": "電子制御科 建築科 グラフィックデザイン科 大学進学科",
-          "deviation": null
+          "deviation": 45,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3207,7 +3588,10 @@
       "lastYearRatio": 0.95,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 232人が募集人員 245人に届きませんでした（倍率 0.95）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 232人が募集人員 245人に届きませんでした（倍率 0.95）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-nishinari",
@@ -3224,7 +3608,8 @@
       "courses": [
         {
           "name": "総合学科（ステップスクール）",
-          "deviation": null
+          "deviation": 36,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3232,7 +3617,10 @@
       "website": "https://www.osaka-c.ed.jp/nishinari/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-kanaoka",
@@ -3249,7 +3637,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": 54
+          "deviation": 50,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3262,7 +3651,10 @@
       "lastYearApplicants": 242,
       "lastYearRatio": 1.01,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-sakaikami",
@@ -3279,7 +3671,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 41,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3293,7 +3686,10 @@
       "lastYearRatio": 0.99,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 237人が募集人員 240人に届きませんでした（倍率 0.99）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 237人が募集人員 240人に届きませんでした（倍率 0.99）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-sakainishi",
@@ -3310,7 +3706,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": 47
+          "deviation": 45,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3323,7 +3720,10 @@
       "lastYearApplicants": 243,
       "lastYearRatio": 1.01,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-senyo",
@@ -3340,7 +3740,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": 65
+          "deviation": 67,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3353,7 +3754,10 @@
       "lastYearApplicants": 412,
       "lastYearRatio": 1.29,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-tomigaoka",
@@ -3370,7 +3774,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": 56
+          "deviation": 56,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3386,7 +3791,10 @@
       "lastYearApplicants": 283,
       "lastYearRatio": 1.01,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-higashimozu",
@@ -3403,7 +3811,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 46,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3416,7 +3825,10 @@
       "lastYearApplicants": 253,
       "lastYearRatio": 1.05,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-fukuizumi",
@@ -3458,7 +3870,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 40,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3466,7 +3879,10 @@
       "website": "https://www.osaka-c.ed.jp/mihara/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-ohtori",
@@ -3483,7 +3899,8 @@
       "courses": [
         {
           "name": "普通科（単位制）",
-          "deviation": 61
+          "deviation": 60,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3497,7 +3914,10 @@
       "lastYearRatio": 0.92,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 221人が募集人員 240人に届きませんでした（倍率 0.92）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 221人が募集人員 240人に届きませんでした（倍率 0.92）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-osaka-nougei",
@@ -3514,15 +3934,18 @@
       "courses": [
         {
           "name": "ハイテク農芸科",
-          "deviation": null
+          "deviation": 44,
+          "estimated": true
         },
         {
           "name": "食品加工科",
-          "deviation": null
+          "deviation": 43,
+          "estimated": true
         },
         {
           "name": "資源動物科",
-          "deviation": null
+          "deviation": 43,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3535,7 +3958,10 @@
       "lastYearApplicants": 202,
       "lastYearRatio": 1.01,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-sakai-kohka",
@@ -3552,19 +3978,23 @@
       "courses": [
         {
           "name": "機械技術科",
-          "deviation": null
+          "deviation": 39,
+          "estimated": true
         },
         {
           "name": "機械制御科 電気技術科",
-          "deviation": null
+          "deviation": 39,
+          "estimated": true
         },
         {
           "name": "電子制御科 化学分析技術科",
-          "deviation": null
+          "deviation": 39,
+          "estimated": true
         },
         {
           "name": "環境システム科",
-          "deviation": null
+          "deviation": 39,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3578,7 +4008,10 @@
       "lastYearRatio": 0.75,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 184人が募集人員 245人に届きませんでした（倍率 0.75）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 184人が募集人員 245人に届きませんでした（倍率 0.75）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-senboku",
@@ -3595,7 +4028,8 @@
       "courses": [
         {
           "name": "国際文化科 総合科学科",
-          "deviation": null
+          "deviation": 60,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3608,7 +4042,10 @@
       "lastYearApplicants": 319,
       "lastYearRatio": 1.17,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-mikunigaoka",
@@ -3625,7 +4062,8 @@
       "courses": [
         {
           "name": "文理学科",
-          "deviation": 72
+          "deviation": 73,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3641,7 +4079,10 @@
       "lastYearApplicants": 423,
       "lastYearRatio": 1.32,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-sakaihigashi",
@@ -3658,7 +4099,8 @@
       "courses": [
         {
           "name": "総合学科",
-          "deviation": 53
+          "deviation": 55,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3671,7 +4113,10 @@
       "lastYearApplicants": 249,
       "lastYearRatio": 1.04,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-seibi",
@@ -3722,7 +4167,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": 48
+          "deviation": 43,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3736,7 +4182,10 @@
       "lastYearRatio": 0.97,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 233人が募集人員 240人に届きませんでした（倍率 0.97）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 233人が募集人員 240人に届きませんでした（倍率 0.97）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-shinoda",
@@ -3753,7 +4202,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 39,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3767,7 +4217,10 @@
       "lastYearRatio": 0.92,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 221人が募集人員 240人に届きませんでした（倍率 0.92）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 221人が募集人員 240人に届きませんでした（倍率 0.92）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-hakata",
@@ -3784,7 +4237,8 @@
       "courses": [
         {
           "name": "総合学科",
-          "deviation": 45
+          "deviation": 40,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3798,7 +4252,10 @@
       "lastYearRatio": 0.97,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 234人が募集人員 240人に届きませんでした（倍率 0.97）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 234人が募集人員 240人に届きませんでした（倍率 0.97）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-izumi-t",
@@ -3815,7 +4272,8 @@
       "courses": [
         {
           "name": "総合学科（エンパワメントスクール）",
-          "deviation": null
+          "deviation": 38,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3823,7 +4281,10 @@
       "website": "https://www2.osaka-c.ed.jp/izumi-t",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-takaishi",
@@ -3840,7 +4301,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": 50
+          "deviation": 51,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3853,7 +4315,10 @@
       "lastYearApplicants": 298,
       "lastYearRatio": 1.06,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-izumi",
@@ -3870,7 +4335,8 @@
       "courses": [
         {
           "name": "普通科 グローバル科",
-          "deviation": null
+          "deviation": 66,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3883,7 +4349,10 @@
       "lastYearApplicants": 351,
       "lastYearRatio": 1.1,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-kumeda",
@@ -3900,7 +4369,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": 55
+          "deviation": 55,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3913,7 +4383,10 @@
       "lastYearApplicants": 284,
       "lastYearRatio": 1.01,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-kishiwada",
@@ -3930,7 +4403,8 @@
       "courses": [
         {
           "name": "文理学科",
-          "deviation": 68
+          "deviation": 69,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3943,7 +4417,10 @@
       "lastYearApplicants": 373,
       "lastYearRatio": 1.17,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-kaizukaminami",
@@ -3960,7 +4437,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": 50
+          "deviation": 45,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -3977,7 +4455,10 @@
       "lastYearRatio": 0.92,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 220人が募集人員 240人に届きませんでした（倍率 0.92）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 220人が募集人員 240人に届きませんでした（倍率 0.92）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-kaizuka",
@@ -3994,7 +4475,8 @@
       "courses": [
         {
           "name": "総合学科",
-          "deviation": null
+          "deviation": 45,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4007,7 +4489,10 @@
       "lastYearApplicants": 250,
       "lastYearRatio": 1.04,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-sano",
@@ -4024,7 +4509,8 @@
       "courses": [
         {
           "name": "普通科 国際文化科",
-          "deviation": null
+          "deviation": 58,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4037,7 +4523,10 @@
       "lastYearApplicants": 309,
       "lastYearRatio": 1.13,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-hineno",
@@ -4054,7 +4543,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": 48
+          "deviation": 51,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4067,7 +4557,10 @@
       "lastYearApplicants": 257,
       "lastYearRatio": 1.07,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-zen",
@@ -4084,19 +4577,23 @@
       "courses": [
         {
           "name": "機械技術科",
-          "deviation": null
+          "deviation": 41,
+          "estimated": true
         },
         {
           "name": "機械設計科 電気技術科",
-          "deviation": null
+          "deviation": 41,
+          "estimated": true
         },
         {
           "name": "電子制御科 製品開発科",
-          "deviation": null
+          "deviation": 41,
+          "estimated": true
         },
         {
           "name": "テキスタイルデザイン科",
-          "deviation": null
+          "deviation": 41,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4110,7 +4607,10 @@
       "lastYearRatio": 0.94,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 198人が募集人員 210人に届きませんでした（倍率 0.94）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 198人が募集人員 210人に届きませんでした（倍率 0.94）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-rinku-shonan",
@@ -4127,7 +4627,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": 45
+          "deviation": 38,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4141,7 +4642,10 @@
       "lastYearRatio": 0.76,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 121人が募集人員 160人に届きませんでした（倍率 0.76）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 121人が募集人員 160人に届きませんでした（倍率 0.76）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-misaki",
@@ -4209,7 +4713,8 @@
       "courses": [
         {
           "name": "豊中市 普通科（単位制）",
-          "deviation": null
+          "deviation": 61,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4222,7 +4727,10 @@
       "lastYearApplicants": 419,
       "lastYearRatio": 1.16,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-teshima-hs",
@@ -4239,7 +4747,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 50,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4253,7 +4762,10 @@
       "lastYearRatio": 0.99,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 276人が募集人員 280人に届きませんでした（倍率 0.99）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 276人が募集人員 280人に届きませんでした（倍率 0.99）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-toneyama",
@@ -4270,7 +4782,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 58,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4283,7 +4796,10 @@
       "lastYearApplicants": 426,
       "lastYearRatio": 1.18,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-toyonaka",
@@ -4300,7 +4816,8 @@
       "courses": [
         {
           "name": "文理学科",
-          "deviation": null
+          "deviation": 70,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4313,7 +4830,10 @@
       "lastYearApplicants": 644,
       "lastYearRatio": 1.79,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-senriseiun",
@@ -4330,7 +4850,8 @@
       "courses": [
         {
           "name": "総合学科",
-          "deviation": null
+          "deviation": 54,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4343,7 +4864,10 @@
       "lastYearApplicants": 272,
       "lastYearRatio": 1.13,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-ikeda-h",
@@ -4360,7 +4884,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 63,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4374,7 +4899,10 @@
       "lastYearRatio": 1.0,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 359人が募集人員 360人に届きませんでした（倍率 1.0）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 359人が募集人員 360人に届きませんでした（倍率 1.0）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-shibutani",
@@ -4391,7 +4919,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 46,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4405,7 +4934,10 @@
       "lastYearRatio": 0.97,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 232人が募集人員 240人に届きませんでした（倍率 0.97）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 232人が募集人員 240人に届きませんでした（倍率 0.97）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-osaka-engei",
@@ -4422,15 +4954,18 @@
       "courses": [
         {
           "name": "フラワーファクトリ科",
-          "deviation": null
+          "deviation": 39,
+          "estimated": true
         },
         {
           "name": "環境緑化科",
-          "deviation": null
+          "deviation": 39,
+          "estimated": true
         },
         {
           "name": "バイオサイエンス科",
-          "deviation": null
+          "deviation": 39,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4444,7 +4979,10 @@
       "lastYearRatio": 0.76,
       "lastYearUnderCapacity": true,
       "lastYearLabel": "令和8年度",
-      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 151人が募集人員 200人に届きませんでした（倍率 0.76）。"
+      "lastYearUnderCapacityNote": "令和8年度の一般入学者選抜で、志願者数 151人が募集人員 200人に届きませんでした（倍率 0.76）。",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-minoh-high-school",
@@ -4461,7 +4999,8 @@
       "courses": [
         {
           "name": "普通科 グローバル科",
-          "deviation": null
+          "deviation": 66,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4474,7 +5013,10 @@
       "lastYearApplicants": 424,
       "lastYearRatio": 1.2,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "pref-minoohigashi",
@@ -4540,8 +5082,24 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科スーペリアコース",
+          "deviation": 56,
+          "estimated": true
+        },
+        {
+          "name": "普通科ｲﾝｸﾞﾘｯｼｭｺｰｽ",
+          "deviation": 52,
+          "estimated": true
+        },
+        {
+          "name": "普通科ｱｶﾃﾞﾐｯｸｺｰｽⅠ類",
+          "deviation": 50,
+          "estimated": true
+        },
+        {
+          "name": "普通科ｱｶﾃﾞﾐｯｸｺｰｽⅡ類",
+          "deviation": 47,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4549,7 +5107,10 @@
       "website": "https://www.assumption.ed.jp/jsh/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-anangakuen",
@@ -4565,8 +5126,14 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "看護科５年一貫コース",
+          "deviation": 45,
+          "estimated": true
+        },
+        {
+          "name": "調理科",
+          "deviation": 44,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4574,7 +5141,10 @@
       "website": "https://www.anangakuen.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-abeno-shogaku",
@@ -4590,8 +5160,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": 45
+          "name": "普通科特進Ⅰ類",
+          "deviation": 42,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進Ⅱ類",
+          "deviation": 39,
+          "estimated": true
+        },
+        {
+          "name": "普通科普通進学コース",
+          "deviation": 37,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4599,7 +5180,10 @@
       "website": "http://www.abeno-shogaku.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-uenomiya",
@@ -4640,8 +5224,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進Ⅰ(国公立大学",
+          "deviation": 55,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進Ⅱ(難関私立大学",
+          "deviation": 52,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合進学(有名私立大学",
+          "deviation": 49,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4649,7 +5244,10 @@
       "website": "http://www.uenomiya-taishi.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-josei",
@@ -4665,8 +5263,14 @@
       "coordSource": "gsi",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科キャリア進学コース",
+          "deviation": 54,
+          "estimated": true
+        },
+        {
+          "name": "普通科キャリア探究コース",
+          "deviation": 48,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4674,7 +5278,10 @@
       "website": "http://www.josei.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-eishingakuen",
@@ -4690,8 +5297,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進コース",
+          "deviation": 43,
+          "estimated": true
+        },
+        {
+          "name": "普通科マンガ・イラストコース",
+          "deviation": 39,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合コース",
+          "deviation": 39,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4699,7 +5317,10 @@
       "website": "http://www.eishingakuen.ac.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-eifu",
@@ -4740,8 +5361,24 @@
       "coordSource": "gsi",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科創造コース",
+          "deviation": 67,
+          "estimated": true
+        },
+        {
+          "name": "普通科特選ＳＳコース",
+          "deviation": 67,
+          "estimated": true
+        },
+        {
+          "name": "普通科Ⅰ類コース",
+          "deviation": 63,
+          "estimated": true
+        },
+        {
+          "name": "普通科Ⅱ類コース",
+          "deviation": 58,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4749,7 +5386,10 @@
       "website": "https://www.otemon-jh.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-otemon-js",
@@ -4765,8 +5405,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科スーパー選抜コース",
+          "deviation": 61,
+          "estimated": true
+        },
+        {
+          "name": "普通科GA（Global Academy",
+          "deviation": 57,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進コース",
+          "deviation": 54,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4774,7 +5425,10 @@
       "website": "https://www.otemon-js.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-osakashs",
@@ -4790,8 +5444,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科文理特進コース",
+          "deviation": 48,
+          "estimated": true
+        },
+        {
+          "name": "普通科探究コース",
+          "deviation": 45,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合進学コース",
+          "deviation": 42,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4804,7 +5469,10 @@
       "lastYearApplicants": 259,
       "lastYearRatio": 1.08,
       "lastYearUnderCapacity": false,
-      "lastYearLabel": "令和8年度"
+      "lastYearLabel": "令和8年度",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-osaka-kaisei",
@@ -4820,8 +5488,24 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進コース",
+          "deviation": 47,
+          "estimated": true
+        },
+        {
+          "name": "普通科文理進学コース",
+          "deviation": 43,
+          "estimated": true
+        },
+        {
+          "name": "普通科進路探究コース",
+          "deviation": 40,
+          "estimated": true
+        },
+        {
+          "name": "普通科スポーツ進学コース",
+          "deviation": 39,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4829,7 +5513,10 @@
       "website": "http://www.osaka-kaisei.ac.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-ogu-h",
@@ -4845,8 +5532,24 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進コース",
+          "deviation": 53,
+          "estimated": true
+        },
+        {
+          "name": "普通科国際コース",
+          "deviation": 50,
+          "estimated": true
+        },
+        {
+          "name": "普通科普通コース",
+          "deviation": 46,
+          "estimated": true
+        },
+        {
+          "name": "普通科スポーツ科学コース",
+          "deviation": 46,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4854,7 +5557,10 @@
       "website": "http://www.ogu-h.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-osaka-gakugei",
@@ -4870,8 +5576,49 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科選抜特進コース",
+          "deviation": 62,
+          "estimated": true
+        },
+        {
+          "name": "国際科ダブルディプロマコース",
+          "deviation": 60,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進コースⅠ類",
+          "deviation": 57,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進看護コース",
+          "deviation": 55,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進コースⅡ類",
+          "deviation": 55,
+          "estimated": true
+        },
+        {
+          "name": "国際科グローバルコース",
+          "deviation": 55,
+          "estimated": true
+        },
+        {
+          "name": "国際科1年留学コース",
+          "deviation": 55,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学コース",
+          "deviation": 50,
+          "estimated": true
+        },
+        {
+          "name": "普通科特技コース",
+          "deviation": 45,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4879,7 +5626,10 @@
       "website": "https://www.osakagakugei.ac.jp/senior/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-secondary",
@@ -4920,8 +5670,24 @@
       "coordSource": "gsi",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": 42
+          "name": "看護科",
+          "deviation": 48,
+          "estimated": true
+        },
+        {
+          "name": "普通科教育探究コース",
+          "deviation": 47,
+          "estimated": true
+        },
+        {
+          "name": "普通科幼児教育コース",
+          "deviation": 44,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合進学コース",
+          "deviation": 42,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4932,7 +5698,10 @@
       "verified": false,
       "dataWarnings": [
         "地図データに該当校が無いため、座標は住所からの推定値。市区町村レベルでは住所と一致している。"
-      ]
+      ],
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-kun-ei",
@@ -4948,8 +5717,39 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "国際科国際特進コース",
+          "deviation": 58,
+          "estimated": true
+        },
+        {
+          "name": "国際科国際進学コース",
+          "deviation": 55,
+          "estimated": true
+        },
+        {
+          "name": "普通科文理特進コース",
+          "deviation": 55,
+          "estimated": true
+        },
+        {
+          "name": "普通科英語進学コース",
+          "deviation": 53,
+          "estimated": true
+        },
+        {
+          "name": "普通科文理進学コース",
+          "deviation": 53,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合進学コース",
+          "deviation": 50,
+          "estimated": true
+        },
+        {
+          "name": "普通科スポーツ・特技コース",
+          "deviation": 46,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4957,7 +5757,10 @@
       "website": "https://www.kun-ei.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-kokusai-h-oiu",
@@ -4973,8 +5776,29 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科Ⅰ類スーパー文理探究コースプログラムα",
+          "deviation": 67,
+          "estimated": true
+        },
+        {
+          "name": "普通科Ⅰ類国際バカロレアコース",
+          "deviation": 66,
+          "estimated": true
+        },
+        {
+          "name": "普通科Ⅰ類スーパー文理探究コースプログラムβ",
+          "deviation": 62,
+          "estimated": true
+        },
+        {
+          "name": "普通科未来探究コース",
+          "deviation": 52,
+          "estimated": true
+        },
+        {
+          "name": "普通科Ⅱ類幼児保育進学コース",
+          "deviation": 46,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -4982,7 +5806,10 @@
       "website": "https://www.kokusai-h.oiu.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-takii-h-oiu",
@@ -5024,7 +5851,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 38,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5032,7 +5860,10 @@
       "website": "http://www.kongogakuen.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-osaka-sandai",
@@ -5048,8 +5879,39 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進コースＳ",
+          "deviation": 54,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進コースⅠ",
+          "deviation": 52,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進コースⅡ",
+          "deviation": 49,
+          "estimated": true
+        },
+        {
+          "name": "国際科グローバルコース",
+          "deviation": 48,
+          "estimated": true
+        },
+        {
+          "name": "国際科／情報ｺﾐｭﾆｹｰｼｮﾝｺｰｽ",
+          "deviation": 48,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学コース",
+          "deviation": 45,
+          "estimated": true
+        },
+        {
+          "name": "普通科スポーツコース",
+          "deviation": 43,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5057,7 +5919,10 @@
       "website": "http://www.osaka-sandai.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-daishodai-h",
@@ -5073,8 +5938,24 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科文理進学コース",
+          "deviation": 50,
+          "estimated": true
+        },
+        {
+          "name": "普通科デザイン美術コース",
+          "deviation": 47,
+          "estimated": true
+        },
+        {
+          "name": "普通科グローバル商大コース",
+          "deviation": 46,
+          "estimated": true
+        },
+        {
+          "name": "普通科スポーツ専修コース",
+          "deviation": 42,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5082,7 +5963,10 @@
       "website": "http://www.daishodai-h.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-osakashodai-sakai",
@@ -5098,8 +5982,24 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": 48
+          "name": "普通科特進エキスパートコース",
+          "deviation": 53,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進アドバンスコース",
+          "deviation": 48,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学グローバルコース",
+          "deviation": 42,
+          "estimated": true
+        },
+        {
+          "name": "普通科スポーツコース",
+          "deviation": 39,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5107,7 +6007,10 @@
       "website": "http://www.shodaisakai.ac.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-osaka-jogakuin",
@@ -5123,8 +6026,24 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科理系コース",
+          "deviation": 65,
+          "estimated": true
+        },
+        {
+          "name": "英語科英語コース",
+          "deviation": 64,
+          "estimated": true
+        },
+        {
+          "name": "英語科国際バカロレアコース",
+          "deviation": 62,
+          "estimated": true
+        },
+        {
+          "name": "普通科文系コース",
+          "deviation": 61,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5132,7 +6051,10 @@
       "website": "http://www.osaka-jogakuin.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-osaka-shinai",
@@ -5148,8 +6070,19 @@
       "coordSource": "gsi",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進コース",
+          "deviation": 57,
+          "estimated": true
+        },
+        {
+          "name": "普通科看護医療コース",
+          "deviation": 50,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合進学コース",
+          "deviation": 48,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5157,7 +6090,10 @@
       "website": "http://www.osaka-shinai.ac.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-high-osaka-seikei",
@@ -5173,8 +6109,44 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進コース",
+          "deviation": 56,
+          "estimated": true
+        },
+        {
+          "name": "普通科英語コース",
+          "deviation": 52,
+          "estimated": true
+        },
+        {
+          "name": "普通科看護医療進学コース",
+          "deviation": 48,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合キャリアコース",
+          "deviation": 47,
+          "estimated": true
+        },
+        {
+          "name": "普通科音楽コース",
+          "deviation": 47,
+          "estimated": true
+        },
+        {
+          "name": "美術科ｱｰﾄ･ｲﾗｽﾄ･ｱﾆﾒｰｼｮﾝｺｰｽ",
+          "deviation": 47,
+          "estimated": true
+        },
+        {
+          "name": "普通科幼児教育コース",
+          "deviation": 46,
+          "estimated": true
+        },
+        {
+          "name": "普通科スポーツコース",
+          "deviation": 45,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5182,7 +6154,10 @@
       "website": "http://high.osaka-seikei.ac.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-osakaseiko",
@@ -5199,7 +6174,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 75,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5207,7 +6183,10 @@
       "website": "http://www.osakaseiko.ac.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-osakaseiryo",
@@ -5223,8 +6202,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進Ｓコース",
+          "deviation": 65,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進コース",
+          "deviation": 58,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学コース",
+          "deviation": 49,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5232,7 +6222,10 @@
       "website": "https://www.osakaseiryo.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-ouhs-school",
@@ -5248,8 +6241,29 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科進学アドバンスコース",
+          "deviation": 55,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学グローバルコース",
+          "deviation": 52,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学スポーツコース",
+          "deviation": 49,
+          "estimated": true
+        },
+        {
+          "name": "普通科探究キャリアコース",
+          "deviation": 44,
+          "estimated": true
+        },
+        {
+          "name": "普通科探究スポーツコース",
+          "deviation": 42,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5257,7 +6271,10 @@
       "website": "http://www.ouhs-school.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-otk",
@@ -5298,8 +6315,24 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "工学科工学理数コース",
+          "deviation": 49,
+          "estimated": true
+        },
+        {
+          "name": "工学科工学連携コース",
+          "deviation": 44,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学総合コース",
+          "deviation": 41,
+          "estimated": true
+        },
+        {
+          "name": "普通科健康スポーツコース",
+          "deviation": 41,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5307,7 +6340,10 @@
       "website": "http://www.dentsu.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-osakatoin",
@@ -5323,8 +6359,24 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科Ⅰ類エクシードコース",
+          "deviation": 70,
+          "estimated": true
+        },
+        {
+          "name": "普通科Ⅰ類特進コース",
+          "deviation": 69,
+          "estimated": true
+        },
+        {
+          "name": "普通科Ⅱ類",
+          "deviation": 64,
+          "estimated": true
+        },
+        {
+          "name": "普通科Ⅲ類（体育・芸術コース",
+          "deviation": 52,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5332,7 +6384,10 @@
       "website": "http://www.osakatoin.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-oyg",
@@ -5348,8 +6403,24 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進コース",
+          "deviation": 55,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学コース",
+          "deviation": 50,
+          "estimated": true
+        },
+        {
+          "name": "普通科ＰＢＬコース",
+          "deviation": 50,
+          "estimated": true
+        },
+        {
+          "name": "普通科音楽・美術コース",
+          "deviation": 49,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5357,7 +6428,10 @@
       "website": "http://www.oyg.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-osakaryokuryo",
@@ -5373,8 +6447,29 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科文理ハイレベルコース",
+          "deviation": 46,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合進学コース",
+          "deviation": 43,
+          "estimated": true
+        },
+        {
+          "name": "普通科保育系進学コース",
+          "deviation": 43,
+          "estimated": true
+        },
+        {
+          "name": "調理製菓科調理師コース",
+          "deviation": 40,
+          "estimated": true
+        },
+        {
+          "name": "調理製菓科製菓衛生師コース",
+          "deviation": 40,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5382,7 +6477,10 @@
       "website": "http://www.osakaryokuryo.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-osk-ohtani",
@@ -5398,8 +6496,14 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科プレミアム文理コース",
+          "deviation": 66,
+          "estimated": true
+        },
+        {
+          "name": "普通科アドバンス文理コース",
+          "deviation": 60,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5407,7 +6511,10 @@
       "website": "http://www.osk-ohtani.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-kaimei",
@@ -5423,8 +6530,9 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科（６年文理編入",
+          "deviation": 66,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5432,7 +6540,10 @@
       "website": "https://www.kaimei.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-kaorugaoka-liberte",
@@ -5448,8 +6559,39 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": 42
+          "name": "普通科美容芸術コース",
+          "deviation": 37,
+          "estimated": true
+        },
+        {
+          "name": "普通科幼児教育コース",
+          "deviation": 37,
+          "estimated": true
+        },
+        {
+          "name": "普通科クッキングエキスパートコース",
+          "deviation": 37,
+          "estimated": true
+        },
+        {
+          "name": "普通科ライフデザインコース",
+          "deviation": 37,
+          "estimated": true
+        },
+        {
+          "name": "普通科フィジカルコース",
+          "deviation": 36,
+          "estimated": true
+        },
+        {
+          "name": "普通科ファッションビジネスコース",
+          "deviation": 35,
+          "estimated": true
+        },
+        {
+          "name": "普通科アンダンテコース",
+          "deviation": 35,
+          "estimated": true
         }
       ],
       "genderRatio": {
@@ -5460,7 +6602,10 @@
       "website": "http://www.liberte.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-kankura",
@@ -5476,8 +6621,14 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進Ｓコース",
+          "deviation": 72,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進コース",
+          "deviation": 68,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5485,7 +6636,10 @@
       "website": "http://www.kankura.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-kansai-soka",
@@ -5502,7 +6656,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 68,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5510,7 +6665,10 @@
       "website": "http://www.kansai.soka.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-senior",
@@ -5552,7 +6710,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 67,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5560,7 +6719,10 @@
       "website": "http://www.kansai-u.ac.jp/dai-ichi/high/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-hokuyo",
@@ -5576,8 +6738,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進アドバンスコース",
+          "deviation": 64,
+          "estimated": true
+        },
+        {
+          "name": "普通科文理コース",
+          "deviation": 61,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学アスリートコース",
+          "deviation": 48,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5585,7 +6758,10 @@
       "website": "http://www.kansai-u.ac.jp/hokuyo/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-hs-fuksi-kagk-u",
@@ -5601,8 +6777,24 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特別進学Ⅰコース",
+          "deviation": 52,
+          "estimated": true
+        },
+        {
+          "name": "普通科特別進学Ⅱコース",
+          "deviation": 48,
+          "estimated": true
+        },
+        {
+          "name": "普通科保育進学コース",
+          "deviation": 45,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学コース",
+          "deviation": 43,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5610,7 +6802,10 @@
       "website": "http://www.hs.fuksi-kagk-u.ac.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-sis-kwansei",
@@ -5676,8 +6871,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": 48
+          "name": "普通科英数特進コース",
+          "deviation": 55,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学Ⅰ類コース",
+          "deviation": 50,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学Ⅱ類コース",
+          "deviation": 47,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5688,7 +6894,10 @@
       "verified": false,
       "dataWarnings": [
         "登録住所と地図上の位置が別の市区町村を指している。住所が未確認のため要確認（通学時間は地図上の位置で計算している）。"
-      ]
+      ],
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-jsh-kindai",
@@ -5704,8 +6913,29 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科Ｓｕｐｅｒ文理コース",
+          "deviation": 70,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進文理コースⅠ",
+          "deviation": 67,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進文理コースⅡ",
+          "deviation": 65,
+          "estimated": true
+        },
+        {
+          "name": "普通科英語特化コース",
+          "deviation": 61,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学コース",
+          "deviation": 59,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5713,7 +6943,10 @@
       "website": "http://www.jsh.kindai.ac.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-kinran",
@@ -5730,7 +6963,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 49,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5738,7 +6972,10 @@
       "website": "http://www.kinran.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-kinransenri",
@@ -5779,8 +7016,14 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": 45
+          "name": "普通科特別進学コース",
+          "deviation": 44,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合コース",
+          "deviation": 40,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5788,7 +7031,10 @@
       "website": "http://www.keonguk.ac.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-correspondencecourse",
@@ -5804,8 +7050,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科関西学院大学特進ｻｲｴﾝｽｺｰｽ",
+          "deviation": 58,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進エグゼコース",
+          "deviation": 54,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進コース",
+          "deviation": 49,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5813,7 +7070,10 @@
       "website": "https://kenmei.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-correspondencecourse",
@@ -5829,8 +7089,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科関西学院大学特進ｻｲｴﾝｽｺｰｽ",
+          "deviation": 58,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進エグゼコース",
+          "deviation": 54,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進コース",
+          "deviation": 49,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5838,7 +7109,10 @@
       "website": "https://kenmei.jp/correspondencecourse/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-kouei-h",
@@ -5879,8 +7153,34 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科ｽｰﾊﾟｰｱﾄﾞﾊﾞﾝｽ",
+          "deviation": 56,
+          "estimated": true
+        },
+        {
+          "name": "普通科ﾌﾟﾚﾐｱﾑｱﾄﾞﾊﾞﾝｽ",
+          "deviation": 50,
+          "estimated": true
+        },
+        {
+          "name": "普通科アスリートアドバンスコース",
+          "deviation": 50,
+          "estimated": true
+        },
+        {
+          "name": "普通科キャリアトライコース",
+          "deviation": 45,
+          "estimated": true
+        },
+        {
+          "name": "普通科アカデミアコース",
+          "deviation": 42,
+          "estimated": true
+        },
+        {
+          "name": "ＩＴビジネス科",
+          "deviation": 42,
+          "estimated": true
         }
       ],
       "genderRatio": {
@@ -5891,7 +7191,10 @@
       "website": "http://www.kokoku.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-kozu-gakuen",
@@ -5932,8 +7235,49 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特別進学コース",
+          "deviation": 49,
+          "estimated": true
+        },
+        {
+          "name": "普通科看護医療系進学コース",
+          "deviation": 44,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学アドバンスコース",
+          "deviation": 41,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学フロンティアコース",
+          "deviation": 41,
+          "estimated": true
+        },
+        {
+          "name": "普通科幼児教育コース",
+          "deviation": 41,
+          "estimated": true
+        },
+        {
+          "name": "普通科メディアクリエイターコース",
+          "deviation": 41,
+          "estimated": true
+        },
+        {
+          "name": "普通科ＩＴライセンスコース",
+          "deviation": 41,
+          "estimated": true
+        },
+        {
+          "name": "普通科デザイン美術コース",
+          "deviation": 41,
+          "estimated": true
+        },
+        {
+          "name": "普通科マンガ・アニメーションコース",
+          "deviation": 41,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5941,7 +7285,10 @@
       "website": "https://koubun.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-koyodai",
@@ -5982,8 +7329,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科スーパーイングリッシュコース",
+          "deviation": 58,
+          "estimated": true
+        },
+        {
+          "name": "普通科グローバルサイエンスコース",
+          "deviation": 58,
+          "estimated": true
+        },
+        {
+          "name": "普通科スーパーアカデミーコース",
+          "deviation": 56,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -5991,7 +7349,10 @@
       "website": "http://www.seibo.ed.jp/nevers-hs/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-kohs",
@@ -6007,8 +7368,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進Ⅰコース",
+          "deviation": 58,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進Ⅱコース",
+          "deviation": 52,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学コース",
+          "deviation": 45,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6016,7 +7388,10 @@
       "website": "http://www.kohs.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-konkoutouin",
@@ -6032,8 +7407,24 @@
       "coordSource": "gsi",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特別進学コース",
+          "deviation": 37,
+          "estimated": true
+        },
+        {
+          "name": "普通科エンカレッジコース",
+          "deviation": 37,
+          "estimated": true
+        },
+        {
+          "name": "普通科アートアニメーションコース",
+          "deviation": 37,
+          "estimated": true
+        },
+        {
+          "name": "普通科トップアスリートコース",
+          "deviation": 37,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6041,7 +7432,10 @@
       "website": "http://www.konkoutouin.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-konkoyao",
@@ -6057,8 +7451,24 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科Ｓ特進コース",
+          "deviation": 62,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進コース",
+          "deviation": 60,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合進学コース",
+          "deviation": 53,
+          "estimated": true
+        },
+        {
+          "name": "普通科美術コース",
+          "deviation": 50,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6066,7 +7476,10 @@
       "website": "http://www.konkoyao.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-liberal",
@@ -6082,8 +7495,9 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "表現教育科",
+          "deviation": 51,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6091,7 +7505,10 @@
       "website": "http://www.liberal.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-jh-shijonawate-gakuen",
@@ -6107,8 +7524,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特別シンガクコース",
+          "deviation": 52,
+          "estimated": true
+        },
+        {
+          "name": "普通科発展キャリアコース",
+          "deviation": 48,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合キャリアコース",
+          "deviation": 43,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6116,7 +7544,10 @@
       "website": "http://jh.shijonawate-gakuen.ac.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-stnnj",
@@ -6132,8 +7563,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科文理選抜コース",
+          "deviation": 73,
+          "estimated": true
+        },
+        {
+          "name": "普通科文理コース",
+          "deviation": 69,
+          "estimated": true
+        },
+        {
+          "name": "普通科文化・スポーツコース",
+          "deviation": 50,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6141,7 +7583,10 @@
       "website": "https://www.shitennoji.ed.jp/stnnj/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-sgjh",
@@ -6157,8 +7602,19 @@
       "coordSource": "gsi",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科Ⅲコース",
+          "deviation": 59,
+          "estimated": true
+        },
+        {
+          "name": "普通科Ⅱコース",
+          "deviation": 52,
+          "estimated": true
+        },
+        {
+          "name": "普通科Ⅰコース",
+          "deviation": 48,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6166,7 +7622,10 @@
       "website": "http://www.shitennojigakuen.ed.jp/sgjh/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-shuoh",
@@ -6207,8 +7666,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科国際教養コース",
+          "deviation": 55,
+          "estimated": true
+        },
+        {
+          "name": "普通科身体表現コース",
+          "deviation": 48,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合コース",
+          "deviation": 48,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6216,7 +7686,10 @@
       "website": "http://www.osaka-shoin.ac.jp/hs",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-highs-josho",
@@ -6232,8 +7705,24 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科スーパーコース",
+          "deviation": 65,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進コース",
+          "deviation": 61,
+          "estimated": true
+        },
+        {
+          "name": "普通科薬学看護医療系コース",
+          "deviation": 59,
+          "estimated": true
+        },
+        {
+          "name": "普通科文理コース",
+          "deviation": 55,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6241,7 +7730,10 @@
       "website": "http://www.highs.josho.ac.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-keiko-josho",
@@ -6257,8 +7749,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進コースⅠ類[選抜]",
+          "deviation": 63,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進コースⅡ類",
+          "deviation": 59,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学コース",
+          "deviation": 53,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6266,7 +7769,10 @@
       "website": "https://www.keiko.josho.ac.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-chuko",
@@ -6282,8 +7788,34 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進コース∞(ｲﾝﾌｨﾆﾃｨ",
+          "deviation": 56,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進＋(プラス",
+          "deviation": 54,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進³(キューブ",
+          "deviation": 48,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進看護コース",
+          "deviation": 47,
+          "estimated": true
+        },
+        {
+          "name": "普通科幼児教育コース",
+          "deviation": 42,
+          "estimated": true
+        },
+        {
+          "name": "普通科キャリアデザインコース",
+          "deviation": 40,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6291,7 +7823,10 @@
       "website": "http://www.jonan.ac.jp/chuko",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-oskshoyo",
@@ -6307,8 +7842,44 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進コース",
+          "deviation": 42,
+          "estimated": true
+        },
+        {
+          "name": "普通科看護・医療系進学コース",
+          "deviation": 40,
+          "estimated": true
+        },
+        {
+          "name": "普通科ビジネス・公務員チャレンジコース",
+          "deviation": 38,
+          "estimated": true
+        },
+        {
+          "name": "普通科パティシエコース",
+          "deviation": 38,
+          "estimated": true
+        },
+        {
+          "name": "福祉科福祉コース",
+          "deviation": 38,
+          "estimated": true
+        },
+        {
+          "name": "普通科保育教育コース",
+          "deviation": 38,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学コース",
+          "deviation": 37,
+          "estimated": true
+        },
+        {
+          "name": "普通科ITフロンティアコース",
+          "deviation": 37,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6316,7 +7887,10 @@
       "website": "http://www.oskshoyo.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-seika-h",
@@ -6332,8 +7906,29 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科スーパーグローカルコース",
+          "deviation": 42,
+          "estimated": true
+        },
+        {
+          "name": "普通科ニュースタンダードコース",
+          "deviation": 37,
+          "estimated": true
+        },
+        {
+          "name": "普通科i-Techコース",
+          "deviation": 37,
+          "estimated": true
+        },
+        {
+          "name": "普通科環境福祉コース",
+          "deviation": 34,
+          "estimated": true
+        },
+        {
+          "name": "普通科スポーツ＆アートコース",
+          "deviation": 34,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6341,7 +7936,10 @@
       "website": "http://www.seika-h.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-seikyo-gakuen",
@@ -6357,8 +7955,14 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科Ｓ特進理系コース",
+          "deviation": 72,
+          "estimated": true
+        },
+        {
+          "name": "普通科Ｓ特進文系コース",
+          "deviation": 65,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6369,7 +7973,10 @@
       "website": "https://www.seikyo.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-osaka-seisho",
@@ -6385,8 +7992,24 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進アドバンスコース",
+          "deviation": 42,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合キャリアコース",
+          "deviation": 40,
+          "estimated": true
+        },
+        {
+          "name": "工業技術系",
+          "deviation": 39,
+          "estimated": true
+        },
+        {
+          "name": "普通科アスリートコース[専願のみ]",
+          "deviation": 38,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6394,7 +8017,10 @@
       "website": "http://www.osaka-seisho.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-seifu",
@@ -6410,8 +8036,19 @@
       "coordSource": "gsi",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科理Ⅲ６か年編入コース",
+          "deviation": 71,
+          "estimated": true
+        },
+        {
+          "name": "普通科理数科",
+          "deviation": 67,
+          "estimated": true
+        },
+        {
+          "name": "普通科文理コース",
+          "deviation": 61,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6419,7 +8056,10 @@
       "website": "https://www.seifu.ac.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-seifunankai",
@@ -6435,8 +8075,9 @@
       "coordSource": "gsi",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科３か年特進コース",
+          "deviation": 73,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6444,7 +8085,10 @@
       "website": "http://www.seifunankai.ac.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-seimei-gakuin",
@@ -6460,8 +8104,29 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": 47
+          "name": "普通科文系特進コース",
+          "deviation": 48,
+          "estimated": true
+        },
+        {
+          "name": "普通科理系特進コース",
+          "deviation": 48,
+          "estimated": true
+        },
+        {
+          "name": "普通科看護・医療系特進コース",
+          "deviation": 48,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学コース",
+          "deviation": 44,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合コース",
+          "deviation": 43,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6469,7 +8134,10 @@
       "website": "http://www.seimei.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-senshin-gakuen",
@@ -6485,8 +8153,34 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科看護医療",
+          "deviation": 48,
+          "estimated": true
+        },
+        {
+          "name": "普通科保育系進学コース",
+          "deviation": 45,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合コース",
+          "deviation": 43,
+          "estimated": true
+        },
+        {
+          "name": "普通科アニメ・アートコース",
+          "deviation": 43,
+          "estimated": true
+        },
+        {
+          "name": "普通科ウェルネススポーツコース",
+          "deviation": 43,
+          "estimated": true
+        },
+        {
+          "name": "普通科看ネクストコース",
+          "deviation": 40,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6494,7 +8188,10 @@
       "website": "http://senshin-gakuen.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-soai",
@@ -6510,8 +8207,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科アドバンスキャリア（特進",
+          "deviation": 53,
+          "estimated": true
+        },
+        {
+          "name": "音楽科",
+          "deviation": 53,
+          "estimated": true
+        },
+        {
+          "name": "普通科プログレスキャリア（龍谷総合",
+          "deviation": 48,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6519,7 +8227,10 @@
       "website": "http://www.soai.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-daisho",
@@ -6535,8 +8246,29 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進Ⅰコース",
+          "deviation": 50,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進Ⅱコース",
+          "deviation": 48,
+          "estimated": true
+        },
+        {
+          "name": "普通科情報クリエイティブコース",
+          "deviation": 45,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学コース",
+          "deviation": 43,
+          "estimated": true
+        },
+        {
+          "name": "商業科",
+          "deviation": 43,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6544,7 +8276,10 @@
       "website": "http://www.daisho.ac.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-hs-2",
@@ -6560,8 +8295,29 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進セレクトコース",
+          "deviation": 46,
+          "estimated": true
+        },
+        {
+          "name": "普通科製菓･ﾊﾟﾃｨｽﾘｰｺｰｽ",
+          "deviation": 41,
+          "estimated": true
+        },
+        {
+          "name": "スポーツ科スポーツ進学コース",
+          "deviation": 40,
+          "estimated": true
+        },
+        {
+          "name": "普通科ライフデザインコース",
+          "deviation": 39,
+          "estimated": true
+        },
+        {
+          "name": "スポーツ科アスリートコース",
+          "deviation": 39,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6569,7 +8325,10 @@
       "website": "https://www.taisei-hs.ac.jp/hs/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-takatsuki",
@@ -6610,8 +8369,24 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科ヴェルジェコースエトワール",
+          "deviation": 61,
+          "estimated": true
+        },
+        {
+          "name": "普通科ヴェルジェコースプルミエ",
+          "deviation": 52,
+          "estimated": true
+        },
+        {
+          "name": "普通科ヴェルジェコース音楽系",
+          "deviation": 52,
+          "estimated": true
+        },
+        {
+          "name": "普通科ヴェルジェコース美術系",
+          "deviation": 51,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6619,7 +8394,10 @@
       "website": "http://www.tezukayama.ac.jp/cyu_kou",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-tezukayama-izumigaoka",
@@ -6635,8 +8413,14 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": 58
+          "name": "普通科Ｓ特進コース",
+          "deviation": 66,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進コース",
+          "deviation": 63,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6647,7 +8431,10 @@
       "website": "http://www.tezuka-i-h.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-tgkoko",
@@ -6688,8 +8475,14 @@
       "coordSource": "gsi",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科英数特進コース",
+          "deviation": 63,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合進学コース",
+          "deviation": 57,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6697,7 +8490,10 @@
       "website": "https://www.tokai-gyosei.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-kori-doshisha",
@@ -6714,7 +8510,8 @@
       "courses": [
         {
           "name": "普通科",
-          "deviation": null
+          "deviation": 63,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6722,7 +8519,10 @@
       "website": "http://www.kori.doshisha.ac.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-okazakitoho",
@@ -6788,8 +8588,24 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科文理Ｓ１コース",
+          "deviation": 65,
+          "estimated": true
+        },
+        {
+          "name": "普通科Ⅰ類",
+          "deviation": 60,
+          "estimated": true
+        },
+        {
+          "name": "普通科Ⅱ類",
+          "deviation": 57,
+          "estimated": true
+        },
+        {
+          "name": "普通科Ⅲ類",
+          "deviation": 50,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6797,7 +8613,10 @@
       "website": "http://www.naniwa.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-baika-jh",
@@ -6813,8 +8632,29 @@
       "coordSource": "gsi",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特別進学コース",
+          "deviation": 56,
+          "estimated": true
+        },
+        {
+          "name": "普通科グローバルコース",
+          "deviation": 53,
+          "estimated": true
+        },
+        {
+          "name": "普通科看護医療コース",
+          "deviation": 51,
+          "estimated": true
+        },
+        {
+          "name": "普通科舞台芸術コース",
+          "deviation": 50,
+          "estimated": true
+        },
+        {
+          "name": "普通科キャリアデザインコース",
+          "deviation": 50,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6822,7 +8662,10 @@
       "website": "http://www.baika-jh.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-hagoromo-gakuen",
@@ -6838,8 +8681,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科文理特進Ⅰ類コース",
+          "deviation": 58,
+          "estimated": true
+        },
+        {
+          "name": "普通科文理特進Ⅱ類コース",
+          "deviation": 54,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学コース",
+          "deviation": 49,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6850,7 +8704,10 @@
       "website": "http://www.hagoromogakuen.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-hannan-univ",
@@ -6866,8 +8723,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": 50
+          "name": "普通科探究特進コースＳ",
+          "deviation": 55,
+          "estimated": true
+        },
+        {
+          "name": "普通科探究特進コースＡ",
+          "deviation": 52,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合進学コース",
+          "deviation": 47,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6875,7 +8743,10 @@
       "website": "http://www.hdk.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-school",
@@ -6891,8 +8762,14 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科国公立コース",
+          "deviation": 53,
+          "estimated": true
+        },
+        {
+          "name": "普通科理文選修コース",
+          "deviation": 50,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6900,7 +8777,10 @@
       "website": "https://www.pl-gakuen.ac.jp/school/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-kashiwara",
@@ -6916,8 +8796,29 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科アスリート特進コース",
+          "deviation": 40,
+          "estimated": true
+        },
+        {
+          "name": "普通科キャリアアップコース",
+          "deviation": 38,
+          "estimated": true
+        },
+        {
+          "name": "普通科アスリートコース",
+          "deviation": 37,
+          "estimated": true
+        },
+        {
+          "name": "普通科キャリアアシストコース",
+          "deviation": 36,
+          "estimated": true
+        },
+        {
+          "name": "普通科キャリアスポーツコース",
+          "deviation": 35,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -6925,7 +8826,10 @@
       "website": "http://www.kashiwara.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-keiai",
@@ -6966,8 +8870,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進コース",
+          "deviation": 60,
+          "estimated": true
+        },
+        {
+          "name": "普通科国際コース",
+          "deviation": 58,
+          "estimated": true
+        },
+        {
+          "name": "普通科進学コース",
+          "deviation": 54,
+          "estimated": true
         }
       ],
       "genderRatio": {
@@ -6978,7 +8893,10 @@
       "website": "http://www.higashiohtani.ac.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-poole",
@@ -6994,8 +8912,24 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科スーパー特進コース",
+          "deviation": 60,
+          "estimated": true
+        },
+        {
+          "name": "普通科国際コース",
+          "deviation": 57,
+          "estimated": true
+        },
+        {
+          "name": "普通科特進コース",
+          "deviation": 56,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合芸術コース",
+          "deviation": 51,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -7003,7 +8937,10 @@
       "website": "http://www.poole.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-minohgakuen",
@@ -7019,8 +8956,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科特進コース",
+          "deviation": 42,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合コース",
+          "deviation": 40,
+          "estimated": true
+        },
+        {
+          "name": "普通科アスリートコース",
+          "deviation": 39,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -7028,7 +8976,10 @@
       "website": "http://www.minohgakuen.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-mino-jiyu",
@@ -7044,8 +8995,29 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科Ⅰ類ＳＳ特進コース",
+          "deviation": 62,
+          "estimated": true
+        },
+        {
+          "name": "普通科Ⅰ類スーパー特進コース",
+          "deviation": 62,
+          "estimated": true
+        },
+        {
+          "name": "普通科Ⅰ類特別進学コース",
+          "deviation": 55,
+          "estimated": true
+        },
+        {
+          "name": "普通科Ⅱ類文理探究コース",
+          "deviation": 51,
+          "estimated": true
+        },
+        {
+          "name": "普通科Ⅱ類クラブ選抜コース",
+          "deviation": 45,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -7053,7 +9025,10 @@
       "website": "https://mino-jiyu.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-meijo",
@@ -7069,8 +9044,19 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "衛生看護科",
+          "deviation": 48,
+          "estimated": true
+        },
+        {
+          "name": "普通科看護メディカルコース",
+          "deviation": 46,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合キャリアコース",
+          "deviation": 43,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -7078,7 +9064,10 @@
       "website": "http://www.meijo.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-meisei",
@@ -7094,8 +9083,14 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科文理選抜コース",
+          "deviation": 70,
+          "estimated": true
+        },
+        {
+          "name": "普通科文理コース",
+          "deviation": 65,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -7103,7 +9098,10 @@
       "website": "http://www.meisei.ed.jp",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-momoyamagakuin-h",
@@ -7119,8 +9117,34 @@
       "coordSource": "gsi",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科Ｓ英数コース",
+          "deviation": 72,
+          "estimated": true
+        },
+        {
+          "name": "普通科英数コース",
+          "deviation": 69,
+          "estimated": true
+        },
+        {
+          "name": "普通科国際コースＢ(長期留学",
+          "deviation": 63,
+          "estimated": true
+        },
+        {
+          "name": "普通科文理コース・文理クラス",
+          "deviation": 62,
+          "estimated": true
+        },
+        {
+          "name": "普通科国際コースＡ(短期留学",
+          "deviation": 62,
+          "estimated": true
+        },
+        {
+          "name": "普通科文理コース・アスリートクラス",
+          "deviation": 50,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -7128,7 +9152,10 @@
       "website": "http://www.momoyamagakuin-h.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-hs-3",
@@ -7169,8 +9196,19 @@
       "coordSource": "gsi",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科文理Ⅲコース",
+          "deviation": 68,
+          "estimated": true
+        },
+        {
+          "name": "普通科文理Ⅱコース",
+          "deviation": 64,
+          "estimated": true
+        },
+        {
+          "name": "普通科文理Ⅰコース",
+          "deviation": 58,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -7178,7 +9216,10 @@
       "website": "http://www.hatsushiba.ed.jp/tondabayashi/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-hatsushiba-ritsumeikan",
@@ -7194,8 +9235,34 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科アドバンスト英数コースα",
+          "deviation": 63,
+          "estimated": true
+        },
+        {
+          "name": "普通科立命館コース",
+          "deviation": 61,
+          "estimated": true
+        },
+        {
+          "name": "普通科アドバンスト英数コースβ",
+          "deviation": 59,
+          "estimated": true
+        },
+        {
+          "name": "普通科グローバル特進コースα",
+          "deviation": 58,
+          "estimated": true
+        },
+        {
+          "name": "普通科グローバル特進コースβ",
+          "deviation": 55,
+          "estimated": true
+        },
+        {
+          "name": "体育科",
+          "deviation": 46,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -7211,7 +9278,10 @@
         "地図データに該当校が無いため、座標は住所からの推定値。市区町村レベルでは住所と一致している。"
       ],
       "notes": "2025年4月に学校法人が利晶学園へ改称し、校名も変更された。",
-      "formerName": "初芝立命館高等学校"
+      "formerName": "初芝立命館高等学校",
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-riseisha",
@@ -7227,8 +9297,24 @@
       "coordSource": "osm",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科学藝コースＳ類",
+          "deviation": 66,
+          "estimated": true
+        },
+        {
+          "name": "普通科学藝コースⅠ類",
+          "deviation": 61,
+          "estimated": true
+        },
+        {
+          "name": "普通科学藝コースⅡ類",
+          "deviation": 52,
+          "estimated": true
+        },
+        {
+          "name": "普通科競技コースⅢ類",
+          "deviation": 49,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -7236,7 +9322,10 @@
       "website": "https://riseisha.ed.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     },
     {
       "id": "priv-ymcagakuin",
@@ -7277,8 +9366,24 @@
       "coordSource": "gsi",
       "courses": [
         {
-          "name": "普通科",
-          "deviation": null
+          "name": "普通科早稲田コース",
+          "deviation": 67,
+          "estimated": true
+        },
+        {
+          "name": "普通科総合コース",
+          "deviation": 62,
+          "estimated": true
+        },
+        {
+          "name": "普通科文理コース",
+          "deviation": 59,
+          "estimated": true
+        },
+        {
+          "name": "普通科吹奏楽コース",
+          "deviation": 54,
+          "estimated": true
         }
       ],
       "genderRatio": null,
@@ -7286,7 +9391,10 @@
       "website": "https://waseda-osaka.jp/",
       "websiteSource": "公式一覧",
       "updatedAt": null,
-      "verified": false
+      "verified": false,
+      "deviationSource": "みんなの高校情報",
+      "deviationSourceUrl": "https://www.minkou.jp/hischool/exam/osaka/deviation/",
+      "deviationFetchedAt": "2026-09-04"
     }
   ]
 }

@@ -1,9 +1,18 @@
-# 大阪 高校さがし
+# SINRO - OSAKA HIGH SCHOOL -
 
-大阪府堺市在住の中学生が、**最寄り駅からの通学時間**と**偏差値**から進学先の高校（公立・私立）を
-探すための Web アプリ。対象範囲は大阪市から大阪府最南端の岬町まで。
+大阪の高校進学情報アプリ。正式名称は **SINRO**。
+
+大阪府在住の中学生が、**最寄り駅からの通学時間**と**偏差値**から進学先の高校（公立・私立）を
+探すためのアプリ。スマホで見ることを前提にしている。
 
 外部APIもサーバーも使わない静的サイトなので、`index.html` をブラウザで開くだけで動く。
+
+| | |
+|---|---|
+| 収録校 | **256校**（公立146・私立110） |
+| 収録路線 | **51路線 962駅**（大阪府全域） |
+| 偏差値 | 221校に登録済み（すべて「想定値」） |
+| 定員割れ | 令和8年度入試の公表実数から55校を判定 |
 
 ---
 
@@ -13,64 +22,155 @@
 python tools/build_bundle.py
 ```
 
-を一度実行したあと、`index.html` をダブルクリックしてブラウザで開く。
+を一度実行したあと、`index.html` をブラウザで開く。
 
-ローカルサーバーで見たい場合（推奨・キャッシュの問題が起きにくい）:
+ローカルサーバー経由で見たい場合（キャッシュの問題が起きにくい）:
 
 ```bash
 python -m http.server 8765
 ```
 
-ブラウザで <http://localhost:8765> を開く。
+### 画面の構成
+
+- **検索画面** … 学校名検索、公立/私立の切り替え（公・私のボタン）、現在と目標の偏差値、結果一覧
+- **設定画面**（右上の歯車） … 性別、最寄り駅、通学手段と上限時間、課程、並び順
+
+設定は端末に保存されるので、次に開いたときも同じ条件から始まる。
+
+### カードの見かた
+
+- 左のタペストリー … 公立 / 私立
+- 右のタペストリー … 昨年（令和8年度）の入試で**定員割れ**だった学校
+- 「通学ルート」ボタン … 乗換を含む経路の内訳と、他の手段での所要時間
+- 背景の薄い図 … 制服の種類（ブレザー・セーラー・学ラン・標準服・私服）
 
 ---
 
 ## 別のパソコンで作業を続けるとき
-
-このフォルダは Git リポジトリになっている。
 
 ```bash
 git clone <リポジトリURL> && cd 高校受験
 ```
 
 必要なのは **Python 3.10以上** だけ（外部ライブラリ不要）。Node.js は開発時のテストにのみ使う。
-GitHub にまだ上げていない場合の手順は「GitHub に置く」の節を参照。
-
----
-
-## できること
-
-| # | 機能 | 実装状況 |
-|---|------|----------|
-| 1 | 性別を選び、最寄り駅から徒歩・自転車・バス・電車で通える高校を時間指定で絞り込む | 完了 |
-| 2 | 現在の偏差値と目標偏差値から、安全圏／合格圏／実力相応／挑戦圏を学科ごとに判定 | 完了 |
-| 3 | 偏差値・男女比・制服の表示 | 表示は完了。男女比と制服はデータ取得が道半ば（後述） |
-| 4 | 公式サイトからの情報の自動取得・更新 | 巡回とリンク検査は完了。抽出は保守的な自動＋目視確認 |
-| 5 | 大阪市〜大阪府最南部（岬町）をカバー | 10路線177駅・50校を収録 |
 
 ---
 
 ## フォルダ構成
 
 ```
-index.html            画面
+index.html            画面（検索画面と設定画面）
 css/style.css         スタイル
 js/transit.js         通学時間の概算エンジン（このファイルだけで完結）
+js/uniform-art.js     制服の種類を表す自作SVG
 js/app.js             画面の組み立てと絞り込み
-data/lines.json       路線と駅（座標・実効速度・待ち時間・直通関係）  ← 手で編集してよい
-data/schools.json     高校のデータ                                    ← 手で編集してよい
-data/bundle.js        上の2つを結合した自動生成ファイル                ← 編集しない
-tools/build_bundle.py data/*.json → data/bundle.js
-tools/fetch_osm.py    OpenStreetMap から駅・高校の座標を取得
-tools/geocode.py      国土地理院APIで住所から座標を取得（補助）
-tools/fetch_official_urls.py 大阪府の公立高校一覧から府立高校の公式URLを取得
-tools/find_websites.py  私立高校の公式URLを候補総当たりで探す
-tools/update_schools.py 公式サイトを巡回してリンク検査・男女比・制服を取得
-tools/qa_check.py     データの妥当性チェック（--reverse で住所と座標の照合）
+data/lines.json       路線と駅                      ← 自動生成。手で並べ替えない
+data/schools.json     高校のデータ                  ← 自動生成＋手直し
+data/bundle.js        上の2つを結合した自動生成物    ← 編集しない
+assets/uniforms/      制服の画像を置く場所（著作権の注意あり。同フォルダのREADME参照）
+
+tools/safe_write.py         JSONの原子的な書き出し（全ツールが使う）
+tools/build_bundle.py       data/*.json → data/bundle.js
+tools/import_all_schools.py 公式一覧から全高校を取り込む（名簿の作り直し）
+tools/fetch_official_urls.py 公式サイトURLを一覧から取得
+tools/fetch_osm_lines.py    OSMの路線リレーションから路線・駅を生成
+tools/fetch_osm.py          OSMから学校・駅の座標を取得
+tools/fetch_capacity.py     大阪府の志願者数から定員割れを判定
+tools/fetch_deviation.py    偏差値の目安を取り込む
+tools/update_schools.py     公式サイトを巡回して男女比・制服を取得
+tools/find_websites.py      私立の公式URLを候補総当たりで探す
+tools/geocode.py            国土地理院APIで住所から座標（補助）
+tools/qa_check.py           データの妥当性チェック
 ```
 
 **データを編集したら必ず `python tools/build_bundle.py` を実行する。**
-これを忘れると画面に反映されない。
+CSS や JS を直したら `index.html` の `?v=` の数字を1つ増やす（ブラウザのキャッシュ対策）。
+
+---
+
+## データの出どころと信頼度
+
+| 項目 | 出典 | 信頼度 |
+|------|------|--------|
+| 校名・公式サイト・学科 | [大阪府 公立高校ホームページ一覧](https://www.pref.osaka.lg.jp/o180040/kotogakko/hp/index.html) | 一次ソース。高い |
+| 私立の校名・所在地・男女別 | [大阪私立中学校高等学校連合会 加盟校一覧](https://www.osaka-shigaku.gr.jp/school/index.html) | 一次ソース。高い |
+| 定員割れ | [大阪府 入学者選抜の志願者数](https://www.pref.osaka.lg.jp/o180040/kotogakko/gakuji-g3/r08_shigansha.html) | 公表実数。高い |
+| 駅・高校の座標 | OpenStreetMap（© OpenStreetMap contributors, ODbL） | 良好。3校のみ住所からの推定 |
+| **偏差値** | **みんなの高校情報の掲載値** | **模試結果からの推定。公式発表ではない** |
+| 男女比・制服 | 公式サイトからの自動取得 | 掲載がある学校のみ。大半は未取得 |
+
+### 偏差値について（重要）
+
+**高校の偏差値に公的なデータは存在しない。** 民間の模試会社がそれぞれ独自に算出しているもので、
+模試が違えば3〜5はずれる。このアプリの数値は「だいたいこのあたり」を掴むためのもので、
+出願の判断に使える精度はない。だから画面には必ず「想定値」と添えて出している。
+
+**この偏差値データは個人利用の前提で取り込んでいる。再配布や商用利用はしないこと。**
+GitHub Pages などで公開する場合は、この値を外すか、各自で確認し直すこと。
+
+---
+
+## データを更新する
+
+### 名簿を作り直す（学校が増減したとき）
+
+```bash
+python tools/import_all_schools.py --apply
+python tools/build_bundle.py
+python tools/qa_check.py
+```
+
+公式一覧から全校を取り直し、既存の偏差値・制服・男女比・警告文は引き継ぐ。
+
+**府の一覧に載っていない府立高校は廃校の可能性が高い。**
+実際、初期データに入れていた泉鳥取高等学校は廃校で、
+[メモリアルページ](https://www.pref.osaka.lg.jp/o180040/kotogakko/hp/memo.html)で確認して削除した。
+
+### 定員割れを更新する（毎年3月以降）
+
+```bash
+python tools/fetch_capacity.py --apply
+python tools/build_bundle.py
+```
+
+大阪府の志願者数Excelから、募集人員と志願者数を読んで判定する。
+新年度のページが増えたら `tools/fetch_capacity.py` の `YEAR_PAGES` の先頭に追加する。
+
+### 偏差値を更新する
+
+```bash
+python tools/fetch_deviation.py --apply
+python tools/build_bundle.py
+```
+
+一覧は1ページで完結するのでリクエストは1回だけ。robots.txt を確認したうえで取得する。
+
+### 路線・座標を更新する
+
+```bash
+python tools/fetch_osm_lines.py --apply   # 路線と駅
+python tools/fetch_osm.py --apply         # 学校と駅の座標
+python tools/build_bundle.py
+```
+
+Overpass は混雑時に 429 を返すので、待ち時間を伸ばしながら5回まで再試行する。
+
+### 公式サイトURLを更新する
+
+```bash
+python tools/fetch_official_urls.py --apply
+python tools/build_bundle.py
+```
+
+府立高校のURLは `www.osaka-c.ed.jp/<校名>/` に統一されておらず、`www2`/`www3` 配下や
+独自ドメイン（天王寺高校は `tennoji-hs.jp`）が混在しているので、推測では当たらない。
+
+### 妥当性を確認する
+
+```bash
+python tools/qa_check.py             # オフラインのチェック
+python tools/qa_check.py --reverse   # 座標を住所に逆引きして照合（約4分）
+```
 
 ---
 
@@ -79,10 +179,9 @@ tools/qa_check.py     データの妥当性チェック（--reverse で住所と
 `js/transit.js` が、駅の座標と路線の並び順だけから所要時間を推定している。
 有料の経路検索APIを使っていないので、時刻表に基づく正確な検索ではない。
 
-- 駅間の所要時間 = 直線距離 × 1.10 ÷ 路線ごとの実効速度（急行・快速込みで較正済み）
+- 駅間の所要時間 = 直線距離 × 1.10 ÷ 路線ごとの実効速度
 - 乗換は「駅どうしが500m以内」なら自動で接続。乗換時間＋待ち時間を加算
-- 直通運転のある路線（泉北高速↔南海高野線、近鉄南大阪線↔長野線、JR阪和線↔関西空港線／大阪環状線）は
-  乗換ではなく2分の接続として扱う
+- 直通運転のある路線（泉北高速↔南海高野線など）は乗換ではなく2分の接続として扱う
 - 徒歩80m/分・自転車240m/分。直線距離に1.25〜1.30倍の迂回係数をかける
 - **バスは路線データを持っていないため、直線距離からの粗い概算**
 
@@ -90,152 +189,30 @@ tools/qa_check.py     データの妥当性チェック（--reverse で住所と
 **長距離ほど数分〜10分ほど多めに出る**傾向がある。安全側の見積もりとして使い、
 実際の受験校選びでは必ず乗換案内で確認すること。
 
+`avgSpeedKmh` を実測ダイヤに合わせて調整したのは10路線だけで（`speedCalibrated: true`）、
+残りは種別ごとの既定値のまま。使いながら合わせ込むとよい。
+
 将来もっと正確にしたい場合は `HSTransit.route()` の中身だけを
 Google Maps Directions API などに差し替えれば、画面側は変更不要。
 
 ---
 
-## データの出どころと信頼度
+## 既知の不足
 
-| 項目 | 出典 | 信頼度 |
-|------|------|--------|
-| 駅の座標 | OpenStreetMap（© OpenStreetMap contributors, ODbL） | 177駅すべて名前一致で取得。高い |
-| 高校の座標 | OpenStreetMap | 50校中47校が一致。残り3校は住所からの推定値 |
-| 公式サイトURL（府立） | 大阪府「公立高校ホームページ一覧」 | 一次ソース。信頼度は高い |
-| 公式サイトURL（私立） | URL候補の総当たり＋ページタイトル照合 | 確定したものは校名で検証済み |
-| 高校の住所・校名・種別・共学/男子/女子 | 手入力 | 未検証。公式サイトで確認が必要 |
-| **偏差値** | **民間模試の一般的な目安をもとにした参考値** | **公式発表ではない。塾・模試の最新資料で必ず確認すること** |
-| 男女比 | 公式サイトから自動取得 | 記載のある学校のみ。大半は未取得 |
-| 制服 | 一部のみ手入力＋自動取得 | 大半は未取得 |
-
-`verified: false` のレコードは画面に「未検証」バッジが出る。
-座標の確度が低い4校には警告文が出る（近畿大学泉州、貝塚南、初芝立命館、大阪暁光）。
-
-### 偏差値について
-
-高校の偏差値には公的なオープンデータが存在しない。民間模試会社がそれぞれ独自に算出しており、
-模試によって数値が3〜5違うのは普通のこと。このアプリの数値は「だいたいこのあたり」を掴むためのもので、
-出願判断に使える精度はない。
-
----
-
-## データを更新する
-
-### 座標を取り直す（OpenStreetMap）
-
-```bash
-python tools/fetch_osm.py            # 差分の確認だけ
-python tools/fetch_osm.py --apply    # data/*.json に反映
-python tools/build_bundle.py
-```
-
-大きく座標が動いたものと、地図に見つからなかったものは `tools/coord_review.json` に出る。
-
-### 公式サイトのURLを更新する
-
-**府立高校（まずこれを流す）**
-
-```bash
-python tools/fetch_official_urls.py --apply
-python tools/build_bundle.py
-```
-
-大阪府が公開している「公立高校ホームページ一覧」を一次ソースにする。
-府立高校のURLは `www.osaka-c.ed.jp/<校名>/` に統一されておらず、`www2`/`www3` 配下だったり
-独自ドメイン（天王寺高校は `tennoji-hs.jp`）だったりするので、推測では当たらない。
-
-**この一覧に載っていない府立高校は廃校の可能性が高い。**
-実際、初期データに入れていた泉鳥取高等学校は廃校で、
-[メモリアルページ](https://www.pref.osaka.lg.jp/o180040/kotogakko/hp/memo.html)で確認して削除した。
-新しく府立高校を追加したときは必ずこのツールを流して、一覧に存在することを確かめること。
-
-**私立高校**（府の一覧に載らないので推測で探す）
-
-```bash
-python tools/find_websites.py            # 候補を表示するだけ
-python tools/find_websites.py --all --apply
-```
-
-`id` のローマ字から候補URLを組み立てて順に叩き、ページのタイトルに校名が入っていれば採用する。
-見つからなかった学校は最後に一覧で出るので、それだけ手で調べて `website` に書く。
-
-### 公式サイトを巡回する
-
-```bash
-python tools/update_schools.py           # 巡回してレポートを出すだけ
-python tools/update_schools.py --apply   # 確実に読み取れた項目だけ反映
-python tools/build_bundle.py
-```
-
-robots.txt を確認し、1リクエストにつき2秒待つ。相手のサーバーに迷惑をかけない設計にしてあるので、
-待ち時間を短くしないこと。結果は `tools/update_report.json` に出る。
-**リンク切れの学校がここで分かるので、まずこれを一度流して `website` を直すとよい。**
-
-男女比と制服は、公式サイトに明確な記載があるときだけ自動で入る。読み取れないものは
-`null`（未取得）のまま残る。推測で埋めない方針。
-
-### データの健全性を確認する
-
-```bash
-python tools/qa_check.py             # オフラインのチェックのみ
-python tools/qa_check.py --reverse   # 座標を住所に逆引きして住所と照合する（約1分）
-```
-
-最寄り駅から3km以上離れている高校、必須項目の欠落、偏差値の異常値を検出する。
-`--reverse` を付けると国土地理院の逆ジオコーダで座標から市区町村名を引き、
-`address` と食い違うレコードを洗い出す。**座標を入れ替えたら必ずこれを流すこと。**
-
-現在の状態：50校中47校で住所と座標の市区町村が一致。残り3校（阪南・成美・近畿大学泉州）は
-住所か地図データのどちらかが誤っており、画面に警告が出る。
-
----
-
-## 高校や駅を追加する
-
-`data/schools.json` の `schools` 配列に1件足すだけ。
-
-```json
-{
-  "id": "pref-xxxx",
-  "name": "大阪府立◯◯高等学校",
-  "shortName": "◯◯",
-  "type": "public",
-  "gender": "coed",
-  "city": "◯◯市",
-  "address": "大阪府◯◯市◯◯1-2-3",
-  "lat": 34.5, "lng": 135.5, "coordSource": "approx",
-  "courses": [{ "name": "普通科", "deviation": 55 }],
-  "genderRatio": null,
-  "uniform": null,
-  "website": "https://example.ed.jp/",
-  "updatedAt": null,
-  "verified": false
-}
-```
-
-- `type` は `public` / `private`
-- `gender` は `coed`（共学）/ `boys`（男子校）/ `girls`（女子校）
-- 座標は適当でよい。追加後に `python tools/fetch_osm.py --apply` を流せば実座標に直る
-- 駅を足すときは `data/lines.json` の該当路線の `stations` に、**路線の並び順どおりの位置に**挿入する
-
-未収録の路線: 阪堺電気軌道、水間鉄道、各社の路線バス。
-
----
-
-## GitHub に置く
-
-```bash
-git remote add origin https://github.com/<ユーザー名>/<リポジトリ名>.git
-git branch -M main
-git push -u origin main
-```
-
-GitHub Pages（Settings → Pages → Branch: main / root）を有効にすると、
-スマホからも見られる URL が発行される。
+- **市立高校3校が未収録**（東大阪市立日新、堺市立堺、岸和田市立産業）。府の一覧にも
+  私学連合会の一覧にも載らないため。
+- **座標が無い4校**（東大阪みらい工科、夕陽丘、教育センター附属、貝塚）は通学時間を計算できない。
+- **偏差値が無い35校**。工科高校など、取得元の一覧に載っていない学校。
+- **住所と座標が食い違う3校**（阪南、成美、近畿大学泉州）。画面に警告が出る。
+- **阪堺電気軌道・バス路線が未収録。**
 
 ---
 
 ## ライセンスと出典
 
 - 駅・高校の座標: © OpenStreetMap contributors（[ODbL](https://www.openstreetmap.org/copyright)）
+- 校名・URL・学科・志願者数: 大阪府、大阪私立中学校高等学校連合会
 - 住所検索の補助: 国土地理院 地名検索API
+- 偏差値: みんなの高校情報（個人利用の範囲で参照）
+
+**このアプリは個人利用のみを想定している。商用利用はしない。**

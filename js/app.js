@@ -285,14 +285,18 @@
         '「' + c.q + '」で <strong>' + rows.length + '校</strong>' +
         (station ? '' : '<br>最寄り駅が未設定のため、通学時間は出ません。');
     } else {
+      // 除外の内訳は短いラベルで。長い説明は title で補う。
       const notes = [];
-      if (cutByTime) notes.push(cutByTime + '校が上限時間オーバー');
-      if (cutByDev) notes.push(cutByDev + '校が偏差値レンジ外');
-      if (cutByUnknownDev) notes.push(cutByUnknownDev + '校が偏差値未入力');
-      if (noCoord) notes.push(noCoord + '校が位置データなしで計算不可');
+      const push = (n, label, tip) => {
+        if (n) notes.push('<span title="' + tip + '">' + label + n + '校</span>');
+      };
+      push(cutByTime, '時間外', '上限時間を超えるため除外');
+      push(cutByDev, '偏差値外', '狙える偏差値の範囲から外れるため除外');
+      push(cutByUnknownDev, '偏差値なし', '偏差値が未入力のため除外');
+      push(noCoord, '位置無し', '位置データが無く通学時間を計算できない');
       $('#summary').innerHTML =
         '<strong>' + rows.length + '校</strong> が条件に合いました' +
-        (notes.length ? '<br>除外：' + notes.join('、') : '');
+        (notes.length ? '<br><span class="excluded">除外 ' + notes.join('／') + '</span>' : '');
     }
 
     if (rows.length === 0) {
@@ -346,12 +350,11 @@
       const timeCell = el('div', 'cell');
       timeCell.appendChild(el('dt', null, '通学時間（片道・概算）'));
       const tdd = el('dd', 'time-big');
-      tdd.textContent = fmtMin(best.minutes) + '分';
-      const sub = el('small');
-      sub.textContent =
-        '　' + modeLabel[best.mode] +
-        (best.mode === 'train' ? '（乗換' + best.transfers + '回）' : '');
-      tdd.appendChild(sub);
+      tdd.appendChild(el('span', 'num', fmtMin(best.minutes) + '分'));
+      // 手段はスマホ幅で折り返さないよう、数字の下に短く出す
+      tdd.appendChild(el('small', null,
+        modeLabel[best.mode] +
+        (best.mode === 'train' && best.transfers ? '・乗換' + best.transfers : '')));
       timeCell.appendChild(tdd);
       grid.appendChild(timeCell);
     }
@@ -362,11 +365,13 @@
       const dc = el('div', 'cell');
       const estimated = s.courses.some((x) => x.deviation != null && x.estimated);
       dc.appendChild(el('dt', null, estimated ? '偏差値（想定）' : '偏差値（参考値）'));
-      const dd = el('dd', 'dev-big',
-        row.minDev === row.maxDev ? String(row.maxDev) : row.minDev + '〜' + row.maxDev);
+      const dd = el('dd', 'dev-big');
+      dd.appendChild(el('span', 'num',
+        row.minDev === row.maxDev ? String(row.maxDev) : row.minDev + '〜' + row.maxDev));
       if (estimated) {
-        dd.appendChild(el('small', 'est', '（想定）'));
-        dd.title = '模試の公表値ではなく、周辺校との比較から見積もった数値です。';
+        dd.appendChild(el('small', 'est', '想定値'));
+        dd.title = (s.deviationSource ? s.deviationSource + 'の掲載値。' : '') +
+          '模試結果からの推定で、公式発表ではありません。';
       }
       dc.appendChild(dd);
       grid.appendChild(dc);

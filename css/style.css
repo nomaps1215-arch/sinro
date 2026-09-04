@@ -1,23 +1,28 @@
+/* SINRO — 配色は落ち着いた紙（アイボリー）と墨、差し色に真鍮。
+   彩度の高い色は使わず、罫線を細く、余白を広くとる。 */
 :root {
-  --bg: #f2f4f7;
-  --card: #ffffff;
-  --ink: #16202c;
-  --ink-sub: #5d6b7a;
-  --line: #e1e6ec;
-  --accent: #1c6fd0;
-  --accent-deep: #14508f;
-  --accent-soft: #e8f1fc;
-  --public: #1c6fd0;
-  --private: #b07d17;
-  --under: #d1552a;
-  --safe: #167c4a;
-  --likely: #2f8f3f;
-  --even: #b07d17;
-  --challenge: #c2560f;
-  --far: #8b939c;
-  --radius: 14px;
-  --shadow: 0 1px 2px rgba(20, 30, 45, .05), 0 6px 18px rgba(20, 30, 45, .07);
-  --bar-h: 52px;
+  --bg: #f2efe9;
+  --card: #fffefb;
+  --ink: #1b1a17;
+  --ink-sub: #7c7469;
+  --line: #e2dcd1;
+  --line-strong: #cdc4b5;
+  --accent: #8c7a4c;          /* 真鍮 */
+  --accent-deep: #6a5b36;
+  --accent-soft: #f2ede1;
+  --public: #33454f;          /* 濃紺鼠 */
+  --private: #8a6a3c;         /* 古銅 */
+  --under: #9c4a33;           /* 弁柄 */
+  --safe: #3d6350;
+  --likely: #4f7159;
+  --even: #8c7a4c;
+  --challenge: #a05f36;
+  --far: #9a938a;
+  --radius: 3px;
+  --shadow: 0 1px 2px rgba(40, 34, 24, .04), 0 8px 24px rgba(40, 34, 24, .06);
+  --bar-h: 60px;
+  --serif: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", "Georgia", serif;
+  --display: "Cormorant Garamond", "Times New Roman", serif;
 }
 
 * { box-sizing: border-box; }
@@ -27,53 +32,66 @@ body {
   background: var(--bg);
   color: var(--ink);
   font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Meiryo", system-ui, sans-serif;
-  line-height: 1.6;
+  line-height: 1.65;
   -webkit-text-size-adjust: 100%;
   overflow-wrap: anywhere;
 }
-body.settings-open { background: #fff; }
+body.settings-open { background: var(--card); }
 
 /* ---------- アプリバー ---------- */
 .app-bar {
   position: sticky;
   top: 0;
   z-index: 30;
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-deep) 100%);
-  color: #fff;
+  background: #1b1a17;
+  color: #efe9dd;
   padding-top: env(safe-area-inset-top);
-  box-shadow: 0 1px 8px rgba(15, 40, 75, .22);
+  border-bottom: 1px solid #2e2b25;
 }
 .app-bar-inner {
   max-width: 720px;
   margin: 0 auto;
-  height: var(--bar-h);
-  padding: 0 8px 0 16px;
+  min-height: var(--bar-h);
+  padding: 8px 8px 8px 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 8px;
 }
-.app-bar h1 {
-  margin: 0;
-  font-size: 1.05rem;
-  font-weight: 700;
-  letter-spacing: .04em;
+.brand { margin: 0; display: flex; flex-direction: column; gap: 1px; }
+.brand-mark {
+  font-family: var(--display);
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: .34em;
+  line-height: 1;
+  text-indent: .34em;
+  color: #f0e9dc;
+}
+.brand-sub {
+  font-family: var(--display);
+  font-size: .58rem;
+  font-weight: 400;
+  letter-spacing: .22em;
+  color: #a89a7d;
+  text-transform: uppercase;
 }
 .icon-btn {
   width: 40px;
   height: 40px;
+  flex: none;
   display: grid;
   place-items: center;
-  border: none;
+  border: 1px solid rgba(200, 186, 155, .35);
   border-radius: 50%;
-  background: rgba(255, 255, 255, .14);
-  color: #fff;
-  font-size: 1.15rem;
+  background: transparent;
+  color: #d9cdb2;
+  font-size: 1.05rem;
   cursor: pointer;
-  transition: background .12s;
+  transition: background .15s, color .15s;
 }
-.icon-btn:hover { background: rgba(255, 255, 255, .26); }
-.icon-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+.icon-btn:hover { background: rgba(200, 186, 155, .14); color: #f0e9dc; }
+.icon-btn:focus-visible { outline: 1px solid #d9cdb2; outline-offset: 3px; }
 
 /* ---------- ビュー ---------- */
 .view {
@@ -93,6 +111,9 @@ body.settings-open { background: #fff; }
 .search-bar input[type=search] {
   flex: 1;
   min-width: 0;
+  border-radius: 2px;
+  font-family: var(--serif);
+  letter-spacing: .04em;
 }
 
 /* 公立・私立の切り替え。◯の中に「公」「私」。 */
@@ -109,17 +130,17 @@ body.settings-open { background: #fff; }
 .type-btn > span[aria-hidden] {
   display: grid;
   place-items: center;
-  width: 42px;
-  height: 42px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
-  border: 2px solid var(--line);
-  background: #fff;
-  color: #aab3bd;
-  font-size: 1.05rem;
-  font-weight: 700;
+  border: 1px solid var(--line-strong);
+  background: var(--card);
+  color: #b6ad9d;
+  font-family: var(--serif);
+  font-size: 1.02rem;
+  font-weight: 500;
   line-height: 1;
-  transition: .14s;
-  box-shadow: var(--shadow);
+  transition: .18s;
 }
 .type-btn.public input:checked ~ span[aria-hidden] {
   border-color: var(--public);
@@ -147,8 +168,8 @@ body.settings-open { background: #fff; }
   width: 100%;
   padding: 12px 16px;
   border: 1px solid var(--line);
-  border-radius: 999px;
-  background: #fff;
+  border-radius: 2px;
+  background: var(--card);
   color: var(--ink);
   font: inherit;
   font-size: .95rem;
@@ -166,9 +187,9 @@ body.settings-open { background: #fff; }
   align-items: flex-end;
   gap: 10px;
   padding: 12px 14px;
-  background: #fff;
+  background: var(--card);
   border: 1px solid var(--line);
-  border-radius: 12px;
+  border-radius: 3px;
   box-shadow: var(--shadow);
 }
 .dev-input { flex: 1; min-width: 0; }
@@ -199,6 +220,8 @@ body.settings-open { background: #fff; }
   color: var(--ink-sub);
 }
 .summary strong { color: var(--ink); font-size: 1.05rem; }
+.summary .excluded { font-size: .74rem; color: #9a938a; }
+.summary .excluded span { cursor: help; }
 
 /* ---------- 設定画面 ---------- */
 .settings-head {
@@ -240,8 +263,8 @@ input[type=text], input[type=number], input[type=search], select {
   width: 100%;
   padding: 10px 12px;
   border: 1px solid var(--line);
-  border-radius: 9px;
-  background: #fff;
+  border-radius: 2px;
+  background: var(--card);
   color: var(--ink);
   font: inherit;
   font-size: .92rem;
@@ -261,11 +284,11 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
   display: inline-block;
   padding: 7px 15px;
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: 2px;
   font-size: .84rem;
   cursor: pointer;
   user-select: none;
-  background: #fff;
+  background: var(--card);
   transition: .12s;
 }
 .chip input:checked + span {
@@ -295,8 +318,8 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
   min-height: 34px;
   padding: 5px 16px;
   border: 1px solid var(--accent);
-  border-radius: 999px;
-  background: #fff;
+  border-radius: 2px;
+  background: var(--card);
   color: var(--accent);
   font: inherit;
   font-size: .8rem;
@@ -319,7 +342,7 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
 .btn.primary:hover { background: var(--accent-deep); }
 .btn.block { width: 100%; }
 .school.private .btn { border-color: var(--private); color: var(--private); }
-.school.private .btn:hover { background: #fdf3dd; }
+.school.private .btn:hover { background: #f4ecdc; }
 .route-btn::after { content: "▾"; font-size: .7em; }
 .route-btn.open::after { content: "▴"; }
 
@@ -352,14 +375,14 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
   text-orientation: upright;
   text-align: left;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 8px), 0 100%);
-  box-shadow: 0 3px 8px rgba(20, 30, 45, .22);
+  box-shadow: 0 2px 6px rgba(40, 34, 24, .18);
   pointer-events: none;
 }
 .tapestry.left { left: 14px; }
 .tapestry.right { right: 14px; pointer-events: auto; }
-.tapestry.public { background: linear-gradient(180deg, #3b8ae0, var(--accent-deep)); }
-.tapestry.private { background: linear-gradient(180deg, #d3a338, #8d6412); }
-.tapestry.under { background: linear-gradient(180deg, #e8794a, #ab3d16); }
+.tapestry.public { background: linear-gradient(180deg, #445863, #26343c); }
+.tapestry.private { background: linear-gradient(180deg, #a8834c, #6f5228); }
+.tapestry.under { background: linear-gradient(180deg, #b25a3e, #7d3520); }
 
 .school-top {
   display: flex;
@@ -367,29 +390,37 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
   align-items: center;
   gap: 7px;
 }
-.school-name { margin: 0; font-size: 1.05rem; font-weight: 700; line-height: 1.4; }
+.school-name {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 1.06rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  line-height: 1.45;
+}
 .school-meta { font-size: .73rem; color: var(--ink-sub); margin-top: 3px; }
 .school.has-right-tapestry .school-top { padding-right: 34px; }
 
 .tag {
   display: inline-block;
   padding: 2px 9px;
-  border-radius: 999px;
+  border-radius: 2px;
   font-size: .68rem;
   font-weight: 700;
   line-height: 1.6;
 }
-.tag.boys { background: #e4eefb; color: #24558f; }
-.tag.girls { background: #fbe8ef; color: #a33668; }
-.tag.division { background: #eef0f3; color: #5d6b7a; }
+.tag.boys { background: #e6e9ea; color: #33454f; }
+.tag.girls { background: #f2e6e6; color: #8a4a55; }
+.tag.division { background: #ece7dd; color: #7c7469; }
 
 .judge {
   display: inline-block;
-  padding: 2px 10px;
-  border-radius: 6px;
-  font-size: .7rem;
-  font-weight: 700;
-  color: #fff;
+  padding: 3px 11px;
+  border-radius: 1px;
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  color: #fffefb;
 }
 .judge.safe { background: var(--safe); }
 .judge.likely { background: var(--likely); }
@@ -405,7 +436,12 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
   padding-top: 12px;
   border-top: 1px solid var(--line);
 }
-.cell dt { font-size: .68rem; color: var(--ink-sub); margin: 0 0 2px; }
+.cell dt {
+  font-size: .66rem;
+  color: var(--ink-sub);
+  margin: 0 0 3px;
+  letter-spacing: .1em;
+}
 .cell dd { margin: 0; font-size: .88rem; font-weight: 600; }
 .cell dd.muted { font-weight: 400; color: var(--ink-sub); }
 .cell.wide { grid-column: 1 / -1; }
@@ -418,41 +454,55 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
 }
 .cell-head dt { margin: 0; }
 
+/* 数字は大きく、添え字は下の行に。スマホ幅で不格好に折り返すのを防ぐ。 */
 .cell dd.time-big,
-.cell dd.dev-big {
-  font-size: 1.7rem;
-  font-weight: 700;
-  line-height: 1.2;
+.cell dd.dev-big { line-height: 1.15; }
+.cell dd.time-big .num,
+.cell dd.dev-big .num {
+  display: block;
+  font-family: var(--display);
+  font-size: 2.1rem;
+  font-weight: 500;
+  letter-spacing: .01em;
   font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
-.cell dd.time-big { color: var(--accent); }
-.cell dd.time-big small { font-size: .84rem; font-weight: 600; color: var(--ink); }
-.cell dd.dev-big small.est { font-size: .68rem; font-weight: 600; color: var(--ink-sub); margin-left: 2px; }
+.cell dd.time-big .num { color: var(--accent); }
+.cell dd.time-big small,
+.cell dd.dev-big small {
+  display: block;
+  margin-top: 2px;
+  font-size: .72rem;
+  font-weight: 600;
+  color: var(--ink-sub);
+  white-space: nowrap;
+}
 
-.ratio-bar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: #eef1f4; margin-top: 4px; }
+.ratio-bar { display: flex; height: 8px; border-radius: 1px; overflow: hidden; background: #eae4d9; margin-top: 4px; }
 .ratio-bar i { display: block; height: 100%; }
-.ratio-bar .m { background: #4a86d8; }
-.ratio-bar .f { background: #e07aa5; }
+.ratio-bar .m { background: #4d6470; }
+.ratio-bar .f { background: #a8756f; }
 
 .data-warning {
   margin: 10px 0 0;
   padding: 7px 11px;
-  background: #fff7e6;
-  border: 1px solid #f0d9a8;
-  border-radius: 8px;
+  background: #f8f2e4;
+  border: 1px solid #ddceac;
+  border-radius: 2px;
   font-size: .74rem;
-  color: #8a6314;
+  color: #7a6329;
 }
 
 /* 制服の図 */
+/* 制服の図は透かしとして敷く。切れて四角く見えないよう、全体が入る大きさにする。 */
 .uniform-art {
   position: absolute;
   right: 12px;
-  bottom: 10px;
-  width: 92px;
-  max-height: 68%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 96px;
   color: var(--public);
-  opacity: .08;
+  opacity: .07;
   pointer-events: none;
   user-select: none;
   z-index: 0;
@@ -470,8 +520,8 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
   gap: 10px;
   font-size: .82rem;
   padding: 5px 10px;
-  background: #f7f9fb;
-  border-radius: 8px;
+  background: #faf7f1;
+  border-radius: 2px;
 }
 .course-row .dev { font-weight: 700; font-variant-numeric: tabular-nums; min-width: 2.2em; }
 .course-row .dev.none { color: var(--ink-sub); font-weight: 500; }
@@ -499,9 +549,9 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
 .about {
   margin-top: 22px;
   padding: 12px 14px;
-  background: #fff;
+  background: var(--card);
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: 3px;
   font-size: .75rem;
   color: var(--ink-sub);
 }
