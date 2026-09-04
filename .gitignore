@@ -15,3 +15,6 @@ desktop.ini
 # ツールの作業ファイル
 tools/.cache/
 tools/*.log
+# 巡回結果のレポートは実行のたびに作り直せるので追跡しない
+tools/trip_report.json
+tools/coord_review.json

@@ -509,6 +509,18 @@
       node.appendChild(det);
     }
 
+    // --- 修学旅行の行き先（公式サイトから拾えた学校だけ） ---
+    if (s.schoolTrip && s.schoolTrip.destination) {
+      const t = el('p', 'school-trip');
+      t.appendChild(el('span', 'trip-label',
+        (s.schoolTrip.year ? s.schoolTrip.year + '年の' : '直近の') + '修学旅行'));
+      t.appendChild(el('span', 'trip-dest', s.schoolTrip.destination));
+      t.title = s.schoolTrip.evidence
+        ? '公式サイトの記載：' + s.schoolTrip.evidence
+        : '公式サイトの記載から取得';
+      detail.appendChild(t);
+    }
+
     // --- 特徴のまとめ ---
     detail.appendChild(el('p', 'school-summary', describe(s, row, c)));
 

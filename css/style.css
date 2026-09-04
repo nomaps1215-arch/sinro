@@ -638,6 +638,30 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
 .legs li { display: flex; gap: 10px; padding: 3px 0 3px 12px; border-left: 2px solid var(--line); }
 .legs .lmin { color: var(--ink-sub); font-variant-numeric: tabular-nums; min-width: 3.4em; }
 
+/* 修学旅行の行き先 */
+.school-trip {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 14px 0 0;
+  padding: 9px 13px;
+  border: 1px solid var(--line);
+  border-left: 2px solid var(--accent);
+  background: var(--card);
+}
+.school-trip .trip-label {
+  flex: none;
+  font-size: .66rem;
+  letter-spacing: .1em;
+  color: var(--ink-sub);
+}
+.school-trip .trip-dest {
+  font-family: var(--serif);
+  font-size: .96rem;
+  font-weight: 600;
+  letter-spacing: .04em;
+}
+
 .school-summary {
   margin: 14px 0 0;
   padding: 12px 14px;
