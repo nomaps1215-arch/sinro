@@ -350,7 +350,11 @@
       const timeCell = el('div', 'cell');
       timeCell.appendChild(el('dt', null, '通学時間（片道・概算）'));
       const tdd = el('dd', 'time-big');
-      tdd.appendChild(el('span', 'num', fmtMin(best.minutes) + '分'));
+      // 数字と単位を分けて組む。欧文フォントと和文フォントで字高が違うので、
+      // ひとつの span にまとめると「18分」の高さが揃わず不格好になる。
+      const numEl = el('span', 'num', String(fmtMin(best.minutes)));
+      numEl.appendChild(el('span', 'unit', '分'));
+      tdd.appendChild(numEl);
       // 手段はスマホ幅で折り返さないよう、数字の下に短く出す
       tdd.appendChild(el('small', null,
         modeLabel[best.mode] +
@@ -366,8 +370,12 @@
       const estimated = s.courses.some((x) => x.deviation != null && x.estimated);
       dc.appendChild(el('dt', null, estimated ? '偏差値（想定）' : '偏差値（参考値）'));
       const dd = el('dd', 'dev-big');
-      dd.appendChild(el('span', 'num',
-        row.minDev === row.maxDev ? String(row.maxDev) : row.minDev + '〜' + row.maxDev));
+      const numEl = el('span', 'num', String(row.minDev));
+      if (row.minDev !== row.maxDev) {
+        numEl.appendChild(el('span', 'range', '–'));
+        numEl.appendChild(document.createTextNode(String(row.maxDev)));
+      }
+      dd.appendChild(numEl);
       if (estimated) {
         dd.appendChild(el('small', 'est', '想定値'));
         dd.title = (s.deviationSource ? s.deviationSource + 'の掲載値。' : '') +

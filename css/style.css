@@ -22,7 +22,10 @@
   --shadow: 0 1px 2px rgba(40, 34, 24, .04), 0 8px 24px rgba(40, 34, 24, .06);
   --bar-h: 60px;
   --serif: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", "Georgia", serif;
-  --display: "Cormorant Garamond", "Times New Roman", serif;
+  --display: "Cormorant Garamond", "Times New Roman", serif;   /* ロゴ用 */
+  /* 数字用。Cormorant は旧式数字（1が小さく8が飛び出す）なので高さが揃わない。
+     Bodoni Moda はライニング数字で、大きく出したときに字面が安定する。 */
+  --numeral: "Bodoni Moda", "Didot", "Times New Roman", serif;
 }
 
 * { box-sizing: border-box; }
@@ -201,11 +204,14 @@ body.settings-open { background: var(--card); }
 }
 .dev-input input {
   width: 100%;
-  padding: 8px 10px;
-  font-size: 1.3rem;
-  font-weight: 700;
+  padding: 6px 10px;
+  font-family: var(--numeral);
+  font-size: 1.6rem;
+  font-weight: 500;
   text-align: center;
-  font-variant-numeric: tabular-nums;
+  letter-spacing: .04em;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings: "lnum" 1, "tnum" 1;
 }
 .dev-arrow {
   flex: none;
@@ -457,15 +463,37 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
 /* 数字は大きく、添え字は下の行に。スマホ幅で不格好に折り返すのを防ぐ。 */
 .cell dd.time-big,
 .cell dd.dev-big { line-height: 1.15; }
+/* 数字は Bodoni Moda。字体によっては旧式数字（1が小さく8が飛び出す）が既定に
+   なっていて高さが揃わないので、ライニング数字と等幅数字を明示的に指定する。 */
 .cell dd.time-big .num,
 .cell dd.dev-big .num {
   display: block;
-  font-family: var(--display);
-  font-size: 2.1rem;
+  font-family: var(--numeral);
+  font-size: 2.15rem;
   font-weight: 500;
-  letter-spacing: .01em;
-  font-variant-numeric: tabular-nums;
+  letter-spacing: .015em;
+  line-height: 1.05;
   white-space: nowrap;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings: "lnum" 1, "tnum" 1;
+}
+/* 単位や範囲記号は和文。欧文の数字と同じ大きさだと重いので小さく、少し上げる。 */
+.cell dd .num .unit,
+.cell dd .num .range {
+  font-family: var(--serif);
+  font-size: .4em;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: var(--ink-sub);
+  vertical-align: .34em;
+  margin-left: .12em;
+}
+.cell dd .num .range {
+  font-family: var(--numeral);
+  font-size: .55em;
+  vertical-align: .22em;
+  margin: 0 .16em 0 .1em;
+  color: var(--line-strong);
 }
 .cell dd.time-big .num { color: var(--accent); }
 .cell dd.time-big small,
