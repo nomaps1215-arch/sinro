@@ -46,10 +46,29 @@ python -m http.server 8765
 
 ---
 
+## 公開先
+
+<https://nomaps1215-arch.github.io/sinro/>
+
+GitHub Pages（main ブランチの root）で配信している。`git push` すれば数分で反映される。
+ビルド作業は要らない。ただし **`data/bundle.js` を作り直して push しないとデータは変わらない**。
+
+```bash
+python tools/build_bundle.py      # data/*.json を直したら
+git add -A; git commit -m "..."; git push
+```
+
+CSS や JS を直したときは `index.html` の `?v=` の数字を1つ増やすこと。
+増やし忘れると、一度見た人のブラウザに古いファイルが残る。
+
+スマホでは、ブラウザの共有メニューから「ホーム画面に追加」するとアプリのように起動する。
+
+---
+
 ## 別のパソコンで作業を続けるとき
 
 ```bash
-git clone <リポジトリURL> && cd 高校受験
+git clone https://github.com/nomaps1215-arch/sinro.git && cd sinro
 ```
 
 必要なのは **Python 3.10以上** だけ（外部ライブラリ不要）。Node.js は開発時のテストにのみ使う。
