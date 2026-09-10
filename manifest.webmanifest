@@ -1,0 +1,26 @@
+{
+  "name": "SINRO - OSAKA HIGH SCHOOL -",
+  "short_name": "SINRO",
+  "description": "大阪府の高校を、乗車駅からの通学時間と偏差値から探すアプリ。",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f2efe9",
+  "theme_color": "#1b1a17",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

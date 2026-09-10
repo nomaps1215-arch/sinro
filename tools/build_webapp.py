@@ -36,6 +36,8 @@ RE_SCRIPT_TAG = re.compile(r"<script\b[^>]*></script>\s*", re.I)
 RE_TITLE = re.compile(r"<title[^>]*>(.*?)</title>", re.S | re.I)
 RE_FONT_LINK = re.compile(r'<link[^>]+href="(https://fonts\.googleapis\.com/[^"]+)"[^>]*>', re.I)
 RE_ICON_LINK = re.compile(r'<link[^>]+rel="(?:icon|apple-touch-icon)"[^>]*>', re.I)
+# manifest は外部ファイルなので、1枚にまとめた版では参照できない。落とす。
+RE_MANIFEST = re.compile(r'<link[^>]+rel="manifest"[^>]*>\s*', re.I)
 
 
 def main() -> int:
@@ -56,7 +58,7 @@ def main() -> int:
     css = (ROOT / "css" / "style.css").read_text(encoding="utf-8")
 
     # アイコンは data URI なので、そのまま持っていけば1枚のHTMLでも効く
-    icons = "\n".join(RE_ICON_LINK.findall(html))
+    icons = "\n".join(RE_ICON_LINK.findall(RE_MANIFEST.sub("", html)))
 
     parts = [f"<title>{title}</title>"]
     if icons:

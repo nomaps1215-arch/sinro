@@ -8,7 +8,14 @@
 <meta property="og:title" content="SINRO - OSAKA HIGH SCHOOL -">
 <meta property="og:description" content="大阪府の高校255校を、最寄り駅からの通学時間と偏差値から探せます。">
 <meta property="og:type" content="website">
-<!-- アイコンは外部ファイルにせず埋め込む。1枚のHTMLにまとめても崩れないようにするため。 -->
+<!-- ホーム画面に追加したときアプリとして起動させる（ブラウザのバーを出さない）。
+     1枚にまとめた配布版では外部ファイルを参照できないので、build_webapp.py がこの行を落とす。 -->
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="SINRO">
+<meta name="mobile-web-app-capable" content="yes">
+<!-- ファビコンは外部ファイルにせず埋め込む。1枚のHTMLにまとめても崩れないようにするため。 -->
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231b1a17'/%3E%3Ctext x='32' y='46' font-family='Georgia,serif' font-size='40' fill='%23c9b688' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
 <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231b1a17'/%3E%3Ctext x='32' y='46' font-family='Georgia,serif' font-size='40' fill='%23c9b688' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
 <title>SINRO - OSAKA HIGH SCHOOL -</title>
@@ -16,7 +23,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=Cormorant+Garamond:wght@300;400;500&family=Noto+Serif+JP:wght@400;500;600&display=swap" rel="stylesheet">
 <!-- ?v= はブラウザのキャッシュ対策。CSS や JS を直したらこの数字を1つ増やす。 -->
-<link rel="stylesheet" href="css/style.css?v=18">
+<link rel="stylesheet" href="css/style.css?v=19">
 </head>
 <body>
 
@@ -213,8 +220,8 @@
   </button>
 </nav>
 
-<script src="js/transit.js?v=18"></script>
-<script src="data/bundle.js?v=18"></script>
-<script src="js/app.js?v=18"></script>
+<script src="js/transit.js?v=19"></script>
+<script src="data/bundle.js?v=19"></script>
+<script src="js/app.js?v=19"></script>
 </body>
 </html>
