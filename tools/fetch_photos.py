@@ -82,28 +82,43 @@ def article_images(names: list[str]) -> dict[str, list[str]]:
     """学校名 -> その記事に使われている画像ファイル名。記事が無ければ空。"""
     found: dict[str, list[str]] = {}
     for group in chunks(names, BATCH):
-        data = api(JA, action="query", prop="images|pageimages",
-                   titles="|".join(group), redirects=1, imlimit=50, piprop="name")
-        query = data.get("query", {})
-        # リダイレクトと正規化で題名が変わるので、元の名前に戻せるようにする
-        back = {}
-        for kind in ("redirects", "normalized"):
-            for m in query.get(kind, []):
-                back[m["to"]] = back.get(m["from"], m["from"])
-        for page in query.get("pages", []):
-            if page.get("missing"):
-                continue
-            title = page.get("title", "")
-            origin = back.get(title, title)
-            files = [i["title"] for i in page.get("images", [])
-                     if IS_PHOTO.search(i["title"]) and not SKIP.search(i["title"])]
-            lead = page.get("pageimage")
+        # imlimit は「1ページあたり」ではなく「この問い合わせ全体」に効く。
+        # 続きがあると continue が返るので、無くなるまで辿ること。
+        # これを忘れると、まとめて聞いた学校のほとんどで画像が空になる。
+        images: dict[str, list[str]] = {}
+        leads: dict[str, str] = {}
+        back: dict[str, str] = {}
+        cont: dict[str, str] = {}
+        while True:
+            data = api(JA, action="query", prop="images|pageimages",
+                       titles="|".join(group), redirects=1, imlimit="max",
+                       piprop="name", **cont)
+            query = data.get("query", {})
+            for kind in ("redirects", "normalized"):
+                for m in query.get(kind, []):
+                    back[m["to"]] = back.get(m["from"], m["from"])
+            for page in query.get("pages", []):
+                if page.get("missing"):
+                    continue
+                title = page.get("title", "")
+                images.setdefault(title, []).extend(
+                    i["title"] for i in page.get("images", []))
+                if page.get("pageimage"):
+                    leads[title] = page["pageimage"]
+            cont = data.get("continue") or {}
+            if not cont:
+                break
+            time.sleep(SLEEP_SEC)
+
+        for title, raw in images.items():
+            files = [f for f in raw if IS_PHOTO.search(f) and not SKIP.search(f)]
+            lead = leads.get(title)
             if lead:
                 # 記事の代表画像を先頭に持ってくる
                 files.sort(key=lambda f: 0 if f.split(":", 1)[-1].replace("_", " ")
                            == lead.replace("_", " ") else 1)
             if files:
-                found[origin] = files[:MAX_PHOTOS + 2]
+                found[back.get(title, title)] = files[:MAX_PHOTOS + 2]
         time.sleep(SLEEP_SEC)
     return found
 
