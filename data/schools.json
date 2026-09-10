@@ -2879,8 +2879,8 @@
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/fujiidera-t/zennichi/info_session/index.html",
         "checkedAt": "2026-09-10",
-        "applyUrl": "https://form.run/@t-tomodat-1OgiSieS0vm8H2qb8ue1",
-        "applyLabel": "申し込み",
+        "applyUrl": "https://forms.gle/vea3ztxJH4xQKKbq8",
+        "applyLabel": "申込フォーム",
         "evidence": "細が決まり次第、本校ホームページで公開いたします。 ◎第１回体験入学⇒ 【詳細ページ】 開催日時 : 令和８年 ９月 １２日(土) １４:００～１６:００(受付 １３:３０～) ※各コース定員がありますので注意してください。 ◎第２回体験入学 開催日時 : 令和８年 １"
       },
       "photos": [
@@ -6463,6 +6463,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-09-10",
+            "label": "オープンスクール",
+            "reservation": null,
+            "confidence": "mid",
+            "source": "https://www3.osaka-c.ed.jp/owa/"
+          },
+          {
             "date": "2026-09-28",
             "label": "オープンスクール",
             "reservation": null,
@@ -6473,7 +6480,7 @@
         "reservation": null,
         "source": "https://www3.osaka-c.ed.jp/owa/",
         "checkedAt": "2026-09-10",
-        "evidence": "nformation お知らせ 2026/09/07 第２回オープンスクール ９月２８日（月）より受付開始 2026/09/01 【卒業生の皆様へ】2026年度 文化祭のご案内 2026/09/01 【桜和高校吹奏楽部 第1回OHGI"
+        "evidence": "」（10月25日）開催のご案内 2026/08/08 第１回オープンスクール当日申し込みの参加について お知らせ一覧 Blog ブログ 2026/09/10 国際交流 2026/09/04 学校行事・授業風景 2026/08/31 進路指導 2026/08/31 校長のホッとひといき 2023/"
       },
       "photos": [
         {
@@ -8243,7 +8250,22 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-09-10",
+            "label": "体験入学",
+            "reservation": null,
+            "confidence": "mid",
+            "source": "https://www3.osaka-c.ed.jp/higashiyodo-t/"
+          }
+        ],
+        "reservation": null,
+        "source": "https://www3.osaka-c.ed.jp/higashiyodo-t/",
+        "checkedAt": "2026-09-10",
+        "evidence": "学校名を入れてください Information お知らせ 2026/09/10 2年生修学旅行3日目⑤ 2026/09/10 2年生修学旅行3日目④ 2026/09/10 2年生修学旅行3日目③ 2026/09/10 2年生修学旅行3日目② 2026/09/10 令和８年度 体験入学 申し込みについて お知らせ一覧 B"
+      }
     },
     {
       "id": "pref-kitano",
@@ -18553,6 +18575,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-09-10",
+            "label": "入試説明会",
+            "reservation": null,
+            "confidence": "mid",
+            "source": "https://kaimei.ed.jp/news/987/"
+          },
+          {
             "date": "2026-09-12",
             "label": "入試説明会",
             "reservation": null,
@@ -18565,14 +18594,21 @@
             "reservation": null,
             "confidence": "high",
             "source": "https://kaimei.ed.jp/"
+          },
+          {
+            "date": "2026-10-17",
+            "label": "入試説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://kaimei.ed.jp/"
           }
         ],
         "reservation": "required",
-        "source": "https://kaimei.ed.jp/",
+        "source": "https://kaimei.ed.jp/news/987/",
         "checkedAt": "2026-09-10",
         "applyUrl": "https://mirai-compass.net/usr/kaimeij/event/evtIndex.jsf",
         "applyLabel": "中学校イベント申込",
-        "evidence": "）開催｜「中学」授業見学会 2026-08-01 入試情報 ９/12（土）開催｜「高校」入試説明会 2026-06-24 入試情報 令和９年度「高校１次」生徒募集要項のお知らせ 2026-06-24 入試情報 令和９年度「中学校」生徒募集"
+        "evidence": "WEB出願登録（高等学校） 10/17（土）開催｜「高校」入試説明会 2026-09-10 入試情報 以下の要領で高校入試説明会を開催いたします。 【実施日】10月17日（土） 【２部制】説明内容は各部とも同じです。 午前の部：1"
       },
       "admissionFee": {
         "amount": 200000,
@@ -20988,7 +21024,7 @@
         "checkedAt": "2026-09-10",
         "applyUrl": "https://mirai-compass.net/usr/shitnojh/event/evtIndex.jsf",
         "applyLabel": "こちらから申込",
-        "evidence": "◇中学入試 小学5,6年生女子・保護者対象「授業見学会」 2026.09.10 ◇高校入試 保護者･生徒対象「四天王寺高等学校 学校説明会」 2026.08.20 *中学校先生対象 中学校先生対象高等学校入試説明会のご案内 2026.08.20 *塾先生対象 塾先生対象入試説明"
+        "evidence": "*受験生対象 小学5,6年生女子・保護者対象「授業見学会」 2026.09.10 *受験生対象 保護者･生徒対象「四天王寺高等学校 学校説明会」 2026.08.20 *中学校先生対象 中学校先生対象高等学校入試説明会のご案内 2026.08.20 *塾先生対象 塾先生対象入試説明"
       },
       "admissionFee": {
         "amount": 240000,
@@ -21338,6 +21374,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-09-10",
+            "label": "オープンスクール",
+            "reservation": null,
+            "confidence": "mid",
+            "source": "https://www.highs.josho.ac.jp/"
+          },
+          {
             "date": "2026-09-12",
             "label": "入試説明会",
             "reservation": null,
@@ -21350,7 +21393,7 @@
         "checkedAt": "2026-09-10",
         "applyUrl": "https://mirai-compass.net/usr/joshogj/event/evtIndex.jsf",
         "applyLabel": "各種イベント申込み",
-        "evidence": "26.09.07 入試お知らせ 入試説明会 中学校 【中学】9/12（土）「第1回・入試説明会」開催 今週末の9/12（土）に『第1回・入試説明会』を開催いたします。 中学の入試説明会は、毎回異なるテーマで実施しており、今回は『未来の"
+        "evidence": "（ヘモグロビン）に含まれる鉄分などの触媒と過... NEW 2026.09.10 部活動ニュース 科学部 【高校科学部】鉄イオンの呈色反応を行いました 2026.9.2. 先日の高校オープンスクールで3年生が引退し、本日からは１，2年生のみの新体制での活動です。 そんな初日は、1つの溶液から次々と色が変化していく化学の"
       },
       "admissionFee": {
         "amount": 220000,
@@ -21480,7 +21523,7 @@
         "checkedAt": "2026-09-10",
         "applyUrl": "https://mirai-compass.net/usr/jskeikoh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "校 中学校 高校 --> すべて 全校 中学 高校 NEW 2026/09/10 高校 『大学入試共通テスト説明会』を実施しました（高校3年 全コース） 高校 NEW 2026/09/09 高校 スタディキャンプ２日目 高校 NEW 2026/09/09"
+        "evidence": "Bキャンプ１班(10・11組) ２日目 K¹ 高校 NEW 2026/09/10 高校 『大学入試共通テスト説明会』を実施しました（高校3年 全コース） 高校 NEW 2026/09/09 高校 スタディキャンプ２日目 高校 NEW 2026/09/09"
       },
       "admissionFee": {
         "amount": 220000,
@@ -23262,6 +23305,13 @@
             "reservation": null,
             "confidence": "high",
             "source": "https://www.tokai-gyosei.ed.jp/topics/%e5%b0%8f%e5%ad%a6%e7%94%9f%e5%af%be%e8%b1%a1-%e7%ac%ac%ef%bc%92%e5%9b%9e-%e4%b8%ad%e7%ad%89%e9%83%a8%e3%82%af%e3%83%a9%e3%83%96%e4%bd%93%e9%a8%93%e9%80%b1%e9%96%93%ef%bc%889-14%ef%bd%9e9-20%ef%bc%89/"
+          },
+          {
+            "date": "2026-10-24",
+            "label": "オープンスクール",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.tokai-gyosei.ed.jp/topics/%e9%ab%98%e6%a0%a1%e3%80%80%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%82%92%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%be%e3%81%97%e3%81%9f-3/"
           }
         ],
         "reservation": null,
@@ -24446,7 +24496,24 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-09-10",
+            "label": "学校説明会",
+            "reservation": null,
+            "confidence": "mid",
+            "source": "https://poole.ed.jp/"
+          }
+        ],
+        "reservation": "required",
+        "source": "https://poole.ed.jp/",
+        "checkedAt": "2026-09-10",
+        "applyUrl": "https://poole.ed.jp/news/post-5318/",
+        "applyLabel": "2026.9.3 第69回大阪府内女子中学生英語暗誦大会の申し込みフォームを公開",
+        "evidence": "開行事 転入・編入 英語リスニング問題 お知らせ NEWS 2026.9.10 【高校学校説明会】活動予定クラブ 2026.9.10 【高校学校説明会】西村有加氏による「今日から変えられる！勉強の効率が上がる生活リズムの整え方」特別講演"
+      }
     },
     {
       "id": "priv-minohgakuen",
