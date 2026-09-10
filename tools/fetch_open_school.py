@@ -58,7 +58,7 @@ SLEEP_SEC = 2.0
 TIMEOUT = 20
 MAX_PAGES = 4          # トップ＋辿る3ページ
 MAX_EVENTS = 6         # 1校あたりカードに出す上限
-WINDOW = 90            # 行事名と日付が同じ話題だとみなす文字数
+WINDOW = 70            # 行事名と日付が同じ話題だとみなす文字数
 
 # ---- 行事の呼び名 -------------------------------------------------------
 # 長いものを先に置く（「学校説明会」を「説明会」より先に拾わせる）
@@ -73,12 +73,28 @@ RE_EVENT = re.compile("|".join(re.escape(w) for w in EVENT_WORDS))
 
 # ---- 日付 ---------------------------------------------------------------
 RE_DATE = re.compile(
+    r"(?:"
+    # 「2026.09.20」「2026/9/20」形式。年が入っているので区切りが点でも取り違えない。
+    r"(?P<fy>20[0-9]{2})\s*[.．/／-]\s*(?P<fm>[0-9０-９]{1,2})\s*[.．/／-]\s*(?P<fd>[0-9０-９]{1,2})"
+    r"|"
+    # 「令和8年10月11日」「10月11日」「10/11」形式
     r"(?:令和\s*(?P<r>[0-9０-９]{1,2})\s*年度?\s*)?"
     r"(?:(?P<y>20[0-9]{2})\s*年\s*)?"
     r"(?P<m>[0-9０-９]{1,2})\s*[月/／]\s*(?P<d>[0-9０-９]{1,2})\s*日?"
-    r"\s*[（(]?\s*(?P<w>[月火水木金土日])?\s*[)）]?"
+    r")"
+    r"(?:\s*[（(]\s*(?P<w>[月火水木金土日])\s*[)）])?"
 )
+
+
+def date_parts(m: re.Match):
+    """RE_DATE のどちらの書き方でマッチしたかを吸収して (月, 日, 年) を返す。"""
+    if m.group("fy"):
+        return m.group("fm"), m.group("fd"), m.group("fy")
+    return m.group("m"), m.group("d"), m.group("y")
 WEEKDAYS = "月火水木金土日"  # datetime.weekday() は月曜=0
+# 「10/24(土)、11/7(土)」のように並記された日付をひとまとまりとして扱うための、
+# 日付と日付のあいだに入ってよい文字。これ以外が挟まれば別の話題とみなす。
+RE_DATE_GLUE = re.compile(r"^[\s　、,，・/／()（）\[\]&＆と及びおよびまたは~〜ー－-]{0,8}$")
 
 # ---- 申込の要否 ---------------------------------------------------------
 RE_NEEDED = re.compile(
@@ -92,8 +108,14 @@ RE_NOT_NEEDED = re.compile(
 )
 
 # ---- 申込リンク ---------------------------------------------------------
-RE_APPLY_LABEL = re.compile(
-    r"申込|申し込|お申込|申請|予約|エントリー|entry|apply|reserve|form", re.I
+# 「予約」だけを手がかりにすると「大学予約奨学金のお知らせ」まで拾ってしまうので、
+# 申込を意味する語のまとまりで見る。
+RE_APPLY_TEXT = re.compile(
+    r"申込|申し込|お申込|参加予約|来校予約|見学予約|予約フォーム|予約はこちら|エントリー"
+)
+# href 側の手がかり。"information" が "form" を含むので、区切り文字で挟んで見る。
+RE_APPLY_HREF = re.compile(
+    r"(^|[/_.?=-])(forms?|entry|apply|mousikomi|moushikomi|yoyaku|reserve)([/_.?=-]|$)", re.I
 )
 # 学校が使いがちな外部フォーム。ここに載っている先だけ別ドメインでも許可する。
 FORM_HOSTS = re.compile(
@@ -102,7 +124,10 @@ FORM_HOSTS = re.compile(
     r"shinsei\.pref\.osaka\.lg\.jp|reserva\.be|airrsv\.net|coubic\.com)$", re.I
 )
 # 「申込」でも入試の出願は別物なので弾く
-RE_APPLY_NG = re.compile(r"出願|願書|web出願|インターネット出願|合否|入学手続", re.I)
+RE_APPLY_NG = re.compile(
+    r"出願|願書|インターネット出願|合否|入学手続|奨学金|卒業生|同窓会|証明書|"
+    r"寄付|寄附|求人|採用|保護者会|アンケート|問い合わせ|問合せ|お問合|資料請求", re.I
+)
 
 # ---- 辿るリンク ---------------------------------------------------------
 RE_INTEREST = re.compile(
@@ -114,23 +139,36 @@ RE_INTEREST = re.compile(
 RE_TAG = re.compile(r"<(script|style)[^>]*>.*?</\1>", re.I | re.S)
 RE_ANY_TAG = re.compile(r"<[^>]+>")
 RE_META_CHARSET = re.compile(rb"charset=[\"']?\s*([\w\-]+)", re.I)
-RE_LINK = re.compile(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', re.I | re.S)
+# href はシングルクォートで書かれているサイトも多い（東大谷は104箇所がそれだった）。
+RE_LINK = re.compile(r"""<a[^>]+href=["']([^"']+)["'][^>]*>(.*?)</a>""", re.I | re.S)
 
 
 def zen2han(s: str) -> str:
     return s.translate(str.maketrans("０１２３４５６７８９", "0123456789"))
 
 
-def http_get(url: str) -> str:
+def same_site(a: str, b: str) -> bool:
+    """www の有無だけの違いは同じサイトとみなす。
+
+    東大谷は www.higashiohtani.ac.jp から higashiohtani.ac.jp へ転送していて、
+    厳密にホスト名を比べるとサイト内リンクを1本も辿れなくなる。
+    """
+    strip = lambda h: h.lower().removeprefix("www.")  # noqa: E731
+    return strip(urllib.parse.urlsplit(a).netloc) == strip(urllib.parse.urlsplit(b).netloc)
+
+
+def http_get(url: str) -> tuple[str, str]:
+    """本文と、転送されたあとの最終URLを返す。リンクの解決には最終URLを使う。"""
     req = urllib.request.Request(
         url, headers={"User-Agent": UA, "Accept-Encoding": "gzip", "Accept-Language": "ja"})
     with urllib.request.urlopen(req, timeout=TIMEOUT) as res:
+        final = res.geturl() or url
         raw = res.read(800_000)
         if res.headers.get("Content-Encoding") == "gzip":
             try:
                 raw = gzip.decompress(raw)
             except Exception:  # noqa: BLE001 — 途中で切った gzip は諦める
-                return ""
+                return "", final
         enc = None
         m = re.search(r"charset=([\w\-]+)", res.headers.get("Content-Type", ""), re.I)
         if m:
@@ -143,10 +181,10 @@ def http_get(url: str) -> str:
         if not cand:
             continue
         try:
-            return raw.decode(cand)
+            return raw.decode(cand), final
         except (UnicodeDecodeError, LookupError):
             continue
-    return raw.decode("utf-8", "replace")
+    return raw.decode("utf-8", "replace"), final
 
 
 def robots_allows(url: str, cache: dict) -> bool:
@@ -175,7 +213,6 @@ def interesting_links(base: str, html: str) -> list[str]:
     """入試・説明会まわりのページへのリンクを、確度の高い順に返す。"""
     scored: list[tuple[int, str]] = []
     seen = set()
-    base_host = urllib.parse.urlsplit(base).netloc
     for href, label in RE_LINK.findall(html):
         label = RE_ANY_TAG.sub("", label).strip()
         hay = urllib.parse.unquote(href) + " " + label
@@ -184,7 +221,7 @@ def interesting_links(base: str, html: str) -> list[str]:
         u = urllib.parse.urljoin(base, href.split("#")[0])
         if not u.startswith("http") or u.rstrip("/") == base.rstrip("/"):
             continue
-        if urllib.parse.urlsplit(u).netloc != base_host:
+        if not same_site(u, base):
             continue      # 辿るのは同じサイトの中だけ
         if u in seen:
             continue
@@ -242,59 +279,115 @@ def find_events(text: str, source: str, today: dt.date) -> list[dict]:
 
     日付ごとに「いちばん近くにある行事名」を割り当てる。行事名ごとに走査すると、
     同じ日付が「オープンスクール」でも「学校説明会」でも拾われて重複するため。
+
+    年間行事予定表を説明会の日程と読み違えないよう、行事名との間に別の日付が
+    挟まっている場合は結びつけない。「9月11日 代休 9月12日 3年模試 … 9月19日
+    学校説明会」のような表で、9月11日まで説明会にされるのを防ぐ。
     """
     keywords = [(m.start(), m.end(), m.group(0)) for m in RE_EVENT.finditer(text)]
     if not keywords:
         return []
 
-    by_date: dict[str, tuple[int, dict]] = {}
-    for dm in RE_DATE.finditer(text):
-        try:
-            month = int(zen2han(dm.group("m")))
-            day = int(zen2han(dm.group("d")))
-        except ValueError:
-            continue
-        if not (1 <= month <= 12 and 1 <= day <= 31):
-            continue
+    # 日付をまとまり（クラスタ）にする。「10/24(土)、11/7(土)」のように区切り文字だけで
+    # 並んだ日付は同じ行事の複数回だが、あいだに別の語が入るなら別の話題。
+    clusters: list[list] = []
+    for m in RE_DATE.finditer(text):
+        if clusters and RE_DATE_GLUE.match(text[clusters[-1][-1].end(): m.start()]):
+            clusters[-1].append(m)
+        else:
+            clusters.append([m])
 
-        # いちばん近い行事名を探す
-        near = None
-        for ks, ke, word in keywords:
-            if ks <= dm.start() <= ke:
-                dist = 0
+    # 先に「これからの日付」に解決できるものだけ残す。お知らせの投稿日のような
+    # 過ぎた日付を残しておくと、次の判定で邪魔になる。
+    live = []
+    for cluster in clusters:
+        dates = []
+        for dm in cluster:
+            raw_m, raw_d, raw_y = date_parts(dm)
+            try:
+                month = int(zen2han(raw_m))
+                day = int(zen2han(raw_d))
+            except (ValueError, TypeError):
+                continue
+            if not (1 <= month <= 12 and 1 <= day <= 31):
+                continue
+            got = resolve_year(month, day, dm.group("w"), dm.group("r"), raw_y, today)
+            if not got:
+                continue
+            date, conf = got
+            if today <= date <= today + dt.timedelta(days=400):
+                dates.append((date, conf))
+        if dates:
+            live.append({"start": cluster[0].start(), "end": cluster[-1].end(), "dates": dates})
+
+    # 行事名から見て日付が前にあるか後ろにあるかは、ページごとに揃っていることが多い。
+    #   「オープンキャンパス 9月20日（日） 個別相談会 10月10日（土）」＝後ろ
+    #   「9月19日（土） 学校説明会 9月25日（金） 生徒指導週間」＝前（年間行事予定表）
+    # 片側にしか候補が無い行事名でどちらの並びかを数え、迷ったときはその向きに従う。
+    def candidates_for(ks: int, ke: int) -> list:
+        out = []
+        for i, c in enumerate(live):
+            if ks <= c["start"] <= ke:
+                dist, side = 0, 0
+            elif c["end"] <= ks:
+                dist, side = ks - c["end"], -1
             else:
-                dist = min(abs(dm.start() - ke), abs(ks - dm.end()))
-            if dist <= WINDOW and (near is None or dist < near[0]):
-                near = (dist, word, ks, ke)
-        if near is None:
-            continue
+                dist, side = c["start"] - ke, 1
+            if dist > WINDOW:
+                continue
+            lo, hi = (c["end"], ks) if side < 0 else (ke, c["start"])
+            if any(lo <= o["start"] < hi for j, o in enumerate(live) if j != i):
+                continue
+            out.append((dist, side, c))
+        out.sort(key=lambda x: x[0])
+        return out
 
-        got = resolve_year(month, day, dm.group("w"), dm.group("r"), dm.group("y"), today)
-        if not got:
-            continue
-        date, conf = got
-        if date < today or date > today + dt.timedelta(days=400):
-            continue          # 終わった日程と、遠すぎて別年度のものは載せない
+    votes = {-1: 0, 1: 0}
+    for ks, ke, _ in keywords:
+        cands = candidates_for(ks, ke)
+        sides = {c[1] for c in cands}
+        if len(cands) == 1 or len(sides) == 1:
+            votes[cands[0][1]] = votes.get(cands[0][1], 0) + 1 if cands else 0
+    dominant = None
+    if votes[-1] != votes[1]:
+        dominant = -1 if votes[-1] > votes[1] else 1
 
-        _, word, ks, ke = near
-        window = text[max(0, min(ks, dm.start()) - 30): max(ke, dm.end()) + WINDOW]
-        ev = {
-            "date": date.isoformat(),
-            "label": word,
-            "reservation": reservation_of(window),
-            "confidence": conf,
-            "source": source,
-            "evidence": window.strip()[:160],
-        }
-        cur = by_date.get(ev["date"])
-        if cur is None or near[0] < cur[0]:
-            by_date[ev["date"]] = (near[0], ev)
+    by_date: dict[str, tuple[int, dict]] = {}
+    for ks, ke, word in keywords:
+        # 行事名との間に別の日付が挟まっていたら、行事予定表の行が並んでいるだけなので
+        # 結びつけない。「9月11日 代休 9月12日 3年模試 … 9月19日 学校説明会」で
+        # 9月11日まで説明会にされるのを防ぐ。
+        cands = candidates_for(ks, ke)
+        if not cands:
+            continue
+        # 行事名の前と後ろに同じくらい近い日付があると、どちらの行のものか決められない。
+        # ページの並びが分かっていればそれに従い、分からなければ捨てる。
+        # 間違った日付を出すくらいなら、何も出さない方がよい。
+        if len(cands) >= 2 and cands[0][1] != cands[1][1] and cands[1][0] - cands[0][0] < 8:
+            picked = [c for c in cands if c[1] == dominant] if dominant else []
+            if not picked:
+                continue
+            cands = picked
+        dist, _, c = cands[0]
+        window = text[max(0, min(ks, c["start"]) - 30): max(ke, c["end"]) + WINDOW]
+        reservation = reservation_of(window)
+        for date, conf in c["dates"]:
+            ev = {
+                "date": date.isoformat(),
+                "label": word,
+                "reservation": reservation,
+                "confidence": conf,
+                "source": source,
+                "evidence": window.strip()[:160],
+            }
+            cur = by_date.get(ev["date"])
+            if cur is None or dist < cur[0]:
+                by_date[ev["date"]] = (dist, ev)
     return [e for _, e in by_date.values()]
 
 
 def find_apply_url(base: str, html: str) -> dict | None:
     """申込フォームらしいリンクを1つ選ぶ。入試の出願ページは除く。"""
-    base_host = urllib.parse.urlsplit(base).netloc
     best = None
     for href, label in RE_LINK.findall(html):
         label = re.sub(r"[\s　]+", " ", RE_ANY_TAG.sub("", label)).strip()
@@ -306,14 +399,19 @@ def find_apply_url(base: str, html: str) -> dict | None:
             continue
         host = urllib.parse.urlsplit(u).netloc
         external_form = bool(FORM_HOSTS.search(host))
-        if host != base_host and not external_form:
+        if not same_site(u, base) and not external_form:
             continue
-        if not RE_APPLY_LABEL.search(hay) and not external_form:
+        by_text = bool(RE_APPLY_TEXT.search(hay))
+        by_href = bool(RE_APPLY_HREF.search(urllib.parse.urlsplit(u).path + "?" + (
+            urllib.parse.urlsplit(u).query or "")))
+        if not (external_form or by_text or by_href):
             continue
-        # 外部の申込システム > ラベルに「申込」 > それ以外
-        score = 0 if external_form else (1 if re.search(r"申込|申し込|予約", label) else 2)
+        # 外部の申込システム > ラベルに「申込」 > URLだけが手がかり
+        score = 0 if external_form else (1 if by_text else 2)
+        # リンクの文字が申込と関係ない（画像リンクなど）ときは、当てにせず一般名にする
+        name = label[:40] if RE_APPLY_TEXT.search(label) else "申込フォーム"
         if best is None or score < best[0]:
-            best = (score, {"url": u, "label": label[:40] or "申込ページ"})
+            best = (score, {"url": u, "label": name})
     return best[1] if best else None
 
 
@@ -330,7 +428,7 @@ def crawl(school: dict, robots_cache: dict, today: dt.date, max_pages: int) -> d
         return res
 
     try:
-        top = http_get(url)
+        top, url = http_get(url)   # 転送されていたら、以降は転送先を起点にする
     except Exception as e:  # noqa: BLE001
         res["note"] = f"取得できず（{e}）"
         time.sleep(SLEEP_SEC)
@@ -343,7 +441,8 @@ def crawl(school: dict, robots_cache: dict, today: dt.date, max_pages: int) -> d
         if not robots_allows(u, robots_cache):
             continue
         try:
-            pages.append((u, http_get(u)))
+            html, final = http_get(u)
+            pages.append((final, html))
         except Exception:  # noqa: BLE001 — 個別ページの失敗は無視してよい
             pass
         time.sleep(SLEEP_SEC)
