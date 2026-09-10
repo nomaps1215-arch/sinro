@@ -1,0 +1,1277 @@
+[
+  {
+    "id": "pref-moriguchihigashi",
+    "name": "大阪府立守口東高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-ashima-hs",
+    "name": "大阪府立芦間高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-ichiritsu",
+    "name": "大阪府立いちりつ高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-korigaoka",
+    "name": "大阪府立香里丘高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-nagaohighschool",
+    "name": "大阪府立長尾高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-hirakata",
+    "name": "大阪府立枚方高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-hirakatatsuda",
+    "name": "大阪府立枚方津田高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-hirakatanagisa",
+    "name": "大阪府立枚方なぎさ高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-makino",
+    "name": "大阪府立牧野高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-kitakawachisatsukigaoka",
+    "name": "大阪府立北かわち皐が丘高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-nishineyagawa",
+    "name": "大阪府立西寝屋川高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-neyagawa",
+    "name": "大阪府立寝屋川高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-nozaki",
+    "name": "大阪府立野崎高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-ryokufukan",
+    "name": "大阪府立緑風冠高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-kadomanishi",
+    "name": "大阪府立門真西高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-kadomanamihaya-my-canva-site",
+    "name": "大阪府立門真なみはや高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-shijonawate",
+    "name": "大阪府立四條畷高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-katano",
+    "name": "大阪府立交野高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-kanan",
+    "name": "大阪府立河南高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-kongo-hs",
+    "name": "大阪府立金剛高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-tondabayashi",
+    "name": "大阪府立富田林高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-nagano",
+    "name": "大阪府立長野高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-otsuka",
+    "name": "大阪府立大塚高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-ikuno",
+    "name": "大阪府立生野高等学校",
+    "count": 4
+  },
+  {
+    "id": "pref-matsubara",
+    "name": "大阪府立松原高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-kaifukan",
+    "name": "大阪府立懐風館高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-fujiidera",
+    "name": "大阪府立藤井寺高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-zennichi",
+    "name": "大阪府立藤井寺工科高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-sayama",
+    "name": "大阪府立狭山高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-kitasenri",
+    "name": "大阪府立北千里高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-suita",
+    "name": "大阪府立吹田高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-suitahigashi",
+    "name": "大阪府立吹田東高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-yamada",
+    "name": "大阪府立山田高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-osaka-senri-hs",
+    "name": "大阪府立千里高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-akutagawa",
+    "name": "大阪府立芥川高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-abuno",
+    "name": "大阪府立阿武野高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-ohkanmuri",
+    "name": "大阪府立大冠高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-takatsukikita",
+    "name": "大阪府立高槻北高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-mishima-hs",
+    "name": "大阪府立三島高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-tsukinoki",
+    "name": "大阪府立槻の木高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-ibarakinishi",
+    "name": "大阪府立茨木西高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-kasugaoka",
+    "name": "大阪府立春日丘高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-hokusetsutsubasa",
+    "name": "大阪府立北摂つばさ高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-ibaraki-t",
+    "name": "大阪府立茨木工科高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-ibaraki",
+    "name": "大阪府立茨木高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-osaka-fukui",
+    "name": "大阪府立福井高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-settsu",
+    "name": "大阪府立摂津高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-yao",
+    "name": "大阪府立八尾高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-yaosuisho",
+    "name": "大阪府立八尾翠翔高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-yamamoto-shs",
+    "name": "大阪府立山本高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-wp",
+    "name": "大阪府立八尾北高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-kawachino",
+    "name": "大阪府立かわち野高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-hanazono",
+    "name": "大阪府立花園高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-fuse",
+    "name": "大阪府立布施高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-midoriseiho",
+    "name": "大阪府立みどり清朋高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-joto-tech",
+    "name": "大阪府立城東工科高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-higashiosakamirai-t",
+    "name": "大阪府立東大阪みらい工科高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-fusekouka-sakura-ne",
+    "name": "大阪府立布施工科高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-hiraokashofu",
+    "name": "大阪府立枚岡樟風高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-fusekita",
+    "name": "大阪府立布施北高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-owa",
+    "name": "大阪府立桜和高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-sakuranomiya",
+    "name": "大阪府立桜宮高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-higashi",
+    "name": "大阪府立東高等学校",
+    "count": 2
+  },
+  {
+    "id": "pref-miyakojima-t",
+    "name": "大阪府立都島工業高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-nishinoda",
+    "name": "大阪府立西野田工科高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-sakuyakonohana",
+    "name": "大阪府立咲くやこの花高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-chuo",
+    "name": "大阪府立中央高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-otemae-hs",
+    "name": "大阪府立大手前高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-minato-hs",
+    "name": "大阪府立港高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-ichioka",
+    "name": "大阪府立市岡高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-izuo-t",
+    "name": "大阪府立泉尾工業高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-taishohakuryo",
+    "name": "大阪府立大正白稜高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-shimizudani",
+    "name": "大阪府立清水谷高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-yuhigaoka",
+    "name": "大阪府立夕陽丘高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-kozu",
+    "name": "大阪府立高津高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-obf-hs",
+    "name": "大阪ビジネスフロンティア高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-imamiya",
+    "name": "大阪府立今宮高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-yodo-b",
+    "name": "大阪府立淀商業高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-higashiyodogawa",
+    "name": "大阪府立東淀川高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-higashiyodo-t",
+    "name": "大阪府立東淀工業高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-kitano",
+    "name": "大阪府立北野高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-kunijima",
+    "name": "大阪府立柴島高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-yodogawaseiryu",
+    "name": "大阪府立淀川清流高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-osakawakaba",
+    "name": "大阪わかば高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-ikuno-t",
+    "name": "大阪府立生野工業高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-asahi",
+    "name": "大阪府立旭高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-yodogawa-t",
+    "name": "大阪府立淀川工科高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-seijo-t",
+    "name": "大阪府立成城高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-han-ai",
+    "name": "大阪府立汎愛高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-tsurumi-b",
+    "name": "大阪府立鶴見商業高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-abeno",
+    "name": "大阪府立阿倍野高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-kogei-osaka",
+    "name": "大阪府立工芸高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-sumiyoshi",
+    "name": "大阪府立住吉高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-tennoji",
+    "name": "大阪府立天王寺高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-konan-zokei",
+    "name": "大阪府立港南造形高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-osaka-city-ib",
+    "name": "大阪府立水都国際高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-sumiyoshi-b",
+    "name": "大阪府立住吉商業高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-hannan",
+    "name": "大阪府立阪南高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-partner",
+    "name": "大阪府立教育センター附属高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-higashisumiyoshi",
+    "name": "大阪府立東住吉高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-hirano",
+    "name": "大阪府立平野高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-higashi-sumiyoshi-sougou",
+    "name": "大阪府立東住吉総合高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-nagayoshi",
+    "name": "大阪府立長吉高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-imamiya-t",
+    "name": "大阪府立今宮工科高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-nishinari",
+    "name": "大阪府立西成高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-kanaoka",
+    "name": "大阪府立金岡高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-sakaikami",
+    "name": "大阪府立堺上高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-sakainishi",
+    "name": "大阪府立堺西高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-senyo",
+    "name": "大阪府立泉陽高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-tomigaoka",
+    "name": "大阪府立登美丘高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-higashimozu",
+    "name": "大阪府立東百舌鳥高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-fukuizumi",
+    "name": "大阪府立福泉高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-mihara",
+    "name": "大阪府立美原高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-ohtori",
+    "name": "大阪府立鳳高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-osaka-nougei",
+    "name": "大阪府立農芸高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-sakai-kohka",
+    "name": "大阪府立堺工科高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-senboku",
+    "name": "大阪府立泉北高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-mikunigaoka",
+    "name": "大阪府立三国丘高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-sakaihigashi",
+    "name": "大阪府立堺東高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-seibi",
+    "name": "大阪府立成美高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-izumiotsu",
+    "name": "大阪府立泉大津高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-shinoda",
+    "name": "大阪府立信太高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-hakata",
+    "name": "大阪府立伯太高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-izumi-t",
+    "name": "大阪府立和泉総合高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-takaishi",
+    "name": "大阪府立高石高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-izumi",
+    "name": "大阪府立和泉高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-kumeda",
+    "name": "大阪府立久米田高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-kishiwada",
+    "name": "大阪府立岸和田高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-kaizukaminami",
+    "name": "大阪府立貝塚南高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-kaizuka",
+    "name": "大阪府立貝塚高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-sano",
+    "name": "大阪府立佐野高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-hineno",
+    "name": "大阪府立日根野高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-zen",
+    "name": "大阪府立佐野工科高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-rinku-shonan",
+    "name": "大阪府立りんくう翔南高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-misaki",
+    "name": "大阪府立岬高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-momodani-p",
+    "name": "大阪府立桃谷高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-sakurazuka-hs",
+    "name": "大阪府立桜塚高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-teshima-hs",
+    "name": "大阪府立豊島高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-toneyama",
+    "name": "大阪府立刀根山高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-toyonaka",
+    "name": "大阪府立豊中高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-senriseiun",
+    "name": "大阪府立千里青雲高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-ikeda-h",
+    "name": "大阪府立池田高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-shibutani",
+    "name": "大阪府立渋谷高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-osaka-engei",
+    "name": "大阪府立園芸高等学校",
+    "count": 0
+  },
+  {
+    "id": "pref-minoh-high-school",
+    "name": "大阪府立箕面高等学校",
+    "count": 1
+  },
+  {
+    "id": "pref-minoohigashi",
+    "name": "大阪府立箕面東高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-high-aino",
+    "name": "藍野高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-jsh",
+    "name": "アサンプション国際高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-anangakuen",
+    "name": "アナン学園高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-abeno-shogaku",
+    "name": "あべの翔学高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-uenomiya",
+    "name": "上宮・上宮学園高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-uenomiya-taishi",
+    "name": "上宮太子高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-josei",
+    "name": "ヴェリタス城星学園高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-eishingakuen",
+    "name": "英真学園高等学校",
+    "count": 3
+  },
+  {
+    "id": "priv-eifu",
+    "name": "英風高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-otemon-jh",
+    "name": "追手門学院高等学校",
+    "count": 2
+  },
+  {
+    "id": "priv-otemon-js",
+    "name": "追手門学院大手前高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-osakashs",
+    "name": "大阪高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-osaka-kaisei",
+    "name": "大阪偕星学園高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-ogu-h",
+    "name": "大阪学院大学高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-osaka-gakugei",
+    "name": "大阪学芸高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-secondary",
+    "name": "大阪学芸（中等教育）高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-osaka-gyoko",
+    "name": "大阪暁光高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-kun-ei",
+    "name": "大阪薫英女学院高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-kokusai-h-oiu",
+    "name": "大阪国際高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-takii-h-oiu",
+    "name": "大阪国際滝井高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-kongogakuen",
+    "name": "大阪金剛インターナショナル高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-osaka-sandai",
+    "name": "大阪産業大学附属高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-daishodai-h",
+    "name": "大阪商業大学高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-osakashodai-sakai",
+    "name": "大阪商業大学堺高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-osaka-jogakuin",
+    "name": "大阪女学院高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-osaka-shinai",
+    "name": "大阪信愛学院高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-high-osaka-seikei",
+    "name": "大阪成蹊女子高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-osakaseiko",
+    "name": "大阪星光学院高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-osakaseiryo",
+    "name": "大阪青凌高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-ouhs-school",
+    "name": "大阪体育大学浪商高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-otk",
+    "name": "大阪つくば開成高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-dentsu",
+    "name": "大阪電気通信大学高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-osakatoin",
+    "name": "大阪桐蔭高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-oyg",
+    "name": "大阪夕陽丘学園高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-osakaryokuryo",
+    "name": "大阪緑涼高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-osk-ohtani",
+    "name": "大谷高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-kaimei",
+    "name": "開明高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-kaorugaoka-liberte",
+    "name": "香ヶ丘リベルテ高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-kankura",
+    "name": "関西大倉高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-kansai-soka",
+    "name": "関西創価高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-senior",
+    "name": "関西大学高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-high",
+    "name": "関西大学第一高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-hokuyo",
+    "name": "関西大学北陽高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-hs-fuksi-kagk-u",
+    "name": "関西福祉科学大学高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-sis-kwansei",
+    "name": "関西学院千里国際高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-kinkiosaka",
+    "name": "近畿大阪高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-kindai-senshu",
+    "name": "近畿大学泉州高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-jsh-kindai",
+    "name": "近畿大学附属高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-kinran",
+    "name": "金蘭会高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-kinransenri",
+    "name": "金蘭千里高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-kenkoku",
+    "name": "建国高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-correspondencecourse",
+    "name": "賢明学院高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-kouei-h",
+    "name": "甲英高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-kokoku",
+    "name": "興國高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-kozu-gakuen",
+    "name": "神須学園高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-koubun",
+    "name": "好文学園女子高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-koyodai",
+    "name": "向陽台高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-nevers-hs",
+    "name": "香里ヌヴェール学院高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-kohs",
+    "name": "金光大阪高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-konkoutouin",
+    "name": "金光藤蔭高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-konkoyao",
+    "name": "金光八尾高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-liberal",
+    "name": "堺リベラル高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-jh-shijonawate-gakuen",
+    "name": "四條畷学園高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-stnnj",
+    "name": "四天王寺高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-sgjh",
+    "name": "四天王寺東高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-shuoh",
+    "name": "秋桜高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-hs",
+    "name": "樟蔭高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-highs-josho",
+    "name": "常翔学園高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-keiko-josho",
+    "name": "常翔啓光学園高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-chuko",
+    "name": "城南学園高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-oskshoyo",
+    "name": "昇陽高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-seika-h",
+    "name": "精華高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-seikyo-gakuen",
+    "name": "清教学園高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-osaka-seisho",
+    "name": "星翔高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-seifu",
+    "name": "清風高等学校",
+    "count": 4
+  },
+  {
+    "id": "priv-seifunankai",
+    "name": "清風南海高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-seimei-gakuin",
+    "name": "清明学院高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-senshin-gakuen",
+    "name": "宣真高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-soai",
+    "name": "相愛高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-daisho",
+    "name": "大商学園高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-hs-2",
+    "name": "太成学院大学高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-takatsuki",
+    "name": "高槻高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-cyu-kou",
+    "name": "帝塚山学院高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-tezukayama-izumigaoka",
+    "name": "帝塚山学院泉ヶ丘高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-tgkoko",
+    "name": "天王寺学館高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-tokai-gyosei",
+    "name": "東海大学付属大阪仰星高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-kori-doshisha",
+    "name": "同志社香里高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-okazakitoho",
+    "name": "東朋学園高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-nagaodani",
+    "name": "長尾谷高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-naniwa",
+    "name": "浪速高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-baika-jh",
+    "name": "梅花高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-hagoromo-gakuen",
+    "name": "羽衣学園高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-hannan-univ",
+    "name": "阪南大学高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-school",
+    "name": "PL学園高等学校",
+    "count": 1
+  },
+  {
+    "id": "priv-kashiwara",
+    "name": "東大阪大学柏原高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-keiai",
+    "name": "東大阪大学敬愛高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-higashi-otani",
+    "name": "東大谷高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-poole",
+    "name": "プール学院高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-minohgakuen",
+    "name": "箕面学園高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-mino-jiyu",
+    "name": "箕面自由学園高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-meijo",
+    "name": "明浄学院高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-meisei",
+    "name": "明星高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-momoyamagakuin-h",
+    "name": "桃山学院高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-hs-3",
+    "name": "八洲学園高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-tondabayashi",
+    "name": "利晶学園高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-hatsushiba-ritsumeikan",
+    "name": "利晶学園大阪立命館高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-riseisha",
+    "name": "履正社高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-ymcagakuin",
+    "name": "YMCA学院高等学校",
+    "count": 0
+  },
+  {
+    "id": "priv-waseda-osaka",
+    "name": "早稲田大阪高等学校",
+    "count": 0
+  }
+]

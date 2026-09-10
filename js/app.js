@@ -795,6 +795,10 @@
     detail.appendChild(el('p', 'school-summary', describe(s, row, c)));
 
     // --- ボタン ---
+    // --- 学校の写真（公式・地図ボタンのすぐ上） ---
+    const strip = photoStrip(s);
+    if (strip) detail.appendChild(strip);
+
     const p = el('div', 'school-links');
     if (s.openSchool && s.openSchool.applyUrl) {
       const ab = button(s.openSchool.applyUrl, '申込',
@@ -1001,6 +1005,127 @@
     note.appendChild(document.createTextNode(
       os.checkedAt ? '・' + os.checkedAt + ' 時点）。' : '）。'));
     note.appendChild(document.createTextNode('変更されることがあるので、申込前に必ず公式サイトを見てください。'));
+    box.appendChild(note);
+    return box;
+  }
+
+  // ---- 学校の写真 -------------------------------------------------------
+  // Wikimedia Commons の自由ライセンス画像だけを出す。学校サイトの写真は
+  // その学校の著作物なので使わない（tools/fetch_photos.py に理由を書いている）。
+  let lightbox = null;
+  let lightboxState = { photos: [], index: 0, name: '' };
+
+  function buildLightbox() {
+    const box = el('div', 'lightbox');
+    box.hidden = true;
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', '写真の拡大表示');
+
+    const figure = el('figure', 'lightbox-figure');
+    const img = document.createElement('img');
+    img.alt = '';
+    figure.appendChild(img);
+    const cap = el('figcaption', 'lightbox-cap');
+    figure.appendChild(cap);
+    box.appendChild(figure);
+
+    const close = el('button', 'lightbox-close', '×');
+    close.type = 'button';
+    close.setAttribute('aria-label', '閉じる');
+    box.appendChild(close);
+
+    const prev = el('button', 'lightbox-nav prev', '‹');
+    const next = el('button', 'lightbox-nav next', '›');
+    prev.type = next.type = 'button';
+    prev.setAttribute('aria-label', '前の写真');
+    next.setAttribute('aria-label', '次の写真');
+    box.appendChild(prev);
+    box.appendChild(next);
+
+    const hide = () => {
+      box.hidden = true;
+      document.body.classList.remove('lightbox-open');
+    };
+    close.addEventListener('click', hide);
+    box.addEventListener('click', (e) => { if (e.target === box) hide(); });
+    prev.addEventListener('click', () => step(-1));
+    next.addEventListener('click', () => step(1));
+    document.addEventListener('keydown', (e) => {
+      if (box.hidden) return;
+      if (e.key === 'Escape') hide();
+      if (e.key === 'ArrowLeft') step(-1);
+      if (e.key === 'ArrowRight') step(1);
+    });
+
+    lightbox = { box, img, cap, prev, next, hide };
+    document.body.appendChild(box);
+    return lightbox;
+  }
+
+  function step(delta) {
+    const n = lightboxState.photos.length;
+    if (!n) return;
+    lightboxState.index = (lightboxState.index + delta + n) % n;
+    showPhoto();
+  }
+
+  function showPhoto() {
+    const p = lightboxState.photos[lightboxState.index];
+    if (!p) return;
+    lightbox.img.src = p.full || p.thumb;
+    lightbox.img.alt = lightboxState.name + 'の写真';
+    lightbox.cap.textContent = '';
+    lightbox.cap.appendChild(el('span', 'cap-name', lightboxState.name));
+    // クレジットは自由ライセンスの条件。省かないこと。
+    const credit = el('span', 'cap-credit');
+    credit.appendChild(document.createTextNode('撮影：' + (p.author || '不明') + '　'));
+    if (p.licenseUrl) credit.appendChild(link(p.licenseUrl, p.license || 'ライセンス'));
+    else credit.appendChild(document.createTextNode(p.license || ''));
+    if (p.page) {
+      credit.appendChild(document.createTextNode('　'));
+      credit.appendChild(link(p.page, 'Wikimedia Commons'));
+    }
+    lightbox.cap.appendChild(credit);
+    const many = lightboxState.photos.length > 1;
+    lightbox.prev.hidden = !many;
+    lightbox.next.hidden = !many;
+  }
+
+  function openLightbox(school, index) {
+    if (!lightbox) buildLightbox();
+    lightboxState = { photos: school.photos || [], index: index, name: school.name };
+    showPhoto();
+    lightbox.box.hidden = false;
+    document.body.classList.add('lightbox-open');
+  }
+
+  function photoStrip(s) {
+    if (!s.photos || !s.photos.length) return null;
+    const box = el('div', 'photos');
+    s.photos.forEach((p, i) => {
+      const btn = el('button', 'photo');
+      btn.type = 'button';
+      btn.title = 'タップで拡大';
+      const img = document.createElement('img');
+      img.src = p.thumb;
+      img.alt = s.name + 'の写真 ' + (i + 1);
+      img.loading = 'lazy';
+      img.decoding = 'async';
+      // 外部サイトの画像なので、読めなければ枠ごと消す。
+      // 1枚にまとめた配布版は外部画像を読み込めないため、そこでは何も出ない。
+      img.addEventListener('error', () => btn.remove());
+      btn.appendChild(img);
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        openLightbox(s, i);
+      });
+      box.appendChild(btn);
+    });
+    const note = el('p', 'photos-note');
+    note.appendChild(document.createTextNode('写真：'));
+    note.appendChild(link('https://commons.wikimedia.org/', 'Wikimedia Commons'));
+    note.appendChild(document.createTextNode('（撮影者と利用条件は拡大表示に出ます）'));
     box.appendChild(note);
     return box;
   }
