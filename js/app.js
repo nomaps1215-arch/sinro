@@ -563,6 +563,13 @@
     if (s.gender === 'boys') top.appendChild(el('span', 'tag boys', '男子校'));
     if (s.gender === 'girls') top.appendChild(el('span', 'tag girls', '女子校'));
     if (s.division && s.division !== '全日制') top.appendChild(el('span', 'tag division', s.division));
+    const nextEvent = upcomingEvents(s)[0];
+    if (nextEvent) {
+      const osTag = el('span', 'tag os-next',
+        fmtEventDate(nextEvent.date).replace('（', '(').replace('）', ')') + ' ' + nextEvent.label);
+      osTag.title = 'カードを開くと日程と申込先が見られます。';
+      top.appendChild(osTag);
+    }
     if (row.bestJudge) {
       top.appendChild(el('span', 'judge ' + row.bestJudge.key, row.bestJudge.label));
     }
@@ -705,6 +712,10 @@
     });
     detail.appendChild(courses);
 
+    // --- オープンスクール・説明会（公式サイトから拾えた学校だけ） ---
+    const osBlock = openSchoolBlock(s);
+    if (osBlock) detail.appendChild(osBlock);
+
     // --- ルート内訳（最寄り駅の右のボタンで開閉する） ---
     if (best) {
       const det = el('div', 'route-panel');
@@ -766,6 +777,12 @@
 
     // --- ボタン ---
     const p = el('div', 'school-links');
+    if (s.openSchool && s.openSchool.applyUrl) {
+      const ab = button(s.openSchool.applyUrl, '申込',
+        (s.openSchool.applyLabel || '申込ページ') + 'を開く（公式サイトのリンク先）');
+      ab.classList.add('apply');
+      p.appendChild(ab);
+    }
     if (s.website) p.appendChild(button(s.website, '公式', '公式サイトを開く'));
     p.appendChild(
       button(
@@ -896,6 +913,79 @@
    *
    * 点数は数十人の平均でしかないので、件数を必ず添えて判断できるようにする。
    */
+  // ---- オープンスクール・学校説明会 -------------------------------------
+  // 巡回が止まっても終わった日程を出さないよう、表示のたびに今日で足切りする。
+  const WEEK_JA = ['日', '月', '火', '水', '木', '金', '土'];
+
+  function upcomingEvents(s) {
+    if (!s.openSchool || !s.openSchool.events) return [];
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    return s.openSchool.events
+      .filter((e) => {
+        const d = parseDate(e.date);
+        return d && d >= today;
+      })
+      .sort((a, b) => (a.date < b.date ? -1 : 1));
+  }
+
+  function parseDate(iso) {
+    const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '');
+    if (!m) return null;
+    return new Date(+m[1], +m[2] - 1, +m[3]);
+  }
+
+  function fmtEventDate(iso) {
+    const d = parseDate(iso);
+    if (!d) return iso;
+    return (d.getMonth() + 1) + '/' + d.getDate() + '（' + WEEK_JA[d.getDay()] + '）';
+  }
+
+  const RESERVATION_LABEL = { required: '要申込', none: '申込不要' };
+
+  function openSchoolBlock(s) {
+    const events = upcomingEvents(s);
+    const os = s.openSchool || {};
+    if (!events.length && !os.applyUrl) return null;
+
+    const box = el('div', 'openschool');
+    const head = el('div', 'openschool-head');
+    head.appendChild(el('span', 'openschool-title', 'オープンスクール・説明会'));
+    if (os.reservation) {
+      head.appendChild(el('span', 'openschool-flag ' + os.reservation,
+        RESERVATION_LABEL[os.reservation]));
+    }
+    box.appendChild(head);
+
+    if (events.length) {
+      const ul = el('ul', 'openschool-list');
+      events.slice(0, 4).forEach((e) => {
+        const li = el('li');
+        li.appendChild(el('span', 'os-date', fmtEventDate(e.date)));
+        li.appendChild(el('span', 'os-name', e.label));
+        const r = RESERVATION_LABEL[e.reservation];
+        if (r) li.appendChild(el('span', 'os-res ' + e.reservation, r));
+        ul.appendChild(li);
+      });
+      box.appendChild(ul);
+    } else {
+      box.appendChild(el('p', 'openschool-empty', '日程は公式サイトで確認してください。'));
+    }
+
+    const note = el('p', 'openschool-note');
+    note.appendChild(document.createTextNode(
+      os.reservation ? '' : '申込が要るかどうかは読み取れませんでした。'));
+    note.appendChild(document.createTextNode('公式サイトの記載を自動で取得しています（'));
+    const src = os.source || s.website;
+    if (src) note.appendChild(link(src, '掲載ページ'));
+    else note.appendChild(document.createTextNode('出典不明'));
+    note.appendChild(document.createTextNode(
+      os.checkedAt ? '・' + os.checkedAt + ' 時点）。' : '）。'));
+    note.appendChild(document.createTextNode('変更されることがあるので、申込前に必ず公式サイトを見てください。'));
+    box.appendChild(note);
+    return box;
+  }
+
   function reviewBlock(s) {
     const r = s.reviews;
     if (!r || !r.scores) return null;

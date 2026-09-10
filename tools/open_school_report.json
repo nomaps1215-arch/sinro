@@ -1,0 +1,123 @@
+[
+  {
+    "id": "pref-moriguchihigashi",
+    "name": "大阪府立守口東高等学校",
+    "website": "https://www.osaka-c.ed.jp/moriguchihigashi/",
+    "reached": true,
+    "pages": 2,
+    "events": [
+      {
+        "date": "2026-11-07",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osaka-c.ed.jp/moriguchihigashi/junior.html",
+        "evidence": "ジ クラブ活動 在校生ページ 校長ブログ もりひが同窓会 トップページ 中学生のみなさんへ HOME | 中学生のみなさんへ オープンスクール 学校説明会・行事参加へのお申し込み オープンスクールのご案内 本校の教育内容や学校の雰囲気を知っていただく機会として、オープンスクールを開催いたします。ぜひご参加ください。 開"
+      },
+      {
+        "date": "2027-01-16",
+        "label": "学校説明会",
+        "reservation": "required",
+        "confidence": "high",
+        "source": "https://www.osaka-c.ed.jp/moriguchihigashi/junior.html",
+        "evidence": "6906-8211（平日8：30～17：00） --> 参加申し込みフォーム ※只今の参加申し込みはできません。 ファックス申し込み用紙 ※只今のファックスは受け付けていません。 学校説明会予定（2027年） ①令和9年1月16日（土） 午前の部／10：00～ 午後の部／14：00 ②令和9年2月13日（土） 11：0"
+      },
+      {
+        "date": "2027-02-13",
+        "label": "学校説明会",
+        "reservation": "required",
+        "confidence": "high",
+        "source": "https://www.osaka-c.ed.jp/moriguchihigashi/junior.html",
+        "evidence": "6906-8211（平日8：30～17：00） --> 参加申し込みフォーム ※只今の参加申し込みはできません。 ファックス申し込み用紙 ※只今のファックスは受け付けていません。 学校説明会予定（2027年） ①令和9年1月16日（土） 午前の部／10：00～ 午後の部／14：00 ②令和9年2月13日（土） 11：0"
+      }
+    ],
+    "apply": {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSexOZ-CCgXg1W9b1isjmIQj5XFt7qC1kwIb5yLhn_TT20xUbQ/viewform",
+      "label": "参加申し込みフォーム"
+    },
+    "note": ""
+  },
+  {
+    "id": "pref-ashima-hs",
+    "name": "大阪府立芦間高等学校",
+    "website": "https://ashima-hs.ed.jp/",
+    "reached": false,
+    "pages": 0,
+    "events": [],
+    "apply": null,
+    "note": "robots.txt で拒否"
+  },
+  {
+    "id": "pref-ichiritsu",
+    "name": "大阪府立いちりつ高等学校",
+    "website": "https://www3.osaka-c.ed.jp/ichiritsu",
+    "reached": true,
+    "pages": 1,
+    "events": [
+      {
+        "date": "2026-10-24",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www3.osaka-c.ed.jp/ichiritsu",
+        "evidence": "てください。 学校の伝えたい言葉をいれてください。 学校の伝えたい言葉をいれてください。 Information お知らせ 2026/09/09 10/24(土), 11/7(土)オープンスクール特設ページはこちら 2026/09/06 令和８年度学校説明会・オープンスクールについてはこちら 2026/09/06 令和"
+      },
+      {
+        "date": "2026-10-24",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www3.osaka-c.ed.jp/ichiritsu",
+        "evidence": "葉をいれてください。 Information お知らせ 2026/09/09 10/24(土), 11/7(土)オープンスクール特設ページはこちら 2026/09/06 令和８年度学校説明会・オープンスクールについてはこちら 2026/09/06 令和８年度年間行事予定・月間行事予定はこちら 2026/09/06 令和"
+      },
+      {
+        "date": "2026-11-07",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www3.osaka-c.ed.jp/ichiritsu",
+        "evidence": "てください。 学校の伝えたい言葉をいれてください。 学校の伝えたい言葉をいれてください。 Information お知らせ 2026/09/09 10/24(土), 11/7(土)オープンスクール特設ページはこちら 2026/09/06 令和８年度学校説明会・オープンスクールについてはこちら 2026/09/06 令和"
+      },
+      {
+        "date": "2026-11-07",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www3.osaka-c.ed.jp/ichiritsu",
+        "evidence": "葉をいれてください。 Information お知らせ 2026/09/09 10/24(土), 11/7(土)オープンスクール特設ページはこちら 2026/09/06 令和８年度学校説明会・オープンスクールについてはこちら 2026/09/06 令和８年度年間行事予定・月間行事予定はこちら 2026/09/06 令和"
+      }
+    ],
+    "apply": null,
+    "note": ""
+  },
+  {
+    "id": "pref-korigaoka",
+    "name": "大阪府立香里丘高等学校",
+    "website": "https://www.osaka-c.ed.jp/korigaoka/",
+    "reached": true,
+    "pages": 1,
+    "events": [],
+    "apply": null,
+    "note": ""
+  },
+  {
+    "id": "pref-nagaohighschool",
+    "name": "大阪府立長尾高等学校",
+    "website": "https://www.nagaohighschool.com/",
+    "reached": false,
+    "pages": 0,
+    "events": [],
+    "apply": null,
+    "note": "robots.txt で拒否"
+  },
+  {
+    "id": "pref-hirakata",
+    "name": "大阪府立枚方高等学校",
+    "website": "https://www.osaka-c.ed.jp/hirakata/",
+    "reached": true,
+    "pages": 1,
+    "events": [],
+    "apply": null,
+    "note": ""
+  }
+]

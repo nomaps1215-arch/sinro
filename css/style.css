@@ -873,6 +873,89 @@ table.compare td { min-width: 140px; }
 }
 .reviews-note a { color: var(--accent); }
 
+/* オープンスクール・説明会。日付が主役なので、罫線は細く数字を立てる。 */
+/* 見出しに出す小さな日付タグ。詳細の .openschool とは別物なので名前を分けている。 */
+.tag.os-next {
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+  border: 1px solid #ddd2b4;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.openschool {
+  margin: 14px 0 0;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-left: 2px solid var(--accent);
+  background: var(--card);
+}
+.openschool-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.openschool-title {
+  font-size: .68rem;
+  letter-spacing: .1em;
+  color: var(--ink-sub);
+}
+.openschool-flag {
+  flex: none;
+  padding: 2px 9px;
+  font-size: .66rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  border-radius: 1px;
+}
+.openschool-flag.required { background: var(--accent); color: #fffefb; }
+.openschool-flag.none { background: #e8eae6; color: var(--safe); }
+
+.openschool-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 5px; }
+.openschool-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 5px 10px;
+  background: #faf7f1;
+  border-radius: 2px;
+  font-size: .82rem;
+}
+.os-date {
+  flex: none;
+  min-width: 5.4em;
+  font-family: var(--numeral);
+  font-size: 1rem;
+  font-weight: 500;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings: "lnum" 1, "tnum" 1;
+}
+.os-name { flex: 1; color: var(--ink-sub); }
+.os-res {
+  flex: none;
+  font-size: .66rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+}
+.os-res.required { color: var(--accent-deep); }
+.os-res.none { color: var(--safe); }
+
+.openschool-empty { margin: 0; font-size: .78rem; color: var(--ink-sub); }
+.openschool-note {
+  margin: 9px 0 0;
+  font-size: .68rem;
+  line-height: 1.6;
+  color: var(--ink-sub);
+}
+.openschool-note a { color: var(--accent); }
+
+/* 申込ボタンだけは塗って、押す先だと分かるようにする */
+.btn.apply { background: var(--accent); color: #fffefb; border-color: var(--accent); }
+.btn.apply:hover { background: var(--accent-deep); }
+.school.private .btn.apply { background: var(--private); border-color: var(--private); color: #fffefb; }
+.school.private .btn.apply:hover { background: #6b4f26; }
+
 /* 修学旅行の行き先 */
 .school-trip {
   display: flex;

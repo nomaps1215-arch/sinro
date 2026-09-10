@@ -61,7 +61,20 @@ python tools/qa_check.py   # 末尾に未取得の件数が出る
 速度係数（`avgSpeedKmh`）を変えたら、実測ダイヤと照合して妥当性を確認すること。
 現状は「難波→岸和田 実際26分に対し推定約35分」程度に、長距離で多めに出る。
 
+## GitHub Actions が main を書き換える
+
+`.github/workflows/open-school.yml` が12時間ごと（日本時間9時・21時）に公式サイトを巡回し、
+`data/schools.json` / `data/bundle.js` / `index.html` を更新して main に push する。
+
+**作業を始める前に必ず `git pull` すること。** 手元の変更をコミットせずに放っておくと、
+自動コミットと衝突する。OneDrive の巻き戻しと重なるとさらに厄介になる。
+
+自動更新が壊れていないかは、Actions タブの実行履歴と
+`tools/open_school_report.json` の `reached` を数えれば分かる。
+
 ## 外部サイトへのアクセス
 
-`tools/update_schools.py` は各高校の公式サイトを巡回する。
+`tools/update_schools.py` と `tools/fetch_open_school.py` は各高校の公式サイトを巡回する。
 robots.txt の確認と1リクエスト2秒の待機を必ず維持すること。短くしない。
+`fetch_open_school.py` は12時間ごとに自動で走るので、待機を縮めると相手サーバーへの
+負荷が2倍で効いてくる。巡回するページ数（MAX_PAGES）も安易に増やさない。

@@ -1,0 +1,54 @@
+# オープンスクール・学校説明会の情報を12時間ごとに巡回して更新する。
+#
+# 手元のPCを立ち上げていなくても更新されるよう、GitHub 上で動かす。
+# 巡回 -> data/schools.json 更新 -> bundle 再生成 -> 差分があればコミット、まで自動。
+# 押した内容はそのまま GitHub Pages に反映される。
+#
+# 手で走らせたいときは Actions タブの「Run workflow」から。
+name: オープンスクール情報の巡回
+
+on:
+  schedule:
+    # UTC 0時・12時 = 日本時間 9時・21時
+    - cron: "0 0,12 * * *"
+  workflow_dispatch:
+
+# 同時に2本走ると schools.json の取り合いになるので、1本だけに絞る
+concurrency:
+  group: open-school-crawl
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: 公式サイトを巡回して schools.json に反映
+        run: python tools/fetch_open_school.py --apply
+
+      - name: bundle.js を再生成
+        run: python tools/build_bundle.py
+
+      - name: データの点検（警告が出ても止めない）
+        run: python tools/qa_check.py || true
+
+      - name: 差分があればコミットして push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/schools.json data/bundle.js index.html tools/open_school_report.json
+          if git diff --cached --quiet; then
+            echo "変更なし。コミットしません。"
+          else
+            git commit -m "オープンスクールの日程を自動更新"
+            git push
+          fi
