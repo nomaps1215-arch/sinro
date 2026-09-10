@@ -743,6 +743,10 @@
       detail.appendChild(t);
     }
 
+    // --- 在校生・卒業生の評価 ---
+    const rev = reviewBlock(s);
+    if (rev) detail.appendChild(rev);
+
     // --- 入学金 ---
     // 公立は課程ごとに一律で確定額がある。私立は学校別の一覧が公表されていないので額を出さない。
     const fee = el('p', 'school-fee');
@@ -881,6 +885,69 @@
     const label = { walk: '徒歩', bike: '自転車', bus: 'バス' }[best.mode] || '';
     return from + 'から' + label + 'で' + fmtMin(best.minutes) + '分' +
       (best.mode === 'bus' ? '（粗い概算）' : '');
+  }
+
+  /**
+   * 在校生・卒業生の評価。
+   *
+   * クチコミの本文は投稿者の著作物なので載せない。載せるのは項目別の評価点で、
+   * 「良い点・気になる点」はその点数の高い順・低い順から組み立てている。
+   * 誰かの文章を写しているわけではない。
+   *
+   * 点数は数十人の平均でしかないので、件数を必ず添えて判断できるようにする。
+   */
+  function reviewBlock(s) {
+    const r = s.reviews;
+    if (!r || !r.scores) return null;
+    const items = Object.entries(r.scores).sort((a, b) => b[1] - a[1]);
+    if (items.length < 3) return null;
+
+    const box = el('div', 'reviews');
+
+    const head = el('div', 'reviews-head');
+    head.appendChild(el('span', 'reviews-title', '在校生・卒業生の評価'));
+    if (r.count) head.appendChild(el('span', 'reviews-count', r.count + '件の平均'));
+    box.appendChild(head);
+
+    // 良い点・気になる点。上位2つと下位2つを並べる。
+    const good = items.slice(0, 2);
+    const bad = items.slice(-2).reverse();
+    const line = (cls, label, list) => {
+      const p = el('p', 'review-line ' + cls);
+      p.appendChild(el('span', 'review-label', label));
+      p.appendChild(el('span', 'review-items',
+        list.map(([k, v]) => k + ' ' + v.toFixed(1)).join('　/　')));
+      return p;
+    };
+    box.appendChild(line('good', '評価が高い', good));
+    box.appendChild(line('bad', '評価が低い', bad));
+
+    // 全項目のゲージ
+    const bars = el('div', 'review-bars');
+    items.forEach(([k, v]) => {
+      const row = el('div', 'review-bar');
+      row.appendChild(el('span', 'rb-name', k));
+      const track = el('span', 'rb-track');
+      const fill = el('i');
+      fill.style.width = Math.max(0, Math.min(100, (v / 5) * 100)) + '%';
+      if (v >= 4) fill.classList.add('hi');
+      else if (v < 3) fill.classList.add('lo');
+      track.appendChild(fill);
+      row.appendChild(track);
+      row.appendChild(el('span', 'rb-val', v.toFixed(1)));
+      bars.appendChild(row);
+    });
+    box.appendChild(bars);
+
+    const note = el('p', 'reviews-note');
+    note.appendChild(document.createTextNode(
+      '5点満点。' + (s.reviews.source || '') + 'に投稿された評価の平均です。'));
+    if (r.url) {
+      note.appendChild(document.createTextNode('　'));
+      note.appendChild(link(r.url, 'クチコミ本文を読む'));
+    }
+    box.appendChild(note);
+    return box;
   }
 
   function button(href, text, tip) {

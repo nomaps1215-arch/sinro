@@ -797,6 +797,82 @@ table.compare td { min-width: 140px; }
 .judge-cell.challenge { color: var(--challenge); }
 .judge-cell.far { color: var(--far); }
 
+/* 在校生・卒業生の評価 */
+.reviews {
+  margin: 14px 0 0;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  background: var(--card);
+}
+.reviews-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 9px;
+}
+.reviews-title {
+  font-size: .68rem;
+  letter-spacing: .1em;
+  color: var(--ink-sub);
+}
+.reviews-count {
+  font-family: var(--numeral);
+  font-size: .74rem;
+  color: var(--ink-sub);
+  white-space: nowrap;
+}
+.review-line {
+  display: flex;
+  gap: 9px;
+  margin: 0 0 5px;
+  font-size: .78rem;
+  line-height: 1.6;
+}
+.review-label {
+  flex: none;
+  width: 5.2em;
+  font-size: .68rem;
+  letter-spacing: .04em;
+}
+.review-line.good .review-label { color: var(--safe); }
+.review-line.bad .review-label { color: var(--challenge); }
+.review-items { font-weight: 600; font-variant-numeric: tabular-nums; }
+
+.review-bars { display: grid; gap: 4px; margin-top: 10px; }
+.review-bar {
+  display: grid;
+  grid-template-columns: 6.4em 1fr 2.2em;
+  align-items: center;
+  gap: 8px;
+  font-size: .7rem;
+}
+.rb-name { color: var(--ink-sub); }
+.rb-track {
+  height: 6px;
+  background: #eae4d9;
+  overflow: hidden;
+}
+.rb-track i {
+  display: block;
+  height: 100%;
+  background: var(--line-strong);
+}
+.rb-track i.hi { background: var(--safe); }
+.rb-track i.lo { background: var(--challenge); }
+.rb-val {
+  text-align: right;
+  font-family: var(--numeral);
+  font-variant-numeric: tabular-nums;
+}
+.reviews-note {
+  margin: 10px 0 0;
+  font-size: .68rem;
+  line-height: 1.6;
+  color: var(--ink-sub);
+}
+.reviews-note a { color: var(--accent); }
+
 /* 修学旅行の行き先 */
 .school-trip {
   display: flex;
