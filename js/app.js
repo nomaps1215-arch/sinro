@@ -760,16 +760,35 @@
 
     // --- 入学金 ---
     // 公立は課程ごとに一律で確定額がある。私立は学校別の一覧が公表されていないので額を出さない。
-    const fee = el('p', 'school-fee');
-    fee.appendChild(el('span', 'fee-label', '入学金'));
+    const fee = el('div', 'school-fee');
+    const feeLine = el('p', 'fee-line');
+    feeLine.appendChild(el('span', 'fee-label', '入学金'));
     const feeVal = el('span', 'fee-value', feeText(s));
     if (!(s.admissionFee && typeof s.admissionFee.amount === 'number')) {
       feeVal.classList.add('muted');
-      feeVal.title = '私立高校の入学金をまとめた公的な一覧はありません。各校の募集要項で確認してください。';
+      feeVal.title = 'この学校の額は取得できていません。募集要項で確認してください。';
     } else if (s.admissionFee.source) {
-      feeVal.title = s.admissionFee.note + '（出典：' + s.admissionFee.source + '）';
+      feeVal.title = (s.admissionFee.note || '') +
+        (s.admissionFee.sourceName ? '（出典：' + s.admissionFee.sourceName +
+          (s.admissionFee.survey ? '／' + s.admissionFee.survey + '調べ' : '') + '）' : '');
     }
-    fee.appendChild(feeVal);
+    feeLine.appendChild(feeVal);
+    fee.appendChild(feeLine);
+
+    // 授業料は大阪府の支援制度の対象なので、入学金と同じ重みで並べると誤解を招く。
+    // 公表額は添えるだけにして、負担額そのものだとは書かない。
+    if (s.admissionFee && typeof s.admissionFee.tuitionPerYear === 'number') {
+      const tu = el('p', 'fee-line sub');
+      tu.appendChild(el('span', 'fee-label', '授業料（年額）'));
+      const tv = el('span', 'fee-value sub',
+        s.admissionFee.tuitionPerYear.toLocaleString('ja-JP') + '円');
+      tv.title = '学校が公表している額です。大阪府の授業料支援制度の対象になります。';
+      tu.appendChild(tv);
+      fee.appendChild(tu);
+      fee.appendChild(el('p', 'fee-note',
+        '令和8年度から所得制限がなくなり、私立高校の授業料支援は全ての生徒が対象です' +
+        '（標準授業料の上限は年63万円）。入学金や施設費は対象外です。'));
+    }
     detail.appendChild(fee);
 
     // --- 特徴のまとめ ---
