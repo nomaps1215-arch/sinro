@@ -95,6 +95,19 @@ WEEKDAYS = "月火水木金土日"  # datetime.weekday() は月曜=0
 # 「10/24(土)、11/7(土)」のように並記された日付をひとまとまりとして扱うための、
 # 日付と日付のあいだに入ってよい文字。これ以外が挟まれば別の話題とみなす。
 RE_DATE_GLUE = re.compile(r"^[\s　、,，・/／()（）\[\]&＆と及びおよびまたは~〜ー－-]{0,8}$")
+# 「①1月16日（土） 午前の部／10：00～ ②2月13日（土）」のように、番号を振って
+# 複数回ぶんの日程を並べる書き方。この印があるあいだは同じ行事の続きとみなす。
+RE_ENUM = re.compile(r"[①-⑳❶-❿]|第\s*[0-9０-９一二三四五六七八九十]{1,3}\s*回|[(（][0-9０-９]{1,2}[)）]")
+# 説明会ではない学校行事の名前。日付のすぐ隣にこれがあれば、その日付は
+# その行事のものなので説明会に結びつけない。狭山高校の入試日程表で
+# 「合格発表 令和９年３月１８日（木） 学校説明会 …」の3月18日を
+# 説明会の日として拾ってしまっていた。
+RE_OTHER_EVENT = re.compile(
+    r"合格発表|出願|願書|学力検査|入学試験|入学式|卒業式|始業式|終業式|修了式|"
+    r"考査|定期試験|実力テスト|模試|文化祭|体育祭|運動会|球技大会|遠足|代休|"
+    r"休業|締切|締め切り|講習|面談|懇談|振替|検定|開始|発表"
+)
+ADJACENT = 14      # 「すぐ隣」とみなす文字数
 
 # ---- 申込の要否 ---------------------------------------------------------
 RE_NEEDED = re.compile(
@@ -155,6 +168,21 @@ def same_site(a: str, b: str) -> bool:
     """
     strip = lambda h: h.lower().removeprefix("www.")  # noqa: E731
     return strip(urllib.parse.urlsplit(a).netloc) == strip(urllib.parse.urlsplit(b).netloc)
+
+
+def as_base(url: str) -> str:
+    """相対リンクの基準にできる形へ直す。
+
+    守口東は .../moriguchihigashi/ から .../moriguchihigashi（末尾スラッシュ無し）へ
+    転送する。そのまま基準にすると "junior.html" が1階層上の /junior.html になり、
+    中学生向けページに辿り着けなくなる。最後の要素に "." が無ければフォルダとみなす。
+    """
+    parts = urllib.parse.urlsplit(url)
+    path = parts.path or "/"
+    last = path.rsplit("/", 1)[-1]
+    if last and "." not in last:
+        path += "/"
+    return urllib.parse.urlunsplit(parts._replace(path=path))
 
 
 def http_get(url: str) -> tuple[str, str]:
@@ -338,6 +366,14 @@ def find_events(text: str, source: str, today: dt.date) -> list[dict]:
             lo, hi = (c["end"], ks) if side < 0 else (ke, c["start"])
             if any(lo <= o["start"] < hi for j, o in enumerate(live) if j != i):
                 continue
+            # 行事名と日付のあいだに別の学校行事の名前があれば、その日付は
+            # そちらのものなので使わない。
+            if RE_OTHER_EVENT.search(text[lo:hi]):
+                continue
+            # 日付が行事名より前にある並び（「合格発表 3月18日 学校説明会 …」）では、
+            # 日付の直前にある語がその日付の見出しになる。そこが別の行事なら使わない。
+            if side < 0 and RE_OTHER_EVENT.search(text[max(0, c["start"] - ADJACENT): c["start"]]):
+                continue
             out.append((dist, side, c))
         out.sort(key=lambda x: x[0])
         return out
@@ -368,10 +404,27 @@ def find_events(text: str, source: str, today: dt.date) -> list[dict]:
             if not picked:
                 continue
             cands = picked
-        dist, _, c = cands[0]
-        window = text[max(0, min(ks, c["start"]) - 30): max(ke, c["end"]) + WINDOW]
+        dist, side, c = cands[0]
+
+        # 番号を振って続けて並べてある日程は、同じ行事の別の回なので一緒に拾う。
+        chain = [c]
+        idx = live.index(c)
+        step = 1 if side >= 0 else -1
+        while 0 <= idx + step < len(live) and len(chain) < 5:
+            nxt = live[idx + step]
+            lo, hi = (live[idx]["end"], nxt["start"]) if step > 0 else (nxt["end"], live[idx]["start"])
+            gap = text[lo:hi]
+            # 間に別の行事名があれば、そこから先はその行事のもの
+            if len(gap) > 60 or RE_EVENT.search(gap) or not RE_ENUM.search(gap):
+                break
+            chain.append(nxt)
+            idx += step
+
+        lo = min(min(x["start"] for x in chain), ks)
+        hi = max(max(x["end"] for x in chain), ke)
+        window = text[max(0, lo - 30): hi + WINDOW]
         reservation = reservation_of(window)
-        for date, conf in c["dates"]:
+        for date, conf in [d for x in chain for d in x["dates"]]:
             ev = {
                 "date": date.isoformat(),
                 "label": word,
@@ -428,7 +481,8 @@ def crawl(school: dict, robots_cache: dict, today: dt.date, max_pages: int) -> d
         return res
 
     try:
-        top, url = http_get(url)   # 転送されていたら、以降は転送先を起点にする
+        top, final = http_get(url)   # 転送されていたら、以降は転送先を起点にする
+        url = as_base(final)
     except Exception as e:  # noqa: BLE001
         res["note"] = f"取得できず（{e}）"
         time.sleep(SLEEP_SEC)
@@ -442,7 +496,7 @@ def crawl(school: dict, robots_cache: dict, today: dt.date, max_pages: int) -> d
             continue
         try:
             html, final = http_get(u)
-            pages.append((final, html))
+            pages.append((as_base(final), html))
         except Exception:  # noqa: BLE001 — 個別ページの失敗は無視してよい
             pass
         time.sleep(SLEEP_SEC)
