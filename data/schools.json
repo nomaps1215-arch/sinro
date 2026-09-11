@@ -115,7 +115,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/moriguchihigashi/junior.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSexOZ-CCgXg1W9b1isjmIQj5XFt7qC1kwIb5yLhn_TT20xUbQ/viewform",
         "applyLabel": "参加申し込みフォーム",
         "evidence": "内 本校の教育内容や学校の雰囲気を知っていただく機会として、オープンスクールを開催いたします。ぜひご参加ください。 開催日 令和8年11月7日（土） 詳しくは、このページで後日お知らせします。 実施時間 13：00～15：30（受付開始 12：30） 内容 本校の紹介、施設見学、個別相談"
@@ -288,13 +288,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-10",
-            "label": "オープンスクール",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www3.osaka-c.ed.jp/ichiritsu/"
-          },
-          {
             "date": "2026-10-03",
             "label": "説明会",
             "reservation": null,
@@ -318,8 +311,8 @@
         ],
         "reservation": null,
         "source": "https://www3.osaka-c.ed.jp/ichiritsu/",
-        "checkedAt": "2026-09-10",
-        "evidence": "い言葉をいれてください。 Information お知らせ 2026/09/10 10/24(土), 11/7(土)オープンスクール特設ページはこちら 2026/09/10 10/3(土)枚方市内高等学校合同説明会に参加します 2026/09/06 令和８年度学校説明会・"
+        "checkedAt": "2026-09-11",
+        "evidence": "(土), 11/7(土)オープンスクール特設ページはこちら 2026/09/10 10/3(土)枚方市内高等学校合同説明会に参加します 2026/09/06 令和８年度学校説明会・オープンスクールについてはこちら 2026/09/06 令和８年度年間行事予定・月"
       },
       "photos": [
         {
@@ -594,7 +587,7 @@
         ],
         "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/hirakata/folder_0/post-28/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "８年１０月２４日（土） 令和８年１１月１４日（土） 申込日 9月24日（木）16時から 枚方市内高等学校合同説明会 枚方市内高等学校 合同説明会.pdf （ポスター）未来に続く道.pdf 学校名を入れてください 〒xxx-xxxx 住所を入れてください"
       },
       "photos": [
@@ -782,7 +775,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/hirakatanagisa/examinee/briefing.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/KiphfHJoA5rQRLz38",
         "applyLabel": "申し込みはこちら",
         "evidence": "せん。 選択例 」なども参考にしてください！ --> 第２回オープンスクールのご案内 ■日時 2026年10月25(日) 【学校全体説明】 10:00～10:40 【校内見学・個別相談会】 10:40～13:00 --> ■詳細 今年度最初のオープンスクールで"
@@ -888,7 +881,7 @@
         ],
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/makino/folder_0/bukatsutaiken/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/jkPueQNsTaCoCKWL8",
         "applyLabel": "申込フォーム（締切 ９月９日（水））",
         "evidence": "no High School TOP 部活動体験会について 部活動体験会を９月12日（土）、19日（土）、26日（土）で実施いたします。 活動内容・持ち物等を必ずご確認いただき、下の申込フォームより、お申込みください。 申込の締切"
@@ -995,7 +988,7 @@
         ],
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/kitakawachisatsukigaoka/folder_0/post-49/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdIfXbQptN8OAsz_ZeCeUjTUOOR4UU0DvjwEMLn3Ot-TrSiWg/viewform?usp=header",
         "applyLabel": "第2回学校説明会申し込みフォーム",
         "evidence": "P 令和8年度 第1回学校説明会のご案内 令和8年度 第1回学校説明会 2026年9月26日(土) 13:30受付 14:00開始 全体説明・映像による学校紹介・校内見学・模擬授業・部活動体験・個別相談を行います。 また、食堂が12時から"
@@ -1232,7 +1225,7 @@
         ],
         "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/neyagawa/folder_1/post-26/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "月７日（土） 午前：授業見学・午後：学校説明会・部活動見学 部活動体験 ① ９月26日（土） 時間：13：00～ ②10月17日（土）時間：13：00～ 学校名を入れてください 〒xxx-xxxx 住所を入れてください Tel: 000-0000-0000 Fax: 000"
       },
       "photos": [
@@ -1310,7 +1303,7 @@
         ],
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/nozaki/folder_1/post-48/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeuWRbIYFNpAITlT--dI8CTsViq-NBGPLlW4LcO_01aAq1-lw/viewform?usp=dialog",
         "applyLabel": "申込フォーム",
         "evidence": "年の様子は コチラ から 2025年の様子は コチラ から 体験入学会「チャレンジ野崎」 （2026年11月14日(土)開催予定） 申込みフォームは10月1日（木）に解禁いたします。このページからお申込みください。 １.日時：令和８年11月14日（土） 13:"
@@ -1688,7 +1681,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/shijonawate/html/setsumeikai.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdg05tn0ItM_1sX2G3es7qCpFeLJvfOD6ktMf8yJyC3j9CmCQ/viewform?usp=dialog",
         "applyLabel": "こちらをクリックして申込をしてください(申込開始は11/28(金)朝9時からです",
         "evidence": "(土) 畷高祭（第1日目）の見学 中学生 及び保護者 畷高 オープンスクール 9月12日(土) 学校概要説明・体験授業・部活動体験（見学） 中３生 及び保護者 畷高説明会 11月7日(土)9時～13時 学校概要説明・本校生案内による施"
@@ -1816,7 +1809,7 @@
         ],
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/katano/folder_03/post-57/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdx2jr6VdHEQaR0FYZUcE5wn-Mhwl1grykbW0p7lRVi53ehGQ/viewform?usp=dialog",
         "applyLabel": "申込フォーム",
         "evidence": "月20日（土） 交野高等学校第1回学校説明会.pdf 第1回学校説明会は終了しました。たくさんのご来場ありがとうございました。 第2回 10月24日（土） 第3回 11月14日（土） 交野高校文化祭第2,3回説明会.pdf 第2,3回校説明会案内.pdf 第2回学校説明会の申し込みは こちら 第3回学校説明会の申し込み"
@@ -2104,7 +2097,7 @@
         ],
         "reservation": "required",
         "source": "https://tonko.ed.jp/24037/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://tonko.ed.jp/23077/",
         "applyLabel": "・ 申し込み終了のお知らせ【小学５・６年・保護者対象】大阪府立富田林中学校 令和",
         "evidence": "&nbsp; 申し込み期間：令和８年９月１７日（木）１０時～１０月８日（木）１５時 &nbsp; 当日の実施要項は こちら から。(9.10部活動体験の内容を更新しました。) &nbsp; 申し込み の前に以下のことをご確認ください。 ①申し込み完了時に【受付番号】が出てきます 。来校時に"
@@ -2332,7 +2325,7 @@
         ],
         "reservation": "required",
         "source": "https://www.otsuka.ed.jp/school_briefing/outline/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/D6mLtUf4aGigLjpw7",
         "applyLabel": "申込フォーム",
         "evidence": "oFHgStMCt6 第２回 学校説明会 普通科・体育科合同説明会 クラブ見学 9月19日（土） 14：00〜 □申込期間 5月22（金）～9月11日(金) □申し込みフォーム https://forms.gle/F8DaZTKdz9p"
@@ -2434,7 +2427,7 @@
         ],
         "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/blog/ikuno/event-report/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "2026年09月09日 高校生大使派遣プロジェクトに向けた説明会 大阪府主催で、令和９年３月13日（土）～21日（日）の期間で、オーストラリアを訪問します。GLHSはもとより、大阪府の高校生を代表して、渡豪する本プロジェクト。その趣旨や参加条件"
       },
       "photos": [
@@ -2625,7 +2618,7 @@
         ],
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/kaifukan/folder_02/post-68/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/7DsbU9bdhstsouLf8",
         "applyLabel": "こちらの申込フォームより事前申し込みが必要です",
         "evidence": "式戦などのお知らせ TOP 卒業生向け学校見学会 卒業生向け学校見学会を実施します 日時： 2026年5月24日（日曜日） 2027年1月30日（土曜日） 9時30分受付開始 10時00分～12時00分 申込： こちらの申込フォームより事前申し込みが必要です 校内には駐車場がござませ"
@@ -2715,13 +2708,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-10",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www2.osaka-c.ed.jp/fujiidera/"
-          },
-          {
             "date": "2026-09-19",
             "label": "学校説明会",
             "reservation": null,
@@ -2744,9 +2730,9 @@
           }
         ],
         "reservation": null,
-        "source": "https://www2.osaka-c.ed.jp/fujiidera/",
-        "checkedAt": "2026-09-10",
-        "evidence": "学校名を入れてください Information お知らせ 2026/09/10 令和８年度 学校説明会について 2026/08/28 「保健だより」を掲載しました 2026/08/24 ◆奨学のための給付金の提出期限が迫っております◆ 202"
+        "source": "https://www2.osaka-c.ed.jp/fujiidera/folder_0/post-28/",
+        "checkedAt": "2026-09-11",
+        "evidence": "説明会について 令和8年度 学校説明会の日程について 第1回学校説明会 令和８年９月19日(土)午前10時～ 詳細はこちら → 第１回学校説明会 実施要項.pdf 班分けはこちら → 説明会当日の班分け ※当日は本校食堂も営業しています"
       },
       "photos": [
         {
@@ -2878,7 +2864,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/fujiidera-t/zennichi/info_session/index.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/vea3ztxJH4xQKKbq8",
         "applyLabel": "申込フォーム",
         "evidence": "細が決まり次第、本校ホームページで公開いたします。 ◎第１回体験入学⇒ 【詳細ページ】 開催日時 : 令和８年 ９月 １２日(土) １４:００～１６:００(受付 １３:３０～) ※各コース定員がありますので注意してください。 ◎第２回体験入学 開催日時 : 令和８年 １"
@@ -3001,10 +2987,12 @@
             "source": "https://www.osaka-c.ed.jp/sayama/admisson.html"
           }
         ],
-        "reservation": null,
+        "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/sayama/admisson.html",
-        "checkedAt": "2026-09-10",
-        "evidence": "和９年３月１０日（水） 合格発表 令和９年３月１８日（木） 学校説明会 開催日 要 項 申 込 第１回 令和８年10月24日（土） 準備中 準備中 第２回 令和８年11月21日（土） 準備中 準備中 第３回 令和８年12月12日（土） 準備中 準備中 第４回 令和９年 ２月13日（土） 準備中 準備中 狭山PRESSは"
+        "checkedAt": "2026-09-11",
+        "applyUrl": "https://forms.gle/C872ycsdGdUmoFuf7",
+        "applyLabel": "申込",
+        "evidence": "和９年３月１０日（水） 合格発表 令和９年３月１８日（木） 学校説明会 開催日 要 項 申 込 第１回 令和８年10月24日（土） 要項 申込 第２回 令和８年11月21日（土） 準備中 準備中 第３回 令和８年12月12日（土） 準備中 準備中 第４回 令和９年 ２月13日（土） 準備中 準備中 狭山PRESSは情報"
       },
       "photos": [
         {
@@ -3121,7 +3109,7 @@
         ],
         "reservation": "required",
         "source": "https://kitasenri.ed.jp/junior/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/AtBZYVpaMJ6VkAF98",
         "applyLabel": "申込フォーム",
         "evidence": "1 2 3 ... » 最後 » 中学生のみなさんへ ● 学校見学会等 まとめページ ● 卒業生メッセージ ● お知らせ過去掲載分 2026年9月 2026年7月 2025年12月 2025年9月 2025年7月 2025年6月 2025年1月 2024年12月 2024年9月 2024年6"
@@ -3235,7 +3223,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/suita/orientation.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSduq5IywTqKWz5Eaf33PO8VTNALA5upJmj8n_vlqA1DFKTsrA/viewform",
         "applyLabel": "申込フォーム",
         "evidence": "回学校説明会 ［受付フォーム] --> ［案内] --> ［クラブ体験・クラブ見学一覧] --> 2026年11月14日(土) 13:00〜16:30 吹田高校 学校説明(本校生徒による) 選択(A:クラブ体験・B:施設案内・C:校内散策) クラブ見学 個別相談 第"
@@ -3325,7 +3313,7 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-10",
+            "date": "2026-09-11",
             "label": "説明会",
             "reservation": null,
             "confidence": "mid",
@@ -3341,8 +3329,8 @@
         ],
         "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/suitahigashi/",
-        "checkedAt": "2026-09-10",
-        "evidence": "文化祭の開催について 2026/08/25 52期修学旅行 説明会資料 2026/08/10 令和8年度 学校経営計画及び学校評価 第１回 学校協議会 実施報告書 更新 お知らせ一覧 Blog ブログ 2026/09/10 吹田東高校 校長通信 2024/09/24 51期生修学旅行ブログ 2024/09/24 50期"
+        "checkedAt": "2026-09-11",
+        "evidence": "文化祭の開催について 2026/08/25 52期修学旅行 説明会資料 2026/08/10 令和8年度 学校経営計画及び学校評価 第１回 学校協議会 実施報告書 更新 お知らせ一覧 Blog ブログ 2026/09/11 吹田東高校 校長通信 2024/09/24 51期生修学旅行ブログ 2024/09/24 50期"
       },
       "photos": [
         {
@@ -3452,7 +3440,7 @@
         ],
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/yamada/news/33896/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/MJ2yyqJWF7Ee2KtK9",
         "applyLabel": "申込フォーム",
         "evidence": "26/08/25 重要 【中学生のみなさまへ】2026年度 学校見学会の申し込みについて 【申し込みの前に以下をよく読んで確認してください。】 第１期申し込み期間：9月1日（月）10:00 ～ 9月11日（金）16時00分 ＊ 第１回～第４回のいずれかの回に申し込みをしていただきます 。 ＊ 申し込みは中学生３年生１名"
@@ -3572,7 +3560,7 @@
         ],
         "reservation": null,
         "source": "https://osaka-senri-hs.net/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "SG募集説明会 2026年8月20日 [中学生のみなさん] 10/17（土）第１回学校説明会申込みについて 2026年7月10日 [中学生のみなさん] 2地区合同説明会のお知らせ 2026年1月27日 [中学生のみなさん] 千里フェ"
       },
       "photos": [
@@ -3698,7 +3686,7 @@
         ],
         "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/akutagawa/folder_0/post-28/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "ます。 TOP画面の「最新情報」にてアナウンスいたします。 オープンスクール &nbsp; &nbsp;11/14（土） （授業見学・部活動見学・授業体験など） 個別相談会① 12/12（土）AM 学校説明会① 01/16（土）AM 個別相談会② 02/13（"
       },
       "photos": [
@@ -3816,7 +3804,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/abuno/briefing.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "1(火) 詳細 --> 詳細 中学生申込 卒業生申込 第1回オープンスクール 2026 10/17 (土) 申し込み9/8(火)～10/9(金) 詳細 申し込み 第2回オープンスクール 2026 11/21 (土) 申し込み10/26(月)～11"
       },
       "photos": [
@@ -3927,7 +3915,7 @@
         ],
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/ohkanmuri/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfF4z0z2L3x_JNwYjJH5lYRAkbJJBN7Fs8N7aFYsMzIgmHbZg/viewform",
         "applyLabel": "申込フォーム",
         "evidence": "026/08/06 学校ホームページのリニューアルについて 2026/08/06 9月12日（土）部活動体験会の受付を開始しました。 2026/08/06 夏休み部活動体験会の受付を開始しました。 お知らせ一覧 Blog ブログ 2026/09/0"
@@ -4048,7 +4036,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/takatsukikita/topic/junior_high_school/dai1.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/7F8T6WTHrHXXDVRE7",
         "applyLabel": "申し込み",
         "evidence": "９月１１日（金）～１０月１４日（水） ※ただし、部活動体験は１０月５日（月）で申込を締め切らせていただきます。 【実施内容】 （１）学校説明会 本校生による学校紹介等。１時間程度です。 （２）部活動体験 希望者のみ。詳細は要項をご確認ください。 （３）部活動見学 希望者のみ。詳細は"
@@ -4402,7 +4390,7 @@
         ],
         "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/ibarakinishi/news/34116/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "９月 ５日（土）文化祭 ・１０月２４日（土）学校説明会① 部活動体験 ・１１月２１日（土）授業見学 授業体験 部活動体験 ・ ２月１３日（土）学校説明会② 学校名を入れてください 〒xxx-xxxx 住所を入れてください Tel:"
       },
       "photos": [
@@ -4562,26 +4550,26 @@
             "label": "学校説明会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://www2.osaka-c.ed.jp/hokusetsutsubasa/jhs/jhs2/"
+            "source": "https://www2.osaka-c.ed.jp/hokusetsutsubasa/news/34114/"
           },
           {
             "date": "2027-01-16",
             "label": "説明会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://www2.osaka-c.ed.jp/hokusetsutsubasa/jhs/jhs2/"
+            "source": "https://www2.osaka-c.ed.jp/hokusetsutsubasa/news/34114/"
           },
           {
             "date": "2027-02-20",
             "label": "説明会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://www2.osaka-c.ed.jp/hokusetsutsubasa/jhs/jhs2/"
+            "source": "https://www2.osaka-c.ed.jp/hokusetsutsubasa/news/34114/"
           }
         ],
         "reservation": "required",
-        "source": "https://www2.osaka-c.ed.jp/hokusetsutsubasa/jhs/jhs2/",
-        "checkedAt": "2026-09-10",
+        "source": "https://www2.osaka-c.ed.jp/hokusetsutsubasa/news/34114/",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://docs.google.com/forms/d/11vw23BhOa0vorQ2Q_HfXWdrnHt_DyP5Az9m_qpyvMaY/edit",
         "applyLabel": "申し込みはこちら！",
         "evidence": "のみなさん、保護者の皆様、ありがとうございました！ ☆次回の学校説明会は、１０月３１日(土)午後に 第２回 学校説明会です！ 第２回は授業体験・部活動見学ができる！！ 第１回にご参加いただいた方など、授業体験のみの参加も可能です！！"
@@ -4806,13 +4794,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-10",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www2.osaka-c.ed.jp/ibaraki/"
-          },
-          {
             "date": "2026-11-21",
             "label": "説明会",
             "reservation": null,
@@ -4821,9 +4802,9 @@
           }
         ],
         "reservation": null,
-        "source": "https://www2.osaka-c.ed.jp/ibaraki/",
-        "checkedAt": "2026-09-10",
-        "evidence": "6/22 【中学生の皆さまへ】第１回 学校説明会および第2回学校説明会について お知らせ一覧 Blog ブログ 2026/09/10 茨木高校の近況 2026/09/07 校長ブログ 2026/08/31 クラブの近況 2026/06/19 宿泊野外行事 報告 ブログ一覧"
+        "source": "https://www2.osaka-c.ed.jp/ibaraki/folder_0/-2/",
+        "checkedAt": "2026-09-11",
+        "evidence": "P 第１回 学校説明会および第2回学校説明会について 第１回説明会は、たくさんの方にご来校頂き、無事開催することができした。 第２回は１１月２１日（土）を予定しております。 申し込みは１０月３１日（土）13:00～開始いたします。 詳細は今しばらくお待ちください。 学校名を入れてください 〒"
       },
       "photos": [
         {
@@ -4955,7 +4936,7 @@
         ],
         "reservation": "required",
         "source": "https://osaka-fukui.ed.jp/examination/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/7TD5977uE6juaifY7",
         "applyLabel": "申し込み受付中 ★申し込みフォームはこちら（9/30まで）",
         "evidence": "026_文化祭プログラム 】【 プログラム表紙 】 本 校 2026年 10/3(土) 《第１回 学校説明会》 時間：10:00開始（受付9:30～） 内容：学校説明・校内見学・個別相談 申し込み受付中 ★申し込みフォームはこちら（9/30まで）"
@@ -5291,6 +5272,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-09-11",
+            "label": "学校説明会",
+            "reservation": null,
+            "confidence": "mid",
+            "source": "https://yamamoto-shs.ed.jp/for-applicants/"
+          },
+          {
             "date": "2026-10-03",
             "label": "説明会",
             "reservation": null,
@@ -5324,21 +5312,14 @@
             "reservation": null,
             "confidence": "high",
             "source": "https://yamamoto-shs.ed.jp/for-applicants/orientation/"
-          },
-          {
-            "date": "2027-01-16",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://yamamoto-shs.ed.jp/for-applicants/orientation/"
           }
         ],
         "reservation": "required",
-        "source": "https://yamamoto-shs.ed.jp/for-applicants/orientation/",
-        "checkedAt": "2026-09-10",
+        "source": "https://yamamoto-shs.ed.jp/for-applicants/",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://yamamoto-shs.ed.jp/for-our-community/attendance-form/",
         "applyLabel": "申込フォーム",
-        "evidence": "ックス大阪 八尾公立４校（八尾・八尾北・八尾翠翔・山本）合同説明会 令和８年１０月３日（土） 2027年度入試 五ツ木の進学相談会 令和８年１０月４日（日） 10：00～15：00 天満橋OMMビル ２階展示ホール 山本高校では外部"
+        "evidence": "へ HOME &gt; 中学生の皆さまへ 中学生の皆さまへ 学校説明会情報 入学者選抜について アドミッション・ポリシー 学校案内パンフレット 入学時に必要な諸経費・購入物品等 よくある質問 関連ブログ 2026.09.11 文化祭（2日目・一般公開日）のお知らせ 2026.09.01 10月24日(土)部活動体験のお"
       },
       "photos": [
         {
@@ -5463,7 +5444,7 @@
         ],
         "reservation": null,
         "source": "https://yaokita-hs.sakura.ne.jp/wp/examinee/open-school/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "しました &nbsp; 第１回オープンスクール実施要項 ◇ ９月１２日(土) 第２回オープンスクール （説明会・施設見学・クラブ体験） ★申込みは終了しました 第２回オープンスクール実施要項 ◇ １１月７日(土) 第３回オープンスクール （"
       },
       "photos": [
@@ -5646,7 +5627,7 @@
         ],
         "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/hanazono/folder_7/page-01/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "】１３時００分～１６時００分（１２時４５分受付開始） 内容：クラブ体験 対象：中学生（保護者は中学生１名につき１名まで参加可） 申込： 第１部・第２部・第３部ともに 、 １０月３日（土）９時００分 ～ １０月１６日（金）１７時００分 ※申し込みが定員に達し次第、締め切らせていただきます ■第２回学校説明会 日時：１１月"
       },
       "photos": [
@@ -5764,7 +5745,7 @@
         ],
         "reservation": "required",
         "source": "https://fuse.ed.jp/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://fuse.ed.jp/news/20260428/",
         "applyLabel": "令和９（2027）年度の教育実習申込について",
         "evidence": "説明会 【布施高校（全日制の課程） 学校説明会の日程】 🔹 10月24日（土） 学校見学会（学校説明、体験授業、校内および部活動見学） 🔹 11月14日（土） 学校見学会（部活動体験） 🔹 12月12日（土） 学校説明会（学校説"
@@ -5885,7 +5866,7 @@
         ],
         "reservation": "required",
         "source": "https://www.midoriseiho.jp/junior/session/index.php",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/4W5zaFUTBDxYiFuq7",
         "applyLabel": "申し込みフォームはこちらから",
         "evidence": "令和８年度学校説明会チラシ (pdf:2.70Mb) 第１回学校説明会 日時 令和８年９月１９日（土）１０時～１１時&ensp;（午前の部） &emsp;&emsp;（部活動体験希望者は１２時まで） 令和８年９月１９日（土）１３時～１４時&e"
@@ -6090,7 +6071,7 @@
         ],
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/higashiosakamirai-t/folder_0/2026gakusetu/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/ZWBCKzhVLyvLJgLw5",
         "applyLabel": "申込フォーム",
         "evidence": "ムはこちら →定員に達したため受付を終了しました。 第２回 ９／2６（土） 学校説明会(授業見学)→申し込みフォームは こちら 第３回 １０ ／３１（土） 文化祭・学校説明会 第４回 １１ ／１４（土） 学校説明会(授業見学、"
@@ -6260,7 +6241,7 @@
         ],
         "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/hiraokashofu/tyugakusei/setsumeikai/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "：３０～１２：００ 【時程】詳細は今後お知らせします 第１回学校説明会の申込みはこちら (申込期間：10月21日(水)9:00～11月17日(火)17:00までです) ⚠ 参加にあたってのお願い 第1回説明会（9:30〜11:30）は、 全体説明 → 授業・"
       },
       "photos": [
@@ -6373,7 +6354,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/fusekita/junior/session.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/maC9i6rVevMxjAYa7",
         "applyLabel": "申込フォーム",
         "evidence": "、決定次第こちらでお知らせいたします。 --> 下記の要領で学校説明会を実施いたします。 参加をご希望の方は こちら からお申し込みください。 なお、WEB上からの申し込みは10月14日（水）17時までとさせていただきます。 ※移動等に配慮が必要な場合は、個別にご相談ください（TEL:06-6787-2666）。 第1"
@@ -6463,13 +6444,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-10",
-            "label": "オープンスクール",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www3.osaka-c.ed.jp/owa/"
-          },
-          {
             "date": "2026-09-28",
             "label": "オープンスクール",
             "reservation": null,
@@ -6479,8 +6453,8 @@
         ],
         "reservation": null,
         "source": "https://www3.osaka-c.ed.jp/owa/",
-        "checkedAt": "2026-09-10",
-        "evidence": "」（10月25日）開催のご案内 2026/08/08 第１回オープンスクール当日申し込みの参加について お知らせ一覧 Blog ブログ 2026/09/10 国際交流 2026/09/04 学校行事・授業風景 2026/08/31 進路指導 2026/08/31 校長のホッとひといき 2023/"
+        "checkedAt": "2026-09-11",
+        "evidence": "nformation お知らせ 2026/09/07 第２回オープンスクール ９月２８日（月）より受付開始 2026/09/01 【卒業生の皆様へ】2026年度 文化祭のご案内 2026/09/01 【桜和高校吹奏楽部 第1回OHGI"
       },
       "photos": [
         {
@@ -6658,7 +6632,7 @@
         ],
         "reservation": null,
         "source": "https://www3.osaka-c.ed.jp/higashi/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "トボール部活動報告(９/９)】 2026/09/09 第２回オープンスクール〔9/26（土）開催〕 参加申込 2026/09/05 E-fes文化の部2026 2日目 2026/09/04 E-fes文化の部2026 1日目 202"
       },
       "photos": [
@@ -6776,7 +6750,22 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-09-11",
+            "label": "学校説明会",
+            "reservation": null,
+            "confidence": "mid",
+            "source": "https://www3.osaka-c.ed.jp/miyakojima-t/"
+          }
+        ],
+        "reservation": null,
+        "source": "https://www3.osaka-c.ed.jp/miyakojima-t/",
+        "checkedAt": "2026-09-11",
+        "evidence": "6/09/11 ⏰9月12日（土）の公開授業時間割はこちら 2026/09/11 【9/12学校説明会・体験入学にご参加の中学生・保護者の皆様へ】 午前中の公開授業・食堂営業について 2026/09/11 令和8年度 中学生向け公開授業（授業"
+      }
     },
     {
       "id": "pref-nishinoda",
@@ -7293,7 +7282,7 @@
         ],
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/ichioka/folder_0/post-25/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfFtR19ehYkh3fF8pQCv-BqRkQND7ts2H_8GQIoC0HbS2L4wg/viewform",
         "applyLabel": "★申込みフォーム★",
         "evidence": "回 8月29日(土) 説明会・部活動体験・個別質問 第2回 10月17日(土) 説明会・授業見学・部活動見学・個別質問 第3回 11月14日(土) 時間は部活動毎に 異なります 部活動体験 第4回 12月12日(土) 説明会・"
@@ -7450,7 +7439,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/taishohakuryo/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/syrW7mJ4XBfq58vA8",
         "applyLabel": "☆☆☆11月７日（土）の学校説明会の申込みはこちら☆☆☆",
         "evidence": "シはこちら！ 大正白稜公式ツイッター・ブログ --> ☆☆☆11月７日（土）の学校説明会の申込みはこちら☆☆☆ -- GoogleMap グーグルマップ ACCESS 所在地／連絡先 所在地： 〒551-0031 大阪市大正区泉"
@@ -7570,7 +7559,7 @@
         ],
         "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/shimizudani/folder_0/post-22/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "。なお、一家族一回の申し込みでお願いいたします。 記 日時（オープンスクール） 第1回 2026年10月24日（土） ①13:00～15:00 ②14:30～16:30 （10月上旬ごろ受付予定） 第2回 2026年12月12日（土） ① 9:30～11:30 ② 11:00～13:00 （12月上旬ごろ受付予定） 第"
       },
       "photos": [
@@ -7843,7 +7832,7 @@
         ],
         "reservation": null,
         "source": "https://obf-hs.com/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "cess オープンスクール・入試 bottom_arrow オープンスクール情報 Vol.1 2026/07/17 Vol.2 2026/08/29 Vol.3 2026/10/31 Vol.4 2026/12/12 Webオープンスクール 学校説明会情報 入試個別相談会 本校が主催する学校説明会 本校が参加する外部の"
       },
       "photos": [
@@ -8026,7 +8015,7 @@
         ],
         "reservation": null,
         "source": "https://www3.osaka-c.ed.jp/yodo-b/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "6/09/02 授業参観のお知らせ 2026/09/01 🎉9月26日（土）最大級オープンキャンパス開催！申込みスタート！ お知らせ一覧 Blog ブログ 2026/09/08 潜入！淀商生が本気になる！【部活動ブログ】 2026/09/0"
       },
       "photos": [
@@ -8151,7 +8140,7 @@
         ],
         "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/higashiyodogawa/news/33858/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "５分 申込期間 ２０２６年８月１９日（水）８時 ～２０２６年９月１１日（金）１７時 注意事項 ※車やバイクで来ることはできません。 ※自転車で来ることはできます。 ※いただいた個人情報は第1回学校説明会のためにだけ使います。他の目的には使いません。 ※うわばき（スリッパ）をもってきてください。 問い合わせ 大阪府立東淀"
       },
       "photos": [
@@ -8254,7 +8243,7 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-10",
+            "date": "2026-09-11",
             "label": "体験入学",
             "reservation": null,
             "confidence": "mid",
@@ -8263,8 +8252,8 @@
         ],
         "reservation": null,
         "source": "https://www3.osaka-c.ed.jp/higashiyodo-t/",
-        "checkedAt": "2026-09-10",
-        "evidence": "学校名を入れてください Information お知らせ 2026/09/10 2年生修学旅行3日目⑤ 2026/09/10 2年生修学旅行3日目④ 2026/09/10 2年生修学旅行3日目③ 2026/09/10 2年生修学旅行3日目② 2026/09/10 令和８年度 体験入学 申し込みについて お知らせ一覧 B"
+        "checkedAt": "2026-09-11",
+        "evidence": "学校名を入れてください Information お知らせ 2026/09/11 2年修学旅行4日目① 2026/09/11 2年生修学旅行3日目⑥ 2026/09/11 令和８年度 体験入学 申し込みについて 2026/09/10 2年生修学旅行3日目⑤ 2026/09/10 2年生修学旅行3日目④ お知らせ一覧 Bl"
       }
     },
     {
@@ -8506,7 +8495,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/yodogawaseiryu/junior/open_school.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/cRhsWFBEKMYTJ4WB9",
         "applyLabel": "申込フォーム",
         "evidence": "ンスクール実施日程(参加は予約制です) 第１回 ２０２６年 １０月３１日（土) １３:３０～(説明会・教科別授業体験・クラブ体験) 申込予約はこのページで、１か月前から開始予定です。 第２回 ２０２６年 １２月１９日（土) １３:３０～(説"
@@ -8582,7 +8571,7 @@
         ],
         "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/osakawakaba/folder8/post-58/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "年9月6日(日) 10:30-15:30 &nbsp; 高校進学説明会【生野区】(生野区民センター) ● 令和8(2026)年10月4日(日) 10:00-15:00 五ツ木書房「進学相談会」(OMMビル2階 A・B・Cホール) ● 令和8(2026)年11月1日(日) 12:00"
       },
       "photos": [
@@ -8845,7 +8834,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/yodogawa-t/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSciUHkD9VlmYK6kbBFibah24EGgxU-g2kIvMsZ9Jy3NWC0U4g/viewform?usp=sf_link",
         "applyLabel": "申込フォーム",
         "evidence": "閉庁日について（お知らせ） 4/27(月)up【令和８年度 学校説明会】のご案内 &nbsp;&nbsp;&nbsp;&nbsp;令和８年９月２６日（土）本校本館２階・多目的室にて &nbsp;&nbsp;&nbsp;&nbsp;令和８年１０月１７日（土）本校本館２階・多目的室にて &nbsp"
@@ -9505,7 +9494,7 @@
         ],
         "reservation": "required",
         "source": "https://tennoji-hs.jp/admission/briefing-session/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://tennoji-hs.jp/graduate/teaching-practice",
         "applyLabel": "教育実習の申し込みについて",
         "evidence": "見学 13:00〜13:30 受付 13:30〜14:45 説明会 終了後 校内自由見学 13:30〜16:00 （15:30 受付終了） 第2回 10/24 （土） ①3限の授業見学 &nbsp; 9:20〜9:40 受付 10:10〜10:55 授業見学 ②4限の授業見学&nbsp; 10:20〜10"
@@ -9690,8 +9679,8 @@
         ],
         "reservation": "required",
         "source": "https://osaka-city-ib.jp/admissions/schedule/",
-        "checkedAt": "2026-09-10",
-        "applyUrl": "https://osaka-city-ib.jp/blog/common/entry-962.html",
+        "checkedAt": "2026-09-11",
+        "applyUrl": "https://osaka-city-ib.jp/blog/senior/entry-963.html",
         "applyLabel": "申込フォーム",
         "evidence": "開催１か月前頃を予定 本校 学校説明・個別相談・施設見学 オープンスクール 日時 対象 申込受付期間 場所 内容 詳細 2026年10月17日（土） ① 9:00-9:50 中学1-3年生【150組】 ②11:30-12:20 中学1-3年生【150組】 9月17日（木）正午から10月13日（火）正午まで ※各回定員に"
       }
@@ -9893,7 +9882,7 @@
         ],
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/hannan/folder_0/post-93/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSda1yy4zPuwzgStNYfuadLxYEJ7o1zhx6cZaCPlYc8w039ReQ/viewform?usp=dialog",
         "applyLabel": "申込フォーム",
         "evidence": "◆ ◆ ◆◆ ◆◆ ◆◆ ◆◆ ◆◆ ◆◆ ◆◆ ◆◆ ● 9月12日（土）&nbsp; 第1回学校説明会 〇時間 第１部 &nbsp; 9時00分開始（&nbsp; 8時45分～受付） 第２部 10時00分開始（&nbsp; 9時45分～受付）"
@@ -9992,7 +9981,7 @@
         ],
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/partner/folder_1/post-1/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSd2e_3UUQc0euhMO1rCs18WMwshEBIgxcCcg2Y_J_9Ads-aAQ/viewform?usp=header",
         "applyLabel": "申込フォーム",
         "evidence": "校教員 学習塾講師 午後 (14:30~ 16:00 ) ・学校説明会 ・個別相談 ・ 要項 ・ お申し込みは こちら 9/26 (土) 中学生 保護者 中学校教員等 午前 (10:00~ 11:30 ) ・学校説明会 ・校内見学、個別相談 ・ 要項 ・お申込みは こちら 1"
@@ -10078,7 +10067,24 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-09-11",
+            "label": "学校説明会",
+            "reservation": null,
+            "confidence": "mid",
+            "source": "https://www.osaka-c.ed.jp/higashisumiyoshi/"
+          }
+        ],
+        "reservation": "required",
+        "source": "https://www.osaka-c.ed.jp/higashisumiyoshi/",
+        "checkedAt": "2026-09-11",
+        "applyUrl": "https://www.osaka-c.ed.jp/higashisumiyoshi/geibun/pdf/2026sotukou.pdf",
+        "applyLabel": "卒業公演申し込み",
+        "evidence": "会 共生推進教室 アクセス・問合せ 更新情報・最新ニュース 2026.9.11 学校説明会(オープンスクール)について 学校説明会の受付を開始しました。申し込みは こちら 。 2026.9.4 文化祭ついてのお知らせ 催し物見取り"
+      }
     },
     {
       "id": "pref-hirano",
@@ -10375,7 +10381,7 @@
         ],
         "reservation": "none",
         "source": "https://www2.osaka-c.ed.jp/nagayoshi/folder/openschool3/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/p7dPN4Dv2mNJwPVs8",
         "applyLabel": "申込フォーム",
         "evidence": "更新 令和８(2026)年度 学校説明会のご案内 第1回 10/24(土) 9:30～ 説明会・体験授業・部活動体験 第1回学校説明会(特別選抜)への 申込はこちらから 第1回学校説明会(特別選抜)への 公式LINEの登録はこちらから"
@@ -10520,7 +10526,7 @@
         ],
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/imamiya-t/open-schools/2025oc-lessons/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://www2.osaka-c.ed.jp/imamiya-t/folder/post-91",
         "applyLabel": "企業様用 来校予約システム",
         "evidence": "説明会 大阪祭典なにわ区民ホール 9月6日(日) 生野区高校説明会 生野区民センター 9月13日(日) 港区高校説明会 港区民センター 9月27日（日） 進学情報展 OMMビル 10月4日（日） 進学相談会 OMMビル 学校名を入れてください"
@@ -10724,7 +10730,7 @@
         ],
         "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/kanaoka/folder_0/post-22/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "説明会 8月23日(日) 堺市立堺高等学校 中学校・高等学校進学説明会 9月19日(土) 堺市産業振興センター 学校名を入れてください 〒xxx-xxxx 住所を入れてください Tel: 000-0000-0000 Fax: 0"
       },
       "photos": [
@@ -10843,7 +10849,7 @@
         ],
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/sakaikami/middleschooler/schooltour/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://www2.osaka-c.ed.jp/sakaikami/20261107schoolfair",
         "applyLabel": "令和８年１１月７日（土） 第１回学校説明会・体験入学 [本校]（事前申込必要）",
         "evidence": "大阪南エリア公立高等学校等合同説明会 [堺市立堺高等学校] 令和８年１１月７日（土） 第１回学校説明会・体験入学 [本校]（事前申込 必要 ） 令和９年１月２３日（土） 第２回学校説明会 [本校]（事前申込 不要 ） 令和９年２月２０日（土）"
@@ -11045,7 +11051,7 @@
         ],
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/senyo/folder_0/post-81/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/CGc6LKp4TmSTQGUW7",
         "applyLabel": "申込フォーム",
         "evidence": "より変更、見学中止となる場合もございます。ご了承ください。 説明会当日の部活動の活動予定表 &nbsp; Ⅵ．申し込みについて &nbsp; ■受付期間： ９月4日（金）１０：００～９月２５日 (金)１７：００ &nbsp; 以下のリンク先の「Googleフォーム」からお申込みください。 申し込みフォーム https:"
@@ -11175,7 +11181,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/tomioka/school-orientation.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/mqMXByxYwCYujErv8",
         "applyLabel": "申し込みフォームはこちら",
         "evidence": "d. --> 学校説明会 令和8年度 中学3年生・保護者対象学校説明会について ① 2026年10月24日（土）14：00～ 申し込みフォームはこちら ② 2026年11月14日（土）14：00～ ※11月開催の説明会の申し込みフォームは、後日掲載いたします。 ※この説明会はクラブ体験、見学等がございます。 上履き、筆"
@@ -11288,7 +11294,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/higashimozu/open_school.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSd-miKTbPHdLJ5bAjwmogFtZwbHwLvW6fUN7CeAK__XEBD0hA/viewform?usp=dialog",
         "applyLabel": "お申し込み",
         "evidence": "８年８月29日（土）11：00～ ご案内 お申し込み 第2回オープンスクール 令和８年11月７日（土）11：00～ ご案内 お申し込み 第3回オープンスクール 令和８年12月12日（土）第１部10：00～ 第２部11：00～ ご案内 第1部お"
@@ -11654,7 +11660,7 @@
         ],
         "reservation": "required",
         "source": "https://osaka-nougei.ed.jp/openschool/openschool_entry/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://osaka-nougei.ed.jp/openschool/taiken_entry/",
         "applyLabel": "体験入学会 参加申し込み",
         "evidence": "第１回 ８月２１日（金） １３：３０～１６：３０ 第２回 １２月１９日（土） ９：３０～１２：３０ 第３回 １月１６日（土） ９：３０～１２：３０ 第４回 ２月 ６日（土） ９：３０～１２：３０ 説明会内容 全体説明会：入試に関して、進路に関して、学習活動について 見 学 会：各学科の農場や実習施設の見学・説明 &nb"
@@ -11842,6 +11848,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-09-11",
+            "label": "説明会",
+            "reservation": null,
+            "confidence": "mid",
+            "source": "https://semboku-h.ed.jp/blog/news/%e5%90%88%e6%a0%bc%e8%80%85%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%81%8a%e3%82%88%e3%81%b3%e7%89%a9%e5%93%81%e8%b2%a9%e5%a3%b2%e3%83%bb%e6%b3%a8%e6%96%87%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6-2/"
+          },
+          {
             "date": "2026-10-24",
             "label": "学校説明会",
             "reservation": null,
@@ -11850,9 +11863,9 @@
           }
         ],
         "reservation": null,
-        "source": "https://semboku-h.ed.jp/junior/",
-        "checkedAt": "2026-09-10",
-        "evidence": "ひご覧ください。 ★ 学校紹介動画リンクサイトへ ・今年度の学校説明会は、10月24日（土）の午前中に実施します。 説明会の内容や申し込み方法などは、9月中旬にホームページにて掲載予定です。 トップページに戻る お知らせ 2026/"
+        "source": "https://semboku-h.ed.jp/blog/news/%e5%90%88%e6%a0%bc%e8%80%85%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%81%8a%e3%82%88%e3%81%b3%e7%89%a9%e5%93%81%e8%b2%a9%e5%a3%b2%e3%83%bb%e6%b3%a8%e6%96%87%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6-2/",
+        "checkedAt": "2026-09-11",
+        "evidence": "より ほけんだよりを発行しました 2026/3/19 合格者説明会および物品販売・注文について 過去の記事 学校案内 ２０２５年度パンフレット ２０２５年度ガイドブック 最新の投稿 2026/9/11 保健室より ほけんだよりを発行しました ほけんだより（9月号）を発行しました。 9月号以外のほけんだよりや学校感染症報"
       },
       "photos": [
         {
@@ -11979,7 +11992,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/mikunigaoka/all-index.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/GoUUN81NjgAKcvn89",
         "applyLabel": "申込フォーム",
         "evidence": "和8年度秋の学校説明会について 11月14日（土）に実施する学校説明会の詳細は10月2日（金）頃にアップいたします。 なお、参加申込の開始は10月9日（金）12時30分を予定しております。 ご案内、申込の開始ともにしばらくお待ちいただ"
@@ -12310,7 +12323,7 @@
         ],
         "reservation": null,
         "source": "https://www.osaka-c.ed.jp/izumiohtsu/open_school2022.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "さまへ &nbsp; 2026年度 学校説明会の予定 第1回学校説明会（学校説明・校内見学） 11/14（土） 第１部 13：30受付/13：30開始 第２部 14：30受付/15：00開始 第２回学校説明会（学校説明・校内見学） １/16（土） 1"
       },
       "photos": [
@@ -12498,7 +12511,7 @@
         ],
         "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/hakata/folder_0/post-28/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "第1回オープンスクールについて.pdf 令和８年度 第２回 オープンスクール 日 時 ： 令和８年１０月２４日（土）予定 場 所 ： 大阪府立伯太高等学校 令和８年度 第３回 オープンスクール 日 時 ： 令和９年１月１６日（土）予定 場 所 ： 大阪府立"
       },
       "photos": [
@@ -12576,13 +12589,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-10-03",
-            "label": "オープンスクール",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://www2.osaka-c.ed.jp/izumi-t/"
-          },
-          {
             "date": "2026-11-14",
             "label": "オープンスクール",
             "reservation": null,
@@ -12598,9 +12604,9 @@
           }
         ],
         "reservation": null,
-        "source": "https://www2.osaka-c.ed.jp/izumi-t/",
-        "checkedAt": "2026-09-10",
-        "evidence": "る本校の対応について 2026/09/04 【中学生対象】【10/3（土）開催】ものづくりコンテストについて 2026/07/03 【受付終了】【中学生・保護者】【令和８年７月31日（金）実施】第１回オープンスクールについて 2026/06/26 【臨時休校】【６月26日（金）】本日の授業について お知らせ一覧 Blo"
+        "source": "https://www2.osaka-c.ed.jp/izumi-t/middle_school_students/-1014-1119-1217-14-a/",
+        "checkedAt": "2026-09-11",
+        "evidence": "向けオープンスクールの日程 【NEW】 令和９年度入学生向けオープンスクールは以下の日程で実施します。 a 第１回 令和８年７月 31日（金） 第２回 令和８年11月14日（土） 第３回 令和９年 １月16日（土） 時間等の詳細は追って掲載します。それぞれのお申込みについては、１か月前をめどに入力フォームを作成いたしま"
       },
       "photos": [
         {
@@ -12710,7 +12716,7 @@
         ],
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/takaishi/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://www2.osaka-c.ed.jp/takaishi/news/33900",
         "applyLabel": "2026/08/26 学校説明会の申し込みについて",
         "evidence": "8/24 文化祭の入場について 2026/08/17 R8年10月24日（土）の授業・クラブ体験について 2026/07/27 令和8年度第1回学校運営協議会議事録 お知らせ一覧 Blog ブログ 2026/03/25 海外語学研修ブロ"
@@ -12913,24 +12919,24 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-09-21",
+            "label": "学校見学会",
+            "reservation": "required",
+            "confidence": "high",
+            "source": "https://www2.osaka-c.ed.jp/kumeda/folder_0/koho/openschool-autumn/"
+          },
+          {
             "date": "2026-11-21",
             "label": "学校見学会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://www2.osaka-c.ed.jp/kumeda/folder_0/koho/openschool/"
-          },
-          {
-            "date": "2026-12-19",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://www2.osaka-c.ed.jp/kumeda/folder_0/koho/openschool/"
+            "source": "https://www2.osaka-c.ed.jp/kumeda/folder_0/koho/openschool-autumn/"
           }
         ],
-        "reservation": null,
-        "source": "https://www2.osaka-c.ed.jp/kumeda/folder_0/koho/openschool/",
-        "checkedAt": "2026-09-10",
-        "evidence": "・８月21日（金） 午後実施 夏の学校見学会ポスター ◇秋の学校見学会 11月21日（土） 午後実施 ※詳細は、９月中旬にお知らせします。 ◇共生推進教室説明会 １１月21日（土） 午後実施 ※詳細は、９月中旬にお知らせします。"
+        "reservation": "required",
+        "source": "https://www2.osaka-c.ed.jp/kumeda/folder_0/koho/openschool-autumn/",
+        "checkedAt": "2026-09-11",
+        "evidence": "：15 または 16：00～16：45 【見学会詳細】 秋の学校見学会詳細 【申込期間】 9月21日（月）より10月12日（月）まで ・事前申し込みが必要です。（定員はありません） ・体験を希望するクラブを選んでください。体験できるクラブは１つの"
       },
       "photos": [
         {
@@ -13033,7 +13039,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/kishiwada/junior.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "催日時、場所、対象、内容などをご確認ください。 学校見学会・説明会 令和８年度 秋の岸高見学会 10月31日（土）午後 に開催します。 詳細および申込方法は現在準備中です。決まり次第、このページに申込フォームを掲載します。 令和８年度の「岸高見学会」に関"
       },
       "photos": [
@@ -13163,7 +13169,7 @@
         ],
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/kaizukaminami/folder_0/post-28/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://www2.osaka-c.ed.jp/kaizukaminami/news/34136",
         "applyLabel": "2026/08/19 第５１回文化祭（貝南祭）中学生申込はこちら！",
         "evidence": "（土） ９地区合同進学説明会（泉の森ホール）１０時～１４時 ９月１９日（土） 南大阪中学校・高等学校進学説明会（堺市産業振興センター）１０時～１５時 １０月 ４日（日） 五ツ木の進学相談会（ＯＭＭビル）１０時～１５時 １０月２５日（日） 公立高校説明"
@@ -13279,7 +13285,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/kaizuka/open-school.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/M2VdsTiBCUEE8y2B9",
         "applyLabel": "お申し込みはコチラ",
         "evidence": "12:40~ 受付 13:00~ 全体説明会 14:00~ 授業体験 15:00~ 校内(校舎&クラブ)見学 --> 申込期間 9月1日(火)~ 9月13日(日) ※申し込みについては先着順となります。定員数を超過した場合は申し込みできませんのでご了承ください。 お申し込みフォーム（Googleフォー"
@@ -13484,7 +13490,7 @@
         ],
         "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/hineno/folder_0/post-72/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "校ＳＮＳ ブログ・Instagaram TOP 学校説明会 オープンスクール２０２６ １１／７（土）午後からを予定しています。 「詳細」や「申し込み」については、もうしばらくお待ちください。 オープンスクール２０２６など、学校説明会に関する"
       },
       "photos": [
@@ -13765,7 +13771,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/misaki/04-empowerment/index.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfdPhwv7Ux-O-YzKOC6NT1sLau3TRuP0NsddOIT0oSIeki20A/viewform?vc=0&c=0&w=1&flr=0&pli=1",
         "applyLabel": "申込フォーム",
         "evidence": "木）までとなります。 --> オープンスクール 令和８年度のオープンスクールの日程は、以下のとおりです。 第１回 10月&nbsp&nbsp3日(土) 第２回 11月&nbsp&nbsp7日(土) 第３回 12月12日(土) 詳細につきましては チラシ をご確認ください。 参加希望のかたは こちら からお申込みください"
@@ -13834,7 +13840,7 @@
         ],
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/momodani-p/folder_0/gakkou-setsumeikai/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://www2.osaka-c.ed.jp/momodani-p/news/33809",
         "applyLabel": "2026/08/24 令和８年度第1回(8/28)学校説明会の申込について",
         "evidence": "しました &nbsp; 春季入学者選抜（４月入学） に関する学校説明会 （中卒・ 編入・転入 ） &nbsp;令和９年２月６日（土） ・12時00分受付 ・12時30分開始 ※通信制も同日開催 ①11時 ②14時30分 &nbsp;１月８日～２月４日 &nbsp; 春季入"
@@ -13940,7 +13946,7 @@
         ],
         "reservation": null,
         "source": "https://www.sakurazuka-hs.jp/entranceguide/openschool/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "ることはできません。公共交通機関でお越しください。 ・第1回学校説明会 令和8年10月27日（火）17:15～19:00 ・第2回学校説明会 令和9年1月12日（火）17:15～19:00 場所：大阪府立桜塚高等学校（南側正門から玄関にお"
       },
       "photos": [
@@ -14059,7 +14065,7 @@
         ],
         "reservation": "required",
         "source": "https://teshima-hs.ed.jp/infomation/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://teshima-hs.ed.jp/news/%e3%80%8c%e9%83%a8%e6%b4%bb%e5%8b%95%e4%bd%93%e9%a8%93%e4%bc%9a%e3%80%8d%e7%94%b3%e3%81%97%e8%be%bc%e3%81%bf%e5%8f%97%e4%bb%98%e4%b8%ad%e3%81%a7%e3%81%99%ef%bc%81/",
         "applyLabel": "「部活動体験会」申し込み受付中です！（情報を更新しました。）",
         "evidence": "だくと申込フォームにリンクします。 ・申込はコチラ 第１回 学校説明会 令和８年 10月24日 （土） ・申込は10月５日16:30から10月19日9:00まで。定員になり次第締め切ります。 ・詳しい内容はコチラ。 ・10月５日午後4時30分"
@@ -14353,7 +14359,7 @@
         ],
         "reservation": "none",
         "source": "https://www.osaka-c.ed.jp/senriseiun/junior/lecture.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/dEXeFQm5Dbo8HtY9A",
         "applyLabel": "説明会申込",
         "evidence": "ぜひ見つけに来てください！ 部活動体験・学校説明会 直近の説明会 第１回 １０月２４日(土) ９月５日(土) 文化祭（秋桜祭） 9:15 受付開始・入場 （中学生の方は申し込み不要、生徒証を持参してください） 10時～食堂が営業いたします。 混雑が"
@@ -14498,7 +14504,7 @@
         ],
         "reservation": "required",
         "source": "https://ikeda-h.ed.jp/exam/openschool.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "sp; &nbsp; &nbsp; &nbsp; 授業体験、部活動体験 など &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;部活動見学 申込期間：9/24（木）14:00〜 10/1（木）16:00&nbsp;&nbsp;&nbsp; 詳細は こちら ※お申し込みは中学生のみです。保護者の方は11"
       },
       "photos": [
@@ -14596,7 +14602,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/shibutani/junior.htm",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfQBZSB-kYKkxujaiiKKLWiOTfm1CyL7V9IeLqXWkWToHURCg/viewform?pli=1",
         "applyLabel": "申込フォーム",
         "evidence": "さい。 上履きと履物を入れる袋をご用意ください。 --> ◆オープンスクール 【日程】 2026年11月7日(土) --> 【内容】 1部 授業見学 ＋ 2部 授業体験・校内見学・部活動体験 ※2部は事前の申し込みが必要です。 9月以降に申し込みを開始予"
@@ -14788,7 +14794,7 @@
         ],
         "reservation": null,
         "source": "https://minoh-high-school.com/blog/?p=11493",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "。以下記載の説明会要項と、注意事項を必ずご確認ください。 [説明会要項] 日時：令和8年 9月25日(金) 15:40開始(1時間程度の予定) 対象： 第１回(6月)に予約奨学金の申込をしておらず、 新たに申込を考えている方。 以下にあてはまる場"
       },
       "photos": [
@@ -14867,7 +14873,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/minoohigashi/junior/openschool.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/wBx6FNaWJs8PGAkJ6",
         "applyLabel": "申込みフォーム",
         "evidence": "27 1 / 9 (sat) Next Event 今年度のオープンスクールは全て終了しました。 --> 10/3（土）第2回オープンスクールのご案内 日時 2026年10月3日(土) 受付 9：30～ 内容 A班 B班 10:00～10:40 授業体験 全体説明会 10:50～11:30 全体説明会 授業体験 1"
@@ -15877,7 +15883,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osakashs.ed.jp/info/30494/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/osakah/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
         "evidence": "大阪高校を見て感じていただくことはできたでしょうか？第2回のオープンスクールは、 9月19日（土）10:00～ です。 →こちらよりオープンスクール申し込みフォーム mirai-compass.net オープンスクール企画運営委員の生徒が"
@@ -15998,7 +16004,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-kaisei.ac.jp/exam/event/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/okisigh/event/evtIndex.jsf",
         "applyLabel": "オープンスクール 予約フォーム",
         "evidence": "ル 12:30～16:00（予定） 明光義塾大阪進学相談会 9月12日（土） 東大阪会場 中学校・高等学校進学説明会 東大阪市商工会議所 10:00～15:00（予定） みらいカンパニー 9月19日（土） 堺会場 中学校・高等学校進学説明会 堺市産業振興セ"
@@ -16227,7 +16233,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osakagakugei.ac.jp/senior/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://www.osakagakugei.ac.jp/senior/news/25191",
         "applyLabel": "7月23日（木）特別説明会のお知らせ（ダブルディプロマ・1年留学・グローバル・特",
         "evidence": "験会特設ページ＜8/25更新＞ 2026.08.22 入試 9月20日（日）入試説明会・オープンスクールのお知らせ（※要予約） 2026.08.07 入試 大阪私立学校展（私学展）のお知らせ 2026.08.07 重要 夏季休"
@@ -16353,13 +16359,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-10",
-            "label": "オープンスクール",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www.osakagyoko.ed.jp/"
-          },
-          {
             "date": "2026-09-26",
             "label": "学校見学会",
             "reservation": null,
@@ -16393,14 +16392,21 @@
             "reservation": null,
             "confidence": "high",
             "source": "https://www.osakagyoko.ed.jp/opencampus/index.php"
+          },
+          {
+            "date": "2026-12-15",
+            "label": "個別相談会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.osakagyoko.ed.jp/opencampus/index.php"
           }
         ],
         "reservation": "required",
-        "source": "https://www.osakagyoko.ed.jp/",
-        "checkedAt": "2026-09-10",
+        "source": "https://www.osakagyoko.ed.jp/opencampus/index.php",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/ogyokoh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "9/19土)の見学を希望される方へ NEW スクールライフ 2026.09.10 【DXハイスクール】高校生 ICTカンファレンス大阪へ参加してきました！ オープンスクール 2026.09.09 【受験生の皆さんへ】第2回夏のオープンスクールを開催しました！秋のオープンスクール申し込み受付中&#x1f495;"
+        "evidence": "> 講座一覧 --> 2026年度 学校見学会・個別相談会 学校見学会 9/26 (土) 16時～19時 --> 受付中 個別相談会 12/15 (火) 16時～19時 --> 準備中 個別相談会 12/17 (木) 10時～1"
       },
       "admissionFee": {
         "amount": 200000,
@@ -16554,7 +16560,7 @@
         ],
         "reservation": "required",
         "source": "https://www.kun-ei.jp/admission/jhs_events/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/kuneij/event/evtIndex.jsf",
         "applyLabel": "予約はこちら（ミライコンパスに移動します）",
         "evidence": "2026年10月24日(土） 10:00～12:00 中学入試説明会 2026年9月19日(土) 10:00～12:00 2026年12月5日(土) 10:00～12:00 中学入試プレテスト （１）2026年10月10日(土) 8:4"
@@ -16701,7 +16707,7 @@
         ],
         "reservation": "required",
         "source": "https://www.kokusai-h.oiu.ed.jp/high/event/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "（終了しました） 8月22日（土） 国際バカロレアコース 個別相談会 4 （終了しました） 9月12日（土） 高校文化祭 9月19日（土） 吹奏楽部練習会 1 9月26日（土） オープンスクール 2 10月10日（土） 吹奏楽部練習会 ２ ★申込を"
       },
       "admissionFee": {
@@ -16993,7 +16999,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osaka-sandai.ed.jp/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/osksngyh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
         "evidence": "月3日(土)第5回ミニ学校説明会開催! 申し込み受付中!! 2026.8.18 9月19日(土)第4回ミニ学校説明会開催! 8月31日(月)から申し込み受付中!! 総合 中学校 高等学校 受験生 在校生・保護者 卒業生 資料請求 アクセス お問い合わせ 教"
@@ -17571,7 +17577,7 @@
         ],
         "reservation": "required",
         "source": "https://high.osaka-seikei.jp/ex_info/openschool.php",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/oseikeih/event/evtIndex.jsf",
         "applyLabel": "9/27(土)オープンスクールお申込みはこちら",
         "evidence": "(土)・14日(日)文化祭の見学について --> 8月22日オープンスクールに参加される皆様へお願い --> 【中学生およびその保護者の皆さまへ】9月12日(土)・13日(日)文化祭の見学について 【中学生の方対象】7月26日(日)バドミントン講習会のご案内 --> 2025年度オープンスクールは全て"
@@ -17670,7 +17676,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osakaseiko.ac.jp/topics/topics-976/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/oseikogj/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
         "evidence": "象)のご案内 TOPICS お知らせ 2026.08.12 オープンスクール2026(小5対象)のご案内 ＰＤＦ版は こちら １. 実施日時 ９月１２日 ( 土 ) １４時００分～（受付１３時３０分～） ２. 対象 小学５年生男子児童およびその保護者の方 ３. 会場 本校 講堂（体験授業、クラブ体験は各"
@@ -18021,7 +18027,7 @@
         ],
         "reservation": "required",
         "source": "http://www.dentsu.ed.jp/examination/recruitment/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://www.dentsu.ed.jp/examination/28",
         "applyLabel": "2026.09.01イベント【申込受付中】体験入部のご案内",
         "evidence": "クラブによって開催場所、開催時間が異なります。 卓球部のみ9月12日（土）に実施します。 クラブ体験ウィーク ※要事前予約 開催日 2026年8月3日（月）〜8月7日（金） 2026年8月18日（火）〜8月21日（金） クラブによって開催日"
@@ -18269,7 +18275,7 @@
         ],
         "reservation": "required",
         "source": "http://www.oyg.ed.jp/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/oygh/event/evtIndex.jsf",
         "applyLabel": "入試イベント申込",
         "evidence": "り」の現場を見学しました 2026.09.03 お知らせ 【9月12日(土)】教員採用説明会を実施します 2026.09.02 入試情報 第１回オープンスクールを実施しました 2026.08.28 お知らせ 【四條畷市･なわて教育フ"
@@ -18506,7 +18512,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osk-ohtani.ed.jp/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/oskotanj/event/evtIndex.jsf",
         "applyLabel": "ログインして申込む （はじめての方もこちらから）",
         "evidence": "vents 入試イベント情報 中学入試EVENTS Sat 9/12 (土) オータニ サタデー サイエンス⑤ Sat 9/19 (土) 第一回入試説明会 中学入試イベント情報一覧 高校入試EVENTS Sat 9/19 (土) 第1回 高校入試説明会 Sat 9/26 (土) 文化祭1日目"
@@ -18575,13 +18581,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-10",
-            "label": "入試説明会",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://kaimei.ed.jp/news/987/"
-          },
-          {
             "date": "2026-09-12",
             "label": "入試説明会",
             "reservation": null,
@@ -18604,11 +18603,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://kaimei.ed.jp/news/987/",
-        "checkedAt": "2026-09-10",
+        "source": "https://kaimei.ed.jp/",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/kaimeij/event/evtIndex.jsf",
         "applyLabel": "中学校イベント申込",
-        "evidence": "WEB出願登録（高等学校） 10/17（土）開催｜「高校」入試説明会 2026-09-10 入試情報 以下の要領で高校入試説明会を開催いたします。 【実施日】10月17日（土） 【２部制】説明内容は各部とも同じです。 午前の部：1"
+        "evidence": "）開催｜「中学」授業見学会 2026-08-01 入試情報 ９/12（土）開催｜「高校」入試説明会 2026-06-24 入試情報 令和９年度「高校１次」生徒募集要項のお知らせ 2026-06-24 入試情報 令和９年度「中学校」生徒募集"
       },
       "admissionFee": {
         "amount": 200000,
@@ -18810,7 +18809,7 @@
         ],
         "reservation": "required",
         "source": "https://www.kankura.jp/topics/41973/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/kokuraj/common/login.jsf",
         "applyLabel": "申込フォーム",
         "evidence": "ではと思います。 個別にご質問も多くいただきました。 次回は学校説明会を10/3(土)に行います。 またの来校をお待ちしていますね。 小学６年生にプレテストのご案内です。 中学プレテスト（小学校6年生対象）の申込受付8/21("
@@ -18956,7 +18955,7 @@
         ],
         "reservation": "required",
         "source": "https://www.kansai-u.ac.jp/senior/2026/04/post-786.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/kansaiuh/common/login.jsf",
         "applyLabel": "申込フォーム",
         "evidence": "/09/19 記事公開日： 2026/04/01 イベント 2026年9月19日（土）に学校説明会を開催いたします。 詳細は、 こちら をご確認ください。 2026年 2020年 2019年 2018年 2019年 2018年 2017年"
@@ -19041,7 +19040,7 @@
         ],
         "reservation": "required",
         "source": "https://www.kansai-u.ac.jp/dai-ichi/high/exam/index.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/kandai1h/common/login.jsf",
         "applyLabel": "申込フォーム",
         "evidence": "ますので、ご理解を賜りますようお願い申し上げます。 --> 入試説明会（中学3年生対象） ■日時 2026年9月12日（土）13：30～15：30（予定） 2026年10月3日（土）13：30～15：30（予定） ■場所 関西大学 100周年記念会館（阪急千里線"
@@ -19157,7 +19156,7 @@
         ],
         "reservation": "required",
         "source": "https://www.kansai-u.ac.jp/hokuyo/news2026/08/post_837.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/khokuyoh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
         "evidence": "いたします。 次回の入試イベントは下記になります。 第1回入試説明会 10/17(土)14:00～16:00、予約受付は10/3(土)9:00より 第2回入試説明会 11/14(土)14:00～16:00、予約受付は10/31"
@@ -19285,7 +19284,7 @@
         ],
         "reservation": "required",
         "source": "https://www.hs.fuksi-kagk-u.ac.jp/open-campus_top/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/fkskgkuh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
         "evidence": "クラブ体験 &nbsp; 日程 対象 場所 時間 体験入学〈オープンキャンパス〉 2026年7月25日（土） 要予約 終了しました。 保育進学コース （女子のみ） 本校 10：00～12：30 2026年10月18日（日） 要予約 全コース 2026年11月15日（日） 要予約 学校・入試説明会 2026年8月23日（"
@@ -19404,7 +19403,7 @@
         ],
         "reservation": "required",
         "source": "https://koutoku.ac.jp/kinkiosaka/news/20260829/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfQ6NmHc4KrPvlsuu_eURaOpAZrW973-sCv63mBGuCXIt3AFw/viewform",
         "applyLabel": "オープンスクールに申し込む",
         "evidence": "がとうございました！ 次回オープンスクールのお知らせ 第4回オープンスクール 9月12日（土）開催！ 現在、参加申込を受付中です！ ぜひお気軽にご参加ください。 当日のプログラム 第4回オープンスクールでは、 学校のことを知っていただ"
@@ -19487,7 +19486,7 @@
         ],
         "reservation": "required",
         "source": "https://www.kindai-sensyu.ed.jp/news/%e7%ac%ac%ef%bc%92%e5%9b%9e%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e3%81%ae%e3%81%94%e6%a1%88%e5%86%85/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/ksensyuh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
         "evidence": "らせ 2026.09.01 第２回オープンスクールのご案内 ９月２６日(土)に第２回オープンスクールを実施いたします。 今回の内容は、グレードアップ！ 体験授業に加えて、クラブ体験も可能となっております。 ※実施クラブは後日掲載予定の詳細を"
@@ -19667,9 +19666,9 @@
         ],
         "reservation": "required",
         "source": "https://kinran.ed.jp/",
-        "checkedAt": "2026-09-10",
-        "applyUrl": "https://kinran.ed.jp/entry-events/event-959/",
-        "applyLabel": "締切間近 9.12（土） 9月12日 蘭祭（らんさい） 【文化祭】 › 申し込む",
+        "checkedAt": "2026-09-11",
+        "applyUrl": "https://kinran.ed.jp/entry-events/event-47524/",
+        "applyLabel": "受付中 9.26（土） 9月26日 第6回中学オープンスクール › 申し込む",
         "evidence": "化祭） 2026年8月28日 イベント情報 【受付スタート】9/18(金)イブニング説明会 2026年8月28日 イベント情報 【受付中】9/26(土)高校オープンスクール 2026年8月25日 イベント情報 【受付中】9/26㈯"
       },
       "admissionFee": {
@@ -19739,7 +19738,7 @@
         ],
         "reservation": null,
         "source": "https://www.kinransenri.ed.jp/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/krsenrij/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
         "evidence": "/10(土)に実施予定の学校説明会 を中止・延期する場合は、10/9(金)午後までにウェブサイト上で告知いたします。 2020.10.02 10/10の学校説明会 は「体験タイム」を実施しません。代わりにクラブ活動のご見学（予約不要）をご用意いたします。 2020.07.07 令和３年度募集要項 を掲"
@@ -20080,7 +20079,7 @@
         ],
         "reservation": "required",
         "source": "https://www.kokoku.ed.jp/briefing/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/kokokuh/common/login.jsf",
         "applyLabel": "申込フォーム",
         "evidence": "個別相談会＆学校見学 第3回 個別相談会＆学校見学 第4回 個別相談会＆学校見学 参加方法 6月20日（土） 終了いたしました 7月18日（土） 終了いたしました 9月19日（土） 申し込む 12月19日（土） coming soon KOKOKU 体験フェスティバル ■日時 2026年11月7日（土) 13:00～"
@@ -20507,7 +20506,7 @@
         ],
         "reservation": "required",
         "source": "https://www.kohs.ed.jp/topics/39363/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/knkohsh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
         "evidence": "った皆さま、ありがとうございました🙇‍♀️✨ 次回は･･･ 9月26日（土）に中学「第1回プレテスト」を実施いたします‼️ぜひお越しください📝👀 TOPICS一覧へ 学校概要 教育理念 公開情報 採用情報 大阪教育ゆめ基金 中学校 中高一貫"
@@ -20909,7 +20908,7 @@
         ],
         "reservation": "required",
         "source": "https://jh.shijonawate-gakuen.ac.jp/exam/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/snawatej/event/evtIndex.jsf",
         "applyLabel": "説明会申込み",
         "evidence": "者 イベントへの申し込み 学校・入試説明会＜プレテスト＞ ※プレテストは無料で受験できます。（対象6年生児童） 国語と算数の2教科 それぞれ30分間 （入試本番は50分間） 10月10日（土）9:30～12:00 サブプレテスト 15：30～18：00 11月14日（土）9:30～12:00 サブプレテスト 15：30"
@@ -21005,13 +21004,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-10",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www.shitennoji.ed.jp/stnnj/"
-          },
-          {
             "date": "2026-10-17",
             "label": "説明会",
             "reservation": "required",
@@ -21020,11 +21012,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://www.shitennoji.ed.jp/stnnj/",
-        "checkedAt": "2026-09-10",
+        "source": "https://www.shitennoji.ed.jp/stnnj/events/r8h_stmi_2010/",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/shitnojh/event/evtIndex.jsf",
         "applyLabel": "こちらから申込",
-        "evidence": "*受験生対象 小学5,6年生女子・保護者対象「授業見学会」 2026.09.10 *受験生対象 保護者･生徒対象「四天王寺高等学校 学校説明会」 2026.08.20 *中学校先生対象 中学校先生対象高等学校入試説明会のご案内 2026.08.20 *塾先生対象 塾先生対象入試説明"
+        "evidence": "すので、参加方法を選んでお申込みください。 【１】来校による説明会 実施日時：令和８年１０月１７日（土） 14:00～16:00（13:30より受付開始） 対 象：中学１年生～中学３年生の生徒及び保護者 場 所：四天王寺高等学校 講堂「和光館」"
       },
       "admissionFee": {
         "amount": 240000,
@@ -21151,7 +21143,7 @@
         ],
         "reservation": "required",
         "source": "http://www.shitennojigakuen.ed.jp/higashi/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://www.shitennojigakuen.ed.jp/higashi/event/%e7%ac%ac%ef%bc%92%e5%9b%9e%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab/",
         "applyLabel": "2026.09.19（土）10:00 ～ 12:30オープンスクール高校中学オー",
         "evidence": "２月１２日 午後４：００～ 令和8年度 高等学校の結果発表 説明会・公開行事 2026.09.19 （土） 10:00 ～ 12:30 オープンスクール 高校 中学 オープンスクール 申込受付中 第２回オープンスクール 2026.10.10 （土"
@@ -21374,13 +21366,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-10",
-            "label": "オープンスクール",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www.highs.josho.ac.jp/"
-          },
-          {
             "date": "2026-09-12",
             "label": "入試説明会",
             "reservation": null,
@@ -21390,10 +21375,10 @@
         ],
         "reservation": "required",
         "source": "https://www.highs.josho.ac.jp/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/joshogj/event/evtIndex.jsf",
         "applyLabel": "各種イベント申込み",
-        "evidence": "（ヘモグロビン）に含まれる鉄分などの触媒と過... NEW 2026.09.10 部活動ニュース 科学部 【高校科学部】鉄イオンの呈色反応を行いました 2026.9.2. 先日の高校オープンスクールで3年生が引退し、本日からは１，2年生のみの新体制での活動です。 そんな初日は、1つの溶液から次々と色が変化していく化学の"
+        "evidence": "「第3回授業見学会」を実施しました 2026.09.07 入試説明会 【中学】9/12（土）「第1回・入試説明会」開催 2026.08.31 お知らせ 【受験を検討されている方対象】9/19(土)『文化祭』見学希… 2026.08."
       },
       "admissionFee": {
         "amount": 220000,
@@ -21483,13 +21468,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-10",
-            "label": "説明会",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www.keiko.josho.ac.jp/"
-          },
-          {
             "date": "2026-09-25",
             "label": "学校見学会",
             "reservation": "required",
@@ -21519,11 +21497,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://www.keiko.josho.ac.jp/",
-        "checkedAt": "2026-09-10",
+        "source": "https://www.keiko.josho.ac.jp/information/exam-junior/21945/",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/jskeikoh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "Bキャンプ１班(10・11組) ２日目 K¹ 高校 NEW 2026/09/10 高校 『大学入試共通テスト説明会』を実施しました（高校3年 全コース） 高校 NEW 2026/09/09 高校 スタディキャンプ２日目 高校 NEW 2026/09/09"
+        "evidence": "る場合は、別途「プレテスト会①」の申込が必要です。 --> 9/25（金）中学校見学会 学校説明会では見ることのできないふだんの学校の姿をご覧いただけます。学校紹介の後、本校の授業や施設を教員が案内いたします。 保護者の方のみ"
       },
       "admissionFee": {
         "amount": 220000,
@@ -21788,7 +21766,7 @@
         ],
         "reservation": "required",
         "source": "https://www.oskshoyo.ed.jp/hs/examinee/seminar/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://forms.gle/eVjfk4Los3xa1Dfg9",
         "applyLabel": "サッカー部練習会申し込みはこちら",
         "evidence": "校説明会の日程が決まりましたのでお知らせいたします。 第1回体験入学 9月12日(土) 9:00 受付 9:30 開始 【体験入学一覧(予定）】 特進コース，進学コース 標準進学・看護医療進学・幼児教育進学・アスリート進学，I"
@@ -21893,7 +21871,7 @@
         ],
         "reservation": "required",
         "source": "https://www.seika-h.ed.jp/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/oseikah/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
         "evidence": "6 09/02 【スクールライフ】第2回防災教育 2026 09/01 令和8年9月19日(土) 第2回オープンスクールを開催します！ 2026 08/30 【入試関連】第１回オープンスクール 開催 2026 08/29 第１回オープンスクール まだまだ御予約"
@@ -22098,13 +22076,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-10",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www.osaka-seisho.ed.jp/"
-          },
-          {
             "date": "2026-09-13",
             "label": "学校説明会",
             "reservation": null,
@@ -22114,7 +22085,7 @@
         ],
         "reservation": null,
         "source": "https://www.osaka-seisho.ed.jp/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "port HTML5 video tag. 重要なお知らせ 2026.09.10 9/13(日)「第１回学校説明会」のため来校される皆さまへ 2026.09.09 気象警報発令時の臨時休校基準の変更について（お知らせ） 2026.09.02 [入試情報]"
       },
       "admissionFee": {
@@ -22191,13 +22162,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-10",
-            "label": "学校説明会",
-            "reservation": "required",
-            "confidence": "high",
-            "source": "https://www.seifu.ac.jp/expl-junior/"
-          },
-          {
             "date": "2026-09-11",
             "label": "プレテスト",
             "reservation": "required",
@@ -22231,14 +22195,21 @@
             "reservation": "required",
             "confidence": "high",
             "source": "https://www.seifu.ac.jp/"
+          },
+          {
+            "date": "2026-10-25",
+            "label": "入試説明会",
+            "reservation": "required",
+            "confidence": "high",
+            "source": "https://www.seifu.ac.jp/expl-junior/"
           }
         ],
         "reservation": "required",
-        "source": "https://www.seifu.ac.jp/expl-junior/",
-        "checkedAt": "2026-09-10",
+        "source": "https://www.seifu.ac.jp/",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/oseifuj/event/evtIndex.jsf",
         "applyLabel": "お申込みはこちら",
-        "evidence": "12:30 予約受付期間 2026年8月1日（土）9:00～9月10日（木）12:00 対象 小学生・その保護者 ※学校説明会は小学5年生・小学6年生・その保護者 場所 本校 中学校 2026年10月24日(土) 第1回 入試説明会【事前予約必要】 個別のご相談にも"
+        "evidence": "実施決定‼ 【新設】2026年10月17日(土) 清風中学校プレテスト【事前申込必要】 2026年9月11日(金)・12日(土) 文化祭 ※文化祭2日目に第2回学校説明会を実施します【事前予約必要】 2026年10月24日(土) 第1回 入試説明会【事前"
       },
       "admissionFee": {
         "amount": 230000,
@@ -22385,7 +22356,7 @@
         ],
         "reservation": "required",
         "source": "https://www.seifunankai.ac.jp/2026/07/%e7%ac%ac1%e5%9b%9e-%e4%b8%ad%e5%ad%a6%e6%a0%a1%e5%85%a5%e8%a9%a6%e8%aa%ac%e6%98%8e%e4%bc%9a/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/sfnankij/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
         "evidence": "説明会 news 2026.07.25 入試 第1回 中学校入試説明会 9月19日(土)に2027年度 第1回中学校入試説明会を開催します。 第1回 児童・保護者対象入試説明会 14時00分～15時30分 ご参加を希望される方は"
@@ -22581,13 +22552,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-10",
-            "label": "オープンスクール",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://senshin-gakuen.jp/"
-          },
-          {
             "date": "2026-09-19",
             "label": "オープンスクール",
             "reservation": null,
@@ -22611,7 +22575,7 @@
         ],
         "reservation": "required",
         "source": "https://senshin-gakuen.jp/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://senshin-gakuen.jp/nyushi260910/",
         "applyLabel": "9/19（土）「第２回オープンスクール」のお申し込みについて",
         "evidence": "P NEWS 一覧を見る 入試情報 入試イベント お知らせ 2026年9月10日（木） 9/19（土）「第２回オープンスクール」のお申し込みについて 入試情報 入試イベント お知らせ 2026年9月8日（火） 中学生対象『外部相談会・説明会』【9/27・10/4（日"
@@ -22697,13 +22661,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-10",
-            "label": "オープンスクール",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www.soai.ed.jp/"
-          },
-          {
             "date": "2026-09-13",
             "label": "プレテスト",
             "reservation": null,
@@ -22719,11 +22676,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://www.soai.ed.jp/",
-        "checkedAt": "2026-09-10",
+        "source": "https://www.soai.ed.jp/news/2026/09/2027.html",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://www.soai.ed.jp/news/2026/06/725.html",
         "applyLabel": "202606.22 202606.22 【オープンスクール】7月25日（土）中学",
-        "evidence": "2026.09.01 オープンスクール情報 【9月26日】オープンスクール受付 本日12時スタート！ お知らせ一覧へ 2026.09.10 クラブ活動報告 新体操部戦績報告（9月6日） 2026.09.07 クラブ活動報告 インターアクトクラブ活動報告（9月4日） 2026.0"
+        "evidence": "同じシステムを使用 ✓成績優秀者は奨学生対象となる特典あり プレテストの受験を通して、入試本番に向けた様々な準備ができます！ 今年は以下の日程で実施いたします。 【第1回】9月13日（日） お申込みは コチラ （8月15日申し込み開始） 9時集合・12時頃終了予定 【復習講座】9月19日（土）13：00 受付 15：3"
       },
       "admissionFee": {
         "amount": 250000,
@@ -23300,6 +23257,13 @@
             "source": "https://www.tokai-gyosei.ed.jp/topics/%e5%b0%8f%e5%ad%a6%e7%94%9f%e5%af%be%e8%b1%a1-%e7%ac%ac%ef%bc%92%e5%9b%9e-%e4%b8%ad%e7%ad%89%e9%83%a8%e3%82%af%e3%83%a9%e3%83%96%e4%bd%93%e9%a8%93%e9%80%b1%e9%96%93%ef%bc%889-14%ef%bd%9e9-20%ef%bc%89/"
           },
           {
+            "date": "2026-09-16",
+            "label": "入試説明会",
+            "reservation": "required",
+            "confidence": "high",
+            "source": "https://www.tokai-gyosei.ed.jp/exam/"
+          },
+          {
             "date": "2026-09-20",
             "label": "クラブ体験",
             "reservation": null,
@@ -23308,15 +23272,31 @@
           },
           {
             "date": "2026-10-24",
-            "label": "オープンスクール",
-            "reservation": null,
+            "label": "個別相談会",
+            "reservation": "required",
             "confidence": "high",
-            "source": "https://www.tokai-gyosei.ed.jp/topics/%e9%ab%98%e6%a0%a1%e3%80%80%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%82%92%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%be%e3%81%97%e3%81%9f-3/"
+            "source": "https://www.tokai-gyosei.ed.jp/exam/"
+          },
+          {
+            "date": "2026-11-07",
+            "label": "オープンスクール",
+            "reservation": "required",
+            "confidence": "high",
+            "source": "https://www.tokai-gyosei.ed.jp/exam/"
+          },
+          {
+            "date": "2026-11-28",
+            "label": "プレテスト",
+            "reservation": "required",
+            "confidence": "high",
+            "source": "https://www.tokai-gyosei.ed.jp/exam/"
           }
         ],
-        "reservation": null,
+        "reservation": "required",
         "source": "https://www.tokai-gyosei.ed.jp/topics/%e5%b0%8f%e5%ad%a6%e7%94%9f%e5%af%be%e8%b1%a1-%e7%ac%ac%ef%bc%92%e5%9b%9e-%e4%b8%ad%e7%ad%89%e9%83%a8%e3%82%af%e3%83%a9%e3%83%96%e4%bd%93%e9%a8%93%e9%80%b1%e9%96%93%ef%bc%889-14%ef%bd%9e9-20%ef%bc%89/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
+        "applyUrl": "https://mirai-compass.net/usr/tgyoseij/event/evtIndex.jsf",
+        "applyLabel": "申込フォーム",
         "evidence": "9/20）のご案内 TOPICS 小学生対象 第２回 中等部クラブ体験週間（9/14～9/20）のご案内 2026.09.01 イベント お知らせ 中等部 ９月１４日（月）～ ９月２０日（日）の約１週間に、小学５、６年生を対象としたクラブ体験会を開催いたしますので、ふるってご参加ください。 （クラブの都合によっ"
       },
       "admissionFee": {
@@ -23406,7 +23386,7 @@
         ],
         "reservation": null,
         "source": "https://www.kori.doshisha.ac.jp/exa/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "れました ［入試情報・イベント］ 2026.06.12 春のオープンキャンパス（第２回）を実施いたしました 一覧を見る 2027年度入試日程・募集人員 日 程 募集人員 中 学 校 前期 2027年1月16日(土) 後期 2027年1月18日(月) 前期 約190名(男子約95名 女子約95名) *内部進学者を含む 後"
       },
       "admissionFee": {
@@ -23676,7 +23656,7 @@
         ],
         "reservation": "required",
         "source": "https://www.naniwa.ed.jp/high/admission/event/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/naniwaj/event/evtIndex.jsf",
         "applyLabel": "イベント申込サイト",
         "evidence": "下記をご参照ください 年間包括傷害保険 オープンキャンパス(授業体験会) 7月11日(土) 9月12日(土) 第2回オープンキャンパス(授業体験会) 9月12日(土) 中学3年生対象 申込受付中 イベント申込サイト 入試説明会・個別相談会 10月2"
@@ -23802,7 +23782,7 @@
         ],
         "reservation": "required",
         "source": "https://www.baika-jh.ed.jp/high-school/exam/infosession/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://www.baika-jh.ed.jp/contact/form4/",
         "applyLabel": "申し込み受付中",
         "evidence": "以下も可） 詳細 WEB お申し込み 申し込み受付中 第4回オープンキャンパス 日時 9/26（土） 対象 中学3年生、保護者対象 （2年生以下も可） 詳細 WEB お申し込み 申し込み受付中 第5回オープンキャンパス 日時 10/24（土"
@@ -23888,58 +23868,6 @@
         "url": "https://www.minkou.jp/hischool/school/review/3624/",
         "fetchedAt": "2026-09-10"
       },
-      "openSchool": {
-        "events": [
-          {
-            "date": "2026-09-12",
-            "label": "オープンキャンパス",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://hagoromogakuen.ed.jp/"
-          },
-          {
-            "date": "2026-09-14",
-            "label": "クラブ体験",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://hagoromogakuen.ed.jp/"
-          },
-          {
-            "date": "2026-09-19",
-            "label": "進学説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://hagoromogakuen.ed.jp/"
-          },
-          {
-            "date": "2026-09-26",
-            "label": "オープンキャンパス",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://hagoromogakuen.ed.jp/"
-          },
-          {
-            "date": "2026-09-27",
-            "label": "進学説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://hagoromogakuen.ed.jp/candidates/"
-          },
-          {
-            "date": "2026-10-17",
-            "label": "オープンキャンパス",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://hagoromogakuen.ed.jp/"
-          }
-        ],
-        "reservation": "required",
-        "source": "https://hagoromogakuen.ed.jp/",
-        "checkedAt": "2026-09-10",
-        "applyUrl": "https://mirai-compass.net/usr/hagormgh/event/evtIndex.jsf",
-        "applyLabel": "9月5日(土)のお申込みはこちら",
-        "evidence": "験Week 2026.07.09 高等学校 【イベント】 【9月12日(土)】高校 第1回オープンキャンパス 2026.08.19 中学校 【イベント】 【9/26(土)】中学校 第2回オープンキャンパス 2026.06.23 中高共通 【イベント"
-      },
       "admissionFee": {
         "amount": 210000,
         "note": "入学金等（施設費などを含む場合がある）",
@@ -24021,13 +23949,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-10",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www.hdk.ed.jp/"
-          },
-          {
             "date": "2026-10-10",
             "label": "学校説明会",
             "reservation": "required",
@@ -24064,11 +23985,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://www.hdk.ed.jp/",
-        "checkedAt": "2026-09-10",
-        "applyUrl": "https://mirai-compass.net/usr/hannanuh/common/login.jsf",
-        "applyLabel": "申込フォーム",
-        "evidence": "報 コース紹介 クラブ活動 進路 採用情報 重要なお知らせ 2026.09.10 学校説明会（10月）申込受付を開始いたしました！ 2025.11.20 カスタマーハラスメントへの対応に関する基本方針について 2024.04.06"
+        "source": "https://www.hdk.ed.jp/entrance/mrrf430000009ors.html",
+        "checkedAt": "2026-09-11",
+        "applyUrl": "https://mirai-compass.net/usr/hannanuh/common/loginEvent.jsf",
+        "applyLabel": "申し込みサイト（外部サイト）",
+        "evidence": "情報 入試説明会・イベント 令和８年度説明会・イベント一覧 学校説明会（事前申込制） ＜開催日時＞ 【第1回】令和8年10月10日（土） 【第2回】令和8年11月14日（土） ＜開催場所＞ 阪南大学高等学校 ＜当日スケジュール＞ 【1部】（定員300名） 9：00 ～ 受付 9：30 ～ 10：30 学校説明会（"
       },
       "admissionFee": {
         "amount": 200000,
@@ -24496,24 +24417,7 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10",
-      "openSchool": {
-        "events": [
-          {
-            "date": "2026-09-10",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://poole.ed.jp/"
-          }
-        ],
-        "reservation": "required",
-        "source": "https://poole.ed.jp/",
-        "checkedAt": "2026-09-10",
-        "applyUrl": "https://poole.ed.jp/news/post-5318/",
-        "applyLabel": "2026.9.3 第69回大阪府内女子中学生英語暗誦大会の申し込みフォームを公開",
-        "evidence": "開行事 転入・編入 英語リスニング問題 お知らせ NEWS 2026.9.10 【高校学校説明会】活動予定クラブ 2026.9.10 【高校学校説明会】西村有加氏による「今日から変えられる！勉強の効率が上がる生活リズムの整え方」特別講演"
-      }
+      "photoFetchedAt": "2026-09-10"
     },
     {
       "id": "priv-minohgakuen",
@@ -24595,7 +24499,7 @@
         ],
         "reservation": null,
         "source": "https://minohgakuen.ed.jp/admissions-events/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "evidence": "4 Sat 第3回 申込期間 10月5日(月)09:00〜 11月13日(金)12:00まで 第1回オープンスクールは終了いたしました。 9月26日 プログラム紹介 箕面学園のオープンスクールは、授業からクラブまで、「やりたいこと」「気になっていること」を"
       },
       "admissionFee": {
@@ -24925,7 +24829,7 @@
         ],
         "reservation": "required",
         "source": "https://www.meisei.ed.jp/news/2026/08/912_1_82210_00.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/omeiseih/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
         "evidence": "9/12(土) 第1回 中学校入試説明会［8/22(土)10 : 00受付開始］ | 大阪明星学園 明星中学校・明星高等学校 メニュー 最新情報 学園情報 理事長・学校長挨拶 明星"
@@ -25056,7 +24960,7 @@
         ],
         "reservation": "required",
         "source": "https://www.momoyamagakuin-h.ed.jp/senior/admissions/event.html",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/momoymgj/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
         "evidence": "; 2026年7月18日（土） 14：30～16：30 プレ説明会 in 桃山 本校 済&nbsp; 2026年9月12日（土） &nbsp;14：00～16：30 クラブ見学・体験会 本校 &nbsp; 2026年9月13日（日） 10：00～12：00 プレ説明会"
@@ -25250,7 +25154,7 @@
         ],
         "reservation": "required",
         "source": "https://www.rishogakuen.ed.jp/tondabayashi/nyushi-jh/event/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/htndbysj/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
         "evidence": "各回 入試説明・個別相談を実施します 詳細はこちら 校外：学校説明会（難波） 申込期間 8月19日(水) 0:00 ～ 9月17日(木) 17:00 開催日時 2026年 9 月 19 日(土) 10:00 開催場所 御堂筋ホール 内容 各回 個別相談を実施します 詳細はこち"
@@ -25551,7 +25455,7 @@
         ],
         "reservation": "required",
         "source": "https://www.ymcagakuin.ac.jp/form/explanation/",
-        "checkedAt": "2026-09-10",
+        "checkedAt": "2026-09-11",
         "applyUrl": "https://www.ymcagakuin.ac.jp/form/explanation/",
         "applyLabel": "説明会申し込みはこちら",
         "evidence": "オープンスクール 学校説明会 ※中学3年生が対象 --> 【オープンスクール（中学生対象）】09月26日(土) 10時30分 ～ 12時30分 【オープンスクール（中学生対象）】09月26日(土) 14時00分 ～ 16時00分 【オープンスクール（"
