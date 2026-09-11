@@ -2583,15 +2583,7 @@
         "sourceUrl": "https://www.pref.osaka.lg.jp/o180140/kyoishisetsu/furitukoukou/index.html"
       },
       "openSchool": {
-        "events": [
-          {
-            "date": "2027-01-30",
-            "label": "学校見学会",
-            "reservation": "required",
-            "confidence": "mid",
-            "source": "https://www2.osaka-c.ed.jp/kaifukan/folder_02/post-68/"
-          }
-        ],
+        "events": [],
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/kaifukan/folder_02/post-68/",
         "checkedAt": "2026-09-11",
@@ -3062,13 +3054,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-20",
-            "label": "学校見学会",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://kitasenri.ed.jp/junior/"
-          },
-          {
             "date": "2026-11-07",
             "label": "学校見学会",
             "reservation": null,
@@ -3288,13 +3273,6 @@
       },
       "openSchool": {
         "events": [
-          {
-            "date": "2026-09-11",
-            "label": "説明会",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www2.osaka-c.ed.jp/suitahigashi/"
-          },
           {
             "date": "2026-09-16",
             "label": "オープンスクール",
@@ -6660,22 +6638,7 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10",
-      "openSchool": {
-        "events": [
-          {
-            "date": "2026-09-11",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www3.osaka-c.ed.jp/miyakojima-t/"
-          }
-        ],
-        "reservation": null,
-        "source": "https://www3.osaka-c.ed.jp/miyakojima-t/",
-        "checkedAt": "2026-09-11",
-        "evidence": "6/09/11 ⏰9月12日（土）の公開授業時間割はこちら 2026/09/11 【9/12学校説明会・体験入学にご参加の中学生・保護者の皆様へ】 午前中の公開授業・食堂営業について 2026/09/11 令和8年度 中学生向け公開授業（授業"
-      }
+      "photoFetchedAt": "2026-09-10"
     },
     {
       "id": "pref-nishinoda",
@@ -7719,20 +7682,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-10-31",
-            "label": "オープンスクール",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://obf-hs.com/"
-          },
-          {
-            "date": "2026-12-12",
-            "label": "オープンスクール",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://obf-hs.com/"
-          },
-          {
             "date": "2027-03-18",
             "label": "説明会",
             "reservation": null,
@@ -8142,22 +8091,7 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10",
-      "openSchool": {
-        "events": [
-          {
-            "date": "2026-09-11",
-            "label": "体験入学",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www3.osaka-c.ed.jp/higashiyodo-t/"
-          }
-        ],
-        "reservation": null,
-        "source": "https://www3.osaka-c.ed.jp/higashiyodo-t/",
-        "checkedAt": "2026-09-11",
-        "evidence": "学校名を入れてください Information お知らせ 2026/09/11 2年修学旅行4日目① 2026/09/11 2年生修学旅行3日目⑥ 2026/09/11 令和８年度 体験入学 申し込みについて 2026/09/10 2年生修学旅行3日目⑤ 2026/09/10 2年生修学旅行3日目④ お知らせ一覧 Bl"
-      }
+      "photoFetchedAt": "2026-09-10"
     },
     {
       "id": "pref-kitano",
@@ -9944,15 +9878,7 @@
       "photoSource": "Wikimedia Commons",
       "photoFetchedAt": "2026-09-10",
       "openSchool": {
-        "events": [
-          {
-            "date": "2026-09-11",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www.osaka-c.ed.jp/higashisumiyoshi/"
-          }
-        ],
+        "events": [],
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/higashisumiyoshi/",
         "checkedAt": "2026-09-11",
@@ -11716,13 +11642,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-11",
-            "label": "説明会",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://semboku-h.ed.jp/blog/news/%e5%90%88%e6%a0%bc%e8%80%85%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%81%8a%e3%82%88%e3%81%b3%e7%89%a9%e5%93%81%e8%b2%a9%e5%a3%b2%e3%83%bb%e6%b3%a8%e6%96%87%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6-2/"
-          },
-          {
             "date": "2026-10-24",
             "label": "学校説明会",
             "reservation": null,
@@ -11985,13 +11904,6 @@
             "label": "オープンスクール",
             "reservation": null,
             "confidence": "high",
-            "source": "https://sakai-higashi.ed.jp/exam/events/"
-          },
-          {
-            "date": "2026-09-20",
-            "label": "説明会",
-            "reservation": null,
-            "confidence": "mid",
             "source": "https://sakai-higashi.ed.jp/exam/events/"
           },
           {
@@ -13234,15 +13146,7 @@
         "fetchedAt": "2026-09-10"
       },
       "openSchool": {
-        "events": [
-          {
-            "date": "2026-09-11",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://sano-h.ed.jp/"
-          }
-        ],
+        "events": [],
         "reservation": "required",
         "source": "https://sano-h.ed.jp/",
         "checkedAt": "2026-09-11",
@@ -17078,13 +16982,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-11",
-            "label": "オープンスクール",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www.shodaisakai.ac.jp/"
-          },
-          {
             "date": "2026-09-12",
             "label": "オープンスクール",
             "reservation": "required",
@@ -17190,43 +17087,7 @@
         "fetchedAt": "2026-09-10"
       },
       "openSchool": {
-        "events": [
-          {
-            "date": "2026-09-12",
-            "label": "オープンキャンパス",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www.osaka-jogakuin.ed.jp/"
-          },
-          {
-            "date": "2026-09-29",
-            "label": "入試説明会",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www.osaka-jogakuin.ed.jp/"
-          },
-          {
-            "date": "2026-10-03",
-            "label": "入試説明会",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www.osaka-jogakuin.ed.jp/"
-          },
-          {
-            "date": "2026-10-24",
-            "label": "オープンキャンパス",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www.osaka-jogakuin.ed.jp/"
-          },
-          {
-            "date": "2026-11-07",
-            "label": "入試説明会",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "https://www.osaka-jogakuin.ed.jp/"
-          }
-        ],
+        "events": [],
         "reservation": "required",
         "source": "https://www.osaka-jogakuin.ed.jp/",
         "checkedAt": "2026-09-11",
@@ -20516,13 +20377,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-11",
-            "label": "オープンスクール",
-            "reservation": null,
-            "confidence": "mid",
-            "source": "http://konkoyao.ed.jp/"
-          },
-          {
             "date": "2026-09-26",
             "label": "プレテスト",
             "reservation": null,
@@ -22005,13 +21859,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-11",
-            "label": "プレテスト",
-            "reservation": "required",
-            "confidence": "high",
-            "source": "https://www.seifu.ac.jp/"
-          },
-          {
             "date": "2026-09-12",
             "label": "学校説明会",
             "reservation": null,
@@ -22045,14 +21892,21 @@
             "reservation": "required",
             "confidence": "high",
             "source": "https://www.seifu.ac.jp/"
+          },
+          {
+            "date": "2026-11-21",
+            "label": "入試説明会",
+            "reservation": "required",
+            "confidence": "high",
+            "source": "https://www.seifu.ac.jp/"
           }
         ],
         "reservation": "required",
-        "source": "https://www.seifu.ac.jp/",
+        "source": "https://www.seifu.ac.jp/expl-junior/",
         "checkedAt": "2026-09-11",
         "applyUrl": "https://mirai-compass.net/usr/oseifuj/event/evtIndex.jsf",
         "applyLabel": "お申込みはこちら",
-        "evidence": "実施決定‼ 【新設】2026年10月17日(土) 清風中学校プレテスト【事前申込必要】 2026年9月11日(金)・12日(土) 文化祭 ※文化祭2日目に第2回学校説明会を実施します【事前予約必要】 2026年10月24日(土) 第1回 入試説明会【事前"
+        "evidence": "26年9月12日（土）文化祭（2日目）9:00～16:00 2026年9月12日（土）第2回 学校説明会 11:00～12:30 予約受付期間 2026年8月1日（土）9:00～9月10日（木）12:00 対象 小学生・その保護者 ※学校説明会"
       },
       "admissionFee": {
         "amount": 230000,
