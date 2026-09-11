@@ -324,8 +324,38 @@
         ? r.school.lastYearRatio + '倍' + (r.school.lastYearUnderCapacity ? '（定員割れ）' : '')
         : '—')],
       ['入学金', (r) => feeText(r.school)],
+      ['授業料（年額）', (r) => {
+        const f = r.school.admissionFee;
+        return f && typeof f.tuitionPerYear === 'number'
+          ? f.tuitionPerYear.toLocaleString('ja-JP') + '円' : '—';
+      }],
+      ['次の説明会', (r) => {
+        const next = upcomingEvents(r.school)[0];
+        return next ? fmtEventDate(next.date) + '　' + next.label : '—';
+      }],
+      ['申込', (r) => {
+        const os = r.school.openSchool;
+        if (!os) return '—';
+        return RESERVATION_LABEL[os.reservation] || (os.applyUrl ? '要申込' : '公式で確認');
+      }],
       ['男女', (r) => ({ boys: '男子校', girls: '女子校' }[r.school.gender] || '共学')],
-      ['所在地', (r) => r.school.city || r.school.address || '—']
+      ['所在地', (r) => r.school.city || r.school.address || '—'],
+      // 写真はセルの中に小さく出す。タップすれば拡大表示が開く。
+      ['写真', (r) => {
+        const ps = r.school.photos;
+        if (!ps || !ps.length) return '—';
+        const btn = el('button', 'photo cmp-photo');
+        btn.type = 'button';
+        btn.title = 'タップで拡大';
+        const img = document.createElement('img');
+        img.src = ps[0].thumb;
+        img.alt = r.school.name + 'の写真';
+        img.loading = 'lazy';
+        img.addEventListener('error', () => { btn.replaceWith(document.createTextNode('—')); });
+        btn.appendChild(img);
+        btn.addEventListener('click', () => openLightbox(r.school, 0));
+        return btn;
+      }]
     ];
 
     const table = el('table', 'compare');
@@ -345,7 +375,10 @@
       const tr = el('tr');
       tr.appendChild(el('th', 'rowhead', label));
       rows.forEach((r) => {
-        const td = el('td', cls && cls(r) ? 'judge-cell ' + cls(r) : null, String(get(r)));
+        const value = get(r);
+        const td = el('td', cls && cls(r) ? 'judge-cell ' + cls(r) : null);
+        if (value instanceof Node) td.appendChild(value);
+        else td.textContent = String(value);
         tr.appendChild(td);
       });
       tbody.appendChild(tr);
@@ -354,7 +387,8 @@
     wrap.appendChild(table);
 
     const note = el('p', 'hint',
-      '通学時間は概算、偏差値は想定値です。入学金は公立のみ確定額で、私立は各校の募集要項で確認してください。');
+      '通学時間は概算、偏差値は想定値です。説明会の日程は公式サイトからの自動取得なので、' +
+      '申込前に必ず学校のサイトで確認してください。');
     wrap.appendChild(note);
   }
 
@@ -394,8 +428,16 @@
     // 定員割れは倍率の低い順。定員割れでない学校は後ろにまとめる。
     under: (a, b) => underRatio(a) - underRatio(b),
     boys: (a, b) => genderRank(a, 'boys') - genderRank(b, 'boys'),
-    girls: (a, b) => genderRank(a, 'girls') - genderRank(b, 'girls')
+    girls: (a, b) => genderRank(a, 'girls') - genderRank(b, 'girls'),
+    // 申し込みの締切が近い順に見たいので、次の日程が早い学校を上に出す。
+    // 日程を取得できていない学校は後ろにまとめる。
+    openschool: (a, b) => nextEventDay(a) - nextEventDay(b)
   };
+
+  function nextEventDay(r) {
+    const next = upcomingEvents(r.school)[0];
+    return next ? parseDate(next.date).getTime() : Infinity;
+  }
 
   function underRatio(r) {
     const s = r.school;

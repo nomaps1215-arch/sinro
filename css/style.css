@@ -1040,6 +1040,8 @@ table.compare td { min-width: 140px; }
 }
 .photos-note a { color: var(--accent); }
 
+.photo.cmp-photo { width: 88px; height: 62px; }
+
 /* 拡大表示。画面いっぱいの黒地に1枚。 */
 body.lightbox-open { overflow: hidden; }
 .lightbox {

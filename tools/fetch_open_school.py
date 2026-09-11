@@ -107,6 +107,14 @@ RE_OTHER_EVENT = re.compile(
     r"考査|定期試験|実力テスト|模試|文化祭|体育祭|運動会|球技大会|遠足|代休|"
     r"休業|締切|締め切り|講習|面談|懇談|振替|検定|開始|発表"
 )
+# 申込を受け付ける「期間」の日付。行事の日ではないので拾わない。
+# 山田高校の「第１期申し込み期間：9月1日（月）～ 9月11日（金）16時」を
+# 見学会の日として登録してしまっていた。
+RE_PERIOD = re.compile(
+    r"申込期間|申し込み期間|申込み期間|受付期間|申込期限|受付期限|応募期間|"
+    r"エントリー期間|受付開始|申込開始|受付は|期間："
+)
+PERIOD_BEFORE = 40      # 日付の前のどこまでを「期間の見出し」とみなすか
 ADJACENT = 14      # 「すぐ隣」とみなす文字数
 
 # ---- 申込の要否 ---------------------------------------------------------
@@ -352,7 +360,9 @@ def find_events(text: str, source: str, today: dt.date) -> list[dict]:
     #   「オープンキャンパス 9月20日（日） 個別相談会 10月10日（土）」＝後ろ
     #   「9月19日（土） 学校説明会 9月25日（金） 生徒指導週間」＝前（年間行事予定表）
     # 片側にしか候補が無い行事名でどちらの並びかを数え、迷ったときはその向きに従う。
-    def candidates_for(ks: int, ke: int) -> list:
+    dominant = None
+
+    def candidates_for(ks: int, ke: int, check_own: bool = True) -> list:
         out = []
         for i, c in enumerate(live):
             if ks <= c["start"] <= ke:
@@ -370,9 +380,22 @@ def find_events(text: str, source: str, today: dt.date) -> list[dict]:
             # そちらのものなので使わない。
             if RE_OTHER_EVENT.search(text[lo:hi]):
                 continue
-            # 日付が行事名より前にある並び（「合格発表 3月18日 学校説明会 …」）では、
-            # 日付の直前にある語がその日付の見出しになる。そこが別の行事なら使わない。
-            if side < 0 and RE_OTHER_EVENT.search(text[max(0, c["start"] - ADJACENT): c["start"]]):
+            # 「申込期間：9月1日～9月11日」のような受付期間の日付を弾く。
+            # 期間の見出しは必ず日付の前に来るので、向きによらず前だけ見る。
+            if RE_PERIOD.search(text[max(0, c["start"] - PERIOD_BEFORE): c["start"]]):
+                continue
+            # その日付自身の見出しが別の行事なら、この行事のものではない。
+            # 見出しが日付の前に来るか後ろに来るかはページごとに揃っているので、
+            # 多数決で分かった向きの側を見る。
+            #   「合格発表 3月18日 学校説明会 …」        見出しは日付の前
+            #   「… プレテスト 9月11日(金) 文化祭 …」    見出しは日付の後ろ
+            # 向きが分からないページでは、どちらに見出しがあっても捨てる。
+            before = text[max(0, c["start"] - ADJACENT): c["start"]]
+            after = text[c["end"]: c["end"] + ADJACENT]
+            own = [before] if dominant == 1 else [after] if dominant == -1 else [before, after]
+            # 並びの向きを数えている最中はこの判定を使わない。
+            # 向きが未定のうちは両側を見てしまい、数える材料まで消えてしまう。
+            if check_own and any(RE_OTHER_EVENT.search(x) for x in own):
                 continue
             out.append((dist, side, c))
         out.sort(key=lambda x: x[0])
@@ -380,11 +403,10 @@ def find_events(text: str, source: str, today: dt.date) -> list[dict]:
 
     votes = {-1: 0, 1: 0}
     for ks, ke, _ in keywords:
-        cands = candidates_for(ks, ke)
+        cands = candidates_for(ks, ke, check_own=False)
         sides = {c[1] for c in cands}
         if len(cands) == 1 or len(sides) == 1:
             votes[cands[0][1]] = votes.get(cands[0][1], 0) + 1 if cands else 0
-    dominant = None
     if votes[-1] != votes[1]:
         dominant = -1 if votes[-1] > votes[1] else 1
 
