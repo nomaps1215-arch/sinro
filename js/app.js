@@ -338,6 +338,13 @@
         if (!os) return '—';
         return RESERVATION_LABEL[os.reservation] || (os.applyUrl ? '要申込' : '公式で確認');
       }],
+      ['定期代', (r) => {
+        const url = fareSearchUrl(c.stationName, r.nearest && r.nearest.name);
+        if (!url) return '—';
+        const a = link(url, '調べる');
+        a.title = c.stationName + '駅からの運賃と定期代';
+        return a;
+      }],
       ['男女', (r) => ({ boys: '男子校', girls: '女子校' }[r.school.gender] || '共学')],
       ['所在地', (r) => r.school.city || r.school.address || '—'],
       // 写真はセルの中に小さく出す。タップすれば拡大表示が開く。
@@ -848,6 +855,12 @@
       ab.classList.add('apply');
       p.appendChild(ab);
     }
+    const fareUrl = fareSearchUrl(c.stationName, row.nearest && row.nearest.name);
+    if (fareUrl) {
+      p.appendChild(button(fareUrl, '定期代',
+        c.stationName + '駅から' + row.nearest.name + '駅までの運賃と定期代を調べる' +
+        '（Yahoo!路線情報。結果の「定期券」を押すと通学定期の額が出ます）'));
+    }
     if (s.website) p.appendChild(button(s.website, '公式', '公式サイトを開く'));
     p.appendChild(
       button(
@@ -1224,6 +1237,18 @@
     }
     box.appendChild(note);
     return box;
+  }
+
+  // ---- 定期代 ------------------------------------------------------------
+  // 鉄道運賃は事業者ごとの運賃表で決まり、機械で読める公開データが無い。
+  // 距離から推定すると、営業キロの誤差と定期割引の違いが二重に乗って
+  // 数千円ずれる。金額は出さず、正確な額が出る検索へ乗車駅と降車駅を
+  // 渡して飛ばす。ここは推測で埋めてよい数字ではない。
+  function fareSearchUrl(fromStation, toStation) {
+    if (!fromStation || !toStation) return null;
+    const q = (s) => encodeURIComponent(s);
+    return 'https://transit.yahoo.co.jp/search/result?from=' + q(fromStation) +
+      '&to=' + q(toStation) + '&type=1&ticket=ic&expkind=1&ei=utf8';
   }
 
   function button(href, text, tip) {
