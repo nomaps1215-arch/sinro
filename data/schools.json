@@ -2819,7 +2819,7 @@
         "checkedAt": "2026-09-12",
         "applyUrl": "https://forms.gle/vea3ztxJH4xQKKbq8",
         "applyLabel": "申込フォーム",
-        "evidence": "細が決まり次第、本校ホームページで公開いたします。 ◎第１回体験入学⇒ 【詳細ページ】 開催日時 : 令和８年 ９月 １２日(土) １４:００～１６:００(受付 １３:３０～) ※各コース定員がありますので注意してください。 ◎第２回体験入学 開催日時 : 令和８年 １"
+        "evidence": "細が決まり次第、本校ホームページで公開いたします。 ◎第１回体験入学⇒ 【終了しました】 開催日時 : 令和８年 ９月 １２日(土) １４:００～１６:００(受付 １３:３０～) ※各コース定員がありますので注意してください。 ◎第２回体験入学 開催日時 : 令和８年 １"
       },
       "photos": [
         {
@@ -6766,7 +6766,22 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-10-10",
+            "label": "オープンスクール",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www3.osaka-c.ed.jp/sakuyakonohana/"
+          }
+        ],
+        "reservation": null,
+        "source": "https://www3.osaka-c.ed.jp/sakuyakonohana/",
+        "checkedAt": "2026-09-12",
+        "evidence": "プ 中学生の皆さまへ 中学生の皆さまへ 令和８年度 第１回 オープンスクール（10月10日（土）実施）について 令和８年度オープンスクール・学校説明会 令和７年度 第１回 オープンスクール（10月11日（土）実施）について 令和７年度"
+      }
     },
     {
       "id": "pref-chuo",
@@ -17803,8 +17818,8 @@
         "source": "http://www.osakatoin.ed.jp/",
         "checkedAt": "2026-09-12",
         "applyUrl": "https://www.osakatoin.ed.jp/archives/22617/",
-        "applyLabel": "2026.09.02 【申込】10/3(土)開催 中学校高等学校入試説明会のご案",
-        "evidence": "対象 体験授業を実施しました 2026.09.02 【申込】10/3(土)開催 中学校高等学校入試説明会のご案内 お知らせ 学校全体 2026.09.05 中学 【イベント】9月5日(土)小学4・5年生対象 体験授業を実施しました 2026.0"
+        "applyLabel": "2026.09.02 中学 高校 【申込】10/3(土)開催 中学校高等学校入試",
+        "evidence": "業を実施しました 2026.09.02 中学 高校 【申込】10/3(土)開催 中学校高等学校入試説明会のご案内 2026.09.01 中学 入試 中学入学試験プレテストのご案内 2026.08.28 中学 高校 第38回国際生物学オリンピック"
       },
       "admissionFee": {
         "amount": 200000,
@@ -18149,14 +18164,14 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-12",
+            "date": "2026-09-19",
             "label": "入試説明会",
             "reservation": null,
             "confidence": "high",
             "source": "https://www.osk-ohtani.ed.jp/"
           },
           {
-            "date": "2026-09-19",
+            "date": "2026-09-26",
             "label": "入試説明会",
             "reservation": null,
             "confidence": "high",
@@ -18168,7 +18183,7 @@
         "checkedAt": "2026-09-12",
         "applyUrl": "https://mirai-compass.net/usr/oskotanj/event/evtIndex.jsf",
         "applyLabel": "ログインして申込む （はじめての方もこちらから）",
-        "evidence": "vents 入試イベント情報 中学入試EVENTS Sat 9/12 (土) オータニ サタデー サイエンス⑤ Sat 9/19 (土) 第一回入試説明会 中学入試イベント情報一覧 高校入試EVENTS Sat 9/19 (土) 第1回 高校入試説明会 Sat 9/26 (土) 文化祭1日目"
+        "evidence": "vents 入試イベント情報 中学入試EVENTS Sat 9/19 (土) 第一回入試説明会 Sat 9/26 (土) 文化祭① 中学入試イベント情報一覧 高校入試EVENTS Sat 9/19 (土) 第1回 高校入試説明会 Sa"
       },
       "admissionFee": {
         "amount": 240000,
@@ -18234,13 +18249,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-12",
-            "label": "入試説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://kaimei.ed.jp/"
-          },
-          {
             "date": "2026-10-03",
             "label": "入試説明会",
             "reservation": null,
@@ -18260,7 +18268,7 @@
         "checkedAt": "2026-09-12",
         "applyUrl": "https://mirai-compass.net/usr/kaimeij/event/evtIndex.jsf",
         "applyLabel": "中学校イベント申込",
-        "evidence": "）開催｜「中学」授業見学会 2026-08-01 入試情報 ９/12（土）開催｜「高校」入試説明会 2026-06-24 入試情報 令和９年度「高校１次」生徒募集要項のお知らせ 2026-06-24 入試情報 令和９年度「中学校」生徒募集"
+        "evidence": "）開催｜「中学」授業見学会 2026-08-27 入試情報 10/３（土）開催｜「中学」入試説明会 2026-08-21 入試情報 外部説明会（８月～11月開催分） 2026-08-12 入試情報 ９/19（土）開催｜「中学」授業見学会"
       },
       "admissionFee": {
         "amount": 200000,
@@ -21024,7 +21032,7 @@
         "checkedAt": "2026-09-12",
         "applyUrl": "https://mirai-compass.net/usr/joshogj/event/evtIndex.jsf",
         "applyLabel": "各種イベント申込み",
-        "evidence": "「第3回授業見学会」を実施しました 2026.09.07 入試説明会 【中学】9/12（土）「第1回・入試説明会」開催 2026.08.31 お知らせ 【受験を検討されている方対象】9/19(土)『文化祭』見学希… 2026.08."
+        "evidence": "NS INFO. 入試情報 中学入試 2026.09.12 入試説明会 9/12（土）「第1回入試説明会」を実施しました 2026.09.12 お知らせ サバンナ八木の受験生聞こえますかーっ！～有名私立中学受験ナビ… 2026"
       },
       "admissionFee": {
         "amount": 220000,
@@ -24430,40 +24438,19 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-12",
-            "label": "入試説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://www.meisei.ed.jp/news/2026/08/912_1_82210_00.html"
-          },
-          {
             "date": "2026-09-26",
             "label": "オープンスクール",
             "reservation": null,
             "confidence": "high",
             "source": "http://www.meisei.ed.jp/"
-          },
-          {
-            "date": "2026-10-31",
-            "label": "個別相談会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://www.meisei.ed.jp/news/2026/08/912_1_82210_00.html"
-          },
-          {
-            "date": "2026-11-28",
-            "label": "プレテスト",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://www.meisei.ed.jp/news/2026/08/912_1_82210_00.html"
           }
         ],
         "reservation": "required",
-        "source": "https://www.meisei.ed.jp/news/2026/08/912_1_82210_00.html",
+        "source": "http://www.meisei.ed.jp/",
         "checkedAt": "2026-09-12",
         "applyUrl": "https://mirai-compass.net/usr/omeiseih/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "9/12(土) 第1回 中学校入試説明会［8/22(土)10 : 00受付開始］ | 大阪明星学園 明星中学校・明星高等学校 メニュー 最新情報 学園情報 理事長・学校長挨拶 明星"
+        "evidence": "【メディア掲載】読売新聞に本校の図書館活動が紹介されました 2026.8.29 9/26（土） 第２回明星高等学校オープンスクール［9/5（土）10:00 受付開始］ 2026.8.22 9/19(土) 受験生対象 学園祭見学会 参加申込［8/29(土) 10 : 00"
       },
       "admissionFee": {
         "amount": 240000,
