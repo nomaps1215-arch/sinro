@@ -1633,7 +1633,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www3.osaka-c.ed.jp/higashi/",
-        "evidence": "nformation お知らせ 2026/09/11 第２回オープンスクール〔9/26（土）開催〕 参加申込 2026/09/05 E-fes文化の部2026 2日目 2026/09/04 E-fes文化の部2026 1日目 202"
+        "evidence": "nformation お知らせ 2026/09/11 第２回オープンスクール〔9/26（土）開催〕 参加申込 2026/08/31 普通科１年生宿泊体験学習実施報告⑤ 2026/08/31 普通科１年生宿泊体験学習実施報告④ 202"
       }
     ],
     "apply": null,
@@ -2270,7 +2270,7 @@
       }
     ],
     "apply": {
-      "url": "https://osaka-city-ib.jp/blog/senior/entry-963.html",
+      "url": "https://osaka-city-ib.jp/blog/common/entry-964.html",
       "label": "申込フォーム"
     },
     "note": ""
@@ -2885,7 +2885,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://semboku-h.ed.jp/",
-        "evidence": "業生の皆さまへ 最近の記事 過去の記事 2026/9/14 学校説明会に来られる中学生・保護者の皆様へ 令和8年10月24日（土）開催 2026/9/11 保健室より ほけんだよりを発行しました 2026/9/8 泉北高校女子バレーボール部 体験練習会のお知らせ 202"
+        "evidence": "護者の皆さまへ 最近の記事 過去の記事 2026/9/14 学校説明会に来られる中学生・保護者の皆様へ 令和8年10月24日（土）開催 2026/9/11 保健室より ほけんだよりを発行しました 2026/9/8 泉北高校女子バレーボール部 体験練習会のお知らせ 202"
       }
     ],
     "apply": {
@@ -3166,8 +3166,8 @@
       }
     ],
     "apply": {
-      "url": "https://izumi-hs.ed.jp/for-junior/open-school/page-1932/",
-      "label": "夏のオープンキャンパス【受付終了】 令和8年8月21日（金） ※夏のオープンキャ"
+      "url": "https://izumi-hs.ed.jp/for-junior/open-school/page-2229/",
+      "label": "秋の学校説明会【受付開始日決定】 10月24日（土）開催の「秋の学校説明会」の申"
     },
     "note": ""
   },
@@ -3443,6 +3443,14 @@
         "confidence": "high",
         "source": "https://teshima-hs.ed.jp/infomation/",
         "evidence": "くと申込フォームにリンクします。 ・申込はコチラ 直前学校 説明会 令和９年 2月13日 (土) ・申込は1月25日16:30から２月12日9:00まで。定員になり次第締め切ります。 学校説明 9:30～ 受付開始 10:00～11:3"
+      },
+      {
+        "date": "2027-09-12",
+        "label": "部活動体験",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://teshima-hs.ed.jp/",
+        "evidence": "まだ記事がありません。 --> Blog ブログ新着記事 部活動体験会 報告と次回予告♡ 2026.09.14 部活動ブログ 9月12日（日）に練習体験会を実施しました。 &nbsp; 明るく礼儀正しい中学生の皆さんが参加してくれました。 ひとつひとつの練習を丁寧に学ぼうとする、一"
       }
     ],
     "apply": {
@@ -4324,8 +4332,28 @@
     "website": "http://www.osaka-jogakuin.ed.jp",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-09-29",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osaka-jogakuin.ed.jp/event/2543/",
+        "evidence": "26.9.29 大阪女学院 塾対象入試説明会 塾の先生方向け説明会の内容について 対象 塾の先生 日時 2026年9月29日（火）10時30分〜12時00分 （受付開始時間：10時10分） 会場 ヘールチャペル（本校正門から入って正面の建物です） 申し込み方法 住所をご"
+      },
+      {
+        "date": "2026-10-03",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osaka-jogakuin.ed.jp/event/2545/",
+        "evidence": "保護者 受験生 2026.10.3 第1回中学校入試説明会 入試説明会の内容について 対象 受験生、保護者 日時 2026年10月3日（土）13時00分〜14時00分 （受付開始時間：12時30分） 会場 チャペル 注意事項 ウェブ申し込みは不要です。 2027年度中学校入試のた"
+      }
+    ],
+    "apply": {
+      "url": "https://form.run/@2026Juku-02",
+      "label": "申し込みはこちら（９月１日〜）"
+    },
     "note": ""
   },
   {
@@ -4388,39 +4416,11 @@
     "id": "priv-osakaseiko",
     "name": "大阪星光学院高等学校",
     "website": "http://www.osakaseiko.ac.jp/",
-    "reached": true,
-    "pages": 4,
-    "events": [
-      {
-        "date": "2026-10-03",
-        "label": "入試説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.osakaseiko.ac.jp/topics/topics-1008/",
-        "evidence": "PICS お知らせ 2026.09.03 2027年度 中学入試説明会 のご案内 ＰＤＦ版は こちらから １．実施日時 第１回 １０月３日（土） １４時００分～（受付１３時３０分～） 第２回 １０月１０日（土） １４時００分～（受付１３時３０分～） 第３回 １１月１４日（土） １４時００分～（受付１３時３０分～） ※ "
-      },
-      {
-        "date": "2026-10-10",
-        "label": "入試説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.osakaseiko.ac.jp/topics/topics-1008/",
-        "evidence": "PICS お知らせ 2026.09.03 2027年度 中学入試説明会 のご案内 ＰＤＦ版は こちらから １．実施日時 第１回 １０月３日（土） １４時００分～（受付１３時３０分～） 第２回 １０月１０日（土） １４時００分～（受付１３時３０分～） 第３回 １１月１４日（土） １４時００分～（受付１３時３０分～） ※ "
-      },
-      {
-        "date": "2026-11-14",
-        "label": "入試説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.osakaseiko.ac.jp/topics/topics-1008/",
-        "evidence": "PICS お知らせ 2026.09.03 2027年度 中学入試説明会 のご案内 ＰＤＦ版は こちらから １．実施日時 第１回 １０月３日（土） １４時００分～（受付１３時３０分～） 第２回 １０月１０日（土） １４時００分～（受付１３時３０分～） 第３回 １１月１４日（土） １４時００分～（受付１３時３０分～） ※ "
-      }
-    ],
-    "apply": {
-      "url": "https://mirai-compass.net/usr/oseikogj/event/evtIndex.jsf",
-      "label": "申込フォーム"
-    },
-    "note": ""
+    "reached": false,
+    "pages": 0,
+    "events": [],
+    "apply": null,
+    "note": "取得できず（<urlopen error [Errno 101] Network is unreachable>）"
   },
   {
     "id": "priv-osakaseiryo",
@@ -5652,12 +5652,20 @@
     "pages": 4,
     "events": [
       {
+        "date": "2026-09-19",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osaka-seisho.ed.jp/",
+        "evidence": "2026.09.14 重要なお知らせ 入試情報 [入試情報]9/19(土)城東区民センターに星翔高校がうかがいます！ 2026.09.14 重要なお知らせ 入試情報 第1回 学校説明会を実施しました！ 2026.09.13 校長室だより 入試情報 9/13(日)「第１回学校説明会」のため来校される皆さまへ 2026.0"
+      },
+      {
         "date": "2026-10-17",
         "label": "オープンスクール",
         "reservation": null,
         "confidence": "high",
         "source": "https://www.osaka-seisho.ed.jp/",
-        "evidence": "port HTML5 video tag. 重要なお知らせ 2026.09.14 10/17(土)第１回オープンスクール 申込受付中！ 2026.09.10 9/13(日)「第１回学校説明会」のため来校される皆さまへ 2026.09.09 気象警報発令時の臨時"
+        "evidence": "port HTML5 video tag. 重要なお知らせ 2026.09.14 10/17(土)第１回オープンスクール 申込受付中！ 2026.09.14 [入試情報]9/19(土)城東区民センターに星翔高校がうかがいます！ 2026.09.09 気象警報発"
       }
     ],
     "apply": {
@@ -5679,39 +5687,39 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://www.seifu.ac.jp/",
-        "evidence": "ます Open School 2027年度入試 学校説明会・入試説明会 10/17（土）に中学校プレテスト実施決定‼ 【新設】2026年10月17日(土) 清風中学校プレテスト【事前申込必要】 2026年9月11日(金)・12日"
+        "evidence": "ます Open School 2027年度入試 学校説明会・入試説明会 10/17（土）に中学校プレテスト実施決定‼ 【新設】2026年10月17日(土) 清風中学校プレテスト【事前申込必要】 2026年10月24日(土) 第1"
       },
       {
         "date": "2026-10-24",
-        "label": "学校説明会",
+        "label": "プレテスト",
         "reservation": "required",
         "confidence": "high",
         "source": "https://www.seifu.ac.jp/",
-        "evidence": "月11日(金)・12日(土) 文化祭 ※文化祭2日目に第2回学校説明会を実施します【事前予約必要】 2026年10月24日(土) 第1回 入試説明会【事前予約必要】 2026年11月14日(土) 第2回 入試説明会【事前予約必要】 2026年12月5日(土) 第3回"
+        "evidence": "実施決定‼ 【新設】2026年10月17日(土) 清風中学校プレテスト【事前申込必要】 2026年10月24日(土) 第1回 入試説明会【事前予約必要】 2026年11月14日(土) 第2回 入試説明会【事前予約必要】 2026年12月5日(土) 第3回"
       },
       {
         "date": "2026-10-25",
         "label": "入試説明会",
         "reservation": "required",
         "confidence": "high",
-        "source": "https://www.seifu.ac.jp/expl-junior/",
-        "evidence": "9:00～9月10日（木）23:59 場所 本校 高等学校 2026年10月25日(日) 第3回 高校入試説明会（+体験授業）【事前予約必要】 日時 2026年10月25日（日） 9:30～体験授業 10:30～説明会 予約受付期間 2026年7月25"
+        "source": "https://www.seifu.ac.jp/",
+        "evidence": "説明会【事前予約必要】 イベント情報一覧 お申込みはこちら 2026年10月25日(日) 第3回 高校入試説明会（+体験授業）【事前予約必要】 2026年11月21日(土) 第4回 高校入試説明会【事前予約必要】 2026年12月6日(日) 高校入試個"
       },
       {
         "date": "2026-11-14",
         "label": "入試説明会",
         "reservation": "required",
         "confidence": "high",
-        "source": "https://www.seifu.ac.jp/expl-junior/",
-        "evidence": "3:59 対象 小学6年生・その保護者 場所 本校 中学校 2026年11月14日(土) 第2回 入試説明会【事前予約必要】 個別のご相談にも対応いたしますので、本校へ直接お問い合せください。 日時 2026年11月14日（土）14:30より 予約"
+        "source": "https://www.seifu.ac.jp/",
+        "evidence": "スト【事前申込必要】 2026年10月24日(土) 第1回 入試説明会【事前予約必要】 2026年11月14日(土) 第2回 入試説明会【事前予約必要】 2026年12月5日(土) 第3回 入試説明会【事前予約必要】 イベント情報一覧 お申込みはこちら 2"
       },
       {
         "date": "2026-11-21",
         "label": "入試説明会",
         "reservation": "required",
         "confidence": "high",
-        "source": "https://www.seifu.ac.jp/",
-        "evidence": "【事前予約必要】 2026年10月25日(日) 第3回 高校入試説明会（+体験授業）【事前予約必要】 2026年11月21日(土) 第4回 高校入試説明会【事前予約必要】 2026年12月6日(日) 高校入試個別相談会【事前予約必要】 イベント情報一覧 お申込みはこちら"
+        "source": "https://www.seifu.ac.jp/expl-junior/",
+        "evidence": ":00～10月23日（金）23:59 場所 本校 高等学校 2026年11月21日(土) 第4回 高校入試説明会【事前予約必要】 日時 2026年11月21日（土） 14:30～説明会 予約受付期間 2026年7月25日（土）9:00～11月19日（木"
       },
       {
         "date": "2026-12-05",
@@ -5719,7 +5727,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://www.seifu.ac.jp/",
-        "evidence": "6年11月14日(土) 第2回 入試説明会【事前予約必要】 2026年12月5日(土) 第3回 入試説明会【事前予約必要】 イベント情報一覧 お申込みはこちら 2026年9月11日(金)・12日(土) 文化祭【事前予約必要】 2026年10月25"
+        "evidence": "6年11月14日(土) 第2回 入試説明会【事前予約必要】 2026年12月5日(土) 第3回 入試説明会【事前予約必要】 イベント情報一覧 お申込みはこちら 2026年10月25日(日) 第3回 高校入試説明会（+体験授業）【事前予約必要】 2"
       }
     ],
     "apply": {
