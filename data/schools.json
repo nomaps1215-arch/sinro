@@ -3241,21 +3241,6 @@
         "url": "https://www.minkou.jp/hischool/school/review/812/",
         "fetchedAt": "2026-09-10"
       },
-      "openSchool": {
-        "events": [
-          {
-            "date": "2026-09-16",
-            "label": "オープンスクール",
-            "reservation": "required",
-            "confidence": "high",
-            "source": "https://www2.osaka-c.ed.jp/suitahigashi/folder_0/post-111/"
-          }
-        ],
-        "reservation": "required",
-        "source": "https://www2.osaka-c.ed.jp/suitahigashi/folder_0/post-111/",
-        "checkedAt": "2026-09-16",
-        "evidence": "ます。事前に 公式Instagram やHPで告知します。 9/16(水)15：00になりましたらこちらに申し込みフォームのページリンクを提示します 第1回オープンスクールポスター 内容詳細はこちらから↓ ＜第1回オープンスクール申込み方法＞ 9月16日（水）15時 より受付を開始します。 吹田東高校ホームペー"
-      },
       "photos": [
         {
           "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/%E5%A4%A7%E9%98%AA%E5%BA%9C%E7%AB%8B%E5%90%B9%E7%94%B0%E6%9D%B1%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1_%E6%A0%A1%E8%88%8E.jpg/960px-%E5%A4%A7%E9%98%AA%E5%BA%9C%E7%AB%8B%E5%90%B9%E7%94%B0%E6%9D%B1%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1_%E6%A0%A1%E8%88%8E.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -6443,7 +6428,7 @@
         "reservation": null,
         "source": "https://www3.osaka-c.ed.jp/higashi/",
         "checkedAt": "2026-09-16",
-        "evidence": "nformation お知らせ 2026/09/16 第２回オープンスクール〔9/26（土）開催〕 参加申込 2026/08/31 普通科１年生宿泊体験学習実施報告⑤ 2026/08/31 普通科１年生宿泊体験学習実施報告④ 202"
+        "evidence": "nformation お知らせ 2026/09/16 第２回オープンスクール〔9/26（土）開催〕 参加申込 2026/08/28 令和８年度始業式を行いました 2026/08/25 第２回オープンスクール〔9/26（土）開催〕につ"
       },
       "photos": [
         {
@@ -7066,7 +7051,14 @@
             "label": "説明会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://www2.osaka-c.ed.jp/ichioka/folder_0/post-25/"
+            "source": "https://www2.osaka-c.ed.jp/ichioka/news/34502/"
+          },
+          {
+            "date": "2026-11-07",
+            "label": "オープンスクール",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www2.osaka-c.ed.jp/ichioka/"
           },
           {
             "date": "2026-12-12",
@@ -7084,11 +7076,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://www2.osaka-c.ed.jp/ichioka/folder_0/post-25/",
+        "source": "https://www2.osaka-c.ed.jp/ichioka/news/34502/",
         "checkedAt": "2026-09-16",
-        "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfFtR19ehYkh3fF8pQCv-BqRkQND7ts2H_8GQIoC0HbS2L4wg/viewform",
-        "applyLabel": "★申込みフォーム★",
-        "evidence": "回 8月29日(土) 説明会・部活動体験・個別質問 第2回 10月17日(土) 説明会・授業見学・部活動見学・個別質問 第3回 11月14日(土) 時間は部活動毎に 異なります 部活動体験 第4回 12月12日(土) 説明会・"
+        "applyUrl": "https://forms.gle/r3JrBdEXmzRSXvjv7",
+        "applyLabel": "申込フォーム",
+        "evidence": "す。 詳細は コチラの案内 をご確認ください。 &nbsp;令和８年１０月１７日（土） 説明会・授業見学ツアー ９：３０～１１：１５ &nbsp;&nbsp; 体験授業・説明会 １３：００～１５：００ [対 象]&nbsp; 中学生（"
       },
       "photos": [
         {
@@ -7932,7 +7924,7 @@
         "checkedAt": "2026-09-16",
         "applyUrl": "https://www2.osaka-c.ed.jp/higashiyodogawa/news/34498",
         "applyLabel": "2026/09/16 【9/19(土)開催 第1回学校説明会をお申込みの皆さまへ",
-        "evidence": "徒用(For international student)』9月19日（土）学校説明会（School information session)について 2026/09/08 【中学生の皆さん・保護者の皆様へ】令和8年度 9月1"
+        "evidence": "徒用(For international student)』9月19日（土）学校説明会（School information session)について 2026/09/07 文化祭（川高祭）のお礼 2026/09/05 【文化"
       },
       "photos": [
         {
@@ -8594,6 +8586,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-09-16",
+            "label": "学校見学会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.osaka-c.ed.jp/yodogawa-t/"
+          },
+          {
             "date": "2026-09-26",
             "label": "学校説明会",
             "reservation": null,
@@ -8613,7 +8612,7 @@
         "checkedAt": "2026-09-16",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSciUHkD9VlmYK6kbBFibah24EGgxU-g2kIvMsZ9Jy3NWC0U4g/viewform?usp=sf_link",
         "applyLabel": "申込フォーム",
-        "evidence": "閉庁日について（お知らせ） 4/27(月)up【令和８年度 学校説明会】のご案内 &nbsp;&nbsp;&nbsp;&nbsp;令和８年９月２６日（土）本校本館２階・多目的室にて &nbsp;&nbsp;&nbsp;&nbsp;令和８年１０月１７日（土）本校本館２階・多目的室にて &nbsp"
+        "evidence": "内案内 生徒たちの活動をご覧ください！ 淀工ブログ --> 9/16(水)up【学校見学会の申し込み】のご案内 &nbsp;&nbsp;&nbsp;&nbsp;令和８年１０月１７日（土）実施の申し込みになります。 &nbsp;&n"
       },
       "photos": [
         {
@@ -11561,7 +11560,7 @@
         "checkedAt": "2026-09-16",
         "applyUrl": "https://forms.gle/SWhiiyixGm4PpSEN7",
         "applyLabel": "申込フォーム",
-        "evidence": "業生の皆さまへ 最近の記事 過去の記事 2026/9/14 学校説明会に来られる中学生・保護者の皆様へ 令和8年10月24日（土）開催 2026/9/11 保健室より ほけんだよりを発行しました 2026/9/8 泉北高校女子バレーボール部 体験練習会のお知らせ 202"
+        "evidence": "学生の皆さまへ 最近の記事 過去の記事 2026/9/14 学校説明会に来られる中学生・保護者の皆様へ 令和8年10月24日（土）開催 2026/9/11 保健室より ほけんだよりを発行しました 2026/9/8 泉北高校女子バレーボール部 体験練習会のお知らせ 202"
       },
       "photos": [
         {
@@ -12201,7 +12200,7 @@
         "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/hakata/folder_0/post-28/",
         "checkedAt": "2026-09-16",
-        "evidence": "第1回オープンスクールについて.pdf 令和８年度 第２回 オープンスクール 日 時 ： 令和８年１０月２４日（土）予定 場 所 ： 大阪府立伯太高等学校 令和８年度 第３回 オープンスクール 日 時 ： 令和９年１月１６日（土）予定 場 所 ： 大阪府立"
+        "evidence": "方針 TOP オープンスクールのご案内 令和８年度 第２回 オープンスクール 日 時 ： 令和８年１０月２４日（土） １４時３０分 ～ １５時４０分 場 所 ： 大阪府立伯太高等学校 2026年_第2回オープンスクールについて.pdf 令和８年度 第３回"
       },
       "photos": [
         {
@@ -24941,7 +24940,7 @@
         "checkedAt": "2026-09-16",
         "applyUrl": "https://mirai-compass.net/usr/riseishj/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "26年9月5日（土） 09:30 〜 12:00 受付終了 個別相談会（平日夜間） 2026年9月16日（水） 18:00 〜 20:00 詳細はこちら 個別相談会（平日夜間） 2026年9月17日（木） 18:00 〜 20:00 詳細はこちら 個"
+        "evidence": "26年9月5日（土） 09:30 〜 12:00 受付終了 個別相談会（平日夜間） 2026年9月16日（水） 18:00 〜 20:00 受付終了 個別相談会（平日夜間） 2026年9月17日（木） 18:00 〜 20:00 詳細はこちら 個別相"
       },
       "admissionFee": {
         "amount": 280000,
