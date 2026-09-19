@@ -446,11 +446,19 @@
         "confidence": "high",
         "source": "https://kongo-hs.com/open_school.html",
         "evidence": "チラシに記載しております。 チラシをみる 令和8年度 第1回学校説明会のご案内 9月19日（土）、本校体育館において第1回学校説明会を実施いたします。時間は午前10時00分から午前11時00分（9時30分開場）、内容は学校の紹介・説明で"
+      },
+      {
+        "date": "2026-11-07",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://kongo-hs.com/open_school.html",
+        "evidence": "、下記QRコードを読み取ってください。 --> 令和7年度 オープンスクールのご案内 １１月７日（土）１３時～本校体育館においてオープンスクールを実施いたします。金剛高校の授業が体験でき、希望される方にはクラブ体験も可能です。また、同日、共生"
       }
     ],
     "apply": {
-      "url": "https://docs.google.com/forms/d/1W_PpGGbAM3cIby3DyuxewPQ8dRLblx-zH9wqooQ48pI/viewform?edit_requested=true",
-      "label": "申込フォームへ --> 授業体験（全員参加） 金剛高校の授業の雰囲気を体験できま"
+      "url": "https://kongo-hs.com/pdf/open_school/school-guidance-schedule-2026.pdf",
+      "label": "チラシをみる 令和8年度 第1回学校説明会のご案内 9月19日（土）、本校体育館"
     },
     "note": ""
   },
@@ -1695,7 +1703,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://otemae-hs.ed.jp/2026/09/18/%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a_10%e6%9c%8824%e6%97%a5%e9%96%8b%e5%82%ac%e3%80%80%e7%94%b3%e8%be%bc%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0/",
-        "evidence": "開催 申込フォーム 2026年9月18日 454VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
+        "evidence": "開催 申込フォーム 2026年9月18日 596VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
       }
     ],
     "apply": {
@@ -1912,7 +1920,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://obf-hs.com/",
-        "evidence": "8年10月31日(土) 10:30～16:00 Vol.4 令和8年12月12日(土) 10:00～12:00 オープンスクール情報 入学者選抜情報 Scroll 01 OBFはどんな学校？ 大阪ビジネスフロンティア高等学校 高校での学びを、大学や社会へつなげる学校で"
+        "evidence": "8年10月31日(土) 10:30～16:00 Vol.4 令和8年12月12日(土) 10:00～12:00 オープンスクール情報 入学者選抜情報 Scroll 中学校教職員・保護者・学習塾進学担当者対象 学校説明会のお知らせ🏫 本校の特色ある学びや、大学進学実績、"
       }
     ],
     "apply": null,
@@ -2920,7 +2928,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://semboku-h.ed.jp/",
-        "evidence": "業生の皆さまへ 最近の記事 過去の記事 2026/9/14 学校説明会に来られる中学生・保護者の皆様へ 令和8年10月24日（土）開催 2026/9/11 保健室より ほけんだよりを発行しました 2026/9/8 泉北高校女子バレーボール部 体験練習会のお知らせ 202"
+        "evidence": "学生の皆さまへ 最近の記事 過去の記事 2026/9/14 学校説明会に来られる中学生・保護者の皆様へ 令和8年10月24日（土）開催 2026/9/11 保健室より ほけんだよりを発行しました 2026/9/8 泉北高校女子バレーボール部 体験練習会のお知らせ 202"
       }
     ],
     "apply": {
@@ -4226,16 +4234,7 @@
     "website": "http://www.kongogakuen.ed.jp",
     "reached": true,
     "pages": 4,
-    "events": [
-      {
-        "date": "2026-09-18",
-        "label": "オープンスクール",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.kongogakuen.ed.jp/%e4%b8%ad%e5%ad%a6%e6%a0%a1%e3%83%bb%e9%ab%98%e7%ad%89%e5%ad%a6%e6%a0%a1%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e3%81%94%e6%a1%88%e5%86%85/",
-        "evidence": "月２９日（土）１０：３０受付 １１：００開始 ⇒終了 第３回オープンスクール ９月１８日（金）１７：３０受付 １８：００開始 ⇒受付中 《中学校申込はこちら》 ・ 《高等学校申込はこちら》 &nbsp; &nbsp; OFFICIAL"
-      }
-    ],
+    "events": [],
     "apply": null,
     "note": ""
   },
@@ -4943,7 +4942,7 @@
     "pages": 0,
     "events": [],
     "apply": null,
-    "note": "robots.txt で拒否"
+    "note": "取得できず（HTTP Error 503: Service Unavailable）"
   },
   {
     "id": "priv-kindai-senshu",
@@ -5457,14 +5456,6 @@
     "pages": 2,
     "events": [
       {
-        "date": "2026-10-10",
-        "label": "オープンスクール",
-        "reservation": null,
-        "confidence": "high",
-        "source": "http://www.shitennojigakuen.ed.jp/higashi/",
-        "evidence": "ンスクール 高校 中学 オープンスクール 申込受付中 第２回オープンスクール 2026.10.10 （土） 10:00 ～ 12:30 入試説明会 中学 入試説明会 申込受付中 第１回入試説明会 2026.11.07 （土） 10:00 ～ 12"
-      },
-      {
         "date": "2026-11-07",
         "label": "入試説明会",
         "reservation": null,
@@ -5502,12 +5493,20 @@
         "reservation": null,
         "confidence": "high",
         "source": "http://www.shitennojigakuen.ed.jp/higashi/",
-        "evidence": "～ 12:30 入試説明会 高校 入試説明会 準備中 第２回入試説明会 2026.12.05 （土） 10:00 ～ 12:30 入試説明会 高校 入試説明会 準備中 第３回入試説明会 中学校の説明会・行事一覧 高等学校の説明会・行事一覧"
+        "evidence": "～ 12:30 入試説明会 高校 入試説明会 準備中 第２回入試説明会 2026.12.05 （土） 10:00 ～ 12:30 入試説明会 高校 入試説明会 準備中 第３回入試説明会 2027.03.13 （土） 10:00 ～ 13:0"
+      },
+      {
+        "date": "2027-03-13",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "http://www.shitennojigakuen.ed.jp/higashi/",
+        "evidence": "～ 12:30 入試説明会 高校 入試説明会 準備中 第３回入試説明会 2027.03.13 （土） 10:00 ～ 13:00 令和10年度 校外相談会 令和10年度 高校 中学 校外相談会 準備中 第１回「東」を知ろうin ハルカス(令"
       }
     ],
     "apply": {
-      "url": "https://www.shitennojigakuen.ed.jp/higashi/event/%e7%ac%ac%ef%bc%92%e5%9b%9e%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab/",
-      "label": "2026.09.19（土）10:00 ～ 12:30オープンスクール高校中学オー"
+      "url": "https://www.shitennojigakuen.ed.jp/higashi/event/%e7%ac%ac%ef%bc%91%e5%9b%9e%e5%85%a5%e8%a9%a6%e8%aa%ac%e6%98%8e%e4%bc%9a-%e4%b8%ad%e5%ad%a6/",
+      "label": "2026.10.10（土）10:00 ～ 12:30入試説明会中学入試説明会申込"
     },
     "note": ""
   },
@@ -6074,12 +6073,20 @@
     "pages": 4,
     "events": [
       {
-        "date": "2027-01-16",
-        "label": "オープンキャンパス",
+        "date": "2026-09-29",
+        "label": "個別相談会",
         "reservation": null,
         "confidence": "high",
-        "source": "https://www.kori.doshisha.ac.jp/exa/",
-        "evidence": "れました ［入試情報・イベント］ 2026.06.12 春のオープンキャンパス（第２回）を実施いたしました 一覧を見る 2027年度入試日程・募集人員 日 程 募集人員 中 学 校 前期 2027年1月16日(土) 後期 2027年1月18日(月) 前期 約190名(男子約95名 女子約95名) *内部進学者を含む 後"
+        "source": "https://www.kori.doshisha.ac.jp/news/2026%e7%a7%8b%e3%81%ae%e3%82%aa%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e5%80%8b%e5%88%a5%e7%9b%b8%e8%ab%87%e4%bc%9a%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+        "evidence": "報・イベント］ 2026.09.19 2026秋のオンライン個別相談会のお知らせ 9月29日（火）～10月24日（土）に秋のオンライン（ZOOM）個別相談会を実施いたします。みなさまのご質問にお答えすることで、本校を知っていただく機会にな"
+      },
+      {
+        "date": "2026-10-24",
+        "label": "個別相談会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.kori.doshisha.ac.jp/news/2026%e7%a7%8b%e3%81%ae%e3%82%aa%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e5%80%8b%e5%88%a5%e7%9b%b8%e8%ab%87%e4%bc%9a%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+        "evidence": "026秋のオンライン個別相談会のお知らせ 9月29日（火）～10月24日（土）に秋のオンライン（ZOOM）個別相談会を実施いたします。みなさまのご質問にお答えすることで、本校を知っていただく機会になれば幸いです。 お申し込み受付を9月19日（土）13時に開"
       }
     ],
     "apply": null,
@@ -6529,10 +6536,18 @@
         "confidence": "high",
         "source": "http://www.meisei.ed.jp/",
         "evidence": "【メディア掲載】読売新聞に本校の図書館活動が紹介されました 2026.8.29 9/26（土） 第２回明星高等学校オープンスクール［9/5（土）10:00 受付開始］ 2026.8.22 9/19(土) 受験生対象 学園祭見学会 参加申込［8/29(土) 10 : 00"
+      },
+      {
+        "date": "2026-10-31",
+        "label": "プレテスト",
+        "reservation": null,
+        "confidence": "high",
+        "source": "http://www.meisei.ed.jp/",
+        "evidence": "NEWS &amp; TOPICS 最新情報 一覧を見る 2026.9.19 10/31(土) 明星中学校入試プレテスト［9/26(土)10 : 00受付開始］ 2026.9.15 【9/30･10/1】体育大会における飲食販売のお知らせ 2026.9.5 【"
       }
     ],
     "apply": {
-      "url": "https://mirai-compass.net/usr/omeiseih/event/evtIndex.jsf",
+      "url": "https://mirai-compass.net/usr/omeiseij/common/login.jsf",
       "label": "申込フォーム"
     },
     "note": ""
@@ -6689,14 +6704,6 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-09-18",
-        "label": "個別相談会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://riseisha.ed.jp/jhs/admissions/briefing/",
-        "evidence": "6年9月17日（木） 18:00 〜 20:00 受付終了 個別相談会（平日夜間） 2026年9月18日（金） 18:00 〜 20:00 受付終了 学校説明会 プレテスト 2026年10月3日（土） 09:00 〜 10:30 詳細はこちら 学校説"
-      },
-      {
         "date": "2026-09-26",
         "label": "学校説明会",
         "reservation": null,
@@ -6735,6 +6742,14 @@
         "confidence": "high",
         "source": "https://riseisha.ed.jp/hs/admissions/briefing/",
         "evidence": "0月24日（土） 09:30 〜 11:00 詳細はこちら 学校説明会 2026年10月31日（土） 09:30 〜 11:00 詳細はこちら 学校説明会 2026年11月7日（土） 13:30 〜 15:00 詳細はこちら 学校説明会 体"
+      },
+      {
+        "date": "2026-11-07",
+        "label": "プレテスト",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://riseisha.ed.jp/jhs/admissions/briefing/",
+        "evidence": "土） 09:00 〜 10:30 詳細はこちら 学校説明会 プレテスト 2026年11月7日（土） 09:00 〜 10:30 詳細はこちら 学校説明会 プレテスト 2026年12月6日（日） 09:00 〜 10:30 詳細はこちら 個"
       }
     ],
     "apply": {
