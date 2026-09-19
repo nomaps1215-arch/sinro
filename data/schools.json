@@ -6887,7 +6887,7 @@
         "checkedAt": "2026-09-19",
         "applyUrl": "https://forms.gle/g6ofFchvC3D8uBhB8",
         "applyLabel": "申込フォーム",
-        "evidence": "開催 申込フォーム 2026年9月18日 596VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
+        "evidence": "開催 申込フォーム 2026年9月18日 804VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
       }
     },
     {
@@ -16629,9 +16629,9 @@
           {
             "date": "2026-09-19",
             "label": "学校説明会",
-            "reservation": null,
+            "reservation": "required",
             "confidence": "high",
-            "source": "https://www.osaka-sandai.ed.jp/"
+            "source": "https://www.osaka-sandai.ed.jp/hs/admission-guide/calendar/"
           },
           {
             "date": "2026-10-03",
@@ -16670,11 +16670,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://www.osaka-sandai.ed.jp/",
+        "source": "https://www.osaka-sandai.ed.jp/hs/admission-guide/calendar/",
         "checkedAt": "2026-09-19",
         "applyUrl": "https://mirai-compass.net/usr/osksngyh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "月3日(土)第5回ミニ学校説明会開催! 申し込み受付中!! 2026.8.18 9月19日(土)第4回ミニ学校説明会開催! 8月31日(月)から申し込み受付中!! 総合 中学校 高等学校 受験生 在校生・保護者 卒業生 資料請求 アクセス お問い合わせ 教"
+        "evidence": "（水） 場所：本校 &nbsp;&nbsp;9月 第4回ミニ学校説明会（要予約） 終了しました--> 日程：9月19日（土） -->場所：本校 &nbsp;&nbsp;10月 第5回ミニ学校説明会（要予約） 終了しました--> 日程：10月3日（土） -->場所："
       },
       "admissionFee": {
         "amount": 200000,
@@ -18124,14 +18124,21 @@
             "reservation": null,
             "confidence": "high",
             "source": "https://www.osk-ohtani.ed.jp/"
+          },
+          {
+            "date": "2026-09-27",
+            "label": "入試説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.osk-ohtani.ed.jp/"
           }
         ],
         "reservation": "required",
         "source": "https://www.osk-ohtani.ed.jp/",
         "checkedAt": "2026-09-19",
-        "applyUrl": "https://mirai-compass.net/usr/oskotanj/event/evtIndex.jsf",
+        "applyUrl": "https://mirai-compass.net/usr/oskotanh/event/evtIndex.jsf",
         "applyLabel": "ログインして申込む （はじめての方もこちらから）",
-        "evidence": "vents 入試イベント情報 中学入試EVENTS Sat 9/19 (土) 第一回入試説明会 Sat 9/26 (土) 文化祭① 中学入試イベント情報一覧 高校入試EVENTS Sat 9/19 (土) 第1回 高校入試説明会 Sa"
+        "evidence": "vents 入試イベント情報 中学入試EVENTS Sat 9/26 (土) 文化祭① Sun 9/27 (日) 文化祭② 中学入試イベント情報一覧 高校入試EVENTS Sat 9/19 (土) 第1回 高校入試説明会 Sat 9/26 (土) 文化祭1日目 高校入試イベント情報一覧 受け継がれる大谷の女子教育 3つ"
       },
       "admissionFee": {
         "amount": 240000,
@@ -18223,7 +18230,7 @@
         "checkedAt": "2026-09-19",
         "applyUrl": "https://mirai-compass.net/usr/kaimeij/event/evtIndex.jsf",
         "applyLabel": "中学校イベント申込",
-        "evidence": "）開催｜「中学」授業見学会 2026-08-27 入試情報 10/３（土）開催｜「中学」入試説明会 2026-08-21 入試情報 外部説明会（８月～11月開催分） 2026-08-12 入試情報 ９/19（土）開催｜「中学」授業見学会"
+        "evidence": "）開催｜「中学」授業見学会 2026-08-27 入試情報 10/３（土）開催｜「中学」入試説明会 2026-08-21 入試情報 外部説明会（８月～11月開催分） 2026-06-24 入試情報 令和９年度「高校１次」生徒募集要項のお知"
       },
       "admissionFee": {
         "amount": 200000,
@@ -18569,13 +18576,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-19",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://www.kansai-u.ac.jp/senior/2026/04/post-786.html"
-          },
-          {
             "date": "2026-10-31",
             "label": "入試説明会",
             "reservation": null,
@@ -18584,11 +18584,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://www.kansai-u.ac.jp/senior/2026/04/post-786.html",
+        "source": "https://www.kansai-u.ac.jp/senior/2026/04/post-787.html",
         "checkedAt": "2026-09-19",
         "applyUrl": "https://mirai-compass.net/usr/kansaiuh/common/login.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "/09/19 記事公開日： 2026/04/01 イベント 2026年9月19日（土）に学校説明会を開催いたします。 詳細は、 こちら をご確認ください。 2026年 2020年 2019年 2018年 2019年 2018年 2017年"
+        "evidence": "/10/31 記事公開日： 2026/04/01 イベント 2026年10月31日（土）に入試説明会を開催いたします。 詳細は、 こちら をご確認ください。 2026年 2020年 2019年 2018年 2019年 2018年 2017年"
       },
       "admissionFee": {
         "amount": 300000,
@@ -18768,6 +18768,20 @@
             "reservation": null,
             "confidence": "high",
             "source": "https://www.kansai-u.ac.jp/hokuyo/news2026/09/post_842.html"
+          },
+          {
+            "date": "2027-02-19",
+            "label": "説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.kansai-u.ac.jp/hokuyo/admission/capacity.html"
+          },
+          {
+            "date": "2027-03-18",
+            "label": "説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.kansai-u.ac.jp/hokuyo/admission/capacity.html"
           }
         ],
         "reservation": "required",
@@ -19027,7 +19041,7 @@
         ],
         "reservation": "required",
         "source": "https://koutoku.ac.jp/kinkiosaka/news/20260914/",
-        "checkedAt": "2026-09-18",
+        "checkedAt": "2026-09-19",
         "applyUrl": "https://koutoku.ac.jp/kinkiosaka/guide/open/",
         "applyLabel": "オープンスクールに申し込む",
         "evidence": "プンスクール【10/18】 OPEN SCHOOL 第5回 オープンスクール開催！ 2026年10月18日（日） 午前の部 10:30～ ／ 午後の部 14:00～ 近畿大阪高校ってどんな学校？ 学校のこと、学び方、学費のことなどを詳しくご紹介します。"
@@ -21105,6 +21119,13 @@
             "source": "https://www.keiko.josho.ac.jp/information/exam-junior/21945/"
           },
           {
+            "date": "2026-10-07",
+            "label": "学校見学会",
+            "reservation": "required",
+            "confidence": "high",
+            "source": "https://www.keiko.josho.ac.jp/information/exam-junior/21945/"
+          },
+          {
             "date": "2026-10-24",
             "label": "学校説明会",
             "reservation": null,
@@ -21131,7 +21152,7 @@
         "checkedAt": "2026-09-19",
         "applyUrl": "https://mirai-compass.net/usr/jskeikoh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "る場合は、別途「プレテスト会①」の申込が必要です。 --> 9/25（金）中学校見学会 学校説明会では見ることのできないふだんの学校の姿をご覧いただけます。学校紹介の後、本校の授業や施設を教員が案内いたします。 保護者の方のみ"
+        "evidence": "る場合は、別途「プレテスト会①」の申込が必要です。 --> 9/25（金）中学校見学会、10/7（水）中学校見学会 学校説明会では見ることのできないふだんの学校の姿をご覧いただけます。学校紹介の後、本校の授業や施設を教員が案内"
       },
       "admissionFee": {
         "amount": 220000,
@@ -21504,7 +21525,7 @@
         "checkedAt": "2026-09-19",
         "applyUrl": "https://mirai-compass.net/usr/oseikah/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "校 進学説明会2027に精華高校も参加します！📣 2026 09/02 令和8年9月19日(土) 第2回オープンスクールを開催します！ 2026 08/30 【入試関連】第１回オープンスクール 開催 2026 08/29 第１回オープンスクール まだまだ御予約"
+        "evidence": "校 進学説明会2027に精華高校も参加します！📣 2026 09/02 令和8年9月19日(土) 第2回オープンスクールを開催します！ 2026 08/30 【入試関連】第１回オープンスクール 開催 2026 08/29 第２回オープンスクールいよいよ、今週末"
       },
       "admissionFee": {
         "amount": 200000,
@@ -21962,7 +21983,7 @@
             "label": "入試説明会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://www.seifunankai.ac.jp/2026/07/%e7%ac%ac1%e5%9b%9e-%e4%b8%ad%e5%ad%a6%e6%a0%a1%e5%85%a5%e8%a9%a6%e8%aa%ac%e6%98%8e%e4%bc%9a/"
+            "source": "https://www.seifunankai.ac.jp/2026/03/2027%e5%b9%b4%e5%ba%a6%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%83%bb%e5%85%a5%e8%a9%a6%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/"
           },
           {
             "date": "2026-10-24",
@@ -21993,12 +22014,10 @@
             "source": "https://www.seifunankai.ac.jp/2026/03/2027%e5%b9%b4%e5%ba%a6%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%83%bb%e5%85%a5%e8%a9%a6%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/"
           }
         ],
-        "reservation": "required",
-        "source": "https://www.seifunankai.ac.jp/2026/07/%e7%ac%ac1%e5%9b%9e-%e4%b8%ad%e5%ad%a6%e6%a0%a1%e5%85%a5%e8%a9%a6%e8%aa%ac%e6%98%8e%e4%bc%9a/",
+        "reservation": null,
+        "source": "https://www.seifunankai.ac.jp/2026/03/2027%e5%b9%b4%e5%ba%a6%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%83%bb%e5%85%a5%e8%a9%a6%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
         "checkedAt": "2026-09-19",
-        "applyUrl": "https://mirai-compass.net/usr/sfnankij/event/evtIndex.jsf",
-        "applyLabel": "申込フォーム",
-        "evidence": "説明会 news 2026.07.25 入試 第1回 中学校入試説明会 9月19日(土)に2027年度 第1回中学校入試説明会を開催します。 第1回 児童・保護者対象入試説明会 14時00分～15時30分 ご参加を希望される方は"
+        "evidence": "分～15時30分 小学４～６年生とその保護者様が対象です。 2026年9月19日(土) 第１回入試説明会 14時00分～15時30分 小学６年生とその保護者様が対象です。 2026年11月14日(土) 第２回入試説明会 14時00分～15時30"
       },
       "admissionFee": {
         "amount": 300000,
@@ -22267,9 +22286,9 @@
         "reservation": "required",
         "source": "https://senshin-gakuen.jp/",
         "checkedAt": "2026-09-19",
-        "applyUrl": "https://senshin-gakuen.jp/nyushi260910/",
-        "applyLabel": "9/19（土）「第２回オープンスクール」のお申し込みについて",
-        "evidence": "P NEWS 一覧を見る 入試情報 入試イベント お知らせ 2026年9月10日（木） 9/19（土）「第２回オープンスクール」のお申し込みについて 入試情報 入試イベント お知らせ 2026年9月8日（火） 中学生対象『外部相談会・説明会』【9/27・10/4（日"
+        "applyUrl": "https://senshin-gakuen.jp/form/",
+        "applyLabel": "参加申し込みフォーム",
+        "evidence": "P NEWS 一覧を見る 入試情報 入試イベント お知らせ 2026年9月19日（土） 第２回オープンスクールが開催されました！ 入試情報 入試イベント お知らせ 2026年9月8日（火） 中学生対象『外部相談会・説明会』【9/27・10/4（日）天"
       },
       "admissionFee": {
         "amount": 200000,
