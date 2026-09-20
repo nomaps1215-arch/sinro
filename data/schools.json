@@ -2267,13 +2267,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-19",
-            "label": "説明会",
-            "reservation": "required",
-            "confidence": "high",
-            "source": "https://www.otsuka.ed.jp/school_briefing/outline/"
-          },
-          {
             "date": "2026-10-17",
             "label": "クラブ体験",
             "reservation": null,
@@ -2304,10 +2297,10 @@
         ],
         "reservation": "required",
         "source": "https://www.otsuka.ed.jp/school_briefing/outline/",
-        "checkedAt": "2026-09-19",
+        "checkedAt": "2026-09-20",
         "applyUrl": "https://forms.gle/D6mLtUf4aGigLjpw7",
         "applyLabel": "申込フォーム",
-        "evidence": "oFHgStMCt6 第２回 学校説明会 普通科・体育科合同説明会 クラブ見学 9月19日（土） 14：00〜 □申込期間 5月22（金）～9月11日(金) □申し込みフォーム https://forms.gle/F8DaZTKdz9p"
+        "evidence": "3回 学校説明会「ワンデー大塚」 普通科・体育科合同説明会 クラブ体験 ☆授業見学できます♪ 10月17日（土） 10：40～ ※授業見学以外は当日受付あります □申込期間 5月22（金）～10月9日(金) □申し込みフォーム https://form"
       },
       "photos": [
         {
@@ -6883,7 +6876,7 @@
         "checkedAt": "2026-09-20",
         "applyUrl": "https://forms.gle/g6ofFchvC3D8uBhB8",
         "applyLabel": "申込フォーム",
-        "evidence": "開催 申込フォーム 2026年9月18日 926VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
+        "evidence": "催 申込フォーム 2026年9月18日 1103VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
       }
     },
     {
@@ -7671,7 +7664,7 @@
         "reservation": null,
         "source": "https://obf-hs.com/",
         "checkedAt": "2026-09-20",
-        "evidence": "8年10月31日(土) 10:30～16:00 Vol.4 令和8年12月12日(土) 10:00～12:00 オープンスクール情報 入学者選抜情報 Scroll 中学校教職員・保護者・学習塾進学担当者対象 学校説明会のお知らせ🏫 本校の特色ある学びや、大学進学実績、"
+        "evidence": "8年10月31日(土) 10:30～16:00 Vol.4 令和8年12月12日(土) 10:00～12:00 オープンスクール情報 入学者選抜情報 ,1,google01,{\"servicetype\":\"1\",\"designid\":\"google01\",\"domei"
       },
       "photos": [
         {
@@ -11594,7 +11587,7 @@
         "checkedAt": "2026-09-20",
         "applyUrl": "https://forms.gle/SWhiiyixGm4PpSEN7",
         "applyLabel": "申込フォーム",
-        "evidence": "学生の皆さまへ 最近の記事 過去の記事 2026/9/14 学校説明会に来られる中学生・保護者の皆様へ 令和8年10月24日（土）開催 2026/9/11 保健室より ほけんだよりを発行しました 2026/9/8 泉北高校女子バレーボール部 体験練習会のお知らせ 202"
+        "evidence": "業生の皆さまへ 最近の記事 過去の記事 2026/9/14 学校説明会に来られる中学生・保護者の皆様へ 令和8年10月24日（土）開催 2026/9/11 保健室より ほけんだよりを発行しました 2026/9/8 泉北高校女子バレーボール部 体験練習会のお知らせ 202"
       },
       "photos": [
         {
