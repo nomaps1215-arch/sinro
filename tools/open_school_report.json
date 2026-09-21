@@ -68,7 +68,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www3.osaka-c.ed.jp/ichiritsu/",
-        "evidence": "い言葉をいれてください。 Information お知らせ 2026/09/10 10/24(土), 11/7(土)オープンスクール特設ページはこちら 2026/09/10 10/3(土)枚方市内高等学校合同説明会に参加します 2026/09/06 令和８年度学校説明会・"
+        "evidence": "い言葉をいれてください。 Information お知らせ 2026/09/21 10/24(土), 11/7(土)オープンスクール参加申込受付中！ 2026/09/10 10/24(土), 11/7(土)オープンスクール特設ページはこちら 2026/09/10 10/3"
       },
       {
         "date": "2026-11-07",
@@ -76,7 +76,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www3.osaka-c.ed.jp/ichiritsu/",
-        "evidence": "い言葉をいれてください。 Information お知らせ 2026/09/10 10/24(土), 11/7(土)オープンスクール特設ページはこちら 2026/09/10 10/3(土)枚方市内高等学校合同説明会に参加します 2026/09/06 令和８年度学校説明会・"
+        "evidence": "い言葉をいれてください。 Information お知らせ 2026/09/21 10/24(土), 11/7(土)オープンスクール参加申込受付中！ 2026/09/10 10/24(土), 11/7(土)オープンスクール特設ページはこちら 2026/09/10 10/3"
       }
     ],
     "apply": null,
@@ -1683,7 +1683,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://otemae-hs.ed.jp/2026/09/18/%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a_10%e6%9c%8824%e6%97%a5%e9%96%8b%e5%82%ac%e3%80%80%e7%94%b3%e8%be%bc%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0/",
-        "evidence": "催 申込フォーム 2026年9月18日 1103VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
+        "evidence": "催 申込フォーム 2026年9月18日 1186VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
       }
     ],
     "apply": {
@@ -3931,14 +3931,6 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-09-20",
-        "label": "入試説明会",
-        "reservation": "required",
-        "confidence": "high",
-        "source": "https://www.osakagakugei.ac.jp/senior/",
-        "evidence": "験会特設ページ＜8/25更新＞ 2026.08.22 入試 9月20日（日）入試説明会・オープンスクールのお知らせ（※要予約） 2026.08.07 入試 大阪私立学校展（私学展）のお知らせ 2026.08.07 重要 夏季休"
-      },
-      {
         "date": "2026-11-21",
         "label": "個別相談会",
         "reservation": null,
@@ -4862,11 +4854,23 @@
     "id": "priv-kinkiosaka",
     "name": "近畿大阪高等学校",
     "website": "https://koutoku.ac.jp/kinkiosaka/",
-    "reached": false,
-    "pages": 0,
-    "events": [],
-    "apply": null,
-    "note": "取得できず（HTTP Error 503: Service Unavailable）"
+    "reached": true,
+    "pages": 4,
+    "events": [
+      {
+        "date": "2026-10-18",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://koutoku.ac.jp/kinkiosaka/news/20260914/",
+        "evidence": "プンスクール【10/18】 OPEN SCHOOL 第5回 オープンスクール開催！ 2026年10月18日（日） 午前の部 10:30～ ／ 午後の部 14:00～ 近畿大阪高校ってどんな学校？ 学校のこと、学び方、学費のことなどを詳しくご紹介します。"
+      }
+    ],
+    "apply": {
+      "url": "https://koutoku.ac.jp/kinkiosaka/guide/open/",
+      "label": "オープンスクールに申し込む"
+    },
+    "note": ""
   },
   {
     "id": "priv-kindai-senshu",
@@ -5827,14 +5831,6 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-09-20",
-        "label": "オープンスクール",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://senshin-gakuen.jp/",
-        "evidence": "P NEWS 一覧を見る 入試情報 入試イベント お知らせ 2026年9月20日（日） 10/17（土）「第３回オープンスクール」開催予定！ 入試情報 入試イベント お知らせ 2026年9月19日（土） 第２回オープンスクールが開催されました！ 入試情報 入試イベント"
-      },
-      {
         "date": "2026-10-04",
         "label": "説明会",
         "reservation": null,
@@ -5945,16 +5941,7 @@
     "website": "https://www.tokai-gyosei.ed.jp/",
     "reached": true,
     "pages": 4,
-    "events": [
-      {
-        "date": "2026-09-20",
-        "label": "クラブ体験",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.tokai-gyosei.ed.jp/topics/%e5%b0%8f%e5%ad%a6%e7%94%9f%e5%af%be%e8%b1%a1-%e7%ac%ac%ef%bc%92%e5%9b%9e-%e4%b8%ad%e7%ad%89%e9%83%a8%e3%82%af%e3%83%a9%e3%83%96%e4%bd%93%e9%a8%93%e9%80%b1%e9%96%93%ef%bc%889-14%ef%bd%9e9-20%ef%bc%89/",
-        "evidence": "09.01 イベント お知らせ 中等部 ９月１４日（月）～ ９月２０日（日）の約１週間に、小学５、６年生を対象としたクラブ体験会を開催いたしますので、ふるってご参加ください。 （クラブの都合によっては開催日程が多少前後する場合がございます。ご了承ください。） 【 参"
-      }
-    ],
+    "events": [],
     "apply": null,
     "note": ""
   },
@@ -6331,14 +6318,6 @@
     "reached": true,
     "pages": 4,
     "events": [
-      {
-        "date": "2026-09-20",
-        "label": "オープンキャンパス",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://higashiohtani.ac.jp/",
-        "evidence": "報公開 教員採用 大谷学園 ふるさと納税 入試イベント情報 オープンキャンパス 2026. 09.20 （日） 個別相談会 2026. 10.10 （土） instagram YouTube News お知らせ ALL お知らせ 入試関連情報 行事"
-      },
       {
         "date": "2026-10-10",
         "label": "個別相談会",
