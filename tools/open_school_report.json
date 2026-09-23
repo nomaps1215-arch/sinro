@@ -68,7 +68,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www3.osaka-c.ed.jp/ichiritsu/",
-        "evidence": "い言葉をいれてください。 Information お知らせ 2026/09/22 10/24(土), 11/7(土)オープンスクール参加申込受付中！※お席がわずかになったプログラムについて、追記しています 2026/09/10 10/24(土), 11/7(土)オープンス"
+        "evidence": "い言葉をいれてください。 Information お知らせ 2026/09/23 10/24(土), 11/7(土)オープンスクール参加申込受付中！※お席がわずかになったプログラムについて、追記しています 2026/09/10 10/24(土), 11/7(土)オープンス"
       },
       {
         "date": "2026-11-07",
@@ -76,7 +76,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www3.osaka-c.ed.jp/ichiritsu/",
-        "evidence": "い言葉をいれてください。 Information お知らせ 2026/09/22 10/24(土), 11/7(土)オープンスクール参加申込受付中！※お席がわずかになったプログラムについて、追記しています 2026/09/10 10/24(土), 11/7(土)オープンス"
+        "evidence": "い言葉をいれてください。 Information お知らせ 2026/09/23 10/24(土), 11/7(土)オープンスクール参加申込受付中！※お席がわずかになったプログラムについて、追記しています 2026/09/10 10/24(土), 11/7(土)オープンス"
       }
     ],
     "apply": null,
@@ -1680,7 +1680,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://otemae-hs.ed.jp/2026/09/18/%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a_10%e6%9c%8824%e6%97%a5%e9%96%8b%e5%82%ac%e3%80%80%e7%94%b3%e8%be%bc%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0/",
-        "evidence": "催 申込フォーム 2026年9月18日 1586VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
+        "evidence": "催 申込フォーム 2026年9月18日 1681VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
       }
     ],
     "apply": {
@@ -4494,7 +4494,15 @@
         "reservation": null,
         "confidence": "high",
         "source": "http://www.osakatoin.ed.jp/",
-        "evidence": "業を実施しました 2026.09.02 中学 高校 【申込】10/3(土)開催 中学校高等学校入試説明会のご案内 2026.09.01 中学 入試 中学入学試験プレテストのご案内 2026.08.28 中学 高校 第38回国際生物学オリンピック"
+        "evidence": "業を実施しました 2026.09.02 中学 高校 【申込】10/3(土)開催 中学校高等学校入試説明会のご案内 2026.09.01 中学 入試 中学入学試験プレテストのご案内 一覧を見る Ⅰ類（＆中学） 2026.09.19 中学クラブ 高"
+      },
+      {
+        "date": "2026-10-24",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "http://www.osakatoin.ed.jp/",
+        "evidence": "い合わせ 資料請求 NEWS 2026.09.23 【申込】10/24(土)開催 高等学校入試説明会のご案内 2026.09.19 【中高少林寺拳法部】令和8年度大阪高等学校総合体育大会 入賞 2026.09.15 【男子サッカー部】高円宮"
       },
       {
         "date": "2026-12-02",
@@ -4514,8 +4522,8 @@
       }
     ],
     "apply": {
-      "url": "https://www.osakatoin.ed.jp/archives/22617/",
-      "label": "2026.09.02 中学 高校 【申込】10/3(土)開催 中学校高等学校入試"
+      "url": "https://www.osakatoin.ed.jp/archives/22827/",
+      "label": "2026.09.23 【申込】10/24(土)開催 高等学校入試説明会のご案内"
     },
     "note": ""
   },
@@ -4585,8 +4593,60 @@
     "website": "http://www.osk-ohtani.ed.jp",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-10-01",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osk-ohtani.ed.jp/category/calendar/",
+        "evidence": "：00～15：00 10 October ハルカス コース別説明会（凛花グローバル探究コース） 10/1（木）14：00〜14：45 ハルカス コース別説明会（特進コース） 10/9（金）14：00～14：45 オータニ サタデー サイエンス⑥ 10"
+      },
+      {
+        "date": "2026-10-09",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osk-ohtani.ed.jp/category/calendar/",
+        "evidence": "） 10/1（木）14：00〜14：45 ハルカス コース別説明会（特進コース） 10/9（金）14：00～14：45 オータニ サタデー サイエンス⑥ 10/10（土）14：00～15：10 ハルカス コース別説明会（医進コース） 10/14（水）14：00～14：45 第二回入試説明会 10/24（土）1"
+      },
+      {
+        "date": "2026-10-10",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osk-ohtani.ed.jp/category/calendar/",
+        "evidence": "） 10/1（木）14：00〜14：45 ハルカス コース別説明会（特進コース） 10/9（金）14：00～14：45 オータニ サタデー サイエンス⑥ 10/10（土）14：00～15：10 ハルカス コース別説明会（医進コース） 10/14（水）14：00～14：45 第二回入試説明会 10/24（土）1"
+      },
+      {
+        "date": "2026-10-14",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osk-ohtani.ed.jp/category/calendar/",
+        "evidence": "10/10（土）14：00～15：10 ハルカス コース別説明会（医進コース） 10/14（水）14：00～14：45 第二回入試説明会 10/24（土）14：30～16：00 11 November プレテスト 11/14（土）8：2"
+      },
+      {
+        "date": "2026-10-24",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osk-ohtani.ed.jp/category/calendar/",
+        "evidence": "医進コース） 10/14（水）14：00～14：45 第二回入試説明会 10/24（土）14：30～16：00 11 November プレテスト 11/14（土）8：20～13：00 第一回個別相談会＆ミニ説明会 11/29（"
+      },
+      {
+        "date": "2026-11-14",
+        "label": "プレテスト",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osk-ohtani.ed.jp/category/calendar/",
+        "evidence": "/24（土）14：30～16：00 11 November プレテスト 11/14（土）8：20～13：00 第一回個別相談会＆ミニ説明会 11/29（日）9：00～15：30 12 December オータニ サタデー サイエ"
+      }
+    ],
+    "apply": {
+      "url": "https://mirai-compass.net/usr/oskotanj/common/login.jsf",
+      "label": "プレテストお申し込みはこちらをクリックしてください。"
+    },
     "note": ""
   },
   {
@@ -4860,7 +4920,7 @@
     "name": "近畿大阪高等学校",
     "website": "https://koutoku.ac.jp/kinkiosaka/",
     "reached": true,
-    "pages": 4,
+    "pages": 3,
     "events": [
       {
         "date": "2026-10-18",
