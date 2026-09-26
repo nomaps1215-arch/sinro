@@ -960,24 +960,24 @@
           {
             "date": "2026-09-26",
             "label": "学校説明会",
-            "reservation": "required",
+            "reservation": null,
             "confidence": "high",
-            "source": "https://www2.osaka-c.ed.jp/kitakawachisatsukigaoka/folder_0/post-49/"
+            "source": "https://www2.osaka-c.ed.jp/kitakawachisatsukigaoka/"
           },
           {
             "date": "2026-11-14",
-            "label": "説明会",
+            "label": "学校説明会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://www2.osaka-c.ed.jp/kitakawachisatsukigaoka/news/14735/"
+            "source": "https://www2.osaka-c.ed.jp/kitakawachisatsukigaoka/news/34561/"
           }
         ],
         "reservation": "required",
-        "source": "https://www2.osaka-c.ed.jp/kitakawachisatsukigaoka/folder_0/post-49/",
+        "source": "https://www2.osaka-c.ed.jp/kitakawachisatsukigaoka/",
         "checkedAt": "2026-09-26",
-        "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSc1Fg455RbzmA8mmb4_dw3wOqdkVMhdQrE3YbfuTE50vxgxsA/viewform?usp=header",
-        "applyLabel": "第１回学校説明会申し込みフォーム",
-        "evidence": "P 令和8年度 第1回学校説明会のご案内 令和8年度 第1回学校説明会 2026年9月26日(土) 13:30受付 14:00開始 全体説明・映像による学校紹介・校内見学・模擬授業・部活動体験・個別相談を行います。 また、食堂が12時から"
+        "applyUrl": "https://www2.osaka-c.ed.jp/kitakawachisatsukigaoka/news/14735",
+        "applyLabel": "2026/08/27 本校を志望する中学生の皆さんへ（学校説明会申し込み・欠席連",
+        "evidence": "nformation お知らせ 2026/09/26 第１回学校説明会（９月26日（土））終了 2026/08/28 奨学のための給付金申請について（重要） 2026/08/27 本校を志望する中学生の皆さんへ（学校説明会申し込"
       },
       "photos": [
         {
@@ -4083,46 +4083,46 @@
         "events": [
           {
             "date": "2026-10-24",
-            "label": "クラブ体験",
-            "reservation": "required",
+            "label": "学校説明会",
+            "reservation": null,
             "confidence": "high",
-            "source": "https://www.tsukinoki.ed.jp/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6-%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a/"
+            "source": "https://www.tsukinoki.ed.jp/"
           },
           {
             "date": "2026-11-14",
             "label": "学校説明会",
-            "reservation": null,
+            "reservation": "none",
             "confidence": "high",
-            "source": "https://www.tsukinoki.ed.jp/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6-%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a/"
+            "source": "https://www.tsukinoki.ed.jp/2026/09/26/10-24%e3%81%ae%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%81%af%e6%ba%80%e5%b8%ad%e3%81%ab%e3%81%aa%e3%82%8a%e3%81%be%e3%81%97%e3%81%9f%e3%80%82%e3%82%af%e3%83%a9%e3%83%96%e4%bd%93%e9%a8%93/"
           },
           {
             "date": "2026-12-12",
             "label": "学校説明会",
-            "reservation": null,
+            "reservation": "none",
             "confidence": "high",
-            "source": "https://www.tsukinoki.ed.jp/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6-%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a/"
+            "source": "https://www.tsukinoki.ed.jp/2026/09/26/10-24%e3%81%ae%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%81%af%e6%ba%80%e5%b8%ad%e3%81%ab%e3%81%aa%e3%82%8a%e3%81%be%e3%81%97%e3%81%9f%e3%80%82%e3%82%af%e3%83%a9%e3%83%96%e4%bd%93%e9%a8%93/"
           },
           {
             "date": "2027-01-16",
             "label": "学校説明会",
-            "reservation": null,
+            "reservation": "none",
             "confidence": "high",
-            "source": "https://www.tsukinoki.ed.jp/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6-%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a/"
+            "source": "https://www.tsukinoki.ed.jp/2026/09/26/10-24%e3%81%ae%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%81%af%e6%ba%80%e5%b8%ad%e3%81%ab%e3%81%aa%e3%82%8a%e3%81%be%e3%81%97%e3%81%9f%e3%80%82%e3%82%af%e3%83%a9%e3%83%96%e4%bd%93%e9%a8%93/"
           },
           {
             "date": "2027-02-13",
             "label": "学校説明会",
-            "reservation": null,
+            "reservation": "none",
             "confidence": "high",
-            "source": "https://www.tsukinoki.ed.jp/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6-%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a/"
+            "source": "https://www.tsukinoki.ed.jp/2026/09/26/10-24%e3%81%ae%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%81%af%e6%ba%80%e5%b8%ad%e3%81%ab%e3%81%aa%e3%82%8a%e3%81%be%e3%81%97%e3%81%9f%e3%80%82%e3%82%af%e3%83%a9%e3%83%96%e4%bd%93%e9%a8%93/"
           }
         ],
-        "reservation": "required",
-        "source": "https://www.tsukinoki.ed.jp/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6-%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a/",
+        "reservation": "none",
+        "source": "https://www.tsukinoki.ed.jp/",
         "checkedAt": "2026-09-26",
-        "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeHNZkNqs_AYarps4ye_O_UuBGimpgxn9mOuz8RRp0DPcSVFg/viewform?usp=header",
+        "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfvR9oexeVyUfIsmVsrUsWp6W3KIEqnd8cCHtAk7Y3L7RKVEg/viewform?usp=header",
         "applyLabel": "申込フォーム",
-        "evidence": "記の注意事項をご覧になり、予約フォームへとお進みください。 10/24(土)学校説明とクラブ体験の両方参加される方は別々に申し込みをお願いします。 注意事項 ・学校説明会は 各回定員に達し次第受け付けを終了 させていただきます。 予約数"
+        "evidence": "9日 【文芸部より】文化祭で配布した部誌に関するお知らせ。 2026年9月1日 10/24(土)学校説明会・クラブ体験予約募集中！！ 2026年8月26日 文化祭の一般公開は9/5(土)です 2026年6月25日 台風接近時などに伴う休校措置につ"
       },
       "photos": [
         {
@@ -6838,7 +6838,7 @@
         "checkedAt": "2026-09-26",
         "applyUrl": "https://forms.gle/g6ofFchvC3D8uBhB8",
         "applyLabel": "申込フォーム",
-        "evidence": "催 申込フォーム 2026年9月18日 2939VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
+        "evidence": "催 申込フォーム 2026年9月18日 3170VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
       }
     },
     {
@@ -11522,7 +11522,7 @@
         "checkedAt": "2026-09-26",
         "applyUrl": "https://forms.gle/SWhiiyixGm4PpSEN7",
         "applyLabel": "申込フォーム",
-        "evidence": "学生の皆さまへ 最近の記事 過去の記事 2026/9/14 学校説明会に来られる中学生・保護者の皆様へ 令和8年10月24日（土）開催 2026/9/11 保健室より ほけんだよりを発行しました 2026/9/8 泉北高校女子バレーボール部 体験練習会のお知らせ 202"
+        "evidence": "護者の皆さまへ 最近の記事 過去の記事 2026/9/14 学校説明会に来られる中学生・保護者の皆様へ 令和8年10月24日（土）開催 2026/9/11 保健室より ほけんだよりを発行しました 2026/9/8 泉北高校女子バレーボール部 体験練習会のお知らせ 202"
       },
       "photos": [
         {
@@ -15470,17 +15470,17 @@
           {
             "date": "2026-10-24",
             "label": "オープンスクール",
-            "reservation": null,
+            "reservation": "required",
             "confidence": "high",
-            "source": "https://www.osakashs.ed.jp/open-school/30622/"
+            "source": "https://www.osakashs.ed.jp/open-school/30628/"
           }
         ],
         "reservation": "required",
-        "source": "https://www.osakashs.ed.jp/open-school/30622/",
+        "source": "https://www.osakashs.ed.jp/open-school/30628/",
         "checkedAt": "2026-09-26",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLScYUF1-0T-V-XyuOcoRNtttF8WTT3XKNrLRARTcmCReNUE-cw/viewform",
         "applyLabel": "申込フォーム",
-        "evidence": "24)のクラブ見学体験のご案内 2026.09.24 第3回オープンスクール 10月24日（土)10:00～(受付9:00～) 【本日(9/24)より申し込み受付】 オープンスクールのお 申し込みをただいま受付中！先着順となりますので、"
+        "evidence": "だくことはできたでしょうか？ ☟第二部の在校生企画 第3回のオープンスクールは、 10月24日（土）10:00～ です。 →こちらよりオープンスクール申し込みフォーム mirai-compass.net オープンスクール企画運営委員の生徒が"
       }
     },
     {
@@ -17108,14 +17108,21 @@
             "reservation": null,
             "confidence": "high",
             "source": "https://high.osaka-seikei.jp/ex_info/outside.html"
+          },
+          {
+            "date": "2026-11-21",
+            "label": "オープンスクール",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://high.osaka-seikei.jp/ex_info/openschool.php"
           }
         ],
         "reservation": "required",
         "source": "https://high.osaka-seikei.jp/ex_info/openschool.php",
         "checkedAt": "2026-09-26",
         "applyUrl": "https://mirai-compass.net/usr/oseikeih/event/evtIndex.jsf",
-        "applyLabel": "9/27(土)オープンスクールお申込みはこちら",
-        "evidence": "9月13日(土)・14日(日)文化祭の見学について --> 9月26日(土)オープンスクールに参加される皆様へお願い 【中学生およびその保護者の皆さまへ】幼児教育コース「こどもミュージカル」公開ゲネプロのご案内 【中学生の方対象】1"
+        "applyLabel": "お申し込みはこちら",
+        "evidence": "9月13日(土)・14日(日)文化祭の見学について --> 9月26日(土)オープンスクールに参加される皆様へお願い --> 【中学生およびその保護者の皆さまへ】幼児教育コース「こどもミュージカル」公開ゲネプロのご案内 【中学生の方"
       },
       "admissionFee": {
         "amount": 200000,
@@ -18333,6 +18340,13 @@
             "reservation": null,
             "confidence": "high",
             "source": "https://www.kankura.jp/"
+          },
+          {
+            "date": "2026-10-31",
+            "label": "プレテスト",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.kankura.jp/"
           }
         ],
         "reservation": "required",
@@ -18340,7 +18354,7 @@
         "checkedAt": "2026-09-26",
         "applyUrl": "https://mirai-compass.net/usr/kokuraj/common/login.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "/09/24 校長Blog No.161『倉の曖舞 収穫』 2026/09/24 10/24(土) 高校学校説明会を開催します！ 2026/09/24 洋弓部 卒業生の活躍の報告 2026/09/24 野生動物学初歩実習12期 ＃7 2026/09/18"
+        "evidence": "/09/24 校長Blog No.161『倉の曖舞 収穫』 2026/09/24 10/24(土) 高校学校説明会を開催します！ 2026/09/24 洋弓部 卒業生の活躍の報告 2026/09/24 野生動物学初歩実習12期 ＃7 Read more"
       },
       "admissionFee": {
         "amount": 300000,
@@ -18919,23 +18933,6 @@
         "sourceName": "大阪私立中学校高等学校連合会「私立高等学校新入生徒 納付金等調」",
         "survey": "令和7年11月",
         "fetchedAt": "2026-09-10"
-      },
-      "openSchool": {
-        "events": [
-          {
-            "date": "2026-10-18",
-            "label": "オープンスクール",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://koutoku.ac.jp/kinkiosaka/news/20260914/"
-          }
-        ],
-        "reservation": "required",
-        "source": "https://koutoku.ac.jp/kinkiosaka/news/20260914/",
-        "checkedAt": "2026-09-24",
-        "applyUrl": "https://koutoku.ac.jp/kinkiosaka/guide/open/",
-        "applyLabel": "オープンスクールに申し込む",
-        "evidence": "プンスクール【10/18】 OPEN SCHOOL 第5回 オープンスクール開催！ 2026年10月18日（日） 午前の部 10:30～ ／ 午後の部 14:00～ 近畿大阪高校ってどんな学校？ 学校のこと、学び方、学費のことなどを詳しくご紹介します。"
       }
     },
     {
@@ -20039,15 +20036,15 @@
             "label": "プレテスト",
             "reservation": null,
             "confidence": "high",
-            "source": "https://www.kohs.ed.jp/topics/33758/"
+            "source": "https://www.kohs.ed.jp/topics/39363/"
           }
         ],
         "reservation": "required",
-        "source": "https://www.kohs.ed.jp/topics/33758/",
+        "source": "https://www.kohs.ed.jp/topics/39363/",
         "checkedAt": "2026-09-26",
         "applyUrl": "https://mirai-compass.net/usr/knkohsh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "プレテスト＆学校説明会は予定通り開催します！ 中学入試情報 9月26日（土）の中学校・第1回プレテスト＆学校説明会は予定通り実施いたします。 教職員一同お申込みをいただきました皆様のお越しを心よりお待ち申し上げます。 TOPICS一覧へ 学校"
+        "evidence": "った皆さま、ありがとうございました🙇‍♀️✨ 次回は･･･ 9月26日（土）に中学「第1回プレテスト」を実施いたします‼️ぜひお越しください📝👀 TOPICS一覧へ 学校概要 教育理念 公開情報 採用情報 大阪教育ゆめ基金 中学校 中高一貫"
       },
       "admissionFee": {
         "amount": 200000,
@@ -20236,7 +20233,7 @@
             "label": "入試説明会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://konkoyao.ed.jp/topics/%e4%bb%a4%e5%92%8c9%e5%b9%b4%e5%ba%a6%e5%85%a5%e8%a9%a6%e3%80%80%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%83%bb%e5%90%84%e7%a8%ae%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e6%97%a5%e7%a8%8b%e3%81%ae/"
+            "source": "http://konkoyao.ed.jp/"
           },
           {
             "date": "2026-11-14",
@@ -20250,7 +20247,7 @@
             "label": "入試説明会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://konkoyao.ed.jp/topics/%e4%bb%a4%e5%92%8c9%e5%b9%b4%e5%ba%a6%e5%85%a5%e8%a9%a6%e3%80%80%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%83%bb%e5%90%84%e7%a8%ae%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e6%97%a5%e7%a8%8b%e3%81%ae/"
+            "source": "http://konkoyao.ed.jp/"
           }
         ],
         "reservation": "required",
@@ -20923,7 +20920,24 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-09-26",
+            "label": "入試説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.highs.josho.ac.jp/"
+          }
+        ],
+        "reservation": "required",
+        "source": "https://www.highs.josho.ac.jp/",
+        "checkedAt": "2026-09-26",
+        "applyUrl": "https://mirai-compass.net/usr/joshogj/event/evtIndex.jsf",
+        "applyLabel": "各種イベント申込み",
+        "evidence": "「第1回・入試説明会」開催 高校入試 2026.09.26 入試説明会 9/26（土）「第１回高校入試説明会」を実施しました 2026.09.15 お知らせ 9/19(土)文化祭見学(申し込み受付終了のお知らせ) 2026.0"
+      }
     },
     {
       "id": "priv-keiko-josho",
@@ -21566,6 +21580,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-09-26",
+            "label": "説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.osaka-seisho.ed.jp/"
+          },
+          {
             "date": "2026-10-17",
             "label": "オープンスクール",
             "reservation": null,
@@ -21578,7 +21599,7 @@
         "checkedAt": "2026-09-26",
         "applyUrl": "https://www.osaka-seisho.ed.jp/topics/1406/",
         "applyLabel": "2026.09.14 10/17(土)第１回オープンスクール 申込受付中！",
-        "evidence": "/26(土)生駒市たけまるホールに星翔高校がうかがいます！ 2026.09.14 10/17(土)第１回オープンスクール 申込受付中！ 2026.09.09 気象警報発令時の臨時休校基準の変更について（お知らせ） PICK UP TOPICS お知らせにて最新"
+        "evidence": "て最新情報をお届け 📣 View More 工業科 学科選択説明会・施設見学会を実施しました！ 2026.09.26 校長室だより 学校行事 [入試情報]9/26(土)生駒市たけまるホールに星翔高校がうかがいます！ 2026.09.24 重要なお知らせ 入試情報 10/17(土)第１回オープンスクール 申込"
       },
       "admissionFee": {
         "amount": 200000,
@@ -23948,7 +23969,7 @@
         "source": "https://poole.ed.jp/news/post-8839/",
         "checkedAt": "2026-09-26",
         "applyUrl": "https://poole.ed.jp/news/post-5318/",
-        "applyLabel": "2026.9.3 第69回大阪府内女子中学生英語暗誦大会の申し込みフォームを公開",
+        "applyLabel": "2026.9.26 第69回大阪府内女子中学生英語暗誦大会の申し込みを締め切りま",
         "evidence": "１回プレテストについて 2026.9.24 入試情報 第１回プレテストについて ■お申し込みの方へは１０月１日（木）～受付票（ハガキ）の発送を開始します。 ■受験票の発送は１０月６日（火）正午までのお申し込みの方へ発送します。それ以降に申し込みされた方、ま"
       }
     },
@@ -24136,7 +24157,24 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-09-26",
+            "label": "入試説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://mino-jiyu.ed.jp/topics/jhs/2026/09/26/%e5%85%a5%e8%a9%a6%e8%aa%ac%e6%98%8e%e4%bc%9a-3/"
+          }
+        ],
+        "reservation": "required",
+        "source": "https://mino-jiyu.ed.jp/topics/jhs/2026/09/26/%e5%85%a5%e8%a9%a6%e8%aa%ac%e6%98%8e%e4%bc%9a-3/",
+        "checkedAt": "2026-09-26",
+        "applyUrl": "https://mino-jiyu.ed.jp/jhs/entry/",
+        "applyLabel": "申込フォーム",
+        "evidence": "6.09.26 入試説明会 --> --> --> --> ９月２６日（土）午前、桂門ホール２階にて入試説明会を実施しました。 約１９０組の皆様にお申し込みいただき、たくさんの方々が来校されました。 学校長から学校方針の説明後、各教科のポイントを各教"
+      }
     },
     {
       "id": "priv-meijo",
@@ -24288,13 +24326,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-09-26",
-            "label": "オープンスクール",
-            "reservation": null,
-            "confidence": "high",
-            "source": "http://www.meisei.ed.jp/"
-          },
-          {
             "date": "2026-10-31",
             "label": "プレテスト",
             "reservation": null,
@@ -24307,7 +24338,7 @@
         "checkedAt": "2026-09-26",
         "applyUrl": "https://mirai-compass.net/usr/omeiseij/common/login.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "【メディア掲載】読売新聞に本校の図書館活動が紹介されました 2026.8.29 9/26（土） 第２回明星高等学校オープンスクール［9/5（土）10:00 受付開始］ 2026.8.22 9/19(土) 受験生対象 学園祭見学会 参加申込［8/29(土) 10 : 00"
+        "evidence": "NEWS &amp; TOPICS 最新情報 一覧を見る 2026.9.19 10/31(土) 明星中学校入試プレテスト［9/26(土)10 : 00受付開始］ 2026.9.15 【9/30･10/1】体育大会における飲食販売のお知らせ 2026.9.5 【"
       },
       "admissionFee": {
         "amount": 240000,
