@@ -6802,7 +6802,7 @@
         "checkedAt": "2026-09-27",
         "applyUrl": "https://forms.gle/g6ofFchvC3D8uBhB8",
         "applyLabel": "申込フォーム",
-        "evidence": "催 申込フォーム 2026年9月18日 3253VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
+        "evidence": "催 申込フォーム 2026年9月18日 3457VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
       }
     },
     {
@@ -18269,6 +18269,13 @@
             "reservation": null,
             "confidence": "high",
             "source": "https://www.kankura.jp/"
+          },
+          {
+            "date": "2026-10-31",
+            "label": "プレテスト",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.kankura.jp/"
           }
         ],
         "reservation": "required",
@@ -18276,7 +18283,7 @@
         "checkedAt": "2026-09-27",
         "applyUrl": "https://mirai-compass.net/usr/kokuraj/common/login.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "/09/24 校長Blog No.161『倉の曖舞 収穫』 2026/09/24 10/24(土) 高校学校説明会を開催します！ 2026/09/24 洋弓部 卒業生の活躍の報告 2026/09/24 野生動物学初歩実習12期 ＃7 Read more"
+        "evidence": "/09/24 校長Blog No.161『倉の曖舞 収穫』 2026/09/24 10/24(土) 高校学校説明会を開催します！ 2026/09/24 洋弓部 卒業生の活躍の報告 Read more 中学校のご案内 六年一貫だからこそできること。 教科だ"
       },
       "admissionFee": {
         "amount": 300000,
@@ -24038,24 +24045,7 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10",
-      "openSchool": {
-        "events": [
-          {
-            "date": "2026-09-26",
-            "label": "入試説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://mino-jiyu.ed.jp/topics/jhs/2026/09/26/%e5%85%a5%e8%a9%a6%e8%aa%ac%e6%98%8e%e4%bc%9a-3/"
-          }
-        ],
-        "reservation": "required",
-        "source": "https://mino-jiyu.ed.jp/topics/jhs/2026/09/26/%e5%85%a5%e8%a9%a6%e8%aa%ac%e6%98%8e%e4%bc%9a-3/",
-        "checkedAt": "2026-09-26",
-        "applyUrl": "https://mino-jiyu.ed.jp/jhs/entry/",
-        "applyLabel": "申込フォーム",
-        "evidence": "6.09.26 入試説明会 --> --> --> --> ９月２６日（土）午前、桂門ホール２階にて入試説明会を実施しました。 約１９０組の皆様にお申し込みいただき、たくさんの方々が来校されました。 学校長から学校方針の説明後、各教科のポイントを各教"
-      }
+      "photoFetchedAt": "2026-09-10"
     },
     {
       "id": "priv-meijo",
