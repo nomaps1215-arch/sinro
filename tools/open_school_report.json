@@ -1282,7 +1282,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www2.osaka-c.ed.jp/hanazono/folder_7/page-01/",
-        "evidence": "】１３時００分～１６時００分（１２時４５分受付開始） 内容：クラブ体験 対象：中学生（保護者は中学生１名につき１名まで参加可） 申込： 第１部・第２部・第３部ともに 、 １０月３日（土）９時００分 ～ １０月１６日（金）１７時００分 ※申し込みが定員に達し次第、締め切らせていただきます ■第２回学校説明会 日時：１１月"
+        "evidence": "】１４時００分～１６時３０分（１３時３０分受付開始） 内容：クラブ体験 対象：中学生（保護者は中学生１名につき１名まで参加可） 申込： 第１部・第２部・第３部ともに 、 １０月３日（土）９時００分 ～ １０月１６日（金）１７時００分 ※申し込みが定員に達し次第、締め切らせていただきます ■第２回学校説明会 日時：１１月"
       },
       {
         "date": "2026-10-31",
@@ -1290,7 +1290,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www2.osaka-c.ed.jp/hanazono/folder_7/page-01/",
-        "evidence": "終了しました。 ご参加いただきありがとうございました。 ■クラブ体験 日時：１０月３１日（土） 【第１部】８時４５分～１１時３０分（８時３０分受付開始） 【第２部】１０時４５分～１３時４０分（１０時３０分受付開始） 【第３部】１３時０"
+        "evidence": "終了しました。 ご参加いただきありがとうございました。 ■クラブ体験 日時：１０月３１日（土） 【第１部】９時００分～１１時３０分（８時３０分受付開始） 【第２部】１１時３０分～１４時００分（１１時００分受付開始） 【第３部】１４時０"
       },
       {
         "date": "2026-11-07",
@@ -1309,7 +1309,10 @@
         "evidence": "申し込みが定員に達し次第、締め切らせていただきます ■第３回学校説明会 日時：令和９年１月１６日（土）１０時００分～１１時３０分（９時３０分受付開始） 内容：学校説明、校内見学（希望者のみ） 対象：中学生、保護者 申込：１２月１９日（土）９時"
       }
     ],
-    "apply": null,
+    "apply": {
+      "url": "https://www2.osaka-c.ed.jp/hanazono/news/34580",
+      "label": "2026/09/28 クラブ体験の申し込みについて"
+    },
     "note": ""
   },
   {
@@ -1614,7 +1617,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://otemae-hs.ed.jp/2026/09/18/%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a_10%e6%9c%8824%e6%97%a5%e9%96%8b%e5%82%ac%e3%80%80%e7%94%b3%e8%be%bc%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0/",
-        "evidence": "催 申込フォーム 2026年9月18日 3539VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
+        "evidence": "催 申込フォーム 2026年9月18日 3731VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
       }
     ],
     "apply": {
@@ -1760,7 +1763,7 @@
     "name": "大阪府立清水谷高等学校",
     "website": "https://www.osaka-c.ed.jp/shimizudani/",
     "reached": true,
-    "pages": 3,
+    "pages": 4,
     "events": [
       {
         "date": "2026-10-24",
@@ -1795,7 +1798,10 @@
         "evidence": "。なお、一家族一回の申し込みでお願いいたします。 記 日時（オープンスクール） 第1回 2026年10月24日（土） ①13:00～15:00 ②14:30～16:30 （10月上旬ごろ受付予定） 第2回 2026年12月12日（土） ① 9:30～11:30 ② 11:00～13:00 （12月上旬ごろ受付予定） 第"
       }
     ],
-    "apply": null,
+    "apply": {
+      "url": "https://forms.gle/8nTah8B7QFQoPLtJ6",
+      "label": "13：00 ～ 15：00の部 申し込みページ"
+    },
     "note": ""
   },
   {
@@ -2748,6 +2754,14 @@
     "pages": 4,
     "events": [
       {
+        "date": "2026-09-28",
+        "label": "体験入学",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://osaka-nougei.ed.jp/",
+        "evidence": "n 2026年09月28日(月) 「農芸祭」を更新しました 2026年09月28日(月) 「農芸祭お問い合わせ」を公開しました 2026年09月01日(火) 「体験入学会 参加申し込み」を更新しました 2026年09月01日(火) 「TOP」を更新しました 2026年08月21日(金) 「非常災害の諸注意」"
+      },
+      {
         "date": "2026-12-19",
         "label": "説明会",
         "reservation": null,
@@ -2801,7 +2815,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://semboku-h.ed.jp/",
-        "evidence": "護者の皆さまへ 最近の記事 過去の記事 2026/9/14 学校説明会に来られる中学生・保護者の皆様へ 令和8年10月24日（土）開催 2026/9/11 保健室より ほけんだよりを発行しました 2026/9/8 泉北高校女子バレーボール部 体験練習会のお知らせ 202"
+        "evidence": "学生の皆さまへ 最近の記事 過去の記事 2026/9/14 学校説明会に来られる中学生・保護者の皆様へ 令和8年10月24日（土）開催 2026/9/11 保健室より ほけんだよりを発行しました 2026/9/8 泉北高校女子バレーボール部 体験練習会のお知らせ 202"
       }
     ],
     "apply": {
@@ -3019,15 +3033,15 @@
     "name": "大阪府立高石高等学校",
     "website": "https://www.osaka-c.ed.jp/takaishi/",
     "reached": true,
-    "pages": 3,
+    "pages": 4,
     "events": [
       {
         "date": "2026-10-24",
-        "label": "クラブ体験",
+        "label": "部活動体験",
         "reservation": null,
         "confidence": "high",
-        "source": "https://www2.osaka-c.ed.jp/takaishi/",
-        "evidence": "8/24 文化祭の入場について 2026/08/17 R8年10月24日（土）の授業・クラブ体験について お知らせ一覧 Blog ブログ 2026/03/25 海外語学研修ブログ 2026/03/23 校長ブログ 2025/10/16"
+        "source": "https://www2.osaka-c.ed.jp/takaishi/news/33900/",
+        "evidence": "ついて &nbsp; 【開催日程】&nbsp; ・授業体験・部活動体験 令和8年10月24日（土）午後 ・第1回 学校説明会 令和8年12月12日（土）午前&nbsp; ・第2回 学校説明会 令和9年1月23日（土）午前 &nbsp;【お"
       },
       {
         "date": "2026-12-12",
@@ -3048,7 +3062,7 @@
     ],
     "apply": {
       "url": "https://www2.osaka-c.ed.jp/takaishi/news/33900",
-      "label": "2026/08/26 学校説明会の申し込みについて"
+      "label": "学校説明会の申し込みについて"
     },
     "note": ""
   },
@@ -3727,11 +3741,47 @@
     "id": "priv-otemon-js",
     "name": "追手門学院大手前高等学校",
     "website": "https://www.otemon-js.ed.jp/",
-    "reached": false,
-    "pages": 0,
-    "events": [],
-    "apply": null,
-    "note": "取得できず（<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>）"
+    "reached": true,
+    "pages": 4,
+    "events": [
+      {
+        "date": "2026-10-03",
+        "label": "プレテスト",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.otemon-js.ed.jp/posts/view/7691/",
+        "evidence": "催！追手門大手前の「今」と「これから」を聞きに来ませんか？ 10月3日(土)、第1回中学プレテストと同時開催で、第3回中学入試説明会を開催します。 今回の説明会では、これまでの説明会では詳しくお伝えしきれなかった、本校ならではの取り組みの"
+      },
+      {
+        "date": "2026-10-22",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.otemon-js.ed.jp/posts/view/7689/",
+        "evidence": "いません。データにてご提供いたします。 〇お申込み期限 ： 10月22日(木) 〇お申込み方法 ： 来校型または動画配信型をご選択ください ※本イベントと第1回入試説明会（9月12日開催)、第3回入試説明会(12月12日開催予定)はすべて同じ内容です。 ※上記ご注意をご確認の上、申込サイトの【第2回高校入試説"
+      },
+      {
+        "date": "2026-10-24",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.otemon-js.ed.jp/posts/view/7689/",
+        "evidence": "はありません。お申込みの時間にお越しください。 【第2回高校入試説明会】 〇対象 ： 中学1年生～3年生とその保護者 〇スケジュール 【ご来校型】 10月24日(土)13:00～14:30(受付12:30) ※当日の進行状況により、終了時刻が前後する場合があります。 ※説明会終了後、ご希望の方は校舎見学、"
+      },
+      {
+        "date": "2026-12-12",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.otemon-js.ed.jp/",
+        "evidence": "情報 NEW 2026.09.28 入試情報 □高校入試□ 12/12(土)第3回高校入試説明会 10月5日(月)13時より申込受付開始 高校 NEW 2026.09.28 入試情報 ■中学入試■ 【中学入試直前 得点力アップセミナー】"
+      }
+    ],
+    "apply": {
+      "url": "https://mirai-compass.net/usr/ototemaj/event/evtIndex.jsf",
+      "label": "入試イベントのお申し込み"
+    },
+    "note": ""
   },
   {
     "id": "priv-osakashs",
@@ -4466,8 +4516,8 @@
         "label": "オープンスクール",
         "reservation": null,
         "confidence": "high",
-        "source": "https://www.oyg.ed.jp/news/exam/post-134.html",
-        "evidence": "を行いました。 生徒が各教室で学校紹介も行いました。 次回のオープンスクールは10月10日（土）です。 一覧へ戻る 資料請求 入試イベント申込 寄付金募集のご案内 在校生・保護者の方へ 学校法人 大阪夕陽丘学園 大阪夕陽丘学園短期大学"
+        "source": "http://www.oyg.ed.jp/",
+        "evidence": "入試情報 OYGレポート 2026.09.28 入試情報 10/10(土) オープンスクールのお知らせ 2026.09.24 OYGレポート 【特進・進学コース／１年】前期LAP４講座が終了しました 2026.09.17 お知らせ"
       }
     ],
     "apply": {
@@ -4629,7 +4679,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www.kankura.jp/",
-        "evidence": "こころざしへ News ニュース 2026/08/21 中学プレテスト【10/31(土)実施】 申込受付中！ 2026/04/17 重要なお知らせ 2025年度卒業生の方へ ipadの制限解除など連絡事項です。 2022.7.1"
+        "evidence": "メント防止」に関する周知とお願い 2026/08/21 中学プレテスト【10/31(土)実施】 申込受付中！ 2026/04/17 重要なお知らせ 2025年度卒業生の方へ ipadの制限解除など連絡事項です。 2022.7.1"
       }
     ],
     "apply": {
@@ -4822,11 +4872,11 @@
     "id": "priv-kinkiosaka",
     "name": "近畿大阪高等学校",
     "website": "https://koutoku.ac.jp/kinkiosaka/",
-    "reached": false,
-    "pages": 0,
+    "reached": true,
+    "pages": 1,
     "events": [],
     "apply": null,
-    "note": "robots.txt で拒否"
+    "note": ""
   },
   {
     "id": "priv-kindai-senshu",
@@ -5574,12 +5624,20 @@
     "pages": 4,
     "events": [
       {
+        "date": "2026-10-03",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osaka-seisho.ed.jp/",
+        "evidence": "せにて最新情報をお届け 📣 View More [入試情報]10/3(土)宝塚市ぴぴあ売布に星翔高校がうかがいます！ 2026.09.28 重要なお知らせ 入試情報 工業科 学科選択説明会・施設見学会を実施しました！ 2026.09.26 校長室だより 学校行事 [入試情報]9/26(土)生駒市たけまるホールに星翔高校"
+      },
+      {
         "date": "2026-10-17",
         "label": "オープンスクール",
         "reservation": null,
         "confidence": "high",
         "source": "https://www.osaka-seisho.ed.jp/",
-        "evidence": "/26(土)生駒市たけまるホールに星翔高校がうかがいます！ 2026.09.14 10/17(土)第１回オープンスクール 申込受付中！ 2026.09.09 気象警報発令時の臨時休校基準の変更について（お知らせ） PICK UP TOPICS お知らせにて最新"
+        "evidence": "]10/3(土)宝塚市ぴぴあ売布に星翔高校がうかがいます！ 2026.09.14 10/17(土)第１回オープンスクール 申込受付中！ 2026.09.09 気象警報発令時の臨時休校基準の変更について（お知らせ） PICK UP TOPICS お知らせにて最新"
       }
     ],
     "apply": {
