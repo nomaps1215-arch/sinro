@@ -23,13 +23,18 @@
 
 ## 新しいパソコンで始める
 
-**このページを開けたなら、あとはこの3行だけ。**
+**このページを開けたなら、あとはこれだけ。**
+Windows の PowerShell（スタートを右クリック →「ターミナル」）に1行ずつ貼る。
 
-```bash
+```powershell
 cd C:\dev
 git clone https://github.com/nomaps1215-arch/sinro.git
-cd sinro && tools\install-command.cmd
+cd sinro
+tools\install-command.cmd
 ```
+
+`C:\dev` が無ければ先に `mkdir C:\dev`。
+PowerShell 5.1 では `&&` が使えないので、**1行ずつ**実行すること。
 
 以降は、どのフォルダからでも `sinro` と打てば
 「最新を取得 → 環境を確認 → ブラウザで開く」まで走る。
