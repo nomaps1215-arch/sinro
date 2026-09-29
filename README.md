@@ -83,10 +83,14 @@ CSS や JS を直したときは `index.html` の `?v=` の数字を1つ増や�
 受け渡しは GitHub に任せる。
 
 ```bash
-cd C:\dev            # 同期されない場所ならどこでもよい
+cd C:\dev            # 同期されない場所ならどこでもよい。パスは揃えなくてよい
 git clone https://github.com/nomaps1215-arch/sinro.git
 cd sinro
 ```
+
+置き場所にプロジェクトは依存していない（絶対パスの決め打ちは無い）。
+パソコンごとに違う場所でも、Mac や Linux の `~/dev/sinro` でも動く。
+守るのは「同期フォルダの中に置かない」の一点だけ。
 
 ### 2. 環境を確認する
 
