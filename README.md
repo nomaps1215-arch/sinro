@@ -73,11 +73,64 @@ CSS や JS を直したときは `index.html` の `?v=` の数字を1つ増や�
 
 ## 別のパソコンで作業を続けるとき
 
+### 1. 置き場所を決める（ここが一番大事）
+
+**OneDrive・Dropbox・iCloud などの同期フォルダの中には置かないこと。**
+このプロジェクトでは実際に、同期のせいで `data/schools.json` が古い状態へ巻き戻り、
+登録した入学金が消えたことがある。`.git` 自体が壊れることもある。
+
+複数のパソコンで使うときも、**フォルダを同期するのではなく、それぞれで clone する。**
+受け渡しは GitHub に任せる。
+
 ```bash
-git clone https://github.com/nomaps1215-arch/sinro.git && cd sinro
+cd C:\dev            # 同期されない場所ならどこでもよい
+git clone https://github.com/nomaps1215-arch/sinro.git
+cd sinro
 ```
 
-必要なのは **Python 3.10以上** だけ（外部ライブラリ不要）。Node.js は開発時のテストにのみ使う。
+### 2. 環境を確認する
+
+```bash
+python tools/doctor.py
+```
+
+Python の版、置き場所、git の設定、GitHub への接続、データの件数、
+`bundle.js` が最新かまでを見て、足りないものと直し方を出す。
+**NG が出たら、それを潰してから作業を始める。**
+
+必要なのは **Python 3.9 以上**（3.13 で動作確認）と git だけ。外部ライブラリは使わない。
+`gh`（GitHub CLI）は巡回を手で走らせたいときだけあればよい。
+Node.js は通学時間エンジンの動作確認にしか使わない。
+
+初めてのパソコンでは、git の名前とメールの設定と、GitHub への push 認証が要る。
+
+```bash
+git config --global user.name "あなたの名前"
+git config --global user.email あなたのメール
+gh auth login                     # または Git Credential Manager でログイン
+```
+
+### 3. 毎回の流れ
+
+```bash
+git pull --rebase origin main     # 始める前に必ず
+# （編集）
+python tools/build_bundle.py      # data/*.json を触ったら
+python tools/qa_check.py          # データを触ったら
+git add -A; git commit -m "..."; git push origin main
+```
+
+**`git pull` を先にやること。** GitHub Actions が12時間ごとに main を書き換えるので、
+飛ばすと push が弾かれる。作業を中断するときは、コミットしておくか `git stash` しておく。
+
+### 4. 画面を確認する
+
+`index.html` を直接開いても動く（`data/bundle.js` に固めてあるため）が、
+写真は外部サイトから読むので、ローカルサーバーを立てた方が実物に近い。
+
+```bash
+python -m http.server 8765        # → http://localhost:8765/index.html
+```
 
 ---
 

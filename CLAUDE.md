@@ -16,6 +16,18 @@ JSON や日本語を含むファイルを PowerShell から書き換えないこ
 どうしても必要なら `[System.IO.File]::ReadAllText` と
 `[System.IO.File]::WriteAllText($p, $t, (New-Object System.Text.UTF8Encoding($false)))` を使う。
 
+## 別のパソコンで始めるとき
+
+```bash
+python tools/doctor.py
+```
+
+置き場所・git の設定・リモートとのずれ・データの件数・bundle.js の鮮度をまとめて見る。
+NG が出たら潰してから作業する。手順は README の「別のパソコンで作業を続けるとき」。
+
+**同期フォルダ（OneDrive など）の中に clone しないこと。** フォルダを同期するのではなく、
+パソコンごとに clone して GitHub 経由で受け渡す。
+
 ## 変更したら必ずやること
 
 ```bash
