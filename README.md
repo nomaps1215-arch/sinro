@@ -114,7 +114,27 @@ git config --global user.email あなたのメール
 gh auth login                     # または Git Credential Manager でログイン
 ```
 
-### 3. 毎回の流れ
+### 3. `sinro` コマンドを登録する（1台につき一度だけ）
+
+```bash
+tools\install-command.cmd
+```
+
+`%LOCALAPPDATA%\Microsoft\WindowsApps`（もともと PATH に入っている）へ
+小さな転送用ファイルを置くだけ。PATH をいじらないし管理者権限も要らない。
+やめたいときは、表示された2つの .cmd を消せばよい。
+
+これで、どのフォルダからでもこう打てる。
+
+| コマンド | すること |
+|---|---|
+| `sinro` | git pull → doctor → サーバーを立ててブラウザで開く |
+| `sinro check` | 環境の確認だけ |
+| `sinro folder` | プロジェクトのフォルダを開く |
+
+`shinro` でも同じように動く。
+
+### 4. 毎回の流れ
 
 ```bash
 git pull --rebase origin main     # 始める前に必ず
@@ -127,14 +147,17 @@ git add -A; git commit -m "..."; git push origin main
 **`git pull` を先にやること。** GitHub Actions が12時間ごとに main を書き換えるので、
 飛ばすと push が弾かれる。作業を中断するときは、コミットしておくか `git stash` しておく。
 
-### 4. 画面を確認する
+### 5. 画面を確認する
 
-`index.html` を直接開いても動く（`data/bundle.js` に固めてあるため）が、
-写真は外部サイトから読むので、ローカルサーバーを立てた方が実物に近い。
+`sinro` がサーバーを立ててブラウザまで開く。手で立てるなら:
 
 ```bash
-python -m http.server 8765        # → http://localhost:8765/index.html
+python tools/serve.py             # → http://localhost:8765/index.html
+python tools/serve.py --port 9000
 ```
+
+`index.html` を直接開いても動く（`data/bundle.js` に固めてあるため）が、
+写真は外部サイトから読むので、サーバー越しの方が実物に近い。
 
 ---
 

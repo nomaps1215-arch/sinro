@@ -23,6 +23,8 @@ python tools/doctor.py
 ```
 
 置き場所・git の設定・リモートとのずれ・データの件数・bundle.js の鮮度をまとめて見る。
+`tools\install-command.cmd` を一度流すと、どこからでも `sinro`（`shinro` も可）で
+pull → doctor → サーバー起動までできる。
 NG が出たら潰してから作業する。手順は README の「別のパソコンで作業を続けるとき」。
 
 **同期フォルダ（OneDrive など）の中に clone しないこと。** フォルダを同期するのではなく、
