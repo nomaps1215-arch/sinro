@@ -11,8 +11,8 @@
         "label": "オープンスクール",
         "reservation": null,
         "confidence": "high",
-        "source": "https://www.osaka-c.ed.jp/moriguchihigashi/junior.html",
-        "evidence": "内 本校の教育内容や学校の雰囲気を知っていただく機会として、オープンスクールを開催いたします。ぜひご参加ください。 開催日 令和8年11月7日（土） 詳しくは、このページで後日お知らせします。 実施時間 13：00～15：30（受付開始 12：30） 内容 本校の紹介、施設見学、個別相談"
+        "source": "https://www.osaka-c.ed.jp/moriguchihigashi/",
+        "evidence": "School &nbsp; 守口東高等学校サポートシップ １１／７（土）のオープンスクールの受付を開始しました 気象災害警報についての対応 気象災害警報発令時における対応について インフルエンザ・新型コロナ罹患報告書 学校への提出"
       },
       {
         "date": "2027-01-16",
@@ -20,7 +20,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www.osaka-c.ed.jp/moriguchihigashi/junior.html",
-        "evidence": "クス申し込み用紙 ※只今のファックスは受け付けていません。 学校説明会予定（2027年） ①令和9年1月16日（土） 午前の部／10：00～ 午後の部／14：00 ②令和9年2月13日（土） 11：00～ カリキュラム 3年間の習得カリキュラムを掲載 進路について 過去4年の進路状況を掲載しています。 初年度必要経費 "
+        "evidence": "し込み用紙 ※只今のファックスは受け付けていません。--> 学校説明会予定（2027年） ①令和9年1月16日（土） 午前の部／10：00～ 午後の部／14：00 ②令和9年2月13日（土） 11：00～ カリキュラム 3年間の習得カリキュラムを掲載 進路について 過去4年の進路状況を掲載しています。 初年度必要経費 "
       },
       {
         "date": "2027-02-13",
@@ -28,12 +28,12 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www.osaka-c.ed.jp/moriguchihigashi/junior.html",
-        "evidence": "クス申し込み用紙 ※只今のファックスは受け付けていません。 学校説明会予定（2027年） ①令和9年1月16日（土） 午前の部／10：00～ 午後の部／14：00 ②令和9年2月13日（土） 11：00～ カリキュラム 3年間の習得カリキュラムを掲載 進路について 過去4年の進路状況を掲載しています。 初年度必要経費 "
+        "evidence": "し込み用紙 ※只今のファックスは受け付けていません。--> 学校説明会予定（2027年） ①令和9年1月16日（土） 午前の部／10：00～ 午後の部／14：00 ②令和9年2月13日（土） 11：00～ カリキュラム 3年間の習得カリキュラムを掲載 進路について 過去4年の進路状況を掲載しています。 初年度必要経費 "
       }
     ],
     "apply": {
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSexOZ-CCgXg1W9b1isjmIQj5XFt7qC1kwIb5yLhn_TT20xUbQ/viewform",
-      "label": "参加申し込みフォーム"
+      "url": "https://forms.gle/dB7uufb7acrnucLv7",
+      "label": "参加申込フォーム"
     },
     "note": ""
   },
@@ -68,7 +68,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www3.osaka-c.ed.jp/ichiritsu/",
-        "evidence": "い言葉をいれてください。 Information お知らせ 2026/09/30 10/24(土), 11/7(土)オープンスクール参加申込受付中！※お席がわずかになったプログラムについて、追記しています 2026/09/10 10/3(土)枚方市内高等学校合同説明会に参"
+        "evidence": "い言葉をいれてください。 Information お知らせ 2026/10/01 10/24(土), 11/7(土)オープンスクール参加申込受付中！※お席がわずかになったプログラムについて、追記しています 2026/09/10 10/3(土)枚方市内高等学校合同説明会に参"
       },
       {
         "date": "2026-11-07",
@@ -76,7 +76,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www3.osaka-c.ed.jp/ichiritsu/",
-        "evidence": "い言葉をいれてください。 Information お知らせ 2026/09/30 10/24(土), 11/7(土)オープンスクール参加申込受付中！※お席がわずかになったプログラムについて、追記しています 2026/09/10 10/3(土)枚方市内高等学校合同説明会に参"
+        "evidence": "い言葉をいれてください。 Information お知らせ 2026/10/01 10/24(土), 11/7(土)オープンスクール参加申込受付中！※お席がわずかになったプログラムについて、追記しています 2026/09/10 10/3(土)枚方市内高等学校合同説明会に参"
       }
     ],
     "apply": null,
@@ -88,8 +88,20 @@
     "website": "https://www.osaka-c.ed.jp/korigaoka/",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-11-14",
+        "label": "学校見学会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www2.osaka-c.ed.jp/korigaoka/news/34630/",
+        "evidence": "お知らせ 大阪府立香里丘高等学校では、下記のとおり「第２回 学校見学会」を実施いたします。 中学生・保護者のみなさまのご参加を、心よりお待ちしております。 開催概要 日 時： 令和８年１１月１４日（土） 受付 １３：００～１５：３０（全体実施 １３：００～１７：００） 申込期間： &nbsp;１０月０１日（木）１９：３"
+      }
+    ],
+    "apply": {
+      "url": "https://forms.gle/6C1XAgoWbZYs6UCt5",
+      "label": "📥 ▶ お申込みフォームはこちら"
+    },
     "note": ""
   },
   {
@@ -1615,7 +1627,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://otemae-hs.ed.jp/2026/09/18/%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a_10%e6%9c%8824%e6%97%a5%e9%96%8b%e5%82%ac%e3%80%80%e7%94%b3%e8%be%bc%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0/",
-        "evidence": "催 申込フォーム 2026年9月18日 4329VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
+        "evidence": "催 申込フォーム 2026年9月18日 4496VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
       }
     ],
     "apply": {
@@ -2188,8 +2200,20 @@
     "website": "https://konan-zokei.jp/",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-10-21",
+        "label": "進学説明会",
+        "reservation": "required",
+        "confidence": "high",
+        "source": "https://konan-zokei.jp/",
+        "evidence": "術系専門学校に関する情報提供はもちろん、大学見学バスツアーや進学説明会、進路ガイダンスなど、一人ひとりの進路実現に向けたサポートを丁寧に行っています。 詳しくはこちら NEWS お知らせ 10/21(水)授業見学会申し込みフォームオープンしました 投稿日 2026年9月19日 2026文化祭申し込みフォームオープン！（"
+      }
+    ],
+    "apply": {
+      "url": "https://konan-zokei.jp/info/page-7725/",
+      "label": "10/21(水)授業見学会申し込みフォームオープンしました 投稿日 2026年9"
+    },
     "note": ""
   },
   {
@@ -2535,12 +2559,20 @@
     "pages": 4,
     "events": [
       {
+        "date": "2026-10-04",
+        "label": "進学説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www2.osaka-c.ed.jp/sakaikami/middleschooler/schooltour/",
+        "evidence": "堺高等学校] 令和８年９月１９日（土） 泉州中学校・高等学校進学説明会2027 [堺市産業振興センター] 令和８年１０月４日（日） 五ツ木書房 進学相談会 ［天満橋 OMM ビル］ 令和８年１０月２５日（日） 泉州私塾連合 進学ガイダンス [泉大津テクスピア大阪] 令和"
+      },
+      {
         "date": "2026-11-07",
         "label": "学校説明会",
         "reservation": "required",
         "confidence": "high",
         "source": "https://www2.osaka-c.ed.jp/sakaikami/middleschooler/schooltour/",
-        "evidence": "大阪南エリア公立高等学校等合同説明会 [堺市立堺高等学校] 令和８年１１月７日（土） 第１回学校説明会・体験入学 [本校]（事前申込 必要 ） 令和９年１月２３日（土） 第２回学校説明会 [本校]（事前申込 不要 ） 令和９年２月２０日（土）"
+        "evidence": "） 泉州私塾連合 進学ガイダンス [泉大津テクスピア大阪] 令和８年１１月７日（土） 第１回学校説明会・体験入学 [本校]（事前申込 必要 ） 令和９年１月２３日（土） 第２回学校説明会 [本校]（事前申込 不要 ） 令和９年２月２０日（土）"
       },
       {
         "date": "2027-01-23",
@@ -3024,36 +3056,8 @@
     "website": "https://www.osaka-c.ed.jp/takaishi/",
     "reached": true,
     "pages": 4,
-    "events": [
-      {
-        "date": "2026-10-24",
-        "label": "部活動体験",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www2.osaka-c.ed.jp/takaishi/news/33900/",
-        "evidence": "ついて &nbsp; 【開催日程】&nbsp; ・授業体験・部活動体験 令和8年10月24日（土）午後 ・第1回 学校説明会 令和8年12月12日（土）午前&nbsp; ・第2回 学校説明会 令和9年1月23日（土）午前 &nbsp;【お"
-      },
-      {
-        "date": "2026-12-12",
-        "label": "学校説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www2.osaka-c.ed.jp/takaishi/news/33900/",
-        "evidence": "体験・部活動体験 令和8年10月24日（土）午後 ・第1回 学校説明会 令和8年12月12日（土）午前&nbsp; ・第2回 学校説明会 令和9年1月23日（土）午前 &nbsp;【お申し込みについて】 &nbsp;各イベントの開催約1か"
-      },
-      {
-        "date": "2027-01-23",
-        "label": "学校説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www2.osaka-c.ed.jp/takaishi/news/33900/",
-        "evidence": "明会 令和8年12月12日（土）午前&nbsp; ・第2回 学校説明会 令和9年1月23日（土）午前 &nbsp;【お申し込みについて】 &nbsp;各イベントの開催約1か月前より、このホームページにてお申し込みの受付を開始いたします。"
-      }
-    ],
-    "apply": {
-      "url": "https://www2.osaka-c.ed.jp/takaishi/news/33900",
-      "label": "学校説明会の申し込みについて"
-    },
+    "events": [],
+    "apply": null,
     "note": ""
   },
   {
@@ -4533,20 +4537,12 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-10-01",
-        "label": "説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.osk-ohtani.ed.jp/",
-        "evidence": "vents 入試イベント情報 中学入試EVENTS Thu 10/1 (木) ハルカス コース別説明会（凛花グローバル探究コース） Fri 10/9 (金) ハルカス コース別説明会（特進コース） 中学入試イベント情報一覧 高校入試EVENT"
-      },
-      {
         "date": "2026-10-09",
         "label": "説明会",
         "reservation": null,
         "confidence": "high",
-        "source": "https://www.osk-ohtani.ed.jp/",
-        "evidence": "ルカス コース別説明会（凛花グローバル探究コース） Fri 10/9 (金) ハルカス コース別説明会（特進コース） 中学入試イベント情報一覧 高校入試EVENTS Sat 9/26 (土) 文化祭1日目 Sun 9/27 (日) 文化祭2日"
+        "source": "https://www.osk-ohtani.ed.jp/2026/05/%e3%83%8f%e3%83%ab%e3%82%ab%e3%82%b9-%e3%82%b3%e3%83%bc%e3%82%b9%e5%88%a5%e8%aa%ac%e6%98%8e%e4%bc%9a%ef%bc%88%e7%89%b9%e9%80%b2%e3%82%b3%e3%83%bc%e3%82%b9%ef%bc%89-3/",
+        "evidence": "イベント 2026 10 October ハルカス コース別説明会（特進コース） 10/9（金）14：00～14：45 ◇日時：１０月９日（金）１４：００～１４：４５ ◇対象学年：小学４年生～６年生 ◇場所：大阪大谷大学ハルカスキャンパ"
       }
     ],
     "apply": {
@@ -4857,11 +4853,11 @@
     "id": "priv-kinkiosaka",
     "name": "近畿大阪高等学校",
     "website": "https://koutoku.ac.jp/kinkiosaka/",
-    "reached": false,
-    "pages": 0,
+    "reached": true,
+    "pages": 2,
     "events": [],
     "apply": null,
-    "note": "robots.txt で拒否"
+    "note": ""
   },
   {
     "id": "priv-kindai-senshu",
@@ -5634,7 +5630,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www.osaka-seisho.ed.jp/",
-        "evidence": "せにて最新情報をお届け 📣 View More [入試情報]10/3(土)宝塚市ぴぴあ売布に星翔高校がうかがいます！ 2026.09.28 重要なお知らせ 入試情報 工業科 学科選択説明会・施設見学会を実施しました！ 2026.09.26 校長室だより 学校行事 [入試情報]9/26(土)生駒市たけまるホールに星翔高校"
+        "evidence": "26.10.01 校長室だより 重要なお知らせ [入試情報]10/3(土)宝塚市ぴぴあ売布に星翔高校がうかがいます！ 2026.09.28 重要なお知らせ 入試情報 工業科 学科選択説明会・施設見学会を実施しました！ 2026.09.26 校長室だより 学校行事 [入試情報]9/26(土)生駒市たけまるホールに星翔高校"
       },
       {
         "date": "2026-10-17",
@@ -5885,11 +5881,11 @@
     "id": "priv-daisho",
     "name": "大商学園高等学校",
     "website": "http://www.daisho.ac.jp",
-    "reached": false,
-    "pages": 0,
+    "reached": true,
+    "pages": 4,
     "events": [],
     "apply": null,
-    "note": "取得できず（<urlopen error timed out>）"
+    "note": ""
   },
   {
     "id": "priv-hs-2",

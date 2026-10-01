@@ -96,7 +96,7 @@
             "label": "オープンスクール",
             "reservation": null,
             "confidence": "high",
-            "source": "https://www.osaka-c.ed.jp/moriguchihigashi/junior.html"
+            "source": "https://www.osaka-c.ed.jp/moriguchihigashi/"
           },
           {
             "date": "2027-01-16",
@@ -114,11 +114,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://www.osaka-c.ed.jp/moriguchihigashi/junior.html",
+        "source": "https://www.osaka-c.ed.jp/moriguchihigashi/",
         "checkedAt": "2026-10-01",
-        "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSexOZ-CCgXg1W9b1isjmIQj5XFt7qC1kwIb5yLhn_TT20xUbQ/viewform",
-        "applyLabel": "参加申し込みフォーム",
-        "evidence": "内 本校の教育内容や学校の雰囲気を知っていただく機会として、オープンスクールを開催いたします。ぜひご参加ください。 開催日 令和8年11月7日（土） 詳しくは、このページで後日お知らせします。 実施時間 13：00～15：30（受付開始 12：30） 内容 本校の紹介、施設見学、個別相談"
+        "applyUrl": "https://forms.gle/dB7uufb7acrnucLv7",
+        "applyLabel": "参加申込フォーム",
+        "evidence": "School &nbsp; 守口東高等学校サポートシップ １１／７（土）のオープンスクールの受付を開始しました 気象災害警報についての対応 気象災害警報発令時における対応について インフルエンザ・新型コロナ罹患報告書 学校への提出"
       },
       "photos": [
         {
@@ -409,7 +409,24 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-11-14",
+            "label": "学校見学会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www2.osaka-c.ed.jp/korigaoka/news/34630/"
+          }
+        ],
+        "reservation": "required",
+        "source": "https://www2.osaka-c.ed.jp/korigaoka/news/34630/",
+        "checkedAt": "2026-10-01",
+        "applyUrl": "https://forms.gle/6C1XAgoWbZYs6UCt5",
+        "applyLabel": "📥 ▶ お申込みフォームはこちら",
+        "evidence": "お知らせ 大阪府立香里丘高等学校では、下記のとおり「第２回 学校見学会」を実施いたします。 中学生・保護者のみなさまのご参加を、心よりお待ちしております。 開催概要 日 時： 令和８年１１月１４日（土） 受付 １３：００～１５：３０（全体実施 １３：００～１７：００） 申込期間： &nbsp;１０月０１日（木）１９：３"
+      }
     },
     {
       "id": "pref-nagaohighschool",
@@ -9271,7 +9288,24 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-10-21",
+            "label": "進学説明会",
+            "reservation": "required",
+            "confidence": "high",
+            "source": "https://konan-zokei.jp/"
+          }
+        ],
+        "reservation": "required",
+        "source": "https://konan-zokei.jp/",
+        "checkedAt": "2026-10-01",
+        "applyUrl": "https://konan-zokei.jp/info/page-7725/",
+        "applyLabel": "10/21(水)授業見学会申し込みフォームオープンしました 投稿日 2026年9",
+        "evidence": "術系専門学校に関する情報提供はもちろん、大学見学バスツアーや進学説明会、進路ガイダンスなど、一人ひとりの進路実現に向けたサポートを丁寧に行っています。 詳しくはこちら NEWS お知らせ 10/21(水)授業見学会申し込みフォームオープンしました 投稿日 2026年9月19日 2026文化祭申し込みフォームオープン！（"
+      }
     },
     {
       "id": "pref-osaka-city-ib",
@@ -10449,6 +10483,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-10-04",
+            "label": "進学説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www2.osaka-c.ed.jp/sakaikami/middleschooler/schooltour/"
+          },
+          {
             "date": "2026-11-07",
             "label": "学校説明会",
             "reservation": "required",
@@ -10475,7 +10516,7 @@
         "checkedAt": "2026-10-01",
         "applyUrl": "https://www2.osaka-c.ed.jp/sakaikami/20261107schoolfair",
         "applyLabel": "第１回学校説明会・体験入学 [本校]（事前申込必要）",
-        "evidence": "大阪南エリア公立高等学校等合同説明会 [堺市立堺高等学校] 令和８年１１月７日（土） 第１回学校説明会・体験入学 [本校]（事前申込 必要 ） 令和９年１月２３日（土） 第２回学校説明会 [本校]（事前申込 不要 ） 令和９年２月２０日（土）"
+        "evidence": "堺高等学校] 令和８年９月１９日（土） 泉州中学校・高等学校進学説明会2027 [堺市産業振興センター] 令和８年１０月４日（日） 五ツ木書房 進学相談会 ［天満橋 OMM ビル］ 令和８年１０月２５日（日） 泉州私塾連合 進学ガイダンス [泉大津テクスピア大阪] 令和"
       },
       "photos": [
         {
@@ -12279,37 +12320,6 @@
         "source": "みんなの高校情報",
         "url": "https://www.minkou.jp/hischool/school/review/822/",
         "fetchedAt": "2026-09-10"
-      },
-      "openSchool": {
-        "events": [
-          {
-            "date": "2026-10-24",
-            "label": "部活動体験",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://www2.osaka-c.ed.jp/takaishi/news/33900/"
-          },
-          {
-            "date": "2026-12-12",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://www2.osaka-c.ed.jp/takaishi/news/33900/"
-          },
-          {
-            "date": "2027-01-23",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://www2.osaka-c.ed.jp/takaishi/news/33900/"
-          }
-        ],
-        "reservation": "required",
-        "source": "https://www2.osaka-c.ed.jp/takaishi/news/33900/",
-        "checkedAt": "2026-10-01",
-        "applyUrl": "https://www2.osaka-c.ed.jp/takaishi/news/33900",
-        "applyLabel": "学校説明会の申し込みについて",
-        "evidence": "ついて &nbsp; 【開催日程】&nbsp; ・授業体験・部活動体験 令和8年10月24日（土）午後 ・第1回 学校説明会 令和8年12月12日（土）午前&nbsp; ・第2回 学校説明会 令和9年1月23日（土）午前 &nbsp;【お"
       },
       "photos": [
         {
@@ -17972,26 +17982,19 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-10-01",
-            "label": "説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://www.osk-ohtani.ed.jp/"
-          },
-          {
             "date": "2026-10-09",
             "label": "説明会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://www.osk-ohtani.ed.jp/"
+            "source": "https://www.osk-ohtani.ed.jp/2026/05/%e3%83%8f%e3%83%ab%e3%82%ab%e3%82%b9-%e3%82%b3%e3%83%bc%e3%82%b9%e5%88%a5%e8%aa%ac%e6%98%8e%e4%bc%9a%ef%bc%88%e7%89%b9%e9%80%b2%e3%82%b3%e3%83%bc%e3%82%b9%ef%bc%89-3/"
           }
         ],
         "reservation": "required",
-        "source": "https://www.osk-ohtani.ed.jp/",
+        "source": "https://www.osk-ohtani.ed.jp/2026/05/%e3%83%8f%e3%83%ab%e3%82%ab%e3%82%b9-%e3%82%b3%e3%83%bc%e3%82%b9%e5%88%a5%e8%aa%ac%e6%98%8e%e4%bc%9a%ef%bc%88%e7%89%b9%e9%80%b2%e3%82%b3%e3%83%bc%e3%82%b9%ef%bc%89-3/",
         "checkedAt": "2026-10-01",
         "applyUrl": "https://mirai-compass.net/usr/oskotanj/event/evtIndex.jsf",
         "applyLabel": "ログインして申込む （はじめての方もこちらから）",
-        "evidence": "vents 入試イベント情報 中学入試EVENTS Thu 10/1 (木) ハルカス コース別説明会（凛花グローバル探究コース） Fri 10/9 (金) ハルカス コース別説明会（特進コース） 中学入試イベント情報一覧 高校入試EVENT"
+        "evidence": "イベント 2026 10 October ハルカス コース別説明会（特進コース） 10/9（金）14：00～14：45 ◇日時：１０月９日（金）１４：００～１４：４５ ◇対象学年：小学４年生～６年生 ◇場所：大阪大谷大学ハルカスキャンパ"
       }
     },
     {
@@ -18913,23 +18916,6 @@
         "sourceName": "大阪私立中学校高等学校連合会「私立高等学校新入生徒 納付金等調」",
         "survey": "令和7年11月",
         "fetchedAt": "2026-09-10"
-      },
-      "openSchool": {
-        "events": [
-          {
-            "date": "2026-10-18",
-            "label": "オープンスクール",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://koutoku.ac.jp/kinkiosaka/news/20260914/"
-          }
-        ],
-        "reservation": "required",
-        "source": "https://koutoku.ac.jp/kinkiosaka/news/20260914/",
-        "checkedAt": "2026-09-30",
-        "applyUrl": "https://koutoku.ac.jp/kinkiosaka/guide/open/",
-        "applyLabel": "オープンスクールに申し込む",
-        "evidence": "プンスクール【10/18】 OPEN SCHOOL 第5回 オープンスクール開催！ 2026年10月18日（日） 午前の部 10:30～ ／ 午後の部 14:00～ 近畿大阪高校ってどんな学校？ 学校のこと、学び方、学費のことなどを詳しくご紹介します。"
       }
     },
     {
@@ -21610,7 +21596,7 @@
         "checkedAt": "2026-10-01",
         "applyUrl": "https://www.osaka-seisho.ed.jp/topics/1406/",
         "applyLabel": "2026.09.14 10/17(土)第１回オープンスクール 申込受付中！",
-        "evidence": "せにて最新情報をお届け 📣 View More [入試情報]10/3(土)宝塚市ぴぴあ売布に星翔高校がうかがいます！ 2026.09.28 重要なお知らせ 入試情報 工業科 学科選択説明会・施設見学会を実施しました！ 2026.09.26 校長室だより 学校行事 [入試情報]9/26(土)生駒市たけまるホールに星翔高校"
+        "evidence": "26.10.01 校長室だより 重要なお知らせ [入試情報]10/3(土)宝塚市ぴぴあ売布に星翔高校がうかがいます！ 2026.09.28 重要なお知らせ 入試情報 工業科 学科選択説明会・施設見学会を実施しました！ 2026.09.26 校長室だより 学校行事 [入試情報]9/26(土)生駒市たけまるホールに星翔高校"
       },
       "admissionFee": {
         "amount": 200000,
