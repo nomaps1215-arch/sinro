@@ -5543,29 +5543,29 @@
             "label": "学校見学会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://fuse.ed.jp/"
+            "source": "https://fuse.ed.jp/school-orientation/"
           },
           {
             "date": "2026-11-14",
             "label": "学校見学会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://fuse.ed.jp/"
+            "source": "https://fuse.ed.jp/school-orientation/"
           },
           {
             "date": "2026-12-12",
             "label": "学校説明会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://fuse.ed.jp/"
+            "source": "https://fuse.ed.jp/school-orientation/"
           }
         ],
         "reservation": "required",
-        "source": "https://fuse.ed.jp/",
+        "source": "https://fuse.ed.jp/school-orientation/",
         "checkedAt": "2026-10-02",
         "applyUrl": "https://fuse.ed.jp/news/20260918/",
         "applyLabel": "2026（令和８）年度10月学校見学会の申込みについて",
-        "evidence": "説明会 【布施高校（全日制の課程） 学校説明会の日程】 🔹 10月24日（土） 学校見学会（学校説明、体験授業、校内および部活動見学） 🔹 11月14日（土） 学校見学会（部活動体験） 🔹 12月12日（土） 学校説明会（学校説"
+        "evidence": "24日 【布施高校（全日制の課程） 学校説明会の日程】 🔹 10月24日（土） 学校見学会（学校説明、体験授業、校内および部活動見学） 🔹 11月14日（土） 学校見学会（部活動体験） 🔹 12月12日（土） 学校説明会（学校説"
       },
       "photos": [
         {
@@ -6910,13 +6910,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-10-02",
-            "label": "部活動体験",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://minato-hs.ed.jp/information/2026/19327/"
-          },
-          {
             "date": "2026-10-04",
             "label": "説明会",
             "reservation": null,
@@ -6946,11 +6939,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://minato-hs.ed.jp/information/2026/19327/",
+        "source": "https://minato-hs.ed.jp/middleschool/",
         "checkedAt": "2026-10-02",
         "applyUrl": "https://minato-hs.ed.jp/information/2026/19327/",
         "applyLabel": "10月17日(土) 学校説明会・部活動体動 申し込みについて",
-        "evidence": "土）学校説明会・部活動体験 申し込みについて ※お申し込みは１０月２日（金）１７時までとなります。 ＜部活動体験に参加される方＞ ８：４０受付、９：００学校説明・校内見学、１０：００部活動体験、１２：００体験終了 です。 【１０月１７日（土）に実施する"
+        "evidence": "説明会) 令和8年9月13日(日) 港区民センター(港区合同説明会) 令和8年9月27日(日) OMMビル(進学情報展) 令和8年10月4日(日) OMMビル(五ツ木進学相談会) 部活動実績2026 部活動実績を昨年度のものと合わせて掲載しています。 随時更新しています。 部活動活動実"
       },
       "photos": [
         {
@@ -9250,8 +9243,8 @@
         "reservation": "required",
         "source": "https://tennoji-hs.jp/admission/briefing-session/",
         "checkedAt": "2026-10-02",
-        "applyUrl": "https://tennoji-hs.jp/graduate/teaching-practice",
-        "applyLabel": "教育実習の申し込みについて",
+        "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfRkJt1vOurGBSlaxgEFJSWyH4ijJt902p_ppfyzCeOi8VsUQ/viewform?usp=dialog",
+        "applyLabel": "申込フォーム",
         "evidence": "見学 13:00〜13:30 受付 13:30〜14:45 説明会 終了後 校内自由見学 13:30〜16:00 （15:30 受付終了） 第2回 10/24 （土） ①3限の授業見学 &nbsp; 9:20〜9:40 受付 10:10〜10:55 授業見学 ②4限の授業見学&nbsp; 10:20〜10"
       },
       "photos": [
@@ -9438,7 +9431,7 @@
         "reservation": "required",
         "source": "https://osaka-city-ib.jp/admissions/schedule/",
         "checkedAt": "2026-10-02",
-        "applyUrl": "https://osaka-city-ib.jp/blog/common/entry-965.html",
+        "applyUrl": "https://osaka-city-ib.jp/blog/gaps/entry-966.html",
         "applyLabel": "申込フォーム",
         "evidence": "各回定員に達し次第締切 本校 学校説明・個別相談・施設見学 2026年12月12日（土） 小学3-6年生 開催１か月前頃を予定 本校 学校説明・個別相談・施設見学 オープンスクール 日時 対象 申込受付期間 場所 内容 詳細 2026年8月22日（土） 小学3-6年生 定員に達したため受付は終了しました。 本校 授業体"
       }
@@ -11208,22 +11201,15 @@
             "label": "学校見学会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://ohtori-hs.ed.jp/2026/09/post-10097/"
-          },
-          {
-            "date": "2026-11-07",
-            "label": "学校見学会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://ohtori-hs.ed.jp/infosession/"
+            "source": "https://ohtori-hs.ed.jp/"
           }
         ],
         "reservation": "required",
-        "source": "https://ohtori-hs.ed.jp/2026/09/post-10097/",
+        "source": "https://ohtori-hs.ed.jp/",
         "checkedAt": "2026-10-02",
-        "applyUrl": "https://forms.gle/RtPFuzv6RTxJ8r829",
-        "applyLabel": "10月10日(土)第2回学校見学会の申し込みは、こちらをクリックしてください。",
-        "evidence": "開始しています。 中学生のみなさん、奮ってご参加ください！ 10月10日(土)第2回学校見学会の申し込みは、こちらをクリックしてください。 ※現在、自動返信メールが届かない事態が発生しています。ご迷惑をおかけしています。復旧次第、連絡"
+        "applyUrl": "https://ohtori-hs.ed.jp/infosession/",
+        "applyLabel": "↓学校見学会の詳細・申込はこちらから",
+        "evidence": "校生の皆さん 保護者の皆さま PTAより 中学生の皆さんへ 2026.10.02 10月10日(土)第2回学校見学会について … 校長徒然 2026.10.02 2025 万博大屋根リング 鳳に来る！ 校長徒然 2026.10.01 教師として 其の壱 校"
       },
       "photos": [
         {
@@ -11543,7 +11529,7 @@
         "checkedAt": "2026-10-02",
         "applyUrl": "https://forms.gle/SWhiiyixGm4PpSEN7",
         "applyLabel": "申込フォーム",
-        "evidence": "学生の皆さまへ 最近の記事 過去の記事 2026/9/14 学校説明会に来られる中学生・保護者の皆様へ 令和8年10月24日（土）開催 2026/9/11 保健室より ほけんだよりを発行しました 2026/9/8 泉北高校女子バレーボール部 体験練習会のお知らせ 202"
+        "evidence": "護者の皆さまへ 最近の記事 過去の記事 2026/9/14 学校説明会に来られる中学生・保護者の皆様へ 令和8年10月24日（土）開催 2026/9/11 保健室より ほけんだよりを発行しました 2026/9/8 泉北高校女子バレーボール部 体験練習会のお知らせ 202"
       },
       "photos": [
         {
@@ -18681,6 +18667,13 @@
             "reservation": null,
             "confidence": "high",
             "source": "https://www.kansai-u.ac.jp/hokuyo/news2026/09/post_846.html"
+          },
+          {
+            "date": "2026-11-14",
+            "label": "入試説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.kansai-u.ac.jp/hokuyo/news2026/09/103.html"
           }
         ],
         "reservation": "required",
@@ -20583,6 +20576,27 @@
             "reservation": "required",
             "confidence": "high",
             "source": "https://www.shitennoji.ed.jp/stnnj/events/r8h_stmi_2010/"
+          },
+          {
+            "date": "2026-10-31",
+            "label": "説明会",
+            "reservation": "required",
+            "confidence": "high",
+            "source": "https://www.shitennoji.ed.jp/stnnj/events/%e5%9b%9b%e5%a4%a9%e7%8e%8b%e5%af%ba%e4%b8%ad%e5%ad%a6%e6%a0%a1-%e5%85%a5%e8%a9%a6%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%80%80%e5%ae%9f%e6%96%bd%e8%a6%81%e9%a0%85/"
+          },
+          {
+            "date": "2026-11-07",
+            "label": "説明会",
+            "reservation": "required",
+            "confidence": "high",
+            "source": "https://www.shitennoji.ed.jp/stnnj/events/%e5%9b%9b%e5%a4%a9%e7%8e%8b%e5%af%ba%e4%b8%ad%e5%ad%a6%e6%a0%a1-%e5%85%a5%e8%a9%a6%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%80%80%e5%ae%9f%e6%96%bd%e8%a6%81%e9%a0%85/"
+          },
+          {
+            "date": "2026-11-14",
+            "label": "説明会",
+            "reservation": "required",
+            "confidence": "high",
+            "source": "https://www.shitennoji.ed.jp/stnnj/events/%e5%9b%9b%e5%a4%a9%e7%8e%8b%e5%af%ba%e9%ab%98%e7%ad%89%e5%ad%a6%e6%a0%a1-%e5%85%a5%e8%a9%a6%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%80%80%e5%ae%9f%e6%96%bd%e8%a6%81%e9%a0%85/"
           }
         ],
         "reservation": "required",
@@ -22280,7 +22294,7 @@
         "checkedAt": "2026-10-02",
         "applyUrl": "https://www.soai.ed.jp/news/2026/06/725.html",
         "applyLabel": "202606.22 202606.22 【オープンスクール】7月25日（土）中学",
-        "evidence": "09.25 お知らせ オープンスクール情報 9月26日（土）オープンスクールについて 2026.09.10 お知らせ 【10月3日(土)】中・高音楽科定期演奏会を開催いたします お知らせ一覧へ 2026.09.30 コンサート活動報告 高2音楽科 乙女コンサート 2026.0"
+        "evidence": "09.25 お知らせ オープンスクール情報 9月26日（土）オープンスクールについて 2026.09.10 お知らせ 【10月3日(土)】中・高音楽科定期演奏会を開催いたします お知らせ一覧へ 2026.10.02 行事報告 宗教教育研修会 2026.10.02 行事報告 令"
       },
       "admissionFee": {
         "amount": 250000,
@@ -23489,7 +23503,7 @@
         "checkedAt": "2026-10-02",
         "applyUrl": "https://mirai-compass.net/usr/hagormgh/event/evtIndex.jsf",
         "applyLabel": "お申込みはこちら",
-        "evidence": "進学相談会 2026.09.28 高等学校 【イベント】 【10/3(土)】泉州 中学校・高等学校進学説明会2027 2026.07.09 高等学校 【イベント】 【10月17日(土)】高校 第2回オープンキャンパス 2026.09.24 中学校"
+        "evidence": "験生の方へ 2026.09.28 高等学校 【イベント】 【10/3(土)】泉州 中学校・高等学校進学説明会2027 2026.09.28 中高共通 【イベント】 【10/4(日)】五ツ木の進学相談会 2026.07.09 高等学校 【イベント】"
       }
     },
     {
