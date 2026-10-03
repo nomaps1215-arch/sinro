@@ -288,8 +288,8 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-10-03",
-            "label": "説明会",
+            "date": "2026-10-09",
+            "label": "オープンスクール",
             "reservation": null,
             "confidence": "high",
             "source": "https://www3.osaka-c.ed.jp/ichiritsu/"
@@ -312,7 +312,7 @@
         "reservation": null,
         "source": "https://www3.osaka-c.ed.jp/ichiritsu/",
         "checkedAt": "2026-10-03",
-        "evidence": "！※お席がわずかになったプログラムについて、追記しています 2026/09/10 10/3(土)枚方市内高等学校合同説明会に参加します 2026/09/06 令和８年度学校説明会・オープンスクールについてはこちら 2026/09/06 令和８年度年間行事予定・月"
+        "evidence": "), 11/7(土)オープンスクール参加申込はこちらから！ 2026/10/04 10/9(金)にオープンスクール当日に関する連絡を投稿します【重要】 2026/10/03 オープンスクールお申込み時の自動返信メールが届かなかった方へ【重要】 2026/"
       },
       "photos": [
         {
@@ -7924,7 +7924,7 @@
         "source": "https://www2.osaka-c.ed.jp/higashiyodogawa/",
         "checkedAt": "2026-10-03",
         "applyUrl": "https://www2.osaka-c.ed.jp/higashiyodogawa/news/8554",
-        "applyLabel": "2026/10/01 【中学生および保護者の皆さまへ】体験入学 11月7日（土）",
+        "applyLabel": "2026/10/03 【中学生および保護者の皆さまへ】体験入学 11月7日（土）",
         "evidence": "生の皆さん・保護者の皆様へ】第１回学校説明会 ご参加のお礼/11月7日（土）体験入学のご案内 2026/09/16 【9/19(土)開催 第1回学校説明会をお申込みの皆さまへ】 台風接近に伴う学校説明会の対応について お知ら"
       },
       "photos": [
@@ -15364,6 +15364,20 @@
             "source": "https://www.otemon-js.ed.jp/posts/view/7691/"
           },
           {
+            "date": "2026-10-17",
+            "label": "プレテスト",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.otemon-js.ed.jp/posts/view/7711/"
+          },
+          {
+            "date": "2026-11-01",
+            "label": "プレテスト",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.otemon-js.ed.jp/posts/view/7711/"
+          },
+          {
             "date": "2026-12-12",
             "label": "入試説明会",
             "reservation": null,
@@ -16889,19 +16903,26 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-10-03",
+            "date": "2026-10-24",
+            "label": "オープンキャンパス",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.osaka-jogakuin.ed.jp/event/2549/"
+          },
+          {
+            "date": "2026-11-07",
             "label": "入試説明会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://www.osaka-jogakuin.ed.jp/event/2545/"
+            "source": "https://www.osaka-jogakuin.ed.jp/event/2553/"
           }
         ],
         "reservation": "required",
-        "source": "https://www.osaka-jogakuin.ed.jp/event/2545/",
+        "source": "https://www.osaka-jogakuin.ed.jp/event/2549/",
         "checkedAt": "2026-10-03",
-        "applyUrl": "https://form.run/@2026Juku-02",
-        "applyLabel": "申し込みはこちら（９月１日〜）",
-        "evidence": "保護者 受験生 2026.10.3 第1回中学校入試説明会 入試説明会の内容について 対象 受験生、保護者 日時 2026年10月3日（土）13時00分〜14時00分 （受付開始時間：12時30分） 会場 チャペル 注意事項 ウェブ申し込みは不要です。 2027年度中学校入試のた"
+        "applyUrl": "https://form.run/@2026SOC01-english",
+        "applyLabel": "10/3（土）申込開始 高校オープンキャンパス 英語プログラム お申し込み",
+        "evidence": "2026.10.24 高校オープンキャンパス vol.1 オープンキャンパスの内容について 対象 中学３年 ※生徒のみ参加可能 日時 2026年10月24日（土）13時00分〜15時00分 （受付開始時間：12時30分） 会場 チャペル他 申し込み方法 インターネットに接続されているパソコンからお申し"
       }
     },
     {
@@ -18082,7 +18103,7 @@
         "checkedAt": "2026-10-03",
         "applyUrl": "https://mirai-compass.net/usr/kaimeij/event/evtIndex.jsf",
         "applyLabel": "中学校イベント申込",
-        "evidence": "）開催｜「中学」授業見学会 2026-08-27 入試情報 10/３（土）開催｜「中学」入試説明会 2026-08-21 入試情報 外部説明会（８月～11月開催分） 2026-06-24 入試情報 令和９年度「高校１次」生徒募集要項のお知"
+        "evidence": "高校」入試説明会 2026-08-31 入試情報 第１回中学入試説明会を開催いたしました 2026-08-27 入試情報 10/３（土）開催｜「中学」授業見学会 2026-08-21 入試情報 外部説明会（８月～11月開催分） 2026-06-24 入試情報 令和９年度「高校"
       },
       "admissionFee": {
         "amount": 200000,
@@ -18618,6 +18639,13 @@
             "source": "https://www.kansai-u.ac.jp/hokuyo/"
           },
           {
+            "date": "2026-10-04",
+            "label": "説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.kansai-u.ac.jp/hokuyo/"
+          },
+          {
             "date": "2026-10-17",
             "label": "説明会",
             "reservation": null,
@@ -18644,7 +18672,7 @@
         "checkedAt": "2026-10-03",
         "applyUrl": "https://mirai-compass.net/usr/khokuyoh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "2026年09月20日 UP 【受験生および保護者の皆様へ】10/3(土)より第一回入試説明会の参加申し込みを開始します。 2026年09月15日 UP 吹奏楽部 クラブ体験会申し込み受付中！ 一覧 RSS --> --> --> -"
+        "evidence": "2026年09月20日 UP 【受験生および保護者の皆様へ】10/3(土)より第一回入試説明会の参加申し込みを開始します。 一覧 RSS --> --> --> --> --> --> --> --> TOPICS 2026年09月2"
       },
       "admissionFee": {
         "amount": 300000,
