@@ -18827,6 +18827,23 @@
         "sourceName": "大阪私立中学校高等学校連合会「私立高等学校新入生徒 納付金等調」",
         "survey": "令和7年11月",
         "fetchedAt": "2026-09-10"
+      },
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-10-18",
+            "label": "オープンスクール",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://koutoku.ac.jp/kinkiosaka/news/20260914/"
+          }
+        ],
+        "reservation": "required",
+        "source": "https://koutoku.ac.jp/kinkiosaka/news/20260914/",
+        "checkedAt": "2026-10-04",
+        "applyUrl": "https://koutoku.ac.jp/kinkiosaka/guide/open/",
+        "applyLabel": "オープンスクールに申し込む",
+        "evidence": "プンスクール【10/18】 OPEN SCHOOL 第5回 オープンスクール開催！ 2026年10月18日（日） 午前の部 10:30～ ／ 午後の部 14:00～ 近畿大阪高校ってどんな学校？ 学校のこと、学び方、学費のことなどを詳しくご紹介します。"
       }
     },
     {
