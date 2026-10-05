@@ -88,20 +88,8 @@
     "website": "https://www.osaka-c.ed.jp/korigaoka/",
     "reached": true,
     "pages": 4,
-    "events": [
-      {
-        "date": "2026-11-14",
-        "label": "学校見学会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www2.osaka-c.ed.jp/korigaoka/news/34630/",
-        "evidence": "お知らせ 大阪府立香里丘高等学校では、下記のとおり「第２回 学校見学会」を実施いたします。 中学生・保護者のみなさまのご参加を、心よりお待ちしております。 開催概要 日 時： 令和８年１１月１４日（土） 受付 １３：００～１５：３０（全体実施 １３：００～１７：００） 申込期間： &nbsp;１０月０１日（木）１９：３"
-      }
-    ],
-    "apply": {
-      "url": "https://forms.gle/6C1XAgoWbZYs6UCt5",
-      "label": "📥 ▶ お申込みフォームはこちら"
-    },
+    "events": [],
+    "apply": null,
     "note": ""
   },
   {
@@ -248,7 +236,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www2.osaka-c.ed.jp/neyagawa/folder_1/post-26/",
-        "evidence": "（土） 時間：13：00～ ３部制 ※終了しました 第２回 学校説明会 10月17日（土） 時間：13：00～ ３部制 案内 第３回 学校説明会 １月23日（土） 時間：13：00～ ３部制 オープンスクール 11月７日（土） 午"
+        "evidence": "（土） 時間：13：00～ ３部制 ※終了しました 第２回 学校説明会 10月17日（土） 時間：13：00～ ３部制 案内 申し込み 第３回 学校説明会 １月23日（土） 時間：13：00～ ３部制 オープンスクール 11月７日"
       },
       {
         "date": "2026-11-07",
@@ -264,12 +252,12 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www2.osaka-c.ed.jp/neyagawa/folder_1/post-26/",
-        "evidence": "0月17日（土） 時間：13：00～ ３部制 案内 第３回 学校説明会 １月23日（土） 時間：13：00～ ３部制 オープンスクール 11月７日（土） 午前：授業見学・午後：学校説明会・部活動見学 部活動体験 ① ９月26日（"
+        "evidence": "（土） 時間：13：00～ ３部制 案内 申し込み 第３回 学校説明会 １月23日（土） 時間：13：00～ ３部制 オープンスクール 11月７日（土） 午前：授業見学・午後：学校説明会・部活動見学 部活動体験 ① ９月26日（"
       }
     ],
     "apply": {
-      "url": "https://www2.osaka-c.ed.jp/neyagawa/news/34556",
-      "label": "2026/09/25 第２回学校説明会・部活動体験の申し込みについて"
+      "url": "https://www2.osaka-c.ed.jp/blog/neyagawa/jh/390025",
+      "label": "申し込み"
     },
     "note": ""
   },
@@ -534,20 +522,20 @@
     "name": "大阪府立松原高等学校",
     "website": "https://www.osaka-matsubara.ed.jp",
     "reached": true,
-    "pages": 3,
+    "pages": 2,
     "events": [
       {
-        "date": "2027-01-23",
+        "date": "2026-11-07",
         "label": "学校説明会",
-        "reservation": "required",
+        "reservation": null,
         "confidence": "high",
-        "source": "https://www.osaka-matsubara.ed.jp/news/detail.php?id=169",
-        "evidence": "す。 ぜひ参加してください。 第３回は、12/5土、第４回は1/23（土）です。 第２回学校説明会の詳細 （申し込みフォームが不調です。 調整中ですので、しばらくお待ちください。） 一覧に戻る 新着お知らせ 学校説明会（第２回）の受付を開"
+        "source": "https://www.osaka-matsubara.ed.jp/",
+        "evidence": "対応していません。 MATSUKO INFORMATION 2026.10.5 11/7（土）第２回学校説明会のお知らせ 2026.9.1 就職面接指導が始まりました 2026.4.10 進路実績を更新しました 2024.1.22 Tsu-mu-gu"
       }
     ],
     "apply": {
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLScNsP63bRUojMZh5ee0jVwW3DlLcXmBq6NuGCevNywZeblk9Q/viewform",
-      "label": "申込フォーム"
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfZMCJEVwuBbix5QYswbvHJEA8hYBY216LQBy3zcOiM6cDDuA/viewform?usp=header",
+      "label": "申し込みフォームはこちら"
     },
     "note": ""
   },
@@ -1224,7 +1212,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://yaokita-hs.sakura.ne.jp/wp/examinee/open-school/",
-        "evidence": "★申込みは終了しました 第２回オープンスクール実施要項 ◇ １１月７日(土) 第３回オープンスクール （説明会・施設見学・クラブ体験・授業体験） ★申込みは10月7日(水)より開始します &nbsp; ◇ １月１６日(土) 第４回オープンス"
+        "evidence": "★申込みは終了しました 第２回オープンスクール実施要項 ◇ １１月７日(土) 第３回オープンスクール （説明会・施設見学・クラブ体験・授業体験） ★申込みは10月7日(水)より開始します 第３回オープンスクール実施要項 ◇ １月１６日(土)"
       },
       {
         "date": "2027-01-16",
@@ -1232,7 +1220,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://yaokita-hs.sakura.ne.jp/wp/examinee/open-school/",
-        "evidence": "★申込みは10月7日(水)より開始します &nbsp; ◇ １月１６日(土) 第４回オープンスクール （説明会・施設見学） 大阪府立八尾北高等学校 大阪府立八尾北高等学校 ホーム 受検生の皆さん YouTube Instagram お知らせ"
+        "evidence": "日(水)より開始します 第３回オープンスクール実施要項 ◇ １月１６日(土) 第４回オープンスクール （説明会・施設見学） 大阪府立八尾北高等学校 大阪府立八尾北高等学校 ホーム 受検生の皆さん YouTube Instagram お知らせ"
       }
     ],
     "apply": null,
@@ -1289,8 +1277,8 @@
       }
     ],
     "apply": {
-      "url": "https://www2.osaka-c.ed.jp/hanazono/news/34580",
-      "label": "2026/09/28 クラブ体験の申し込みについて"
+      "url": "https://www2.osaka-c.ed.jp/hanazono/news/34662",
+      "label": "2026/10/05 第2回学校説明会の申し込みについて"
     },
     "note": ""
   },
@@ -1612,7 +1600,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://otemae-hs.ed.jp/2026/09/18/%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a_10%e6%9c%8824%e6%97%a5%e9%96%8b%e5%82%ac%e3%80%80%e7%94%b3%e8%be%bc%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0/",
-        "evidence": "催 申込フォーム 2026年9月18日 5465VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
+        "evidence": "催 申込フォーム 2026年9月18日 5702VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
       }
     ],
     "apply": {
@@ -3268,7 +3256,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://teshima-hs.ed.jp/infomation/",
-        "evidence": "くと申込フォームにリンクします。 ・ 申込はコチラ 第２回 学校説明会 令和８年 12月12日 (土) ・申込は11月24日16:30から12月7日9:00まで。定員になり次第締め切ります。 ・詳しい内容はコチラ。 ・11月24日午後4時30"
+        "evidence": "だくと申込フォームにリンクします。 ・申込はコチラ 第２回 学校説明会 令和８年 12月12日 (土) ・申込は11月24日16:30から12月7日9:00まで。定員になり次第締め切ります。 ・詳しい内容はコチラ。 ・11月24日午後4時30"
       },
       {
         "date": "2027-02-13",
@@ -3280,8 +3268,8 @@
       }
     ],
     "apply": {
-      "url": "https://teshima-hs.ed.jp/news/%e3%80%8c%e9%83%a8%e6%b4%bb%e5%8b%95%e4%bd%93%e9%a8%93%e4%bc%9a%e3%80%8d%e7%94%b3%e3%81%97%e8%be%bc%e3%81%bf%e5%8f%97%e4%bb%98%e4%b8%ad%e3%81%a7%e3%81%99%ef%bc%81/",
-      "label": "「部活動体験会」申し込み受付中です！（情報を更新しました。）"
+      "url": "https://forms.gle/iwb9m28u6RgmF4Fg6",
+      "label": "・申込はコチラ"
     },
     "note": ""
   },
@@ -3300,7 +3288,7 @@
     "name": "大阪府立豊中高等学校",
     "website": "https://www2.osaka-c.ed.jp/toyonaka/",
     "reached": true,
-    "pages": 2,
+    "pages": 3,
     "events": [],
     "apply": null,
     "note": ""
@@ -3652,7 +3640,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www.otemon-js.ed.jp/",
-        "evidence": "高校 NEW 2026.09.28 入試情報 □高校入試□ 12/12(土)第3回高校入試説明会 10月5日(月)13時より申込受付開始 高校 NEW 2026.09.28 入試情報 ■中学入試■ 【中学入試直前 得点力アップセミナー】"
+        "evidence": "明動画 高校 2026.09.28 入試情報 □高校入試□ 12/12(土)第3回高校入試説明会 10月5日(月)13時より申込受付開始 高校 2026.09.28 入試情報 ■中学入試■ 【中学入試直前 得点力アップセミナー】10月5"
       }
     ],
     "apply": {
@@ -4702,11 +4690,23 @@
     "id": "priv-kinkiosaka",
     "name": "近畿大阪高等学校",
     "website": "https://koutoku.ac.jp/kinkiosaka/",
-    "reached": false,
-    "pages": 0,
-    "events": [],
-    "apply": null,
-    "note": "robots.txt で拒否"
+    "reached": true,
+    "pages": 3,
+    "events": [
+      {
+        "date": "2026-10-18",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://koutoku.ac.jp/kinkiosaka/news/20260914/",
+        "evidence": "プンスクール【10/18】 OPEN SCHOOL 第5回 オープンスクール開催！ 2026年10月18日（日） 午前の部 10:30～ ／ 午後の部 14:00～ 近畿大阪高校ってどんな学校？ 学校のこと、学び方、学費のことなどを詳しくご紹介します。"
+      }
+    ],
+    "apply": {
+      "url": "https://koutoku.ac.jp/kinkiosaka/guide/open/",
+      "label": "オープンスクールに申し込む"
+    },
+    "note": ""
   },
   {
     "id": "priv-kindai-senshu",
@@ -5045,7 +5045,15 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www.kohs.ed.jp/information/38416/",
-        "evidence": "0/31,11/14,12/5,12/19） 受付中 高校・学校説明会（10/31,11/14,12/5,12/19） 受付中 「10月31日（土）」「11月14日（土）」「12月5日（土）」「12月19日（土）」に学校説明会を開催いたします（※すべて午前10時より開始です）。 学校説明"
+        "evidence": "会（10/31,11/14,12/5,12/19） 受付中 10月31日（土）・11月14日（土）・12月5日（土）・12月19日（土） に学校説明会を開催いたします（※すべて午前10時より開始です）。 学校説明会では学校紹介、入試や募集要項について説明を行います。そのあとは自由に校内見学"
+      },
+      {
+        "date": "2026-11-14",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.kohs.ed.jp/information/38416/",
+        "evidence": "会（10/31,11/14,12/5,12/19） 受付中 10月31日（土）・11月14日（土）・12月5日（土）・12月19日（土） に学校説明会を開催いたします（※すべて午前10時より開始です）。 学校説明会では学校紹介、入試や募集要項について説明を行います。そのあとは自由に校内見学"
       },
       {
         "date": "2026-11-28",
@@ -5056,12 +5064,20 @@
         "evidence": "ださっているのが印象的でした🥐 ⁡ さて！今後のプレテスト＆学校説明会の日程です📢 ・第2回：11月3日（火･祝） ・第3回：11月28日（土） たくさんのご参加をお待ちしております！ TOPICS一覧へ 学校概要 教育理念 公開情報 採用情報 大阪教育ゆめ基金 中学校 中高一貫教育"
       },
       {
+        "date": "2026-12-05",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.kohs.ed.jp/information/38416/",
+        "evidence": "会（10/31,11/14,12/5,12/19） 受付中 10月31日（土）・11月14日（土）・12月5日（土）・12月19日（土） に学校説明会を開催いたします（※すべて午前10時より開始です）。 学校説明会では学校紹介、入試や募集要項について説明を行います。そのあとは自由に校内見学"
+      },
+      {
         "date": "2026-12-19",
         "label": "学校説明会",
         "reservation": null,
         "confidence": "high",
         "source": "https://www.kohs.ed.jp/information/38416/",
-        "evidence": "月31日（土）」「11月14日（土）」「12月5日（土）」「12月19日（土）」に学校説明会を開催いたします（※すべて午前10時より開始です）。 学校説明会では学校紹介、入試や募集要項について説明を行います。そのあとは自由に校内見学"
+        "evidence": "会（10/31,11/14,12/5,12/19） 受付中 10月31日（土）・11月14日（土）・12月5日（土）・12月19日（土） に学校説明会を開催いたします（※すべて午前10時より開始です）。 学校説明会では学校紹介、入試や募集要項について説明を行います。そのあとは自由に校内見学"
       }
     ],
     "apply": {
@@ -5722,11 +5738,11 @@
     "id": "priv-daisho",
     "name": "大商学園高等学校",
     "website": "http://www.daisho.ac.jp",
-    "reached": false,
-    "pages": 0,
+    "reached": true,
+    "pages": 4,
     "events": [],
     "apply": null,
-    "note": "取得できず（<urlopen error timed out>）"
+    "note": ""
   },
   {
     "id": "priv-hs-2",
@@ -6141,7 +6157,7 @@
     "name": "PL学園高等学校",
     "website": "https://www.pl-gakuen.ac.jp/school/",
     "reached": true,
-    "pages": 4,
+    "pages": 3,
     "events": [],
     "apply": null,
     "note": ""
@@ -6232,7 +6248,16 @@
     "website": "http://www.meijo.ed.jp",
     "reached": true,
     "pages": 4,
-    "events": [],
+    "events": [
+      {
+        "date": "2026-10-24",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.meijo.ed.jp/news/%e3%80%909%e6%9c%8819%e6%97%a5%e3%80%91%e7%ac%ac3%e5%9b%9e%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e9%96%8b%e5%82%ac%e5%a0%b1%e5%91%8a/",
+        "evidence": "学院高等学校】オープンスクール【2026.9.19】 次回のオープンスクールは、 **10月24日（土）** に開催予定です。 ハロウィン仕様の特別な雰囲気で、皆さまをお迎えします！🎃 皆さまのご参加を心よりお待ちしております。 &nbsp;"
+      }
+    ],
     "apply": null,
     "note": ""
   },
