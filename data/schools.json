@@ -5190,6 +5190,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-11-01",
+            "label": "授業体験",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://yaokita-hs.sakura.ne.jp/wp/examinee/open-school/"
+          },
+          {
             "date": "2026-11-07",
             "label": "オープンスクール",
             "reservation": null,
@@ -5207,7 +5214,7 @@
         "reservation": null,
         "source": "https://yaokita-hs.sakura.ne.jp/wp/examinee/open-school/",
         "checkedAt": "2026-10-06",
-        "evidence": "★申込みは終了しました 第２回オープンスクール実施要項 ◇ １１月７日(土) 第３回オープンスクール （説明会・施設見学・クラブ体験・授業体験） ★申込みは10月7日(水)より開始します 第３回オープンスクール実施要項 ◇ １月１６日(土)"
+        "evidence": ") 第３回オープンスクール （説明会・施設見学・クラブ体験・授業体験） ★申込みは下記実施要項より受付中です。【11/1(日)まで】 第３回オープンスクール実施要項 ◇ １月１６日(土) 第４回オープンスクール （説明会・施設見学） 大阪府立八尾北高等学校 大阪府立"
       },
       "photos": [
         {
@@ -7886,7 +7893,7 @@
         "source": "https://www2.osaka-c.ed.jp/higashiyodogawa/",
         "checkedAt": "2026-10-06",
         "applyUrl": "https://www2.osaka-c.ed.jp/higashiyodogawa/news/8554",
-        "applyLabel": "2026/10/03 【中学生および保護者の皆さまへ】体験入学 11月7日（土）",
+        "applyLabel": "2026/10/06 【中学生および保護者の皆さまへ】体験入学 11月7日（土）",
         "evidence": "生の皆さん・保護者の皆様へ】第１回学校説明会 ご参加のお礼/11月7日（土）体験入学のご案内 2026/09/16 【9/19(土)開催 第1回学校説明会をお申込みの皆さまへ】 台風接近に伴う学校説明会の対応について お知ら"
       },
       "photos": [
@@ -9079,6 +9086,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-10-06",
+            "label": "学校説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://sumiyoshi.ed.jp/blog/2026/10/06/post-8232/"
+          },
+          {
             "date": "2026-10-31",
             "label": "学校説明会",
             "reservation": null,
@@ -9094,11 +9108,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://sumiyoshi.ed.jp/2026/07/25/post-7200/",
+        "source": "https://sumiyoshi.ed.jp/blog/2026/10/06/post-8232/",
         "checkedAt": "2026-10-06",
         "applyUrl": "https://sumiyoshi.ed.jp/category/for-junior/",
         "applyLabel": "学校説明会 お申し込みご案内はこちら",
-        "evidence": "報 令和８年度 学校説明会について 令和８(2026)年度 学校説明会について ＜実施日＞ ●第１回 令和８年10月31日（土） ☞申込みは10月５日（月）19:00開始 ●第２回 令和８年12月19日（土） ☞申込みは11月16日（月）19:00開始 &nbsp; ＜内 容＞ ・校長又は教頭による総合的な学校説明（2"
+        "evidence": "6651-0525 FAX 06-6653-9163 第1回学校説明会についてー受付を終了いたましたー 2026 年 10 月 06 日 (火) ホーム 住高ブログ 第1回学校説明会についてー受付を終了いたましたー 10月31日（土）に本校で第1回学校説明会を行います。その申し込みが"
       },
       "photos": [
         {
@@ -9376,7 +9390,7 @@
         "reservation": "required",
         "source": "https://osaka-city-ib.jp/admissions/schedule/",
         "checkedAt": "2026-10-06",
-        "applyUrl": "https://osaka-city-ib.jp/blog/gaps/entry-966.html",
+        "applyUrl": "https://osaka-city-ib.jp/blog/senior/entry-968.html",
         "applyLabel": "申込フォーム",
         "evidence": "各回定員に達し次第締切 本校 学校説明・個別相談・施設見学 2026年12月12日（土） 小学3-6年生 開催１か月前頃を予定 本校 学校説明・個別相談・施設見学 オープンスクール 日時 対象 申込受付期間 場所 内容 詳細 2026年8月22日（土） 小学3-6年生 定員に達したため受付は終了しました。 本校 授業体"
       }
@@ -18745,20 +18759,13 @@
             "reservation": null,
             "confidence": "high",
             "source": "https://sis.kwansei.ac.jp/events/00031.html"
-          },
-          {
-            "date": "2026-12-12",
-            "label": "学校見学会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://sis.kwansei.ac.jp/events/00027.html"
           }
         ],
         "reservation": "required",
         "source": "https://sis.kwansei.ac.jp/events/00031.html",
         "checkedAt": "2026-10-06",
-        "applyUrl": "https://sis.kwansei.ac.jp/news/00159.html",
-        "applyLabel": "2026.09.03 お知らせ 第2回オンライン学校説明会 2026【事前申込制",
+        "applyUrl": "https://sis.kwansei.ac.jp/news/00289.html",
+        "applyLabel": "2026.10.07 お知らせ オンライン入試説明会2026【事前申込要】",
         "evidence": "お問い合せ Upcoming Events イベント情報 入試説明会 日付 11月7日（土）10:00～ 場所 オンライン開催 申込 要 申し込み開始前 午後からは帰国生個別相談・国際生資格審査を実施予定です。 ご案内 本校主催の学"
       }
     },
@@ -18885,15 +18892,15 @@
             "label": "オープンスクール",
             "reservation": null,
             "confidence": "high",
-            "source": "https://www.kindai-sensyu.ed.jp/news/%e7%ac%ac%ef%bc%93%e5%9b%9e%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/"
+            "source": "https://www.kindai-sensyu.ed.jp/news/%ef%bc%98-%ef%bc%92%ef%bc%99%e5%9c%9f%e3%80%80%e7%ac%ac%ef%bc%91%e5%9b%9e%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e5%bd%93%e6%97%a5%e3%81%ae%e3%83%90%e3%82%b9/"
           }
         ],
         "reservation": "required",
-        "source": "https://www.kindai-sensyu.ed.jp/news/%e7%ac%ac%ef%bc%93%e5%9b%9e%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+        "source": "https://www.kindai-sensyu.ed.jp/news/%ef%bc%98-%ef%bc%92%ef%bc%99%e5%9c%9f%e3%80%80%e7%ac%ac%ef%bc%91%e5%9b%9e%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e5%bd%93%e6%97%a5%e3%81%ae%e3%83%90%e3%82%b9/",
         "checkedAt": "2026-10-06",
         "applyUrl": "https://mirai-compass.net/usr/ksensyuh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "せ 2026.09.30 第３回オープンスクールのお知らせ １０月17日(土)に第3回オープンスクールを実施いたします。 今回、授業体験は入試に役立つ内容を聞けます！ また、「校内スタンプラリー＆○×クイズ」を開催！ 校内を探検しながら近大泉"
+        "evidence": "7(土)第3回オープンスクールのバス運行（時刻表）について 10月17日(土)実施 第3回オープンスクールのバス発着時間につきましては、 下記のリンク（PDF）よりご確認をお願いいたします。 下校時間のバス発着時間も掲載しております。 あわせてご"
       }
     },
     {
