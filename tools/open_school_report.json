@@ -736,7 +736,7 @@
         "reservation": "none",
         "confidence": "high",
         "source": "https://www2.osaka-c.ed.jp/suitahigashi/folder_0/post-111/",
-        "evidence": "事前に 公式Instagram やHPで告知します。 第２回学校説明会 12/12（土）実施の予約は11/4（水）15：00～ 開始します。 内容は 説明会・校舎見学・部活見学（実施しているクラブのみ）・個別相談（希望者予約不要"
+        "evidence": "事前に 公式Instagram やHPで告知します。 第２回学校説明会 12/12（土）実施の予約は11/4（水）15：00～ 開始します。 内容は 説明会 校舎見学 部活見学（実施しているクラブのみ） 個別相談（希望者予約不要"
       }
     ],
     "apply": null,
@@ -1628,7 +1628,15 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://otemae-hs.ed.jp/2026/09/18/%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a_10%e6%9c%8824%e6%97%a5%e9%96%8b%e5%82%ac%e3%80%80%e7%94%b3%e8%be%bc%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0/",
-        "evidence": "催 申込フォーム 2026年9月18日 6055VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
+        "evidence": "催 申込フォーム 2026年9月18日 6214VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
+      },
+      {
+        "date": "2026-11-14",
+        "label": "学校見学会",
+        "reservation": "required",
+        "confidence": "high",
+        "source": "https://otemae-hs.ed.jp/2026/09/30/10%e6%9c%8818%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e4%bd%93%e9%a8%93%e5%9e%8b%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%80%8e%e5%a4%a7%e9%98%aa%e5%9f%8e%e3%81%ae%e8%a6%8b%e3%81%88%e3%82%8b/",
+        "evidence": "※今回は定員が充足したため、受付を終了いたしました。近日中に11月14日（土）開催の学校見学会の申込フォームをホームページ上に投稿いたしますので、そちらをお待ちください。 中学生の皆さんへ 学校見学会_10月24日開催 申込フォーム"
       }
     ],
     "apply": {
@@ -1810,8 +1818,8 @@
       }
     ],
     "apply": {
-      "url": "https://forms.gle/8nTah8B7QFQoPLtJ6",
-      "label": "13：00 ～ 15：00の部 申し込みページ"
+      "url": "https://forms.gle/zQu6kRz5iPH7eGiL9",
+      "label": "申込フォーム"
     },
     "note": ""
   },
@@ -1887,8 +1895,8 @@
       }
     ],
     "apply": {
-      "url": "https://forms.gle/8P3nSE9raYqUArYp8",
-      "label": "【Bコース専用】オープンスクール申し込みフォームはこちら"
+      "url": "https://forms.gle/EjwhTAF9gbemEuSb8",
+      "label": "【Cコース専用】オープンスクール申し込みフォームはこちら"
     },
     "note": ""
   },
@@ -1936,7 +1944,7 @@
     ],
     "apply": {
       "url": "https://www2.osaka-c.ed.jp/higashiyodogawa/news/8554",
-      "label": "2026/10/06 【中学生および保護者の皆さまへ】体験入学 11月7日（土）"
+      "label": "2026/10/07 【中学生および保護者の皆さまへ】体験入学 11月7日（土）"
     },
     "note": ""
   },
@@ -2146,14 +2154,6 @@
     "reached": true,
     "pages": 4,
     "events": [
-      {
-        "date": "2026-10-06",
-        "label": "学校説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://sumiyoshi.ed.jp/blog/2026/10/06/post-8232/",
-        "evidence": "6651-0525 FAX 06-6653-9163 第1回学校説明会についてー受付を終了いたましたー 2026 年 10 月 06 日 (火) ホーム 住高ブログ 第1回学校説明会についてー受付を終了いたましたー 10月31日（土）に本校で第1回学校説明会を行います。その申し込みが"
-      },
       {
         "date": "2026-10-31",
         "label": "学校説明会",
@@ -3451,8 +3451,20 @@
     "website": "https://minoh-high-school.com/",
     "reached": true,
     "pages": 3,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-10-24",
+        "label": "学校説明会",
+        "reservation": "required",
+        "confidence": "high",
+        "source": "https://minoh-high-school.com/blog/?p=11658",
+        "evidence": "校説明会 申し込みForm」よりお申込みください。 【第1回学校説明会】 日程 ：2026年10月24日（土） 場所 ：大阪府立 箕面高等学校 対象 ：中学生の生徒およびその保護者 ※生徒１名につき保護者１名まで 定員 ：1200名 （※）先着順 学"
+      }
+    ],
+    "apply": {
+      "url": "https://forms.gle/sKWANehkYEZzBkBW9",
+      "label": "申込フォーム"
+    },
     "note": ""
   },
   {
@@ -4472,7 +4484,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://kaimei.ed.jp/",
-        "evidence": "）開催｜「中学」授業見学会 2026-09-10 入試情報 10/17（土）開催｜「高校」入試説明会 2026-08-27 入試情報 10/３（土）開催｜「中学」授業見学会 2026-08-21 入試情報 外部説明会（８月～11月開催分）"
+        "evidence": "）開催｜「中学」授業見学会 2026-09-10 入試情報 10/17（土）開催｜「高校」入試説明会 2026-08-27 入試情報 10/３（土）開催｜「中学」授業見学会 2026-06-24 入試情報 令和９年度「高校１次」生徒募集要項"
       },
       {
         "date": "2026-10-24",
@@ -4489,6 +4501,14 @@
         "confidence": "high",
         "source": "https://kaimei.ed.jp/",
         "evidence": "）開催｜「中学」授業見学会 2026-09-30 入試情報 11/７（土）開催｜「中学」入試説明会 2026-09-30 入試情報 11/７（土）開催｜「高校」入試説明会 2026-09-23 入試情報 10/31（土）開催｜「中学」授業"
+      },
+      {
+        "date": "2026-11-14",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://kaimei.ed.jp/",
+        "evidence": "。 中高入試・イベント情報 2026-10-07 入試情報 11/14（土）開催｜「中学」授業見学会 2026-10-07 入試情報 外部説明会（８月～11月開催分） 2026-09-30 入試情報 11/７（土）開催｜「中学」授業見学会 2026-09-30 入試情報 11/７（土"
       }
     ],
     "apply": {
@@ -4695,12 +4715,12 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-11-07",
-        "label": "入試説明会",
+        "date": "2026-12-12",
+        "label": "学校見学会",
         "reservation": null,
         "confidence": "high",
-        "source": "https://sis.kwansei.ac.jp/events/00031.html",
-        "evidence": "お問い合せ Upcoming Events イベント情報 入試説明会 日付 11月7日（土）10:00～ 場所 オンライン開催 申込 要 申し込み開始前 午後からは帰国生個別相談・国際生資格審査を実施予定です。 ご案内 本校主催の学"
+        "source": "https://sis.kwansei.ac.jp/events/00027.html",
+        "evidence": "お問い合せ Upcoming Events イベント情報 学校見学会（キャンパスツアー）＆ワークショップ同時開催 日付 12月12日（土）00:00～ 場所 関西学院千里国際中等部・高等部 申込 要 申し込み開始前 学校見学会（キャンパスツアー）とCreativity Work"
       }
     ],
     "apply": {
@@ -5705,6 +5725,14 @@
     "pages": 4,
     "events": [
       {
+        "date": "2026-10-07",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://senshin-gakuen.jp/",
+        "evidence": "池田市交通安全大会及び交通安全パレード 書道部 クラブ活動 2026年10月7日（水） 10/31（土）「入試説明会」開催予定！ 入試情報 入試イベント お知らせ 2026年10月1日（木） 第60回バドミントン秋季池田市民戦の結果 バドミントン部 クラブ"
+      },
+      {
         "date": "2026-10-17",
         "label": "オープンスクール",
         "reservation": null,
@@ -6243,8 +6271,20 @@
     "website": "http://www.minohgakuen.ed.jp",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-10-17",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://minohgakuen.ed.jp/news/2026/10/post-9.html",
+        "evidence": "実施）申し込み開始 １１月１４日（土）に実施いたします第３回オープンスクール、１０月１７日（土）に実施いたします第４回学校説明・相談会の申し込みを開始しました。 たくさんのご参加お待ちしております！ オープンスクール 学校説明・相談会"
+      }
+    ],
+    "apply": {
+      "url": "https://minohgakuen.ed.jp/news/2026/10/post-9.html",
+      "label": "第３回オープンスクール（11/14実施）・第４回学校説明・相談会（10/17実施"
+    },
     "note": ""
   },
   {
