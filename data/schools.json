@@ -2483,7 +2483,7 @@
         "checkedAt": "2026-10-07",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfZMCJEVwuBbix5QYswbvHJEA8hYBY216LQBy3zcOiM6cDDuA/viewform?usp=header",
         "applyLabel": "申し込みフォームはこちら",
-        "evidence": "対応していません。 MATSUKO INFORMATION 2026.10.5 11/7（土）第２回学校説明会のお知らせ 2026.9.1 就職面接指導が始まりました 2026.4.10 進路実績を更新しました 2024.1.22 Tsu-mu-gu"
+        "evidence": "対応していません。 MATSUKO INFORMATION 2026.10.5 11/7（土）第２回学校説明会のお知らせ 2026.4.10 進路実績を更新しました 2024.1.22 Tsu-mu-gu（第２集）ができました MATSUKO TOP"
       }
     },
     {
@@ -3003,8 +3003,8 @@
         "source": "https://kitasenri.ed.jp/student/",
         "checkedAt": "2026-10-07",
         "applyUrl": "https://forms.gle/AtBZYVpaMJ6VkAF98",
-        "applyLabel": "申込フォーム",
-        "evidence": "見ることができます。 &nbsp; &nbsp; ⑤「第２回学校見学会」 日程：令和８年１１月７日（土） １３：３０～ 申込は、このホームページで行います。 申込期間は、１０月８日（木）～２２日（木）を予定しております。 （概要） 中学生・中学"
+        "applyLabel": "回学校見学会申込みフォーム",
+        "evidence": "熱心な活 動を見ることができます。 &nbsp; ⑤「第２回学校見学会」 日程：令和８年１１月７日（土） １３：３０～ （受付１３：１５～） 申込は、このホームページで行います。 申込期間は、１０月８日（木）～１１月５日（木）です。 （概要）"
       },
       "photos": [
         {
@@ -3212,6 +3212,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-10-31",
+            "label": "オープンスクール",
+            "reservation": "none",
+            "confidence": "high",
+            "source": "https://www2.osaka-c.ed.jp/suitahigashi/folder_0/post-111/"
+          },
+          {
             "date": "2026-12-12",
             "label": "学校説明会",
             "reservation": "none",
@@ -3222,7 +3229,7 @@
         "reservation": "none",
         "source": "https://www2.osaka-c.ed.jp/suitahigashi/folder_0/post-111/",
         "checkedAt": "2026-10-07",
-        "evidence": "事前に 公式Instagram やHPで告知します。 第２回学校説明会 12/12（土）実施の予約は11/4（水）15：00～ 開始します。 内容は 説明会 校舎見学 部活見学（実施しているクラブのみ） 個別相談（希望者予約不要"
+        "evidence": "いるクラブのみ） 個別相談（希望者予約不要） となります。 10/31（土）実施 第1回の 予約は終了しました。第1回オープンスクール関係はこちら ※キャンセル待ちは行っておりません。ご了承ください。 第1回の内容（実施順）および時間を1部変更しております。 下記リンクより"
       }
     },
     {
@@ -4503,23 +4510,6 @@
         "url": "https://www.minkou.jp/hischool/school/review/767/",
         "fetchedAt": "2026-09-10"
       },
-      "openSchool": {
-        "events": [
-          {
-            "date": "2027-02-13",
-            "label": "説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://ibaraki-t.ed.jp/for-junior/enginnering-orientation/"
-          }
-        ],
-        "reservation": "required",
-        "source": "https://ibaraki-t.ed.jp/for-junior/enginnering-orientation/",
-        "checkedAt": "2026-10-07",
-        "applyUrl": "https://forms.gle/EMQVMZXDmEsieiJ29",
-        "applyLabel": "申込フォーム",
-        "evidence": "ホーム 中学生のみなさんへ 工学系説明会 令和8年度「工学系説明会」 ①7/25(土) ②2/13(土) 【本校は二足制ですので、上履きの持参をお願いいたします。】 【アンケートの記入がありますので筆記用具もご持参ください。】 「第1回・第2回"
-      },
       "photos": [
         {
           "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Ibaraki_High_School_of_Technology.JPG/960px-Ibaraki_High_School_of_Technology.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -5081,6 +5071,13 @@
             "reservation": null,
             "confidence": "high",
             "source": "https://yamamoto-shs.ed.jp/"
+          },
+          {
+            "date": "2026-11-14",
+            "label": "学校説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://yamamoto-shs.ed.jp/%e7%ac%ac%ef%bc%91%e5%9b%9e%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a11-14%e5%ae%9f%e6%96%bd%e7%94%b3%e3%81%97%e8%be%bc%e3%81%bf%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/"
           },
           {
             "date": "2027-01-16",
@@ -17563,8 +17560,8 @@
         "source": "http://www.osakatoin.ed.jp/",
         "checkedAt": "2026-10-07",
         "applyUrl": "https://www.osakatoin.ed.jp/archives/22827/",
-        "applyLabel": "2026.09.23 高校 【申込】10/24(土)開催 高等学校入試説明会のご",
-        "evidence": "既卒生の模試について 2026.09.23 高校 【申込】10/24(土)開催 高等学校入試説明会のご案内 2026.09.12 中学 サンテレビ「サバンナ八木の受験生聞こえますかーっ！ ～有名私立中学受験ナビ大阪版～」に本校が出演します"
+        "applyLabel": "2026.09.23 高校 【申込】10/24(土)開催 高等学校Ⅰ類入試説明会",
+        "evidence": "既卒生の模試について 2026.09.23 高校 【申込】10/24(土)開催 高等学校Ⅰ類入試説明会のご案内 2026.09.12 中学 サンテレビ「サバンナ八木の受験生聞こえますかーっ！ ～有名私立中学受験ナビ大阪版～」に本校が出演します"
       },
       "admissionFee": {
         "amount": 200000,
@@ -19257,7 +19254,7 @@
         "checkedAt": "2026-10-07",
         "applyUrl": "https://mirai-compass.net/usr/kenkokuh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "校日のご案内 --> 2026 9/ 18 中学・高等学校 10月24日（土）オープンスクール最新情報＜9/18更新＞ --> 2026 9/ 18 小学校 ＜9/18更新>（2027年度新入生）インターネット出願開始 --> ブログ"
+        "evidence": "知らせ more ＞ 2026 10/ 7 中学・高等学校 10月24日（土）オープンスクール最新情報＜10/7更新＞ --> 2026 10/ 5 高等学校 建国高校から全国の舞台へ！「高校生料理王決定戦」最終審査進出！ --> 2"
       },
       "admissionFee": {
         "amount": 200000,
@@ -20166,10 +20163,10 @@
           },
           {
             "date": "2026-10-24",
-            "label": "学校説明会",
+            "label": "クラブ体験",
             "reservation": null,
             "confidence": "high",
-            "source": "https://konkoyao.ed.jp/topics/%e4%bb%a4%e5%92%8c9%e5%b9%b4%e5%ba%a6%e5%85%a5%e8%a9%a6%e3%80%80%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%83%bb%e5%90%84%e7%a8%ae%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e6%97%a5%e7%a8%8b%e3%81%ae/"
+            "source": "http://konkoyao.ed.jp/"
           },
           {
             "date": "2026-11-07",
@@ -20205,7 +20202,7 @@
         "checkedAt": "2026-10-07",
         "applyUrl": "http://konkoyao.ed.jp/event/",
         "applyLabel": "説明会申し込みについて",
-        "evidence": "すべて 中学 高校 クラブ活動 2026/09/28 高校 10/18(日) 吹奏楽部クラブ体験会 2026/09/28 高校 美術コース体験会(全３回) 2026/09/26 高校 11/7(土)・12/6(日) 高校入試説明会 20"
+        "evidence": "24(土) 野球部クラブ体験会 2026/09/28 高校 10/18(日) 吹奏楽部クラブ体験会 2026/09/28 高校 美術コース体験会(全３回) 2026/09/26 高校 11/7(土)・12/6(日) 高校入試説明会 20"
       },
       "admissionFee": {
         "amount": 200000,
