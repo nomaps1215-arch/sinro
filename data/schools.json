@@ -3426,9 +3426,11 @@
             "source": "https://osaka-senri-hs.net/junior/"
           }
         ],
-        "reservation": null,
+        "reservation": "required",
         "source": "https://osaka-senri-hs.net/",
         "checkedAt": "2026-10-08",
+        "applyUrl": "https://forms.gle/capUEb3nic8Yxh8T8",
+        "applyLabel": "［申し込みはこちら］",
         "evidence": "申込みについて 2026年9月17日 [中学生のみなさん] 10/17（土）第１回学校説明会申込み受付 2026年8月20日 [中学生のみなさん] 10/17（土）第１回学校説明会申込みについて 2026年7月10日 [中学生のみな"
       },
       "photos": [
@@ -4742,7 +4744,7 @@
         "checkedAt": "2026-10-08",
         "applyUrl": "https://forms.gle/jgiHewM6rmVLWeVt8",
         "applyLabel": "受付中（11月3日まで）：申し込みフォームはこちら",
-        "evidence": "終了しました ※説明会の所要時間は１時間程度です。 本 校 2026年 11/7(土) &nbsp; 《第２回オープンスクール》 内容：授業見学・学校説明・体験授業・体験部活動 受付中（11月3日まで）：申し込みフォームはこちら 本 校 2026年 12/12(土)"
+        "evidence": "終了しました ※説明会の所要時間は１時間程度です。 本 校 2026年 11/7(土) &nbsp; 《第２回オープンスクール》 内容：授業見学・学校説明・体験授業・体験部活動 【 26秋_オープンスクール_案内 】 受付中（11月3日まで）：申し込みフォームはこち"
       },
       "photos": [
         {
@@ -5075,18 +5077,18 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-10-08",
+            "label": "学校説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://yamamoto-shs.ed.jp/%e3%80%90%e7%ac%ac1%e5%ad%a6%e5%b9%b4%e3%80%91gp%ef%bc%88%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%ef%bc%89/"
+          },
+          {
             "date": "2026-10-24",
             "label": "部活動体験",
             "reservation": null,
             "confidence": "high",
             "source": "https://yamamoto-shs.ed.jp/"
-          },
-          {
-            "date": "2026-11-14",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://yamamoto-shs.ed.jp/%e7%ac%ac%ef%bc%91%e5%9b%9e%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a11-14%e5%ae%9f%e6%96%bd%e7%94%b3%e3%81%97%e8%be%bc%e3%81%bf%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/"
           },
           {
             "date": "2027-01-16",
@@ -5097,11 +5099,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://yamamoto-shs.ed.jp/",
+        "source": "https://yamamoto-shs.ed.jp/%e3%80%90%e7%ac%ac1%e5%ad%a6%e5%b9%b4%e3%80%91gp%ef%bc%88%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%ef%bc%89/",
         "checkedAt": "2026-10-08",
         "applyUrl": "https://yamamoto-shs.ed.jp/10%e6%9c%8824%e6%97%a5%e5%9c%9f%e9%83%a8%e6%b4%bb%e5%8b%95%e4%bd%93%e9%a8%93%e8%a6%8b%e5%ad%a6%e4%bc%9a%e7%94%b3%e3%81%97%e8%be%bc%e3%81%bf/",
         "applyLabel": "2026.09.15 10月24日（土）部活動体験・見学会申し込み",
-        "evidence": "04 大阪教育ゆめ基金（母校応援ふるさと納税制度）について 2026.09.15 10月24日（土）部活動体験・見学会申し込み 2025.10.30 「創立100周年記念」特設サイトが完成しました！ 2026.09.15 文化祭（９月12日）へのご来"
+        "evidence": "明会プロジェクト） 2026.10.08 81回生 --> 10月8日（木）の午後から、GP（学校説明会プロジェクト）を実施しました。本校では、これから実施する学校説明会に向けて、第1学年の生徒たちが資料やプレゼンスライドの作成に取り組んでいま"
       },
       "photos": [
         {
@@ -6826,7 +6828,7 @@
         "checkedAt": "2026-10-08",
         "applyUrl": "https://otemae-hs.ed.jp/2026/09/18/%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a_10%e6%9c%8824%e6%97%a5%e9%96%8b%e5%82%ac%e3%80%80%e7%94%b3%e8%be%bc%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0/",
         "applyLabel": "申込フォーム",
-        "evidence": "さまへ PTAより 台風や交通機関の延着等への対応 未分類 10月18日（日）体験型学校説明会『大阪城の見える教室で学びませんか？』... 2026年9月30日 中学生の皆さんへ --> 学校見学会_10月24日開催 申込フォーム.."
+        "evidence": "出場決定！！... 2026年10月8日 学校生活 --> 10月18日（日）体験型学校説明会『大阪城の見える教室で学びませんか？』... 2026年9月30日 中学生の皆さんへ --> 学校見学会_10月24日開催 申込フォーム.."
       }
     },
     {
@@ -10366,6 +10368,13 @@
           {
             "date": "2026-11-14",
             "label": "学校見学会",
+            "reservation": "required",
+            "confidence": "high",
+            "source": "https://www2.osaka-c.ed.jp/kanaoka/folder_0/post-22/"
+          },
+          {
+            "date": "2026-12-12",
+            "label": "学校見学会",
             "reservation": null,
             "confidence": "high",
             "source": "https://www2.osaka-c.ed.jp/kanaoka/folder_0/post-22/"
@@ -10376,7 +10385,7 @@
         "checkedAt": "2026-10-08",
         "applyUrl": "https://forms.gle/mYtVfN2FtemaqMHx5",
         "applyLabel": "申込フォーム",
-        "evidence": "一覧 ＊各体験・講座の当日の持ち物の記載もあります。 第１回学校見学会 10月17日(土)の午前 申込フォーム 10月13日（火） 申込締切 ⁠ 欠席連絡フォーム 第２回学校見学会 11月14日(土)の午後 ＊10 月 9 日(金"
+        "evidence": "一覧 ＊各体験・講座の当日の持ち物の記載もあります。 第１回学校見学会 10月17日(土) 午前10時集合 申込フォーム 10月13日（火） 申込締切 ⁠ 欠席連絡フォーム 第２回学校見学会 11月14日(土) 午後２時集合 申込"
       },
       "photos": [
         {
@@ -19075,25 +19084,11 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-10-10",
-            "label": "プレテスト",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://kinran.ed.jp/event/48271/"
-          },
-          {
             "date": "2026-10-16",
             "label": "説明会",
             "reservation": null,
             "confidence": "high",
             "source": "https://kinran.ed.jp/"
-          },
-          {
-            "date": "2026-10-17",
-            "label": "個別相談会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://kinran.ed.jp/event/48271/"
           },
           {
             "date": "2026-10-24",
@@ -19111,11 +19106,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://kinran.ed.jp/event/48271/",
+        "source": "https://kinran.ed.jp/",
         "checkedAt": "2026-10-08",
         "applyUrl": "https://kinran.ed.jp/entry-events/event-963/",
         "applyLabel": "受付中 11.3（火） 11月3日 第2回プレテスト＆11月14日 返却会 【第",
-        "evidence": "せてご参加ください。 お申込みお待ちしております！ ＜第１回プレテスト＞ 【日時】 １０月１０日（土）８：３０～１１：００ 締め切りました 【対象】小学６年生女子 【持ち物】筆記用具、上履き、靴袋 【申込締切日】１０月８日（木）１２：００ ※"
+        "evidence": "0・11/3 2026年10月3日 イベント情報 【受付中】10/16(金)イブニング説明会 2026年10月1日 イベント情報 【受付中】10/24(土)高校オープンスクール 2026年9月30日 イベント情報 【受付スタート】1"
       },
       "admissionFee": {
         "amount": 200000,
@@ -19270,7 +19265,7 @@
         "checkedAt": "2026-10-08",
         "applyUrl": "https://mirai-compass.net/usr/kenkokuh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "りのお知らせ --> 2026 10/ 7 中学・高等学校 10月24日（土）オープンスクール最新情報＜10/7更新＞ --> 2026 10/ 5 高等学校 建国高校から全国の舞台へ！「高校生料理王決定戦」最終審査進出！ --> 2"
+        "evidence": "りのお知らせ --> 2026 10/ 8 中学・高等学校 10月24日（土）オープンスクール最新情報＜10/8更新＞ --> 2026 10/ 5 高等学校 建国高校から全国の舞台へ！「高校生料理王決定戦」最終審査進出！ --> 2"
       },
       "admissionFee": {
         "amount": 200000,
@@ -20989,7 +20984,7 @@
         "checkedAt": "2026-10-08",
         "applyUrl": "https://mirai-compass.net/usr/jskeikoh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "ャラバン）のお知らせ 2026/09/25 受験生（高校） 10/10（土）高校オープンスクールについて 2026/09/19 受験生（中学） 【中学】11/7（土）プレテスト会②など入試イベント申込受付中！ 2026/07/20 全校"
+        "evidence": "2027年度教員募集 2026/10/08 受験生（高校） 10/10（土）「高校オープンスクール」について 2026/10/08 入試 10/13（火）個別入試相談会（くずはキャラバン）のお知らせ 2026/09/19 受験生（中学）"
       },
       "admissionFee": {
         "amount": 220000,
