@@ -1612,30 +1612,6 @@
         "url": "https://www.minkou.jp/hischool/school/review/805/",
         "fetchedAt": "2026-09-10"
       },
-      "openSchool": {
-        "events": [
-          {
-            "date": "2026-11-07",
-            "label": "説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://www.osaka-c.ed.jp/shijonawate/html/setsumeikai.html"
-          },
-          {
-            "date": "2026-12-12",
-            "label": "説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://www.osaka-c.ed.jp/shijonawate/html/setsumeikai.html"
-          }
-        ],
-        "reservation": "required",
-        "source": "https://www.osaka-c.ed.jp/shijonawate/html/setsumeikai.html",
-        "checkedAt": "2026-10-09",
-        "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdg05tn0ItM_1sX2G3es7qCpFeLJvfOD6ktMf8yJyC3j9CmCQ/viewform?usp=dialog",
-        "applyLabel": "こちらをクリックして申込をしてください(申込開始は11/28(金)朝9時からです",
-        "evidence": "説明・体験授業・部活動体験（見学） 中３生 及び保護者 畷高説明会 11月7日(土)9時～13時 学校概要説明・本校生案内による施設見学・部活動見学 部活動見学をされない場合は11:40頃に解散となります 中３生 及び保護者"
-      },
       "photos": [
         {
           "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f3/ShijonawateHighSchool.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -14320,19 +14296,26 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-10-09",
+            "label": "学校説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://minoh-high-school.com/blog/?p=11676"
+          },
+          {
             "date": "2026-10-24",
             "label": "学校説明会",
             "reservation": "required",
             "confidence": "high",
-            "source": "https://minoh-high-school.com/blog/?p=11658"
+            "source": "https://minoh-high-school.com/blog/?p=11676"
           }
         ],
         "reservation": "required",
-        "source": "https://minoh-high-school.com/blog/?p=11658",
+        "source": "https://minoh-high-school.com/blog/?p=11676",
         "checkedAt": "2026-10-09",
-        "applyUrl": "https://forms.gle/sKWANehkYEZzBkBW9",
+        "applyUrl": "https://forms.gle/KLNFEDzQs81p93iJA",
         "applyLabel": "申込フォーム",
-        "evidence": "校説明会 申し込みForm」よりお申込みください。 【第1回学校説明会】 日程 ：2026年10月24日（土） 場所 ：大阪府立 箕面高等学校 対象 ：中学生の生徒およびその保護者 ※生徒１名につき保護者１名まで 定員 ：1200名 （※）先着順 学"
+        "evidence": "うございます。 参加人数に若干の余裕がございますので、第１回学校説明会の追加募集を下記の日程でおこないます。 2026年10月9日（金） 18:00 ～ 2026年10月14日(水) 9:00 定数になり次第、募集を締め切らせていただきますので、ご了承ください。 申し込みは下"
       }
     },
     {
@@ -15403,23 +15386,6 @@
         "survey": "令和7年11月",
         "fetchedAt": "2026-09-10",
         "tuitionPerYear": 630000
-      },
-      "openSchool": {
-        "events": [
-          {
-            "date": "2026-10-24",
-            "label": "オープンスクール",
-            "reservation": "required",
-            "confidence": "high",
-            "source": "https://www.osakashs.ed.jp/open-school/30628/"
-          }
-        ],
-        "reservation": "required",
-        "source": "https://www.osakashs.ed.jp/open-school/30628/",
-        "checkedAt": "2026-10-09",
-        "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLScYUF1-0T-V-XyuOcoRNtttF8WTT3XKNrLRARTcmCReNUE-cw/viewform",
-        "applyLabel": "申込フォーム",
-        "evidence": "だくことはできたでしょうか？ ☟第二部の在校生企画 第3回のオープンスクールは、 10月24日（土）10:00～ です。 →こちらよりオープンスクール申し込みフォーム mirai-compass.net オープンスクール企画運営委員の生徒が"
       }
     },
     {
@@ -17454,7 +17420,7 @@
         "source": "http://www.dentsu.ed.jp/examination/recruitment/",
         "checkedAt": "2026-10-09",
         "applyUrl": "https://mirai-compass.net/usr/odentsuh/event/evtIndex.jsf",
-        "applyLabel": "入試説明会のお申込みはこちら",
+        "applyLabel": "「入試説明会のお申込みはこちら」",
         "evidence": "ますよう、よろしくお願いします。 開催日 名称 時間 場所 2026年10月17日（土） 第1回入試説明会 14:00～ 本校 2026年10月18日（日） 第2回入試説明会 10:00～ 2026年11月14日（土） 第3回入試説明会 10:0"
       },
       "admissionFee": {
@@ -17547,6 +17513,13 @@
             "label": "入試説明会",
             "reservation": null,
             "confidence": "high",
+            "source": "https://www.osakatoin.ed.jp/archives/22871/"
+          },
+          {
+            "date": "2026-11-14",
+            "label": "入試説明会",
+            "reservation": null,
+            "confidence": "high",
             "source": "http://www.osakatoin.ed.jp/"
           },
           {
@@ -17558,11 +17531,11 @@
           }
         ],
         "reservation": "required",
-        "source": "http://www.osakatoin.ed.jp/",
+        "source": "https://www.osakatoin.ed.jp/archives/22871/",
         "checkedAt": "2026-10-09",
-        "applyUrl": "https://www.osakatoin.ed.jp/archives/22827/",
-        "applyLabel": "2026.09.23 高校 【申込】10/24(土)開催 高等学校Ⅰ類入試説明会",
-        "evidence": "既卒生の模試について 2026.09.23 高校 【申込】10/24(土)開催 高等学校Ⅰ類入試説明会のご案内 一覧を見る Ⅰ類（＆中学） 2026.10.07 中学クラブ 高校Ⅰ類クラブ 【鉄道研究部】NESCO職業体験 2026.09.1"
+        "applyUrl": "https://www.osakatoin.ed.jp/archives/22907/",
+        "applyLabel": "2026.10.10 【申込】11/14(土)開催 高等学校Ⅰ類入試説明会のご案",
+        "evidence": "さまにご来校いただき、誠にありがとうございました。 次回は、10月24日(土)10：00から高校入試説明会を、12月5日(土)10:30から中学説明会を開催します。皆さまのご来校をお待ちしております。 前の記事 中学一覧に戻る 次の記事 〒574"
       },
       "admissionFee": {
         "amount": 200000,
@@ -18849,7 +18822,7 @@
         ],
         "reservation": "required",
         "source": "https://koutoku.ac.jp/kinkiosaka/news/20260914/",
-        "checkedAt": "2026-10-08",
+        "checkedAt": "2026-10-09",
         "applyUrl": "https://koutoku.ac.jp/kinkiosaka/guide/open/",
         "applyLabel": "オープンスクールに申し込む",
         "evidence": "プンスクール【10/18】 OPEN SCHOOL 第5回 オープンスクール開催！ 2026年10月18日（日） 午前の部 10:30～ ／ 午後の部 14:00～ 近畿大阪高校ってどんな学校？ 学校のこと、学び方、学費のことなどを詳しくご紹介します。"
@@ -23345,10 +23318,10 @@
           },
           {
             "date": "2026-10-25",
-            "label": "進学説明会",
+            "label": "クラブ体験",
             "reservation": null,
             "confidence": "high",
-            "source": "https://hagoromogakuen.ed.jp/candidates/"
+            "source": "https://hagoromogakuen.ed.jp/"
           },
           {
             "date": "2026-10-31",
@@ -23376,7 +23349,7 @@
             "label": "オープンキャンパス",
             "reservation": null,
             "confidence": "high",
-            "source": "https://hagoromogakuen.ed.jp/candidates/"
+            "source": "https://hagoromogakuen.ed.jp/"
           }
         ],
         "reservation": "required",
@@ -23384,7 +23357,7 @@
         "checkedAt": "2026-10-09",
         "applyUrl": "https://mirai-compass.net/usr/hagormgh/event/evtIndex.jsf",
         "applyLabel": "お申込みはこちら",
-        "evidence": "進学相談会 2026.07.09 高等学校 【イベント】 【10月17日(土)】高校 第2回オープンキャンパス 2026.09.24 中学校 【イベント】 【10月31日(土)】中学 第2回プレテスト 2026.10.02 中高共通 【イベント】 【"
+        "evidence": "験生の方へ 2026.07.09 高等学校 【イベント】 【10月17日(土)】高校 第2回オープンキャンパス 2026.10.02 中高共通 【イベント】 【10/25(日)】中学・高校 進学ガイダンス（テクスピア大阪） 2026.09.24 中学"
       }
     },
     {
