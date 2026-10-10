@@ -305,7 +305,7 @@
         "reservation": null,
         "source": "https://www3.osaka-c.ed.jp/ichiritsu/",
         "checkedAt": "2026-10-10",
-        "evidence": "26/10/09 オープンスクール当日に関する連絡【重要】 2026/10/07 10/24(土), 11/7(土)オープンスクール参加申込はこちらから！ 2026/10/04 10/9(金)にオープンスクール当日に関する連絡を投稿します【重要】 2026/10/03 オ"
+        "evidence": "い言葉をいれてください。 Information お知らせ 2026/10/10 10/24(土), 11/7(土)オープンスクール参加申込はこちらから！ 2026/10/09 オープンスクール当日に関する連絡【重要】 2026/10/04 10/9(金)にオープンスクー"
       },
       "photos": [
         {
@@ -17851,7 +17851,7 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-10-10",
+            "date": "2026-10-14",
             "label": "説明会",
             "reservation": null,
             "confidence": "high",
@@ -17859,7 +17859,14 @@
           },
           {
             "date": "2026-10-17",
-            "label": "説明会",
+            "label": "オープンキャンパス",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.osk-ohtani.ed.jp/"
+          },
+          {
+            "date": "2026-10-24",
+            "label": "入試説明会",
             "reservation": null,
             "confidence": "high",
             "source": "https://www.osk-ohtani.ed.jp/"
@@ -17875,9 +17882,9 @@
         "reservation": "required",
         "source": "https://www.osk-ohtani.ed.jp/",
         "checkedAt": "2026-10-10",
-        "applyUrl": "https://mirai-compass.net/usr/oskotanh/event/evtIndex.jsf",
+        "applyUrl": "https://mirai-compass.net/usr/oskotanj/event/evtIndex.jsf",
         "applyLabel": "ログインして申込む （はじめての方もこちらから）",
-        "evidence": "試EVENTS Fri 10/9 (金) ハルカス コース別説明会（特進コース） Sat 10/10 (土) オータニ サタデー サイエンス⑥ 中学入試イベント情報一覧 高校入試EVENTS Sat 10/17 (土) 第2回 高校オープンキャンパス Sat 11/21 (土) 第2回 高校入試説明会 高校入試イベント"
+        "evidence": "vents 入試イベント情報 中学入試EVENTS Wed 10/14 (水) ハルカス コース別説明会（医進コース） Sat 10/24 (土) 第二回入試説明会 中学入試イベント情報一覧 高校入試EVENTS Sat 10/17 (土) 第"
       }
     },
     {
@@ -21566,14 +21573,14 @@
           },
           {
             "date": "2026-10-24",
-            "label": "プレテスト",
+            "label": "入試説明会",
             "reservation": "required",
             "confidence": "high",
-            "source": "https://www.seifu.ac.jp/"
+            "source": "https://www.seifu.ac.jp/expl-junior/"
           },
           {
             "date": "2026-10-25",
-            "label": "入試説明会",
+            "label": "オープンスクール",
             "reservation": "required",
             "confidence": "high",
             "source": "https://www.seifu.ac.jp/"
@@ -21583,7 +21590,7 @@
             "label": "入試説明会",
             "reservation": "required",
             "confidence": "high",
-            "source": "https://www.seifu.ac.jp/"
+            "source": "https://www.seifu.ac.jp/expl-junior/"
           },
           {
             "date": "2026-11-21",
