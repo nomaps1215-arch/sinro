@@ -11173,37 +11173,6 @@
         "url": "https://www.minkou.jp/hischool/school/review/841/",
         "fetchedAt": "2026-09-10"
       },
-      "openSchool": {
-        "events": [
-          {
-            "date": "2026-12-19",
-            "label": "説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://osaka-nougei.ed.jp/openschool/openschool_entry/"
-          },
-          {
-            "date": "2027-01-16",
-            "label": "説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://osaka-nougei.ed.jp/openschool/openschool_entry/"
-          },
-          {
-            "date": "2027-02-06",
-            "label": "説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://osaka-nougei.ed.jp/openschool/openschool_entry/"
-          }
-        ],
-        "reservation": "required",
-        "source": "https://osaka-nougei.ed.jp/openschool/openschool_entry/",
-        "checkedAt": "2026-10-12",
-        "applyUrl": "https://osaka-nougei.ed.jp/openschool/taiken_entry/",
-        "applyLabel": "体験入学会 参加申し込み",
-        "evidence": "第１回 ８月２１日（金） １３：３０～１６：３０ 第２回 １２月１９日（土） ９：３０～１２：３０ 第３回 １月１６日（土） ９：３０～１２：３０ 第４回 ２月 ６日（土） ９：３０～１２：３０ 説明会内容 全体説明会：入試に関して、進路に関して、学習活動について 見 学 会：各学科の農場や実習施設の見学・説明 &nb"
-      },
       "photos": [
         {
           "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Osakafuritsu_Nogei_Kotogakko.jpg/960px-Osakafuritsu_Nogei_Kotogakko.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
