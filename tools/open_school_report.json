@@ -1601,7 +1601,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://otemae-hs.ed.jp/2026/09/18/%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a_10%e6%9c%8824%e6%97%a5%e9%96%8b%e5%82%ac%e3%80%80%e7%94%b3%e8%be%bc%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0/",
-        "evidence": "催 申込フォーム 2026年9月18日 8076VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
+        "evidence": "催 申込フォーム 2026年9月18日 8199VIEWS 10月24日（土）学校見学会を開催いたします。当日は、硬式野球・バスケ・バレー・バドミントン・合氣道・書道・クイズ研究部・軽音楽など部活動の活動風景も見学いただけます。"
       },
       {
         "date": "2026-11-14",
@@ -2697,7 +2697,7 @@
     "name": "大阪府立農芸高等学校",
     "website": "https://osaka-nougei.ed.jp/",
     "reached": true,
-    "pages": 4,
+    "pages": 3,
     "events": [
       {
         "date": "2026-12-19",
@@ -4113,14 +4113,6 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-10-11",
-        "label": "進学説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://high.osaka-seikei.jp/ex_info/outside.html",
-        "evidence": "橋OMMビル 10：00～ 15：00 株式会社五ツ木書房 10月11日(日) 中高進学説明会2026 千里ライフサイエンスセンター 13：00～ 16：00 進学塾 智学園 10月11日(土) 旭区4中学校PTA合同高校説明会 大阪"
-      },
-      {
         "date": "2026-10-25",
         "label": "オープンスクール",
         "reservation": null,
@@ -5281,8 +5273,20 @@
     "website": "http://www.highs.josho.ac.jp/",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-10-22",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.highs.josho.ac.jp/",
+        "evidence": "組、4限は14組15組の合同授業でした。本日はリハーサルで，10月22日（木）の修学旅行明けの授業で... 過去のNEWS 過去の学校ブログ 2026.10.03 入試お知らせ Jテスト 入試説明会 中学校 10/3（土）「Jテスト1（プレテスト）」「第2回中学入試説明会」を実施しました 本日、「Jテスト1」および「第"
+      }
+    ],
+    "apply": {
+      "url": "https://mirai-compass.net/usr/joshogj/event/evtIndex.jsf",
+      "label": "各種イベント申込み"
+    },
     "note": ""
   },
   {
