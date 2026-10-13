@@ -298,7 +298,29 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-10-24",
+            "label": "オープンスクール",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www3.osaka-c.ed.jp/ichiritsu/"
+          },
+          {
+            "date": "2026-11-07",
+            "label": "オープンスクール",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www3.osaka-c.ed.jp/ichiritsu/"
+          }
+        ],
+        "reservation": null,
+        "source": "https://www3.osaka-c.ed.jp/ichiritsu/",
+        "checkedAt": "2026-10-13",
+        "evidence": "い言葉をいれてください。 Information お知らせ 2026/10/13 10/24(土), 11/7(土)オープンスクール参加申込はこちらから！ 2026/10/09 オープンスクール当日に関する連絡【重要】 2026/10/04 10/9(金)にオープンスクー"
+      }
     },
     {
       "id": "pref-korigaoka",
@@ -2836,7 +2858,7 @@
             "source": "https://www.osaka-c.ed.jp/sayama/admisson.html"
           },
           {
-            "date": "2026-11-21",
+            "date": "2026-11-14",
             "label": "学校説明会",
             "reservation": null,
             "confidence": "high",
@@ -2862,7 +2884,7 @@
         "checkedAt": "2026-10-13",
         "applyUrl": "https://forms.gle/C872ycsdGdUmoFuf7",
         "applyLabel": "申込",
-        "evidence": "和９年３月１０日（水） 合格発表 令和９年３月１８日（木） 学校説明会 開催日 要 項 申 込 第１回 令和８年10月24日（土） 要項 申込 第２回 令和８年11月21日（土） 準備中 準備中 第３回 令和８年12月12日（土） 準備中 準備中 第４回 令和９年 ２月13日（土） 準備中 準備中 狭山PRESSは情報"
+        "evidence": "和９年３月１０日（水） 合格発表 令和９年３月１８日（木） 学校説明会 開催日 要 項 申 込 第１回 令和８年10月24日（土） 要項 申込 第２回 令和８年11月14日（土） 準備中 準備中 第３回 令和８年12月12日（土） 準備中 準備中 第４回 令和９年 ２月13日（土） 準備中 準備中 狭山PRESSは情報"
       },
       "photos": [
         {
@@ -6390,7 +6412,7 @@
         "reservation": null,
         "source": "https://www3.osaka-c.ed.jp/higashi/",
         "checkedAt": "2026-10-13",
-        "evidence": "学校名を入れてください Information お知らせ 2026/10/06 11/7(土) 第3回オープンスクールのご案内 2026/08/28 令和８年度始業式を行いました 2026/08/25 8/24 オープンスクールのお礼 2026/08/17"
+        "evidence": "学校名を入れてください Information お知らせ 2026/10/06 11/7(土) 第3回オープンスクールのご案内 2026/08/25 8/24 オープンスクールのお礼 2026/08/17 1学期終業式を行いました 2026/08/17 公式"
       }
     },
     {
@@ -10151,19 +10173,19 @@
           {
             "date": "2027-01-16",
             "label": "個別相談会",
-            "reservation": null,
+            "reservation": "none",
             "confidence": "high",
             "source": "https://www2.osaka-c.ed.jp/imamiya-t/open-schools/2025open-school/"
           },
           {
             "date": "2027-02-06",
             "label": "個別相談会",
-            "reservation": null,
+            "reservation": "none",
             "confidence": "high",
             "source": "https://www2.osaka-c.ed.jp/imamiya-t/open-schools/2025open-school/"
           }
         ],
-        "reservation": "required",
+        "reservation": "none",
         "source": "https://www2.osaka-c.ed.jp/imamiya-t/open-schools/2025oc-lessons/",
         "checkedAt": "2026-10-13",
         "applyUrl": "https://www2.osaka-c.ed.jp/imamiya-t/folder/post-91",
@@ -21379,6 +21401,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-10-13",
+            "label": "入試説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.osaka-seisho.ed.jp/topics/1491/"
+          },
+          {
             "date": "2026-10-17",
             "label": "オープンスクール",
             "reservation": null,
@@ -21387,11 +21416,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://www.osaka-seisho.ed.jp/",
+        "source": "https://www.osaka-seisho.ed.jp/topics/1491/",
         "checkedAt": "2026-10-13",
         "applyUrl": "https://www.osaka-seisho.ed.jp/topics/1406/",
         "applyLabel": "2026.09.14 10/17(土)第１回オープンスクール 申込受付中！",
-        "evidence": "26.10.01 第2校舎 大規模改修工事が完了しました！ 2026.09.14 10/17(土)第１回オープンスクール 申込受付中！ 2026.09.09 気象警報発令時の臨時休校基準の変更について（お知らせ） PICK UP TOPICS お知らせにて最新"
+        "evidence": "入試説明会を開催しました！ トピックス 令和8年度 塾長対象入試説明会を開催しました！ 2026.10.13 校長室だより 入試情報 10月13日（火）、午前10時30分からホテルグランヴィア大阪において、学習塾の塾長を対象とした入試説明会を開催しました。当日は、多くの学習塾関係者の皆様にご"
       },
       "admissionFee": {
         "amount": 200000,
@@ -23187,7 +23216,59 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-10-17",
+            "label": "オープンキャンパス",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://hagoromogakuen.ed.jp/"
+          },
+          {
+            "date": "2026-10-25",
+            "label": "クラブ体験",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://hagoromogakuen.ed.jp/"
+          },
+          {
+            "date": "2026-10-31",
+            "label": "プレテスト",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://hagoromogakuen.ed.jp/"
+          },
+          {
+            "date": "2026-11-07",
+            "label": "オープンキャンパス",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://hagoromogakuen.ed.jp/"
+          },
+          {
+            "date": "2026-11-14",
+            "label": "入試説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://hagoromogakuen.ed.jp/candidates/"
+          },
+          {
+            "date": "2026-11-21",
+            "label": "オープンキャンパス",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://hagoromogakuen.ed.jp/"
+          }
+        ],
+        "reservation": "required",
+        "source": "https://hagoromogakuen.ed.jp/",
+        "checkedAt": "2026-10-13",
+        "applyUrl": "https://mirai-compass.net/usr/hagormgh/event/evtIndex.jsf",
+        "applyLabel": "お申込みはこちら",
+        "evidence": "験生の方へ 2026.07.09 高等学校 【イベント】 【10月17日(土)】高校 第2回オープンキャンパス 2026.10.02 中高共通 【イベント】 【10/25(日)】中学・高校 進学ガイダンス（テクスピア大阪） 2026.09.24 中学"
+      }
     },
     {
       "id": "priv-hannan-univ",
@@ -23716,7 +23797,7 @@
         "checkedAt": "2026-10-13",
         "applyUrl": "https://mirai-compass.net/usr/oskplgkh/event/evtIndex.jsf",
         "applyLabel": "申込フォームはこちら",
-        "evidence": "校】学校説明会 10.17 （土） 14:00 【高等学校】学校説明会 受付中 高校 学校の特徴やコース、それぞれの進路、入試制度の概要を説明 日時 2026.10.17 （土） 14:00 対象 中学校女子と保護者 会場 本校 お知らせ １０月１３日（火）正午までのお申し込みの方へ参加はがきを発送します。 それ以降"
+        "evidence": "校】学校説明会 10.17 （土） 14:00 【高等学校】学校説明会 受付中 高校 学校の特徴やコース、それぞれの進路、入試制度の概要を説明 日時 2026.10.17 （土） 14:00 対象 中学校女子と保護者 会場 本校 お知らせ 【2026101312300_更新】 参加ハガキは１０月１３日（火）正午までの"
       }
     },
     {
