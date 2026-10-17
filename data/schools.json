@@ -4642,7 +4642,7 @@
         "events": [
           {
             "date": "2026-11-21",
-            "label": "説明会",
+            "label": "学校説明会",
             "reservation": null,
             "confidence": "high",
             "source": "https://www2.osaka-c.ed.jp/ibaraki/folder_0/-2/"
@@ -4651,7 +4651,7 @@
         "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/ibaraki/folder_0/-2/",
         "checkedAt": "2026-10-17",
-        "evidence": "P 第１回 学校説明会および第2回学校説明会について 第１回説明会は、たくさんの方にご来校頂き、無事開催することができした。 第２回は１１月２１日（土）を予定しております。 申し込みは１０月３１日（土）13:00～開始いたします。 詳細は今しばらくお待ちください。 学校名を入れてください 〒"
+        "evidence": "ール） 学校周辺地図 TOP 第１回 学校説明会および第2回学校説明会について 第２回は１１月２１日（土）を予定しております。 申し込みは１０月３１日（土）13:00～開始いたします。 詳細は こちら をご覧ください。 学校名を入れてください 〒"
       },
       "photos": [
         {
@@ -11423,7 +11423,7 @@
         "checkedAt": "2026-10-17",
         "applyUrl": "https://docs.google.com/spreadsheets/d/1aZ1edbWc0NO-y_YmgBTCHZrOzacGqbu3U5VrteYuPuI/edit?usp=sharing",
         "applyLabel": "申込フォーム",
-        "evidence": "者の皆さまへ 最近の記事 過去の記事 2026/10/16 学校説明会（10月24日（土）開催）に関するご連絡 2026/10/6 2026.10.06 最小の６～９倍奇数過剰数について論文「Abundancy … 2026/10"
+        "evidence": "生の皆さまへ 最近の記事 過去の記事 2026/10/16 学校説明会（10月24日（土）開催）に関するご連絡 2026/10/6 2026.10.06 最小の６～９倍奇数過剰数について論文「Abundancy … 2026/10"
       },
       "photos": [
         {
@@ -17292,9 +17292,9 @@
           {
             "date": "2026-10-17",
             "label": "入試説明会",
-            "reservation": null,
+            "reservation": "required",
             "confidence": "high",
-            "source": "http://www.dentsu.ed.jp/examination/recruitment/"
+            "source": "http://www.dentsu.ed.jp/"
           },
           {
             "date": "2026-10-18",
@@ -17319,11 +17319,11 @@
           }
         ],
         "reservation": "required",
-        "source": "http://www.dentsu.ed.jp/examination/recruitment/",
+        "source": "http://www.dentsu.ed.jp/",
         "checkedAt": "2026-10-17",
-        "applyUrl": "https://mirai-compass.net/usr/odentsuh/event/evtIndex.jsf",
-        "applyLabel": "「入試説明会のお申込みはこちら」",
-        "evidence": "ますよう、よろしくお願いします。 開催日 名称 時間 場所 2026年10月17日（土） 第1回入試説明会 14:00～ 本校 2026年10月18日（日） 第2回入試説明会 10:00～ 2026年11月14日（土） 第3回入試説明会 10:0"
+        "applyUrl": "https://www.dentsu.ed.jp/examination/30",
+        "applyLabel": "2026.09.16入試情報【申込受付中】入試説明会のご案内",
+        "evidence": "覧へ Instagram 📢 【受付！まだ間に合います！！】10/17(土)・18(日) 入試説明会 開催！ ✨ 電通高校の魅力を体感できる「入… 【大阪の私立高校選びに迷っている中学生集まれ！】 《入試説明会のお知らせ🏫✨》 中学生・保護"
       },
       "admissionFee": {
         "amount": 200000,
@@ -17836,13 +17836,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-10-17",
-            "label": "入試説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://kaimei.ed.jp/"
-          },
-          {
             "date": "2026-10-24",
             "label": "入試説明会",
             "reservation": null,
@@ -17869,7 +17862,7 @@
         "checkedAt": "2026-10-17",
         "applyUrl": "https://mirai-compass.net/usr/kaimeij/event/evtIndex.jsf",
         "applyLabel": "中学校イベント申込",
-        "evidence": "）開催｜「中学」授業見学会 2026-09-10 入試情報 10/17（土）開催｜「高校」入試説明会 2026-06-24 入試情報 令和９年度「高校１次」生徒募集要項のお知らせ 2026-06-24 入試情報 令和９年度「中学校」生徒募集"
+        "evidence": "）開催｜「中学」授業見学会 2026-09-17 入試情報 10/24（土）開催｜「中学」入試説明会 2026-06-24 入試情報 令和９年度「高校１次」生徒募集要項のお知らせ 2026-06-24 入試情報 令和９年度「中学校」生徒募集"
       },
       "admissionFee": {
         "amount": 200000,
@@ -18074,13 +18067,6 @@
           {
             "date": "2026-10-31",
             "label": "プレテスト",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://www.kankura.jp/"
-          },
-          {
-            "date": "2026-11-07",
-            "label": "学校説明会",
             "reservation": null,
             "confidence": "high",
             "source": "https://www.kankura.jp/"
@@ -21855,6 +21841,20 @@
             "reservation": null,
             "confidence": "high",
             "source": "https://senshin-gakuen.jp/"
+          },
+          {
+            "date": "2026-11-08",
+            "label": "オープンスクール",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://senshin-gakuen.jp/"
+          },
+          {
+            "date": "2026-11-28",
+            "label": "オープンスクール",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://senshin-gakuen.jp/os261017/"
           }
         ],
         "reservation": "required",
@@ -21862,7 +21862,7 @@
         "checkedAt": "2026-10-17",
         "applyUrl": "https://senshin-gakuen.jp/form/",
         "applyLabel": "参加申し込みフォーム",
-        "evidence": "「入試説明会」開催予定！ 入試情報 入試イベント お知らせ 2026年9月20日（日） 10/17（土）「第３回オープンスクール」開催予定！ 学校生活 お知らせ 2026年6月26日（金） 漫画『恋せよまやかし天使ども』アニメ化決定！ 一覧を見る - 宣真高校公式 S"
+        "evidence": "P NEWS 一覧を見る 入試情報 入試イベント お知らせ 2026年10月17日（土） 第３回オープンスクールが開催されました！ 吹奏楽部 コーラス部 クラブ活動 2026年10月17日（土） 11/8（日）「第１ブロック 音楽会」開催のお知らせ♪"
       },
       "admissionFee": {
         "amount": 200000,
