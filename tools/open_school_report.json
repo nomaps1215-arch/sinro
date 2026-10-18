@@ -1349,7 +1349,7 @@
     "name": "大阪府立城東工科高等学校",
     "website": "https://joto-tech.ed.jp/",
     "reached": true,
-    "pages": 3,
+    "pages": 4,
     "events": [],
     "apply": null,
     "note": ""
@@ -1578,7 +1578,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://otemae-hs.ed.jp/2026/10/10/%e3%80%90%e6%8a%bd%e9%81%b8%e7%b5%90%e6%9e%9c%e7%99%ba%e8%a1%a8%e3%80%9110%e6%9c%8824%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a/",
-        "evidence": "土）学校見学会 2026年10月10日 2148VIEWS 10月24日（土）開催の学校見学会に申込いただき誠にありがとうございます。 申込者が定員を超過したため、抽選を行いましたので、その結果を発表いたします。当選された方は、以下の"
+        "evidence": "土）学校見学会 2026年10月10日 2310VIEWS 10月24日（土）開催の学校見学会に申込いただき誠にありがとうございます。 申込者が定員を超過したため、抽選を行いましたので、その結果を発表いたします。当選された方は、以下の"
       },
       {
         "date": "2026-11-14",
@@ -2255,20 +2255,20 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-10-18",
-        "label": "学校説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://higashi-sumiyoshi-sougou.ed.jp/briefing/",
-        "evidence": "日(月） 10:00 &#8211; 15:00 五ツ木書房学校説明会 OMMビル2階 １０月１8（日）12：00 &#8211; 16：00 住之江区「高校進路説明会」 住之江区役所2階 アクセス 体験入学・学校説明会 学校案内 校長挨拶 ア"
-      },
-      {
         "date": "2026-10-24",
         "label": "オープンスクール",
         "reservation": null,
         "confidence": "high",
         "source": "https://higashi-sumiyoshi-sougou.ed.jp/briefing/",
         "evidence": "sp; &nbsp; &nbsp; 開会:10時00分 ～ 10月24日（土） オープンスクール（体験授業予定 ） 受付:13時00分 ～ 13時20分&nbsp; &nbsp; &nbsp; 開会:13時30分 ～ 11月7日（土）"
+      },
+      {
+        "date": "2026-11-01",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://higashi-sumiyoshi-sougou.ed.jp/briefing/",
+        "evidence": "日(月） 10:00 &#8211; 15:00 五ツ木書房学校説明会 OMMビル2階 １１月１（日）12：00 &#8211; 16：00 住之江区「高校進路説明会」 住之江区役所2階 アクセス 体験入学・学校説明会 学校案内 校長挨拶 ア"
       },
       {
         "date": "2026-12-05",
@@ -2292,7 +2292,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://higashi-sumiyoshi-sougou.ed.jp/briefing/",
-        "evidence": "６日（日）10:30 &#8211; 15:30 生野区高校進学説明会 大阪市生野区民センター ９月27日（日）13:00 &#8211; 16:00 2026年度 進学情報展 OMMビル2F １０月４日(月） 10:00 &#8211; 15:00 五ツ木書房学校説明会 OMMビル2階 １０月１8（日）12：00 &"
+        "evidence": "６日（日）10:30 &#8211; 15:30 生野区高校進学説明会 大阪市生野区民センター ９月27日（日）13:00 &#8211; 16:00 2026年度 進学情報展 OMMビル2F １０月４日(月） 10:00 &#8211; 15:00 五ツ木書房学校説明会 OMMビル2階 １１月１（日）12：00 &#"
       }
     ],
     "apply": {
@@ -4398,6 +4398,14 @@
         "evidence": "クラブ体験 &nbsp; 日程 対象 場所 時間 体験入学〈オープンキャンパス〉 2026年7月25日（土） 要予約 終了しました。 保育進学コース （女子のみ） 本校 10：00～12：30 2026年10月18日（日） 要予約 全コース 2026年11月15日（日） 要予約 学校・入試説明会 2026年8月23日（"
       },
       {
+        "date": "2026-11-01",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.hs.fuksi-kagk-u.ac.jp/topics/news/2026/10/18/29187/",
+        "evidence": "bsp; &nbsp; 体験入学 11月15日（日） 学校・入試説明会 11月1日（日）、12月5日（土）、12月20日（日） に実施致します。 ご来校、お待ちしております。 &nbsp; 前の記事へ トピックス一覧へ 次の記事へ トピックスカテゴリー すべてのトピ"
+      },
+      {
         "date": "2026-11-15",
         "label": "入試説明会",
         "reservation": "required",
@@ -4412,6 +4420,22 @@
         "confidence": "high",
         "source": "https://www.hs.fuksi-kagk-u.ac.jp/open-campus_top/",
         "evidence": "要予約 2026年12月20日（日） 要予約 三重県 学校・入試説明会 2026年11月28日（土） 要予約 全コース 名張産業振興センター アスピア 10：00～11：00 文化祭 2026年9月19日（土） 要予約 終了しました。 全コ"
+      },
+      {
+        "date": "2026-12-05",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.hs.fuksi-kagk-u.ac.jp/topics/news/2026/10/18/29187/",
+        "evidence": "bsp; &nbsp; 体験入学 11月15日（日） 学校・入試説明会 11月1日（日）、12月5日（土）、12月20日（日） に実施致します。 ご来校、お待ちしております。 &nbsp; 前の記事へ トピックス一覧へ 次の記事へ トピックスカテゴリー すべてのトピ"
+      },
+      {
+        "date": "2026-12-20",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.hs.fuksi-kagk-u.ac.jp/topics/news/2026/10/18/29187/",
+        "evidence": "bsp; &nbsp; 体験入学 11月15日（日） 学校・入試説明会 11月1日（日）、12月5日（土）、12月20日（日） に実施致します。 ご来校、お待ちしております。 &nbsp; 前の記事へ トピックス一覧へ 次の記事へ トピックスカテゴリー すべてのトピ"
       }
     ],
     "apply": {
@@ -4446,11 +4470,23 @@
     "id": "priv-kinkiosaka",
     "name": "近畿大阪高等学校",
     "website": "https://koutoku.ac.jp/kinkiosaka/",
-    "reached": false,
-    "pages": 0,
-    "events": [],
-    "apply": null,
-    "note": "robots.txt で拒否"
+    "reached": true,
+    "pages": 4,
+    "events": [
+      {
+        "date": "2026-10-18",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://koutoku.ac.jp/kinkiosaka/news/20260914/",
+        "evidence": "&#8220;`html OPEN SCHOOL 第5回 オープンスクール開催！ 2026年10月18日（日） 午前の部 10:30～ ／ 午後の部 14:00～ 近畿大阪高校ってどんな学校？ 学校のこと、学び方、学費のことなどを詳しくご紹介します。"
+      }
+    ],
+    "apply": {
+      "url": "https://koutoku.ac.jp/kinkiosaka/guide/open/",
+      "label": "オープンスクールに申し込む"
+    },
+    "note": ""
   },
   {
     "id": "priv-kindai-senshu",
@@ -4635,7 +4671,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://koubun.ed.jp/exp/guidance/",
-        "evidence": "じっくり直接個別に相談したい方 CONSULTATION 個別相談会 11/7 （土） 13:00〜16:00 Coming Soon 11/14 （土） 13:00〜16:00 Coming Soon 11/17 （火） 1"
+        "evidence": "じっくり直接個別に相談したい方 CONSULTATION 個別相談会 11/7 （土） 13:00〜16:00 予約受付中 11/14 （土） 13:00〜16:00 予約受付中 11/17 （火） 16:00〜19:00 予"
       },
       {
         "date": "2026-11-21",
@@ -4643,7 +4679,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://koubun.ed.jp/exp/guidance/",
-        "evidence": "費について直接聞きたい！ FOR PARENTS 保護者対象説明会 11/21 （土） 10:00〜 Coming Soon 11/28 （土） 10:00〜 Coming Soon 学校の特色や入試情報など、 受験生の保護者"
+        "evidence": "費について直接聞きたい！ FOR PARENTS 保護者対象説明会 11/21 （土） 10:00〜 予約受付中 11/28 （土） 10:00〜 予約受付中 学校の特色や入試情報など、 受験生の保護者向けの内容をご説明します"
       },
       {
         "date": "2026-11-28",
@@ -4651,7 +4687,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://koubun.ed.jp/exp/guidance/",
-        "evidence": "11/21 （土） 10:00〜 Coming Soon 11/28 （土） 10:00〜 Coming Soon 学校の特色や入試情報など、 受験生の保護者向けの内容をご説明します。 ［内容］ 全体説明会 学校概要 入試概要 学費、奨学金制度 施設案内 個別相談会 ＼約3分で完了・保護者のみでのご参加も大歓迎／ お申"
+        "evidence": "者対象説明会 11/21 （土） 10:00〜 予約受付中 11/28 （土） 10:00〜 予約受付中 学校の特色や入試情報など、 受験生の保護者向けの内容をご説明します。 ［内容］ 全体説明会 学校概要 入試概要 学費、奨学金制度 施設案内 個別相談会 ＼約3分で完了・保護者のみでのご参加も大歓迎／ お申し込みはコ"
       },
       {
         "date": "2026-12-05",
@@ -4659,7 +4695,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://koubun.ed.jp/exp/guidance/",
-        "evidence": "予約受付中 11/14 （土） 10:00〜 予約受付中 12/5 （土） 10:00〜 Coming Soon 全体説明会から、コース別の体験、校内見学まで。 1日で好文学園がまるごとわかります。 POINT 01 全体説明会 学校長のあいさつや生徒による学校紹"
+        "evidence": "予約受付中 11/14 （土） 10:00〜 予約受付中 12/5 （土） 10:00〜 予約受付中 全体説明会から、コース別の体験、校内見学まで。 1日で好文学園がまるごとわかります。 POINT 01 全体説明会 学校長のあいさつや生徒による学校紹"
       },
       {
         "date": "2026-12-12",
@@ -4718,14 +4754,6 @@
         "confidence": "high",
         "source": "https://www.kohs.ed.jp/information/38416/",
         "evidence": "会（10/31,11/14,12/5,12/19） 受付中 10月31日（土）・11月14日（土）・12月5日（土）・12月19日（土） に学校説明会を開催いたします（※すべて午前10時より開始です）。 学校説明会では学校紹介、入試や募集要項について説明を行います。そのあとは自由に校内見学"
-      },
-      {
-        "date": "2026-11-28",
-        "label": "学校説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.kohs.ed.jp/topics/39397/",
-        "evidence": "ださっているのが印象的でした🥐 ⁡ さて！今後のプレテスト＆学校説明会の日程です📢 ・第2回：11月3日（火･祝） ・第3回：11月28日（土） たくさんのご参加をお待ちしております！ TOPICS一覧へ 学校概要 教育理念 公開情報 採用情報 大阪教育ゆめ基金 中学校 中高一貫教育"
       },
       {
         "date": "2026-12-05",

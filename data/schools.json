@@ -9814,15 +9814,15 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-10-18",
-            "label": "学校説明会",
+            "date": "2026-10-24",
+            "label": "オープンスクール",
             "reservation": null,
             "confidence": "high",
             "source": "https://higashi-sumiyoshi-sougou.ed.jp/briefing/"
           },
           {
-            "date": "2026-10-24",
-            "label": "オープンスクール",
+            "date": "2026-11-01",
+            "label": "学校説明会",
             "reservation": null,
             "confidence": "high",
             "source": "https://higashi-sumiyoshi-sougou.ed.jp/briefing/"
@@ -9854,7 +9854,7 @@
         "checkedAt": "2026-10-18",
         "applyUrl": "https://forms.gle/mcBsPcQiWufP5XRG7",
         "applyLabel": "申込フォーム",
-        "evidence": "日(月） 10:00 &#8211; 15:00 五ツ木書房学校説明会 OMMビル2階 １０月１8（日）12：00 &#8211; 16：00 住之江区「高校進路説明会」 住之江区役所2階 アクセス 体験入学・学校説明会 学校案内 校長挨拶 ア"
+        "evidence": "sp; &nbsp; &nbsp; 開会:10時00分 ～ 10月24日（土） オープンスクール（体験授業予定 ） 受付:13時00分 ～ 13時20分&nbsp; &nbsp; &nbsp; 開会:13時30分 ～ 11月7日（土）"
       },
       "photos": [
         {
@@ -18385,6 +18385,13 @@
             "source": "https://www.hs.fuksi-kagk-u.ac.jp/open-campus_top/"
           },
           {
+            "date": "2026-11-01",
+            "label": "入試説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.hs.fuksi-kagk-u.ac.jp/topics/news/2026/10/18/29187/"
+          },
+          {
             "date": "2026-11-15",
             "label": "入試説明会",
             "reservation": "required",
@@ -18397,6 +18404,20 @@
             "reservation": "required",
             "confidence": "high",
             "source": "https://www.hs.fuksi-kagk-u.ac.jp/open-campus_top/"
+          },
+          {
+            "date": "2026-12-05",
+            "label": "入試説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.hs.fuksi-kagk-u.ac.jp/topics/news/2026/10/18/29187/"
+          },
+          {
+            "date": "2026-12-20",
+            "label": "入試説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.hs.fuksi-kagk-u.ac.jp/topics/news/2026/10/18/29187/"
           }
         ],
         "reservation": "required",
@@ -18545,7 +18566,7 @@
         ],
         "reservation": "required",
         "source": "https://koutoku.ac.jp/kinkiosaka/news/20260914/",
-        "checkedAt": "2026-10-17",
+        "checkedAt": "2026-10-18",
         "applyUrl": "https://koutoku.ac.jp/kinkiosaka/guide/open/",
         "applyLabel": "オープンスクールに申し込む",
         "evidence": "&#8220;`html OPEN SCHOOL 第5回 オープンスクール開催！ 2026年10月18日（日） 午前の部 10:30～ ／ 午後の部 14:00～ 近畿大阪高校ってどんな学校？ 学校のこと、学び方、学費のことなどを詳しくご紹介します。"
@@ -19364,7 +19385,7 @@
         "checkedAt": "2026-10-18",
         "applyUrl": "https://mirai-compass.net/usr/koubungh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "じっくり直接個別に相談したい方 CONSULTATION 個別相談会 11/7 （土） 13:00〜16:00 Coming Soon 11/14 （土） 13:00〜16:00 Coming Soon 11/17 （火） 1"
+        "evidence": "じっくり直接個別に相談したい方 CONSULTATION 個別相談会 11/7 （土） 13:00〜16:00 予約受付中 11/14 （土） 13:00〜16:00 予約受付中 11/17 （火） 16:00〜19:00 予"
       },
       "admissionFee": {
         "amount": 200000,
@@ -19607,13 +19628,6 @@
             "reservation": null,
             "confidence": "high",
             "source": "https://www.kohs.ed.jp/information/38416/"
-          },
-          {
-            "date": "2026-11-28",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://www.kohs.ed.jp/topics/39397/"
           },
           {
             "date": "2026-12-05",
