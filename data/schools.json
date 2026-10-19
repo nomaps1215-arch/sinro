@@ -312,7 +312,7 @@
         "reservation": null,
         "source": "https://www3.osaka-c.ed.jp/ichiritsu/",
         "checkedAt": "2026-10-19",
-        "evidence": "26/10/16 オープンスクール当日に関する連絡【重要】 2026/10/16 11/7(土)オープンスクール参加申込はこちらから！ 2026/10/16 10/26(月)は代休です 2026/10/14 オープンスクールについてお問い合わせくださっ"
+        "evidence": "26/10/19 オープンスクール当日に関する連絡【重要】 2026/10/19 11/7(土)オープンスクール参加申込はこちらから！ 2026/10/16 10/26(月)は代休です 2026/10/14 オープンスクールについてお問い合わせくださっ"
       }
     },
     {
@@ -2371,7 +2371,22 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-10-19",
+            "label": "学校見学会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www2.osaka-c.ed.jp/blog/ikuno/event-report/"
+          }
+        ],
+        "reservation": null,
+        "source": "https://www2.osaka-c.ed.jp/blog/ikuno/event-report/",
+        "checkedAt": "2026-10-19",
+        "evidence": "前 1 2 3 … 54 次 » カレンダー 最近の記事 10/19(月） GLHSミラクルチャレンジ講演会 明日は第１回学校見学会です。 ３年生人権講演会を実施しました 医療系への進学希望生徒に対しての説明会を実施しました 学校紹介動画の上映会を行いました 年別一覧 2"
+      }
     },
     {
       "id": "pref-matsubara",
@@ -5508,8 +5523,8 @@
         "reservation": "required",
         "source": "https://fuse.ed.jp/school-orientation/",
         "checkedAt": "2026-10-19",
-        "applyUrl": "https://fuse.ed.jp/news/20260918/",
-        "applyLabel": "2026（令和８）年度10月学校見学会の申込みについて",
+        "applyUrl": "https://fuse.ed.jp/news/2026%ef%bc%88%e4%bb%a4%e5%92%8c%ef%bc%98%ef%bc%89%e5%b9%b4%e5%ba%a611%e6%9c%88%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a%ef%bc%88%e9%83%a8%e6%b4%bb%e5%8b%95%e4%bd%93%e9%a8%93%ef%bc%89%e3%81%ae/",
+        "applyLabel": "2026（令和８）年度11月学校見学会（部活動体験）の申込みについて",
         "evidence": "24日 【布施高校（全日制の課程） 学校説明会の日程】 🔹 10月24日（土） 学校見学会（学校説明、体験授業、校内および部活動見学） 🔹 11月14日（土） 学校見学会（部活動体験） 🔹 12月12日（土） 学校説明会（学校説"
       },
       "photos": [
@@ -6357,7 +6372,7 @@
         "reservation": null,
         "source": "https://www3.osaka-c.ed.jp/higashi/",
         "checkedAt": "2026-10-19",
-        "evidence": "学校名を入れてください Information お知らせ 2026/10/06 11/7(土) 第3回オープンスクールのご案内 2026/08/25 8/24 オープンスクールのお礼 2026/08/17 1学期終業式を行いました 2026/08/17 公式"
+        "evidence": "10/19 総合的な探究の時間「プレ探究 第０回・第１回」 2026/10/06 11/7(土) 第3回オープンスクールのご案内 2026/08/25 8/24 オープンスクールのお礼 2026/08/17 1学期終業式を行いました 2026/08/17 公式"
       }
     },
     {
@@ -6783,7 +6798,7 @@
         "checkedAt": "2026-10-19",
         "applyUrl": "https://otemae-hs.ed.jp/2026/10/13/11%e6%9c%8814%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a%e7%94%b3%e8%be%bc%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0/",
         "applyLabel": "申込フォーム",
-        "evidence": "土）学校見学会 2026年10月10日 2390VIEWS 10月24日（土）開催の学校見学会に申込いただき誠にありがとうございます。 申込者が定員を超過したため、抽選を行いましたので、その結果を発表いたします。当選された方は、以下の"
+        "evidence": "土）学校見学会 2026年10月10日 2523VIEWS 10月24日（土）開催の学校見学会に申込いただき誠にありがとうございます。 申込者が定員を超過したため、抽選を行いましたので、その結果を発表いたします。当選された方は、以下の"
       }
     },
     {
@@ -8206,12 +8221,12 @@
           {
             "date": "2027-01-16",
             "label": "学校説明会",
-            "reservation": null,
+            "reservation": "required",
             "confidence": "high",
             "source": "https://www2.osaka-c.ed.jp/osakawakaba/folder8/2022/"
           }
         ],
-        "reservation": null,
+        "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/osakawakaba/folder8/2022/",
         "checkedAt": "2026-10-19",
         "evidence": "の日程について、決定したものを、順次お知らせします。 第１回学校説明会(春入試) 令和８(2026)年11月28日(土) (「日本語指導が必要な帰国生徒・外国人生徒入学者選抜」の説明会（通訳付き）も行います) 9:30～ 受付 10:00～ 全体説明会 10:"
@@ -11342,7 +11357,7 @@
         "checkedAt": "2026-10-19",
         "applyUrl": "https://docs.google.com/spreadsheets/d/1aZ1edbWc0NO-y_YmgBTCHZrOzacGqbu3U5VrteYuPuI/edit?usp=sharing",
         "applyLabel": "申込フォーム",
-        "evidence": "生の皆さまへ 最近の記事 過去の記事 2026/10/16 学校説明会（10月24日（土）開催）に関するご連絡 2026/10/6 2026.10.06 最小の６～９倍奇数過剰数について論文「Abundancy … 2026/10"
+        "evidence": "者の皆さまへ 最近の記事 過去の記事 2026/10/16 学校説明会（10月24日（土）開催）に関するご連絡 2026/10/6 2026.10.06 最小の６～９倍奇数過剰数について論文「Abundancy … 2026/10"
       },
       "photos": [
         {
@@ -18528,23 +18543,6 @@
         "sourceName": "大阪私立中学校高等学校連合会「私立高等学校新入生徒 納付金等調」",
         "survey": "令和7年11月",
         "fetchedAt": "2026-09-10"
-      },
-      "openSchool": {
-        "events": [
-          {
-            "date": "2026-10-18",
-            "label": "オープンスクール",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://koutoku.ac.jp/kinkiosaka/news/20260914/"
-          }
-        ],
-        "reservation": "required",
-        "source": "https://koutoku.ac.jp/kinkiosaka/news/20260914/",
-        "checkedAt": "2026-10-18",
-        "applyUrl": "https://koutoku.ac.jp/kinkiosaka/guide/open/",
-        "applyLabel": "オープンスクールに申し込む",
-        "evidence": "&#8220;`html OPEN SCHOOL 第5回 オープンスクール開催！ 2026年10月18日（日） 午前の部 10:30～ ／ 午後の部 14:00～ 近畿大阪高校ってどんな学校？ 学校のこと、学び方、学費のことなどを詳しくご紹介します。"
       }
     },
     {
@@ -19509,7 +19507,31 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-11-07",
+            "label": "オープンスクール",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.seibo.ed.jp/nevers-hs/contact/event_entry_sr/"
+          },
+          {
+            "date": "2026-12-05",
+            "label": "入試説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.seibo.ed.jp/nevers-hs/contact/event_entry_sr/"
+          }
+        ],
+        "reservation": "required",
+        "source": "https://www.seibo.ed.jp/nevers-hs/contact/event_entry_sr/",
+        "checkedAt": "2026-10-19",
+        "applyUrl": "https://mirai-compass.net/usr/oskonvrh/event/evtIndex.jsf",
+        "applyLabel": "申込フォーム",
+        "evidence": "13：30 オープンスクール 10月17日（土）13：30 オープンスクール 11月7日（土）13：30 高校入試説明会 12月 5日（土） &nbsp; お申し込みは こちら から 香里ヌヴェール学院 〒572-8531 大阪府寝屋"
+      }
     },
     {
       "id": "priv-kohs",
