@@ -11349,7 +11349,7 @@
         "checkedAt": "2026-10-21",
         "applyUrl": "https://docs.google.com/spreadsheets/d/1aZ1edbWc0NO-y_YmgBTCHZrOzacGqbu3U5VrteYuPuI/edit?usp=sharing",
         "applyLabel": "申込フォーム",
-        "evidence": "者の皆さまへ 最近の記事 過去の記事 2026/10/16 学校説明会（10月24日（土）開催）に関するご連絡 2026/10/6 2026.10.06 最小の６～９倍奇数過剰数について論文「Abundancy … 2026/10"
+        "evidence": "生の皆さまへ 最近の記事 過去の記事 2026/10/16 学校説明会（10月24日（土）開催）に関するご連絡 2026/10/6 2026.10.06 最小の６～９倍奇数過剰数について論文「Abundancy … 2026/10"
       },
       "photos": [
         {
@@ -14219,19 +14219,26 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-10-21",
+            "label": "学校説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://minoh-high-school.com/blog/?p=11711"
+          },
+          {
             "date": "2026-10-24",
             "label": "学校説明会",
-            "reservation": "required",
+            "reservation": null,
             "confidence": "high",
             "source": "https://minoh-high-school.com/blog/?p=11676"
           }
         ],
         "reservation": "required",
-        "source": "https://minoh-high-school.com/blog/?p=11676",
+        "source": "https://minoh-high-school.com/blog/?p=11711",
         "checkedAt": "2026-10-21",
         "applyUrl": "https://forms.gle/KLNFEDzQs81p93iJA",
         "applyLabel": "申込フォーム",
-        "evidence": "rms.gle/KLNFEDzQs81p93iJA 【第1回学校説明会】 日程 ：2026年10月24日（土） 場所 ：大阪府立 箕面高等学校 対象 ：中学生の生徒およびその保護者 ※生徒１名につき保護者１名まで 定員 ：1200名 （※）先着順 学"
+        "evidence": "メール配信について 2026年10月21日 箕面高等学校 １０月２１日（水）１８：５０ 本日、上記の時間帯に、第１回学校説明会に参加登録していただいた皆様へ、詳細をまとめたメールを配信いたしました。 お手数をおかけしますが、メールの内容をご確認くださいますようお願い"
       }
     },
     {
@@ -17795,7 +17802,7 @@
         ],
         "reservation": "required",
         "source": "https://kaimei.ed.jp/",
-        "checkedAt": "2026-10-20",
+        "checkedAt": "2026-10-21",
         "applyUrl": "https://mirai-compass.net/usr/kaimeij/event/evtIndex.jsf",
         "applyLabel": "中学校イベント申込",
         "evidence": "）開催｜「中学」授業見学会 2026-09-17 入試情報 10/24（土）開催｜「中学」入試説明会 2026-06-24 入試情報 令和９年度「高校１次」生徒募集要項のお知らせ 2026-06-24 入試情報 令和９年度「中学校」生徒募集"
