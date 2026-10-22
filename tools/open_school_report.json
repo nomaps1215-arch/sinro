@@ -581,8 +581,8 @@
       }
     ],
     "apply": {
-      "url": "https://forms.gle/1AuCFFAKNfZ6NxmG9",
-      "label": "【参加申し込みフォーム】"
+      "url": "https://docs.google.com/forms/d/1RQV5cWjlVSCmONIo1OsXpwg9ySjlgBZ5YkrtA_dHVwM/edit",
+      "label": "申込フォーム"
     },
     "note": ""
   },
@@ -897,7 +897,7 @@
     "name": "大阪府立三島高等学校",
     "website": "https://mishima-hs.ed.jp/",
     "reached": true,
-    "pages": 1,
+    "pages": 2,
     "events": [],
     "apply": null,
     "note": ""
@@ -911,11 +911,11 @@
     "events": [
       {
         "date": "2026-10-24",
-        "label": "学校説明会",
+        "label": "クラブ体験",
         "reservation": null,
         "confidence": "high",
         "source": "https://www.tsukinoki.ed.jp/",
-        "evidence": "9日 【文芸部より】文化祭で配布した部誌に関するお知らせ。 2026年9月1日 10/24(土)学校説明会・クラブ体験予約募集中！！ 2026年8月26日 文化祭の一般公開は9/5(土)です 2026年6月25日 台風接近時などに伴う休校措置につ"
+        "evidence": "us Next 新着情報 2026年10月22日 NEW! 10/24(土)クラブ体験は雨天でも実施します 2026年9月26日 10/24の学校説明会は満席になりました。クラブ体験は募集中です。 2026年9月9日 【文芸部"
       },
       {
         "date": "2026-11-14",
@@ -1388,7 +1388,7 @@
     ],
     "apply": {
       "url": "https://www2.osaka-c.ed.jp/higashiosakamirai-t/news/34783",
-      "label": "2026/10/14 第四回学校説明会 申し込み開始しました！"
+      "label": "第四回学校説明会 申し込み受付中！"
     },
     "note": ""
   },
@@ -2716,7 +2716,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://sakai-higashi.ed.jp/exam/events/",
-        "evidence": "(土) 】 知的障がい生徒 自立支援コース 自立支援コース 説明会【 2026年10月23日(金) 】 オープンスクール 第2回オープンスクール（学校説明会） 【 2026年11月7日(土) 】 知的障がい生徒 自立支援コース 第2回自立"
+        "evidence": "学校説明会 知的障がい生徒 自立支援コース 自立支援コース 説明会【 2026年10月23日(金) 】 オープンスクール 第2回オープンスクール（学校説明会） 【 2026年11月7日(土) 】 知的障がい生徒 自立支援コース 第2回自立"
       },
       {
         "date": "2026-11-07",
@@ -2740,7 +2740,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://sakai-higashi.ed.jp/exam/events/",
-        "evidence": "6年12月12日(土) 】 ミニ学校見学会 第3回中学生ミニ学校見学会【 2027年1月30日(土) 】 1 / 2 1 2 次へ カテゴリー オープンスクール ミニ学校見学会 合同学校説明会 知的障がい生徒 自立支援コース クラブ体験会・"
+        "evidence": "6年12月12日(土) 】 ミニ学校見学会 第3回中学生ミニ学校見学会【 2027年1月30日(土) 】 知的障がい生徒 自立支援コース 第1回自立支援コース授業見学 【 2026年6月29日(月) 】 合同学校説明会 大阪府公立高校進学フ"
       }
     ],
     "apply": {
@@ -2784,7 +2784,7 @@
       }
     ],
     "apply": {
-      "url": "https://forms.gle/SmBufhyP4Z7cV9hp6",
+      "url": "https://forms.gle/Cc6uNaxGEbYEPCsWA",
       "label": "第１回学校説明会（学校説明・校内見学）申し込みフォーム"
     },
     "note": ""
@@ -3336,14 +3336,6 @@
     "pages": 3,
     "events": [
       {
-        "date": "2026-10-21",
-        "label": "学校説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://minoh-high-school.com/blog/?p=11711",
-        "evidence": "メール配信について 2026年10月21日 箕面高等学校 １０月２１日（水）１８：５０ 本日、上記の時間帯に、第１回学校説明会に参加登録していただいた皆様へ、詳細をまとめたメールを配信いたしました。 お手数をおかけしますが、メールの内容をご確認くださいますようお願い"
-      },
-      {
         "date": "2026-10-24",
         "label": "学校説明会",
         "reservation": null,
@@ -3754,47 +3746,11 @@
     "id": "priv-kun-ei",
     "name": "大阪薫英女学院高等学校",
     "website": "https://www.kun-ei.jp/",
-    "reached": true,
-    "pages": 4,
-    "events": [
-      {
-        "date": "2026-10-24",
-        "label": "プレテスト",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.kun-ei.jp/admission/jhs_events/",
-        "evidence": "11月21日(土) 8:45～12:45 プレテスト解説会（プレテスト参加者対象） （１）2026年10月24日(土) 13:00～14:30 （２）2026年12月5日(土) 13:00～14:30 留学フェア 2026年7月20日(月・祝) 14:00～15:00 2026年10月25日(日) 14:00～15"
-      },
-      {
-        "date": "2026-11-07",
-        "label": "入試説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.kun-ei.jp/admission/hs_events/",
-        "evidence": "日(土) 10:00～12:00 入試説明会を兼ねます 高校入試説明会 2026年11月 7日(土) 10:00～12:00 2026年11月28日(土) 10:00～12:00 オープンキャンパスを兼ねます 2026年12月 6日(日)"
-      },
-      {
-        "date": "2026-11-28",
-        "label": "個別相談会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.kun-ei.jp/admission/jhs_events/",
-        "evidence": "00 2026年10月25日(日) 14:00～15:00 個別相談会 11月28日(土) 10:00～16:00 12月12日(土) 10:00～16:00 12月19日(土) 10:00～16:00 12月26日(土) 10:"
-      },
-      {
-        "date": "2026-12-05",
-        "label": "プレテスト",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.kun-ei.jp/admission/jhs_events/",
-        "evidence": "11月21日(土) 8:45～12:45 プレテスト解説会（プレテスト参加者対象） （１）2026年10月24日(土) 13:00～14:30 （２）2026年12月5日(土) 13:00～14:30 留学フェア 2026年7月20日(月・祝) 14:00～15:00 2026年10月25日(日) 14:00～15"
-      }
-    ],
-    "apply": {
-      "url": "https://mirai-compass.net/usr/kuneij/event/evtIndex.jsf",
-      "label": "予約はこちら（ミライコンパスに移動します）"
-    },
-    "note": ""
+    "reached": false,
+    "pages": 0,
+    "events": [],
+    "apply": null,
+    "note": "取得できず（<urlopen error timed out>）"
   },
   {
     "id": "priv-kokusai-h-oiu",
@@ -4119,11 +4075,35 @@
         "confidence": "high",
         "source": "https://www.osakaryokuryo.ed.jp/news/topics/8331/",
         "evidence": "クス １１月８日オープンスクール クラブ体験 変更について 10月17日(土)・11月8日(日)のオープンスクールにてクラブ体験に参加することができます。 ※11月8日(日)に予定されていたバドミントン部のクラブ体験が公式戦により中止となりました。 その"
+      },
+      {
+        "date": "2026-11-22",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osakaryokuryo.ed.jp/news/topics/8450/",
+        "evidence": "0 / 22 お知らせ・トピックス 入試説明会を開催します 11月22日(日)・11月29日(日)・12月5日(土)に入試説明会を開催します。 全日程9:30〜12:00 (受付は9:00〜)となっております。 プログラムは「学校説明」「入試説明」「入試問題 解説講座"
+      },
+      {
+        "date": "2026-11-29",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osakaryokuryo.ed.jp/news/topics/8450/",
+        "evidence": "0 / 22 お知らせ・トピックス 入試説明会を開催します 11月22日(日)・11月29日(日)・12月5日(土)に入試説明会を開催します。 全日程9:30〜12:00 (受付は9:00〜)となっております。 プログラムは「学校説明」「入試説明」「入試問題 解説講座"
+      },
+      {
+        "date": "2026-12-05",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osakaryokuryo.ed.jp/news/topics/8450/",
+        "evidence": "0 / 22 お知らせ・トピックス 入試説明会を開催します 11月22日(日)・11月29日(日)・12月5日(土)に入試説明会を開催します。 全日程9:30〜12:00 (受付は9:00〜)となっております。 プログラムは「学校説明」「入試説明」「入試問題 解説講座"
       }
     ],
     "apply": {
-      "url": "https://mirai-compass.net/usr/orykryh/common/loginEvent.jsf?clientLoginToken=BUeKjRWseZDeCBDkUghZex4H0A3VVs",
-      "label": "申込フォーム"
+      "url": "https://www.osakaryokuryo.ed.jp/event/",
+      "label": "イベント申し込み"
     },
     "note": ""
   },
@@ -4895,11 +4875,11 @@
     "id": "priv-shuoh",
     "name": "秋桜高等学校",
     "website": "https://www.shuoh.ed.jp/",
-    "reached": false,
-    "pages": 0,
+    "reached": true,
+    "pages": 2,
     "events": [],
     "apply": null,
-    "note": "取得できず（<urlopen error [Errno 111] Connection refused>）"
+    "note": ""
   },
   {
     "id": "priv-hs",
@@ -4965,11 +4945,47 @@
     "id": "priv-oskshoyo",
     "name": "昇陽高等学校",
     "website": "http://www.oskshoyo.ed.jp/",
-    "reached": false,
-    "pages": 0,
-    "events": [],
-    "apply": null,
-    "note": "取得できず（<urlopen error [Errno 111] Connection refused>）"
+    "reached": true,
+    "pages": 4,
+    "events": [
+      {
+        "date": "2026-11-07",
+        "label": "体験入学",
+        "reservation": null,
+        "confidence": "high",
+        "source": "http://www.oskshoyo.ed.jp/",
+        "evidence": "タグに対応していません。 NEWS 昇陽高等学校 お知らせ 2026.10.08 11月７日(土) 第３回体験入学☆申込受付中！ 看護医療進学 2026.10.07 献血ボランティア活動、表彰式！！ 昇陽中学校 ニュース 2026.10.19 入試説明会"
+      },
+      {
+        "date": "2026-11-21",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.oskshoyo.ed.jp/jhs/examinee/contact/",
+        "evidence": "レベルです。 国語・算数（２教科） 保護者の方には、同時間に入試説明会を行います。 ※ 筆記用具（鉛筆）・上履きを持参してください。 第1回 10月17日（土） 午前9：00～11：20 第2回 11月21日（土） 午前9：00～11：20 お申し込みはこちら（プラスシードから） 英検対策講座（３級・４級・５級） 本校"
+      },
+      {
+        "date": "2026-11-28",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.oskshoyo.ed.jp/hs/examinee/seminar/",
+        "evidence": "30 開始 終了しました &nbsp; 入試説明会について 入試説明会 11月28日(土) 9:00 受付 9:30 開始 お申し込みはこちら（プラスシードから） &nbsp; 昇陽フェスティバルについて 昇陽フェスティバル 8月"
+      },
+      {
+        "date": "2026-12-12",
+        "label": "体験入学",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.oskshoyo.ed.jp/hs/examinee/seminar/",
+        "evidence": "ジネス・公務員コース， パティシエコース，福祉コース 第4回体験入学 12月12日(土) 9:00 受付 9:30 開始 【体験入学一覧(予定）】 特進コース，進学コース 標準進学・看護医療進学・幼児教育進学・アスリート進学，I"
+      }
+    ],
+    "apply": {
+      "url": "https://www.oskshoyo.ed.jp/news/11%e6%9c%88%ef%bc%97%e6%97%a5%e5%9c%9f%e3%80%80%e7%ac%ac%ef%bc%93%e5%9b%9e%e4%bd%93%e9%a8%93%e5%85%a5%e5%ad%a6%e2%98%86%e7%94%b3%e8%be%bc%e5%8f%97%e4%bb%98%e4%b8%ad%ef%bc%81/",
+      "label": "お知らせ 2026.10.08 11月７日(土) 第３回体験入学☆申込受付中！"
+    },
+    "note": ""
   },
   {
     "id": "priv-seika-h",
@@ -5007,11 +5023,31 @@
     "id": "priv-osaka-seisho",
     "name": "星翔高等学校",
     "website": "http://www.osaka-seisho.ed.jp/",
-    "reached": false,
-    "pages": 0,
-    "events": [],
-    "apply": null,
-    "note": "robots.txt で拒否"
+    "reached": true,
+    "pages": 4,
+    "events": [
+      {
+        "date": "2026-10-24",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osaka-seisho.ed.jp/",
+        "evidence": "2026.10.20 重要なお知らせ 入試情報 [入試情報]10/24(土)寝屋川アルカスに星翔高校がうかがいます！ 2026.10.20 重要なお知らせ 入試情報 第1回オープンスクール・第2回学校説明会を開催しました！ 2026.10.18 校長室だより 入試情報 10/17(土)「第1回オープンスクール（第2回学"
+      },
+      {
+        "date": "2026-11-15",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osaka-seisho.ed.jp/",
+        "evidence": "port HTML5 video tag. 重要なお知らせ 2026.10.20 11/15(日)第2回オープンスクール 申込受付中！ 2026.10.20 [入試情報]10/24(土)寝屋川アルカスに星翔高校がうかがいます！ 2026.10.01 第2校舎"
+      }
+    ],
+    "apply": {
+      "url": "https://www.osaka-seisho.ed.jp/topics/1551/",
+      "label": "2026.10.20 11/15(日)第2回オープンスクール 申込受付中！"
+    },
+    "note": ""
   },
   {
     "id": "priv-seifu",
@@ -5232,7 +5268,7 @@
     "name": "大商学園高等学校",
     "website": "http://www.daisho.ac.jp",
     "reached": true,
-    "pages": 4,
+    "pages": 1,
     "events": [],
     "apply": null,
     "note": ""
@@ -5262,7 +5298,7 @@
     "name": "帝塚山学院高等学校",
     "website": "http://www.tezukayama.ac.jp/cyu_kou",
     "reached": true,
-    "pages": 1,
+    "pages": 4,
     "events": [],
     "apply": null,
     "note": ""
@@ -5272,7 +5308,7 @@
     "name": "帝塚山学院泉ヶ丘高等学校",
     "website": "http://www.tezuka-i-h.jp",
     "reached": true,
-    "pages": 1,
+    "pages": 4,
     "events": [],
     "apply": null,
     "note": ""
@@ -5338,20 +5374,11 @@
     "id": "priv-kori-doshisha",
     "name": "同志社香里高等学校",
     "website": "http://www.kori.doshisha.ac.jp",
-    "reached": true,
-    "pages": 4,
-    "events": [
-      {
-        "date": "2026-10-24",
-        "label": "個別相談会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.kori.doshisha.ac.jp/exa/event/",
-        "evidence": "１～中３年生対象） 予約する 詳しく見る 9月29日（火）～10月24日（土）に秋のオンライン（ZOOM）個別相談会を実施いたします。みなさまのご質問にお答えすることで、本校を知っていただく機会になれば幸いです。 詳細はこちら 2026 10.31 （ 土"
-      }
-    ],
+    "reached": false,
+    "pages": 0,
+    "events": [],
     "apply": null,
-    "note": ""
+    "note": "robots.txt で拒否"
   },
   {
     "id": "priv-okazakitoho",
