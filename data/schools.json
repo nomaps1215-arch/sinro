@@ -11140,6 +11140,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-10-22",
+            "label": "体験入学",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://osaka-nougei.ed.jp/"
+          },
+          {
             "date": "2026-12-19",
             "label": "説明会",
             "reservation": null,
@@ -11162,11 +11169,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://osaka-nougei.ed.jp/openschool/openschool_entry/",
+        "source": "https://osaka-nougei.ed.jp/",
         "checkedAt": "2026-10-22",
         "applyUrl": "https://osaka-nougei.ed.jp/openschool/taiken_entry/",
         "applyLabel": "体験入学会 参加申し込み",
-        "evidence": "第１回 ８月２１日（金） １３：３０～１６：３０ 第２回 １２月１９日（土） ９：３０～１２：３０ 第３回 １月１６日（土） ９：３０～１２：３０ 第４回 ２月 ６日（土） ９：３０～１２：３０ 説明会内容 全体説明会：入試に関して、進路に関して、学習活動について 見 学 会：各学科の農場や実習施設の見学・説明 &nb"
+        "evidence": "for PTA 学校からのお知らせ information 2026年10月22日(木) 「体験入学会 参加申し込み」を更新しました 2026年09月28日(月) 「農芸祭」を更新しました 2026年09月28日(月) 「農芸祭お問い合わせ"
       }
     },
     {
@@ -14120,6 +14127,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-10-22",
+            "label": "体験入学",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://osaka-engei.ed.jp/"
+          },
+          {
             "date": "2026-11-14",
             "label": "体験入学",
             "reservation": null,
@@ -14128,11 +14142,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://osaka-engei.ed.jp/information/page-21073/",
+        "source": "https://osaka-engei.ed.jp/",
         "checkedAt": "2026-10-22",
         "applyUrl": "https://osaka-engei.ed.jp/information/page-21073/",
         "applyLabel": "2026.10.20【お知らせ】第２回 体験入学会（１１月１４日）の申込みについ",
-        "evidence": "水）です。 申込みは、こちらよりお願いいたします。 こちら 体験入学会実施日は、１１月１４日（土） 受付 １３:００～１３:３０ 学校説明・授業体験 １３:３０～となっております。 &nbsp; Prev 一覧へ戻る アーカイブ Arch"
+        "evidence": "フラワーファクトリ科の活動ブログ もうすぐハロウィン！ 本日10/22(木)園芸デザイン部ではハロウィンにむけて、ジャックオーランタンを… 2026.10.19 バイオサイエンス科の活動ブログ バイオサイエンス科体験入学の植物バイオ実験の報告 １０月１７日土曜日の午後、園芸高校体験入学があり希望別のメニューで中学生のみ"
       }
     },
     {
@@ -15940,7 +15954,7 @@
         ],
         "reservation": "required",
         "source": "https://www.kun-ei.jp/admission/jhs_events/",
-        "checkedAt": "2026-10-21",
+        "checkedAt": "2026-10-22",
         "applyUrl": "https://mirai-compass.net/usr/kuneij/event/evtIndex.jsf",
         "applyLabel": "予約はこちら（ミライコンパスに移動します）",
         "evidence": "11月21日(土) 8:45～12:45 プレテスト解説会（プレテスト参加者対象） （１）2026年10月24日(土) 13:00～14:30 （２）2026年12月5日(土) 13:00～14:30 留学フェア 2026年7月20日(月・祝) 14:00～15:00 2026年10月25日(日) 14:00～15"
@@ -18576,7 +18590,7 @@
         ],
         "reservation": "required",
         "source": "https://sis.kwansei.ac.jp/events/00027.html",
-        "checkedAt": "2026-10-21",
+        "checkedAt": "2026-10-22",
         "applyUrl": "https://sis.kwansei.ac.jp/news/00289.html",
         "applyLabel": "2026.10.07 お知らせ オンライン入試説明会2026【事前申込要】",
         "evidence": "お問い合せ Upcoming Events イベント情報 学校見学会（キャンパスツアー）＆ワークショップ同時開催 日付 12月12日（土）00:00～ 場所 関西学院千里国際中等部・高等部 申込 要 申し込み開始前 学校見学会（キャンパスツアー）とCreativity Work"
@@ -18991,7 +19005,7 @@
         "checkedAt": "2026-10-22",
         "applyUrl": "https://mirai-compass.net/usr/kenkokuh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "らせ more ＞ 2026 10/ 14 中学・高等学校 10月24日（土）オープンスクール最新情報＜10/14更新＞ --> 2026 10/ 13 【家庭科】エスビー食品さんがやってきた！五感で味わう本格スパイス体験授業 -->"
+        "evidence": "出願受付中 --> 2026 10/ 14 中学・高等学校 10月24日（土）オープンスクール最新情報＜10/14更新＞ --> 2026 10/ 13 【家庭科】エスビー食品さんがやってきた！五感で味わう本格スパイス体験授業 -->"
       },
       "admissionFee": {
         "amount": 200000,
@@ -19195,6 +19209,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-10-22",
+            "label": "学校説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "http://www.kokoku.ed.jp/"
+          },
+          {
             "date": "2026-10-31",
             "label": "個別相談会",
             "reservation": null,
@@ -19224,11 +19245,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://www.kokoku.ed.jp/briefing/",
+        "source": "http://www.kokoku.ed.jp/",
         "checkedAt": "2026-10-22",
         "applyUrl": "https://mirai-compass.net/usr/kokokuh/common/login.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "コースに特化した 説明会になります。） 第2回 学校説明会＆個別相談会 参加方法 10月17日（土） 終了いたしました 10月31日（土） 申し込む 12月5日（土） 申し込む ■主な内容 ●概要説明 ・カリキュラムの説明、クラブ活動、学校行事について ・学校生活について ・進"
+        "evidence": "ブ活動 学校説明会 事務室便り 最新 学校行事 クラブ活動 学校説明会 事務室便り 【山下健信 投手 阪神タイガースより育成ドラフト１位 指名！】 2026.10.22（Thu.） 10月22日（木）に行われましたプロ野球ドラフト会議2026において、 本校の硬式野球部OBで徳島インディゴソックスの山下健信投手（令和３"
       },
       "admissionFee": {
         "amount": 230000,
@@ -23109,7 +23130,7 @@
             "label": "オープンキャンパス",
             "reservation": "required",
             "confidence": "high",
-            "source": "https://www.hdk.ed.jp/entrance/mrrf430000009ors.html"
+            "source": "https://www.hdk.ed.jp/"
           },
           {
             "date": "2026-11-14",
@@ -23134,11 +23155,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://www.hdk.ed.jp/entrance/mrrf430000009ors.html",
+        "source": "https://www.hdk.ed.jp/",
         "checkedAt": "2026-10-22",
-        "applyUrl": "https://mirai-compass.net/usr/hannanuh/common/loginEvent.jsf",
-        "applyLabel": "申し込みサイト（外部サイト）",
-        "evidence": "情報 入試説明会・イベント 令和８年度説明会・イベント一覧 オープンキャンパス（事前申込制） ＜開催日時＞ 令和8年10月31日（土） ＜開催場所＞ 阪南大学高等学校 ＜内容＞ ・クラブ体験/見学 ・楽しいイベント ・各コース紹介 ・ICT授業体験 ・校舎見学 ・食堂無料体"
+        "applyUrl": "https://mirai-compass.net/usr/hannanuh/common/login.jsf",
+        "applyLabel": "申込フォーム",
+        "evidence": "学校行事 VIEW ALL 2026.10.22 入試情報 10/31（土）オープンキャンパス当日ガイドについて 2026.10.21 入試情報 【受験生の皆様へ】出願手続きのご案内（募集要項・インターネット出願） 2026.10.1"
       },
       "admissionFee": {
         "amount": 200000,

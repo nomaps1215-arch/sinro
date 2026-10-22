@@ -2611,6 +2611,14 @@
     "pages": 4,
     "events": [
       {
+        "date": "2026-10-22",
+        "label": "体験入学",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://osaka-nougei.ed.jp/",
+        "evidence": "for PTA 学校からのお知らせ information 2026年10月22日(木) 「体験入学会 参加申し込み」を更新しました 2026年09月28日(月) 「農芸祭」を更新しました 2026年09月28日(月) 「農芸祭お問い合わせ"
+      },
+      {
         "date": "2026-12-19",
         "label": "説明会",
         "reservation": null,
@@ -3314,6 +3322,14 @@
     "pages": 4,
     "events": [
       {
+        "date": "2026-10-22",
+        "label": "体験入学",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://osaka-engei.ed.jp/",
+        "evidence": "フラワーファクトリ科の活動ブログ もうすぐハロウィン！ 本日10/22(木)園芸デザイン部ではハロウィンにむけて、ジャックオーランタンを… 2026.10.19 バイオサイエンス科の活動ブログ バイオサイエンス科体験入学の植物バイオ実験の報告 １０月１７日土曜日の午後、園芸高校体験入学があり希望別のメニューで中学生のみ"
+      },
+      {
         "date": "2026-11-14",
         "label": "体験入学",
         "reservation": null,
@@ -3538,11 +3554,11 @@
     "id": "priv-otemon-jh",
     "name": "追手門学院高等学校",
     "website": "https://www.otemon-jh.ed.jp",
-    "reached": false,
-    "pages": 0,
+    "reached": true,
+    "pages": 4,
     "events": [],
     "apply": null,
-    "note": "robots.txt で拒否"
+    "note": ""
   },
   {
     "id": "priv-otemon-js",
@@ -3746,11 +3762,47 @@
     "id": "priv-kun-ei",
     "name": "大阪薫英女学院高等学校",
     "website": "https://www.kun-ei.jp/",
-    "reached": false,
-    "pages": 0,
-    "events": [],
-    "apply": null,
-    "note": "取得できず（<urlopen error timed out>）"
+    "reached": true,
+    "pages": 4,
+    "events": [
+      {
+        "date": "2026-10-24",
+        "label": "プレテスト",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.kun-ei.jp/admission/jhs_events/",
+        "evidence": "11月21日(土) 8:45～12:45 プレテスト解説会（プレテスト参加者対象） （１）2026年10月24日(土) 13:00～14:30 （２）2026年12月5日(土) 13:00～14:30 留学フェア 2026年7月20日(月・祝) 14:00～15:00 2026年10月25日(日) 14:00～15"
+      },
+      {
+        "date": "2026-11-07",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.kun-ei.jp/admission/hs_events/",
+        "evidence": "日(土) 10:00～12:00 入試説明会を兼ねます 高校入試説明会 2026年11月 7日(土) 10:00～12:00 2026年11月28日(土) 10:00～12:00 オープンキャンパスを兼ねます 2026年12月 6日(日)"
+      },
+      {
+        "date": "2026-11-28",
+        "label": "個別相談会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.kun-ei.jp/admission/jhs_events/",
+        "evidence": "00 2026年10月25日(日) 14:00～15:00 個別相談会 11月28日(土) 10:00～16:00 12月12日(土) 10:00～16:00 12月19日(土) 10:00～16:00 12月26日(土) 10:"
+      },
+      {
+        "date": "2026-12-05",
+        "label": "プレテスト",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.kun-ei.jp/admission/jhs_events/",
+        "evidence": "11月21日(土) 8:45～12:45 プレテスト解説会（プレテスト参加者対象） （１）2026年10月24日(土) 13:00～14:30 （２）2026年12月5日(土) 13:00～14:30 留学フェア 2026年7月20日(月・祝) 14:00～15:00 2026年10月25日(日) 14:00～15"
+      }
+    ],
+    "apply": {
+      "url": "https://mirai-compass.net/usr/kuneij/event/evtIndex.jsf",
+      "label": "予約はこちら（ミライコンパスに移動します）"
+    },
+    "note": ""
   },
   {
     "id": "priv-kokusai-h-oiu",
@@ -4195,11 +4247,11 @@
     "id": "priv-kaorugaoka-liberte",
     "name": "香ヶ丘リベルテ高等学校",
     "website": "http://www.liberte.ed.jp",
-    "reached": false,
-    "pages": 0,
+    "reached": true,
+    "pages": 4,
     "events": [],
     "apply": null,
-    "note": "robots.txt で拒否"
+    "note": ""
   },
   {
     "id": "priv-kankura",
@@ -4361,11 +4413,23 @@
     "id": "priv-sis-kwansei",
     "name": "関西学院千里国際高等学校",
     "website": "https://sis.kwansei.ac.jp/",
-    "reached": false,
-    "pages": 0,
-    "events": [],
-    "apply": null,
-    "note": "robots.txt で拒否"
+    "reached": true,
+    "pages": 4,
+    "events": [
+      {
+        "date": "2026-12-12",
+        "label": "学校見学会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://sis.kwansei.ac.jp/events/00027.html",
+        "evidence": "お問い合せ Upcoming Events イベント情報 学校見学会（キャンパスツアー）＆ワークショップ同時開催 日付 12月12日（土）00:00～ 場所 関西学院千里国際中等部・高等部 申込 要 申し込み開始前 学校見学会（キャンパスツアー）とCreativity Work"
+      }
+    ],
+    "apply": {
+      "url": "https://sis.kwansei.ac.jp/news/00289.html",
+      "label": "2026.10.07 お知らせ オンライン入試説明会2026【事前申込要】"
+    },
+    "note": ""
   },
   {
     "id": "priv-kinkiosaka",
@@ -4462,7 +4526,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "http://keonguk.ac.jp/",
-        "evidence": "らせ more ＞ 2026 10/ 14 中学・高等学校 10月24日（土）オープンスクール最新情報＜10/14更新＞ --> 2026 10/ 13 【家庭科】エスビー食品さんがやってきた！五感で味わう本格スパイス体験授業 -->"
+        "evidence": "出願受付中 --> 2026 10/ 14 中学・高等学校 10月24日（土）オープンスクール最新情報＜10/14更新＞ --> 2026 10/ 13 【家庭科】エスビー食品さんがやってきた！五感で味わう本格スパイス体験授業 -->"
       }
     ],
     "apply": {
@@ -4498,6 +4562,14 @@
     "reached": true,
     "pages": 4,
     "events": [
+      {
+        "date": "2026-10-22",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "http://www.kokoku.ed.jp/",
+        "evidence": "ブ活動 学校説明会 事務室便り 最新 学校行事 クラブ活動 学校説明会 事務室便り 【山下健信 投手 阪神タイガースより育成ドラフト１位 指名！】 2026.10.22（Thu.） 10月22日（木）に行われましたプロ野球ドラフト会議2026において、 本校の硬式野球部OBで徳島インディゴソックスの山下健信投手（令和３"
+      },
       {
         "date": "2026-10-31",
         "label": "個別相談会",
@@ -4691,11 +4763,11 @@
     "id": "priv-konkoutouin",
     "name": "金光藤蔭高等学校",
     "website": "http://www.konkoutouin.ed.jp",
-    "reached": false,
-    "pages": 0,
+    "reached": true,
+    "pages": 3,
     "events": [],
     "apply": null,
-    "note": "取得できず（<urlopen error [Errno 111] Connection refused>）"
+    "note": ""
   },
   {
     "id": "priv-konkoyao",
@@ -4777,7 +4849,7 @@
     "pages": 0,
     "events": [],
     "apply": null,
-    "note": "取得できず（<urlopen error [Errno 111] Connection refused>）"
+    "note": "取得できず（<urlopen error timed out>）"
   },
   {
     "id": "priv-stnnj",
@@ -5070,7 +5142,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://www.seifu.ac.jp/",
-        "evidence": "s お知らせ 一覧はこちら 2026/10/10 高等学校 10月25日（日）オープンスクールのご案内 2026/10/08 お知らせ 令和9年度教員募集要項 2026/09/01 中学校 【新設】小学校6年生男子対象 清風中学校プレ"
+        "evidence": "相談会の日程追加のお知らせ 2026/10/10 高等学校 10月25日（日）オープンスクールのご案内 2026/10/08 お知らせ 令和9年度教員募集要項 2026/09/01 中学校 【新設】小学校6年生男子対象 清風中学校プレ"
       },
       {
         "date": "2026-11-14",
@@ -5115,39 +5187,11 @@
     "id": "priv-seifunankai",
     "name": "清風南海高等学校",
     "website": "http://www.seifunankai.ac.jp",
-    "reached": true,
-    "pages": 4,
-    "events": [
-      {
-        "date": "2026-10-24",
-        "label": "入試説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.seifunankai.ac.jp/",
-        "evidence": "用情報 その他 入試 2026.10.20 第1回 高等学校入試説明会開催[10月24日(土)]のお知らせ 在校生・保護者 2026.10.17 令和8年10月14日 がん出張授業を行いました 入試 2026.10.14 第2回 中学"
-      },
-      {
-        "date": "2026-11-07",
-        "label": "プレテスト",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.seifunankai.ac.jp/",
-        "evidence": "9月26日 教育講演会 入試 2026.10.01 中学入試プレテスト[2026年11月7日(土)] 入試 2026.10.20 第1回 高等学校入試説明会開催[10月24日(土)]のお知らせ 入試 2026.10.14 第2回 中学校入"
-      },
-      {
-        "date": "2026-11-14",
-        "label": "入試説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.seifunankai.ac.jp/",
-        "evidence": "授業を行いました 入試 2026.10.14 第2回 中学校入試説明会開催[11月14日(土)]のお知らせ 在校生・保護者 2026.10.10 令和8年10月2日 社会見学会 在校生・保護者 2026.10.10 令和8年9月26日"
-      }
-    ],
-    "apply": {
-      "url": "https://www.seifunankai.ac.jp/2026/10/%e4%b8%ad%e5%ad%a6%e5%85%a5%e8%a9%a6%e3%83%97%e3%83%ac%e3%83%86%e3%82%b9%e3%83%882026/",
-      "label": "対象：小学６年生 2026 11.07 Sat 中学入試プレテスト申込"
-    },
-    "note": ""
+    "reached": false,
+    "pages": 0,
+    "events": [],
+    "apply": null,
+    "note": "robots.txt で拒否"
   },
   {
     "id": "priv-seimei-gakuin",
@@ -5339,36 +5383,11 @@
     "id": "priv-tokai-gyosei",
     "name": "東海大学付属大阪仰星高等学校",
     "website": "https://www.tokai-gyosei.ed.jp/",
-    "reached": true,
-    "pages": 4,
-    "events": [
-      {
-        "date": "2026-10-24",
-        "label": "プレテスト",
-        "reservation": "required",
-        "confidence": "high",
-        "source": "https://www.tokai-gyosei.ed.jp/",
-        "evidence": "しました 2026.08.22 中等部 入試 中等部 第１回プレテストを実施しました。 お知らせ一覧へ team Gyoseiの雰囲気を体験してみませんか？ 入試イベント 中等部 2026/10/24（土） 秋のオープンスクール 要予約 2026/10/28（水） 【特別追加枠２】イブニング個別相談会 要予約 2026"
-      },
-      {
-        "date": "2026-11-07",
-        "label": "個別相談会",
-        "reservation": "required",
-        "confidence": "high",
-        "source": "https://www.tokai-gyosei.ed.jp/",
-        "evidence": "予約 2026/10/28（水） 【特別追加枠２】イブニング個別相談会 要予約 2026/11/7（土） 第2回プレテスト 要予約 2026/11/7（土） 第2回入試説明会 要予約 2026/11/21（土） 第3回入試説明会 要予約 高校"
-      },
-      {
-        "date": "2026-11-28",
-        "label": "入試説明会",
-        "reservation": "required",
-        "confidence": "high",
-        "source": "https://www.tokai-gyosei.ed.jp/",
-        "evidence": "/28（水） 【特別追加枠２】イブニング個別相談会 要予約 2026/11/28（土） 入試説明会 要予約 校長のひと息だより 学びの意味、これからの教育、そして子どもたちに伝えたいこと。校長としての思いや考えを、折々の出来事とともに発信"
-      }
-    ],
+    "reached": false,
+    "pages": 0,
+    "events": [],
     "apply": null,
-    "note": ""
+    "note": "robots.txt で拒否"
   },
   {
     "id": "priv-kori-doshisha",
@@ -5515,63 +5534,11 @@
     "id": "priv-baika-jh",
     "name": "梅花高等学校",
     "website": "http://www.baika-jh.ed.jp",
-    "reached": true,
-    "pages": 4,
-    "events": [
-      {
-        "date": "2026-10-24",
-        "label": "オープンキャンパス",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.baika-jh.ed.jp/high-school/exam/infosession/",
-        "evidence": "） 詳細 WEB お申し込み 申し込み受付中 --> 第5回オープンキャンパス 日時 10/24（土） 対象 中学3年生、保護者対象 （2年生以下も可） 詳細 WEB お申し込み 申し込み受付中 2026(令和8)年度 入試説明会・個別相談会"
-      },
-      {
-        "date": "2026-11-07",
-        "label": "プレテスト",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.baika-jh.ed.jp/junior-high-school/exam/infosession/",
-        "evidence": "プレテスト・個別相談会 日時 対象 詳細 お申し込み 第２回プレテスト（国語・算数） 日時 11/7（土） 対象 小学6年生対象 詳細 WEB お申し込み 申し込み受付中 第３回プレテスト（国語・算数・英語） 日時 12/5（土） 対象 小学6年"
-      },
-      {
-        "date": "2026-11-14",
-        "label": "入試説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.baika-jh.ed.jp/high-school/exam/infosession/",
-        "evidence": "入試説明会・個別相談会 日時 対象 詳細 お申し込み 第1回入試説明会（入試問題解説会） 日時 11/14（土） 対象 中学3年生、保護者対象 詳細 WEB お申し込み 申し込み受付中 第2回入試説明会（入試問題解説会） 日時 12/12（土） 対象"
-      },
-      {
-        "date": "2026-12-05",
-        "label": "プレテスト",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.baika-jh.ed.jp/junior-high-school/exam/infosession/",
-        "evidence": "6年生対象 詳細 WEB お申し込み 申し込み受付中 第３回プレテスト（国語・算数・英語） 日時 12/5（土） 対象 小学6年生対象 詳細 WEB お申し込み 申し込み受付中 個別相談会 日時 12/16（水）～12/24（木） ※12/20（日）を"
-      },
-      {
-        "date": "2026-12-12",
-        "label": "入試説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.baika-jh.ed.jp/high-school/exam/infosession/",
-        "evidence": "保護者対象 詳細 WEB お申し込み 申し込み受付中 第2回入試説明会（入試問題解説会） 日時 12/12（土） 対象 中学3年生、保護者対象 詳細 WEB お申し込み 申し込み受付中 個別相談会 日時 12/16（水）～12/24（木） ※12/20"
-      },
-      {
-        "date": "2026-12-16",
-        "label": "個別相談会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.baika-jh.ed.jp/high-school/exam/infosession/",
-        "evidence": "年生、保護者対象 詳細 WEB お申し込み 申し込み受付中 個別相談会 日時 12/16（水）～12/24（木） ※12/20（日）をのぞく 対象 中学3年生、保護者対象 詳細 WEB お申し込み 12/1~お申し込み開始 申し込み受"
-      }
-    ],
-    "apply": {
-      "url": "https://www.baika-jh.ed.jp/contact/form4/",
-      "label": "申し込み受付中"
-    },
-    "note": ""
+    "reached": false,
+    "pages": 0,
+    "events": [],
+    "apply": null,
+    "note": "robots.txt で拒否"
   },
   {
     "id": "priv-hagoromo-gakuen",
@@ -5647,8 +5614,8 @@
         "label": "オープンキャンパス",
         "reservation": "required",
         "confidence": "high",
-        "source": "https://www.hdk.ed.jp/entrance/mrrf430000009ors.html",
-        "evidence": "情報 入試説明会・イベント 令和８年度説明会・イベント一覧 オープンキャンパス（事前申込制） ＜開催日時＞ 令和8年10月31日（土） ＜開催場所＞ 阪南大学高等学校 ＜内容＞ ・クラブ体験/見学 ・楽しいイベント ・各コース紹介 ・ICT授業体験 ・校舎見学 ・食堂無料体"
+        "source": "https://www.hdk.ed.jp/",
+        "evidence": "学校行事 VIEW ALL 2026.10.22 入試情報 10/31（土）オープンキャンパス当日ガイドについて 2026.10.21 入試情報 【受験生の皆様へ】出願手続きのご案内（募集要項・インターネット出願） 2026.10.1"
       },
       {
         "date": "2026-11-14",
@@ -5676,8 +5643,8 @@
       }
     ],
     "apply": {
-      "url": "https://mirai-compass.net/usr/hannanuh/common/loginEvent.jsf",
-      "label": "申し込みサイト（外部サイト）"
+      "url": "https://mirai-compass.net/usr/hannanuh/common/login.jsf",
+      "label": "申込フォーム"
     },
     "note": ""
   },
