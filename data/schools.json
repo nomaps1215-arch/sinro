@@ -4194,7 +4194,24 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-10-24",
+            "label": "オープンスクール",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www2.osaka-c.ed.jp/ibarakinishi/news/34902/"
+          }
+        ],
+        "reservation": "required",
+        "source": "https://www2.osaka-c.ed.jp/ibarakinishi/news/34902/",
+        "checkedAt": "2026-10-23",
+        "applyUrl": "https://www2.osaka-c.ed.jp/ibarakinishi/news/34864",
+        "applyLabel": "2026/10/21 第３回オープンスクール（１１月２１日開催）の詳細と申し込み",
+        "evidence": "24日開催】第2回オープンスクール部活動体験の実施について 10月24日（土）第2回オープンスクール部活動体験について 屋外で行う部活動 （男女サッカー部、男女硬式テニス部、男女ソフトテニス部、男子ソフトテニス部）は 悪天候が予想されるため"
+      }
     },
     {
       "id": "pref-kasugaoka",
@@ -15627,7 +15644,7 @@
         ],
         "reservation": "required",
         "source": "https://www.osakagakugei.ac.jp/senior/",
-        "checkedAt": "2026-10-21",
+        "checkedAt": "2026-10-23",
         "applyUrl": "https://www.osakagakugei.ac.jp/senior/news/25191",
         "applyLabel": "7月23日（木）特別説明会のお知らせ（ダブルディプロマ・1年留学・グローバル・特",
         "evidence": "国選手権大阪予選ベスト32進出 2026.09.25 入試 10月24日（土）入試説明会・オープンスクールのお知らせ（※要予約） 2026.09.25 お知らせ 「こども性暴力防止法」がスタートします。 2026.09.25 T"
@@ -18817,13 +18834,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-10-24",
-            "label": "オープンスクール",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://kinran.ed.jp/"
-          },
-          {
             "date": "2026-11-14",
             "label": "オープンスクール",
             "reservation": null,
@@ -18836,7 +18846,7 @@
         "checkedAt": "2026-10-23",
         "applyUrl": "https://kinran.ed.jp/entry-events/event-963/",
         "applyLabel": "受付中 11.3（火） 11月3日 第2回プレテスト＆11月14日 返却会 【第",
-        "evidence": "0・11/3 2026年10月3日 イベント情報 【受付中】10/24(土)高校オープンスクール 2026年9月30日 イベント情報 【受付中】11/14(土)高校オープンスクール 2026年9月30日 イベント情報 【受付スタート】1"
+        "evidence": "プンスクール 2026年9月30日 イベント情報 【受付中】11/14(土)高校オープンスクール 2026年9月30日 イベント情報 【受付スタート】高校入試説明会 2026年9月29日 イベント情報 【受付スタート】12/5(月)中学"
       },
       "admissionFee": {
         "amount": 200000,
@@ -19911,7 +19921,7 @@
         "checkedAt": "2026-10-23",
         "applyUrl": "http://konkoyao.ed.jp/event/",
         "applyLabel": "説明会申し込みについて",
-        "evidence": "【中3・高2】修学旅行 結団式 2026/10/07 高校 10/24(土) 野球部クラブ体験会 2026/10/20 共通 10/31(土) クラブ体験会 2026/10/10 共通 【中3・高2】修学旅行 結団式 2026/09/"
+        "evidence": "【中3・高2】修学旅行 結団式 2026/10/07 高校 10/24(土) 野球部クラブ体験会 2026/09/28 高校 10/18(日) 吹奏楽部クラブ体験会 2026/10/19 インターアクトクラブ インターアクトクラブ ス"
       },
       "admissionFee": {
         "amount": 200000,
@@ -20661,7 +20671,7 @@
         "checkedAt": "2026-10-23",
         "applyUrl": "https://mirai-compass.net/usr/jskeikoh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "2027年度教員募集 2026/10/19 受験生（高校） 10/24（土）高校説明会について 2026/09/19 受験生（中学） 【中学】11/7（土）プレテスト会②など入試イベント申込受付中！ 2026/07/20 全校"
+        "evidence": "知らせ（10/30） 2026/10/19 受験生（高校） 10/24（土）高校説明会について 2026/09/19 受験生（中学） 【中学】11/7（土）プレテスト会②など入試イベント申込受付中！ 2026/07/20 全校"
       },
       "admissionFee": {
         "amount": 220000,
@@ -22429,10 +22439,17 @@
         "events": [
           {
             "date": "2026-10-24",
-            "label": "プレテスト",
+            "label": "学校説明会",
             "reservation": "required",
             "confidence": "high",
             "source": "https://www.tokai-gyosei.ed.jp/"
+          },
+          {
+            "date": "2026-10-28",
+            "label": "オープンスクール",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.tokai-gyosei.ed.jp/exam/event/%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab/"
           },
           {
             "date": "2026-11-07",
@@ -22440,6 +22457,13 @@
             "reservation": "required",
             "confidence": "high",
             "source": "https://www.tokai-gyosei.ed.jp/"
+          },
+          {
+            "date": "2026-11-21",
+            "label": "入試説明会",
+            "reservation": "required",
+            "confidence": "high",
+            "source": "https://www.tokai-gyosei.ed.jp/exam/event/%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab/"
           },
           {
             "date": "2026-11-28",
@@ -22452,7 +22476,9 @@
         "reservation": "required",
         "source": "https://www.tokai-gyosei.ed.jp/",
         "checkedAt": "2026-10-23",
-        "evidence": "しました 2026.08.22 中等部 入試 中等部 第１回プレテストを実施しました。 お知らせ一覧へ team Gyoseiの雰囲気を体験してみませんか？ 入試イベント 中等部 2026/10/24（土） 秋のオープンスクール 要予約 2026/10/28（水） 【特別追加枠２】イブニング個別相談会 要予約 2026"
+        "applyUrl": "https://mirai-compass.net/usr/tgyoseij/event/evtIndex.jsf",
+        "applyLabel": "申し込みはこちら",
+        "evidence": "参加しました！ 2026.08.22 イベント 高校 高校 学校説明会を実施しました お知らせ一覧へ team Gyoseiの雰囲気を体験してみませんか？ 入試イベント 中等部 2026/10/24（土） 秋のオープンスクール 要予約 2026/10/28（水） 【特別追加枠２】イブニング個別相談会 要予約 2026/"
       }
     },
     {
@@ -22914,7 +22940,7 @@
         ],
         "reservation": "required",
         "source": "https://www.baika-jh.ed.jp/high-school/exam/infosession/",
-        "checkedAt": "2026-10-22",
+        "checkedAt": "2026-10-23",
         "applyUrl": "https://www.baika-jh.ed.jp/contact/form4/",
         "applyLabel": "申し込み受付中",
         "evidence": "） 詳細 WEB お申し込み 申し込み受付中 --> 第5回オープンキャンパス 日時 10/24（土） 対象 中学3年生、保護者対象 （2年生以下も可） 詳細 WEB お申し込み 申し込み受付中 2026(令和8)年度 入試説明会・個別相談会"
@@ -24491,10 +24517,10 @@
           },
           {
             "date": "2026-10-31",
-            "label": "学校説明会",
+            "label": "説明会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://riseisha.ed.jp/hs/admissions/briefing/"
+            "source": "https://riseisha.ed.jp/"
           },
           {
             "date": "2026-11-07",
