@@ -302,13 +302,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-11-01",
-            "label": "説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://www3.osaka-c.ed.jp/ichiritsu/"
-          },
-          {
             "date": "2026-11-07",
             "label": "オープンスクール",
             "reservation": null,
@@ -319,7 +312,7 @@
         "reservation": null,
         "source": "https://www3.osaka-c.ed.jp/ichiritsu/",
         "checkedAt": "2026-10-25",
-        "evidence": "い言葉をいれてください。 Information お知らせ 2026/10/25 11/1(日)公立・私立高校合同説明会に参加します 2026/10/19 オープンスクール当日に関する連絡【重要】 2026/10/19 11/7(土)オープンスクール参加申込は"
+        "evidence": "26/10/25 オープンスクール当日に関する連絡【重要】 2026/10/19 11/7(土)オープンスクール参加申込はこちらから！ 2026/10/03 オープンスクールお申込み時の自動返信メールが届かなかった方へ【重要】 お知らせ一覧 Blog"
       }
     },
     {
@@ -16682,7 +16675,7 @@
         "checkedAt": "2026-10-25",
         "applyUrl": "https://mirai-compass.net/usr/oseikeih/event/evtIndex.jsf",
         "applyLabel": "お申し込みはこちら",
-        "evidence": "9月13日(土)・14日(日)文化祭の見学について --> 10月25日(日)オープンスクールに参加される皆様へお願い 【中学生およびその保護者の皆さまへ】幼児教育コース「こどもミュージカル」公開ゲネプロのご案内 【中学生の方対象】1"
+        "evidence": "9月13日(土)・14日(日)文化祭の見学について --> 10月25日(日)オープンスクールに参加される皆様へお願い --> 【中学生およびその保護者の皆さまへ】幼児教育コース「こどもミュージカル」公開ゲネプロのご案内 【中学生の方"
       },
       "admissionFee": {
         "amount": 200000,
@@ -18775,7 +18768,38 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-11-21",
+            "label": "入試説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://keonguk.ac.jp/21709/"
+          },
+          {
+            "date": "2026-11-28",
+            "label": "入試説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://keonguk.ac.jp/21712/"
+          },
+          {
+            "date": "2026-12-05",
+            "label": "入試説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://keonguk.ac.jp/21712/"
+          }
+        ],
+        "reservation": "required",
+        "source": "https://keonguk.ac.jp/21709/",
+        "checkedAt": "2026-10-25",
+        "applyUrl": "https://mirai-compass.net/usr/kenkokuh/event/evtIndex.jsf",
+        "applyLabel": "申込フォーム",
+        "evidence": "。 ※多くの方にご参加いただき、ありがとうございました。 ③入試説明会 ※過去問解説授業あり ・日時：11月21日（土）10:30～12:00 ・本校の入試についての詳しい説明、大学進学についてなどをお話させていただきます。 ・本校の過去問についての解説を行い"
+      }
     },
     {
       "id": "priv-correspondencecourse",

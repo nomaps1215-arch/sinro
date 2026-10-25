@@ -55,20 +55,12 @@
     "pages": 1,
     "events": [
       {
-        "date": "2026-11-01",
-        "label": "説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www3.osaka-c.ed.jp/ichiritsu/",
-        "evidence": "い言葉をいれてください。 Information お知らせ 2026/10/25 11/1(日)公立・私立高校合同説明会に参加します 2026/10/19 オープンスクール当日に関する連絡【重要】 2026/10/19 11/7(土)オープンスクール参加申込は"
-      },
-      {
         "date": "2026-11-07",
         "label": "オープンスクール",
         "reservation": null,
         "confidence": "high",
         "source": "https://www3.osaka-c.ed.jp/ichiritsu/",
-        "evidence": "26/10/19 オープンスクール当日に関する連絡【重要】 2026/10/19 11/7(土)オープンスクール参加申込はこちらから！ 2026/10/16 10/26(月)は代休です 2026/10/14 オープンスクールについてお問い合わせくださっ"
+        "evidence": "26/10/25 オープンスクール当日に関する連絡【重要】 2026/10/19 11/7(土)オープンスクール参加申込はこちらから！ 2026/10/03 オープンスクールお申込み時の自動返信メールが届かなかった方へ【重要】 お知らせ一覧 Blog"
       }
     ],
     "apply": null,
@@ -2455,39 +2447,11 @@
     "id": "pref-osaka-nougei",
     "name": "大阪府立農芸高等学校",
     "website": "https://osaka-nougei.ed.jp/",
-    "reached": true,
-    "pages": 4,
-    "events": [
-      {
-        "date": "2026-12-19",
-        "label": "説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://osaka-nougei.ed.jp/openschool/openschool_entry/",
-        "evidence": "第１回 ８月２１日（金） １３：３０～１６：３０ 第２回 １２月１９日（土） ９：３０～１２：３０ 第３回 １月１６日（土） ９：３０～１２：３０ 第４回 ２月 ６日（土） ９：３０～１２：３０ 説明会内容 全体説明会：入試に関して、進路に関して、学習活動について 見 学 会：各学科の農場や実習施設の見学・説明 &nb"
-      },
-      {
-        "date": "2027-01-16",
-        "label": "説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://osaka-nougei.ed.jp/openschool/openschool_entry/",
-        "evidence": "第１回 ８月２１日（金） １３：３０～１６：３０ 第２回 １２月１９日（土） ９：３０～１２：３０ 第３回 １月１６日（土） ９：３０～１２：３０ 第４回 ２月 ６日（土） ９：３０～１２：３０ 説明会内容 全体説明会：入試に関して、進路に関して、学習活動について 見 学 会：各学科の農場や実習施設の見学・説明 &nb"
-      },
-      {
-        "date": "2027-02-06",
-        "label": "説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://osaka-nougei.ed.jp/openschool/openschool_entry/",
-        "evidence": "第１回 ８月２１日（金） １３：３０～１６：３０ 第２回 １２月１９日（土） ９：３０～１２：３０ 第３回 １月１６日（土） ９：３０～１２：３０ 第４回 ２月 ６日（土） ９：３０～１２：３０ 説明会内容 全体説明会：入試に関して、進路に関して、学習活動について 見 学 会：各学科の農場や実習施設の見学・説明 &nb"
-      }
-    ],
-    "apply": {
-      "url": "https://osaka-nougei.ed.jp/openschool/taiken_entry/",
-      "label": "体験入学会 参加申し込み"
-    },
-    "note": ""
+    "reached": false,
+    "pages": 0,
+    "events": [],
+    "apply": null,
+    "note": "取得できず（<urlopen error timed out>）"
   },
   {
     "id": "pref-sakai-kohka",
@@ -3771,7 +3735,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://high.osaka-seikei.jp/ex_info/openschool.php",
-        "evidence": "9月13日(土)・14日(日)文化祭の見学について --> 10月25日(日)オープンスクールに参加される皆様へお願い 【中学生およびその保護者の皆さまへ】幼児教育コース「こどもミュージカル」公開ゲネプロのご案内 【中学生の方対象】1"
+        "evidence": "9月13日(土)・14日(日)文化祭の見学について --> 10月25日(日)オープンスクールに参加される皆様へお願い --> 【中学生およびその保護者の皆さまへ】幼児教育コース「こどもミュージカル」公開ゲネプロのご案内 【中学生の方"
       },
       {
         "date": "2026-11-01",
@@ -4201,11 +4165,11 @@
     "id": "priv-kinkiosaka",
     "name": "近畿大阪高等学校",
     "website": "https://koutoku.ac.jp/kinkiosaka/",
-    "reached": false,
-    "pages": 0,
+    "reached": true,
+    "pages": 4,
     "events": [],
     "apply": null,
-    "note": "取得できず（HTTP Error 503: Service Unavailable）"
+    "note": ""
   },
   {
     "id": "priv-kindai-senshu",
@@ -4276,9 +4240,37 @@
     "name": "建国高等学校",
     "website": "http://www.keonguk.ac.jp",
     "reached": true,
-    "pages": 2,
-    "events": [],
-    "apply": null,
+    "pages": 4,
+    "events": [
+      {
+        "date": "2026-11-21",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://keonguk.ac.jp/21709/",
+        "evidence": "。 ※多くの方にご参加いただき、ありがとうございました。 ③入試説明会 ※過去問解説授業あり ・日時：11月21日（土）10:30～12:00 ・本校の入試についての詳しい説明、大学進学についてなどをお話させていただきます。 ・本校の過去問についての解説を行い"
+      },
+      {
+        "date": "2026-11-28",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://keonguk.ac.jp/21712/",
+        "evidence": "。 ※多くの方にご参加いただき、ありがとうございました。 ②入試説明会 ・日時： 11月28日（土）10:30～12:00 ・本校の詳しい学校説明 →コースの概要、完全レベル別の韓国語授業 ・入試について →日程、試験科目、内容と対策 ・大"
+      },
+      {
+        "date": "2026-12-05",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://keonguk.ac.jp/21712/",
+        "evidence": "いただきます。 ③入試説明会 ※過去問解説授業あり ・日時：12月5日（土）10:00～12:30 ・入試説明会と本校の過去問についての解説を行います。 実際の高等学校の先生による授業となりますので、過去問の説明はもちろん、実際の先生の授業を受けてみた"
+      }
+    ],
+    "apply": {
+      "url": "https://mirai-compass.net/usr/kenkokuh/event/evtIndex.jsf",
+      "label": "申込フォーム"
+    },
     "note": ""
   },
   {
