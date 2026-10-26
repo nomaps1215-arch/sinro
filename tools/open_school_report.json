@@ -55,12 +55,20 @@
     "pages": 1,
     "events": [
       {
+        "date": "2026-11-01",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www3.osaka-c.ed.jp/ichiritsu/",
+        "evidence": "(土)オープンスクール当日の時程と実施内容について【重要】 2026/10/25 11/1(日)公立・私立高校合同説明会に参加します 2026/10/03 オープンスクールお申込み時の自動返信メールが届かなかった方へ【重要】 2026/09/06 令和８年度学"
+      },
+      {
         "date": "2026-11-07",
         "label": "オープンスクール",
         "reservation": null,
         "confidence": "high",
         "source": "https://www3.osaka-c.ed.jp/ichiritsu/",
-        "evidence": "26/10/25 オープンスクール当日に関する連絡【重要】 2026/10/19 11/7(土)オープンスクール参加申込はこちらから！ 2026/10/03 オープンスクールお申込み時の自動返信メールが届かなかった方へ【重要】 お知らせ一覧 Blog"
+        "evidence": "い言葉をいれてください。 Information お知らせ 2026/10/26 11/7(土)オープンスクール当日の受付と持ち物等について【重要】 2026/10/26 11/7(土)オープンスクール当日の時程と実施内容について【重要】 2026/1"
       }
     ],
     "apply": null,
@@ -132,7 +140,7 @@
       }
     ],
     "apply": {
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeaszRE_tkqAugN3sQSeI-OPkcGjQMA-vR5rvSylaiMoKqRhg/viewform?usp=header",
+      "url": "https://forms.gle/cp28xXen4wdVGBWH7",
       "label": "申し込みはこちら"
     },
     "note": ""
@@ -418,11 +426,39 @@
     "id": "pref-otsuka",
     "name": "大阪府立大塚高等学校",
     "website": "https://www.otsuka.ed.jp/",
-    "reached": false,
-    "pages": 0,
-    "events": [],
-    "apply": null,
-    "note": "robots.txt で拒否"
+    "reached": true,
+    "pages": 4,
+    "events": [
+      {
+        "date": "2026-11-14",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.otsuka.ed.jp/school_briefing/outline/",
+        "evidence": "tMMbZDz9H7 第４回 学校説明会 普通科・体育科合同説明会 クラブ見学 11月14日（土） 10：00～ □事前申し込み不要 当日受付でどなたでも参加できます 第５回 学校説明会 普通科・体育科合同説明会 クラブ見学 12月12日"
+      },
+      {
+        "date": "2026-12-12",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.otsuka.ed.jp/school_briefing/outline/",
+        "evidence": "なたでも参加できます 第５回 学校説明会 普通科・体育科合同説明会 クラブ見学 12月12日（土） 10：00～ □事前申し込み不要 当日受付でどなたでも参加できます 第６回 学校説明会 普通科・体育科合同説明会 クラブ見学 1月16日（"
+      },
+      {
+        "date": "2027-01-16",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.otsuka.ed.jp/school_briefing/outline/",
+        "evidence": "なたでも参加できます 第６回 学校説明会 普通科・体育科合同説明会 クラブ見学 1月16日（土） 10：00～ □事前申し込み不要 当日受付でどなたでも参加できます 投稿日 : 2026年5月8日 カテゴリー : カテゴリー : タグ"
+      }
+    ],
+    "apply": {
+      "url": "https://forms.gle/D6mLtUf4aGigLjpw7",
+      "label": "申込フォーム"
+    },
+    "note": ""
   },
   {
     "id": "pref-ikuno",
@@ -1491,7 +1527,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://otemae-hs.ed.jp/",
-        "evidence": "ー... 2026年10月20日 中学生の皆さんへ --> 11月14日（土）学校見学会申込フォーム... 2026年10月13日 中学生の皆さんへ --> 【抽選結果発表】10月24日（土）学校見学会... 2026年10月1"
+        "evidence": "ー... 2026年10月20日 中学生の皆さんへ --> 11月14日（土）学校見学会申込フォーム... 2026年10月13日 中学生の皆さんへ --> 【水泳部】大阪新人大会に出場、近畿新人大会出場決定！！... 2026"
       }
     ],
     "apply": {
@@ -3340,10 +3376,10 @@
       {
         "date": "2026-11-21",
         "label": "オープンスクール",
-        "reservation": null,
+        "reservation": "required",
         "confidence": "high",
-        "source": "https://www.osakashs.ed.jp/info/30810/",
-        "evidence": "21)のクラブ見学体験のご案内 2026.10.20 第4回オープンスクール 11月21 日 (土) 午前の部10:00～(受付9:00～)、 午後の部14:00～(受付13:00～) 【10月21日より申し込み受付】 オープンスクールのお"
+        "source": "https://www.osakashs.ed.jp/open-school/30893/",
+        "evidence": "うか？ ☟第二部の在校生企画・クラブ体験・講座体験 第4回のオープンスクールは、 11月21日（土）午前の部10:00～、午後の部14:00～ です。 →こちらよりオープンスクール申し込みフォーム mirai-compass.net オープ"
       }
     ],
     "apply": {
@@ -3780,11 +3816,11 @@
     "id": "priv-ouhs-school",
     "name": "大阪体育大学浪商高等学校",
     "website": "http://www.ouhs-school.jp/",
-    "reached": true,
-    "pages": 1,
+    "reached": false,
+    "pages": 0,
     "events": [],
     "apply": null,
-    "note": ""
+    "note": "取得できず（The read operation timed out）"
   },
   {
     "id": "priv-otk",
@@ -4154,9 +4190,29 @@
     "name": "近畿大阪高等学校",
     "website": "https://koutoku.ac.jp/kinkiosaka/",
     "reached": true,
-    "pages": 3,
-    "events": [],
-    "apply": null,
+    "pages": 4,
+    "events": [
+      {
+        "date": "2026-11-14",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://koutoku.ac.jp/kinkiosaka/news/20261026/",
+        "evidence": "ンスクールで、 あなたらしい高校生活を想像してみませんか？ 11月14日（土） ／ 11月29日（日） オープンスクールに申し込む → 午前の部 10:30～ ／ 午後の部 14:00～ YOUR NEXT STEP まだ知らない、 自分に合う学び方 がある。"
+      },
+      {
+        "date": "2026-11-29",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://koutoku.ac.jp/kinkiosaka/news/20261026/",
+        "evidence": "ンスクールで、 あなたらしい高校生活を想像してみませんか？ 11月14日（土） ／ 11月29日（日） オープンスクールに申し込む → 午前の部 10:30～ ／ 午後の部 14:00～ YOUR NEXT STEP まだ知らない、 自分に合う学び方 がある。"
+      }
+    ],
+    "apply": {
+      "url": "https://koutoku.ac.jp/kinkiosaka/guide/open/",
+      "label": "オープンスクールに申し込む →"
+    },
     "note": ""
   },
   {
@@ -4395,11 +4451,11 @@
     "id": "priv-koyodai",
     "name": "向陽台高等学校",
     "website": "http://www.koyodai.ed.jp",
-    "reached": true,
-    "pages": 3,
+    "reached": false,
+    "pages": 0,
     "events": [],
     "apply": null,
-    "note": ""
+    "note": "robots.txt で拒否"
   },
   {
     "id": "priv-nevers-hs",
@@ -4943,11 +4999,55 @@
     "id": "priv-seimei-gakuin",
     "name": "清明学院高等学校",
     "website": "http://www.seimei.ed.jp",
-    "reached": false,
-    "pages": 0,
-    "events": [],
-    "apply": null,
-    "note": "robots.txt で拒否"
+    "reached": true,
+    "pages": 4,
+    "events": [
+      {
+        "date": "2026-11-14",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://seimei.ed.jp/admissions/information/",
+        "evidence": "本校です。 詳細/お申込みはこちら → 入試説明会 第1回 11/14(土) 第2回 12/6(日) 第3回 12/12(土) 入試説明会では、入試に関する説明、学校見学、クラブ見学や、個別相談の機会をご用意しています。 詳細/お申込みはこちら → 個別相談会 第1回 11/2"
+      },
+      {
+        "date": "2026-11-21",
+        "label": "個別相談会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://seimei.ed.jp/admissions/information/",
+        "evidence": "ています。 詳細/お申込みはこちら → 個別相談会 第1回 11/21(土) 第2回 12/19(土) 個別相談会では、ブース形式による個別相談を行います。場所は本校です。 詳細/お申込みはこちら → 生徒募集要項 入試情報 入試イベント 募集要項 よく"
+      },
+      {
+        "date": "2026-12-06",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://seimei.ed.jp/admissions/information/",
+        "evidence": "本校です。 詳細/お申込みはこちら → 入試説明会 第1回 11/14(土) 第2回 12/6(日) 第3回 12/12(土) 入試説明会では、入試に関する説明、学校見学、クラブ見学や、個別相談の機会をご用意しています。 詳細/お申込みはこちら → 個別相談会 第1回 11/2"
+      },
+      {
+        "date": "2026-12-12",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://seimei.ed.jp/admissions/information/",
+        "evidence": "本校です。 詳細/お申込みはこちら → 入試説明会 第1回 11/14(土) 第2回 12/6(日) 第3回 12/12(土) 入試説明会では、入試に関する説明、学校見学、クラブ見学や、個別相談の機会をご用意しています。 詳細/お申込みはこちら → 個別相談会 第1回 11/2"
+      },
+      {
+        "date": "2026-12-19",
+        "label": "個別相談会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://seimei.ed.jp/admissions/information/",
+        "evidence": "ています。 詳細/お申込みはこちら → 個別相談会 第1回 11/21(土) 第2回 12/19(土) 個別相談会では、ブース形式による個別相談を行います。場所は本校です。 詳細/お申込みはこちら → 生徒募集要項 入試情報 入試イベント 募集要項 よく"
+      }
+    ],
+    "apply": {
+      "url": "https://mirai-compass.net/usr/osksmeih/event/evtIndex.jsf",
+      "label": "詳細/お申込みはこちら→"
+    },
+    "note": ""
   },
   {
     "id": "priv-senshin-gakuen",
@@ -5002,7 +5102,7 @@
     "name": "大商学園高等学校",
     "website": "http://www.daisho.ac.jp",
     "reached": true,
-    "pages": 1,
+    "pages": 4,
     "events": [],
     "apply": null,
     "note": ""
