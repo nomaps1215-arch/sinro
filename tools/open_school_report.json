@@ -426,39 +426,11 @@
     "id": "pref-otsuka",
     "name": "大阪府立大塚高等学校",
     "website": "https://www.otsuka.ed.jp/",
-    "reached": true,
-    "pages": 4,
-    "events": [
-      {
-        "date": "2026-11-14",
-        "label": "説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.otsuka.ed.jp/school_briefing/outline/",
-        "evidence": "tMMbZDz9H7 第４回 学校説明会 普通科・体育科合同説明会 クラブ見学 11月14日（土） 10：00～ □事前申し込み不要 当日受付でどなたでも参加できます 第５回 学校説明会 普通科・体育科合同説明会 クラブ見学 12月12日"
-      },
-      {
-        "date": "2026-12-12",
-        "label": "説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.otsuka.ed.jp/school_briefing/outline/",
-        "evidence": "なたでも参加できます 第５回 学校説明会 普通科・体育科合同説明会 クラブ見学 12月12日（土） 10：00～ □事前申し込み不要 当日受付でどなたでも参加できます 第６回 学校説明会 普通科・体育科合同説明会 クラブ見学 1月16日（"
-      },
-      {
-        "date": "2027-01-16",
-        "label": "説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.otsuka.ed.jp/school_briefing/outline/",
-        "evidence": "なたでも参加できます 第６回 学校説明会 普通科・体育科合同説明会 クラブ見学 1月16日（土） 10：00～ □事前申し込み不要 当日受付でどなたでも参加できます 投稿日 : 2026年5月8日 カテゴリー : カテゴリー : タグ"
-      }
-    ],
-    "apply": {
-      "url": "https://forms.gle/D6mLtUf4aGigLjpw7",
-      "label": "申込フォーム"
-    },
-    "note": ""
+    "reached": false,
+    "pages": 0,
+    "events": [],
+    "apply": null,
+    "note": "robots.txt で拒否"
   },
   {
     "id": "pref-ikuno",
@@ -1466,11 +1438,11 @@
     "events": [
       {
         "date": "2026-11-27",
-        "label": "体験入学",
+        "label": "部活動体験",
         "reservation": null,
         "confidence": "high",
         "source": "https://www3.osaka-c.ed.jp/miyakojima-t/",
-        "evidence": "ion お知らせ 2026/10/21 「卒業５０年の集い」11月27日(金)に開催 2026/10/21 10月24日（土）の公開授業時間割はこちら 2026/10/20 令和8年10月24日（土）体験入学・学校説明見学会について 2026/10/16 令和8年度 中学生向け公開授業（授業参観）のご案内 2026/1"
+        "evidence": "参加される中学生のみなさんへ 2026/10/27 第3回 部活動体験会を実施します 2026/10/21 「卒業５０年の集い」11月27日(金)に開催 2026/10/21 10月24日（土）の公開授業時間割はこちら 2026/10/20 令和8年10月24日（土）体験入学・学校説明"
       }
     ],
     "apply": null,
@@ -2093,7 +2065,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www2.osaka-c.ed.jp/hannan/folder_0/post-93/",
-        "evidence": "】 ・11月７日 （土） クラブ体験（オープンスクール） ・11月28日（土） 第2回学校説明会 ・12月19日（土） 第3回学校説明会 ・１月16日（土） &nbsp; 第4回学校説明会 ※学校説明会は4回とも同様の内容となっています"
+        "evidence": "◆◆ ◆ ◆◆ ◆◆ ◆◆ ◆◆ ◆◆ ◆◆ ◆◆ ◆◆ ●11月28日（土）第２回学校説明会 〇時間 ・第１部 &nbsp; 9時00分開始（8時45分～受付） ・第２部 10時00分開始（9時45分～受付） ・第３部 11時00分"
       },
       {
         "date": "2026-12-19",
@@ -2101,7 +2073,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www2.osaka-c.ed.jp/hannan/folder_0/post-93/",
-        "evidence": "ープンスクール） ・11月28日（土） 第2回学校説明会 ・12月19日（土） 第3回学校説明会 ・１月16日（土） &nbsp; 第4回学校説明会 ※学校説明会は4回とも同様の内容となっています。(学校紹介・校内見学・クラブ見学) ※"
+        "evidence": "学校説明会 → →【申込受付中】※ページ下にお進み下さい ・12月19日（土） 第3回学校説明会 ・１月16日（土） &nbsp; 第4回学校説明会 ※学校説明会は4回とも同様の内容となっています。(学校紹介・校内見学・クラブ見学) ※"
       },
       {
         "date": "2027-01-16",
@@ -2109,7 +2081,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www2.osaka-c.ed.jp/hannan/folder_0/post-93/",
-        "evidence": "第2回学校説明会 ・12月19日（土） 第3回学校説明会 ・１月16日（土） &nbsp; 第4回学校説明会 ※学校説明会は4回とも同様の内容となっています。(学校紹介・校内見学・クラブ見学) ※申込方法はそれぞれ約1か月前に、このページでお知らせ"
+        "evidence": "下にお進み下さい ・12月19日（土） 第3回学校説明会 ・１月16日（土） &nbsp; 第4回学校説明会 ※学校説明会は4回とも同様の内容となっています。(学校紹介・校内見学・クラブ見学) ※申込方法はそれぞれ約1か月前に、このページでお知らせ"
       }
     ],
     "apply": {
@@ -2495,11 +2467,47 @@
     "id": "pref-osaka-nougei",
     "name": "大阪府立農芸高等学校",
     "website": "https://osaka-nougei.ed.jp/",
-    "reached": false,
-    "pages": 0,
-    "events": [],
-    "apply": null,
-    "note": "取得できず（<urlopen error timed out>）"
+    "reached": true,
+    "pages": 4,
+    "events": [
+      {
+        "date": "2026-10-27",
+        "label": "体験入学",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://osaka-nougei.ed.jp/",
+        "evidence": "for PTA 学校からのお知らせ information 2026年10月27日(火) 「農芸祭お問い合わせ」を更新しました 2026年10月22日(木) 「体験入学会 参加申し込み」を更新しました 2026年09月28日(月) 「農芸祭」を更新しました 2026年09月01日(火) 「TOP」を更新しま"
+      },
+      {
+        "date": "2026-12-19",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://osaka-nougei.ed.jp/openschool/openschool_entry/",
+        "evidence": "第１回 ８月２１日（金） １３：３０～１６：３０ 第２回 １２月１９日（土） ９：３０～１２：３０ 第３回 １月１６日（土） ９：３０～１２：３０ 第４回 ２月 ６日（土） ９：３０～１２：３０ 説明会内容 全体説明会：入試に関して、進路に関して、学習活動について 見 学 会：各学科の農場や実習施設の見学・説明 &nb"
+      },
+      {
+        "date": "2027-01-16",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://osaka-nougei.ed.jp/openschool/openschool_entry/",
+        "evidence": "第１回 ８月２１日（金） １３：３０～１６：３０ 第２回 １２月１９日（土） ９：３０～１２：３０ 第３回 １月１６日（土） ９：３０～１２：３０ 第４回 ２月 ６日（土） ９：３０～１２：３０ 説明会内容 全体説明会：入試に関して、進路に関して、学習活動について 見 学 会：各学科の農場や実習施設の見学・説明 &nb"
+      },
+      {
+        "date": "2027-02-06",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://osaka-nougei.ed.jp/openschool/openschool_entry/",
+        "evidence": "第１回 ８月２１日（金） １３：３０～１６：３０ 第２回 １２月１９日（土） ９：３０～１２：３０ 第３回 １月１６日（土） ９：３０～１２：３０ 第４回 ２月 ６日（土） ９：３０～１２：３０ 説明会内容 全体説明会：入試に関して、進路に関して、学習活動について 見 学 会：各学科の農場や実習施設の見学・説明 &nb"
+      }
+    ],
+    "apply": {
+      "url": "https://osaka-nougei.ed.jp/openschool/taiken_entry/",
+      "label": "体験入学会 参加申し込み"
+    },
+    "note": ""
   },
   {
     "id": "pref-sakai-kohka",
@@ -3118,7 +3126,40 @@
     "website": "https://minoh-high-school.com/",
     "reached": true,
     "pages": 3,
-    "events": [],
+    "events": [
+      {
+        "date": "2026-11-25",
+        "label": "説明会",
+        "reservation": "required",
+        "confidence": "high",
+        "source": "https://minoh-high-school.com/blog/?p=11721",
+        "evidence": "て決定） 場所：本校 体育館 内容：①学校概要 ②学校生活 説明会終了後 個別相談ブース：11:00～12:00（※希望者のみ） 校内・クラブ見学：11:00～14:00（※希望者のみ） 予約期間 2026年11月25日(水)10:00～2026年11月27日(金)16:00 (※予約フォームは本校HP上のNEWS・T"
+      },
+      {
+        "date": "2026-12-12",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://minoh-high-school.com/blog/?p=11721",
+        "evidence": "護者の皆様は、ぜひご確認ください。 【第２回 学校説明会】 説明会 日程：2026年12月12日（土） 時間：10時00分〜11時00分 定員：1200名（※定員を超えた場合は、申し込みの先着順にて決定） 場所：本校 体育館 内容：①学校概要"
+      },
+      {
+        "date": "2027-01-13",
+        "label": "説明会",
+        "reservation": "required",
+        "confidence": "high",
+        "source": "https://minoh-high-school.com/blog/?p=11721",
+        "evidence": "決定） 場所：本校 視聴覚室 内容：①学校概要 ②学校生活 説明会終了後 個別相談ブース：11:00～12:00（※希望者のみ） 校内・クラブ見学：11:00～14:00（※希望者のみ） 予約期間 2027年1月13日(水)10:00～2027年1月15日(金)16:00 （※予約フォームは本校HP上のNEWS・TOP"
+      },
+      {
+        "date": "2027-01-30",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://minoh-high-school.com/blog/?p=11721",
+        "evidence": "にて所定の期間に公開いたします。) 【第３回 学校説明会】 説明会 日程：2027年1月30日（土） 時間：10時00分〜11時00分 定員：220名（※定員を超えた場合は、申し込みの先着順にて決定） 場所：本校 視聴覚室 内容：①学校概要"
+      }
+    ],
     "apply": null,
     "note": ""
   },
@@ -4193,31 +4234,11 @@
     "id": "priv-kinkiosaka",
     "name": "近畿大阪高等学校",
     "website": "https://koutoku.ac.jp/kinkiosaka/",
-    "reached": true,
-    "pages": 3,
-    "events": [
-      {
-        "date": "2026-11-14",
-        "label": "オープンスクール",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://koutoku.ac.jp/kinkiosaka/news/20261026/",
-        "evidence": "ンスクールで、 あなたらしい高校生活を想像してみませんか？ 11月14日（土） ／ 11月29日（日） オープンスクールに申し込む → 午前の部 10:30～ ／ 午後の部 14:00～ YOUR NEXT STEP まだ知らない、 自分に合う学び方 がある。"
-      },
-      {
-        "date": "2026-11-29",
-        "label": "オープンスクール",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://koutoku.ac.jp/kinkiosaka/news/20261026/",
-        "evidence": "ンスクールで、 あなたらしい高校生活を想像してみませんか？ 11月14日（土） ／ 11月29日（日） オープンスクールに申し込む → 午前の部 10:30～ ／ 午後の部 14:00～ YOUR NEXT STEP まだ知らない、 自分に合う学び方 がある。"
-      }
-    ],
-    "apply": {
-      "url": "https://koutoku.ac.jp/kinkiosaka/guide/open/",
-      "label": "オープンスクールに申し込む →"
-    },
-    "note": ""
+    "reached": false,
+    "pages": 0,
+    "events": [],
+    "apply": null,
+    "note": "robots.txt で拒否"
   },
   {
     "id": "priv-kindai-senshu",
@@ -4252,7 +4273,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://kinran.ed.jp/",
-        "evidence": "プンスクール 2026年9月30日 イベント情報 【受付中】11/14(土)高校オープンスクール 2026年9月30日 イベント情報 【受付スタート】高校入試説明会 2026年9月29日 イベント情報 【受付スタート】12/5(月)中学"
+        "evidence": "0・11/3 2026年10月3日 イベント情報 【受付中】11/14(土)高校オープンスクール 2026年9月30日 イベント情報 【受付スタート】高校入試説明会 2026年9月29日 イベント情報 【受付スタート】12/5(月)中学"
       }
     ],
     "apply": {

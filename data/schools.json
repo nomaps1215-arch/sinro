@@ -6396,7 +6396,7 @@
         "events": [
           {
             "date": "2026-11-27",
-            "label": "体験入学",
+            "label": "部活動体験",
             "reservation": null,
             "confidence": "high",
             "source": "https://www3.osaka-c.ed.jp/miyakojima-t/"
@@ -6405,7 +6405,7 @@
         "reservation": null,
         "source": "https://www3.osaka-c.ed.jp/miyakojima-t/",
         "checkedAt": "2026-10-27",
-        "evidence": "ion お知らせ 2026/10/21 「卒業５０年の集い」11月27日(金)に開催 2026/10/21 10月24日（土）の公開授業時間割はこちら 2026/10/20 令和8年10月24日（土）体験入学・学校説明見学会について 2026/10/16 令和8年度 中学生向け公開授業（授業参観）のご案内 2026/1"
+        "evidence": "参加される中学生のみなさんへ 2026/10/27 第3回 部活動体験会を実施します 2026/10/21 「卒業５０年の集い」11月27日(金)に開催 2026/10/21 10月24日（土）の公開授業時間割はこちら 2026/10/20 令和8年10月24日（土）体験入学・学校説明"
       }
     },
     {
@@ -11046,6 +11046,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-10-27",
+            "label": "体験入学",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://osaka-nougei.ed.jp/"
+          },
+          {
             "date": "2026-12-19",
             "label": "説明会",
             "reservation": null,
@@ -11068,11 +11075,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://osaka-nougei.ed.jp/openschool/openschool_entry/",
-        "checkedAt": "2026-10-25",
+        "source": "https://osaka-nougei.ed.jp/",
+        "checkedAt": "2026-10-27",
         "applyUrl": "https://osaka-nougei.ed.jp/openschool/taiken_entry/",
         "applyLabel": "体験入学会 参加申し込み",
-        "evidence": "第１回 ８月２１日（金） １３：３０～１６：３０ 第２回 １２月１９日（土） ９：３０～１２：３０ 第３回 １月１６日（土） ９：３０～１２：３０ 第４回 ２月 ６日（土） ９：３０～１２：３０ 説明会内容 全体説明会：入試に関して、進路に関して、学習活動について 見 学 会：各学科の農場や実習施設の見学・説明 &nb"
+        "evidence": "for PTA 学校からのお知らせ information 2026年10月27日(火) 「農芸祭お問い合わせ」を更新しました 2026年10月22日(木) 「体験入学会 参加申し込み」を更新しました 2026年09月28日(月) 「農芸祭」を更新しました 2026年09月01日(火) 「TOP」を更新しま"
       }
     },
     {
@@ -14048,7 +14055,43 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-11-25",
+            "label": "説明会",
+            "reservation": "required",
+            "confidence": "high",
+            "source": "https://minoh-high-school.com/blog/?p=11721"
+          },
+          {
+            "date": "2026-12-12",
+            "label": "説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://minoh-high-school.com/blog/?p=11721"
+          },
+          {
+            "date": "2027-01-13",
+            "label": "説明会",
+            "reservation": "required",
+            "confidence": "high",
+            "source": "https://minoh-high-school.com/blog/?p=11721"
+          },
+          {
+            "date": "2027-01-30",
+            "label": "説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://minoh-high-school.com/blog/?p=11721"
+          }
+        ],
+        "reservation": "required",
+        "source": "https://minoh-high-school.com/blog/?p=11721",
+        "checkedAt": "2026-10-27",
+        "evidence": "て決定） 場所：本校 体育館 内容：①学校概要 ②学校生活 説明会終了後 個別相談ブース：11:00～12:00（※希望者のみ） 校内・クラブ見学：11:00～14:00（※希望者のみ） 予約期間 2026年11月25日(水)10:00～2026年11月27日(金)16:00 (※予約フォームは本校HP上のNEWS・T"
+      }
     },
     {
       "id": "pref-minoohigashi",
@@ -18630,7 +18673,7 @@
         "checkedAt": "2026-10-27",
         "applyUrl": "https://kinran.ed.jp/entry-events/event-963/",
         "applyLabel": "締切間近 11.3（火） 11月3日 第2回プレテスト＆11月14日 返却会 【",
-        "evidence": "プンスクール 2026年9月30日 イベント情報 【受付中】11/14(土)高校オープンスクール 2026年9月30日 イベント情報 【受付スタート】高校入試説明会 2026年9月29日 イベント情報 【受付スタート】12/5(月)中学"
+        "evidence": "0・11/3 2026年10月3日 イベント情報 【受付中】11/14(土)高校オープンスクール 2026年9月30日 イベント情報 【受付スタート】高校入試説明会 2026年9月29日 イベント情報 【受付スタート】12/5(月)中学"
       },
       "admissionFee": {
         "amount": 200000,
