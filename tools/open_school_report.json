@@ -793,9 +793,21 @@
     "name": "大阪府立大冠高等学校",
     "website": "https://www2.osaka-c.ed.jp/ohkanmuri/",
     "reached": true,
-    "pages": 4,
-    "events": [],
-    "apply": null,
+    "pages": 3,
+    "events": [
+      {
+        "date": "2026-11-28",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www2.osaka-c.ed.jp/ohkanmuri/folder_0/post-28/",
+        "evidence": "パンフレット.pdf ・ オープンスクール配付資料.pdf 学校説明会の予定 第２回 11月28日(土)10時 申込必要＜体験入部あり＞ 申込期間 10/30(金)～11/18(水) ・学校説明 10:00～ （１時間程度。学校生活や行事の紹介"
+      }
+    ],
+    "apply": {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSc56wF31pLcHyQehi2v9A_HnLJu87gh2e0rK_Xw8x3ooE4x-Q/viewform?usp=dialog",
+      "label": "申込フォーム"
+    },
     "note": ""
   },
   {
@@ -2471,14 +2483,6 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-10-27",
-        "label": "体験入学",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://osaka-nougei.ed.jp/",
-        "evidence": "for PTA 学校からのお知らせ information 2026年10月27日(火) 「農芸祭お問い合わせ」を更新しました 2026年10月22日(木) 「体験入学会 参加申し込み」を更新しました 2026年09月28日(月) 「農芸祭」を更新しました 2026年09月01日(火) 「TOP」を更新しま"
-      },
-      {
         "date": "2026-12-19",
         "label": "説明会",
         "reservation": null,
@@ -2929,14 +2933,6 @@
     "reached": true,
     "pages": 3,
     "events": [
-      {
-        "date": "2026-10-27",
-        "label": "学校説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.sakurazuka-hs.jp/entranceguide/openschool/",
-        "evidence": "ることはできません。公共交通機関でお越しください。 ・第1回学校説明会 令和8年10月27日（火）17:15～19:00 ・第2回学校説明会 令和9年1月12日（火）17:15～19:00 場所：大阪府立桜塚高等学校（南側正門から玄関にお"
-      },
       {
         "date": "2027-01-12",
         "label": "学校説明会",
@@ -3708,28 +3704,8 @@
     "website": "http://www.daishodai-h.ed.jp",
     "reached": true,
     "pages": 4,
-    "events": [
-      {
-        "date": "2026-11-21",
-        "label": "説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.daishodai-h.ed.jp/examination/exam/",
-        "evidence": "EBサイトで最新の情報をご確認ください。 開催日程 第1回 2026年11月21日(土) 第2回 2026年12月12日(土) 内容 ※内容については、2025年度のものとなります。 2026年度分に関しましては、詳細が決まり次第更新いたします。 --> ・ 全体説明会 学校の特色や各コースの概要を説明させていただきま"
-      },
-      {
-        "date": "2026-12-12",
-        "label": "説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.daishodai-h.ed.jp/examination/exam/",
-        "evidence": "EBサイトで最新の情報をご確認ください。 開催日程 第1回 2026年11月21日(土) 第2回 2026年12月12日(土) 内容 ※内容については、2025年度のものとなります。 2026年度分に関しましては、詳細が決まり次第更新いたします。 --> ・ 全体説明会 学校の特色や各コースの概要を説明させていただきま"
-      }
-    ],
-    "apply": {
-      "url": "https://mirai-compass.net/usr/osksgh/event/evtIndex.jsf",
-      "label": "申込フォーム"
-    },
+    "events": [],
+    "apply": null,
     "note": ""
   },
   {
@@ -4796,20 +4772,8 @@
     "website": "http://www.highs.josho.ac.jp/",
     "reached": true,
     "pages": 4,
-    "events": [
-      {
-        "date": "2026-11-15",
-        "label": "入試説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.highs.josho.ac.jp/",
-        "evidence": "ます。 場所:横浜みなとみらいホール 大ホール 本校の演奏は11/15(日)16:21～ 同時開催... 過去のNEWS 過去の学校ブログ 2026.10.03 入試お知らせ Jテスト 入試説明会 中学校 10/3（土）「Jテスト1（プレテスト）」「第2回中学入試説明会」を実施しました 本日、「Jテスト1」および「第2"
-      }
-    ],
-    "apply": {
-      "url": "https://mirai-compass.net/usr/joshogj/event/evtIndex.jsf",
-      "label": "各種イベント申込み"
-    },
+    "events": [],
+    "apply": null,
     "note": ""
   },
   {
@@ -4837,8 +4801,8 @@
       }
     ],
     "apply": {
-      "url": "https://www.keiko.josho.ac.jp/information/exam-junior/21945/",
-      "label": "2026/09/19 受験生（中学） 【中学】11/7（土）プレテスト会②など入"
+      "url": "https://mirai-compass.net/usr/jskeikoh/event/evtIndex.jsf",
+      "label": "申込フォーム"
     },
     "note": ""
   },
@@ -5013,7 +4977,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://www.seifu.ac.jp/",
-        "evidence": "11月21日(土) 第4回 高校入試説明会【事前予約必要】 2026年12月6日(日) 高校入試個別相談会【事前予約必要】 イベント情報一覧 お申込みはこちら Topics トピックス 一覧はこちら 共通 NEW 2026/10/21 鉄道研究部"
+        "evidence": "11月21日(土) 第4回 高校入試説明会【事前予約必要】 2026年12月6日(日) 高校入試個別相談会【事前予約必要】 イベント情報一覧 お申込みはこちら Topics トピックス 一覧はこちら 共通 2026/10/21 鉄道研究部｜202"
       }
     ],
     "apply": {
