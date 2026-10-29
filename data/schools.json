@@ -3720,18 +3720,18 @@
         "events": [
           {
             "date": "2026-11-28",
-            "label": "学校説明会",
+            "label": "オープンスクール",
             "reservation": null,
             "confidence": "high",
-            "source": "https://www2.osaka-c.ed.jp/ohkanmuri/folder_0/post-28/"
+            "source": "https://www2.osaka-c.ed.jp/ohkanmuri/"
           }
         ],
         "reservation": "required",
-        "source": "https://www2.osaka-c.ed.jp/ohkanmuri/folder_0/post-28/",
+        "source": "https://www2.osaka-c.ed.jp/ohkanmuri/",
         "checkedAt": "2026-10-29",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSc56wF31pLcHyQehi2v9A_HnLJu87gh2e0rK_Xw8x3ooE4x-Q/viewform?usp=dialog",
         "applyLabel": "申込フォーム",
-        "evidence": "パンフレット.pdf ・ オープンスクール配付資料.pdf 学校説明会の予定 第２回 11月28日(土)10時 申込必要＜体験入部あり＞ 申込期間 10/30(金)～11/18(水) ・学校説明 10:00～ （１時間程度。学校生活や行事の紹介"
+        "evidence": "学校名を入れてください Information お知らせ 2026/10/30 11月28日（土）第２回オープンスクールの受付を開始しました。 2026/10/28 部活動『硬式テニス部』の記事を更新しました。 2026/10/14 事務室からのお知らせを更新"
       }
     },
     {
@@ -6313,7 +6313,7 @@
         "reservation": null,
         "source": "https://www3.osaka-c.ed.jp/higashi/",
         "checkedAt": "2026-10-29",
-        "evidence": "6/10/20 第３回オープンスクール 参加申込について ＜11/7（土）＞ 2026/10/19 総合的な探究の時間「プレ探究 第０回・第１回」 2026/10/06 11/7(土) 第3回オープンスクールのご案内 2026/08/25 8/24 オープンスクールのお礼 2026/08/17 1学期終業式を行いました"
+        "evidence": "6/10/29 第３回オープンスクール 参加申込について ＜11/7（土）＞ 2026/10/19 総合的な探究の時間「プレ探究 第０回・第１回」 2026/10/06 11/7(土) 第3回オープンスクールのご案内 2026/08/25 8/24 オープンスクールのお礼 2026/08/17 1学期終業式を行いました"
       }
     },
     {
@@ -11071,7 +11071,7 @@
         "events": [
           {
             "date": "2026-12-19",
-            "label": "説明会",
+            "label": "学校説明会",
             "reservation": null,
             "confidence": "high",
             "source": "https://osaka-nougei.ed.jp/openschool/openschool_entry/"
@@ -11096,7 +11096,7 @@
         "checkedAt": "2026-10-29",
         "applyUrl": "https://osaka-nougei.ed.jp/openschool/taiken_entry/",
         "applyLabel": "体験入学会 参加申し込み",
-        "evidence": "第１回 ８月２１日（金） １３：３０～１６：３０ 第２回 １２月１９日（土） ９：３０～１２：３０ 第３回 １月１６日（土） ９：３０～１２：３０ 第４回 ２月 ６日（土） ９：３０～１２：３０ 説明会内容 全体説明会：入試に関して、進路に関して、学習活動について 見 学 会：各学科の農場や実習施設の見学・説明 &nb"
+        "evidence": "連絡フォームは こちら ] &nbsp; 令和８年度 第２回学校説明会（１２月１９日（土））の時程について 次回の学校説明会は、以下の時程で行います。 １２月１９日（土） ９：００～１１： ３０（受付９：３０～） 学科 9 : 3"
       }
     },
     {
@@ -14343,6 +14343,13 @@
             "source": "https://www.assumption.ed.jp/jsh/"
           },
           {
+            "date": "2026-11-14",
+            "label": "プレテスト",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.assumption.ed.jp/jsh/nyushi/jhs_guideline/"
+          },
+          {
             "date": "2026-11-21",
             "label": "学校説明会",
             "reservation": null,
@@ -14355,7 +14362,7 @@
         "checkedAt": "2026-10-29",
         "applyUrl": "https://mirai-compass.net/usr/asmptnkj/common/login.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "（11月14... 2026.10.26 【高校受験生対象】11月7日（土）学校説明会・入試... 2026.10.24 10月26日（月）の窓口業務について 2026.09.29 10/10（土）高校オープンスクール④・中学"
+        "evidence": "（11月14... 2026.10.26 【高校受験生対象】11月7日（土）学校説明会・入試... 2026.10.24 丹澤校長メッセージ128（10月24日 学院祭 チャリ... 2026.10.24 10月26日（月）の"
       }
     },
     {
@@ -18474,6 +18481,30 @@
         "sourceName": "大阪私立中学校高等学校連合会「私立高等学校新入生徒 納付金等調」",
         "survey": "令和7年11月",
         "fetchedAt": "2026-09-10"
+      },
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-11-14",
+            "label": "オープンスクール",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://koutoku.ac.jp/kinkiosaka/news/20261026/"
+          },
+          {
+            "date": "2026-11-29",
+            "label": "オープンスクール",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://koutoku.ac.jp/kinkiosaka/news/20261026/"
+          }
+        ],
+        "reservation": "required",
+        "source": "https://koutoku.ac.jp/kinkiosaka/news/20261026/",
+        "checkedAt": "2026-10-29",
+        "applyUrl": "https://koutoku.ac.jp/kinkiosaka/guide/open/",
+        "applyLabel": "オープンスクールに申し込む →",
+        "evidence": "ンスクールで、 あなたらしい高校生活を想像してみませんか？ 11月14日（土） ／ 11月29日（日） オープンスクールに申し込む → 午前の部 10:30～ ／ 午後の部 14:00～ YOUR NEXT STEP まだ知らない、 自分に合う学び方 がある。"
       }
     },
     {
@@ -18678,6 +18709,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-11-13",
+            "label": "説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://kinran.ed.jp/"
+          },
+          {
             "date": "2026-11-14",
             "label": "オープンスクール",
             "reservation": null,
@@ -18690,7 +18728,7 @@
         "checkedAt": "2026-10-29",
         "applyUrl": "https://kinran.ed.jp/entry-events/event-963/",
         "applyLabel": "締切間近 11.3（火） 11月3日 第2回プレテスト＆11月14日 返却会 【",
-        "evidence": "0・11/3 2026年10月3日 イベント情報 【受付中】11/14(土)高校オープンスクール 2026年9月30日 イベント情報 【受付スタート】高校入試説明会 2026年9月29日 イベント情報 【受付スタート】12/5(月)中学"
+        "evidence": "s &amp; Topics イベント情報 【受付スタート】11/13(金)イブニング説明会 2026年10月29日 イベント情報 【受付中】2027年度中学入試「プレテスト」10/10・11/3 2026年10月3日 イベント情報"
       },
       "admissionFee": {
         "amount": 200000,
@@ -22245,7 +22283,7 @@
         "events": [
           {
             "date": "2026-11-07",
-            "label": "個別相談会",
+            "label": "プレテスト",
             "reservation": "required",
             "confidence": "high",
             "source": "https://www.tokai-gyosei.ed.jp/"
@@ -22268,7 +22306,7 @@
         "reservation": "required",
         "source": "https://www.tokai-gyosei.ed.jp/",
         "checkedAt": "2026-10-29",
-        "evidence": "等部 2026/10/28（水） 【特別追加枠２】イブニング個別相談会 要予約 2026/11/7（土） 第2回プレテスト 要予約 2026/11/7（土） 第2回入試説明会 要予約 2026/11/21（土） 第3回入試説明会 要予約 高校"
+        "evidence": "/18（水） 【特別追加枠３】イブニング個別相談会 要予約 2026/11/7（土） 第2回プレテスト 要予約 2026/11/7（土） 第2回入試説明会 要予約 2026/11/21（土） 第3回入試説明会 要予約 高校 2026/11/1"
       }
     },
     {
@@ -22975,7 +23013,7 @@
         "checkedAt": "2026-10-29",
         "applyUrl": "https://mirai-compass.net/usr/hannanuh/common/login.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "を行いました！【空手道部】 2026.10.22 入試情報 10/31（土）オープンキャンパス当日ガイドについて 2026.10.21 入試情報 【受験生の皆様へ】出願手続きのご案内（募集要項・インターネット出願） 2026.10.1"
+        "evidence": "を行いました！【軽音楽部】 2026.10.22 入試情報 10/31（土）オープンキャンパス当日ガイドについて 2026.10.21 入試情報 【受験生の皆様へ】出願手続きのご案内（募集要項・インターネット出願） 2026.10.1"
       },
       "admissionFee": {
         "amount": 200000,
