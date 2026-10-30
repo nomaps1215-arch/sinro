@@ -1987,6 +1987,14 @@
     "pages": 4,
     "events": [
       {
+        "date": "2026-10-30",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://sumiyoshi.ed.jp/blog/2026/10/30/post-8373/",
+        "evidence": "6651-0525 FAX 06-6653-9163 第１回学校説明会を開催しますーご来場に関するお願いー 2026 年 10 月 30 日 (金) ホーム 住高ブログ 第１回学校説明会を開催しますーご来場に関するお願いー 明日１０月３１日（土）、第１回学校説明会を開催します。来場される"
+      },
+      {
         "date": "2026-10-31",
         "label": "学校説明会",
         "reservation": null,
@@ -3350,8 +3358,20 @@
     "website": "http://www.uenomiya-taishi.ed.jp",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-11-14",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://uenomiya-taishi.ed.jp/for_examinee/%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%ad%e3%83%a3%e3%83%b3%e3%83%91%e3%82%b9%ef%bc%94%e3%81%ab%e9%87%91%e5%89%9b%e9%a7%85%e5%89%8d%e3%81%8b%e3%82%89%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e3%83%90/",
+        "evidence": "バスをご利用の皆様へ（11/14開催） 本校では、いよいよ 11月14日（土） に第1回入試説明会を開催いたします。 当日は多くの受験生・保護者の皆様にお会いできることを、教職員一同楽しみにしております。 さて、当日、南海金剛駅前から本校"
+      }
+    ],
+    "apply": {
+      "url": "https://uenomiya-taishi.ed.jp/examinfo/entry-event/",
+      "label": "申込フォーム"
+    },
     "note": ""
   },
   {
@@ -3862,11 +3882,11 @@
     "id": "priv-ouhs-school",
     "name": "大阪体育大学浪商高等学校",
     "website": "http://www.ouhs-school.jp/",
-    "reached": true,
-    "pages": 1,
+    "reached": false,
+    "pages": 0,
     "events": [],
     "apply": null,
-    "note": ""
+    "note": "robots.txt で拒否"
   },
   {
     "id": "priv-otk",
@@ -4062,7 +4082,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://kaimei.ed.jp/",
-        "evidence": "。 中高入試・イベント情報 2026-10-29 入試情報 12/５（土）開催｜「高校」入試個別相談会 2026-10-20 入試情報 11/27（金）開催｜【保護者対象】「中学」イブニング説明会 2026-10-14 入試情報 11/21（"
+        "evidence": "個別見学会」開催のお知らせ 2026-10-29 入試情報 12/５（土）開催｜「高校」入試個別相談会 2026-10-20 入試情報 11/27（金）開催｜【保護者対象】「中学」イブニング説明会 2026-10-14 入試情報 11/21（"
       }
     ],
     "apply": {
@@ -4322,7 +4342,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://kinran.ed.jp/",
-        "evidence": "s &amp; Topics イベント情報 【受付スタート】11/13(金)イブニング説明会 2026年10月29日 イベント情報 【受付中】2027年度中学入試「プレテスト」10/10・11/3 2026年10月3日 イベント情報"
+        "evidence": "s &amp; Topics イベント情報 【受付スタート】11/13(金)イブニング説明会 2026年10月29日 イベント情報 【締切】2027年度中学入試「プレテスト」10/10・11/3 2026年10月3日 イベント情報"
       },
       {
         "date": "2026-11-14",
@@ -4533,11 +4553,11 @@
     "id": "priv-koyodai",
     "name": "向陽台高等学校",
     "website": "http://www.koyodai.ed.jp",
-    "reached": false,
-    "pages": 0,
+    "reached": true,
+    "pages": 3,
     "events": [],
     "apply": null,
-    "note": "robots.txt で拒否"
+    "note": ""
   },
   {
     "id": "priv-nevers-hs",
@@ -4906,11 +4926,11 @@
     "events": [
       {
         "date": "2026-11-07",
-        "label": "入試説明会",
+        "label": "体験入学",
         "reservation": null,
         "confidence": "high",
-        "source": "http://www.oskshoyo.ed.jp/",
-        "evidence": "29 ダンス＆エンタテイメントの体験レッスンを受けてみよう！11/7(土), 12/12(土) ニュース 2026.10.19 入試説明会・プレテスト①を実施しました 一覧を見る Instagram 一覧を見る 昇陽中学校・ 高等学校（公式） 昇陽高等学校 パティシエコース 昇"
+        "source": "https://www.oskshoyo.ed.jp/hs/examinee/seminar/",
+        "evidence": "ジネス・公務員コース， パティシエコース，福祉コース 第3回体験入学 11月7日(土) 9:00 受付 9:30 開始 【体験入学一覧(予定）】 特進コース，進学コース 標準進学・看護医療進学・幼児教育進学・アスリート進学，I"
       },
       {
         "date": "2026-11-21",
@@ -4930,11 +4950,11 @@
       },
       {
         "date": "2026-12-12",
-        "label": "入試説明会",
+        "label": "体験入学",
         "reservation": null,
         "confidence": "high",
-        "source": "http://www.oskshoyo.ed.jp/",
-        "evidence": "29 ダンス＆エンタテイメントの体験レッスンを受けてみよう！11/7(土), 12/12(土) ニュース 2026.10.19 入試説明会・プレテスト①を実施しました 一覧を見る Instagram 一覧を見る 昇陽中学校・ 高等学校（公式） 昇陽高等学校 パティシエコース 昇"
+        "source": "https://www.oskshoyo.ed.jp/hs/examinee/seminar/",
+        "evidence": "ジネス・公務員コース， パティシエコース，福祉コース 第4回体験入学 12月12日(土) 9:00 受付 9:30 開始 【体験入学一覧(予定）】 特進コース，進学コース 標準進学・看護医療進学・幼児教育進学・アスリート進学，I"
       }
     ],
     "apply": {
@@ -5267,6 +5287,14 @@
         "evidence": "/18（水） 【特別追加枠３】イブニング個別相談会 要予約 2026/11/7（土） 第2回プレテスト 要予約 2026/11/7（土） 第2回入試説明会 要予約 2026/11/21（土） 第3回入試説明会 要予約 高校 2026/11/1"
       },
       {
+        "date": "2026-11-18",
+        "label": "プレテスト",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.tokai-gyosei.ed.jp/exam/event/%e7%ac%ac2%e5%9b%9e%e3%83%97%e3%83%ac%e3%83%86%e3%82%b9%e3%83%88/",
+        "evidence": "DGs! TOP 入試情報サイト 中等部入試イベント 第2回プレテスト 中等部入試イベント 2026/11/18（水） 【特別追加枠３】イブニング個別相談会 2026/11/7（土） 第2回プレテスト 2026/11/7（土） 第2回入試説明会 2026/1"
+      },
+      {
         "date": "2026-11-21",
         "label": "入試説明会",
         "reservation": "required",
@@ -5283,7 +5311,10 @@
         "evidence": "/18（水） 【特別追加枠３】イブニング個別相談会 要予約 2026/11/28（土） 入試説明会 要予約 校長のひと息だより 学びの意味、これからの教育、そして子どもたちに伝えたいこと。校長としての思いや考えを、折々の出来事とともに発信"
       }
     ],
-    "apply": null,
+    "apply": {
+      "url": "https://mirai-compass.net/usr/tgyoseij/common/login.jsf",
+      "label": "申し込みはこちら"
+    },
     "note": ""
   },
   {
@@ -5661,7 +5692,16 @@
     "website": "http://www.meijo.ed.jp",
     "reached": true,
     "pages": 4,
-    "events": [],
+    "events": [
+      {
+        "date": "2026-11-21",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.meijo.ed.jp/news/%e3%80%9010%e6%9c%8824%e6%97%a5%e3%80%91%e7%ac%ac4%e5%9b%9e%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e9%96%8b%e5%82%ac%e5%a0%b1%e5%91%8a/",
+        "evidence": "24】 &#8211; YouTube &nbsp; 次回のオープンスクールは、 **11月21日（土）** に開催です。 今年度最後のオープンスクール 皆さまのご参加を心よりお待ちしております。 &nbsp; ニュース一覧に戻る"
+      }
+    ],
     "apply": null,
     "note": ""
   },
@@ -5769,11 +5809,11 @@
     "id": "priv-hs-3",
     "name": "八洲学園高等学校",
     "website": "http://www.yashima.ac.jp/hs/",
-    "reached": false,
-    "pages": 0,
+    "reached": true,
+    "pages": 3,
     "events": [],
     "apply": null,
-    "note": "取得できず（HTTP Error 403: Forbidden）"
+    "note": ""
   },
   {
     "id": "priv-tondabayashi",

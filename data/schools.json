@@ -8946,6 +8946,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-10-30",
+            "label": "学校説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://sumiyoshi.ed.jp/blog/2026/10/30/post-8373/"
+          },
+          {
             "date": "2026-10-31",
             "label": "学校説明会",
             "reservation": null,
@@ -8961,11 +8968,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://sumiyoshi.ed.jp/2026/07/25/post-7200/",
+        "source": "https://sumiyoshi.ed.jp/blog/2026/10/30/post-8373/",
         "checkedAt": "2026-10-30",
         "applyUrl": "https://sumiyoshi.ed.jp/category/for-junior/",
         "applyLabel": "学校説明会 お申し込みご案内はこちら",
-        "evidence": "報 令和８年度 学校説明会について 令和８(2026)年度 学校説明会について ＜実施日＞ ●第１回 令和８年10月31日（土） ☞申込みは10月５日（月）19:00開始 ●第２回 令和８年12月19日（土） ☞申込みは11月16日（月）19:00開始 &nbsp; ＜内 容＞ ・校長又は教頭による総合的な学校説明（2"
+        "evidence": "6651-0525 FAX 06-6653-9163 第１回学校説明会を開催しますーご来場に関するお願いー 2026 年 10 月 30 日 (金) ホーム 住高ブログ 第１回学校説明会を開催しますーご来場に関するお願いー 明日１０月３１日（土）、第１回学校説明会を開催します。来場される"
       },
       "photos": [
         {
@@ -14662,7 +14669,24 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-11-14",
+            "label": "入試説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://uenomiya-taishi.ed.jp/for_examinee/%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%ad%e3%83%a3%e3%83%b3%e3%83%91%e3%82%b9%ef%bc%94%e3%81%ab%e9%87%91%e5%89%9b%e9%a7%85%e5%89%8d%e3%81%8b%e3%82%89%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e3%83%90/"
+          }
+        ],
+        "reservation": "required",
+        "source": "https://uenomiya-taishi.ed.jp/for_examinee/%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%ad%e3%83%a3%e3%83%b3%e3%83%91%e3%82%b9%ef%bc%94%e3%81%ab%e9%87%91%e5%89%9b%e9%a7%85%e5%89%8d%e3%81%8b%e3%82%89%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e3%83%90/",
+        "checkedAt": "2026-10-30",
+        "applyUrl": "https://uenomiya-taishi.ed.jp/examinfo/entry-event/",
+        "applyLabel": "申込フォーム",
+        "evidence": "バスをご利用の皆様へ（11/14開催） 本校では、いよいよ 11月14日（土） に第1回入試説明会を開催いたします。 当日は多くの受験生・保護者の皆様にお会いできることを、教職員一同楽しみにしております。 さて、当日、南海金剛駅前から本校"
+      }
     },
     {
       "id": "priv-josei",
@@ -18688,7 +18712,7 @@
         "checkedAt": "2026-10-30",
         "applyUrl": "https://kinran.ed.jp/entry-events/event-48479/",
         "applyLabel": "受付中 12.5（土） 12月5日 中学入試 直前講座 › 申し込む",
-        "evidence": "s &amp; Topics イベント情報 【受付スタート】11/13(金)イブニング説明会 2026年10月29日 イベント情報 【受付中】2027年度中学入試「プレテスト」10/10・11/3 2026年10月3日 イベント情報"
+        "evidence": "s &amp; Topics イベント情報 【受付スタート】11/13(金)イブニング説明会 2026年10月29日 イベント情報 【締切】2027年度中学入試「プレテスト」10/10・11/3 2026年10月3日 イベント情報"
       },
       "admissionFee": {
         "amount": 200000,
@@ -20742,10 +20766,10 @@
         "events": [
           {
             "date": "2026-11-07",
-            "label": "入試説明会",
+            "label": "体験入学",
             "reservation": null,
             "confidence": "high",
-            "source": "http://www.oskshoyo.ed.jp/"
+            "source": "https://www.oskshoyo.ed.jp/hs/examinee/seminar/"
           },
           {
             "date": "2026-11-21",
@@ -20763,18 +20787,18 @@
           },
           {
             "date": "2026-12-12",
-            "label": "入試説明会",
+            "label": "体験入学",
             "reservation": null,
             "confidence": "high",
-            "source": "http://www.oskshoyo.ed.jp/"
+            "source": "https://www.oskshoyo.ed.jp/hs/examinee/seminar/"
           }
         ],
         "reservation": "required",
-        "source": "http://www.oskshoyo.ed.jp/",
+        "source": "https://www.oskshoyo.ed.jp/hs/examinee/seminar/",
         "checkedAt": "2026-10-30",
         "applyUrl": "https://forms.gle/eVjfk4Los3xa1Dfg9",
         "applyLabel": "サッカー部練習会申し込みはこちら",
-        "evidence": "29 ダンス＆エンタテイメントの体験レッスンを受けてみよう！11/7(土), 12/12(土) ニュース 2026.10.19 入試説明会・プレテスト①を実施しました 一覧を見る Instagram 一覧を見る 昇陽中学校・ 高等学校（公式） 昇陽高等学校 パティシエコース 昇"
+        "evidence": "ジネス・公務員コース， パティシエコース，福祉コース 第3回体験入学 11月7日(土) 9:00 受付 9:30 開始 【体験入学一覧(予定）】 特進コース，進学コース 標準進学・看護医療進学・幼児教育進学・アスリート進学，I"
       },
       "admissionFee": {
         "amount": 200000,
@@ -22249,6 +22273,13 @@
             "source": "https://www.tokai-gyosei.ed.jp/"
           },
           {
+            "date": "2026-11-18",
+            "label": "プレテスト",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.tokai-gyosei.ed.jp/exam/event/%e7%ac%ac2%e5%9b%9e%e3%83%97%e3%83%ac%e3%83%86%e3%82%b9%e3%83%88/"
+          },
+          {
             "date": "2026-11-21",
             "label": "入試説明会",
             "reservation": "required",
@@ -22266,6 +22297,8 @@
         "reservation": "required",
         "source": "https://www.tokai-gyosei.ed.jp/",
         "checkedAt": "2026-10-30",
+        "applyUrl": "https://mirai-compass.net/usr/tgyoseij/common/login.jsf",
+        "applyLabel": "申し込みはこちら",
         "evidence": "/18（水） 【特別追加枠３】イブニング個別相談会 要予約 2026/11/7（土） 第2回プレテスト 要予約 2026/11/7（土） 第2回入試説明会 要予約 2026/11/21（土） 第3回入試説明会 要予約 高校 2026/11/1"
       }
     },
@@ -23716,7 +23749,22 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-11-21",
+            "label": "オープンスクール",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.meijo.ed.jp/news/%e3%80%9010%e6%9c%8824%e6%97%a5%e3%80%91%e7%ac%ac4%e5%9b%9e%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e9%96%8b%e5%82%ac%e5%a0%b1%e5%91%8a/"
+          }
+        ],
+        "reservation": null,
+        "source": "https://www.meijo.ed.jp/news/%e3%80%9010%e6%9c%8824%e6%97%a5%e3%80%91%e7%ac%ac4%e5%9b%9e%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e9%96%8b%e5%82%ac%e5%a0%b1%e5%91%8a/",
+        "checkedAt": "2026-10-30",
+        "evidence": "24】 &#8211; YouTube &nbsp; 次回のオープンスクールは、 **11月21日（土）** に開催です。 今年度最後のオープンスクール 皆さまのご参加を心よりお待ちしております。 &nbsp; ニュース一覧に戻る"
+      }
     },
     {
       "id": "priv-meisei",
