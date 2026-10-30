@@ -1566,7 +1566,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://minato-hs.ed.jp/information/2026/19410/",
-        "evidence": "競技部、卓球部、軽音楽部、美術部、茶道部、パソコン同好会 【説明会のみ】 定員に達したため受付を終了しました。キャンセルが出た場合、10/30(金)12:00より追加分の募集を開始します。 10:30 開始（説明の内容は、10月実施分および外部の説明会と同じです） 12:30 最終退出"
+        "evidence": "時程の詳細、持ち物などは1週間前を目安にお知らせします。 【説明会のみ】 定員に達したため受付を終了しました。キャンセルが出た場合、10/30(金)12:00より追加分の募集を開始します。 10:30 開始（説明の内容は、10月実施分および外部の説明会と同じです） 12:30 最終退出"
       },
       {
         "date": "2026-11-14",
@@ -1574,15 +1574,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://minato-hs.ed.jp/",
-        "evidence": "た 2026.10.14 お知らせ 【10/29〆切】第2回11/14(土)学校説明会＋クラブ体験申し込み受付開始 2026.10.08 お知らせ 【終了しました】10月17日(土) 部活動体験・学校見学会詳細 2026.09"
-      },
-      {
-        "date": "2027-01-16",
-        "label": "学校説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://minato-hs.ed.jp/middleschool/",
-        "evidence": "部、茶道部、パソコン同好会 【お申し込みは こちら から】 令和9年 1月16日(土) 学校説明会 ＊AM ※詳細、お申込みの案内は約1か月前にHPにて掲載いたします。 ※悪天候・感染症の流行などにより急遽中止・日程変更する場合がございま"
+        "evidence": "トピックス一覧 2026.10.30 お知らせ 【追加募集】11/14(土)学校説明会 2026.10.27 部活動 【美術部】繁栄商店街の垂れ幕を作成しました 2026.10.14 お知らせ 【10/29〆切】第2回11/1"
       }
     ],
     "apply": {
@@ -1598,14 +1590,6 @@
     "reached": true,
     "pages": 4,
     "events": [
-      {
-        "date": "2026-10-29",
-        "label": "オープンスクール",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www2.osaka-c.ed.jp/ichioka/news/34651/",
-        "evidence": "り]&nbsp; &nbsp; &nbsp; &nbsp; １０月2９日（木）午後３時 ◎オープンスクールのページは コチラ でご確認ください 。 学校名を入れてください 〒xxx-xxxx 住所を入れてください Tel: 000-0000-00"
-      },
       {
         "date": "2026-11-14",
         "label": "部活動体験",
@@ -1779,15 +1763,15 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www2.osaka-c.ed.jp/higashiyodogawa/",
-        "evidence": "て 2026/10/24 【中学生および保護者の皆さまへ】 11月7日（土）開催 体験入学について 2026/10/14 【中学生および保護者の皆さまへ】12月12日（土）開催 第2回 学校説明会のお知らせ 2026/10/14"
+        "evidence": "て 2026/10/30 【中学生および保護者の皆さまへ】 11月7日（土）開催 体験入学について 2026/10/24 【日本語指導特別選抜対象の中学生および保護者の皆さまへ】🍀多文化生徒用(For International"
       },
       {
         "date": "2026-12-12",
         "label": "学校説明会",
-        "reservation": null,
+        "reservation": "required",
         "confidence": "high",
         "source": "https://www2.osaka-c.ed.jp/higashiyodogawa/",
-        "evidence": "徒用(For international student)』12月12日（土）第２回 学校説明会（School information session)について 2026/10/03 【保護者の皆様・在校生の皆さんへ】10/1（木）から"
+        "evidence": "徒用(For international student)』12月12日（土）第２回 学校説明会（School information session)について 2026/10/30 【中学生および保護者の皆さまへ】 11月7日（土）開"
       },
       {
         "date": "2027-01-16",
@@ -1798,10 +1782,7 @@
         "evidence": "ている方のための多文化クラス説明会も同時に行っています。 ①学校説明会 【第１回】９/１９（土） 【第２回】１２/１２（土） 【第３回】１/１６（土） 【概要】 ※各回受付開始時間 第１部 9:00～/第２部 10:00～/第３部 11:00～ の３部制で実施 ※教員による学校説明・コース"
       }
     ],
-    "apply": {
-      "url": "https://forms.gle/GE3HKPAcAVgJwmkX6",
-      "label": "申込フォーム"
-    },
+    "apply": null,
     "note": ""
   },
   {
@@ -2518,6 +2499,14 @@
     "reached": true,
     "pages": 4,
     "events": [
+      {
+        "date": "2026-10-30",
+        "label": "体験入学",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://osaka-nougei.ed.jp/",
+        "evidence": "for PTA 学校からのお知らせ information 2026年10月30日(金) 「農芸祭お問い合わせ」を更新しました 2026年10月22日(木) 「体験入学会 参加申し込み」を更新しました 2026年09月28日(月) 「農芸祭」を更新しました 2026年09月01日(火) 「TOP」を更新しま"
+      },
       {
         "date": "2026-12-19",
         "label": "学校説明会",
@@ -3361,28 +3350,8 @@
     "website": "http://www.uenomiya-taishi.ed.jp",
     "reached": true,
     "pages": 4,
-    "events": [
-      {
-        "date": "2026-11-14",
-        "label": "入試説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://uenomiya-taishi.ed.jp/examinfo/entry-event/",
-        "evidence": "会 上宮太子の生徒の様子の紹介や、入試問題の解説を行います。入試説明会に参加すれば、入試に役立つ情報がゲットできます。生徒によるキャンパスツアーも人気です。 日時 おもなイベント 対象 概要 2026. 11.14 （土） 14:00～ 第1回入試説明会 中学生・保護者 PDF 2026. 12.05 （土） 14:0"
-      },
-      {
-        "date": "2026-12-13",
-        "label": "入試説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://uenomiya-taishi.ed.jp/examinfo/entry-event/",
-        "evidence": "） 14:00～ 第2回入試説明会 中学生・保護者 PDF 2026. 12.13 （日） 14:00～ 第3回入試説明会 「入試過去問題解説会」 中学生・保護者 PDF 2026. 11.14 （土） 14:00～ おもなイベント 第1回入試説明会 対象 中学"
-      }
-    ],
-    "apply": {
-      "url": "https://mirai-compass.net/usr/utaishih/event/evtIndex.jsf",
-      "label": "お申込み"
-    },
+    "events": [],
+    "apply": null,
     "note": ""
   },
   {
@@ -3469,14 +3438,6 @@
         "confidence": "high",
         "source": "https://www.osakashs.ed.jp/info/30884/",
         "evidence": "の中学生保護者対象学校説明会を以下の日程で実施致します。この説明会の最大の特徴は、小グループになって在校生・在校生の保護者・教員との対話をすることです。是非「？」問いを持ってご参加下さい。 日時 １１月１４日（土）１０時００分から１１時３０分（10分前にはお越し下さい。） 内容 前半は学校紹介、後半は在校生・教員・在校"
-      },
-      {
-        "date": "2026-11-21",
-        "label": "オープンスクール",
-        "reservation": "required",
-        "confidence": "high",
-        "source": "https://www.osakashs.ed.jp/open-school/30893/",
-        "evidence": "うか？ ☟第二部の在校生企画・クラブ体験・講座体験 第4回のオープンスクールは、 11月21日（土）午前の部10:00～、午後の部14:00～ です。 →こちらよりオープンスクール申し込みフォーム mirai-compass.net オープ"
       }
     ],
     "apply": {
@@ -4373,8 +4334,8 @@
       }
     ],
     "apply": {
-      "url": "https://kinran.ed.jp/entry-events/event-963/",
-      "label": "締切間近 11.3（火） 11月3日 第2回プレテスト＆11月14日 返却会 【"
+      "url": "https://kinran.ed.jp/entry-events/event-48479/",
+      "label": "受付中 12.5（土） 12月5日 中学入試 直前講座 › 申し込む"
     },
     "note": ""
   },
@@ -4825,7 +4786,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "http://www.shitennojigakuen.ed.jp/higashi/",
-        "evidence": "12:30 入試説明会 高校 入試説明会 申込受付中 第１回入試説明会 2026.11.14 （土） 09:40 ～ 10:40 入試説明会 中学 入試説明会 申込受付中 第２回入試説明会 2026.11.21 （土） 10:00 ～ 12"
+        "evidence": "12:30 入試説明会 高校 入試説明会 申込受付中 第１回入試説明会 2026.11.14 （土） 09:30 ～ 12:45 プレテスト・プレテスト解説会 中学 プレテスト・プレテスト解説会 申込受付中 プレテスト 2026.11.14"
       },
       {
         "date": "2026-11-21",
@@ -5808,11 +5769,11 @@
     "id": "priv-hs-3",
     "name": "八洲学園高等学校",
     "website": "http://www.yashima.ac.jp/hs/",
-    "reached": true,
-    "pages": 4,
+    "reached": false,
+    "pages": 0,
     "events": [],
     "apply": null,
-    "note": ""
+    "note": "取得できず（HTTP Error 403: Forbidden）"
   },
   {
     "id": "priv-tondabayashi",
