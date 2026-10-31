@@ -1007,7 +1007,7 @@
       }
     ],
     "apply": {
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfv4nrG71XAz8ykfw9uVX0o2gsp9zKZt1yOx-piAY04cIWhWg/viewform?usp=dialog",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSc-hwtSbSrf8dCNq0Q6Av8Ch33H9Bt39vNlJRE4YHq2DONL_A/viewform?usp=dialog",
       "label": "申込フォーム"
     },
     "note": ""
@@ -1103,6 +1103,14 @@
     "reached": true,
     "pages": 4,
     "events": [
+      {
+        "date": "2026-11-01",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://yamamoto-shs.ed.jp/%e7%ac%ac%ef%bc%91%e5%9b%9e%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a11-14%e5%ae%9f%e6%96%bd%e7%94%b3%e3%81%97%e8%be%bc%e3%81%bf/",
+        "evidence": "い。 電話：072-999-0552 ← 【第1学年】GP（学校説明会プロジェクト） 3部昇格！10/10 U18最終節 vs花園高校 → --> 新着記事 11月1日(日)山本高校野球部体験について 2026.10.31 【告知】11月度 中学生対象 体験練習会 2026.10.29 10/24（土）部活動体験"
+      },
       {
         "date": "2026-11-14",
         "label": "部活動体験",
@@ -1480,14 +1488,6 @@
         "confidence": "high",
         "source": "https://www3.osaka-c.ed.jp/miyakojima-t/",
         "evidence": "参加される中学生のみなさんへ 2026/10/27 第3回 部活動体験会を実施します 2026/10/21 「卒業５０年の集い」11月27日(金)に開催 お知らせ一覧 Blog ブログ 2026/10/21 学校生活ブログ ブログ一覧 Title 見出し Lead ここにテキストが入り"
-      },
-      {
-        "date": "2026-11-28",
-        "label": "部活動体験",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www3.osaka-c.ed.jp/miyakojima-t/",
-        "evidence": "学校説明見学会と同時開催！！】工業女子相談会を開催します！ 2026/10/28 令和8年度11月28日（土） 第3回 学校説明見学会のご案内 2026/10/27 第３回１１月２８日部活動体験会に参加される中学生のみなさんへ 2026/10/27 第3回 部活動体験会を実施します 2026/10/21 「卒業５０年の"
       }
     ],
     "apply": null,
@@ -1560,14 +1560,6 @@
     "reached": true,
     "pages": 4,
     "events": [
-      {
-        "date": "2026-10-30",
-        "label": "説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://minato-hs.ed.jp/information/2026/19410/",
-        "evidence": "時程の詳細、持ち物などは1週間前を目安にお知らせします。 【説明会のみ】 定員に達したため受付を終了しました。キャンセルが出た場合、10/30(金)12:00より追加分の募集を開始します。 10:30 開始（説明の内容は、10月実施分および外部の説明会と同じです） 12:30 最終退出"
-      },
       {
         "date": "2026-11-14",
         "label": "学校説明会",
@@ -1987,14 +1979,6 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-10-30",
-        "label": "学校説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://sumiyoshi.ed.jp/blog/2026/10/30/post-8373/",
-        "evidence": "6651-0525 FAX 06-6653-9163 第１回学校説明会を開催しますーご来場に関するお願いー 2026 年 10 月 30 日 (金) ホーム 住高ブログ 第１回学校説明会を開催しますーご来場に関するお願いー 明日１０月３１日（土）、第１回学校説明会を開催します。来場される"
-      },
-      {
         "date": "2026-10-31",
         "label": "学校説明会",
         "reservation": null,
@@ -2269,14 +2253,6 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-10-30",
-        "label": "学校説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www2.osaka-c.ed.jp/imamiya-t/open-schools/2025oc-lessons/",
-        "evidence": "学3年生 7月14日(火) 大阪市立今宮中学校 中学3年生 10月30日(金) 大阪市立市岡中学校 中学2年生 ■(中学校への)学校説明会 日付 実施場所 対象学年 ７月１日（水） 大阪市立難波中学校 中学３年生 ■(本校外での)学校説明会など ※順不同 日付 イベント名称 実"
-      },
-      {
         "date": "2027-01-16",
         "label": "個別相談会",
         "reservation": "none",
@@ -2507,14 +2483,6 @@
     "reached": true,
     "pages": 4,
     "events": [
-      {
-        "date": "2026-10-30",
-        "label": "体験入学",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://osaka-nougei.ed.jp/",
-        "evidence": "for PTA 学校からのお知らせ information 2026年10月30日(金) 「農芸祭お問い合わせ」を更新しました 2026年10月22日(木) 「体験入学会 参加申し込み」を更新しました 2026年09月28日(月) 「農芸祭」を更新しました 2026年09月01日(火) 「TOP」を更新しま"
-      },
       {
         "date": "2026-12-19",
         "label": "学校説明会",
@@ -3683,7 +3651,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www.kokusai-h.oiu.ed.jp/junior/event/",
-        "evidence": "レテスト＆入試説明会 （終了しました） 10月10日（土） プレテスト手渡し会 （終了しました） 10月31日（土） 第2回プレテスト＆入試説明会 11月14日（土） 中学個別相談会 4 12月12日（土） 中学個別相談会 5 予約ページにて、現在お申込み"
+        "evidence": "10月10日（土） プレテスト手渡し会 （終了しました） 10月31日（土） 第2回プレテスト＆入試説明会 （終了しました） 11月14日（土） 中学個別相談会 4 12月12日（土） 中学個別相談会 5 予約ページにて、現在お申込み"
       },
       {
         "date": "2026-11-14",
@@ -3691,7 +3659,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www.kokusai-h.oiu.ed.jp/junior/event/",
-        "evidence": "会 （終了しました） 10月31日（土） 第2回プレテスト＆入試説明会 11月14日（土） 中学個別相談会 4 12月12日（土） 中学個別相談会 5 予約ページにて、現在お申込み受付中のイベントが表示されます。 なお、校内イベン"
+        "evidence": "会 （終了しました） 10月31日（土） 第2回プレテスト＆入試説明会 （終了しました） 11月14日（土） 中学個別相談会 4 12月12日（土） 中学個別相談会 5 予約ページにて、現在お申込み受付中のイベントが表示されます。 なお、校内イベン"
       },
       {
         "date": "2026-11-28",
@@ -3715,7 +3683,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www.kokusai-h.oiu.ed.jp/junior/event/",
-        "evidence": "土） 第2回プレテスト＆入試説明会 11月14日（土） 中学個別相談会 4 12月12日（土） 中学個別相談会 5 予約ページにて、現在お申込み受付中のイベントが表示されます。 なお、校内イベントのお申込みには、モチベーションワークス"
+        "evidence": "スト＆入試説明会 （終了しました） 11月14日（土） 中学個別相談会 4 12月12日（土） 中学個別相談会 5 予約ページにて、現在お申込み受付中のイベントが表示されます。 なお、校内イベントのお申込みには、モチベーションワークス"
       }
     ],
     "apply": null,
@@ -3882,11 +3850,11 @@
     "id": "priv-ouhs-school",
     "name": "大阪体育大学浪商高等学校",
     "website": "http://www.ouhs-school.jp/",
-    "reached": false,
-    "pages": 0,
+    "reached": true,
+    "pages": 1,
     "events": [],
     "apply": null,
-    "note": "robots.txt で拒否"
+    "note": ""
   },
   {
     "id": "priv-otk",
@@ -4129,14 +4097,6 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-10-30",
-        "label": "入試説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.kansai-u.ac.jp/senior/2026/09/1031.html",
-        "evidence": "（金）正午 〇中学1、2年生 →10月13日（火）9：00～10月30日（金）正午 当日の詳細は下記の通りです。 &lt;関西大学高等部 入試説明会&gt; -------------------- 【会場】関西大学高槻ミューズキャンパス 【日時】2026年10月31日（土） ◯受付開始"
-      },
-      {
         "date": "2026-10-31",
         "label": "入試説明会",
         "reservation": "required",
@@ -4195,6 +4155,14 @@
         "confidence": "high",
         "source": "https://www.kansai-u.ac.jp/hokuyo/news2026/10/1031.html",
         "evidence": "026年10月27日 UP 受験生と保護者を対象とした第２回入試説明会を11/14(土)に開催します。（第１回入試説明会と同内容） 入試に関する説明のほか、学校・行事紹介や制服試着体験、校舎やクラブ活動の見学、個別相談などのコン"
+      },
+      {
+        "date": "2026-12-13",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.kansai-u.ac.jp/hokuyo/news2026/10/post_847.html",
+        "evidence": "たします。 次回の入試イベントは下記になります。 第2回ミニ説明会 12/13(日)9:00～、11:00～、13:00～、予約受付は12/5(土)9:00より 詳細は https://www.kansai-u.ac.jp/"
       }
     ],
     "apply": {
@@ -5652,16 +5620,16 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-10-31",
-        "label": "説明会",
+        "date": "2026-11-03",
+        "label": "オープンスクール",
         "reservation": null,
         "confidence": "high",
-        "source": "https://poole.ed.jp/event/post-1302/",
-        "evidence": "027年1月入試の準備 入試制度や特待生・優遇制度についての説明会 日時 2026.10.31 （土） 14:00 ※受付時間は13：30～行います。 対象 小学生女子と保護者 会場 本校 お知らせ 【202610271200更新】 １０月２"
+        "source": "https://poole.ed.jp/event/post-1323/",
+        "evidence": "】オープンスクール 11.3 （火） 9:30 【高等学校】オープンスクール 受付中 高校 スタンプラリーで校内を自由に散策して、お気に入りの場所を見つけて！ 日時 2026.11.3 （火） 9:30 対象 中学生女子と保護者 会場 本校 お知らせ 【202610271200更新】 １０月２７日（火）正午までのお申し"
       }
     ],
     "apply": {
-      "url": "https://mirai-compass.net/usr/oskplgkj/event/evtIndex.jsf",
+      "url": "https://mirai-compass.net/usr/oskplgkh/event/evtIndex.jsf",
       "label": "申込フォームはこちら"
     },
     "note": ""
@@ -5884,7 +5852,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://riseisha.ed.jp/hs/admissions/briefing/",
-        "evidence": "どの開催日時、その詳細についてご確認いただけます。 受付中 学校説明会 2026年10月31日（土） 09:30 〜 11:00 詳細はこちら 学校説明会 2026年11月7日（土） 13:30 〜 15:00 詳細はこちら 学校説明会 体"
+        "evidence": "年10月24日（土） 09:30 〜 11:00 受付終了 学校説明会 2026年10月31日（土） 09:30 〜 11:00 受付終了 個別相談 皆さまのご都合やご希望に合わせて、次の４つの相談スタイルからお選びいただけます。 来校相談"
       },
       {
         "date": "2026-11-07",
