@@ -5130,13 +5130,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-11-01",
-            "label": "授業体験",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://yaokita-hs.sakura.ne.jp/wp/examinee/open-school/"
-          },
-          {
             "date": "2026-11-07",
             "label": "オープンスクール",
             "reservation": null,
@@ -5154,7 +5147,7 @@
         "reservation": null,
         "source": "https://yaokita-hs.sakura.ne.jp/wp/examinee/open-school/",
         "checkedAt": "2026-11-01",
-        "evidence": ") 第３回オープンスクール （説明会・施設見学・クラブ体験・授業体験） ★申込みは下記実施要項より受付中です。【11/1(日)まで】 第３回オープンスクール実施要項 ◇ １月１６日(土) 第４回オープンスクール （説明会・施設見学） 大阪府立八尾北高等学校 大阪府立"
+        "evidence": "★申込みは終了しました 第２回オープンスクール実施要項 ◇ １１月７日(土) 第３回オープンスクール （説明会・施設見学・クラブ体験・授業体験） ★申込みは終了しました 第３回オープンスクール実施要項 ◇ １月１６日(土) 第４回オープンス"
       },
       "photos": [
         {
@@ -11467,9 +11460,9 @@
         "reservation": "required",
         "source": "https://sakai-higashi.ed.jp/exam/events/",
         "checkedAt": "2026-11-01",
-        "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeDhwSMcoB4rm_uUZOsAQpB-GLu25WtlsCFIq97c6Ro-xxx9Q/viewform?usp=preview",
-        "applyLabel": "オープンスクール申込み",
-        "evidence": "23日(金) 】 オープンスクール 第2回オープンスクール（学校説明会） 【 2026年11月7日(土) 】 知的障がい生徒 自立支援コース 第2回自立支援コース授業見学 【 2026年12月11日(金) 13:30～】 ミニ学校見学会 第2回中学生ミニ学校見学会【 2026年12月12日(土) 】 クラブ体験会・見学"
+        "applyUrl": "https://sakai-higashi.ed.jp/news/page-2848/",
+        "applyLabel": "第2回 オープンスクールは定員につき申込みを締め切りました",
+        "evidence": "情報 学校説明会 オープンスクール 第2回オープンスクール（学校説明会） 【 2026年11月7日(土) 】 知的障がい生徒 自立支援コース 第2回自立支援コース授業見学 【 2026年12月11日(金) 13:30～】 ミニ学校見学会 第2回中学生ミニ学校見学会【 2026年12月12日(土) 】 クラブ体験会・見学"
       },
       "photos": [
         {
@@ -15030,11 +15023,18 @@
             "source": "https://www.otemon-js.ed.jp/"
           },
           {
-            "date": "2026-12-12",
-            "label": "授業体験",
+            "date": "2026-11-14",
+            "label": "プレテスト",
             "reservation": null,
             "confidence": "high",
-            "source": "https://www.otemon-js.ed.jp/posts/view/7753/"
+            "source": "https://www.otemon-js.ed.jp/posts/view/7761/"
+          },
+          {
+            "date": "2026-12-12",
+            "label": "プレテスト",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.otemon-js.ed.jp/posts/view/7761/"
           }
         ],
         "reservation": "required",
