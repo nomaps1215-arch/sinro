@@ -602,7 +602,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://kitasenri.ed.jp/student/",
-        "evidence": "ます。部活動は１３：３０頃より行っておりますので、体育館での説明会が不要な方は各自部活動見学を行っていただいても大丈夫です。 &nbsp; 申し込みは コチラ ←～１１月５日（木）まで &nbsp; 注意： Googleフォームは送信後「受付を完了しました」のメッセージが現れた時点で申し込み登録は完了しています 。メー"
+        "evidence": "ます。部活動は１３：３０頃より行っておりますので、体育館での説明会が不要な方は各自部活動見学を行っていただいても大丈夫です。 11月7日_ 部活動 活動予定表 申し込みは コチラ ←～１１月５日（木）まで &nbsp; 注意： Googleフォームは送信後「受付を完了しました」のメッセージが現れた時点で申し込み登録は完"
       },
       {
         "date": "2026-11-07",
@@ -669,8 +669,8 @@
         "label": "学校説明会",
         "reservation": null,
         "confidence": "high",
-        "source": "https://www2.osaka-c.ed.jp/suitahigashi/folder_0/post-111/",
-        "evidence": "事前に 公式Instagram やHPで告知します。 第２回学校説明会 12/12（土）実施の予約は11/4（水）15：00～ 開始します。 内容は 説明会 ※説明会の内容は第１回と同様です。 校舎見学 部活見学（実施しているク"
+        "source": "https://www2.osaka-c.ed.jp/suitahigashi/news/34973/",
+        "evidence": "第２回学校説明会について 2026/11/02 重要 第２回学校説明会について 12/12（土）実施の予約は11/4（水）15：00～ 開始します。 内容は 説明会 ※説明会の内容は第１回と同様です。 校舎見学 部活見学（実施しているク"
       }
     ],
     "apply": null,
@@ -2854,10 +2854,7 @@
         "evidence": "月４日 &nbsp; 春季入学者選抜 （４月入学） に関する学校説明会 （ 編入・転入 ） &nbsp;令和９年２月２５日（木） ・17時30分受付 ・18時00分開始 &nbsp;２月４日～２３日 問い合わせ先： 桃谷高等学校 定時制の課程 TEL：06-6712-"
       }
     ],
-    "apply": {
-      "url": "https://www2.osaka-c.ed.jp/momodani-p/news/34541",
-      "label": "2026/09/24 10/19第２回体験入学の申込を開始しました。"
-    },
+    "apply": null,
     "note": ""
   },
   {
@@ -3420,7 +3417,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://www.osakagakugei.ac.jp/senior/",
-        "evidence": "最新ニュース 入試トピックス 2026.10.26 入試 11月21日（土）入試説明会・オープンスクールのお知らせ（※要予約） 2026.10.26 クラブ 【吹奏楽部】吹奏楽部クラブ体験会特設ページ＜10/26更新＞ 202"
+        "evidence": "年度 英語 講師募集のお知らせ 2026.10.26 入試 11月21日（土）入試説明会・オープンスクールのお知らせ（※要予約） 2026.10.26 クラブ 【吹奏楽部】吹奏楽部クラブ体験会特設ページ＜10/26更新＞ 202"
       },
       {
         "date": "2026-11-28",
@@ -4069,11 +4066,11 @@
       },
       {
         "date": "2026-12-05",
-        "label": "入試説明会",
+        "label": "説明会",
         "reservation": null,
         "confidence": "high",
-        "source": "https://www.hs.fuksi-kagk-u.ac.jp/topics/news/2026/10/18/29187/",
-        "evidence": "bsp; &nbsp; 体験入学 11月15日（日） 学校・入試説明会 11月1日（日）、12月5日（土）、12月20日（日） に実施致します。 ご来校、お待ちしております。 &nbsp; 前の記事へ トピックス一覧へ 次の記事へ トピックスカテゴリー すべてのトピ"
+        "source": "https://www.hs.fuksi-kagk-u.ac.jp/topics/news/2026/11/02/29565/",
+        "evidence": "来校いただきました。 皆様のおかげをもちまして、活気に満ちた説明会になりました。 本校の魅力を感じていただけたのではないでしょうか。 ご来校いただき、ありがとうございました。 次回は １２月５日（土）１０時より第３回学校・入試説明会 を開催いたします。 そして １１月１５日（日） には 体験入学会 も開催いたします。 "
       },
       {
         "date": "2026-12-20",
@@ -4412,7 +4409,7 @@
       {
         "date": "2026-11-14",
         "label": "学校説明会",
-        "reservation": null,
+        "reservation": "required",
         "confidence": "high",
         "source": "https://www.kohs.ed.jp/information/38416/",
         "evidence": "校・学校説明会（11/14,12/5,12/19） 受付中 11月14日（土）・12月5日（土）・12月19日（土） に学校説明会を開催いたします（※すべて午前10時より開始です）。 学校説明会では学校紹介、入試や募集要項について説明を行います。そのあとは自由に校内見学"
@@ -4420,7 +4417,7 @@
       {
         "date": "2026-12-05",
         "label": "学校説明会",
-        "reservation": null,
+        "reservation": "required",
         "confidence": "high",
         "source": "https://www.kohs.ed.jp/information/38416/",
         "evidence": "校・学校説明会（11/14,12/5,12/19） 受付中 11月14日（土）・12月5日（土）・12月19日（土） に学校説明会を開催いたします（※すべて午前10時より開始です）。 学校説明会では学校紹介、入試や募集要項について説明を行います。そのあとは自由に校内見学"
@@ -4428,7 +4425,7 @@
       {
         "date": "2026-12-19",
         "label": "学校説明会",
-        "reservation": null,
+        "reservation": "required",
         "confidence": "high",
         "source": "https://www.kohs.ed.jp/information/38416/",
         "evidence": "校・学校説明会（11/14,12/5,12/19） 受付中 11月14日（土）・12月5日（土）・12月19日（土） に学校説明会を開催いたします（※すべて午前10時より開始です）。 学校説明会では学校紹介、入試や募集要項について説明を行います。そのあとは自由に校内見学"
@@ -5353,11 +5350,11 @@
     "id": "priv-school",
     "name": "PL学園高等学校",
     "website": "https://www.pl-gakuen.ac.jp/school/",
-    "reached": true,
-    "pages": 4,
+    "reached": false,
+    "pages": 0,
     "events": [],
     "apply": null,
-    "note": ""
+    "note": "取得できず（<urlopen error [Errno -3] Temporary failure in name resolution>）"
   },
   {
     "id": "priv-kashiwara",
@@ -5575,7 +5572,7 @@
     "name": "八洲学園高等学校",
     "website": "http://www.yashima.ac.jp/hs/",
     "reached": true,
-    "pages": 3,
+    "pages": 4,
     "events": [],
     "apply": null,
     "note": ""

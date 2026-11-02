@@ -2954,7 +2954,7 @@
         "checkedAt": "2026-11-02",
         "applyUrl": "https://forms.gle/giRQYeko5MgM3NDC7",
         "applyLabel": "申込フォーム",
-        "evidence": "ます。部活動は１３：３０頃より行っておりますので、体育館での説明会が不要な方は各自部活動見学を行っていただいても大丈夫です。 &nbsp; 申し込みは コチラ ←～１１月５日（木）まで &nbsp; 注意： Googleフォームは送信後「受付を完了しました」のメッセージが現れた時点で申し込み登録は完了しています 。メー"
+        "evidence": "ます。部活動は１３：３０頃より行っておりますので、体育館での説明会が不要な方は各自部活動見学を行っていただいても大丈夫です。 11月7日_ 部活動 活動予定表 申し込みは コチラ ←～１１月５日（木）まで &nbsp; 注意： Googleフォームは送信後「受付を完了しました」のメッセージが現れた時点で申し込み登録は完"
       },
       "photos": [
         {
@@ -3166,13 +3166,13 @@
             "label": "学校説明会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://www2.osaka-c.ed.jp/suitahigashi/folder_0/post-111/"
+            "source": "https://www2.osaka-c.ed.jp/suitahigashi/news/34973/"
           }
         ],
         "reservation": null,
-        "source": "https://www2.osaka-c.ed.jp/suitahigashi/folder_0/post-111/",
+        "source": "https://www2.osaka-c.ed.jp/suitahigashi/news/34973/",
         "checkedAt": "2026-11-02",
-        "evidence": "事前に 公式Instagram やHPで告知します。 第２回学校説明会 12/12（土）実施の予約は11/4（水）15：00～ 開始します。 内容は 説明会 ※説明会の内容は第１回と同様です。 校舎見学 部活見学（実施しているク"
+        "evidence": "第２回学校説明会について 2026/11/02 重要 第２回学校説明会について 12/12（土）実施の予約は11/4（水）15：00～ 開始します。 内容は 説明会 ※説明会の内容は第１回と同様です。 校舎見学 部活見学（実施しているク"
       }
     },
     {
@@ -13008,11 +13008,9 @@
             "source": "https://www2.osaka-c.ed.jp/momodani-p/folder_0/gakkou-setsumeikai/"
           }
         ],
-        "reservation": "required",
+        "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/momodani-p/folder_0/gakkou-setsumeikai/",
         "checkedAt": "2026-11-02",
-        "applyUrl": "https://www2.osaka-c.ed.jp/momodani-p/news/34541",
-        "applyLabel": "2026/09/24 10/19第２回体験入学の申込を開始しました。",
         "evidence": "しました &nbsp; 春季入学者選抜（４月入学） に関する学校説明会 （中卒・ 編入・転入 ） &nbsp;令和９年２月６日（土） ・12時00分受付 ・12時30分開始 ※通信制も同日開催 ①11時 ②14時30分 &nbsp;１月８日～２月４日 &nbsp; 春季入"
       },
       "photos": [
@@ -15401,7 +15399,7 @@
         "checkedAt": "2026-11-02",
         "applyUrl": "https://www.osakagakugei.ac.jp/senior/news/25191",
         "applyLabel": "7月23日（木）特別説明会のお知らせ（ダブルディプロマ・1年留学・グローバル・特",
-        "evidence": "最新ニュース 入試トピックス 2026.10.26 入試 11月21日（土）入試説明会・オープンスクールのお知らせ（※要予約） 2026.10.26 クラブ 【吹奏楽部】吹奏楽部クラブ体験会特設ページ＜10/26更新＞ 202"
+        "evidence": "年度 英語 講師募集のお知らせ 2026.10.26 入試 11月21日（土）入試説明会・オープンスクールのお知らせ（※要予約） 2026.10.26 クラブ 【吹奏楽部】吹奏楽部クラブ体験会特設ページ＜10/26更新＞ 202"
       },
       "admissionFee": {
         "amount": 230000,
@@ -18141,10 +18139,10 @@
           },
           {
             "date": "2026-12-05",
-            "label": "入試説明会",
+            "label": "説明会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://www.hs.fuksi-kagk-u.ac.jp/topics/news/2026/10/18/29187/"
+            "source": "https://www.hs.fuksi-kagk-u.ac.jp/topics/news/2026/11/02/29565/"
           },
           {
             "date": "2026-12-20",
@@ -19373,21 +19371,21 @@
           {
             "date": "2026-11-14",
             "label": "学校説明会",
-            "reservation": null,
+            "reservation": "required",
             "confidence": "high",
             "source": "https://www.kohs.ed.jp/information/38416/"
           },
           {
             "date": "2026-12-05",
             "label": "学校説明会",
-            "reservation": null,
+            "reservation": "required",
             "confidence": "high",
             "source": "https://www.kohs.ed.jp/information/38416/"
           },
           {
             "date": "2026-12-19",
             "label": "学校説明会",
-            "reservation": null,
+            "reservation": "required",
             "confidence": "high",
             "source": "https://www.kohs.ed.jp/information/38416/"
           }
