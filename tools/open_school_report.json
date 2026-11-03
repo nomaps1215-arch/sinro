@@ -2934,8 +2934,20 @@
     "website": "https://www2.osaka-c.ed.jp/toyonaka/",
     "reached": true,
     "pages": 3,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-11-21",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osaka-c.ed.jp/toyonaka/open-school.html",
+        "evidence": "説明会・体験授業 2026年10月24日（土） 開催終了 ②学校説明会・校舎見学会 2026年11月21日（土） 追加募集 ※中学3年生および保護者が対象です。（応募者多数の場合は抽選の可能性あり） 当日の様子"
+      }
+    ],
+    "apply": {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeA7IskaQGCsWcGllJxsFY-7oX7EVTqXozC0bSpr8dOLEUlkQ/viewform",
+      "label": "申込フォーム"
+    },
     "note": ""
   },
   {
@@ -3309,7 +3321,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www.otemon-js.ed.jp/",
-        "evidence": "026.10.27 入試情報 □高校入試□ GA/GSコース授業体験 11月4日(水)13:00 より参加お申込み受付開始！ 高校 NEW 2026.10.27 入試情報 ■中学入試■ 2027年度中学入試における特別措置 中"
+        "evidence": "026.10.27 入試情報 □高校入試□ GA/GSコース授業体験 11月4日(水)13:00 より参加お申込み受付開始！ 高校 2026.10.27 入試情報 ■中学入試■ 2027年度中学入試における特別措置 中学 20"
       },
       {
         "date": "2026-11-14",
@@ -3798,23 +3810,26 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-11-14",
-        "label": "入試説明会",
-        "reservation": null,
+        "date": "2026-12-05",
+        "label": "学校説明会",
+        "reservation": "none",
         "confidence": "high",
-        "source": "https://www.osakatoin.ed.jp/archives/23052/",
-        "evidence": "さまにご来校いただき、誠にありがとうございました。 次回は、11月14日(土)10：00から高校入試説明会を、12月5日(土)10:30から中学入試説明会を開催します。両説明会とも今年度の最終回となります。皆さまのご来校をお待ちしております。 前"
+        "source": "https://www.osakatoin.ed.jp/examination/meeting/",
+        "evidence": "覧ください。 申し込み後、当日会場へ直接お越しください。 ※１２月５日(土)の中学校説明会は中学入試プレテスト(小学６年生対象)と同時開催になります。 ※３月６日(土)の中学校説明会は中学入試ファーストプレテスト(小学５年生対象)"
       },
       {
-        "date": "2026-12-05",
-        "label": "入試説明会",
+        "date": "2027-03-06",
+        "label": "学校説明会",
         "reservation": null,
         "confidence": "high",
-        "source": "https://www.osakatoin.ed.jp/archives/23052/",
-        "evidence": "次回は、11月14日(土)10：00から高校入試説明会を、12月5日(土)10:30から中学入試説明会を開催します。両説明会とも今年度の最終回となります。皆さまのご来校をお待ちしております。 前の記事 入試一覧に戻る 次の記事 〒574-00"
+        "source": "https://www.osakatoin.ed.jp/examination/meeting/",
+        "evidence": "学入試プレテスト(小学６年生対象)と同時開催になります。 ※３月６日(土)の中学校説明会は中学入試ファーストプレテスト(小学５年生対象)と同時開催になります。 体験授業 小学4・5・6年生対象 日時 開始時間 会場 体験授業 （"
       }
     ],
-    "apply": null,
+    "apply": {
+      "url": "https://www.osakatoin.ed.jp/?p=19407",
+      "label": "お申込みはこちら"
+    },
     "note": ""
   },
   {
@@ -4413,6 +4428,14 @@
         "confidence": "high",
         "source": "https://www.kohs.ed.jp/information/38416/",
         "evidence": "校・学校説明会（11/14,12/5,12/19） 受付中 11月14日（土）・12月5日（土）・12月19日（土） に学校説明会を開催いたします（※すべて午前10時より開始です）。 学校説明会では学校紹介、入試や募集要項について説明を行います。そのあとは自由に校内見学"
+      },
+      {
+        "date": "2026-11-28",
+        "label": "学校説明会",
+        "reservation": "required",
+        "confidence": "high",
+        "source": "https://www.kohs.ed.jp/topics/39543/",
+        "evidence": "を味わっていただきました😋🥐 ⁡ さて、「第3回プレテスト＆学校説明会」を下記の日程で実施いたします📝📢 【11月28日（土）】※要申込 ⁡ 今年度最後の開催となりますので、ぜひたくさんのご参加をお待ちしております！💁‍♀️ ⁡ Instagramで投稿を見る TO"
       },
       {
         "date": "2026-12-05",
@@ -5342,11 +5365,11 @@
     "id": "priv-school",
     "name": "PL学園高等学校",
     "website": "https://www.pl-gakuen.ac.jp/school/",
-    "reached": false,
-    "pages": 0,
+    "reached": true,
+    "pages": 4,
     "events": [],
     "apply": null,
-    "note": "取得できず（<urlopen error [Errno -3] Temporary failure in name resolution>）"
+    "note": ""
   },
   {
     "id": "priv-kashiwara",

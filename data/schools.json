@@ -13435,7 +13435,24 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-11-21",
+            "label": "学校説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.osaka-c.ed.jp/toyonaka/open-school.html"
+          }
+        ],
+        "reservation": "required",
+        "source": "https://www.osaka-c.ed.jp/toyonaka/open-school.html",
+        "checkedAt": "2026-11-03",
+        "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeA7IskaQGCsWcGllJxsFY-7oX7EVTqXozC0bSpr8dOLEUlkQ/viewform",
+        "applyLabel": "申込フォーム",
+        "evidence": "説明会・体験授業 2026年10月24日（土） 開催終了 ②学校説明会・校舎見学会 2026年11月21日（土） 追加募集 ※中学3年生および保護者が対象です。（応募者多数の場合は抽選の可能性あり） 当日の様子"
+      }
     },
     {
       "id": "pref-senriseiun",
@@ -14993,7 +15010,7 @@
         "checkedAt": "2026-11-03",
         "applyUrl": "https://mirai-compass.net/usr/ototemaj/event/evtIndex.jsf",
         "applyLabel": "入試イベントのお申し込み",
-        "evidence": "026.10.27 入試情報 □高校入試□ GA/GSコース授業体験 11月4日(水)13:00 より参加お申込み受付開始！ 高校 NEW 2026.10.27 入試情報 ■中学入試■ 2027年度中学入試における特別措置 中"
+        "evidence": "026.10.27 入試情報 □高校入試□ GA/GSコース授業体験 11月4日(水)13:00 より参加お申込み受付開始！ 高校 2026.10.27 入試情報 ■中学入試■ 2027年度中学入試における特別措置 中学 20"
       }
     },
     {
@@ -17059,24 +17076,26 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-11-14",
-            "label": "入試説明会",
-            "reservation": null,
+            "date": "2026-12-05",
+            "label": "学校説明会",
+            "reservation": "none",
             "confidence": "high",
-            "source": "https://www.osakatoin.ed.jp/archives/23052/"
+            "source": "https://www.osakatoin.ed.jp/examination/meeting/"
           },
           {
-            "date": "2026-12-05",
-            "label": "入試説明会",
+            "date": "2027-03-06",
+            "label": "学校説明会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://www.osakatoin.ed.jp/archives/23052/"
+            "source": "https://www.osakatoin.ed.jp/examination/meeting/"
           }
         ],
-        "reservation": null,
-        "source": "https://www.osakatoin.ed.jp/archives/23052/",
+        "reservation": "none",
+        "source": "https://www.osakatoin.ed.jp/examination/meeting/",
         "checkedAt": "2026-11-03",
-        "evidence": "さまにご来校いただき、誠にありがとうございました。 次回は、11月14日(土)10：00から高校入試説明会を、12月5日(土)10:30から中学入試説明会を開催します。両説明会とも今年度の最終回となります。皆さまのご来校をお待ちしております。 前"
+        "applyUrl": "https://www.osakatoin.ed.jp/?p=19407",
+        "applyLabel": "お申込みはこちら",
+        "evidence": "覧ください。 申し込み後、当日会場へ直接お越しください。 ※１２月５日(土)の中学校説明会は中学入試プレテスト(小学６年生対象)と同時開催になります。 ※３月６日(土)の中学校説明会は中学入試ファーストプレテスト(小学５年生対象)"
       },
       "admissionFee": {
         "amount": 200000,
@@ -19374,6 +19393,13 @@
             "reservation": "required",
             "confidence": "high",
             "source": "https://www.kohs.ed.jp/information/38416/"
+          },
+          {
+            "date": "2026-11-28",
+            "label": "学校説明会",
+            "reservation": "required",
+            "confidence": "high",
+            "source": "https://www.kohs.ed.jp/topics/39543/"
           },
           {
             "date": "2026-12-05",
