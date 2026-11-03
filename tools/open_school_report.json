@@ -4937,14 +4937,6 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-11-02",
-        "label": "入試説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://senshin-gakuen.jp/",
-        "evidence": "line 185 なでしこ祭（文化祭） 学校行事 学校生活 2026年11月2日（月） 入試説明会が開催されました！ 入試情報 入試イベント お知らせ 2026年10月31日（土） 春高予選 結果 バレーボール部 クラブ活動 2026年1"
-      },
-      {
         "date": "2026-11-08",
         "label": "オープンスクール",
         "reservation": null,
@@ -5422,17 +5414,17 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-11-03",
-        "label": "オープンスクール",
+        "date": "2026-11-07",
+        "label": "個別相談会",
         "reservation": null,
         "confidence": "high",
-        "source": "https://poole.ed.jp/event/post-1323/",
-        "evidence": "】オープンスクール 11.3 （火） 9:30 【高等学校】オープンスクール 受付中 高校 スタンプラリーで校内を自由に散策して、お気に入りの場所を見つけて！ 日時 2026.11.3 （火） 9:30 対象 中学生女子と保護者 会場 本校 お知らせ 【202610271200更新】 １０月２７日（火）正午までのお申し"
+        "source": "https://poole.ed.jp/event/post-8132/",
+        "evidence": "11.7 （土） 9:30〜12:30 小学６年対象：１１月個別相談会【６組限定】 受付中 中学 小学６年生対象 日時 2026.11.7 （土） 9:30〜12:30 受付は11:00で終了します 対象 小学６年生の女子と保護者 会場 本校 お知らせ 【202611020930更新】"
       }
     ],
     "apply": {
-      "url": "https://mirai-compass.net/usr/oskplgkh/event/evtIndex.jsf",
-      "label": "申込フォームはこちら"
+      "url": "https://poole.ed.jp/event/post-1328/",
+      "label": "12.18 （金） 16:00〜17:30頃 【申込不要】 クリスマス・キャンド"
     },
     "note": ""
   },
