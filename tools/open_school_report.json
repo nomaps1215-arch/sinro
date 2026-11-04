@@ -661,7 +661,10 @@
         "evidence": "第２回学校説明会について 2026/11/02 重要 第２回学校説明会について 2026年12月12日(土) 開催 -内容- 説明会 ※説明会の内容は第１回と同様です。 校舎見学 部活見学（実施しているクラブのみ） 個別相談（希望者予約不要） とな"
       }
     ],
-    "apply": null,
+    "apply": {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdcvlc7mo15mVHnzFGm191tQtyNrIM8gOr9tEbQ_eaD484Law/viewform?usp=header",
+      "label": "第２回学校説明会予約フォーム"
+    },
     "note": ""
   },
   {
@@ -1476,7 +1479,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://otemae-hs.ed.jp/2026/11/04/11%e6%9c%8814%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a%e6%8a%bd%e9%81%b8%e7%b5%90%e6%9e%9c%e7%99%ba%e8%a1%a8/",
-        "evidence": "見学会抽選結果発表 2026年11月4日 253VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
+        "evidence": "見学会抽選結果発表 2026年11月4日 600VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
       }
     ],
     "apply": {
@@ -3354,12 +3357,36 @@
     "pages": 4,
     "events": [
       {
+        "date": "2026-11-10",
+        "label": "オープンスクール",
+        "reservation": "required",
+        "confidence": "high",
+        "source": "https://www.osakashs.ed.jp/open-school/31010/",
+        "evidence": "ォーム mirai-compass.net (申込フォームは11月10日(火)より表示します) オープンスクールの説明会後にクラブ体験見学を行う予定です。 見学・体験 の可能なクラブ【持ち物】 男子バスケットボール部【体操服、体育館シューズ】・女子バス"
+      },
+      {
+        "date": "2026-11-12",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osakashs.ed.jp/open-school/31010/",
+        "evidence": "0～) 【11月12日(木)より申し込み開始】 今年度最後のオープンスクールのお 申し込みを11/12(木)より受け付けます！最終回の全体説明会では入試ワンポイントアドバイスを行います。全体説明会(入試について、学校生活など)後に、講座体験やクラブ"
+      },
+      {
         "date": "2026-11-14",
         "label": "説明会",
         "reservation": null,
         "confidence": "high",
         "source": "https://www.osakashs.ed.jp/info/30884/",
         "evidence": "の中学生保護者対象学校説明会を以下の日程で実施致します。この説明会の最大の特徴は、小グループになって在校生・在校生の保護者・教員との対話をすることです。是非「？」問いを持ってご参加下さい。 日時 １１月１４日（土）１０時００分から１１時３０分（10分前にはお越し下さい。） 内容 前半は学校紹介、後半は在校生・教員・在校"
+      },
+      {
+        "date": "2026-12-12",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osakashs.ed.jp/open-school/31010/",
+        "evidence": "2/12)について 2026.11.04 第5回(最終回) オープンスクール 12月12 日 (土) 10:00～(受付9:00～) 【11月12日(木)より申し込み開始】 今年度最後のオープンスクールのお 申し込みを11/12(木)より受"
       }
     ],
     "apply": {
@@ -4424,7 +4451,7 @@
       {
         "date": "2026-11-14",
         "label": "学校説明会",
-        "reservation": "required",
+        "reservation": null,
         "confidence": "high",
         "source": "https://www.kohs.ed.jp/information/38416/",
         "evidence": "校・学校説明会（11/14,12/5,12/19） 受付中 11月14日（土）・12月5日（土）・12月19日（土） に学校説明会を開催いたします（※すべて午前10時より開始です）。 学校説明会では学校紹介、入試や募集要項について説明を行います。そのあとは自由に校内見学"
@@ -4440,7 +4467,7 @@
       {
         "date": "2026-12-05",
         "label": "学校説明会",
-        "reservation": "required",
+        "reservation": null,
         "confidence": "high",
         "source": "https://www.kohs.ed.jp/information/38416/",
         "evidence": "校・学校説明会（11/14,12/5,12/19） 受付中 11月14日（土）・12月5日（土）・12月19日（土） に学校説明会を開催いたします（※すべて午前10時より開始です）。 学校説明会では学校紹介、入試や募集要項について説明を行います。そのあとは自由に校内見学"
@@ -4448,7 +4475,7 @@
       {
         "date": "2026-12-19",
         "label": "学校説明会",
-        "reservation": "required",
+        "reservation": null,
         "confidence": "high",
         "source": "https://www.kohs.ed.jp/information/38416/",
         "evidence": "校・学校説明会（11/14,12/5,12/19） 受付中 11月14日（土）・12月5日（土）・12月19日（土） に学校説明会を開催いたします（※すべて午前10時より開始です）。 学校説明会では学校紹介、入試や募集要項について説明を行います。そのあとは自由に校内見学"
