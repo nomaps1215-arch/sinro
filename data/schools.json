@@ -6687,13 +6687,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-11-08",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://otemae-hs.ed.jp/2026/11/04/11%e6%9c%8814%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a%e6%8a%bd%e9%81%b8%e7%b5%90%e6%9e%9c%e7%99%ba%e8%a1%a8/"
-          },
-          {
             "date": "2026-11-14",
             "label": "学校見学会",
             "reservation": null,
@@ -6706,7 +6699,7 @@
         "checkedAt": "2026-11-05",
         "applyUrl": "https://otemae-hs.ed.jp/2026/11/02/11%e6%9c%888%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%8e%e5%a4%a7%e9%98%aa%e5%9f%8e%e3%81%ae%e8%a6%8b%e3%81%88%e3%82%8b%e6%95%99%e5%ae%a4%e3%81%a7%e5%ad%a6%e3%81%b3%e3%81%be%e3%81%9b%e3%82%93/",
         "applyLabel": "11月8日（日）『大阪城の見える教室で学びませんか？』申込者の皆さまへ",
-        "evidence": "徒との交流会・各種部活動見学が可能です。 中学生の皆さんへ 11月8日（日）『大阪城の見える教室で学びませんか？』申込者の皆さまへ こちらの記事もどうぞ 学校説明会ご参加ありがとうございました 2017-12-19(Tue) J:COMテレビ学校説明会について 2023-01-16(Mon) 平成29年"
+        "evidence": "見学会抽選結果発表 2026年11月4日 919VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
       }
     },
     {
@@ -9117,24 +9110,7 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10",
-      "openSchool": {
-        "events": [
-          {
-            "date": "2026-11-18",
-            "label": "進学説明会",
-            "reservation": "required",
-            "confidence": "high",
-            "source": "https://konan-zokei.jp/"
-          }
-        ],
-        "reservation": "required",
-        "source": "https://konan-zokei.jp/",
-        "checkedAt": "2026-11-05",
-        "applyUrl": "https://konan-zokei.jp/events/page-6779/",
-        "applyLabel": "11/18(水)授業見学会申し込みフォームをオープンしました 投稿日 2026年",
-        "evidence": "術系専門学校に関する情報提供はもちろん、大学見学バスツアーや進学説明会、進路ガイダンスなど、一人ひとりの進路実現に向けたサポートを丁寧に行っています。 詳しくはこちら NEWS お知らせ 11/18(水)授業見学会申し込みフォームをオープンしました 投稿日 2026年10月16日 11/7(土)秋季実技講習会の申し込み"
-      }
+      "photoFetchedAt": "2026-09-10"
     },
     {
       "id": "pref-osaka-city-ib",
@@ -18617,7 +18593,7 @@
         "checkedAt": "2026-11-05",
         "applyUrl": "https://kinran.ed.jp/entry-events/event-48479/",
         "applyLabel": "受付中 12.5（土） 12月5日 中学入試 直前講座 › 申し込む",
-        "evidence": "s &amp; Topics イベント情報 【受付スタート】11/13(金)イブニング説明会 2026年10月29日 イベント情報 【締切】2027年度中学入試「プレテスト」10/10・11/3 2026年10月3日 イベント情報"
+        "evidence": "News &amp; Topics イベント情報 【受付中】11/13(金)イブニング説明会 2026年10月29日 イベント情報 【受付中】11/14(土)高校オープンスクール 2026年9月30日 イベント情報 【受付スタート】"
       },
       "admissionFee": {
         "amount": 200000,

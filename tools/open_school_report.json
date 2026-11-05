@@ -1486,20 +1486,12 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-11-08",
-        "label": "学校説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://otemae-hs.ed.jp/2026/11/04/11%e6%9c%8814%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a%e6%8a%bd%e9%81%b8%e7%b5%90%e6%9e%9c%e7%99%ba%e8%a1%a8/",
-        "evidence": "徒との交流会・各種部活動見学が可能です。 中学生の皆さんへ 11月8日（日）『大阪城の見える教室で学びませんか？』申込者の皆さまへ こちらの記事もどうぞ 学校説明会ご参加ありがとうございました 2017-12-19(Tue) J:COMテレビ学校説明会について 2023-01-16(Mon) 平成29年"
-      },
-      {
         "date": "2026-11-14",
         "label": "学校見学会",
         "reservation": null,
         "confidence": "high",
         "source": "https://otemae-hs.ed.jp/2026/11/04/11%e6%9c%8814%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a%e6%8a%bd%e9%81%b8%e7%b5%90%e6%9e%9c%e7%99%ba%e8%a1%a8/",
-        "evidence": "見学会抽選結果発表 2026年11月4日 752VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
+        "evidence": "見学会抽選結果発表 2026年11月4日 919VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
       }
     ],
     "apply": {
@@ -1989,20 +1981,8 @@
     "website": "https://konan-zokei.jp/",
     "reached": true,
     "pages": 4,
-    "events": [
-      {
-        "date": "2026-11-18",
-        "label": "進学説明会",
-        "reservation": "required",
-        "confidence": "high",
-        "source": "https://konan-zokei.jp/",
-        "evidence": "術系専門学校に関する情報提供はもちろん、大学見学バスツアーや進学説明会、進路ガイダンスなど、一人ひとりの進路実現に向けたサポートを丁寧に行っています。 詳しくはこちら NEWS お知らせ 11/18(水)授業見学会申し込みフォームをオープンしました 投稿日 2026年10月16日 11/7(土)秋季実技講習会の申し込み"
-      }
-    ],
-    "apply": {
-      "url": "https://konan-zokei.jp/events/page-6779/",
-      "label": "11/18(水)授業見学会申し込みフォームをオープンしました 投稿日 2026年"
-    },
+    "events": [],
+    "apply": null,
     "note": ""
   },
   {
@@ -4249,7 +4229,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://kinran.ed.jp/",
-        "evidence": "s &amp; Topics イベント情報 【受付スタート】11/13(金)イブニング説明会 2026年10月29日 イベント情報 【締切】2027年度中学入試「プレテスト」10/10・11/3 2026年10月3日 イベント情報"
+        "evidence": "News &amp; Topics イベント情報 【受付中】11/13(金)イブニング説明会 2026年10月29日 イベント情報 【受付中】11/14(土)高校オープンスクール 2026年9月30日 イベント情報 【受付スタート】"
       },
       {
         "date": "2026-11-14",
@@ -4257,7 +4237,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://kinran.ed.jp/",
-        "evidence": "0・11/3 2026年10月3日 イベント情報 【受付中】11/14(土)高校オープンスクール 2026年9月30日 イベント情報 【受付スタート】高校入試説明会 2026年9月29日 イベント情報 【受付スタート】12/5(月)中学"
+        "evidence": "ング説明会 2026年10月29日 イベント情報 【受付中】11/14(土)高校オープンスクール 2026年9月30日 イベント情報 【受付スタート】高校入試説明会 2026年9月29日 イベント情報 【受付スタート】12/5(月)中学"
       }
     ],
     "apply": {
@@ -5528,11 +5508,11 @@
     "id": "priv-mino-jiyu",
     "name": "箕面自由学園高等学校",
     "website": "https://mino-jiyu.ed.jp/",
-    "reached": true,
-    "pages": 3,
+    "reached": false,
+    "pages": 0,
     "events": [],
     "apply": null,
-    "note": ""
+    "note": "取得できず（The read operation timed out）"
   },
   {
     "id": "priv-meijo",
