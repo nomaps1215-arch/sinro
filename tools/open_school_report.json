@@ -611,11 +611,31 @@
     "id": "pref-suita",
     "name": "大阪府立吹田高等学校",
     "website": "https://www.osaka-c.ed.jp/suita/",
-    "reached": false,
-    "pages": 0,
-    "events": [],
-    "apply": null,
-    "note": "取得できず（The read operation timed out）"
+    "reached": true,
+    "pages": 4,
+    "events": [
+      {
+        "date": "2026-12-19",
+        "label": "クラブ体験",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osaka-c.ed.jp/suita/orientation.html",
+        "evidence": "回学校説明会 ［受付フォーム] --> ［案内] --> ［クラブ体験・クラブ見学一覧] --> 2026年12月19日(土) AM 吹田高校 学校説明 選択(A:クラブ体験・B:施設案内) クラブ見学 個別相談 第4回学校説明会 ［受付フォーム] --> ［案内]"
+      },
+      {
+        "date": "2027-02-13",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osaka-c.ed.jp/suita/orientation.html",
+        "evidence": "A:クラブ体験・B:施設案内) クラブ見学 個別相談 第4回学校説明会 ［受付フォーム] --> ［案内] --> 2027年2月13日(土) 10:10-12:00 吹田高校 学校説明 校内散策 個別相談 ※今後、変更があった場合はこちらで案内します。 ※本校で行う説明会は、すべ"
+      }
+    ],
+    "apply": {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSduq5IywTqKWz5Eaf33PO8VTNALA5upJmj8n_vlqA1DFKTsrA/viewform",
+      "label": "申込フォーム"
+    },
+    "note": ""
   },
   {
     "id": "pref-suitahigashi",
@@ -1283,7 +1303,7 @@
     "name": "大阪府立枚岡樟風高等学校",
     "website": "https://www2.osaka-c.ed.jp/hiraokashofu",
     "reached": true,
-    "pages": 3,
+    "pages": 4,
     "events": [
       {
         "date": "2026-11-21",
@@ -1320,11 +1340,39 @@
     "id": "pref-fusekita",
     "name": "大阪府立布施北高等学校",
     "website": "https://www.osaka-c.ed.jp/fusekita/",
-    "reached": false,
-    "pages": 0,
-    "events": [],
-    "apply": null,
-    "note": "取得できず（The read operation timed out）"
+    "reached": true,
+    "pages": 3,
+    "events": [
+      {
+        "date": "2026-11-11",
+        "label": "学校説明会",
+        "reservation": "required",
+        "confidence": "high",
+        "source": "https://www.osaka-c.ed.jp/fusekita/junior/session.html",
+        "evidence": "、決定次第こちらでお知らせいたします。 --> 下記の要領で学校説明会を実施いたします。 参加をご希望の方は こちら からお申し込みください。 なお、WEB上からの申し込みは11月11日（水）17時までとさせていただきます。 ※移動等に配慮が必要な場合は、個別にご相談ください（TEL:06-6787-2666）。 第1"
+      },
+      {
+        "date": "2026-11-14",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osaka-c.ed.jp/fusekita/junior/session.html",
+        "evidence": "慮が必要な場合は、その際にご相談ください。 --> 第2回 学校説明会・体験授業 場所：本校 日時：令和8年11月14日（土）10時15分～12時30分（ 受付：9時45分～10時10分 ） ＜内容＞ 授業見学・体験授業（エンパワメントタイムの授業）・学校説明 ＜持"
+      },
+      {
+        "date": "2027-01-16",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osaka-c.ed.jp/fusekita/junior/session.html",
+        "evidence": "せください。 （TEL:06-6787-2666） ＜今後の説明会の予定＞ 第3回：令和9年1月16日（土） ※各回終了後から次回説明会にお申し込みいただけます。 Copyright&nbsp;&nbsp;c&nbsp;&nbsp;2015&nbs"
+      }
+    ],
+    "apply": {
+      "url": "https://forms.gle/puc3StyGkRAc8tBB9",
+      "label": "申込フォーム"
+    },
+    "note": ""
   },
   {
     "id": "pref-owa",
@@ -1435,7 +1483,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://otemae-hs.ed.jp/2026/11/04/11%e6%9c%8814%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a%e6%8a%bd%e9%81%b8%e7%b5%90%e6%9e%9c%e7%99%ba%e8%a1%a8/",
-        "evidence": "学会抽選結果発表 2026年11月4日 1027VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
+        "evidence": "学会抽選結果発表 2026年11月4日 1170VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
       }
     ],
     "apply": {
@@ -1480,6 +1528,22 @@
         "confidence": "high",
         "source": "https://www2.osaka-c.ed.jp/ichioka/news/34651/",
         "evidence": "オープンスクール(部活動体験)】 【第３回オープンスクール(部活動体験)】 →詳細は ≪コチラ≫ をご確認ください。 令和８年１１月１４日（土） ９：００～１７：００のうち、１～３時間程度 [申込方法]&nbsp; ＰＣまたはスマートフォンによりフォームから申し込んでください。 お申"
+      },
+      {
+        "date": "2026-12-12",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www2.osaka-c.ed.jp/ichioka/folder_0/post-25/",
+        "evidence": "日(土) 時間は部活動毎に 異なります 部活動体験 第4回 12月12日(土) 説明会・部活動見学・個別質問 第5回 2月13日(土) 説明会・個別質問 ※日程・時間・内容は変更になる可能性があります。 学校名を入れてください"
+      },
+      {
+        "date": "2027-02-13",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www2.osaka-c.ed.jp/ichioka/folder_0/post-25/",
+        "evidence": "12月12日(土) 説明会・部活動見学・個別質問 第5回 2月13日(土) 説明会・個別質問 ※日程・時間・内容は変更になる可能性があります。 学校名を入れてください 〒xxx-xxxx 住所を入れてください Tel: 0"
       }
     ],
     "apply": {
@@ -2104,19 +2168,11 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://www2.osaka-c.ed.jp/nagayoshi/folder/openschool3/",
-        "evidence": "第2回学校説明会(特別選抜)に、お申込みください。 第2回 12/12(土) 9:30～ 説明会・体験授業・部活動体験 第2回学校説明会(特別選抜)への 申込はこちらから 第2回学校説明会(特別選抜)への 公式LINEの登録はこちらから"
-      },
-      {
-        "date": "2027-01-09",
-        "label": "説明会",
-        "reservation": "none",
-        "confidence": "high",
-        "source": "https://www2.osaka-c.ed.jp/nagayoshi/folder/openschool3/",
-        "evidence": "※学校説明会の申込は、公式LINEからもできます 第3回 １/９(土) 10:00～ 説明会のみ 当日参加も可能です。 第3回学校説明会(特別選抜)への 申込はこちらから 学校名を入れてください 〒xxx-xxxx 住所を入れてくだ"
+        "evidence": "第2回学校説明会(特別選抜)に、お申込みください。 第2回 12/12(土) 9:30～ 説明会・体験授業・部活動体験 第2回学校説明会(特別選抜)は、定員に達したため、募集を締切りました。 第3回 １/９(土) 10:00～ 説明会の"
       }
     ],
     "apply": {
-      "url": "https://forms.gle/33VJYgiEFw4zYgue8",
+      "url": "https://forms.gle/xGguJbJYghhmFny96",
       "label": "申込フォーム"
     },
     "note": ""
@@ -2481,7 +2537,7 @@
       }
     ],
     "apply": {
-      "url": "https://sakai-higashi.ed.jp/news/page-2848/",
+      "url": "https://sakai-higashi.ed.jp/exam/events/openschool/page-2801/",
       "label": "第2回 オープンスクールは定員につき申込みを締め切りました"
     },
     "note": ""
@@ -2565,7 +2621,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www2.osaka-c.ed.jp/izumi-t/",
-        "evidence": "ion お知らせ 2026/10/16 【中学生・保護者】【令和８年11月14日（土）実施】第２回オープンスクールについて 2026/09/26 【中学生対象】【申込終了】【10/3（土）開催】ものづくりコンテストについて 2026/09/09 【緊急】"
+        "evidence": "らせ 2026/11/07 【受付終了】【中学生・保護者】【令和８年11月14日（土）実施】第２回オープンスクールについて 2026/09/26 【中学生対象】【申込終了】【10/3（土）開催】ものづくりコンテストについて 2026/09/09 【緊急】"
       },
       {
         "date": "2027-01-16",
@@ -3001,20 +3057,8 @@
     "website": "https://osaka-engei.ed.jp/",
     "reached": true,
     "pages": 4,
-    "events": [
-      {
-        "date": "2026-11-14",
-        "label": "体験入学",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://osaka-engei.ed.jp/information/page-21073/",
-        "evidence": "水）です。 申込みは、こちらよりお願いいたします。 こちら 体験入学会実施日は、１１月１４日（土） 受付 １３:００～１３:３０ 学校説明・授業体験 １３:３０～となっております。 &nbsp; Prev Next 一覧へ戻る アーカイブ"
-      }
-    ],
-    "apply": {
-      "url": "https://osaka-engei.ed.jp/information/page-21073/",
-      "label": "2026.10.20【お知らせ】第２回 体験入学会（１１月１４日）の申込みについ"
-    },
+    "events": [],
+    "apply": null,
     "note": ""
   },
   {
@@ -3282,17 +3326,25 @@
         "evidence": "子からも、受験に向けた関心の高さがうかがえました。 今後は、11月14日（土）・15日（日）に「第2回プレテストアドバイス会」、12月12日（土）に「入試直前得点力アップセミナー」を開催いたします。 プレテストアドバイス会では、本校オリジナルの成績帳票"
       },
       {
-        "date": "2026-12-12",
-        "label": "プレテスト",
+        "date": "2026-12-10",
+        "label": "入試説明会",
         "reservation": null,
         "confidence": "high",
-        "source": "https://www.otemon-js.ed.jp/posts/view/7761/",
-        "evidence": "4日（土）・15日（日）に「第2回プレテストアドバイス会」、12月12日（土）に「入試直前得点力アップセミナー」を開催いたします。 プレテストアドバイス会では、本校オリジナルの成績帳票をもとに、教員が個別に受験頂いたプレテストにアドバイスを行います。 受験生の皆さんが自信を持って入"
+        "source": "https://www.otemon-js.ed.jp/posts/view/7776/",
+        "evidence": "いません。データにてご提供いたします。 〇お申込み期限 ： 12月10日(木) 〇お申込み方法 ： 来校型または動画配信型をご選択ください ※本イベントと第1回入試説明会（9月12日開催)、第2回入試説明会(10月24日開催)はすべて同じ内容です。 ※上記ご注意をご確認の上、申込サイトの【第3回高校入試説明会"
+      },
+      {
+        "date": "2026-12-12",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.otemon-js.ed.jp/",
+        "evidence": "情報 NEW 2026.11.06 入試情報 □高校入試□ 12/12(土)第3回高校入試説明会 11月9日(月)10時頃 追加募集開始！ 高校 NEW 2026.11.01 入試情報 ■中学入試■ 本日「第2回プレテスト」および「第4"
       }
     ],
     "apply": {
       "url": "https://mirai-compass.net/usr/ototemaj/event/evtIndex.jsf",
-      "label": "プレテストアドバイス会、得点力アップセミナー 参加お申込み はこちら！"
+      "label": "入試イベントのお申し込み"
     },
     "note": ""
   },
@@ -3355,7 +3407,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://www.osaka-kaisei.ac.jp/exam/event/",
-        "evidence": "日（土） 第2回オープンスクール 10月25日（日） 第3回オープンスクール 11月29日（日） オープンスクール 予約フォーム 毎日学校見学 本校では予約制で毎日学校見学を実施しています。 中学生や保護者の方を対象に、本校の入試担当者"
+        "evidence": "日（土） 第2回オープンスクール 10月25日（日） 第3回オープンスクール 11月29日（日） オープンスクール 予約フォーム 入試説明会 学校説明や入試に関する説明、入試問題対策講座、個別相談などを行います。 ※予約は約1ヶ月前から"
       },
       {
         "date": "2026-12-05",
@@ -3363,7 +3415,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://www.osaka-kaisei.ac.jp/exam/event/",
-        "evidence": "行います。 ※予約は約1ヶ月前からの受付となります。 第1回入試説明会 12月5日（土） 第2回入試説明会 12月19日（土） 入試説明会 予約フォーム 学校外での入試相談会 令和８年 参加予定の相談会 令和８年に参加する相談会"
+        "evidence": "行います。 ※予約は約1ヶ月前からの受付となります。 第1回入試説明会 12月5日（土） 第2回入試説明会 12月19日（土） 入試説明会 予約フォーム 毎日学校見学 本校では予約制で毎日学校見学を実施しています。 中学生や保護"
       },
       {
         "date": "2026-12-19",
@@ -3371,7 +3423,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://www.osaka-kaisei.ac.jp/exam/event/",
-        "evidence": "受付となります。 第1回入試説明会 12月5日（土） 第2回入試説明会 12月19日（土） 入試説明会 予約フォーム 学校外での入試相談会 令和８年 参加予定の相談会 令和８年に参加する相談会につきましては、決定次第、随時ご案内い"
+        "evidence": "受付となります。 第1回入試説明会 12月5日（土） 第2回入試説明会 12月19日（土） 入試説明会 予約フォーム 毎日学校見学 本校では予約制で毎日学校見学を実施しています。 中学生や保護者の方を対象に、本校の入試担当者が1組"
       }
     ],
     "apply": {
@@ -3750,11 +3802,31 @@
     "id": "priv-dentsu",
     "name": "大阪電気通信大学高等学校",
     "website": "http://www.dentsu.ed.jp/",
-    "reached": false,
-    "pages": 0,
-    "events": [],
-    "apply": null,
-    "note": "robots.txt で拒否"
+    "reached": true,
+    "pages": 4,
+    "events": [
+      {
+        "date": "2026-11-14",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "http://www.dentsu.ed.jp/examination/recruitment/",
+        "evidence": "会 14:00～ 本校 2026年10月18日（日） 第2回入試説明会 10:00～ 2026年11月14日（土） 第3回入試説明会 10:00～ 2026年11月14日（土） 第4回入試説明会 14:00～ 2026年12月5日（土） 第5回入試説明会"
+      },
+      {
+        "date": "2026-12-05",
+        "label": "入試説明会",
+        "reservation": "required",
+        "confidence": "high",
+        "source": "http://www.dentsu.ed.jp/examination/recruitment/",
+        "evidence": "026年11月14日（土） 第4回入試説明会 14:00～ 2026年12月5日（土） 第5回入試説明会 14:00～ 中学生と保護者の方を対象としています。 体験入学 ※要事前予約 開催日 名称 時間 2026年7月25日（土） 第1回 午前"
+      }
+    ],
+    "apply": {
+      "url": "https://mirai-compass.net/usr/odentsuh/event/evtIndex.jsf",
+      "label": "「入試説明会のお申込みはこちら」"
+    },
+    "note": ""
   },
   {
     "id": "priv-osakatoin",
@@ -5066,14 +5138,6 @@
         "evidence": "/18（水） 【特別追加枠３】イブニング個別相談会 要予約 2026/11/7（土） 第2回プレテスト 要予約 2026/11/7（土） 第2回入試説明会 要予約 2026/11/21（土） 第3回入試説明会 要予約 高校 2026/11/1"
       },
       {
-        "date": "2026-11-18",
-        "label": "プレテスト",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.tokai-gyosei.ed.jp/exam/event/%e7%ac%ac2%e5%9b%9e%e3%83%97%e3%83%ac%e3%83%86%e3%82%b9%e3%83%88/",
-        "evidence": "DGs! TOP 入試情報サイト 中等部入試イベント 第2回プレテスト 中等部入試イベント 2026/11/18（水） 【特別追加枠３】イブニング個別相談会 2026/11/7（土） 第2回プレテスト 2026/11/7（土） 第2回入試説明会 2026/1"
-      },
-      {
         "date": "2026-11-21",
         "label": "入試説明会",
         "reservation": "required",
@@ -5090,10 +5154,7 @@
         "evidence": "/18（水） 【特別追加枠３】イブニング個別相談会 要予約 2026/11/28（土） 入試説明会 要予約 校長のひと息だより 学びの意味、これからの教育、そして子どもたちに伝えたいこと。校長としての思いや考えを、折々の出来事とともに発信"
       }
     ],
-    "apply": {
-      "url": "https://mirai-compass.net/usr/tgyoseij/common/login.jsf",
-      "label": "申し込みはこちら"
-    },
+    "apply": null,
     "note": ""
   },
   {
