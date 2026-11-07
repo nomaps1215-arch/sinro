@@ -312,7 +312,7 @@
         "reservation": null,
         "source": "https://www3.osaka-c.ed.jp/ichiritsu/",
         "checkedAt": "2026-11-07",
-        "evidence": "い言葉をいれてください。 Information お知らせ 2026/11/07 11/7(土)オープンスクール 当日にキャンセルされる場合について 2026/11/07 11/7(土)オープンスクール当日の時程と実施内容について【重要】 2026/1"
+        "evidence": "(土)オープンスクール 当日にキャンセルされる場合について 2026/11/07 11/7(土)オープンスクール当日の時程と実施内容について【重要】 2026/11/07 11/7(土)オープンスクール当日の受付と持ち物等について【重要】 2026/1"
       }
     },
     {
@@ -4642,14 +4642,14 @@
             "label": "説明会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://osaka-fukui.ed.jp/11-7%ef%bc%88%e5%9c%9f%ef%bc%89%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e3%80%80%e5%8f%82%e5%8a%a0%e4%ba%88%e5%ae%9a%e3%81%ae%e3%81%bf%e3%81%aa%e3%81%95%e3%82%93/"
+            "source": "https://osaka-fukui.ed.jp/%e7%ac%ac2%e5%9b%9e%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a%ef%bc%8812-12%ef%bc%89%e3%81%ae%e5%8f%97%e4%bb%98%e3%82%92%e9%96%8b%e5%a7%8b%e3%81%97%e3%81%be%e3%81%97%e3%81%9f/"
           },
           {
             "date": "2027-08-26",
             "label": "説明会",
             "reservation": "none",
             "confidence": "high",
-            "source": "https://osaka-fukui.ed.jp/11-7%ef%bc%88%e5%9c%9f%ef%bc%89%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e3%80%80%e5%8f%82%e5%8a%a0%e4%ba%88%e5%ae%9a%e3%81%ae%e3%81%bf%e3%81%aa%e3%81%95%e3%82%93/"
+            "source": "https://osaka-fukui.ed.jp/%e7%ac%ac2%e5%9b%9e%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a%ef%bc%8812-12%ef%bc%89%e3%81%ae%e5%8f%97%e4%bb%98%e3%82%92%e9%96%8b%e5%a7%8b%e3%81%97%e3%81%be%e3%81%97%e3%81%9f/"
           }
         ],
         "reservation": "none",
@@ -4657,7 +4657,7 @@
         "checkedAt": "2026-11-07",
         "applyUrl": "https://osaka-fukui.ed.jp/%e7%ac%ac1%e5%9b%9e%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a%ef%bc%8810-3%ef%bc%89%e7%94%b3%e8%be%bc%e5%8f%97%e4%bb%98%e3%82%92%e9%96%8b%e5%a7%8b%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%e3%80%82/",
         "applyLabel": "第1回学校説明会（10/3）申込受付を開始しました。",
-        "evidence": "実績 学校Blog お知らせ Information 一覧 2026.11.05 11/7（土）オープンスクール 参加予定のみなさんへ 2026.10.01 第2回オープンスクール(11/7）の受付を開始しました 2026.09.03 文化祭の案内 2"
+        "evidence": "12）の受付を開始しました 2026.11.05 お知らせ 11/7（土）オープンスクール 参加予定のみなさんへ 2026.10.01 お知らせ 第2回オープンスクール(11/7）の受付を開始しました 2026.09.03 お知ら"
       },
       "photos": [
         {
@@ -6680,13 +6680,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-11-08",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://otemae-hs.ed.jp/2026/11/04/11%e6%9c%8814%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a%e6%8a%bd%e9%81%b8%e7%b5%90%e6%9e%9c%e7%99%ba%e8%a1%a8/"
-          },
-          {
             "date": "2026-11-14",
             "label": "学校見学会",
             "reservation": null,
@@ -6699,7 +6692,7 @@
         "checkedAt": "2026-11-07",
         "applyUrl": "https://otemae-hs.ed.jp/2026/11/02/11%e6%9c%888%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%8e%e5%a4%a7%e9%98%aa%e5%9f%8e%e3%81%ae%e8%a6%8b%e3%81%88%e3%82%8b%e6%95%99%e5%ae%a4%e3%81%a7%e5%ad%a6%e3%81%b3%e3%81%be%e3%81%9b%e3%82%93/",
         "applyLabel": "11月8日（日）『大阪城の見える教室で学びませんか？』申込者の皆さまへ",
-        "evidence": "徒との交流会・各種部活動見学が可能です。 中学生の皆さんへ 11月8日（日）『大阪城の見える教室で学びませんか？』申込者の皆さまへ こちらの記事もどうぞ J:COMテレビ学校説明会について 2021-10-18(Mon) J:COM「中学３年生のためのテレビ学校説明会」 2023-10-23(Mon) R5第２回マスセ"
+        "evidence": "学会抽選結果発表 2026年11月4日 1478VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
       }
     },
     {
@@ -9124,7 +9117,22 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-11-07",
+            "label": "学校説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://konan-zokei.jp/school-blog/page-7918/"
+          }
+        ],
+        "reservation": null,
+        "source": "https://konan-zokei.jp/school-blog/page-7918/",
+        "checkedAt": "2026-11-07",
+        "evidence": "した 投稿日 2026年11月7日 カテゴリー 学校ブログ 11月7日（土）、学校説明会および秋季実技講習会を開催しました。 実技講習会では、本校造形科の教員が入試実技（デッサン・色彩）の指導を行い、作品制作のポイントや表現方法"
+      }
     },
     {
       "id": "pref-osaka-city-ib",
@@ -17131,7 +17139,7 @@
         "checkedAt": "2026-11-07",
         "applyUrl": "https://www.osakatoin.ed.jp/archives/23091/",
         "applyLabel": "2026.11.06 【申込】11/25(水)開催 中学校プロシードコース説明会",
-        "evidence": "育大会準々決勝（11月1日） 2026.11.06 【申込】11/25(水)開催 中学校プロシードコース説明会(ナイト説明会)・個別相談会のご案内(大阪産大梅田ｻﾃﾗｲﾄｷｬﾝﾊﾟｽ) 2026.11.05 【ラグビー部】第106回全国高等学校ラグビ"
+        "evidence": "育大会準々決勝（11月1日） 2026.11.06 【申込】11/25(水)開催 中学校プロシードコース説明会(ナイト説明会)・個別相談会のご案内(大阪産大梅田ｻﾃﾗｲﾄｷｬﾝﾊﾟｽ) お知らせ 学校全体 2026.11.06 中学 【申込】11/2"
       },
       "admissionFee": {
         "amount": 200000,
@@ -17544,13 +17552,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-11-07",
-            "label": "入試説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://kaimei.ed.jp/"
-          },
-          {
             "date": "2026-11-14",
             "label": "説明会",
             "reservation": null,
@@ -17577,7 +17578,7 @@
         "checkedAt": "2026-11-07",
         "applyUrl": "https://mirai-compass.net/usr/kaimeij/event/evtIndex.jsf",
         "applyLabel": "中学校イベント申込",
-        "evidence": "）開催｜「中学」授業見学会 2026-09-30 入試情報 11/７（土）開催｜「中学」入試説明会 2026-09-30 入試情報 11/７（土）開催｜「高校」入試説明会 2026-06-24 入試情報 令和９年度「高校１次」生徒募集要項"
+        "evidence": "）開催｜「中学」授業見学会 2026-10-07 入試情報 11/14（土）開催｜「中学」授業見学会 2026-10-07 入試情報 外部説明会（８月～11月開催分） 2026-06-24 入試情報 令和９年度「高校１次」生徒募集要項のお知らせ 2026-06-24 入試情報 令和９"
       },
       "admissionFee": {
         "amount": 200000,
@@ -19186,7 +19187,7 @@
         "checkedAt": "2026-11-07",
         "applyUrl": "https://mirai-compass.net/usr/koubungh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "じっくり直接個別に相談したい方 CONSULTATION 個別相談会 11/7 （土） 13:00〜16:00 予約受付中 11/14 （土） 13:00〜16:00 予約受付中 11/17 （火） 16:00〜19:00 予"
+        "evidence": "じっくり直接個別に相談したい方 CONSULTATION 個別相談会 11/7 （土） 13:00〜16:00 受付終了しました 11/14 （土） 13:00〜16:00 予約受付中 11/17 （火） 16:00〜19:0"
       },
       "admissionFee": {
         "amount": 200000,
@@ -21014,10 +21015,10 @@
           },
           {
             "date": "2026-11-21",
-            "label": "説明会",
+            "label": "入試説明会",
             "reservation": "required",
             "confidence": "high",
-            "source": "https://www.seifu.ac.jp/expl-junior/"
+            "source": "https://www.seifu.ac.jp/"
           },
           {
             "date": "2026-12-05",
@@ -22107,7 +22108,14 @@
         "events": [
           {
             "date": "2026-11-07",
-            "label": "プレテスト",
+            "label": "個別相談会",
+            "reservation": "required",
+            "confidence": "high",
+            "source": "https://www.tokai-gyosei.ed.jp/"
+          },
+          {
+            "date": "2026-11-18",
+            "label": "入試説明会",
             "reservation": "required",
             "confidence": "high",
             "source": "https://www.tokai-gyosei.ed.jp/"
@@ -22115,9 +22123,9 @@
           {
             "date": "2026-11-21",
             "label": "入試説明会",
-            "reservation": "required",
+            "reservation": null,
             "confidence": "high",
-            "source": "https://www.tokai-gyosei.ed.jp/"
+            "source": "https://www.tokai-gyosei.ed.jp/topics/%e4%b8%ad%e7%ad%89%e9%83%a8-%e7%ac%ac%ef%bc%92%e5%9b%9e%e5%85%a5%e8%a9%a6%e8%aa%ac%e6%98%8e%e4%bc%9a%e3%82%92%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%e3%80%82/"
           },
           {
             "date": "2026-11-28",
@@ -22130,7 +22138,7 @@
         "reservation": "required",
         "source": "https://www.tokai-gyosei.ed.jp/",
         "checkedAt": "2026-11-07",
-        "evidence": "/18（水） 【特別追加枠３】イブニング個別相談会 要予約 2026/11/7（土） 第2回プレテスト 要予約 2026/11/7（土） 第2回入試説明会 要予約 2026/11/21（土） 第3回入試説明会 要予約 高校 2026/11/1"
+        "evidence": "等部 2026/11/18（水） 【特別追加枠３】イブニング個別相談会 要予約 2026/11/7（土） 第2回プレテスト 要予約 2026/11/7（土） 第2回入試説明会 要予約 2026/11/21（土） 第3回入試説明会 要予約 高校"
       }
     },
     {
