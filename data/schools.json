@@ -3048,17 +3048,15 @@
           {
             "date": "2026-12-12",
             "label": "学校説明会",
-            "reservation": "none",
+            "reservation": null,
             "confidence": "high",
             "source": "https://www2.osaka-c.ed.jp/suitahigashi/news/34973/"
           }
         ],
-        "reservation": "none",
+        "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/suitahigashi/news/34973/",
         "checkedAt": "2026-11-08",
-        "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdcvlc7mo15mVHnzFGm191tQtyNrIM8gOr9tEbQ_eaD484Law/viewform?usp=header",
-        "applyLabel": "第２回学校説明会予約フォーム",
-        "evidence": "第２回学校説明会について 2026/11/02 重要 第２回学校説明会について 2026年12月12日(土) 開催 -内容- 説明会 ※説明会の内容は第１回と同様です。 校舎見学 部活見学（実施しているクラブのみ） 個別相談（希望者予約不要） とな"
+        "evidence": "第２回学校説明会について 2026/11/02 重要 第２回学校説明会について 2026年12月12日(土) 開催 第２回学校説明会の受付は定員数に達したため受付を終了しました。（11/8 17:18) 確認メールは11月下旬までに suitahi"
       }
     },
     {
@@ -6538,13 +6536,6 @@
       "openSchool": {
         "events": [
           {
-            "date": "2026-11-08",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://otemae-hs.ed.jp/2026/11/04/11%e6%9c%8814%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a%e6%8a%bd%e9%81%b8%e7%b5%90%e6%9e%9c%e7%99%ba%e8%a1%a8/"
-          },
-          {
             "date": "2026-11-14",
             "label": "学校見学会",
             "reservation": null,
@@ -6557,7 +6548,7 @@
         "checkedAt": "2026-11-08",
         "applyUrl": "https://otemae-hs.ed.jp/2026/11/02/11%e6%9c%888%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%8e%e5%a4%a7%e9%98%aa%e5%9f%8e%e3%81%ae%e8%a6%8b%e3%81%88%e3%82%8b%e6%95%99%e5%ae%a4%e3%81%a7%e5%ad%a6%e3%81%b3%e3%81%be%e3%81%9b%e3%82%93/",
         "applyLabel": "11月8日（日）『大阪城の見える教室で学びませんか？』申込者の皆さまへ",
-        "evidence": "徒との交流会・各種部活動見学が可能です。 中学生の皆さんへ 11月8日（日）『大阪城の見える教室で学びませんか？』申込者の皆さまへ こちらの記事もどうぞ 学校説明会ご参加ありがとうございました 2017-12-19(Tue) 【予告】R6学校見学会（１月１８日）の申込は抽選で行います 2024-12-1"
+        "evidence": "学会抽選結果発表 2026年11月4日 1686VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
       }
     },
     {
@@ -21106,13 +21097,6 @@
             "reservation": null,
             "confidence": "high",
             "source": "https://senshin-gakuen.jp/"
-          },
-          {
-            "date": "2026-12-12",
-            "label": "オープンスクール",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://senshin-gakuen.jp/nyusetsu261031/"
           }
         ],
         "reservation": "required",
