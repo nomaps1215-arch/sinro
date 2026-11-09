@@ -81,8 +81,8 @@
         "label": "学校説明会",
         "reservation": null,
         "confidence": "high",
-        "source": "https://www2.osaka-c.ed.jp/hirakata/folder_0/post-28/",
-        "evidence": "9年度入学者対象 「枚方高校学校説明会」実施予定 令和８年度学校説明会実施予定日 令和８年１０月２４日（土） 令和８年１１月１４日（土） 申込日 9月24日（木）16時から 枚方市内高等学校合同説明会 枚方市内高等学校 合同説明会.pdf （ポスター）未来に続く道.pdf 学"
+        "source": "https://www2.osaka-c.ed.jp/hirakata/",
+        "evidence": "学校名を入れてください Information お知らせ 2026/11/09 11月14日（土）学校説明会におけるクラブ体験について（お知らせ） 2026/10/19 10月24日（土）学校説明会におけるクラブ体験について（お知らせ） 2026/"
       }
     ],
     "apply": null,
@@ -310,7 +310,7 @@
     "name": "大阪府立河南高等学校",
     "website": "https://www.osaka-c.ed.jp/kanan/",
     "reached": true,
-    "pages": 3,
+    "pages": 4,
     "events": [],
     "apply": null,
     "note": ""
@@ -1194,7 +1194,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www2.osaka-c.ed.jp/hiraokashofu/",
-        "evidence": "nformation お知らせ 2026/10/21 第１回学校説明会について(令和８年11月21日（土）開催) 2026/09/14 中学生・近隣の園児児童・卒業生のみなさまへ 樟風祭ご招待のお知らせ 2026/09/14 樟風祭2026 開催"
+        "evidence": "ご来場ありがとうございました！ 2026/10/21 第１回学校説明会について(令和８年11月21日（土）開催) 2026/09/10 緊急時の対応について お知らせ一覧 Blog ブログ 2026/10/26 大阪府立枚岡樟風高等学校ブログ 2"
       },
       {
         "date": "2026-12-19",
@@ -1357,7 +1357,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://otemae-hs.ed.jp/2026/11/04/11%e6%9c%8814%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a%e6%8a%bd%e9%81%b8%e7%b5%90%e6%9e%9c%e7%99%ba%e8%a1%a8/",
-        "evidence": "学会抽選結果発表 2026年11月4日 1686VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
+        "evidence": "学会抽選結果発表 2026年11月4日 1768VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
       }
     ],
     "apply": {
@@ -1517,7 +1517,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://obf-hs.com/",
-        "evidence": "8年10月31日(土) 10:30～16:00 Vol.4 令和8年12月12日(土) 10:00～12:00 オープンスクール情報 入学者選抜情報 ,1,google01,{\"servicetype\":\"1\",\"designid\":\"google01\",\"domei"
+        "evidence": "土) 10:30～16:00 ＝終了しました＝ Vol.4 令和8年12月12日(土) 10:00～12:00 オープンスクール情報 入学者選抜情報 ,1,google01,{\"servicetype\":\"1\",\"designid\":\"google01\",\"domei"
       },
       {
         "date": "2027-02-12",
@@ -1694,20 +1694,8 @@
     "website": "https://www.osaka-c.ed.jp/yodogawa-t/",
     "reached": true,
     "pages": 2,
-    "events": [
-      {
-        "date": "2026-11-08",
-        "label": "学校説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.osaka-c.ed.jp/yodogawa-t/",
-        "evidence": "目的室にて &nbsp;&nbsp;&nbsp;&nbsp;令和８年１１月８日（日）本校体育館にて --> &nbsp;&nbsp;&nbsp;&nbsp; 淀工学校説明会 4/27(月)up【大阪府公立高校進学フェア2027】のご案内 &nbsp;&nbsp;&nbsp;&nbsp;令和８年７月２６日（日）イ"
-      }
-    ],
-    "apply": {
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSciUHkD9VlmYK6kbBFibah24EGgxU-g2kIvMsZ9Jy3NWC0U4g/viewform?usp=sf_link",
-      "label": "申込フォーム"
-    },
+    "events": [],
+    "apply": null,
     "note": ""
   },
   {
@@ -2467,8 +2455,8 @@
       }
     ],
     "apply": {
-      "url": "https://izumi-hs.ed.jp/for-junior/open-school/page-2322/",
-      "label": "「学校説明会＋」へのお申込みを開始します！ 11/14(土)、11/28(土)の"
+      "url": "https://izumi-hs.ed.jp/for-junior/open-school/page-2339/",
+      "label": "「学校説明会＋（プラス）」お申し込み終了のお知らせ 「学校説明会＋（プラス）」は"
     },
     "note": ""
   },
@@ -3229,7 +3217,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://www.osakagakugei.ac.jp/senior/",
-        "evidence": "年度 英語 講師募集のお知らせ 2026.10.26 入試 11月21日（土）入試説明会・オープンスクールのお知らせ（※要予約） 2026.10.26 クラブ 【吹奏楽部】吹奏楽部クラブ体験会特設ページ＜10/26更新＞ 202"
+        "evidence": "年度 英語 講師募集のお知らせ 2026.10.26 入試 11月21日（土）入試説明会・オープンスクールのお知らせ（※要予約） 2026.10.21 TOPICS 校外学習 2026.10.16 TOPICS 令和8年度後期始"
       },
       {
         "date": "2026-11-28",
@@ -3237,7 +3225,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://www.osakagakugei.ac.jp/senior/",
-        "evidence": "最新ニュース 入試トピックス 2026.11.07 入試 11月28日（土）・12月5日（土）個別相談会のお知らせ（※要予約） 2026.11.06 国際教育 【国際科】韓国忠州商業高校との交流 2026.11.06 クラブ 【陸上競技部（男女"
+        "evidence": "験会特設ページ＜11/9更新＞ 2026.11.07 入試 11月28日（土）・12月5日（土）個別相談会のお知らせ（※要予約） 2026.11.06 国際教育 【国際科】韓国忠州商業高校との交流 2026.11.06 クラブ 【陸上競技部（男女"
       },
       {
         "date": "2026-12-05",
@@ -3245,7 +3233,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://www.osakagakugei.ac.jp/senior/",
-        "evidence": "最新ニュース 入試トピックス 2026.11.07 入試 11月28日（土）・12月5日（土）個別相談会のお知らせ（※要予約） 2026.11.06 国際教育 【国際科】韓国忠州商業高校との交流 2026.11.06 クラブ 【陸上競技部（男女"
+        "evidence": "験会特設ページ＜11/9更新＞ 2026.11.07 入試 11月28日（土）・12月5日（土）個別相談会のお知らせ（※要予約） 2026.11.06 国際教育 【国際科】韓国忠州商業高校との交流 2026.11.06 クラブ 【陸上競技部（男女"
       }
     ],
     "apply": {
@@ -3607,7 +3595,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "http://www.osakatoin.ed.jp/",
-        "evidence": "育大会準々決勝（11月1日） 2026.11.06 【申込】11/25(水)開催 中学校プロシードコース説明会(ナイト説明会)・個別相談会のご案内(大阪産大梅田ｻﾃﾗｲﾄｷｬﾝﾊﾟｽ) お知らせ 学校全体 2026.11.06 中学 【申込】11/2"
+        "evidence": "） お知らせ 学校全体 2026.11.06 中学 【申込】11/25(水)開催 中学校プロシードコース説明会(ナイト説明会)・個別相談会のご案内(大阪産大梅田ｻﾃﾗｲﾄｷｬﾝﾊﾟｽ) 2026.11.05 中学 【申込】12/5(土)開催 中学校入"
       },
       {
         "date": "2026-12-05",
@@ -3620,7 +3608,7 @@
     ],
     "apply": {
       "url": "https://www.osakatoin.ed.jp/archives/23091/",
-      "label": "2026.11.06 【申込】11/25(水)開催 中学校プロシードコース説明会"
+      "label": "2026.11.06 中学 【申込】11/25(水)開催 中学校プロシードコース"
     },
     "note": ""
   },
@@ -3641,14 +3629,6 @@
     "reached": true,
     "pages": 4,
     "events": [
-      {
-        "date": "2026-11-08",
-        "label": "オープンスクール",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.osakaryokuryo.ed.jp/news/topics/8206/",
-        "evidence": "と本音トーク！」も行われ、大いに盛り上がりました。 今年度のオープンスクールは10/17(土)・11/8(日)の残り2回となっております。各コースの説明や体験授業、クラブ体験などを実施します。 体験授業は予約必須となりますのでお早めに予約をお願いしま"
-      },
       {
         "date": "2026-11-22",
         "label": "入試説明会",
@@ -4561,7 +4541,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www.osaka-seisho.ed.jp/",
-        "evidence": "]11/7(土)守口文化センターに星翔高校がうかがいます！ 2026.10.20 11/15(日)第2回オープンスクール 申込受付中！ 2026.10.01 第2校舎 大規模改修工事が完了しました！ 2026.09.09 気象警報発令時の臨時休校基準の変更につ"
+        "evidence": "port HTML5 video tag. 重要なお知らせ 2026.10.20 11/15(日)第2回オープンスクール 申込受付中！ 2026.10.01 第2校舎 大規模改修工事が完了しました！ 2026.09.09 気象警報発令時の臨時休校基準の変更につ"
       }
     ],
     "apply": {
@@ -4688,14 +4668,6 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-11-08",
-        "label": "オープンスクール",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://senshin-gakuen.jp/",
-        "evidence": "入試イベント お知らせ 2026年10月18日（日） 第３回オープンスクールが開催されました！ 入試情報 入試イベント お知らせ 2026年10月17日（土） 11/8（日）「第１ブロック 音楽会」開催のお知らせ♪ 吹奏楽部 コーラス部 クラブ活動 2026年10月17日（土） 3年生 校外学習（太秦映画村） 学"
-      },
-      {
         "date": "2026-11-28",
         "label": "オープンスクール",
         "reservation": null,
@@ -4813,19 +4785,19 @@
     "events": [
       {
         "date": "2026-11-18",
-        "label": "個別相談会",
-        "reservation": "required",
-        "confidence": "high",
-        "source": "https://www.tokai-gyosei.ed.jp/",
-        "evidence": "seiの雰囲気を体験してみませんか？ 入試イベント 中等部 2026/11/18（水） 【特別追加枠３】イブニング個別相談会 要予約 2026/11/7（土） 第2回プレテスト 要予約 2026/11/7（土） 第2回入試説明会 要予約 2026/11/21（土）"
-      },
-      {
-        "date": "2026-11-21",
         "label": "入試説明会",
         "reservation": "required",
         "confidence": "high",
         "source": "https://www.tokai-gyosei.ed.jp/",
-        "evidence": "第2回プレテスト 要予約 2026/11/7（土） 第2回入試説明会 要予約 2026/11/21（土） 第3回入試説明会 要予約 高校 2026/11/18（水） 【特別追加枠３】イブニング個別相談会 要予約 2026/11/28（土） 入試"
+        "evidence": "施しました 2026.09.05 中等部 入試 第１回中等部入試説明会を実施いたしました。 お知らせ一覧へ team Gyoseiの雰囲気を体験してみませんか？ 入試イベント 中等部 2026/11/18（水） 【特別追加枠３】イブニング個別相談会 要予約 2026/11/21（土） 第3回入試説明会 要予約 高校 2"
+      },
+      {
+        "date": "2026-11-21",
+        "label": "個別相談会",
+        "reservation": "required",
+        "confidence": "high",
+        "source": "https://www.tokai-gyosei.ed.jp/",
+        "evidence": "等部 2026/11/18（水） 【特別追加枠３】イブニング個別相談会 要予約 2026/11/21（土） 第3回入試説明会 要予約 高校 2026/11/18（水） 【特別追加枠３】イブニング個別相談会 要予約 2026/11/28（土） 入試"
       },
       {
         "date": "2026-11-28",
@@ -5117,7 +5089,15 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://higashiohtani.ac.jp/",
-        "evidence": "試イベント情報 個別相談会 2026. 11.07 （土） 個別相談会 2026. 11.14 （土） instagram YouTube News お知らせ ALL お知らせ 入試関連情報 行事 部活動 高大連携 2026.10.21 【入"
+        "evidence": "報公開 教員採用 大谷学園 ふるさと納税 入試イベント情報 個別相談会 2026. 11.14 （土） 個別相談会 2026. 11.21 （土） instagram YouTube News お知らせ ALL お知らせ 入試関連情報 行事"
+      },
+      {
+        "date": "2026-11-21",
+        "label": "個別相談会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://higashiohtani.ac.jp/",
+        "evidence": "試イベント情報 個別相談会 2026. 11.14 （土） 個別相談会 2026. 11.21 （土） instagram YouTube News お知らせ ALL お知らせ 入試関連情報 行事 部活動 高大連携 2026.10.21 【入"
       }
     ],
     "apply": null,
@@ -5213,7 +5193,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "http://www.meisei.ed.jp/",
-        "evidence": "NEWS &amp; TOPICS 最新情報 一覧を見る 2026.11.6 12/5(土) 第2回 高等学校入試説明会［11/14(土)10 : 00受付開始］ 2026.11.2 11/28(土) 第３回 中学校入試説明会［11/7(土)10 : 00受付"
+        "evidence": "ED Ed Student Talksの運営メンバー募集！ 2026.11.6 12/5(土) 第2回 高等学校入試説明会［11/14(土)10 : 00受付開始］ 2026.11.2 11/28(土) 第３回 中学校入試説明会［11/7(土)10 : 00受付"
       }
     ],
     "apply": {
