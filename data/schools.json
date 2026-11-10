@@ -3920,7 +3920,7 @@
         "checkedAt": "2026-11-10",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSd16Nd9gguvkUDcugzriQGZZygKqerqp6nJrvx3XMWfmoOKzg/viewform?usp=publish-editor",
         "applyLabel": "申込フォーム",
-        "evidence": "us Next 新着情報 2026年10月24日 NEW! 11/14(土)学校説明会予約受付中 2026年9月9日 【文芸部より】文化祭で配布した部誌に関するお知らせ。 2026年8月26日 文化祭の一般公開は9/5(土)で"
+        "evidence": "us Next 新着情報 2026年11月10日 NEW! 学校説明会11/14(土)午前がもうすぐ満席です。 2026年9月9日 【文芸部より】文化祭で配布した部誌に関するお知らせ。 2026年8月26日 文化祭の一般公開は"
       },
       "photos": [
         {
@@ -4906,8 +4906,8 @@
         "reservation": "required",
         "source": "https://yamamoto-shs.ed.jp/for-applicants/orientation/",
         "checkedAt": "2026-11-10",
-        "applyUrl": "https://yamamoto-shs.ed.jp/%e7%ac%ac%ef%bc%91%e5%9b%9e%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a11-14%e5%ae%9f%e6%96%bd%e7%94%b3%e3%81%97%e8%be%bc%e3%81%bf/",
-        "applyLabel": "2026.10.13 第１回学校説明会(11/14実施)申し込み（定員に達しまし",
+        "applyUrl": "https://yamamoto-shs.ed.jp/%e7%ac%ac%ef%bc%92%e5%9b%9e%e5%ad%a6%e6%a0%a1%e8%aa%ac%e6%98%8e%e4%bc%9a12-19%e5%ae%9f%e6%96%bd%e7%94%b3%e3%81%97%e8%be%bc%e3%81%bf%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/",
+        "applyLabel": "申込フォーム",
         "evidence": "情報 令和８年度学校説明会（本校主催） １０月２４日（土） 部活動体験見学会 １１月１４日（土） 第１回学校説明会 １２月１９日（土） 第２回学校説明会 １月１６日（土） 第３回学校説明会 ※ご参加申し込みの詳細等は、各日程約１か月前に"
       },
       "photos": [
@@ -6541,7 +6541,7 @@
         "checkedAt": "2026-11-10",
         "applyUrl": "https://otemae-hs.ed.jp/2026/11/02/11%e6%9c%888%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%8e%e5%a4%a7%e9%98%aa%e5%9f%8e%e3%81%ae%e8%a6%8b%e3%81%88%e3%82%8b%e6%95%99%e5%ae%a4%e3%81%a7%e5%ad%a6%e3%81%b3%e3%81%be%e3%81%9b%e3%82%93/",
         "applyLabel": "11月8日（日）『大阪城の見える教室で学びませんか？』申込者の皆さまへ",
-        "evidence": "学会抽選結果発表 2026年11月4日 1967VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
+        "evidence": "学会抽選結果発表 2026年11月4日 2074VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
       }
     },
     {
@@ -8302,6 +8302,8 @@
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/seijo-t/junior_high_students/open-school/",
         "checkedAt": "2026-11-10",
+        "applyUrl": "https://forms.gle/eUE5Rya96jQoji6z9",
+        "applyLabel": "申し込みフォーム",
         "evidence": "令和８年１０月３１日（土） 詳細はこちら(終了しました) 学校説明会 （申込み不要） 第１回 令和８年 １０月３１日（土） １３時００分～ ※授業公開日 第２回 令和８年 １１月２１日（土） １０時００分～ 第３回 令和８年 １２月 ７日（月） １４時００分～ 第４回 令和８年 １２月１９日（土） １０時００分～ 第５"
       }
     },
@@ -9617,23 +9619,6 @@
         "source": "みんなの高校情報",
         "url": "https://www.minkou.jp/hischool/school/review/825/",
         "fetchedAt": "2026-09-10"
-      },
-      "openSchool": {
-        "events": [
-          {
-            "date": "2026-12-12",
-            "label": "説明会",
-            "reservation": "required",
-            "confidence": "high",
-            "source": "https://www2.osaka-c.ed.jp/nagayoshi/folder/openschool3/"
-          }
-        ],
-        "reservation": "required",
-        "source": "https://www2.osaka-c.ed.jp/nagayoshi/folder/openschool3/",
-        "checkedAt": "2026-11-10",
-        "applyUrl": "https://forms.gle/xGguJbJYghhmFny96",
-        "applyLabel": "申込フォーム",
-        "evidence": "第2回学校説明会(特別選抜)に、お申込みください。 第2回 12/12(土) 9:30～ 説明会・体験授業・部活動体験 第2回学校説明会(特別選抜)は、定員に達したため、募集を締切りました。 第3回 １/９(土) 10:00～ 説明会の"
       },
       "photos": [
         {
