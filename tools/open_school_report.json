@@ -1349,12 +1349,20 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://otemae-hs.ed.jp/2026/11/04/11%e6%9c%8814%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a%e6%8a%bd%e9%81%b8%e7%b5%90%e6%9e%9c%e7%99%ba%e8%a1%a8/",
-        "evidence": "学会抽選結果発表 2026年11月4日 2136VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
+        "evidence": "学会抽選結果発表 2026年11月4日 2249VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
+      },
+      {
+        "date": "2026-12-06",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://otemae-hs.ed.jp/",
+        "evidence": "さまへ PTAより 台風や交通機関の延着等への対応 未分類 12月6日（日）体験型学校説明会「大阪城の見える教室で学びませんか」... 2026年11月11日 中学生の皆さんへ --> 11月14日（土）学校見学会抽選結果発表..."
       }
     ],
     "apply": {
       "url": "https://otemae-hs.ed.jp/2026/11/02/11%e6%9c%888%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%8e%e5%a4%a7%e9%98%aa%e5%9f%8e%e3%81%ae%e8%a6%8b%e3%81%88%e3%82%8b%e6%95%99%e5%ae%a4%e3%81%a7%e5%ad%a6%e3%81%b3%e3%81%be%e3%81%9b%e3%82%93/",
-      "label": "11月8日（日）『大阪城の見える教室で学びませんか？』申込者の皆さまへ"
+      "label": "11月8日（日）『大阪城の見える教室で学びませんか？』申込者の皆さまへ..."
     },
     "note": ""
   },
@@ -1564,7 +1572,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www2.osaka-c.ed.jp/higashiyodogawa/",
-        "evidence": "いて 2026/11/10 【中学生および保護者の皆さまへ】12月12日(土)学校説明会後、軽音楽部・吹奏楽部の体験入部を開催します！ 2026/10/30 【中学生および保護者の皆さまへ】 11月7日（土）開催 体験入学につい"
+        "evidence": "らせ 2026/11/11 【中学生および保護者の皆さまへ】12月12日(土)学校説明会後、軽音楽部・吹奏楽部の体験入部を開催します！ 2026/11/11 【中学生および保護者の皆さま】12月12日（土）開催 第2回 学校説明"
       },
       {
         "date": "2027-01-16",
@@ -3301,11 +3309,47 @@
     "id": "priv-kun-ei",
     "name": "大阪薫英女学院高等学校",
     "website": "https://www.kun-ei.jp/",
-    "reached": false,
-    "pages": 0,
-    "events": [],
-    "apply": null,
-    "note": "取得できず（<urlopen error [Errno 111] Connection refused>）"
+    "reached": true,
+    "pages": 4,
+    "events": [
+      {
+        "date": "2026-11-21",
+        "label": "プレテスト",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.kun-ei.jp/admission/jhs_events/",
+        "evidence": "）2026年10月10日(土) 8:45～12:45 （２）2026年11月21日(土) 8:45～12:45 プレテスト解説会（プレテスト参加者対象） （１）2026年10月24日(土) 13:00～14:30 （２）2026年12月5日(土) 13:00～1"
+      },
+      {
+        "date": "2026-11-28",
+        "label": "個別相談会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.kun-ei.jp/admission/jhs_events/",
+        "evidence": "00 2026年10月25日(日) 14:00～15:00 個別相談会 11月28日(土) 10:00～16:00 12月12日(土) 10:00～16:00 12月19日(土) 10:00～16:00 12月26日(土) 10:"
+      },
+      {
+        "date": "2026-12-05",
+        "label": "プレテスト",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.kun-ei.jp/admission/jhs_events/",
+        "evidence": "説明会 2026年9月19日(土) 10:00～12:00 2026年12月5日(土) 10:00～12:00 中学入試プレテスト （１）2026年10月10日(土) 8:45～12:45 （２）2026年11月21日(土) 8:45～12:45 プレテスト解説会（プレ"
+      },
+      {
+        "date": "2026-12-06",
+        "label": "オープンキャンパス",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.kun-ei.jp/admission/hs_events/",
+        "evidence": "00 2026年11月28日(土) 10:00～12:00 オープンキャンパスを兼ねます 2026年12月 6日(日) 10:00～12:00 2026年12月20日(日) 10:00～12:00 留学フェア 2026年7月20日(月・祝) 14:00～15"
+      }
+    ],
+    "apply": {
+      "url": "https://mirai-compass.net/usr/kuneij/event/evtIndex.jsf",
+      "label": "予約はこちら（ミライコンパスに移動します）"
+    },
+    "note": ""
   },
   {
     "id": "priv-kokusai-h-oiu",
@@ -3852,29 +3896,9 @@
     "name": "近畿大阪高等学校",
     "website": "https://koutoku.ac.jp/kinkiosaka/",
     "reached": true,
-    "pages": 4,
-    "events": [
-      {
-        "date": "2026-11-14",
-        "label": "オープンスクール",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://koutoku.ac.jp/kinkiosaka/news/20261026/",
-        "evidence": "ンスクールで、 あなたらしい高校生活を想像してみませんか？ 11月14日（土） ／ 11月29日（日） オープンスクールに申し込む → 午前の部 10:30～ ／ 午後の部 14:00～ YOUR NEXT STEP まだ知らない、 自分に合う学び方 がある。"
-      },
-      {
-        "date": "2026-11-29",
-        "label": "オープンスクール",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://koutoku.ac.jp/kinkiosaka/news/20261026/",
-        "evidence": "ンスクールで、 あなたらしい高校生活を想像してみませんか？ 11月14日（土） ／ 11月29日（日） オープンスクールに申し込む → 午前の部 10:30～ ／ 午後の部 14:00～ YOUR NEXT STEP まだ知らない、 自分に合う学び方 がある。"
-      }
-    ],
-    "apply": {
-      "url": "https://koutoku.ac.jp/kinkiosaka/guide/open/",
-      "label": "オープンスクールに申し込む →"
-    },
+    "pages": 3,
+    "events": [],
+    "apply": null,
     "note": ""
   },
   {
@@ -4705,8 +4729,20 @@
     "website": "http://www.tezuka-i-h.jp",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-12-05",
+        "label": "学校見学会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.tezuka-i-h.jp/admission/junior/",
+        "evidence": "ー(TEL:072-293-1416)までご連絡ください。 学校見学会 12月5日(土) 対象 小学4年･5年･6年生 時間 10：00～11：30 説明会＆体験プログラムで泉ヶ丘校を紹介します。 案内・お申込み プレテスト個別"
+      }
+    ],
+    "apply": {
+      "url": "https://mirai-compass.net/usr/tdymizmj/event/evtIndex.jsf",
+      "label": "申込フォーム"
+    },
     "note": ""
   },
   {
