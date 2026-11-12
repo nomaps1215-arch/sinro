@@ -2612,9 +2612,9 @@
         "reservation": "required",
         "source": "https://www.osaka-c.ed.jp/fujiidera-t/zennichi/info_session/index.html",
         "checkedAt": "2026-11-12",
-        "applyUrl": "https://docs.google.com/forms/d/1RQV5cWjlVSCmONIo1OsXpwg9ySjlgBZ5YkrtA_dHVwM/edit",
-        "applyLabel": "申込フォーム",
-        "evidence": ") ※各コース定員がありますので注意してください。 ◎第２回体験入学 開催日時 : 令和８年 １２月 １２日(土) １４:００～１６:００(受付 １３:３０～) ※参加申込みは、開催日の約１か月前に案内いたします。 【このページの内容に関するお問い合わせ"
+        "applyUrl": "https://www.osaka-c.ed.jp/fujiidera-t/zennichi/info_session/R8_taiken2.pdf",
+        "applyLabel": "【申し込みはこちら】",
+        "evidence": ") ※各コース定員がありますので注意してください。 ◎第２回体験入学⇒ 【申し込みはこちら】 開催日時 : 令和８年 １２月 １２日(土) １４:００～１６:００(受付 １３:３０～) ※各コース定員がありますので注意してください。 【このページの内容に関するお問い合わせ先】"
       },
       "photos": [
         {
@@ -4112,7 +4112,22 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-11-14",
+            "label": "学校説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www2.osaka-c.ed.jp/kasugaoka/"
+          }
+        ],
+        "reservation": null,
+        "source": "https://www2.osaka-c.ed.jp/kasugaoka/",
+        "checkedAt": "2026-11-12",
+        "evidence": "学校名を入れてください Information お知らせ 2026/11/12 11/14(土) 第2回学校説明会に参加される方へ（実施前連絡） 2026/11/10 第2回学校説明会/お問い合わせについて（26/11/10） 2026/10/19 第1"
+      }
     },
     {
       "id": "pref-hokusetsutsubasa",
@@ -5575,7 +5590,7 @@
           {
             "date": "2027-01-30",
             "label": "学校説明会",
-            "reservation": null,
+            "reservation": "required",
             "confidence": "high",
             "source": "https://www2.osaka-c.ed.jp/higashiosakamirai-t/folder_0/2026gakusetu/"
           }
@@ -5585,7 +5600,7 @@
         "checkedAt": "2026-11-12",
         "applyUrl": "https://www2.osaka-c.ed.jp/higashiosakamirai-t/news/34783",
         "applyLabel": "第四回学校説明会 申し込み受付中！",
-        "evidence": "） 文化祭・学校説明会→申し込みフォームは こちら 第４回 １１ ／１４（土） 学校説明会(授業見学、クラブ体験見学)→ 申し込みフォームは こちら 第５回 １２ ／１２（土） 学校説明会(授業見学 ) 第６回 １／３０（土） 学"
+        "evidence": "） 文化祭・学校説明会→申し込みフォームは こちら 第４回 １１ ／１４（土） 学校説明会(授業見学、クラブ体験見学)→ 申し込みフォームは こちら 第５回 １２ ／１２（土） 学校説明会(授業見学 )→ 申し込みフォームは こち"
       }
     },
     {
@@ -6531,7 +6546,7 @@
         "checkedAt": "2026-11-12",
         "applyUrl": "https://otemae-hs.ed.jp/2026/11/02/11%e6%9c%888%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%8e%e5%a4%a7%e9%98%aa%e5%9f%8e%e3%81%ae%e8%a6%8b%e3%81%88%e3%82%8b%e6%95%99%e5%ae%a4%e3%81%a7%e5%ad%a6%e3%81%b3%e3%81%be%e3%81%9b%e3%82%93/",
         "applyLabel": "11月8日（日）『大阪城の見える教室で学びませんか？』申込者の皆さまへ...",
-        "evidence": "学会抽選結果発表 2026年11月4日 2322VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
+        "evidence": "学会抽選結果発表 2026年11月4日 2434VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
       }
     },
     {
@@ -20557,12 +20572,10 @@
             "source": "https://www.osaka-seisho.ed.jp/"
           }
         ],
-        "reservation": "required",
+        "reservation": null,
         "source": "https://www.osaka-seisho.ed.jp/",
         "checkedAt": "2026-11-12",
-        "applyUrl": "https://www.osaka-seisho.ed.jp/topics/1551/",
-        "applyLabel": "2026.10.20 11/15(日)第2回オープンスクール 申込受付中！",
-        "evidence": "port HTML5 video tag. 重要なお知らせ 2026.10.20 11/15(日)第2回オープンスクール 申込受付中！ 2026.10.01 第2校舎 大規模改修工事が完了しました！ 2026.09.09 気象警報発令時の臨時休校基準の変更につ"
+        "evidence": "port HTML5 video tag. 重要なお知らせ 2026.11.12 11/15(日)「第2回オープンスクール（第3回学校説明会）」のため来校される皆さまへ 2026.10.01 第2校舎 大規模改修工事が完了しました！ 2026.09.09 気象警"
       },
       "admissionFee": {
         "amount": 200000,
