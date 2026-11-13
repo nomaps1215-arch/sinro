@@ -1346,7 +1346,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://otemae-hs.ed.jp/2026/11/04/11%e6%9c%8814%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a%e6%8a%bd%e9%81%b8%e7%b5%90%e6%9e%9c%e7%99%ba%e8%a1%a8/",
-        "evidence": "学会抽選結果発表 2026年11月4日 2434VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
+        "evidence": "学会抽選結果発表 2026年11月4日 2539VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
       },
       {
         "date": "2026-12-06",
@@ -1624,14 +1624,6 @@
     "pages": 2,
     "events": [
       {
-        "date": "2026-11-12",
-        "label": "オープンスクール",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.osaka-c.ed.jp/yodogawaseiryu/",
-        "evidence": "ューを開く 2020.XX.XX ここに文章を入力 --> 2026.11.11 11/12(木)午前9時～オープンスクール受付開始(10/31(土)実施分) 2026.9.1 令和８年度第１回学校運営協議会議事録掲載 2026.6.19 公式インスタグラムはじめ"
-      },
-      {
         "date": "2026-12-19",
         "label": "説明会",
         "reservation": null,
@@ -1645,7 +1637,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www.osaka-c.ed.jp/yodogawaseiryu/junior/open_school.html",
-        "evidence": "木)午前９時～１２月１５日(火)午前９時 申込はこちらから(１１月１２日(木)９時～受付) 申込後の確認はこちらから 申込のキャンセルはこちら 第３回 ２０２７年 １月９日（土) １３:３０～(説明会・授業体験) 2026年度 学校説明会実施日程（学校外の会場で実施） 現在、実施予定はありません。 その他、学校の情報で"
+        "evidence": "はこちらから 申込のキャンセルはこちら 第３回 ２０２７年 １月９日（土) １３:３０～(説明会・授業体験) 2026年度 学校説明会実施日程（学校外の会場で実施） 現在、実施予定はありません。 その他、学校の情報です 学校パンフレット"
       }
     ],
     "apply": {
@@ -2006,8 +1998,20 @@
     "website": "https://www2.osaka-c.ed.jp/nagayoshi",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2027-01-09",
+        "label": "説明会",
+        "reservation": "none",
+        "confidence": "high",
+        "source": "https://www2.osaka-c.ed.jp/nagayoshi/folder/openschool3/",
+        "evidence": "sp; &nbsp;LINEのご登録はこちらから。 第3回 １/９(土) 10:00～ 説明会のみ 当日参加も可能です。 第3回学校説明会(特別選抜)への 申込はこちらから 学校名を入れてください 〒xxx-xxxx 住所を入れてくだ"
+      }
+    ],
+    "apply": {
+      "url": "https://forms.gle/ioSep2z3ASzFjcXa6",
+      "label": "申込フォーム"
+    },
     "note": ""
   },
   {
@@ -2056,8 +2060,20 @@
     "website": "https://www2.osaka-c.ed.jp/kanaoka",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2027-02-13",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www2.osaka-c.ed.jp/kanaoka/folder_0/post-22/",
+        "evidence": "ださい 学校説明会(学校説明以外に、施設見学があります。) 学校説明会 令和9年2月13日(土)午前 校外の金岡高校が参加する学校説明会のお知らせ 大阪府公立高校進学フェアー 7月26日(日) インテックス大阪 ⇒ ご来場ありがとうござ"
+      }
+    ],
+    "apply": {
+      "url": "https://forms.gle/Z3syxorCPwYHSjgw7",
+      "label": "申込フォーム"
+    },
     "note": ""
   },
   {
@@ -2257,8 +2273,20 @@
     "website": "https://sakai-t.ed.jp/",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-12-05",
+        "label": "学校見学会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://sakai-t.ed.jp/2026/11/13/%e5%ad%a6%e6%a0%a1%e8%a6%8b%e5%ad%a6%e4%bc%9a%ef%bc%8b%e9%80%b2%e5%ad%a6%e7%9b%b8%e8%ab%87%e4%bc%9a%e3%80%80%e7%94%b3%e3%81%97%e8%be%bc%e3%81%bf%e5%8f%97%e4%bb%98%e9%96%8b%e5%a7%8b/",
+        "evidence": "ouka/functions.php on line 73 １２月５（土）に実施する学校見学会＋進学相談会の受付を開始します！ 詳細、お申込みは こちらをクリック してください。 &nbsp; お知らせ 進学相談会は１月１６日（土）に"
+      }
+    ],
+    "apply": {
+      "url": "https://sakai-t.ed.jp/briefing/",
+      "label": "進学相談会へのお申込み"
+    },
     "note": ""
   },
   {
@@ -3125,20 +3153,12 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-11-12",
-        "label": "オープンスクール",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.osakashs.ed.jp/open-school/31010/",
-        "evidence": "0～) 【11月12日(木)より申し込み開始】 今年度最後のオープンスクールのお 申し込みを11/12(木)より受け付けます！最終回の全体説明会では入試ワンポイントアドバイスを行います。全体説明会(入試について、学校生活など)後に、講座体験やクラブ"
-      },
-      {
         "date": "2026-11-14",
-        "label": "説明会",
+        "label": "学校説明会",
         "reservation": null,
         "confidence": "high",
         "source": "https://www.osakashs.ed.jp/info/31083/",
-        "evidence": "師（探究コース長・担任）が皆さんの質問にお答えします。 この説明会の最大の特徴は、小グループになって在校生・在校生の保護者・教員との対話をすることです。「？」を持ってご参加下さい。 日時 １１月１４日（土）１０時００分から１１時３０分（10分前にはお越し下さい。） 内容 前半は学校紹介、後半は在校生・教員・在校生の保護"
+        "evidence": "お知らせ 【探究コース対象】 11月14日中学生保護者対象学校説明会について 2026.11.13 11月14日（土）10時から、探究コースに特化した中学生保護者対象学校説明会を実施致します。 探究コースの生徒・保護者・教師（探究コース長・担任）が皆さんの質"
       },
       {
         "date": "2026-12-12",
@@ -3216,7 +3236,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://www.osakagakugei.ac.jp/senior/",
-        "evidence": "年度 英語 講師募集のお知らせ 2026.10.26 入試 11月21日（土）入試説明会・オープンスクールのお知らせ（※要予約） 2026.10.21 TOPICS 校外学習 2026.10.16 TOPICS 令和8年度後期始"
+        "evidence": "年度 英語 講師募集のお知らせ 2026.10.26 入試 11月21日（土）入試説明会・オープンスクールのお知らせ（※要予約） 2026.10.24 TOPICS 桃山学院大学との高大連携プログラムを実施 2026.10.21"
       },
       {
         "date": "2026-11-28",
@@ -3602,7 +3622,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "http://www.osakatoin.ed.jp/",
-        "evidence": "ﾃﾗｲﾄｷｬﾝﾊﾟｽ) 2026.11.05 中学 【申込】12/5(土)開催 中学校入試説明会のご案内 2026.11.03 中学 高校 令和８年度文化祭 一覧を見る Ⅰ類（＆中学） 2026.10.13 中学クラブ 高校Ⅰ類クラブ"
+        "evidence": "ﾃﾗｲﾄｷｬﾝﾊﾟｽ) 2026.11.05 中学 【申込】12/5(土)開催 中学校入試説明会のご案内 2026.11.03 中学 高校 令和８年度文化祭 一覧を見る Ⅰ類（＆中学） 2026.11.13 中学クラブ 高校Ⅰ類クラブ"
       }
     ],
     "apply": {
@@ -3898,7 +3918,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://sis.kwansei.ac.jp/events/00027.html",
-        "evidence": "お問い合せ Upcoming Events イベント情報 学校見学会（キャンパスツアー）＆ワークショップ同時開催 日付 12月12日（土）10:00～ 場所 関西学院千里国際中等部・高等部 申込 要 申し込み開始前 学校見学会（キャンパスツアー）とCreativity Work"
+        "evidence": "ing Events イベント情報 （延期になりました）→ 学校見学会（キャンパスツアー）＆ワークショップ 日付 12月12日（土）10:00～ 場所 関西学院千里国際中等部・高等部 申込 要 （延期）申し込み開始前 諸般の事情により、イベントは延期となりました。新しい日"
       }
     ],
     "apply": {
@@ -4072,11 +4092,11 @@
       },
       {
         "date": "2026-12-19",
-        "label": "個別相談会",
+        "label": "学校説明会",
         "reservation": null,
         "confidence": "high",
         "source": "https://www.kokoku.ed.jp/briefing/",
-        "evidence": "00〜16：00 9月19日（土） 13：00〜16：00 12月19日（土） 13：00〜16：00 内容 第1回 個別相談会＆学校見学 第2回 個別相談会＆学校見学 第3回 個別相談会＆学校見学 第4回 個別相談会＆学校見学 参加方法 6月20日（土） 終了いたし"
+        "evidence": "土） 終了いたしました 9月19日（土） 終了いたしました 12月19日（土） coming soon 学校説明会＆個別相談会 学校説明会は、主に入試対策のための説明会です。本校の教職員による受験生を対象にした入学試験のアドバイスや学校全体の詳細説明を行"
       }
     ],
     "apply": {
@@ -4702,10 +4722,7 @@
         "evidence": "た受験生と保護者のみなさまへ、合格への道筋を明確にする最後のオープンスクールを開催します。 不安を解消し、自信を持って受験を乗り越えるための情報を凝縮してお届けします。 開催日：2026年11月28日（土）14：00スタート（13：30 受付スタート） 場 所：相愛高等学校（Osaka Metro「本町」駅 2号出口す"
       }
     ],
-    "apply": {
-      "url": "https://www.soai.ed.jp/news/2026/10/2026-3.html",
-      "label": "文化祭2026申し込み締め切りについて"
-    },
+    "apply": null,
     "note": ""
   },
   {
@@ -5148,8 +5165,8 @@
       }
     ],
     "apply": {
-      "url": "https://poole.ed.jp/event/post-1328/",
-      "label": "12.18 （金） 16:00〜17:30頃 【申込不要】 クリスマス・キャンド"
+      "url": "https://poole.ed.jp/news/post-9305/",
+      "label": "2026.11.13 はたちの感謝礼拝の申し込みは今しばらくお待ちください。"
     },
     "note": ""
   },
@@ -5388,20 +5405,12 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-11-14",
-        "label": "オープンスクール",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.ymcagakuin.ac.jp/form/explanation/",
-        "evidence": "オープンスクール 学校説明会 ※中学3年生が対象 --> 【オープンスクール（中学生対象）】11月14日(土) 10時30分 ～ 12時30分 【最終回：オープンスクール（中学生対象）】12月05日(土) 10時30分 ～ 12時30分 【最終回：オ"
-      },
-      {
         "date": "2026-12-05",
         "label": "オープンスクール",
         "reservation": null,
         "confidence": "high",
         "source": "https://www.ymcagakuin.ac.jp/form/explanation/",
-        "evidence": "1月14日(土) 10時30分 ～ 12時30分 【最終回：オープンスクール（中学生対象）】12月05日(土) 10時30分 ～ 12時30分 【最終回：オープンスクール（中学生対象）】12月05日(土) 14時00分 ～ 16時00分 学校説明会"
+        "evidence": "スクール 学校説明会 ※中学3年生が対象 --> 【最終回：オープンスクール（中学生対象）】12月05日(土) 10時30分 ～ 12時30分 【最終回：オープンスクール（中学生対象）】12月05日(土) 14時00分 ～ 16時00分 学校説明会"
       }
     ],
     "apply": {
