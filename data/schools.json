@@ -3821,7 +3821,24 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-11-21",
+            "label": "学校説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://mishima-hs.ed.jp/"
+          }
+        ],
+        "reservation": "required",
+        "source": "https://mishima-hs.ed.jp/",
+        "checkedAt": "2026-11-13",
+        "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdMpCPyMHJycqr2Xmfuij5yONMRUjjsIA5U5KBuktaBygXGKg/viewform?usp=header",
+        "applyLabel": "申込フォーム",
+        "evidence": "クセス menu 新着情報 2026.11.13 お知らせ 11月21日（土）第2回学校説明会へお越しの方々へ 2026.11.04 お知らせ 令和8年度 第2回 大阪府立三島高等学校 学校運営協議会 開催 2026.10.22 お知"
+      }
     },
     {
       "id": "pref-tsukinoki",
@@ -6546,7 +6563,7 @@
         "checkedAt": "2026-11-13",
         "applyUrl": "https://otemae-hs.ed.jp/2026/11/02/11%e6%9c%888%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%8e%e5%a4%a7%e9%98%aa%e5%9f%8e%e3%81%ae%e8%a6%8b%e3%81%88%e3%82%8b%e6%95%99%e5%ae%a4%e3%81%a7%e5%ad%a6%e3%81%b3%e3%81%be%e3%81%9b%e3%82%93/",
         "applyLabel": "11月8日（日）『大阪城の見える教室で学びませんか？』申込者の皆さまへ...",
-        "evidence": "学会抽選結果発表 2026年11月4日 2539VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
+        "evidence": "学会抽選結果発表 2026年11月4日 2906VIEWS 11月14日（土）開催の学校見学会に申込いただきありがとうございます。 申込多数につき抽選を行いましたので、以下に結果を発表いたします。希望いただいた時間帯以外で当選されてい"
       }
     },
     {
@@ -8655,7 +8672,7 @@
         "checkedAt": "2026-11-13",
         "applyUrl": "https://kogei-osaka.ed.jp/exam/opencampus/%e3%81%82%e3%82%8c%e3%81%93%e3%82%8c%e8%a6%8b%e5%ad%a6%ef%bc%882026%ef%bc%89/",
         "applyLabel": "オープンキャンパス 【終了】あれこれ見学 授業見学、作品展示、学校・学科説明会な",
-        "evidence": "9月12日（土） 申込期間：6月3日（水）〜9月4日（金） オープンキャンパス 【受付中】じっくり見学 興味のある学科の授業や実習室、生徒作品を見学 11月14日（土） 申込期間：6月3日（水）〜11月13日（金） オープンキャンパス 【受付中】実技講習会 基礎的描写・総合的表現にチャレンジ 12月25日（"
+        "evidence": "9月12日（土） 申込期間：6月3日（水）〜9月4日（金） オープンキャンパス 【終了】じっくり見学 興味のある学科の授業や実習室、生徒作品を見学 11月14日（土） 申込期間：6月3日（水）〜11月13日（金） オープンキャンパス 【受付中】実技講習会 基礎的描写・総合的表現にチャレンジ 12月25日（"
       },
       "photos": [
         {
@@ -18322,7 +18339,7 @@
             "label": "オープンスクール",
             "reservation": null,
             "confidence": "high",
-            "source": "https://kinran.ed.jp/"
+            "source": "https://kinran.ed.jp/event/48414/"
           }
         ],
         "reservation": "required",
@@ -18330,7 +18347,7 @@
         "checkedAt": "2026-11-13",
         "applyUrl": "https://kinran.ed.jp/entry-events/event-48479/",
         "applyLabel": "受付中 12.5（土） 12月5日 中学入試 直前講座 › 申し込む",
-        "evidence": "News &amp; Topics イベント情報 【受付中】11/13(金)イブニング説明会 2026年10月29日 イベント情報 【受付中】11/14(土)高校オープンスクール 2026年9月30日 イベント情報 【受付スタート】"
+        "evidence": "News &amp; Topics イベント情報 【受付中】11/13(金)イブニング説明会 2026年10月29日 イベント情報 【締切】11/14(土)高校オープンスクール 2026年9月30日 イベント情報 【受付中】高校入試"
       },
       "admissionFee": {
         "amount": 200000,
@@ -19155,21 +19172,21 @@
           {
             "date": "2026-11-14",
             "label": "学校説明会",
-            "reservation": null,
+            "reservation": "required",
             "confidence": "high",
             "source": "https://www.kohs.ed.jp/"
           },
           {
             "date": "2026-12-05",
             "label": "学校説明会",
-            "reservation": null,
+            "reservation": "required",
             "confidence": "high",
             "source": "https://www.kohs.ed.jp/information/38416/"
           },
           {
             "date": "2026-12-19",
             "label": "学校説明会",
-            "reservation": null,
+            "reservation": "required",
             "confidence": "high",
             "source": "https://www.kohs.ed.jp/information/38416/"
           }
