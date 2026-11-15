@@ -2903,7 +2903,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www.otemon-js.ed.jp/",
-        "evidence": "学 入試情報 2026.11.06 入試情報 □高校入試□ 12/12(土)第3回高校入試説明会 11月9日(月)10時頃 追加募集開始！ 高校 2026.11.01 入試情報 ■中学入試■ 本日「第2回プレテスト」および「第4回入試説"
+        "evidence": "校 入試情報 2026.11.06 入試情報 □高校入試□ 12/12(土)第3回高校入試説明会 11月9日(月)10時頃 追加募集開始！ 高校 2026.11.01 入試情報 ■中学入試■ 本日「第2回プレテスト」および「第4回入試説"
       }
     ],
     "apply": {
@@ -3064,7 +3064,7 @@
       {
         "date": "2026-12-15",
         "label": "個別相談会",
-        "reservation": null,
+        "reservation": "required",
         "confidence": "high",
         "source": "https://www.osakagyoko.ed.jp/opencampus/index.php",
         "evidence": "会 9/26 (土) 16時～19時 --> 終了しました 個別相談会 12/15 (火) 16時～19時 --> 受付中 個別相談会 12/17 (木) 10時～15時 --> 受付中 個別相談会 12/19 (土) 10時～1"
@@ -3597,10 +3597,26 @@
         "confidence": "high",
         "source": "https://www.kansai-u.ac.jp/hokuyo/news2026/10/post_847.html",
         "evidence": "たします。 次回の入試イベントは下記になります。 第2回ミニ説明会 12/13(日)9:00～、11:00～、13:00～、予約受付は12/5(土)9:00より 詳細は https://www.kansai-u.ac.jp/"
+      },
+      {
+        "date": "2027-02-19",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.kansai-u.ac.jp/hokuyo/admission/capacity.html",
+        "evidence": "る保護者説明会にて書類提出となります。 --> （3）保護者説明会 専願 2027年2月19日(金) 10：00 併願 2027年3月18日(木) 13：00 ※兵庫県公立高校との併願合格者に限り、保護者説明会を3月18日(金)13:00に"
+      },
+      {
+        "date": "2027-03-18",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.kansai-u.ac.jp/hokuyo/admission/capacity.html",
+        "evidence": "&nbsp;&nbsp;13：00までに生徒情報WEB入力 2027年3月18日(木) 保護者説明会にて書類提出 ※兵庫県公立高校との併願合格者に限り、入学金納入期限を3月18日(金)13:00とします。また同日に実施する保護者説明会にて書"
       }
     ],
     "apply": {
-      "url": "https://mirai-compass.net/usr/khokuyoh/event/evtIndex.jsf",
+      "url": "https://mirai-compass.net/usr/khokuyoh/common/login.jsf",
       "label": "申込フォーム"
     },
     "note": ""
@@ -4383,11 +4399,11 @@
     "id": "priv-daisho",
     "name": "大商学園高等学校",
     "website": "http://www.daisho.ac.jp",
-    "reached": true,
-    "pages": 4,
+    "reached": false,
+    "pages": 0,
     "events": [],
     "apply": null,
-    "note": ""
+    "note": "取得できず（<urlopen error timed out>）"
   },
   {
     "id": "priv-hs-2",

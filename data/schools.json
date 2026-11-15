@@ -15088,7 +15088,7 @@
           {
             "date": "2026-12-15",
             "label": "個別相談会",
-            "reservation": null,
+            "reservation": "required",
             "confidence": "high",
             "source": "https://www.osakagyoko.ed.jp/opencampus/index.php"
           },
@@ -17551,12 +17551,26 @@
             "reservation": null,
             "confidence": "high",
             "source": "https://www.kansai-u.ac.jp/hokuyo/news2026/10/post_847.html"
+          },
+          {
+            "date": "2027-02-19",
+            "label": "説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.kansai-u.ac.jp/hokuyo/admission/capacity.html"
+          },
+          {
+            "date": "2027-03-18",
+            "label": "説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.kansai-u.ac.jp/hokuyo/admission/capacity.html"
           }
         ],
         "reservation": "required",
         "source": "https://www.kansai-u.ac.jp/hokuyo/news2026/10/post_847.html",
         "checkedAt": "2026-11-15",
-        "applyUrl": "https://mirai-compass.net/usr/khokuyoh/event/evtIndex.jsf",
+        "applyUrl": "https://mirai-compass.net/usr/khokuyoh/common/login.jsf",
         "applyLabel": "申込フォーム",
         "evidence": "たします。 次回の入試イベントは下記になります。 第2回ミニ説明会 12/13(日)9:00～、11:00～、13:00～、予約受付は12/5(土)9:00より 詳細は https://www.kansai-u.ac.jp/"
       },
