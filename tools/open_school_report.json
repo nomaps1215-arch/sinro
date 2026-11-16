@@ -213,7 +213,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www.osaka-c.ed.jp/shijonawate/html/setsumeikai.html",
-        "evidence": "ちら からアンケートにご回答いただけますと幸いです。 次回の説明会は12月12日（土）に実施いたします。申し込み受付は11月24日（火）9:00から開始します。 12月の説明会は中学生全学年が対象となっております。詳細について"
+        "evidence": "ちら からアンケートにご回答いただけますと幸いです。 次回の説明会は12月12日（土）に実施いたします。申し込み受付は11月24日（火）9:00から開始します。 こちら をクリックして申し込みを行ってください。 12月の説明会"
       }
     ],
     "apply": {
@@ -304,31 +304,11 @@
     "id": "pref-otsuka",
     "name": "大阪府立大塚高等学校",
     "website": "https://www.otsuka.ed.jp/",
-    "reached": true,
-    "pages": 4,
-    "events": [
-      {
-        "date": "2026-12-12",
-        "label": "説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.otsuka.ed.jp/school_briefing/outline/",
-        "evidence": "なたでも参加できます 第５回 学校説明会 普通科・体育科合同説明会 クラブ見学 12月12日（土） 10：00～ □事前申し込み不要 当日受付でどなたでも参加できます 第６回 学校説明会 普通科・体育科合同説明会 クラブ見学 1月16日（"
-      },
-      {
-        "date": "2027-01-16",
-        "label": "説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.otsuka.ed.jp/school_briefing/outline/",
-        "evidence": "なたでも参加できます 第６回 学校説明会 普通科・体育科合同説明会 クラブ見学 1月16日（土） 10：00～ □事前申し込み不要 当日受付でどなたでも参加できます 投稿日 : 2026年5月8日 カテゴリー : カテゴリー : タグ"
-      }
-    ],
-    "apply": {
-      "url": "https://forms.gle/D6mLtUf4aGigLjpw7",
-      "label": "申込フォーム"
-    },
-    "note": ""
+    "reached": false,
+    "pages": 0,
+    "events": [],
+    "apply": null,
+    "note": "robots.txt で拒否"
   },
   {
     "id": "pref-ikuno",
@@ -828,7 +808,7 @@
       }
     ],
     "apply": {
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSc-hwtSbSrf8dCNq0Q6Av8Ch33H9Bt39vNlJRE4YHq2DONL_A/viewform?usp=dialog",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLScEp5lkzuXAjhjoZyzmrVQiVU1VTP9zOzuqAXjmipWzYecYzw/viewform?usp=header",
       "label": "申込フォーム"
     },
     "note": ""
@@ -1287,10 +1267,7 @@
         "evidence": "12月12日(土) 説明会・部活動見学・個別質問 第5回 2月13日(土) 説明会・個別質問 ※日程・時間・内容は変更になる可能性があります。 学校名を入れてください 〒xxx-xxxx 住所を入れてください Tel: 0"
       }
     ],
-    "apply": {
-      "url": "https://forms.gle/C6B8ZzFjSMnzr56X6",
-      "label": "申込フォーム"
-    },
+    "apply": null,
     "note": ""
   },
   {
@@ -1439,7 +1416,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www2.osaka-c.ed.jp/higashiyodogawa/",
-        "evidence": "mation お知らせ 2026/11/16 【📢受付中！】12月12日(土) 開催 「第2回 学校説明会」のお知らせ(中学生・保護者の皆さまへ） 2026/11/12 【📢受付中！】12月12日(土) 開催 「第２回 学校説明会」（ 🍀多文化生"
+        "evidence": "mation お知らせ 2026/11/16 【📢受付中！】12月12日(土) 開催 「第2回 学校説明会」のお知らせ(中学生・保護者の皆さまへ） 2026/11/16 【📢受付中！】12月12日(土) 開催 「第２回 学校説明会」（ 🍀多文化生"
       },
       {
         "date": "2027-01-16",
@@ -1859,6 +1836,22 @@
     "reached": true,
     "pages": 4,
     "events": [
+      {
+        "date": "2026-12-07",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www2.osaka-c.ed.jp/imamiya-t/open-schools/2025oc-lessons/",
+        "evidence": "年生 11月26日(木) 和泉市立光明台中学校 中学2年生 12月7日(月) 大阪市立墨江丘中学校 中学2年生 ■(中学校への)学校説明会 日付 実施場所 対象学年 7月1日（水） 大阪市立難波中学校 中学3年生 7月13日(月) 大阪市立鶴見橋中学校 中学3年生 12月10日"
+      },
+      {
+        "date": "2026-12-10",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www2.osaka-c.ed.jp/imamiya-t/open-schools/2025oc-lessons/",
+        "evidence": "3年生 7月13日(月) 大阪市立鶴見橋中学校 中学3年生 12月10日(木) 岬町立岬中学校 中学2年生 ■(本校外での)学校説明会など ※順不同 日付 イベント名称 実施場所 7月11日(土) 鶴見区高校説明会 鶴見区民センター 8月2日(日) 阿倍野区高校説明会 阿倍"
+      },
       {
         "date": "2027-01-16",
         "label": "個別相談会",
@@ -2534,20 +2527,8 @@
     "website": "https://toneyama.ed.jp/",
     "reached": true,
     "pages": 4,
-    "events": [
-      {
-        "date": "2026-12-19",
-        "label": "学校説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://toneyama.ed.jp/news_kinkyu/photo_news/popup.php?id=935456ab9d7c00fa72",
-        "evidence": "、ありがとうございます。 今回、お申込みいただけなかった方は12月19日（土）開催の第3回学校説明会にぜひご参加ください。 第3回の参加お申込みは11月9日（月）17:00 ～を予定しています。 トネッピー 刀根山高校創立30周年記念の年に"
-      }
-    ],
-    "apply": {
-      "url": "https://toneyama.ed.jp/koucho_blog/photo_news/popup.php?id=9896469a559d9d09b3",
-      "label": "【校長だより（新）２６６】柔道着購入申し込み"
-    },
+    "events": [],
+    "apply": null,
     "note": ""
   },
   {
@@ -2580,12 +2561,28 @@
     "pages": 4,
     "events": [
       {
-        "date": "2027-01-23",
-        "label": "部活動体験",
+        "date": "2026-12-19",
+        "label": "説明会",
         "reservation": null,
         "confidence": "high",
         "source": "https://www.osaka-c.ed.jp/senriseiun/junior/lecture.html",
-        "evidence": "！---> 説明会 申込 キャンセル 登録 ** 授業体験・部活動体験はお申込みいただいた授業・部活動を体験していただけます。 抽選はございません。 第３回 １月２３日(土) [終了]多数のご来場ありがとうございました。 （申し込み期間 1/16～ 1/23） ※総合学科、共生推進教室とも、説明会には保護者の方も"
+        "evidence": "ぜひ見つけに来てください！ 部活動体験・学校説明会 直近の説明会 第３回 １２月１９日(土) 10:00～ 実施要項 陸上部を追加！> 説明会 申込 キャンセル 登録 --> 現在調整中です。しばらくお待ちください。 【総合学科】"
+      },
+      {
+        "date": "2027-01-23",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osaka-c.ed.jp/senriseiun/junior/lecture.html",
+        "evidence": "～ 12/12 23:59） 実施要項 陸上部を追加！> 説明会 申込 キャンセル 登録 --> 第４回 １月２３日(土) [終了]多数のご来場ありがとうございました。 （申し込み期間 1/16～ 1/23） --> 第５回 ２月２０日(土) [終了]多数のご来場ありがとうございました。 （申し込み期間 2/13～ 2"
+      },
+      {
+        "date": "2027-02-20",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osaka-c.ed.jp/senriseiun/junior/lecture.html",
+        "evidence": "～ 12/12 23:59） 実施要項 陸上部を追加！> 説明会 申込 キャンセル 登録 --> 第４回 １月２３日(土) [終了]多数のご来場ありがとうございました。 （申し込み期間 1/16～ 1/23） --> 第５回 ２月２０日(土) [終了]多数のご来場ありがとうございました。 （申し込み期間 2/13～ 2"
       }
     ],
     "apply": {
@@ -4354,11 +4351,11 @@
     "id": "priv-daisho",
     "name": "大商学園高等学校",
     "website": "http://www.daisho.ac.jp",
-    "reached": true,
-    "pages": 4,
+    "reached": false,
+    "pages": 0,
     "events": [],
     "apply": null,
-    "note": ""
+    "note": "取得できず（<urlopen error timed out>）"
   },
   {
     "id": "priv-hs-2",
@@ -4739,7 +4736,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://higashiohtani.ac.jp/",
-        "evidence": "試イベント情報 個別相談会 2026. 11.21 （土） オープンキャンパス(最終) 2026. 11.22 （日） instagram YouTube News お知らせ ALL お知らせ 入試関連情報 行事 部活動 高大連携 NEW 2026.11.0"
+        "evidence": "試イベント情報 個別相談会 2026. 11.21 （土） オープンキャンパス(最終) 2026. 11.22 （日） instagram YouTube News お知らせ ALL お知らせ 入試関連情報 行事 部活動 高大連携 2026.11.09 【入"
       }
     ],
     "apply": {
@@ -4774,7 +4771,7 @@
     ],
     "apply": {
       "url": "https://poole.ed.jp/news/post-9305/",
-      "label": "2026.11.13 はたちの感謝礼拝の申し込みは今しばらくお待ちください。"
+      "label": "2026.11.16 はたちの感謝礼拝の申し込みページを公開しました"
     },
     "note": ""
   },

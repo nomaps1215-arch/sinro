@@ -1509,7 +1509,7 @@
         "checkedAt": "2026-11-16",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdg05tn0ItM_1sX2G3es7qCpFeLJvfOD6ktMf8yJyC3j9CmCQ/viewform?usp=dialog",
         "applyLabel": "こちらをクリックして申込をしてください(申込開始は11/28(金)朝9時からです",
-        "evidence": "ちら からアンケートにご回答いただけますと幸いです。 次回の説明会は12月12日（土）に実施いたします。申し込み受付は11月24日（火）9:00から開始します。 12月の説明会は中学生全学年が対象となっております。詳細について"
+        "evidence": "ちら からアンケートにご回答いただけますと幸いです。 次回の説明会は12月12日（土）に実施いたします。申し込み受付は11月24日（火）9:00から開始します。 こちら をクリックして申し込みを行ってください。 12月の説明会"
       }
     },
     {
@@ -4349,7 +4349,7 @@
         "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/ibaraki/folder_0/-3/",
         "checkedAt": "2026-11-16",
-        "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSc-hwtSbSrf8dCNq0Q6Av8Ch33H9Bt39vNlJRE4YHq2DONL_A/viewform?usp=dialog",
+        "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLScEp5lkzuXAjhjoZyzmrVQiVU1VTP9zOzuqAXjmipWzYecYzw/viewform?usp=header",
         "applyLabel": "申込フォーム",
         "evidence": "および第2回学校説明会について 第2回学校説明会のお知らせ 令和８年１１月２１日（土）に第2回学校説明会を行います。 Ⅰ部 ９：００～１０：００ Ⅱ部 １１：００～１２：００ ※Ⅰ部、Ⅱ部の内容は同じです。 詳細は こちら をご覧ください。 申"
       },
@@ -6598,11 +6598,9 @@
             "source": "https://www2.osaka-c.ed.jp/ichioka/folder_0/post-25/"
           }
         ],
-        "reservation": "required",
+        "reservation": null,
         "source": "https://www2.osaka-c.ed.jp/ichioka/news/35054/",
         "checkedAt": "2026-11-16",
-        "applyUrl": "https://forms.gle/C6B8ZzFjSMnzr56X6",
-        "applyLabel": "申込フォーム",
         "evidence": "の通り、第４回オープンスクールを実施いたします。 →詳細は オープンスクールのページ を確認してください。 令和８年12月12日（土） 【A】9:30～10:30、【B】11:00～12:00 [申込方法]&nbsp; ＰＣまたはスマートフォンにより申し込んでください。 ●"
       },
       "photos": [
@@ -7403,7 +7401,7 @@
         "checkedAt": "2026-11-16",
         "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSckvrZ-kw8ZO-KD8_1lxhFtKMjRmZuzIgga-bei9DC_vjqI1w/viewform?usp=header",
         "applyLabel": "申込フォーム",
-        "evidence": "mation お知らせ 2026/11/16 【📢受付中！】12月12日(土) 開催 「第2回 学校説明会」のお知らせ(中学生・保護者の皆さまへ） 2026/11/12 【📢受付中！】12月12日(土) 開催 「第２回 学校説明会」（ 🍀多文化生"
+        "evidence": "mation お知らせ 2026/11/16 【📢受付中！】12月12日(土) 開催 「第2回 学校説明会」のお知らせ(中学生・保護者の皆さまへ） 2026/11/16 【📢受付中！】12月12日(土) 開催 「第２回 学校説明会」（ 🍀多文化生"
       },
       "photos": [
         {
@@ -9565,6 +9563,20 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-12-07",
+            "label": "学校説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www2.osaka-c.ed.jp/imamiya-t/open-schools/2025oc-lessons/"
+          },
+          {
+            "date": "2026-12-10",
+            "label": "学校説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www2.osaka-c.ed.jp/imamiya-t/open-schools/2025oc-lessons/"
+          },
+          {
             "date": "2027-01-16",
             "label": "個別相談会",
             "reservation": "none",
@@ -9580,11 +9592,11 @@
           }
         ],
         "reservation": "none",
-        "source": "https://www2.osaka-c.ed.jp/imamiya-t/open-schools/2025open-school/",
+        "source": "https://www2.osaka-c.ed.jp/imamiya-t/open-schools/2025oc-lessons/",
         "checkedAt": "2026-11-16",
         "applyUrl": "https://www2.osaka-c.ed.jp/imamiya-t/folder/post-91",
         "applyLabel": "企業様用 来校予約システム",
-        "evidence": "日 時 令和８年11月28日(土） 9:00〜14:15 ■個別相談会 ＊日 程 第１回 令和９年１月16日(土) 10:00〜12:00 申込不要 第２回 令和９年２月６日(土) &nbsp; 10:00〜12:00 申込不要 ■個別対応 ＊実施期間 令和８年12月７日(月)～令和９年２月19日(金) 期間中の土日祝"
+        "evidence": "年生 11月26日(木) 和泉市立光明台中学校 中学2年生 12月7日(月) 大阪市立墨江丘中学校 中学2年生 ■(中学校への)学校説明会 日付 実施場所 対象学年 7月1日（水） 大阪市立難波中学校 中学3年生 7月13日(月) 大阪市立鶴見橋中学校 中学3年生 12月10日"
       },
       "photos": [
         {
@@ -12907,24 +12919,7 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10",
-      "openSchool": {
-        "events": [
-          {
-            "date": "2026-12-19",
-            "label": "学校説明会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://toneyama.ed.jp/news_kinkyu/photo_news/popup.php?id=935456ab9d7c00fa72"
-          }
-        ],
-        "reservation": "required",
-        "source": "https://toneyama.ed.jp/news_kinkyu/photo_news/popup.php?id=935456ab9d7c00fa72",
-        "checkedAt": "2026-11-16",
-        "applyUrl": "https://toneyama.ed.jp/koucho_blog/photo_news/popup.php?id=9896469a559d9d09b3",
-        "applyLabel": "【校長だより（新）２６６】柔道着購入申し込み",
-        "evidence": "、ありがとうございます。 今回、お申込みいただけなかった方は12月19日（土）開催の第3回学校説明会にぜひご参加ください。 第3回の参加お申込みは11月9日（月）17:00 ～を予定しています。 トネッピー 刀根山高校創立30周年記念の年に"
-      }
+      "photoFetchedAt": "2026-09-10"
     },
     {
       "id": "pref-toyonaka",
@@ -13105,8 +13100,22 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-12-19",
+            "label": "説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.osaka-c.ed.jp/senriseiun/junior/lecture.html"
+          },
+          {
             "date": "2027-01-23",
-            "label": "部活動体験",
+            "label": "説明会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.osaka-c.ed.jp/senriseiun/junior/lecture.html"
+          },
+          {
+            "date": "2027-02-20",
+            "label": "説明会",
             "reservation": null,
             "confidence": "high",
             "source": "https://www.osaka-c.ed.jp/senriseiun/junior/lecture.html"
@@ -13117,7 +13126,7 @@
         "checkedAt": "2026-11-16",
         "applyUrl": "https://forms.gle/Y6VmavkJGyzbQ2p87",
         "applyLabel": "説明会申込",
-        "evidence": "！---> 説明会 申込 キャンセル 登録 ** 授業体験・部活動体験はお申込みいただいた授業・部活動を体験していただけます。 抽選はございません。 第３回 １月２３日(土) [終了]多数のご来場ありがとうございました。 （申し込み期間 1/16～ 1/23） ※総合学科、共生推進教室とも、説明会には保護者の方も"
+        "evidence": "ぜひ見つけに来てください！ 部活動体験・学校説明会 直近の説明会 第３回 １２月１９日(土) 10:00～ 実施要項 陸上部を追加！> 説明会 申込 キャンセル 登録 --> 現在調整中です。しばらくお待ちください。 【総合学科】"
       },
       "photos": [
         {
@@ -22532,7 +22541,7 @@
         "source": "https://poole.ed.jp/event/post-1324/",
         "checkedAt": "2026-11-16",
         "applyUrl": "https://poole.ed.jp/news/post-9305/",
-        "applyLabel": "2026.11.13 はたちの感謝礼拝の申し込みは今しばらくお待ちください。",
+        "applyLabel": "2026.11.16 はたちの感謝礼拝の申し込みページを公開しました",
         "evidence": "校 2027年2月の受験に向け、志望校を決定するための大事な説明会です（全３回） 日時 2026.11.28 （土） 9:30〜約３時間の予定（午前開催です） 対象 主に中学校３年生の女子（中１・２も大歓迎） 会場 本校 お知らせ １１月２４日（火）正午ま"
       }
     },
