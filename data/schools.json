@@ -3173,7 +3173,7 @@
         "events": [
           {
             "date": "2026-12-12",
-            "label": "学校説明会",
+            "label": "部活動体験",
             "reservation": null,
             "confidence": "high",
             "source": "https://osaka-senri-hs.net/"
@@ -3182,7 +3182,7 @@
         "reservation": null,
         "source": "https://osaka-senri-hs.net/",
         "checkedAt": "2026-11-17",
-        "evidence": "SG募集説明会 2026年11月4日 [中学生のみなさん] 12/12（土）第３回学校説明会申込みについて 2026年10月8日 [中学生のみなさん] 11/7（土）第２回学校説明会および部活動体験会申込み受付 2026年10月8日"
+        "evidence": "会申込み受付 2026年11月17日 [中学生のみなさん] 12/12（土）部活動体験会について 2026年11月4日 [中学生のみなさん] 12/12（土）第３回学校説明会申込みについて 2026年10月8日 [中学生のみな"
       },
       "photos": [
         {
@@ -14927,8 +14927,8 @@
         "reservation": "required",
         "source": "https://www.osakagakugei.ac.jp/senior/",
         "checkedAt": "2026-11-17",
-        "applyUrl": "https://www.osakagakugei.ac.jp/senior/news/25191",
-        "applyLabel": "7月23日（木）特別説明会のお知らせ（ダブルディプロマ・1年留学・グローバル・特",
+        "applyUrl": "https://mirai-compass.net/usr/oskgkgh/common/login.jsf",
+        "applyLabel": "申込フォーム",
         "evidence": "TOPICS 10月全校集会 2026.10.26 入試 11月21日（土）入試説明会・オープンスクールのお知らせ（※要予約） 2026.10.24 TOPICS 桃山学院大学との高大連携プログラムを実施 2026.10.21"
       },
       "admissionFee": {
@@ -18627,7 +18627,7 @@
         "checkedAt": "2026-11-17",
         "applyUrl": "https://mirai-compass.net/usr/koubungh/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "じっくり直接個別に相談したい方 CONSULTATION 個別相談会 11/7 （土） 13:00〜16:00 受付終了しました 11/14 （土） 13:00〜16:00 受付終了しました 11/17 （火） 16:00〜19:00 予約受付中 11/18 （水） 16:00〜19:00 予約受付中 11/19 （木"
+        "evidence": "じっくり直接個別に相談したい方 CONSULTATION 個別相談会 11/7 （土） 13:00〜16:00 受付終了しました 11/14 （土） 13:00〜16:00 受付終了しました 11/17 （火） 16:00〜19:00 受付終了しました 11/18 （水） 16:00〜19:00 予約受付中 11/19"
       },
       "admissionFee": {
         "amount": 200000,
