@@ -105,8 +105,20 @@
     "website": "https://www2.osaka-c.ed.jp/makino",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-12-19",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www2.osaka-c.ed.jp/makino/folder_0/2021hppdf/",
+        "evidence": "した。 多くの皆様のご来校、ありがとうございました。 第４回学校説明会は、12月19日（土）に開催予定です。 令和８年度のご案内、ご申し込みの予定の案内は、以下のファイルをご覧ください。 2026学校説明会案内ポスター（HP用）.p"
+      }
+    ],
+    "apply": {
+      "url": "https://www2.osaka-c.ed.jp/makino/news/34797",
+      "label": "2026/10/19 第２回学校説明会の参加申込を終了しました"
+    },
     "note": ""
   },
   {
@@ -563,7 +575,10 @@
         "evidence": "会申込み受付 2026年11月17日 [中学生のみなさん] 12/12（土）部活動体験会について 2026年11月4日 [中学生のみなさん] 12/12（土）第３回学校説明会申込みについて 2026年10月8日 [中学生のみな"
       }
     ],
-    "apply": null,
+    "apply": {
+      "url": "https://forms.gle/STofuaKPwzn3obxPA",
+      "label": "＜申込みはこちら＞"
+    },
     "note": ""
   },
   {
@@ -696,7 +711,7 @@
     "name": "大阪府立三島高等学校",
     "website": "https://mishima-hs.ed.jp/",
     "reached": true,
-    "pages": 2,
+    "pages": 1,
     "events": [
       {
         "date": "2026-11-21",
@@ -704,7 +719,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://mishima-hs.ed.jp/",
-        "evidence": "クセス menu 新着情報 2026.11.13 お知らせ 11月21日（土）第2回学校説明会へお越しの方々へ 2026.11.04 お知らせ 令和8年度 第2回 大阪府立三島高等学校 学校運営協議会 開催 2026.10.22 お知"
+        "evidence": "クセス menu 新着情報 2026.11.18 お知らせ 11月21日(土)第2回学校説明会にお越しの方々へ（案内図） 2026.11.13 お知らせ 11月21日(土)第2回学校説明会にお越しの方々へ（当日のご案内） 2026.1"
       }
     ],
     "apply": {
@@ -1208,16 +1223,7 @@
     "website": "https://www3.osaka-c.ed.jp/miyakojima-t",
     "reached": true,
     "pages": 1,
-    "events": [
-      {
-        "date": "2026-11-28",
-        "label": "部活動体験",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www3.osaka-c.ed.jp/miyakojima-t/",
-        "evidence": "業者の募集について 2026/11/05 第３回１１月２８日部活動体験会に参加される中学生のみなさんへ 2026/10/31 令和8年度11月28日（土） 第3回 学校説明見学会のご案内 2026/10/28 【11/28 学校説明見学会と同時開催！！】工業女子相談会を開催します！ お知らせ一"
-      }
-    ],
+    "events": [],
     "apply": null,
     "note": ""
   },
@@ -1237,7 +1243,16 @@
     "website": "https://www3.osaka-c.ed.jp/sakuyakonohana",
     "reached": true,
     "pages": 1,
-    "events": [],
+    "events": [
+      {
+        "date": "2026-12-12",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www3.osaka-c.ed.jp/sakuyakonohana/",
+        "evidence": "知らせ 2026/11/18 タイトル：令和８年度 第２回 オープンスクール（12月12日（土）実施）について 2026/10/05 令和８年度 第２回学校運営協議会の開催について 2026/09/14 令和８年度 第１回 オープンスク"
+      }
+    ],
     "apply": null,
     "note": ""
   },
@@ -2915,7 +2930,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www.otemon-js.ed.jp/",
-        "evidence": "学 入試情報 2026.11.06 入試情報 □高校入試□ 12/12(土)第3回高校入試説明会 11月9日(月)10時頃 追加募集開始！ 高校 2026.11.01 入試情報 ■中学入試■ 本日「第2回プレテスト」および「第4回入試説"
+        "evidence": "高 入試情報 2026.11.06 入試情報 □高校入試□ 12/12(土)第3回高校入試説明会 11月9日(月)10時頃 追加募集開始！ 高校 2026.11.01 入試情報 ■中学入試■ 本日「第2回プレテスト」および「第4回入試説"
       }
     ],
     "apply": {
@@ -3221,8 +3236,20 @@
     "website": "http://www.osaka-jogakuin.ed.jp",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-11-21",
+        "label": "オープンキャンパス",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osaka-jogakuin.ed.jp/event/2557/",
+        "evidence": "2026.11.21 高校オープンキャンパス vol.2 オープンキャンパスの内容について 対象 中学２年、中学３年 ※生徒のみ参加可能 日時 2026年11月21日（土）13時00分〜15時00分 （受付開始時間：12時30分） 会場 チャペル他 申し込み方法 インターネットに接続されているパソコンからお申し"
+      }
+    ],
+    "apply": {
+      "url": "https://form.run/@2026SOC02-english",
+      "label": "10/31（土）申込開始 高校オープンキャンパス 英語プログラム お申し込み"
+    },
     "note": ""
   },
   {
@@ -3340,15 +3367,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "http://www.osakatoin.ed.jp/",
-        "evidence": "future発表報告 2026.11.06 中学 【申込】11/25(水)開催 中学校プロシードコース説明会(ナイト説明会)・個別相談会のご案内(大阪産大梅田ｻﾃﾗｲﾄｷｬﾝﾊﾟｽ) 2026.11.05 中学 【申込】12/5(土)開催 中学校入"
-      },
-      {
-        "date": "2026-12-05",
-        "label": "入試説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "http://www.osakatoin.ed.jp/",
-        "evidence": "ﾃﾗｲﾄｷｬﾝﾊﾟｽ) 2026.11.05 中学 【申込】12/5(土)開催 中学校入試説明会のご案内 一覧を見る Ⅰ類（＆中学） 2026.11.13 中学クラブ 高校Ⅰ類クラブ 【中高少林寺拳法部】令和8年度大阪高等学校少林寺拳法"
+        "evidence": "future発表報告 2026.11.06 中学 【申込】11/25(水)開催 中学校プロシードコース説明会(ナイト説明会)・個別相談会のご案内(大阪産大梅田ｻﾃﾗｲﾄｷｬﾝﾊﾟｽ) 一覧を見る Ⅰ類（＆中学） 2026.11.13 中学クラブ 高"
       }
     ],
     "apply": {
@@ -3549,8 +3568,20 @@
     "website": "https://www.kansai-u.ac.jp/senior/",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-11-21",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.kansai-u.ac.jp/senior/",
+        "evidence": "プログラム 4日目＆5日目 2026/10/23 お知らせ 11/21（土）開催の第2回校舎見学会のご案内 2026/10/21 お知らせ 日韓交流プログラム 3日目 2026/10/16 お知らせ 関西大学中等部 オープンスクールを開催いたしました 2017/00/00 入試 --> View ALL RSS Top"
+      }
+    ],
+    "apply": {
+      "url": "https://mirai-compass.net/usr/kansaiuh/common/login.jsf",
+      "label": "申込フォーム"
+    },
     "note": ""
   },
   {
@@ -3750,7 +3781,7 @@
     "name": "近畿大学附属高等学校",
     "website": "http://www.jsh.kindai.ac.jp",
     "reached": true,
-    "pages": 3,
+    "pages": 1,
     "events": [],
     "apply": null,
     "note": ""
@@ -3880,14 +3911,6 @@
     "reached": true,
     "pages": 4,
     "events": [
-      {
-        "date": "2026-11-17",
-        "label": "個別相談会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://koubun.ed.jp/exp/guidance/",
-        "evidence": "じっくり直接個別に相談したい方 CONSULTATION 個別相談会 11/7 （土） 13:00〜16:00 受付終了しました 11/14 （土） 13:00〜16:00 受付終了しました 11/17 （火） 16:00〜19:00 受付終了しました 11/18 （水） 16:00〜19:00 予約受付中 11/19"
-      },
       {
         "date": "2026-11-21",
         "label": "説明会",
@@ -4173,8 +4196,20 @@
     "website": "https://www.keiko.josho.ac.jp",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-11-28",
+        "label": "説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.keiko.josho.ac.jp/",
+        "evidence": "2027年度教員募集 2026/11/18 受験生（高校） 11/28（土）高校説明会（午前）について 2026/02/21 卒業生 「ようこそ先輩！未来トーク」講師登録について もっと見る News すべて 全校 中学校 高"
+      }
+    ],
+    "apply": {
+      "url": "https://mirai-compass.net/usr/jskeikoh/event/evtIndex.jsf",
+      "label": "申込フォーム"
+    },
     "note": ""
   },
   {
@@ -4438,11 +4473,11 @@
     "id": "priv-daisho",
     "name": "大商学園高等学校",
     "website": "http://www.daisho.ac.jp",
-    "reached": false,
-    "pages": 0,
+    "reached": true,
+    "pages": 4,
     "events": [],
     "apply": null,
-    "note": "取得できず（<urlopen error timed out>）"
+    "note": ""
   },
   {
     "id": "priv-hs-2",
@@ -4767,8 +4802,8 @@
       }
     ],
     "apply": {
-      "url": "https://mirai-compass.net/usr/hannanuh/common/login.jsf",
-      "label": "申込フォーム"
+      "url": "https://airrsv.net/hdk/calendar?schdlId=s000062C64",
+      "label": "⇒イブニング個別相談会の申し込みはこちら（外部サイト）"
     },
     "note": ""
   },
@@ -5115,12 +5150,20 @@
         "label": "入試説明会",
         "reservation": null,
         "confidence": "high",
-        "source": "https://waseda-osaka.jp/examinee/index.html",
-        "evidence": "1/14（土） 2026/10/14 (水) --> 第１回入試説明会 2026/12/5（土） 2026/11/5（木） --> 第２回入試説明会 2026/12/12（土） 2026/11/12（木） --> ※申込開始は約1ヶ月前の20時～となります。 3"
+        "source": "https://waseda-osaka.jp/info/35077/",
+        "evidence": "・総合】 満員御礼 --> 2026.11.18 お知らせ １２月５日(土)に予定されております第１回入試説明会につきまして，申し込み組数の上限に達しましたので受付を終了させていただいております。 たくさんのお申込み，誠にありがとうございます。 尚，吹"
+      },
+      {
+        "date": "2026-12-12",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://waseda-osaka.jp/info/35077/",
+        "evidence": "きましては引き続き受付をしております。 &nbsp; 次回は１２月１２日(土)に実施予定になっております。 入試説明会で皆様とお会いできることを心よりお待ち申し上げております。 &nbsp; 早稲田大阪高等学校入試広報部一同 --> 早稲田大学 早稲田大学"
       }
     ],
     "apply": {
-      "url": "https://mirai-compass.net/usr/wsetsurh/event/evtIndex.jsf",
+      "url": "https://mirai-compass.net/usr/wsetsurh/request/reqIndex.jsf",
       "label": "申込フォーム"
     },
     "note": ""
