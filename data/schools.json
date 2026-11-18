@@ -3300,7 +3300,7 @@
             "label": "個別相談会",
             "reservation": null,
             "confidence": "high",
-            "source": "https://www2.osaka-c.ed.jp/akutagawa/folder_0/post-28/"
+            "source": "https://www2.osaka-c.ed.jp/akutagawa/"
           },
           {
             "date": "2027-01-16",
@@ -3318,11 +3318,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://www2.osaka-c.ed.jp/akutagawa/folder_0/post-28/",
+        "source": "https://www2.osaka-c.ed.jp/akutagawa/",
         "checkedAt": "2026-11-18",
-        "applyUrl": "https://www2.osaka-c.ed.jp/akutagawa/news/34699",
-        "applyLabel": "2026/11/04 【広報】11/14(土)オープンスクール申し込みについて(",
-        "evidence": "&nbsp;11/14（土） （部活動見学・授業体験など） 個別相談会① 12/12（土）AM 学校説明会① 01/16（土）AM 個別相談会② 02/13（土）AM 学校名を入れてください 〒xxx-xxxx 住所を入れてくださ"
+        "applyUrl": "https://www2.osaka-c.ed.jp/akutagawa/news/35137",
+        "applyLabel": "2026/11/18 【広報】12/12(土)個別相談会の申込について",
+        "evidence": "formation お知らせ 2026/11/18 【広報】12/12(土)個別相談会の申込について 2026/11/04 【広報】11/14(土)オープンスクール申し込みについて(終了) 2026/09/15 【広報】202"
       },
       "photos": [
         {
@@ -18454,6 +18454,13 @@
       "openSchool": {
         "events": [
           {
+            "date": "2026-11-18",
+            "label": "個別相談会",
+            "reservation": null,
+            "confidence": "high",
+            "source": "http://www.kokoku.ed.jp/"
+          },
+          {
             "date": "2026-12-05",
             "label": "学校説明会",
             "reservation": null,
@@ -18469,11 +18476,11 @@
           }
         ],
         "reservation": "required",
-        "source": "https://www.kokoku.ed.jp/briefing/",
+        "source": "http://www.kokoku.ed.jp/",
         "checkedAt": "2026-11-18",
         "applyUrl": "https://mirai-compass.net/usr/kokokuh/common/login.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "7日（土） 13:00～ 10月31日（土） 13:00～ 12月5日（土） 13:00～ 内容 第1回 学校説明会＆個別相談会 SAD・PADコース学校説明会 （アドバンスコースに特化した 説明会になります。） 第2回 学校説明会＆個別相談会 参加方法"
+        "evidence": "なってきました。 9月20日（土）に開催いたしました『第3回個別相談会＆学校... NEWS 2025/9/21 もっと読む 【令和8年度 自衛隊体験入隊 3日目・最終日】 2026.11.18（Wed.） 11月18日（水）、興國高等学校2年生キャリアトライコースの生徒たちによる、陸上自衛隊伊丹駐屯地での3日間の体験"
       },
       "admissionFee": {
         "amount": 230000,
@@ -20183,7 +20190,7 @@
         "checkedAt": "2026-11-18",
         "applyUrl": "https://mirai-compass.net/usr/oseikah/event/evtIndex.jsf",
         "applyLabel": "申込フォーム",
-        "evidence": "sr/oseikah/event/evtIndex.jsf １２月６日（日）、１２日（土）入試説明会を行います。お申し込みは上のURLから 前の記事へ / --> お知らせ一覧 すべて スクールライフ 部活動 その他 年間指導計画 各種証明"
+        "evidence": "sr/oseikah/event/evtIndex.jsf １２月６日（日）、１２日（土）入試説明会を行います。お申し込みは上のURLから 前の記事へ / --> 次の記事へ お知らせ一覧 すべて スクールライフ 部活動 その他 年間指導計"
       }
     },
     {
