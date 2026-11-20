@@ -8753,8 +8753,8 @@
         "reservation": "required",
         "source": "https://tennoji-hs.jp/admission/briefing-session/",
         "checkedAt": "2026-11-20",
-        "applyUrl": "https://tennoji-hs.jp/graduate/teaching-practice",
-        "applyLabel": "教育実習の申し込みについて",
+        "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdtJ_QvUQ-CR1nBhBJusltUz9se3f8T29f2qZo97wdxaSgfkA/viewform?usp=dialog",
+        "applyLabel": "申込フォーム",
         "evidence": "見学 13:00〜13:30 受付 13:30〜14:45 説明会 終了後 校内自由見学 13:30〜16:00 （15:30 受付終了） 第3回 12/12 （土） ①3限の授業見学 &nbsp; 9:20〜9:40 受付 10:10〜10:55 授業見学 ②4限の授業見学&nbsp; 10:20〜10"
       },
       "photos": [
@@ -10885,7 +10885,24 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10"
+      "photoFetchedAt": "2026-09-10",
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-12-12",
+            "label": "学校説明会",
+            "reservation": "required",
+            "confidence": "high",
+            "source": "https://semboku-h.ed.jp/blog/10880/"
+          }
+        ],
+        "reservation": "required",
+        "source": "https://semboku-h.ed.jp/blog/10880/",
+        "checkedAt": "2026-11-20",
+        "applyUrl": "https://forms.gle/6bejQUvAMVNNpTPC9",
+        "applyLabel": "申込フォーム",
+        "evidence": "2026/11/20 中学3年生・保護者のみなさまへ：第2回学校説明会のご案内 令和８年12月12日（土）に、令和8年度 第２回学校説明会を開催いたします。 事前予約制になり… 2026/10/29 事務室より：各種証明書発行休止期間について 卒"
+      }
     },
     {
       "id": "pref-mikunigaoka",
@@ -12662,9 +12679,11 @@
             "source": "https://www2.osaka-c.ed.jp/momodani-p/folder_0/gakkou-setsumeikai/"
           }
         ],
-        "reservation": null,
+        "reservation": "required",
         "source": "https://www2.osaka-c.ed.jp/momodani-p/folder_0/gakkou-setsumeikai/",
         "checkedAt": "2026-11-20",
+        "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfuKSlvic6f9b34jKz-K_iHON6NULtmB0SUeGCcZOgG_A25Qw/viewform?usp=header",
+        "applyLabel": "申込はこちらから",
         "evidence": "しました &nbsp; 春季入学者選抜（４月入学） に関する学校説明会 （中卒・ 編入・転入 ） &nbsp;令和９年２月６日（土） ・12時00分受付 ・12時30分開始 ※通信制も同日開催 ①11時 ②14時30分 &nbsp;１月８日～２月４日 &nbsp; 春季入"
       },
       "photos": [
@@ -14609,6 +14628,23 @@
         "survey": "令和7年11月",
         "fetchedAt": "2026-09-10",
         "tuitionPerYear": 630000
+      },
+      "openSchool": {
+        "events": [
+          {
+            "date": "2026-11-21",
+            "label": "オープンスクール",
+            "reservation": null,
+            "confidence": "high",
+            "source": "https://www.osakashs.ed.jp/open-school/31289/"
+          }
+        ],
+        "reservation": "required",
+        "source": "https://www.osakashs.ed.jp/open-school/31289/",
+        "checkedAt": "2026-11-20",
+        "applyUrl": "https://docs.google.com/forms/d/e/1FAIpQLScYUF1-0T-V-XyuOcoRNtttF8WTT3XKNrLRARTcmCReNUE-cw/viewform",
+        "applyLabel": "申込フォーム",
+        "evidence": "プンスクール(11/21)について 2026.11.20 【11/21(土)第4回オープンスクール 参加申し込み受付中 明日11/21(土)、いよいよ第4回オープンスクールです！ 大阪高校のオープンスクールは「生徒主体」です！オープンスク"
       }
     },
     {

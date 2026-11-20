@@ -1731,8 +1731,8 @@
       }
     ],
     "apply": {
-      "url": "https://tennoji-hs.jp/graduate/teaching-practice",
-      "label": "教育実習の申し込みについて"
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdtJ_QvUQ-CR1nBhBJusltUz9se3f8T29f2qZo97wdxaSgfkA/viewform?usp=dialog",
+      "label": "申込フォーム"
     },
     "note": ""
   },
@@ -2186,8 +2186,20 @@
     "website": "https://semboku-h.ed.jp/",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-12-12",
+        "label": "学校説明会",
+        "reservation": "required",
+        "confidence": "high",
+        "source": "https://semboku-h.ed.jp/blog/10880/",
+        "evidence": "2026/11/20 中学3年生・保護者のみなさまへ：第2回学校説明会のご案内 令和８年12月12日（土）に、令和8年度 第２回学校説明会を開催いたします。 事前予約制になり… 2026/10/29 事務室より：各種証明書発行休止期間について 卒"
+      }
+    ],
+    "apply": {
+      "url": "https://forms.gle/6bejQUvAMVNNpTPC9",
+      "label": "申込フォーム"
+    },
     "note": ""
   },
   {
@@ -2529,7 +2541,10 @@
         "evidence": "月４日 &nbsp; 春季入学者選抜 （４月入学） に関する学校説明会 （ 編入・転入 ） &nbsp;令和９年２月２５日（木） ・17時30分受付 ・18時00分開始 &nbsp;２月４日～２３日 問い合わせ先： 桃谷高等学校 定時制の課程 TEL：06-6712-"
       }
     ],
-    "apply": null,
+    "apply": {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfuKSlvic6f9b34jKz-K_iHON6NULtmB0SUeGCcZOgG_A25Qw/viewform?usp=header",
+      "label": "申込はこちらから"
+    },
     "note": ""
   },
   {
@@ -2914,8 +2929,20 @@
     "website": "http://www.osakashs.ed.jp/",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-11-21",
+        "label": "オープンスクール",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osakashs.ed.jp/open-school/31289/",
+        "evidence": "プンスクール(11/21)について 2026.11.20 【11/21(土)第4回オープンスクール 参加申し込み受付中 明日11/21(土)、いよいよ第4回オープンスクールです！ 大阪高校のオープンスクールは「生徒主体」です！オープンスク"
+      }
+    ],
+    "apply": {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLScYUF1-0T-V-XyuOcoRNtttF8WTT3XKNrLRARTcmCReNUE-cw/viewform",
+      "label": "申込フォーム"
+    },
     "note": ""
   },
   {
