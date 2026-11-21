@@ -2914,7 +2914,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www.otemon-js.ed.jp/",
-        "evidence": "高 入試情報 2026.11.06 入試情報 □高校入試□ 12/12(土)第3回高校入試説明会 11月9日(月)10時頃 追加募集開始！ 高校 2026.11.01 入試情報 ■中学入試■ 本日「第2回プレテスト」および「第4回入試説"
+        "evidence": "校 入試情報 2026.11.06 入試情報 □高校入試□ 12/12(土)第3回高校入試説明会 11月9日(月)10時頃 追加募集開始！ 高校 2026.11.01 入試情報 ■中学入試■ 本日「第2回プレテスト」および「第4回入試説"
       }
     ],
     "apply": {
@@ -2937,6 +2937,14 @@
         "confidence": "high",
         "source": "https://www.osakashs.ed.jp/open-school/31289/",
         "evidence": "プンスクール(11/21)について 2026.11.20 【11/21(土)第4回オープンスクール 参加申し込み受付中 明日11/21(土)、いよいよ第4回オープンスクールです！ 大阪高校のオープンスクールは「生徒主体」です！オープンスク"
+      },
+      {
+        "date": "2026-11-28",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osakashs.ed.jp/info/31303/",
+        "evidence": "助 ご案内 NEWS お知らせ 11月28日中学生保護者対象学校説明会について 2026.11.21 １１月２８日（土）10時から、中学生保護者対象学校説明会を実施致します。 生徒・保護者・先生が皆さんの質問にお答えします。 この説明会の最大の特徴は、小グルー"
       }
     ],
     "apply": {
@@ -3618,33 +3626,25 @@
     "pages": 4,
     "events": [
       {
+        "date": "2026-12-05",
+        "label": "説明会",
+        "reservation": "required",
+        "confidence": "high",
+        "source": "https://www.kansai-u.ac.jp/hokuyo/topics2026/11/post_854.html",
+        "evidence": "のほか、希望者には個別相談もお受けいたします。 入試前最後の説明会となります。参加ご希望の方は、12月5日(土)9:00～ 入試イベント申し込みページ よりお申し込みください。 ※説明内容はこれまでの入試説明会と同内容です。 ※クラブ見学や模擬授業、施"
+      },
+      {
         "date": "2026-12-13",
         "label": "説明会",
         "reservation": null,
         "confidence": "high",
         "source": "https://www.kansai-u.ac.jp/hokuyo/news2026/10/post_847.html",
         "evidence": "たします。 次回の入試イベントは下記になります。 第2回ミニ説明会 12/13(日)9:00～、11:00～、13:00～、予約受付は12/5(土)9:00より 詳細は https://www.kansai-u.ac.jp/"
-      },
-      {
-        "date": "2027-02-19",
-        "label": "説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.kansai-u.ac.jp/hokuyo/admission/capacity.html",
-        "evidence": "る保護者説明会にて書類提出となります。 --> （3）保護者説明会 専願 2027年2月19日(金) 10：00 併願 2027年3月18日(木) 13：00 ※兵庫県公立高校との併願合格者に限り、保護者説明会を3月18日(金)13:00に"
-      },
-      {
-        "date": "2027-03-18",
-        "label": "説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.kansai-u.ac.jp/hokuyo/admission/capacity.html",
-        "evidence": "&nbsp;&nbsp;13：00までに生徒情報WEB入力 2027年3月18日(木) 保護者説明会にて書類提出 ※兵庫県公立高校との併願合格者に限り、入学金納入期限を3月18日(金)13:00とします。また同日に実施する保護者説明会にて書"
       }
     ],
     "apply": {
-      "url": "https://mirai-compass.net/usr/khokuyoh/common/login.jsf",
-      "label": "申込フォーム"
+      "url": "https://mirai-compass.net/usr/khokuyoh/event/evtIndex.jsf",
+      "label": "入試イベント申し込みページ"
     },
     "note": ""
   },
@@ -4126,20 +4126,12 @@
     "pages": 2,
     "events": [
       {
-        "date": "2026-11-21",
-        "label": "プレテスト",
-        "reservation": null,
-        "confidence": "high",
-        "source": "http://www.shitennojigakuen.ed.jp/higashi/",
-        "evidence": "スト解説会 中学 プレテスト・プレテスト解説会 申込受付中 プレテスト解説会 2026.11.21 （土） 10:00 ～ 12:00 個別相談会 中学 個別相談会 申込受付中 第１回個別相談会 2026.11.28 （土） 14:00 ～ 16"
-      },
-      {
         "date": "2026-11-28",
         "label": "個別相談会",
         "reservation": null,
         "confidence": "high",
         "source": "http://www.shitennojigakuen.ed.jp/higashi/",
-        "evidence": "12:00 個別相談会 中学 個別相談会 申込受付中 第１回個別相談会 2026.11.28 （土） 14:00 ～ 16:00 個別相談会 中学 個別相談会 申込受付中 第２回個別相談会 2026.11.28 （土） 10:00 ～ 12"
+        "evidence": "16:00 個別相談会 中学 個別相談会 申込受付中 第２回個別相談会 2026.11.28 （土） 10:00 ～ 12:30 入試説明会 高校 入試説明会 申込受付中 第２回入試説明会 2026.12.05 （土） 10:00 ～ 12"
       },
       {
         "date": "2026-12-05",
@@ -4159,8 +4151,8 @@
       }
     ],
     "apply": {
-      "url": "https://www.shitennojigakuen.ed.jp/higashi/event/%e3%83%97%e3%83%ac%e3%83%86%e3%82%b9%e3%83%88%e8%a7%a3%e8%aa%ac%e4%bc%9a/",
-      "label": "2026.11.21（土）10:00 ～ 12:00プレテスト・プレテスト解説会"
+      "url": "https://www.shitennojigakuen.ed.jp/higashi/event/%e7%ac%ac%ef%bc%92%e5%9b%9e%e5%80%8b%e5%88%a5%e7%9b%b8%e8%ab%87%e4%bc%9a-%e4%b8%ad%e5%ad%a6/",
+      "label": "2026.11.28（土）14:00 ～ 16:00個別相談会中学個別相談会申込"
     },
     "note": ""
   },
