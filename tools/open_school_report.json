@@ -2754,7 +2754,7 @@
     "name": "英風高等学校",
     "website": "https://eifu.ed.jp/",
     "reached": true,
-    "pages": 4,
+    "pages": 3,
     "events": [],
     "apply": null,
     "note": ""
@@ -3269,14 +3269,6 @@
     "reached": true,
     "pages": 4,
     "events": [
-      {
-        "date": "2026-11-22",
-        "label": "入試説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.osakaryokuryo.ed.jp/news/topics/8450/",
-        "evidence": "0 / 22 お知らせ・トピックス 入試説明会を開催します 11月22日(日)・11月29日(日)・12月5日(土)に入試説明会を開催します。 全日程9:30〜12:00 (受付は9:00〜)となっております。 プログラムは「学校説明」「入試説明」「入試問題 解説講座"
-      },
       {
         "date": "2026-11-29",
         "label": "入試説明会",
@@ -4542,11 +4534,11 @@
     "id": "priv-school",
     "name": "PL学園高等学校",
     "website": "https://www.pl-gakuen.ac.jp/school/",
-    "reached": true,
-    "pages": 4,
+    "reached": false,
+    "pages": 0,
     "events": [],
     "apply": null,
-    "note": ""
+    "note": "robots.txt で拒否"
   },
   {
     "id": "priv-kashiwara",
@@ -4695,14 +4687,6 @@
     "reached": true,
     "pages": 4,
     "events": [
-      {
-        "date": "2026-11-22",
-        "label": "入試説明会",
-        "reservation": "required",
-        "confidence": "high",
-        "source": "https://www.momoyamagakuin-h.ed.jp/junior/admissions/event.html",
-        "evidence": "込要） 【申込日時】 2026年10月1日（木）21:00～11月22日（日）12:00まで 第３回 中学入試説明会 ※要事前申込 【開催日時】 &nbsp; 2026年11月23日（祝・月）10：00～12：00（受付開始9：00～） &nbsp; &n"
-      },
       {
         "date": "2026-11-28",
         "label": "プレテスト",
