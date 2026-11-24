@@ -1097,11 +1097,11 @@
     "events": [
       {
         "date": "2026-12-19",
-        "label": "学校説明会",
+        "label": "授業体験",
         "reservation": null,
         "confidence": "high",
-        "source": "https://www2.osaka-c.ed.jp/hiraokashofu/tyugakusei/setsumeikai/",
-        "evidence": "学生・保護者のみなさまのご参加をお待ちしております。 第２回学校説明会 令和８年12月19日（土） ９：３０～１２：２５ 【時程】 受 付 ８：４５～ ９：３０ 全体説明 ９：３０～１０：１５ 授業体験 １０：３０～１１：２０＊希望する方"
+        "source": "https://www2.osaka-c.ed.jp/hiraokashofu/news/35172/",
+        "evidence": "生・保護者のみなさまのご参加を、心よりお待ちしております。 令和８年12月19日（土） ９：３０～１２：２５ 【時程】 受 付 ８：４５～ ９：３０ 全体説明 ９：３０～１０：１５ 授業体験 １０：３０～１１：２０＊希望する方のみ クラブ体験&nbsp; １１：３５～１２：２５＊授業体験を受けた人で、希望する方のみ ～"
       },
       {
         "date": "2027-01-30",
@@ -1113,8 +1113,8 @@
       }
     ],
     "apply": {
-      "url": "https://forms.gle/YA6rUnh14mJLJZtZ8",
-      "label": "第１回学校説明会のお申し込みはこちら"
+      "url": "https://forms.gle/omjYaKeLoemdF3G87",
+      "label": "第２回学校説明会の申込みはこちら"
     },
     "note": ""
   },
@@ -4534,11 +4534,11 @@
     "id": "priv-school",
     "name": "PL学園高等学校",
     "website": "https://www.pl-gakuen.ac.jp/school/",
-    "reached": false,
-    "pages": 0,
+    "reached": true,
+    "pages": 4,
     "events": [],
     "apply": null,
-    "note": "robots.txt で拒否"
+    "note": ""
   },
   {
     "id": "priv-kashiwara",
