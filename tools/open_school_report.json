@@ -4311,11 +4311,11 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://www.tokai-gyosei.ed.jp/",
-        "evidence": "/18（水） 【特別追加枠３】イブニング個別相談会 要予約 2026/11/28（土） 入試説明会 要予約 校長のひと息だより 学びの意味、これからの教育、そして子どもたちに伝えたいこと。校長としての思いや考えを、折々の出来事とともに発信"
+        "evidence": "oseiの雰囲気を体験してみませんか？ 入試イベント 高校 2026/11/28（土） 入試説明会 要予約 校長のひと息だより 学びの意味、これからの教育、そして子どもたちに伝えたいこと。校長としての思いや考えを、折々の出来事とともに発信"
       }
     ],
     "apply": {
-      "url": "https://mirai-compass.net/usr/tgyoseij/event/evtIndex.jsf",
+      "url": "https://mirai-compass.net/usr/tgyoseih/event/evtIndex.jsf",
       "label": "申し込みはこちら"
     },
     "note": ""
