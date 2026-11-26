@@ -841,11 +841,11 @@
     "id": "pref-osaka-fukui",
     "name": "大阪府立福井高等学校",
     "website": "https://osaka-fukui.ed.jp/",
-    "reached": false,
-    "pages": 0,
+    "reached": true,
+    "pages": 4,
     "events": [],
     "apply": null,
-    "note": "robots.txt で拒否"
+    "note": ""
   },
   {
     "id": "pref-settsu",
@@ -2312,7 +2312,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www2.osaka-c.ed.jp/kaizukaminami/",
-        "evidence": "ブログ更新！（R8.11.07） 2026/11/14 秋のオープンスクール ご参加ありがとうございました。次回は１月30日（土）！ 2026/09/19 ２学期始業式 式辞 2026/07/17 １学期終業式式辞 お知らせ一覧 Blog ブログ 2026/11/21"
+        "evidence": "ブログ更新！（R8.11.07） 2026/11/14 秋のオープンスクール ご参加ありがとうございました。次回は１月30日（土）！ 2026/09/19 ２学期始業式 式辞 2026/07/17 １学期終業式式辞 お知らせ一覧 Blog ブログ 2026/11/26"
       }
     ],
     "apply": null,
@@ -3105,8 +3105,20 @@
     "website": "http://www.osaka-jogakuin.ed.jp",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-12-05",
+        "label": "入試説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osaka-jogakuin.ed.jp/event/2559/",
+        "evidence": "保護者 受験生 2026.12.5 第2回高校入試説明会 入試説明会の内容について 対象 受験生、保護者 日時 2026年12月5日（土）13時00分〜14時00分 （受付開始時間：12時30分） 会場 チャペル 注意事項 ウェブ申し込みは不要です。 2027年度高等学校入試の"
+      }
+    ],
+    "apply": {
+      "url": "https://form.run/@2026winter-evening",
+      "label": "申込期間：11/21(土)0時〜12/2(水)"
+    },
     "note": ""
   },
   {
@@ -3146,7 +3158,7 @@
     "name": "大阪星光学院高等学校",
     "website": "http://www.osakaseiko.ac.jp/",
     "reached": true,
-    "pages": 4,
+    "pages": 3,
     "events": [],
     "apply": null,
     "note": ""
@@ -3209,20 +3221,8 @@
     "website": "http://www.osakatoin.ed.jp",
     "reached": true,
     "pages": 4,
-    "events": [
-      {
-        "date": "2026-11-25",
-        "label": "説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "http://www.osakatoin.ed.jp/",
-        "evidence": "future発表報告 2026.11.06 中学 【申込】11/25(水)開催 中学校プロシードコース説明会(ナイト説明会)・個別相談会のご案内(大阪産大梅田ｻﾃﾗｲﾄｷｬﾝﾊﾟｽ) 一覧を見る Ⅰ類（＆中学） 2026.11.25 Ⅰ類クラブ 高"
-      }
-    ],
-    "apply": {
-      "url": "https://www.osakatoin.ed.jp/archives/23091/",
-      "label": "2026.11.06 中学 【申込】11/25(水)開催 中学校プロシードコース"
-    },
+    "events": [],
+    "apply": null,
     "note": ""
   },
   {
@@ -3836,7 +3836,7 @@
     "name": "金光八尾高等学校",
     "website": "http://www.konkoyao.ed.jp",
     "reached": true,
-    "pages": 3,
+    "pages": 4,
     "events": [
       {
         "date": "2026-12-06",
@@ -4128,7 +4128,7 @@
         "reservation": "required",
         "confidence": "high",
         "source": "https://www.seifu.ac.jp/",
-        "evidence": "説明会【事前予約必要】 イベント情報一覧 お申込みはこちら 2026年12月6日(日) 高校入試個別相談会【事前予約必要】 イベント情報一覧 お申込みはこちら Topics トピックス 一覧はこちら 共通 NEW 2026/11/24 体操競技部"
+        "evidence": "説明会【事前予約必要】 イベント情報一覧 お申込みはこちら 2026年12月6日(日) 高校入試個別相談会【事前予約必要】 イベント情報一覧 お申込みはこちら Topics トピックス 一覧はこちら 共通 NEW 2026/11/26 日本拳法部"
       }
     ],
     "apply": {
@@ -4193,20 +4193,12 @@
     "pages": 4,
     "events": [
       {
-        "date": "2026-11-25",
-        "label": "オープンスクール",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://senshin-gakuen.jp/",
-        "evidence": "お知らせ TOP NEWS 一覧を見る 学校行事 学校生活 2026年11月25日（水） 第20回「保育フェスタ」 入試情報 入試イベント お知らせ 2026年10月18日（日） 11/28（土）「第４回オープンスクール」開催予定！ 学校生活 お知らせ 2026年6月26日（金） 漫画『恋せよまやかし天使ども』アニメ化"
-      },
-      {
         "date": "2026-11-28",
         "label": "オープンスクール",
         "reservation": null,
         "confidence": "high",
         "source": "https://senshin-gakuen.jp/",
-        "evidence": "お知らせ TOP NEWS 一覧を見る 学校行事 学校生活 2026年11月25日（水） 第20回「保育フェスタ」 入試情報 入試イベント お知らせ 2026年10月18日（日） 11/28（土）「第４回オープンスクール」開催予定！ 学校生活 お知らせ 2026年6月26日（金） 漫画『恋せよまやかし天使ども』アニメ化"
+        "evidence": "第20回「保育フェスタ」 入試情報 入試イベント お知らせ 2026年10月18日（日） 11/28（土）「第４回オープンスクール」開催予定！ 学校生活 お知らせ 2026年6月26日（金） 漫画『恋せよまやかし天使ども』アニメ化決定！ 一覧を見る - 宣真高校公式 S"
       }
     ],
     "apply": {
