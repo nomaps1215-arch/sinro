@@ -4501,53 +4501,9 @@
     "name": "羽衣学園高等学校",
     "website": "http://www.hagoromogakuen.ed.jp/",
     "reached": true,
-    "pages": 4,
-    "events": [
-      {
-        "date": "2026-11-28",
-        "label": "オープンキャンパス",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://hagoromogakuen.ed.jp/",
-        "evidence": "策セミナー 2026.09.12 高等学校 【イベント】 【11月28日(土)】高校 第4回オープンキャンパス 2026.11.06 中高共通 【イベント】 【12月5日・12日・19日】入試個別相談会のご案内（事前申込不要） 2026.10.19"
-      },
-      {
-        "date": "2026-12-04",
-        "label": "個別相談会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://hagoromogakuen.ed.jp/",
-        "evidence": "中高共通 【イベント】 【12月5日・12日・19日】入試個別相談会のご案内（事前申込不要） 2026.10.19 中高共通 【イベント】 【12月4日(金)】私立6校 合同イブニング進学相談会（南海浪切ホール） 2026.10.09 中学校 【イベント】 【11月21日(土)】中学 入試対策セミ"
-      },
-      {
-        "date": "2026-12-05",
-        "label": "個別相談会",
-        "reservation": "required",
-        "confidence": "high",
-        "source": "https://hagoromogakuen.ed.jp/news/20261128_hsoc04/",
-        "evidence": "お申し込みください。 &nbsp; 今後の入試イベント 入試個別相談会を開催します。校内見学も同時に実施します。 開催日 開催時間 備考 2026年12月5日(土) 午前 &nbsp; 2026年12月12日(土) 午前 &nbsp; 2026年12月19日(土) 午前 最終回 &nbsp; 塾名が見つ"
-      },
-      {
-        "date": "2026-12-12",
-        "label": "個別相談会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://hagoromogakuen.ed.jp/candidates/",
-        "evidence": "・高校共通イベント 日程 時間 12月 5日（土）午前 入試個別相談会（事前予約不要） 12月12日（土）午前 入試個別相談会（事前予約不要） 12月19日（土）午前 入試個別相談会（事前予約不要） &nbsp; &nbsp; 学校外部でのイベン"
-      },
-      {
-        "date": "2026-12-19",
-        "label": "個別相談会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://hagoromogakuen.ed.jp/candidates/",
-        "evidence": "） 12月12日（土）午前 入試個別相談会（事前予約不要） 12月19日（土）午前 入試個別相談会（事前予約不要） &nbsp; &nbsp; 学校外部でのイベント 日時 イベント 4月5日（日） 私立中学受験フェス2026in梅田 (終"
-      }
-    ],
-    "apply": {
-      "url": "https://hagoromogakuen.ed.jp/news/admission_event_in_202612/",
-      "label": "2026.11.06 中高共通 【イベント】【12月5日・12日・19日】入試個"
-    },
+    "pages": 1,
+    "events": [],
+    "apply": null,
     "note": ""
   },
   {

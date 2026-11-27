@@ -21897,52 +21897,7 @@
         }
       ],
       "photoSource": "Wikimedia Commons",
-      "photoFetchedAt": "2026-09-10",
-      "openSchool": {
-        "events": [
-          {
-            "date": "2026-11-28",
-            "label": "オープンキャンパス",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://hagoromogakuen.ed.jp/"
-          },
-          {
-            "date": "2026-12-04",
-            "label": "個別相談会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://hagoromogakuen.ed.jp/"
-          },
-          {
-            "date": "2026-12-05",
-            "label": "個別相談会",
-            "reservation": "required",
-            "confidence": "high",
-            "source": "https://hagoromogakuen.ed.jp/news/20261128_hsoc04/"
-          },
-          {
-            "date": "2026-12-12",
-            "label": "個別相談会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://hagoromogakuen.ed.jp/candidates/"
-          },
-          {
-            "date": "2026-12-19",
-            "label": "個別相談会",
-            "reservation": null,
-            "confidence": "high",
-            "source": "https://hagoromogakuen.ed.jp/candidates/"
-          }
-        ],
-        "reservation": "required",
-        "source": "https://hagoromogakuen.ed.jp/",
-        "checkedAt": "2026-11-27",
-        "applyUrl": "https://hagoromogakuen.ed.jp/news/admission_event_in_202612/",
-        "applyLabel": "2026.11.06 中高共通 【イベント】【12月5日・12日・19日】入試個",
-        "evidence": "策セミナー 2026.09.12 高等学校 【イベント】 【11月28日(土)】高校 第4回オープンキャンパス 2026.11.06 中高共通 【イベント】 【12月5日・12日・19日】入試個別相談会のご案内（事前申込不要） 2026.10.19"
-      }
+      "photoFetchedAt": "2026-09-10"
     },
     {
       "id": "priv-hannan-univ",
