@@ -296,9 +296,21 @@
     "name": "大阪府立金剛高等学校",
     "website": "https://kongo-hs.com/index.html",
     "reached": true,
-    "pages": 3,
-    "events": [],
-    "apply": null,
+    "pages": 2,
+    "events": [
+      {
+        "date": "2026-12-12",
+        "label": "個別相談会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://kongo-hs.com/open_school.html",
+        "evidence": "シをみる --> 令和８年度 第２回学校説明会（共生推進教室個別相談会）のご案内 日時：12月12日（土） 1部 9：30～10：30 2部 11：00～12：00 （1部・2部ともに同じ内容です。1部が定員に達しましたら、2部の募集を開始します"
+      }
+    ],
+    "apply": {
+      "url": "https://kongo-hs.com/pdf/open_school/school-guidance-schedule-2026.pdf",
+      "label": "チラシをみる 令和8年度 第1回学校説明会のご案内 9月19日（土）、本校体育館"
+    },
     "note": ""
   },
   {
@@ -1165,7 +1177,16 @@
     "website": "https://www3.osaka-c.ed.jp/miyakojima-t",
     "reached": true,
     "pages": 1,
-    "events": [],
+    "events": [
+      {
+        "date": "2026-11-28",
+        "label": "部活動体験",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www3.osaka-c.ed.jp/miyakojima-t/",
+        "evidence": "学校名を入れてください Information お知らせ 2026/11/27 令和8年度11月28日（土） 第3回 学校説明見学会のご案内 2026/11/27 第３回１１月２８日部活動体験会に参加される中学生のみなさんへ 2026/11/26 令和8年度 学校説明見学会のご案内 2026/11/26 １１月２８日（"
+      }
+    ],
     "apply": null,
     "note": ""
   },
@@ -2499,8 +2520,20 @@
     "website": "https://toneyama.ed.jp/",
     "reached": true,
     "pages": 4,
-    "events": [],
-    "apply": null,
+    "events": [
+      {
+        "date": "2026-12-19",
+        "label": "学校説明会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://toneyama.ed.jp/news_kinkyu/photo_news/popup.php?id=925756b09300860ec6",
+        "evidence": "第3回学校説明会について、クラブの活動予定を更新しました。 2026/11/27 12月19日(土)学校説明会の際の部活動の予定を更新しました。 こちら より確認いただけます。 学校説明会についての詳細は以下をご確認ください。 https://ton"
+      }
+    ],
+    "apply": {
+      "url": "https://toneyama.ed.jp/koucho_blog/photo_news/popup.php?id=9896469a559d9d09b3",
+      "label": "【校長だより（新）２６６】柔道着購入申し込み"
+    },
     "note": ""
   },
   {
@@ -2783,7 +2816,7 @@
         "reservation": null,
         "confidence": "high",
         "source": "https://www.otemon-js.ed.jp/",
-        "evidence": "高 入試情報 2026.11.06 入試情報 □高校入試□ 12/12(土)第3回高校入試説明会 11月9日(月)10時頃 追加募集開始！ 高校 2026.11.01 入試情報 ■中学入試■ 本日「第2回プレテスト」および「第4回入試説"
+        "evidence": "知らせ 中学 2026.11.06 入試情報 □高校入試□ 12/12(土)第3回高校入試説明会 11月9日(月)10時頃 追加募集開始！ 高校 2026.11.01 入試情報 ■中学入試■ 本日「第2回プレテスト」および「第4回入試説"
       }
     ],
     "apply": {
@@ -2806,6 +2839,14 @@
         "confidence": "high",
         "source": "https://www.osakashs.ed.jp/info/31303/",
         "evidence": "助 ご案内 NEWS お知らせ 11月28日中学生保護者対象学校説明会について 2026.11.21 １１月２８日（土）10時から、中学生保護者対象学校説明会を実施致します。 生徒・保護者・先生が皆さんの質問にお答えします。 この説明会の最大の特徴は、小グルー"
+      },
+      {
+        "date": "2026-12-12",
+        "label": "オープンスクール",
+        "reservation": "required",
+        "confidence": "high",
+        "source": "https://www.osakashs.ed.jp/info/31308/",
+        "evidence": "もちろん、中学校から継続でも大歓迎です！ 第5回(最終回)のオープンスクールは、 12月12日（土）10:00～(受付9:00～) です。 →こちらよりオープンスクール申し込みフォーム mirai-compass.net オープンスクール企"
       }
     ],
     "apply": {
@@ -3302,19 +3343,19 @@
     "events": [
       {
         "date": "2026-11-29",
-        "label": "説明会",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://www.osk-ohtani.ed.jp/2026/07/%e7%ac%ac%e4%b8%80%e5%9b%9e%e5%80%8b%e5%88%a5%e7%9b%b8%e8%ab%87%e4%bc%9a%ef%bc%86%e3%83%9f%e3%83%8b%e8%aa%ac%e6%98%8e%e4%bc%9a-3/",
-        "evidence": "ト 2026 11 November 第一回個別相談会＆ミニ説明会 11/29（日）9：00～15：30 ◇日時：１１月２９日（日）９：００～１５：３０ ◇対象学年：小学４年生～６年生 ◇場所：本校 ◇内容：個別相談会 ☆説"
-      },
-      {
-        "date": "2026-12-05",
-        "label": "入試説明会",
+        "label": "個別相談会",
         "reservation": null,
         "confidence": "high",
         "source": "https://www.osk-ohtani.ed.jp/",
-        "evidence": "校入試EVENTS Sat 11/21 (土) 第2回 高校入試説明会 Sat 12/5 (土) 過去問解説会（高校入試） 高校入試イベント情報一覧 受け継がれる大谷の女子教育 3つの教育方針 Three educational pol"
+        "evidence": "vents 入試イベント情報 中学入試EVENTS Sun 11/29 (日) 第一回個別相談会＆ミニ説明会 Sat 12/5 (土) オータニ サタデー サイエンス⑦ 中学入試イベント情報一覧 高校入試EVENTS Sat 12/5"
+      },
+      {
+        "date": "2026-12-13",
+        "label": "個別相談会",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.osk-ohtani.ed.jp/",
+        "evidence": "Sat 12/5 (土) 過去問解説会（高校入試） Sun 12/13 (日) 個別相談会（高校入試） 高校入試イベント情報一覧 受け継がれる大谷の女子教育 3つの教育方針 Three educational policies 4"
       }
     ],
     "apply": {
@@ -3367,20 +3408,8 @@
     "website": "http://www.liberte.ed.jp",
     "reached": true,
     "pages": 4,
-    "events": [
-      {
-        "date": "2026-11-29",
-        "label": "オープンキャンパス",
-        "reservation": null,
-        "confidence": "high",
-        "source": "https://liberte.ed.jp/news/7537.php",
-        "evidence": "ンキャンパスで 興味あるコースを体験してくださいね🎵 第7回オープンキャンパス11/29（日）10：00～ お気軽にご参加くださいませ😊✨✨ お待ちしております&nbsp;(ღ*ˇ ˇ*)｡o ＞＞オープンキャンパス詳細 ＞＞オープン"
-      }
-    ],
-    "apply": {
-      "url": "https://liberte.ed.jp/opencampus/reserve",
-      "label": "＞＞オープンキャンパスお申し込み"
-    },
+    "events": [],
+    "apply": null,
     "note": ""
   },
   {
@@ -3799,6 +3828,14 @@
     "pages": 4,
     "events": [
       {
+        "date": "2026-11-28",
+        "label": "プレテスト",
+        "reservation": null,
+        "confidence": "high",
+        "source": "https://www.kohs.ed.jp/topics/39644/",
+        "evidence": "まして】 TOPICS 中学NEWS 中学入試情報 ⁡ 明日11月28日（土）は「第3回プレテスト＆学校説明会」を開催いたします！📢 お申し込みいただいた皆さまのご来校を、教職員一同、心よりお待ちしております😌🏫 ⁡ Instagramで"
+      },
+      {
         "date": "2026-12-05",
         "label": "学校説明会",
         "reservation": "required",
@@ -3809,7 +3846,7 @@
       {
         "date": "2026-12-19",
         "label": "学校説明会",
-        "reservation": "required",
+        "reservation": null,
         "confidence": "high",
         "source": "https://www.kohs.ed.jp/information/38416/",
         "evidence": "受付中 高校・学校説明会（12/5,12/19） 受付中 12月5日（土）・12月19日（土） に学校説明会を開催いたします（※すべて午前10時より開始です）。 学校説明会では学校紹介、入試や募集要項について説明を行います。そのあとは自由に校内見学"
